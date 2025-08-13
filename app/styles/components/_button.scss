@@ -1,0 +1,76 @@
+@use "../base/variables" as vars;
+@use "../utilities/_mixins" as mixin;
+
+.btn {
+  position: relative;
+  height: 48px;
+  border-radius: 5px;
+  padding: 0 20px;
+  min-width: min-content;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: vars.$font-nunito;
+  font-size: 14px;
+  border: 1px solid vars.$black-color;
+  background-color: vars.$black-color;
+  color: vars.$white-color;
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: transparent;
+    color: vars.$black-color;
+  }
+  &.btn-stroke {
+    background-color: transparent;
+    color: vars.$black-color;
+    &:hover {
+      background-color: vars.$black-color;
+      color: vars.$white-color;
+      border-color: vars.$black-color;
+    }
+  }
+  &.btn-stroke-white {
+    background-color: transparent;
+    color: vars.$white-color;
+    border-color: vars.$white-color;
+    &:hover {
+      background-color: vars.$white-color;
+      color: vars.$black-color;
+      border-color: vars.$white-color;
+    }
+  }
+  &.btn-light {
+    background-color: vars.$primary-color;
+    border-color: vars.$white-color;
+    color: vars.$black-color;
+    &:hover {
+      background-color: vars.$black-color;
+      border-color: vars.$black-color;
+      color: vars.$white-color;
+    }
+  }
+  &.btn-light-stroke {
+    background-color: vars.$white-color;
+    border-color: vars.$white-color;
+    color: vars.$black-color;
+    &:hover {
+      background-color: transparent;
+      border-color: vars.$white-color;
+      color: vars.$white-color;
+    }
+  }
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+
+  @include mixin.respond(sm) {
+    flex-direction: column;
+  }
+}

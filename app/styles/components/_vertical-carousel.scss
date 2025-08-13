@@ -1,0 +1,74 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.vertical-carousel {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+    @include mixin.respond(lg){
+        flex-direction: column;
+    }
+  
+    .left{
+        width: calc(50% - 24px);
+
+        @include mixin.respond(lg){
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+  
+    .right {
+        width: calc(50% - 24px);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+
+      @include mixin.respond(lg){
+          width: 100%;
+          gap: 12px;
+      }
+  
+      h1 {
+        font-family: fonts.$font-primary;
+        font-weight: 400;
+      }
+  
+      .step-content {
+        margin: 20px 0;
+  
+        h3 {
+          font-size: 20px;
+          font-weight: 400;
+          font-family: fonts.$font-primary;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  
+    .arrow {
+      background-color: #ddd;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+  
+      &:hover {
+        background-color: #bbb;
+      }
+    }
+  }
+  

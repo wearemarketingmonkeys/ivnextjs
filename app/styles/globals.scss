@@ -1,0 +1,48 @@
+// use variables
+@use './base/variables';
+@use './utilities/_mixins';
+
+// use base styles
+@use './base/reset';
+@use './base/typography';
+
+// use fonts
+@use './base/fonts';
+
+// use layout styles
+@use './layout/container';
+@use './layout/header';
+@use './layout/footer';
+
+// use component styles
+@use './components/mobile-menu';
+@use './components/button';
+@use './components/articleCard';
+@use './components/testimonial';
+@use './components/hero-section';
+@use './components/pagination';
+@use './components/offerCard';
+@use './components/ivPackageCard';
+@use './components/aestheticCard';
+@use './components/dripsCard';
+@use './components/vertical-carousel';
+@use './components/booking-form';
+@use './components/specialOfferCard';
+@use './components/floating-content';
+
+// use pages styles
+@use './pages/home';
+@use './pages/about';
+@use './pages/blogs';
+@use './pages/blog-details';
+@use './pages/offer';
+@use './pages/ivPackage';
+@use './pages/aesthetic';
+@use './pages/aesthetic-service-details';
+@use './pages/wellness-drips';
+@use './pages/drips-details';
+@use './pages/energy-boosters';
+@use './pages/laser-hair-removal';
+@use './pages/morpheus8';
+@use './pages/contact-us';
+@use './pages/booking';

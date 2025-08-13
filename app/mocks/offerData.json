@@ -1,0 +1,96 @@
+{
+  "offerData": [
+    {
+      "img": "offer1.webp",
+      "title": "Forma (Face)",
+      "desc": {
+        "brif": "At IVHub, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+        "ul": [
+          {
+            "liTitle": "Consultation with Doctor Noemie Vezina"
+          },
+          {
+            "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
+            "subLi": [
+              "Up to 60 units of Wrinkle Relaxer or Dysport",
+              "Up to 2 HALO or 3 Morpheus 8 treatments",
+              "Vitamin C",
+              "Ratinol"
+            ]
+          }
+        ]
+      },
+      "bookingBtn": "/booking",
+      "newBadge": true
+    },
+    {
+      "img": "offer2.webp",
+      "title": "Dark Circle + Dark Underarm",
+      "desc": {
+        "brif": "At IVHub, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+        "ul": [
+          {
+            "liTitle": "Consultation with Doctor Noemie Vezina"
+          },
+          {
+            "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
+            "subLi": [
+              "Up to 60 units",
+              "Up to 2 HALO or 3 Morpheus 8 treatments",
+              "Vitamin C",
+              "Ratinol"
+            ]
+          }
+        ]
+      },
+      "bookingBtn": "/booking",
+      "newBadge": true
+    },
+    {
+      "img": "offer3.webp",
+      "title": "Forma - Body (Arms/ Tummy/ Love Handles)",
+      "desc": {
+        "brif": "At IVHub, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+        "ul": [
+          {
+            "liTitle": "Consultation with Doctor Noemie Vezina"
+          },
+          {
+            "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
+            "subLi": [
+              "Up to 60 units",
+              "Up to 2 HALO or 3 Morpheus 8 treatments",
+              "Vitamin C",
+              "Ratinol"
+            ]
+          }
+        ]
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "img": "offer4.webp",
+      "title": "Laser hair removal",
+      "desc": {
+        "brif": "At IVHub, we offer a comprehensive solution to help you achieve smoother, younger-looking skin. Here’s how we handle wrinkles:",
+        "ul": [
+          {
+            "liTitle": "Consultation with Doctor Noemie Vezina"
+          },
+          {
+            "liTitle": "Complete package offering including based on the person – Price is 200 AD for the package value $5,100:",
+            "subLi": [
+              "Up to 60 units",
+              "Up to 2 HALO or 3 Morpheus 8 treatments",
+              "Vitamin C",
+              "Ratinol"
+            ]
+          }
+        ]
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    }
+  ]
+}

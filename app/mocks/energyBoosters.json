@@ -1,0 +1,49 @@
+{
+    "boostersData": [
+      {
+        "id": 1,
+        "title": "Vitamin C Booster",
+        "category": "Energy Boost",
+        "description": "Vitamin C plays a major role in controlling infections and healing wounds, and is a powerful...",
+        "price": 499,
+        "img": "vitamin-c-booster.png",
+        "scrollId": "vitaminCBooster"
+      },
+      {
+        "id": 2,
+        "title": "Super B's Booster",
+        "category": "B Complex",
+        "description": "IV Hub's Super B's Booster shot combines 6 powerful B vitamins, including MethylCobalamin ...",
+        "price": 499,
+        "img": "super-b-booster.png",
+        "scrollId": "superBBooster"
+      },
+      {
+        "id": 3,
+        "title": "Co-Enzyme Q10 Booster",
+        "category": "Energy & Recovery",
+        "description": "CoQ10 has many health benefits including playing a vital role in the production of energy in the body...",
+        "price": 499,
+        "img": "coq10-booster.png",
+        "scrollId": "coq10Booster"
+      },
+      {
+        "id": 4,
+        "title": "MIC Booster",
+        "category": "Body Boost",
+        "description": "Get the ultimate muscle and body rejuvenation experience with the Body MICBooster shot....",
+        "price": 499,
+        "img": "mic-booster.png",
+        "scrollId": "micBooster"
+      },
+      {
+        "id": 5,
+        "title": "Vitamin D Booster",
+        "category": "Sunshine D",
+        "description": "Half of the population is deficient in Vitamin D. Unless you live in the tropics year-round, chances are...",
+        "price": 499,
+        "img": "vitamin-d-booster.png",
+        "scrollId": "vitamindBooster"
+      }
+    ]
+  }

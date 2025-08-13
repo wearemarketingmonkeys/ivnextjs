@@ -1,0 +1,313 @@
+@use "../base/variables" as vars;
+@use "../utilities/_mixins" as mixin;
+@use "../base/fonts" as fonts;
+
+.aesthetic-details {
+  .details-hero {
+    .details-wrap {
+      display: flex;
+      padding: 64px 0;
+      gap: 48px;
+      @include mixin.respond(lg) {
+        flex-direction: column;
+      }
+      .left {
+        width: 50%;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        .imgVidBox{
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          video{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+            object-position: center;
+            max-height: 100%;
+
+            @include mixin.respond(sm) {
+              position: relative;
+            }
+
+          }
+          img {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            position: relative;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+
+      .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        color: vars.$black-color;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        .dur-cost {
+          display: flex;
+          gap: 8px;
+          align-items: center;
+          span {
+            font-weight: 200;
+            font-style: italic;
+            font-size: 18px;
+          }
+        }
+        .why-love {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #252a36;
+        }
+
+        .treatable-area {
+          p:first-child {
+            font-size: 14px;
+            color: vars.$black-color;
+          }
+          p:last-child {
+            font-size: 14px;
+            font-style: italic;
+            color: vars.$black-color;
+          }
+        }
+        .single-concern-wrap {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          flex-wrap: wrap;
+          margin-top: 12px;
+          .single-concern {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            img {
+              height: 25px;
+              width: 25px;
+            }
+          }
+        }
+        .discount {
+          font-size: 14px;
+          display: none;
+          color: vars.$black-color;
+        }
+      }
+    }
+  }
+
+  .pre-post {
+    background: #fcf9f5;
+    .pre-post-wrap {
+      padding: 24px 0;
+      .accordion {
+        border: unset;
+        border-radius: 0;
+        &__button {
+          background: transparent;
+          color: #292929;
+          text-transform: uppercase;
+          font-size: 22px;
+          font-family: fonts.$font-magneta;
+          position: relative;
+          padding: 16px 0;
+          &::before {
+            position: absolute;
+            right: 0;
+            top: 24px;
+          }
+        }
+
+        &__panel {
+          padding: 16px 0;
+
+          .tips-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            .tips-wrap {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              border: 1px solid vars.$border-color;
+              padding: 12px;
+              width: calc(50% - 12px);
+              @include mixin.respond(lg) {
+                width: 100%;
+              }
+              img {
+                width: 48px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .price-package{
+    padding: 64px 0;
+    .price-package-wrap{
+      display: flex;
+      gap: 10%;
+      @include mixin.respond(lg){
+        flex-direction: column;
+      }
+      .left{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        flex-direction: column;
+        @include mixin.respond(lg){
+          width: 100%;
+        }
+        .left-wrap{
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+        }
+        h1{
+          font-size: 55px;
+          color: vars.$black-color;
+          font-weight: 300;
+          line-height: 55px;
+        }
+
+        p{
+          font-weight: 300;
+        }
+      }
+
+      .right{
+        width: 50%;
+        @include mixin.respond(lg){
+          width: 100%;
+          margin-top: 48px;
+        }
+        h1{
+          font-size: 55px;
+          color: vars.$black-color;
+          font-weight: 300;
+          line-height: 55px;
+        }
+        p{
+          font-weight: 300;
+        }
+
+        .single-treatment{
+          border: 1px solid #DEE2E6;
+          margin-top: 24px;
+          padding: 16px;
+          h2{
+            font-size: 24px;
+            font-weight: 300;
+          }
+
+          .treatment-services{
+            margin-top: 16px;
+            border-top: 1px solid #dee2e6;
+            padding-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .single-treatment-service{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .faq{
+    
+    .faq-wrap {
+      padding: 24px 0;
+      h1{
+        margin-bottom: 24px;
+      }
+      .accordion {
+        border: unset;
+        border-radius: 0;
+        &__button {
+          background: transparent;
+          color: #292929;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-family: fonts.$font-johnston;
+          position: relative;
+          padding: 16px 0;
+          font-weight: 700;
+          &::before {
+            position: absolute;
+            right: 0;
+            top: 19px;
+            height: 7px;
+            width: 7px;
+          }
+        }
+
+        &__panel {
+          padding: 16px 0;
+          color: #595959;
+
+          .tips-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            .tips-wrap {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              border: 1px solid vars.$border-color;
+              padding: 12px;
+              width: calc(50% - 12px);
+              @include mixin.respond(lg) {
+                width: 100%;
+              }
+              img {
+                width: 48px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.pricesection .accordion__panel{
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  border-bottom:1px solid #fff;
+}
+
+.pricesection .accordion__button{
+  background-color: #f2eee9;
+  border: 1px solid #000;
+}
+
+.pricesection .single-treatment-service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  line-height: 25px;
+}

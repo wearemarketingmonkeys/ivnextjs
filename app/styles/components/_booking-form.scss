@@ -1,0 +1,214 @@
+@use "../base/variables" as vars;
+@use "../utilities/_mixins" as mixin;
+@use "../base/fonts" as fonts;
+
+.booking-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+  width: 100%;
+
+  .card-header {
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+
+    .card-title {
+      color: #524333;
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      color: #666;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .progress-bar {
+      width: 80px;
+      height: 4px;
+      background-color: #e6e8ec;
+      border-radius: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      position: relative;
+      margin-bottom: 1.5rem;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background-color: vars.$black-color;
+        border-radius: 4px;
+      }
+      &.bar2{
+        &::after{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .card-content {
+    padding: 0 2rem 2rem;
+    
+    .btn-stroke-green{
+        color: #25D366 !important;
+        border-color: #25D366 !important;
+        margin-bottom: 1.5rem;
+        &:hover{
+            background-color: transparent;
+        }
+    }
+  }
+  
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  .tab {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+
+    &.active {
+      background: white;
+      font-weight: 600;
+    }
+
+    &:hover:not(.active) {
+      background: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ede8e9;
+  border-radius: 8px;
+  padding: 16px;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #524333;
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0;
+    font-weight: 500;
+    color: #524333;
+
+    &:focus {
+      outline: none;
+      border-color: #5d4037;
+    }
+
+    &.error {
+      border-color: #ef4444;
+    }
+  }
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+
+  &.error {
+    .radio-item {
+      label {
+        color: #ef4444;
+      }
+    }
+  }
+
+  .radio-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    input[type="radio"] {
+      margin-top: 0.25rem;
+    }
+
+    label {
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+}
+
+
+
+.note {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  color: #666;
+  font-size: 14px;
+
+  svg {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 0.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 1rem;
+
+    .card-header {
+      padding: 1.5rem 1.5rem 1rem;
+
+      .card-title {
+        font-size: 1.5rem;
+      }
+    }
+
+    .card-content {
+      padding: 0 1.5rem 1.5rem;
+    }
+  }
+
+  .tabs {
+    flex-direction: column;
+
+    .tab {
+      text-align: center;
+    }
+  }
+}
+}

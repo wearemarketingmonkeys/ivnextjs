@@ -1,0 +1,35 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.blog-cards{
+    position: relative;
+    padding: 64px 0;
+    .article-wrapper {
+      display: flex;
+      gap: 48px 20px;
+      flex-wrap: wrap;
+
+      h1{
+        margin-bottom: 24px;
+      }
+
+      .btn-wrap{
+        width: 100%;
+        justify-content: center;
+      }
+    }
+}
+
+
+.blog-hero{
+  @include mixin.respond(sm) {
+    .hero-section,.hero-img{
+      height: 300px;
+    }
+
+    span{
+      font-size: 35px !important;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@use "../base/variables" as vars;
+@use "../utilities/_mixins" as mixin;
+@use "../base/fonts" as fonts;
+
+.single-drips-details {
+  .img-box{
+    max-height: 352px;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #FFFAF4;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    position: relative;
+    @include mixin.respond(lg) {
+      max-height: 200px;
+    }
+    img{
+      height: 100%;
+      z-index: 9;
+      object-fit: contain;
+    }
+    span{
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      color: #FCFCFD;
+      font-size: 12px;
+      background-color: #23262F;
+      padding: 6px;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+  }
+  .wrap{
+    margin-top: 20px;
+    .left{
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      h1{
+        font-size: 20px;
+
+        @media(min-width:992px) {
+          max-width: 200px;
+        }
+
+        @media(max-width:500px) {
+          font-size: 18px;
+        }
+      }
+      a{
+        width: max-content;
+        padding: 8px;
+        height: 36px;
+
+        @media(max-width:768px) {
+          margin-right: 20px;
+        }
+      }
+      .btntitle{
+        padding: 0;
+      }
+    }
+    p{
+      margin-top: 4px;
+      font-size: 14px;
+      @media(min-width:992px) {
+        max-width: 350px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use './variables' as vars;
+@use './fonts' as fonts;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%; // 1rem = 16px
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: fonts.$font-johnston;
+    font-size: vars.$font-size-base;
+    line-height: vars.$line-height-base;
+    color: vars.$black-color;
+    background-color: #F2EEE9;
+    scroll-behavior: smooth;
+  }
+  

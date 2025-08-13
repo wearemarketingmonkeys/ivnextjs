@@ -1,0 +1,94 @@
+{
+  "specialOffersData": [
+    {
+      "id": 1,
+      "img": "laser.jpeg",
+      "title": "Laser Hair Removal 50% Off",
+      "desc": {
+        "brif": "Enjoy Smooth,  Hair-Free Skin with 50% Off Soprano Titanium Laser Hair Removal"
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 2,
+      "img": "skin1.jpeg",
+      "title": "Glow, fade pigmentation & rejuvenate with Salmon DNA-  PDRN for AED 899 only!",
+      "desc": {
+        "brif": "Restore your natural glow and target stubborn pigmentation with our Salmon DNA PDRN Skin Booster. This powerful treatment promotes deep skin rejuvenation, enhances radiance, and reduces signs of aging—leaving your skin visibly brighter, smoother, and more hydrated."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 3,
+      "img": "booster.jpeg",
+      "title": "Get a Complimentary Booster Worth AED 499 on Drips Over AED 1,599!",
+      "desc": {
+        "brif": "Whether you’re boosting immunity, hydrating, detoxing, or enhancing energy, now’s the perfect time to elevate your wellness routine"
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 4,
+      "img": "morpheus8.jpeg",
+      "title": "Get a FREE Skin Booster with Any Morpheus8 Treatment!",
+      "desc": {
+        "brif": "Level up your skin transformation! Book any Morpheus8 treatment and receive a complimentary skin booster to maximize your glow and enhance your results."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 5,
+      "img": "stubborn.jpeg",
+      "title": "Melt Away Stubborn Fat – Now at 20% Off!",
+      "desc": {
+        "brif": "Ready to sculpt your body and target stubborn fat? Enjoy a 20% discount on our advanced fat melting procedure, designed to contour, slim, and redefine your shape—without surgery or downtime."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 6,
+      "img": "hairloss1.jpeg",
+      "title": "Revive Your Roots with Our Hair Restoration Duo – Only AED 1,299!",
+      "desc": {
+        "brif": "Experience the ultimate in scalp and hair care with our Hair HydraFacial + PRP combo—designed to cleanse, nourish, and stimulate hair growth from the roots."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 7,
+      "img": "wrinklerelaxer.jpeg",
+      "title": "Smooth fine lines & rejuvenate  — now 30% off!",
+      "desc": {
+        "brif": "Restore youthful skin, reduce wrinkles, and refresh your appearance with our expert treatment."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 8,
+      "img": "dermal.jpeg",
+      "title": "Plump, contour & rejuvenate with Dermal Fillers — starting at AED 899 only!",
+      "desc": {
+        "brif": "Enhance your natural beauty by adding volume, smoothing lines, and sculpting facial features for a refreshed, youthful look."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 9,
+      "img": "chemical.jpeg",
+      "title": "Glow all year round with our All-Season Chemical Peel — starting at AED 599!",
+      "desc": {
+        "brif": "Exfoliate, renew, and brighten your skin in any season with this gentle yet powerful peel for a radiant, even-toned complexion."
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    }
+  ]
+}

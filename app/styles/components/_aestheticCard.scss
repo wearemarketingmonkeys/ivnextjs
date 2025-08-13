@@ -1,0 +1,132 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.aesthetic-card {
+  overflow: hidden;
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: vars.$black-color;
+    font-family: fonts.$font-johnston;
+  }
+
+  &__image {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h3 {
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+      font-size: 22px;
+      margin: 0;
+      font-family: fonts.$font-magneta;
+      line-height: 30px;
+      color: vars.$white-color;
+    }
+  }
+
+  &__content {
+    padding: 24px 0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 12px;
+  }
+
+  &__sub-title {
+    font-size: 14px;
+    margin: 0;
+    font-family: fonts.$font-magneta;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  &__toggle {
+    background: vars.$black-color;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: vars.$white-color;
+    border-radius: 50%;
+    flex: none;
+    align-self: flex-end;
+    margin-top: 24px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__details {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .concern-wrap{
+        p{
+            text-decoration: underline;
+        }
+        .single-concern-wrap{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+            .single-concern{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                img{
+                  height: 25px;
+                  width: 25px;
+                }
+            }
+        }
+    }
+
+    .duration-cost-wrap{
+        padding: 16px;
+        background-color: vars.$white-color;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .duration-cost{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            span{
+                color: vars.$secondary-color;
+                text-transform: uppercase;
+                font-family: fonts.$font-primary;
+                font-size: 14px;
+                font-weight: 200;
+                width: max-content;
+            }
+        }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "ivPackageData": [
+      {
+        "img": "ivPackage1.webp",
+        "title": "Acne Package",
+        "desc": {
+          "brif": "<div class='packagedetails'><h2>AED 4,000 (Valued at AED 5,400)</h2><p>Reveal a confident, blemish-free complexion through a curated blend of science-backed treatments and holistic care.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Skin Consultation : </b><br/>In-depth skin analysis with a medical aesthetician<br/>Full review of diet, lifestyle, hormone history & skincare regimen (bring your products)<br/>Custom acne treatment plan designed to suit your skin’s unique needs</li><li><b>2. In-Clinic Treatments (Tailored Based on Severity and Skin Type) : </b><br/>Up to 2 Chemical Peels (Salicylic or Customized Medical Peels),<br/>2 Acne Hydrafacials,<br/>2 LED Light Therapy Sessions (Blue Light),<br/>3 PRP Treatments,<br/>2 IV Drips (Detox or Skin Glow)</li></ol><br><h4>Add-On Options (Preferential Pricing for Package Clients):</h4><p>- Medical Grade Skincare at 20% off</p><p>- Additional PRP or Peels at 15% off</p><p>- Hormonal panel testing or nutritionist session</p><hr><h2>Why This Works</h2><br><p>This comprehensive program tackles acne at every level—surface, hormonal, bacterial, and lifestyle. Whether your acne is stress-induced, hormonal, or chronic, this package is designed to reset your skin, repair damage, and build long-term clarity and confidence.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
+          "ul": [
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": true
+      },
+      {
+        "img": "ivPackage2.webp",
+        "title": "Hair Loss Package",
+        "desc": {
+          "brif": "<div class='packagedetails'><h2>AED 5,100 (Valued at AED 6,700)</h2><p>Science-backed solutions to restore strength, volume, and vitality—one strand at a time.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Consultation : </b><br/>Comprehensive consultation with our physician,<br/>Medical history review and hormonal/nutritional analysis,<br/>Personalized treatment plan tailored to the root cause (genetic, hormonal, stress-induced, or nutritional)</li><li><b>2. In-Clinic Treatment Protocol (Administered over 3–4 months) : </b><br/>3 PRP Hair Therapy Sessions,<br/>1 Growth Factor Application or Add-on Booster,<br/>2 Scalp Hydrafacial,<br/>2 Hairfall Defense IV Drips</li><li><b>3. At-Home Support : </b><br/>1 Month Supply of Medical-Grade Hair Supplements/ Serums</li></ol><br><h4>Bonus for Package Clients:</h4><p>- 15% off additional PRP or IV sessions</p><p>- 20% off Exosomes</p><hr><h2>Why This Works</h2><br><p>Our Hair Loss Package is more than a treatment—it’s a fully customized protocol to reboot scalp health, restore hair follicle function, and support long-term regrowth. Whether your concerns stem from postpartum shedding, androgenetic alopecia, or stress-related loss, this program is designed to meet you where you are and bring your hair back to life.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
+          "ul": [
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": true
+      },
+      {
+        "img": "ivPackage3.webp",
+        "title": "Pigmentation Package",
+        "desc": {
+          "brif": "<div class='packagedetails'><h2>AED 6,500 (Valued at AED 8,900)</h2><p>A targeted protocol to fade dark spots, even skin tone, and restore radiant clarity—designed for your skin’s unique pigmentation profile.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Expert Consultation &amp; Skin Profiling : </b><br/>Personalized consultation with our skin specialist to evaluate pigmentation type (melasma, sun spots, age-related, or PIH),<br/>Full review of lifestyle and current skincare routine (clients are encouraged to bring their products),<br/>Customized treatment plan based on skin sensitivity, depth of pigmentation, and overall goals</li><li><b>2. Targeted In-Clinic Treatments (Scheduled over 6–10 weeks) : </b><br/>1 Cosmelan Peel,<br/>Up to 2 Skin Booster Treatments,<br/>1 PRP Session (Platelet-Rich Plasma),<br/>1 Medical Grade Retinol session (Brightening Cocktail),<br/>2 Signature Facial Treatment,<br/>1 IV Drip session</li><li><b>3. At-Home Support : </b> 1 Month Supply of Medical-Grade Hair Supplements/ Serums</li></ol><br><h4>Bonus for Package Clients:</h4><p>- 15% off additional Skin booster or IV sessions</p><p>- 20% off Exosomes</p><hr><h2>Why This Works</h2><br><p>Pigmentation is complex—and we treat it as such. Our multi-step program addresses all layers of discoloration, from the surface to the deeper dermis, using a combination of chemical peels, regenerative therapies, skin boosters, and medical-grade skincare. Whether caused by sun exposure, hormonal shifts, or inflammation, this package is designed to deliver noticeable clarity, brightness, and lasting results.</p><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
+          "ul": [
+            
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": false
+      },
+      {
+        "img": "fatloss.webp",
+        "title": "Fat Loss + Body Contouring Program",
+        "desc": {
+          "brif": "<div class='packagedetails'><h2>AED 7,200 (Valued at AED 9,500)</h2><p>A non-surgical, personalized body contouring journey to help you tone, sculpt, and reveal your best shape—backed by cutting-edge technology and wellness support.</p><hr><h2>What’s Included</h2><br><ol><li><b>1. Body Consultation &amp; Wellness Assessment : </b><br/>One-on-one consultation with our expert aesthetic team,<br/>Full evaluation of target areas, lifestyle, and metabolic profile,<br/>Custom treatment plan based on your body goals (abdomen, arms, thighs, chin, etc.)</li><li><b>2. Body Contouring + Fat Reduction Treatments : </b><br/>2 Morpheus8® Sessions,<br/>5 LipoZero Session,<br/>2 Liposculpt Sessions (Fat melting injections)</li><li><b>3. Internal Support & Wellness Boosters : </b><br/>2 IV Drips (Detox + Metabolism Boost),<br/>1 Shot of L-Carnitine or B12 Booster (based on consultation)</li></ol><br><h4>Optional Add-Ons at Preferential Rates for Package Clients:</h4><p>- IV NAD+ for cellular rejuvenation at 15% off</p><p>- Peptides at 10% off</p><br><a href='https://api.whatsapp.com/send/?phone=97180048482&amp;text=Hello&amp;type=phone_number&amp;app_absent=0' class='main-btn btn'>Continue to Booking</a></div>",
+          "ul": [
+            
+          ]
+        },
+        "bookingBtn": "/booking",
+        "newBadge": false
+      }
+    ]
+  }
+  

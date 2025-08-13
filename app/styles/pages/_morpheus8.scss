@@ -1,0 +1,290 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.morpheus{
+  position: relative;
+
+  .morpheus-hero {
+    .details-wrap {
+      display: flex;
+      padding: 64px 0;
+      gap: 48px;
+      @include mixin.respond(lg) {
+        flex-direction: column;
+      }
+      .left {
+        width: 50%;
+        position: relative;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        video {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          object-fit: cover;
+          object-position: center;
+          @include mixin.respond(lg) {
+            position: relative;
+            height: 450px;
+          }
+        }
+      }
+
+      .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        color: vars.$black-color;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        p {
+          font-weight: 200;
+          font-size: 18px;
+          color: vars.$black-color;
+        }
+        .description {
+          font-weight: 200;
+          font-size: 18px;
+          color: #292929;
+          line-height: 28px;
+        }
+
+        .unwanted-hair{
+            display: flex;
+            align-items: center;
+            img{
+                height: 44px;
+            }
+
+            span{
+                font-weight: 300;
+                font-size: 24px;
+                color: #292929;
+            }
+        }
+
+
+
+        .ideal-for {
+          p:first-child {
+            font-size: 14px;
+            color: vars.$black-color;
+          }
+          p:last-child {
+            font-size: 14px;
+            font-style: italic;
+            color: vars.$black-color;
+          }
+        }
+      }
+    }
+  }
+
+  .how-it-works{
+    position: relative;
+    padding: 64px 0;
+    background-color: vars.$white-color;
+  }
+
+  .before-after{
+    padding: 64px 0;
+    .before-after-wrap{
+        display: flex;
+        gap: 48px;
+
+        @include mixin.respond(lg){
+            flex-direction: column;
+        }
+
+        .wrapper{
+            width: calc(50% - 24px);
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            @include mixin.respond(lg){
+                width: 100%;
+            }
+
+            img{
+                width: 100px;
+            }
+
+            h1{
+                font-family: fonts.$font-primary;
+                font-weight: 400;
+            }
+
+            h2{
+                font-size: 18px;
+                line-height: 28px;
+            }
+
+            ul{
+                padding-left: 20px;
+                li{
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+  }
+
+  .morpheus-result {
+    position: relative;
+    padding: 64px 0;
+    background-color: vars.$white-color;
+    .details-wrap {
+      display: flex;
+      gap: 48px;
+      @include mixin.respond(lg) {
+        flex-direction: column;
+      }
+      .left {
+        width: 50%;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        color: vars.$black-color;
+        @include mixin.respond(lg) {
+          width: 100%;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+        p {
+          font-weight: 200;
+          font-size: 18px;
+          color: vars.$black-color;
+        }
+        .description {
+          font-weight: 200;
+          font-size: 18px;
+          color: #292929;
+          line-height: 28px;
+        }
+
+        .unwanted-hair{
+            display: flex;
+            align-items: center;
+            img{
+                height: 44px;
+            }
+
+            span{
+                font-weight: 300;
+                font-size: 24px;
+                color: #292929;
+            }
+        }
+
+
+
+        .ideal-for {
+          p:first-child {
+            font-size: 14px;
+            color: vars.$black-color;
+          }
+          p:last-child {
+            font-size: 14px;
+            font-style: italic;
+            color: vars.$black-color;
+          }
+        }
+      }
+    }
+
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 48px;
+        img{
+            height: 35px;
+        }
+
+        span{
+            font-size: 20px;
+            line-height: 28px;
+            font-style: italic;
+        }
+    }
+  }
+  
+  .faq{
+    
+    .faq-wrap {
+      padding: 64px 0;
+      h1{
+        margin-bottom: 24px;
+      }
+      .accordion {
+        border: unset;
+        border-radius: 0;
+        &__button {
+          background: transparent;
+          color: #292929;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-family: fonts.$font-johnston;
+          position: relative;
+          padding: 16px 0;
+          font-weight: 700;
+          &::before {
+            position: absolute;
+            right: 0;
+            top: 19px;
+            height: 7px;
+            width: 7px;
+          }
+        }
+
+        &__panel {
+          padding: 16px 0;
+          color: #595959;
+
+          .tips-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            .tips-wrap {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              border: 1px solid vars.$border-color;
+              padding: 12px;
+              width: calc(50% - 12px);
+              @include mixin.respond(lg) {
+                width: 100%;
+              }
+              img {
+                width: 48px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

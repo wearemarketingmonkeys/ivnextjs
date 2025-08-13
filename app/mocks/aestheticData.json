@@ -1,0 +1,1793 @@
+{
+  "aestheticData": [
+    {
+      "id": 1,
+      "img": "meso.webp",
+      "video": false,
+      "title": "Mesotherapy",
+      "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
+      "desc": "A microneedling treatment that stimulates collagen and elastin production for tighter skin.",
+      "howItWorks": "The word ‘meso’ indicates ‘middle.’ In Mesotherapy procedures, thin needles are used to administer injections to the middle layer of skin. A therapist injects hormones, vitamins, and enzymes into your skin using very thin needles to tighten and revitalize it. The aim of this treatment is to address the root causes of skin deterioration, such as inflammation and poor circulation. Mesotherapy is commonly used to treat a variety of skin problems, including pigmentation, skin tightening, wrinkles, lines, etc.",
+      "whyWeLoveIt": "Mesotherapy is a non-invasive rejuvenation treatment designed to restore vitality to both skin and hair. Using either gentle microneedling or targeted microinjections, it delivers a potent blend of vitamins, antioxidants, and plant-based actives directly where they're needed most. For the skin, it deeply hydrates, brightens, and enhances texture—revealing a radiant, youthful glow. For the scalp, it stimulates circulation, strengthens hair follicles, and supports healthy, fuller-looking hair. Whether you’re looking to revive your complexion or boost hair growth, Mesotherapy offers a refined, effective solution without downtime—nourishing beauty from the inside out.",
+      "treatableArea": "Full Face | Neck | Decollate | Hair",
+      "treatableConcerns": [
+        {
+          "icons": "mesoIcon1.png",
+          "txt": "Skin Regeneration"
+        },
+        {
+          "icons": "mesoIcon2.png",
+          "txt": "Skin Laxity"
+        },
+        {
+          "icons": "mesoIcon3.png",
+          "txt": "Scars"
+        },
+        {
+          "icons": "mesoIcon4.png",
+          "txt": "Contouring"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 699,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/mesotherapy",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
+            },
+            {
+              "icon": "ticon2.png",
+              "txt": "Avoid Retinol, active ingredients, and at-home peels for at least 7 days prior to your treatment."
+            },
+            {
+              "icon": "ticon3.png",
+              "txt": "Avoid filler treatments, or resurfacing for at least 2 weeks prior."
+            },
+            {
+              "icon": "ticon4.png",
+              "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
+            },
+            {
+              "icon": "ticon5.png",
+              "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "Try not to apply makeup 1-2 days after your service"
+            },
+            {
+              "icon": "ticon6.png",
+              "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
+            },
+            {
+              "icon": "ticon4.png",
+              "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
+            },
+            {
+              "icon": "ticon7.png",
+              "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "With four sessions of microneedling performed over four months, you can expect a significant improvement in skin texture and tone, reduction in pigmentation, enhanced firmness and tightening, and increased skin radiance",
+      "beforeImg": "mesobefore.webp",
+      "afterImg": "mesoafter.webp",
+      "treatments": [
+        {
+          "category": "Mesotherapy",
+          "services": [
+            { "name": "PRP Microneedling", "price": 499 },
+            { "name": "Glow Microneedling", "price": 699 },
+            { "name": "Rejuvenating Microneedling", "price": 699 },
+            { "name": "Scar Microneedling", "price": 899 },
+            { "name": "Lip Microneedling Addon", "price": 149 },
+            { "name": "Pigmentation microneedling", "price": 899 }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Where can it be applied?",
+          "answer": "We could apply it to face, neck, scalp (hair) depending on the indications."
+        },
+        {
+          "question": "Which skin type is good candidate for Mesotherapy?",
+          "answer": "All skin types are good candidate for Mesotherapy."
+        },
+        {
+          "question": "What are the indications for Mesotherapy?",
+          "answer": "Acne scars, rejuvenation, face fullness and glow, whitening face, Lip dystrophy, Alopecia, Hair Loss (both female and male), Cellulite, local Obesity, Stretch Lines, Rides, Sun Damaged Skin, and Wrinkles."
+        },
+        {
+          "question": "How is mesothrapy done?",
+          "answer": "Mesotherapy can be carried out either manually using a syringe (mandatory in fat) or by using very small needles in meso roller or pen, or with a Mesotherapy gun."
+        },
+        {
+          "question": "What are the advantages of Mesotherapy?",
+          "answer": "Mesotherapy is a safe technique. Mesotherapy Solution is placed directly into the target area thus minimizing side effects, allergies and drug interaction. Mesotherapy also is an effective alternative for the treatment of cellulite, localized fat deposits, and alopecia and face/neck rejuvenation. Unlike surgery, Mesotherapy requires no post-operative recovery time, requires no heavy bandages or girdles, and no anesthesia is necessary. While many surgical procedures require one to two weeks of recovery, patients undergoing Mesotherapy have no interruptions to their daily life, while obtaining natural cosmetics rejuvenation."
+        },
+        {
+          "question": "How often should one get mesotherapy?",
+          "answer": "Mesotherapy treatments are typically given once per week. As improvement is seen, the treatments may be given less frequently, such as once every two weeks or once per month. It is mandatory for best results to come every week for the first four sessions but after that on occasion a treatment may be skipped--this will not affect your progress."
+        },
+        {
+          "question": "When will I see the results?",
+          "answer": "Results vary depending on your body type and the condition being treated. On average, patients notice visible improvement in two to three sessions. For certain conditions, patients see results after the first session. For face: patient starts to see results after two sessions. For hair loss: patient sees improvement after four sessions."
+        },
+        {
+          "question": "Will the results last?",
+          "answer": "The results for fat do last, especially when combined with exercise and proper nutrition. However, for face we cannot stop the natural aging that affects your appearance. For this reason, we recommend regular maintenance visits."
+        },
+        {
+          "question": "Are there any side effects?",
+          "answer": "A common side effect of Mesotherapy is bruising, which generally resolves over one week. To speed up the healing process, we recommend that the homeopathic supplement arnica be applied topically on a daily basis. Patients may experience temporary soreness. This will subside within 24-48 hours."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "hydra.webp",
+      "video": "hydra.mp4",
+      "title": "HydraFacial™",
+      "subHeading": "Hello Brightness. |  Hello Fresh Skin. | Hello Clear Pores.",
+      "desc": "Refresh and nourish your skin with our signature facial that gets you glowing.",
+      "howItWorks": "Our high-tech HydraFacial® cleanses, exfoliates and hydrates to remove dead, dull skin and bring brighter skin to the surface. The Vortex-Fusion system removes debris from pores without discomfort while delivering medical-grade serum boosters to target your specific concerns.",
+      "whyWeLoveIt": "It's perfect for beginners and veterans alike, and you get to personalize it with a booster serum targeted to your concern. In addition to the deep-cleaning and intense hydration that comes with every HydraFacial®, you can also tackle uneven skin texture, dryness, congested pores, and acne. It's great for all skin types and is completely non-invasive with no downtime. You'll walk out with increased clarity and tighter, firmer, glowing skin.",
+      "treatableArea": false,
+      "treatableConcerns": [
+        {
+          "icons": "hydraIcon1.png",
+          "txt": "Hydration"
+        },
+        {
+          "icons": "hydraIcon2.png",
+          "txt": "Acne"
+        },
+        {
+          "icons": "hydraIcon3.png",
+          "txt": "Tone & Texture"
+        },
+        {
+          "icons": "hydraIcon4.png",
+          "txt": "Redness"
+        }
+      ],
+      "duration": 20,
+      "startingAmount": 199,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/hydra-facial",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment..."
+            },
+            {
+              "icon": "ticon5.png",
+              "txt": "When scheduling, we recommend receiving this treatment 1-2 days before an event."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "Try not to apply makeup 24 hours after your service. Your skin will thank you for it."
+            },
+            {
+              "icon": "ticon9.png",
+              "txt": "You may experience some redness, but it should resolve within 15 minutes from the time of treatment."
+            },
+            {
+              "icon": "ticon10.png",
+              "txt": "Wear sunscreen post-treatment and integrate sun care into your daily routine to protect and maintain your results."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "Results Experience noticeable improvement in overall skin texture and tone.  Treatment: Redefine & Signature HydraFacial (2 sessions)",
+      "beforeImg": "hydrabefore.webp",
+      "afterImg": "hydraafter.webp",
+      "treatments": [
+        {
+          "category": "HydraFacial™",
+          "services": [
+            {
+              "name": "Express HydraFacial",
+              "price": 199
+            },
+            {
+              "name": "HydraGlow",
+              "price": 399
+            },
+            {
+              "name": "Signature HydraGlow",
+              "price": 599
+            },
+            {
+              "name": "Redefine Facial Sculpt",
+              "price": 999
+            },
+            {
+              "name": "Scalp Hydrafacial",
+              "price": 799
+            },
+            {
+              "name": "Forma Hollywood Lift",
+              "price": 1299
+            } 
+          ]
+        },
+        {
+          "category": "Add On",
+          "services": [
+            {
+              "name": "Vitamin C Serum",
+              "price": 29
+            },
+            {
+              "name": "Gold Serum",
+              "price": 199
+            },
+            {
+              "name": "Brightening Serum",
+              "price": 199
+            },
+            {
+              "name": "Collagen Threads",
+              "price": 499
+            }
+          ]
+        },
+        {
+          "category": "Lymphatic Drainage Massage",
+          "services": [
+            {
+              "name": "Face - 1 Session",
+              "price": 249
+            },
+            {
+              "name": "Face - 3 Sessions",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "When Will I See Results?",
+          "answer": "Skin will feel hydrated, look cleaner, brighter, and healthier instantly. Noticeably radiant, too. Concerns such as hyperpigmentation, impacted skin or acne may take longer to treat, but clients usually see an improvement after 5 treatments."
+        },
+        {
+          "question": "Can I Go Back to Work Afterwards?",
+          "answer": "Absolutely. That's the beauty of this baby. Keep in mind you may experience some redness that should last no longer than 15 minutes. Refrain from applying makeup for 24 hours—let those serums do their work!"
+        },
+        {
+          "question": "How Often Should I Get This Service?",
+          "answer": "Best results are achieved by making HydraFacial a consistent part of your skincare routine. We recommend receiving this treatment once a month to maintain overall skin health."
+        },
+        {
+          "question": "Does It Hurt?",
+          "answer": "No, this treatment is not painful—not even the extractions. So sit back, and relax. If you have opted for a medical-grade peel or Mesotherapy add-on you may experience mild discomfort."
+        },
+        {
+          "question": "How Does This Compare to My Regular Facial?",
+          "answer": "Chances are your (regular) facial feels nice and all, but HydraFacial is in a category all its own. HydraFacial is an advanced treatment that's geared toward delivering visible results and skin improvement via deep cleansing, exfoliation, extraction and intense hydration. It uses technology to get the job done."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "chemical.webp",
+      "video": "chemical.mp4",
+      "title": "Chemical Peel",
+      "subHeading": "Hello Even Texture. |  Hello Clear Skin. | Hello Even Tone Skin.",
+      "desc": "A medium-grade peel uniquely crafted to treat all skin types and tones.",
+      "howItWorks": "Chemical peel is suitable for all skin types and colours. Imagine reaping the benefits of chemical peel - where you get even skin tone, reduced pigmentation, reduced acne & acne scarring and a glowing skin, without the downtime! You may experience mild peeling and it will lasts only from Day 3- Day 7 post procedure!",
+      "whyWeLoveIt": "Chemical peels have been performed for decades to reveal healthier, brighter skin. Less aggressive than a deep peel, it improves the appearance of aging and damaged skin in as little as one treatment. Safe for all skin types and tones, it's truly a peel for every body.",
+      "treatableArea": "-",
+      "treatableConcerns": [
+        {
+          "icons": "chemicalIcon1.png",
+          "txt": "Hyper-pigmentation"
+        },
+        {
+          "icons": "chemicalIcon2.png",
+          "txt": "Tone & Texture"
+        },
+        {
+          "icons": "chemicalIcon3.png",
+          "txt": "Acne"
+        },
+        {
+          "icons": "chemicalIcon4.png",
+          "txt": "Scars"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/chemical-peel",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon11.png",
+              "txt": "Avoid exfoliating the area including waxing, laser hair removal, and depilatory creams for 1 week prior to your peel.."
+            },
+            {
+              "icon": "ticon12.png",
+              "txt": "Hydrate, hydrate, hydrate! Keep your body and skin moisturized in the days leading up to your treatment."
+            },
+            {
+              "icon": "ticon6.png",
+              "txt": "Avoid topical Retin-A, any acids, exfoliants, facial masks, self tanners and prescription skincare products for 3 days prior treatment."
+            },
+            {
+              "icon": "ticon10.png",
+              "txt": "Wear SPF every day leading up to your treatment, and everyday after."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon6.png",
+              "txt": "Do not put anything on your face for 4 hours. To cleanse, use a gentle cleanser for the week post-treatment! After 6-7 days it's safe to resume your normal skincare regimen."
+            },
+            {
+              "icon": "ticon6.png",
+              "txt": "Hold off on your retinol, glycolics, or any exfoliating products until all of the exfoliation and sensitivity has subsided (on average between day 7-10)."
+            },
+            {
+              "icon": "ticon4.png",
+              "txt": "Avoid sun exposure, tanning and self tanning products for 2 weeks - tanning beds are an absolute no-go as well. Remember SPF!"
+            },
+            {
+              "icon": "ticon13.png",
+              "txt": "Your provider will give you post-treatment kit to take home. Please make sure you follow instructions for best results."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid exercise and sweat-inducing activities for 72 - 96 hours."
+            },
+            {
+              "icon": "ticon13.png",
+              "txt": "Keep your body and skin moisturized! We know it's tempting, but no picking, rubbing or premature removal of the skin."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After a chemical peel, you can expect brighter, smoother skin with improved texture, reduced pigmentation, and a more even complexion as dead skin cells are exfoliated and new skin regenerates.",
+      "beforeImg": "IMG_2968before.webp",
+      "afterImg": "IMG_2969after.webp",
+      "treatments": [
+        {
+          "category": "Chemical Peel",
+          "services": [
+            {
+              "name": "Under Eye Peel",
+              "price": 499
+            },
+            {
+              "name": "Acne Peel",
+              "price": 699
+            },
+            {
+              "name": "Intimate Peel",
+              "price": 799
+            },
+            {
+              "name": "Lip Peel",
+              "price": 1999
+            },
+            {
+              "name": "Pigmentation + Rejuvenation Peel",
+              "price": 1499
+            },
+            {
+              "name": "Body Peel (Starting from)",
+              "price": 699
+            },
+            {
+              "name": "Cosmelan",
+              "price": 3200
+            },
+            {
+              "name": "Dermamelan (Intimate)",
+              "price": 3600
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I go back to work afterwards??",
+          "answer": "This is a peel, so you'll definitely peel! We typically advise that you get this treatment in the evening or over the weekend as its immediate downtime is approximately 4 hours. You may see the early signs of exfoliation at the 24 hour mark. Peeling generally begins on Day 3 and ends on Day 7."
+        },
+        {
+          "question": "What do results look like?",
+          "answer": "Precision Plus can improve skin tone, texture, hyperpigmentation, and melasma. Purify with Precision Plus can improve acne and acne scarring with consistent treatments. You'll see results starting around the mouth first - the forehead and the neck are the last to peel! For your face on day 3, 4 & 5 you will see the most exfoliation. By day 6, most exfoliation has subsided."
+        },
+        {
+          "question": "Can I get this treatment if I have keratosis polaris, melasma, or rosacea?",
+          "answer": "You can do this treatment if you have keratosis polaris and melasma. We do not recommend this for clients with sensitive skin or anyone with rosacea."
+        },
+        {
+          "question": "Does it hurt?",
+          "answer": "It's tingly, but surprisingly comfortable!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "anti.webp",
+      "video": "anti.mp4",
+      "title": "Wrinkle Relaxers",
+      "subHeading": "Hello Smooth Skin. |  Hello Lifted Skin. | Hello Youthful Appearance. | Hello Fresh Look.",
+      "desc": "Reduce the appearance of lines and wrinkles for a smoother, more refreshed look.",
+      "howItWorks": "Beneath every wrinkle is a muscle nerve. We inject micro-doses of products into the end of that nerve to temporarily block – or freeze – its impulses and allow the facial muscles to relax. The result? Skin that's softer-looking, smoother, renewed.",
+      "whyWeLoveIt": "When artfully administered, products give skin a renewed, smoothed-out appearance that looks natural. This FDA approved treatment has been used medically since the 1970s, so we know it’s safe. It's highly effective with zero downtime.",
+      "treatableArea": "Forehead | Crow's Feet | Frown Lines | Bunny Lines | Sad Smile | Perioral | Gummy Smile | Mentalis Muscle | Cosmetic Masseter | Underarms | Brows",
+      "treatableConcerns": [
+        {
+          "icons": "antiIcon1.png",
+          "txt": "Lines & Wrinkles"
+        },
+        {
+          "icons": "antiIcon2.png",
+          "txt": "Sweat Reduction"
+        }
+      ],
+      "duration": 50,
+      "startingAmount": 999,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/anti-aging",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
+            },
+            {
+              "icon": "ticon14.png",
+              "txt": "Nervous for your first time? Bring a friend! If your friend is also new to Ever/Body, you'll both be eligible for special pricing."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Be sure to have your daily workout before your treatment, since we don’t recommend any exercise for 24 hours afterwards."
+            },
+            {
+              "icon": "ticon15.png",
+              "txt": "You can get right back to work after your treatment, but we recommend leaving yourself an hour of time to avoid being stressed or rushed."
+            },
+            {
+              "icon": "ticon16.png",
+              "txt": "You are not a candidate for these injections if you are pregnant or breastfeeding."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon17.png",
+              "txt": "Avoid lying down (or do a downward dog) for 4 hours after your procedure."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Wait 24 hours before going back to the gym or yoga class – or any kind of exercise, really."
+            },
+            {
+              "icon": "ticon18.png",
+              "txt": "Avoid facials and facial muscle manipulation (vigorous rubbing or facial massage) for two weeks after treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After Wrinkle Relaxer, you can expect smoother, more youthful-looking skin with reduced appearance of fine lines and wrinkles, typically visible within 3 to 7 days.",
+      "beforeImg": "wrinklerelaxer-before.webp",
+      "afterImg": "wrinklerelaxer-after.webp",
+      "treatments": [
+        {
+          "category": "Women Wrinkle Relaxers (129/Unit)",
+          "services": [
+            {
+              "name": "Upper Face",
+              "price": 2499
+            },
+            {
+              "name": "Jawline",
+              "price": 1799
+            },
+            {
+              "name": "Bunny Lines",
+              "price": 999
+            },
+            {
+              "name": "Gummy Smile",
+              "price": 999
+            },
+            {
+              "name": "Lip Flip",
+              "price": 999
+            },
+            {
+              "name": "Sad Smile",
+              "price": 999
+            },
+            {
+              "name": "Nasal Flaring",
+              "price": 999
+            },
+            {
+              "name": "Chin Dimpling",
+              "price": 999
+            },
+            {
+              "name": "Full Face",
+              "price": 2899
+            },
+            {
+              "name": "Bruxism",
+              "price": 2399
+            },
+            {
+              "name": "Masseter",
+              "price": 2399
+            },
+            {
+              "name": "Migraine",
+              "price": 2999
+            },
+            {
+              "name": "Neck Lines",
+              "price": 1499
+            },
+            {
+              "name": "Micro-Anti Wrinkle",
+              "price": 999
+            },
+            {
+              "name": "Hyperhidrosis",
+              "price": 2899
+            },
+            {
+              "name": "Nefertiti Lift",
+              "price": 2999
+            }
+          ]
+        },
+        {
+          "category": "Wrinkle Relaxer (for men)-(149/Unit)",
+          "services": [
+            {
+              "name": "Upper Face",
+              "price": 2699
+            },
+            {
+              "name": "Jawline",
+              "price": 1999
+            },
+            {
+              "name": "Bunny Lines",
+              "price": 1299
+            },
+            {
+              "name": "Gummy Smile",
+              "price": 1299
+            },
+            {
+              "name": "Sad Smile",
+              "price": 1299
+            },
+            {
+              "name": "Nasal Flaring",
+              "price": 1299
+            },
+            {
+              "name": "Chin Dimpling",
+              "price": 1299
+            },
+            {
+              "name": "Full Face",
+              "price": 2999
+            },
+            {
+              "name": "Bruxism",
+              "price": 2599
+            },
+            {
+              "name": "Migraine",
+              "price": 3299
+            },
+            {
+              "name": "Neck Lines",
+              "price": 1799
+            },
+            {
+              "name": "Micro-Anti Wrinkle",
+              "price": 1299
+            },
+            {
+              "name": "Hyperhidrosis",
+              "price": 3199
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How does Anti Wrinkle treatment work?",
+          "answer": "When injected into a muscle temporarily relaxes the muscle by blocking nerve impulses. As the nerve impulses are blocked the muscle is temporarily unable to contract so that dynamic wrinkles are not formed. This gives the overlying facial skin a softer, smoother and more youthful appearance."
+        },
+        {
+          "question": "Is Anti Wrinkle treatment safe?",
+          "answer": "Botulinum Toxin as a muscle relaxant has an excellent safety record and a long record of use in medicine. It has been used successfully in adults and children in variety medical conditions over the last 20 years. It has been used cosmetically to treat facial wrinkles for about 15 years and has become one of the most popular and frequently used cosmetic treatments."
+        },
+        {
+          "question": "Who can have Anti Wrinkle Treatment?",
+          "answer": "Treatment can be used for treating wrinkles in men and women, however men often need slightly higher doses than women. It should not be used in: People who have previously had an allergic reaction to Botulinum toxin type A injections. People with infection at the proposed injection site. People with Myasthenia Gravis or other neuromuscular junction disorders. People with Bell's Palsy. Women who are pregnant or breast feeding. It should be used cautiously in: [please let the doctor know if the following applies to you] People at risk of bleeding as there is an increased risk of bruising post procedure. These include people who have blood clotting disorders such as Haemophilia, those who are taking treatments with anticoagulant medicines such as Warfarin, Heparin, Aspirin and Anti-Inflammatory medicines. Certain herbal remedies such as Gingko Biloba, St John's Wort and Vitamin E. People with excessive weakness or wasting in the muscle to be injected, such as those patients with history of Strokes or Bell's Palsy People with Chronic breathing difficulties."
+        },
+        {
+          "question": "Does the injection hurt?",
+          "answer": "Injections are relatively painless as the injections are performed using a very fine needle. Patients therefore and do not require any anaesthesia. The full treatment takes about 15-20 minutes to perform and you are able to drive and go to work the same day."
+        },
+        {
+          "question": "How Long Do The Effects Last?",
+          "answer": "It can take about 2-14 days to see the full effects after the initial treatment. The cosmetic effects can last up to six months but typically range from three to four months. Eventually most people require re treatment as the wrinkles reappear However in some treated areas (such as frown wrinkles), the wrinkles may return less severe after repeated treatments as the unconscious muscle contraction habit is broken. We offer all our patients a free two week follow up appointment to assess the effect of treatment and administer any top up treatments if necessary."
+        },
+        {
+          "question": "Are there any side effects?",
+          "answer": "Most people find that the injections cause only mild local pain and tenderness. Immediately after the injection there may be mild swelling at the injection site which usually subsides within 48 hours. Slight bruising is also possible. Side effects of these treatments are extremely rare. Occasionally, the treatment may relax nearby muscle groups causing temporary drooping of the eyebrow or eyelids. This may last for a few weeks but will resolve with time. As with any medicine an allergic reaction may occur but this is however quite rare. Anti Wrinkle has been may be some short term effects such as stinging or tension type headaches at the muscles in the forehead area. Anti Wrinkle has been used for over 20 years and does not appear to cause any serious long-term effects. Once administered, Anti Wrinkle typically leaves the body within 3-4 days, although, as with any medical procedure, it is important to seek advice from a qualified professional beforehand."
+        },
+        {
+          "question": "How Often can I have treatments?",
+          "answer": "When the effect of the injection wears off the wrinkles will always return to their pre-treatment state. Treatments can be repeated at a minimum of three monthly intervals, but the effects may last longer for some individuals, especially if they have had previous treatments to the same area."
+        },
+        {
+          "question": "Will I still have expression in my face?",
+          "answer": "The number of treatments required may vary depending on individual goals and the condition of the skin. However, a series of sessions is typically recommended for optimal results. Your skincare provider will assess your needs and develop a personalized treatment plan."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "dermal.webp",
+      "video": "dermal.mp4",
+      "title": "Dermal Fillers",
+      "othertext": "Dermal filler treatments <b>start from AED 899</b> <i>(final pricing depending on the product used and personalized recommendations made during your doctor consultation)</i>",
+      "subHeading": "Hello Volume. |  Hello Fullness. | Hello Definition.",
+      "desc": "Contour, restore volume, and give a natural-looking fullness to the jaw, cheeks, lips and more.",
+      "howItWorks": "The face naturally loses volume thanks to gravity and a loss in natural collagen. Powered by a soft, gel-like form of hyaluronic acid – the star ingredient in many moisturizers and naturally occurring in skin – dermal fillers give shape and structure back to the face. They work to restore and plump up volume, smooth the appearance of lines and wrinkles, or give lips and cheeks a naturally fuller look.",
+      "whyWeLoveIt": "Its main ingredient comes from hyaluronic acid, a molecule that's already naturally occurring in skin. Hyaluronic acid is also found in many moisturizers since it acts as a humectant, pulling water into skin. The soft, gel-like form of our dermal fillers makes it easy to create natural-looking results. It's safe, minimally invasive and has little downtime.",
+      "treatableArea": "Upper Face | Lower Face | Lips",
+      "treatableConcerns": [
+        {
+          "icons": "dermalIcon1.png",
+          "txt": "Contouring"
+        },
+        {
+          "icons": "dermalIcon2.png",
+          "txt": "Lines & Wrinkles"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 899,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/dermal-fillers",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
+            },
+            {
+              "icon": "ticon14.png",
+              "txt": "Bring a friend! If your friend is a first time client at IV Wellness lounge, you'll both be eligible to receive special pricing."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "If taken pre-treatment, arnica and bromelain can help reduce post-treatment swelling and bruising. You can also take Tylenol."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "It's best to avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
+            },
+            {
+              "icon": "ticon16.png",
+              "txt": "You are not a candidate for these injections if you are pregnant or breastfeeding."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "Cold packs are your friend. Use them liberally for 8 hours after your treatment to help reduce swelling."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid exercise for 24 hours after your treatment. And facials are a no-go for at least 2 weeks."
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "It’s important to stay hydrated! Be sure to drink plenty of water after your treatment."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "You may lie down after fillers, but please avoid laying on your face (even the sides of your face)."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After lip fillers, you can expect fuller, more defined lips with enhanced shape and volume, along with mild swelling or bruising that typically subsides within a few days.",
+      "beforeImg": "fillersbefore11.webp",
+      "afterImg": "fillersafter11.webp",
+      "treatments": [
+        {
+          "category": "Per ml- 1499 AED",
+          "services": [
+            {
+              "name": "Lip",
+              "price": 1499
+            },
+            {
+              "name": "Cheek",
+              "price": 2999
+            },
+            {
+              "name": "Tear Trough",
+              "price": 2999
+            },
+            {
+              "name": "Nasolabial Folds",
+              "price": 2999
+            },
+            {
+              "name": "Chin",
+              "price": 2999
+            },
+            {
+              "name": "Jawline",
+              "price": 2999
+            },
+            {
+              "name": "Texas Jawline",
+              "price": 3599
+            }
+          ]
+        },
+        {
+          "category": "Filler Dissolver",
+          "services": [
+            {
+              "name": "Liporase",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I keep my makeup on?",
+          "answer": "Your skin should be clean for treatmen so we can properly assess your skin and determine where to make injections. If you wear makeup to your appointment, we'll remove it before your service. Post treatment, we also don't advise reapplying makeup immediately following, as you should avoid touching your face as much as possible for the next 24 hours."
+        },
+        {
+          "question": "What must I absolutely avoid after my treatment?",
+          "answer": "After your treatment: No lying down for 4 hours, no exercise/working out for 24 hours, no facials for 2 weeks. Try not to touch the area excessively for the first 24 hours, except to apply arnica gel. And you may want to avoid salty foods and alcoholic beverages as they can contribute to swelling."
+        },
+        {
+          "question": "How long until I see the results?",
+          "answer": "You'll start to see results almost immediately, and can expect to see full results in about 2 weeks."
+        },
+        {
+          "question": "How long do the results last?",
+          "answer": "Everyone's different, but typically results last anywhere from 6-18 months. It really depends on the filler we use and your aesthetic goals."
+        },
+        {
+          "question": "What is the downtime? Can I go back to work?",
+          "answer": "We use a topical anesthetic before making injections to help minimize any discomfort during the treatment. We also use an icepack before and after. You can also take Tylenol before and after to help reduce any pain. You may experience bruising and swelling, which can take 1-2 weeks to go away. Therefore, we don't recommend scheduling your appointment right before a big event."
+        },
+        {
+          "question": "Can I receive dermal fillers while pregnant or nursing?",
+          "answer": "Can I receive dermal fillers while pregnant or nursing?"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "img": "collagen-stimulation.webp",
+      "video": "collagenStimolation.mp4",
+      "title": "Collagen Stimulation",
+      "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
+      "desc": "Lift, Tighten, and Rejuvenate: Rediscover Your Youth with collagen stimulation.",
+      "howItWorks": "The injectable substance used for collagen stimulation can vary. It includes polylactic acid (PLLA) fillers, calcium hydroxylapatite fillers. Each of these substances works differently to stimulate collagen production in the skin.Once injected into the skin, these substances work through different mechanisms to stimulate collagen production. For instance calcium hydroxylapatite fillers provide immediate volume by attracting water molecules to plump up the skin. Over time, they can also stimulate collagen production indirectly by triggering the skin's natural healing response.Polylactic acid fillers, on the other hand, work by stimulating the production of collagen through a process called neocollagenesis. They are gradually absorbed by the body, prompting fibroblasts (cells responsible for collagen production) to produce new collagen.",
+      "whyWeLoveIt": "Because of their long-lasting results and natural-looking effects. PLLA fillers, such as Sculptra, gradually stimulate collagen production over time, leading to improved skin texture and volume that can last for up to two years. Similarly, calcium hydroxylapatite fillers, like Radiesse, provide immediate volume while also stimulating the body's collagen production, resulting in long-lasting rejuvenation of facial contours. These fillers are favored for their ability to address multiple signs of aging, including wrinkles, fine lines, and volume loss, while producing natural-looking and youthful results that enhance overall facial appearance. Additionally, the gradual collagen stimulation process ensures a smooth transition and avoids the overfilled or unnatural look that can sometimes occur with other types of fillers.",
+      "treatableArea": "-",
+      "treatableConcerns": [
+        {
+          "icons": "collagenStimulationIcon1.png",
+          "txt": "Saggy Skin"
+        },
+        {
+          "icons": "collagenStimulationIcon2.png",
+          "txt": "Tone & Texture"
+        },
+        {
+          "icons": "collagenStimulationIcon3.png",
+          "txt": "Contouring"
+        }
+      ],
+      "duration": 60,
+      "startingAmount": 2499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/collagen-stimulation",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon5.png",
+              "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid vigorous exercise for 24- 48 hours."
+            },
+            {
+              "icon": "ticon18.png",
+              "txt": "Do not touch, press, rub, massage, or manipulate the treatment area."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "Gradual and natural-looking volume restoration, improved skin firmness, and reduced wrinkles over several weeks as it stimulates collagen production, with results lasting up to 2 years.",
+      "beforeImg": "sculptra-before.webp",
+      "afterImg": "sculptra-after.webp",
+      "treatments": [
+        {
+          "category": "Book Your Session",
+          "services": [
+            { "name": "Sculptra®", "price": 3199 },
+            { "name": "Radiesse®", "price": 2499 }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is collagen stimulation?",
+          "answer": "Collagen stimulation is the process of inducing the body to produce more collagen, a protein that provides structure and elasticity to the skin. This can be achieved through injectable fillers, resulting in firmer, smoother, and more youthful-looking skin"
+        },
+        {
+          "question": "Am I a suitable candidate for sculptra / radiesse?",
+          "answer": "Determining your suitability for Sculptra or Radiesse depends on factors like your medical history, skin condition, and aesthetic goals. Consulting with a qualified healthcare provider can help assess if these collagen-stimulating fillers align with your needs and expectations."
+        },
+        {
+          "question": "What should I expect during the procedure?",
+          "answer": "Both procedures involve injections into the skin using a fine needle or cannula. A local anesthetic may be used to minimize discomfort. The entire procedure usually takes less than an hour, depending on the areas treated."
+        },
+        {
+          "question": "Are there any contraindications for Sculptra or Radiesse?",
+          "answer": "People with allergies to any of the ingredients in Sculptra or Radiesse, active skin infections, or certain medical conditions may not be suitable candidates. It's essential to discuss your medical history with your provider before treatment."
+        },
+        {
+          "question": "How long does the result last for sculptra / radiesse?",
+          "answer": "The results of Sculptra, which stimulates collagen production, can last up to two years or more, making it a long-lasting option for facial rejuvenation. Radiesse, another collagen-stimulating filler, provides immediate volume and can last up to 12-18 months, offering an extended period of improvement in facial contours."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "img": "skin.webp",
+      "video": false,
+      "title": "Skin Boosters",
+      "subHeading": "Hello Hydrated Skin. |  Hello Firm Skin. | Hello Smooth Skin. | Hello Glowy Skin.",
+      "desc": "Enhance your natural beauty and give your skin the ultimate glow it deserves with our rejuvenating skin boosters.",
+      "howItWorks": "The treatment involves injecting a gel-like solution containing hyaluronic acid, a naturally occurring substance in the body, into the deeper layers of the skin. The hyaluronic acid acts as a hydrating agent, attracting and retaining water molecules in the surrounding tissues. This deep hydration replenishes moisture levels in the skin, resulting in improved skin texture, enhanced firmness, and a more youthful complexion. Skin boosters also stimulate collagen production.",
+      "whyWeLoveIt": "Skin boosters provide deep hydration to the skin while replenishing moisture levels and leaving the skin plump, supple and radiant. The main ingredient, hyaluronic acid helps in improving skin texture by smoothing out rough patches and providing subtle and nature-looking results. The benefits of skin boosters are long lasting and the rejuvenated complexion remains for an extended period.",
+      "treatableArea": "Face | Neck | Decollate | Hands",
+      "treatableConcerns": [
+        {
+          "icons": "skinIcon1.png",
+          "txt": "Lines & Wrinkles"
+        },
+        {
+          "icons": "skinIcon2.png",
+          "txt": "Scars"
+        },
+        {
+          "icons": "skinIcon3.png",
+          "txt": "Skin Regeneration"
+        },
+        {
+          "icons": "skinIcon4.png",
+          "txt": "Skin Laxity"
+        },
+        {
+          "icons": "skinIcon5.png",
+          "txt": "Hyper-pigmentation"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 1099,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/skin-boosters",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "If taken pre-treatment, Arnica and Bromelain can help reduce post-treatment swelling and bruising. You can also take Tylenol."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "It's best to avoid aspirin and NSAIDS (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon18.png",
+              "txt": "No massages, facial manipulation (including facials), or additional pressure to the face for 2 weeks afterwards."
+            },
+            {
+              "icon": "ticon7.png",
+              "txt": "At-home cold packs are your friend. Use them liberally for 8 hours after your treatment to minimize swelling."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Gently apply Arnica Gel to the treatment area starting 30 minutes after your session to help reduce bruising."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Pause workout for 24 hours after your treatment."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods - two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Avoid laying flat for a few hours post-treatment and sleep slightly elevated on a pillow or two that evening."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "Skin booster Results You can expect an overall improvement in skin texture and tone, enhanced skin tightening, and increased reflectivity for a radiant, luminous glow.\nTreatment: Exosomes (2 sessions), Volite (2 sessions)",
+      "beforeImg": "skinboosterbefore.webp",
+      "afterImg": "skinboosterafter.webp",
+      "treatments": [
+        {
+          "category": "Profhilo",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 1099
+            },
+            {
+              "name": "2 Sessions",
+              "price": 1999
+            }
+          ]
+        },
+        {
+          "category": "Exosomes",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 1999
+            },
+            {
+              "name": "2 Sessions",
+              "price": 2899
+            }
+          ]
+        },
+        {
+          "category": "Juvederm Volite",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 2899
+            },
+            {
+              "name": "2 Sessions",
+              "price": 4999
+            }
+          ]
+        },
+        {
+          "category": "Perfill 3D",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 1499
+            },
+            {
+              "name": "2 Sessions",
+              "price": 2799
+            }
+          ]
+        },
+        {
+          "category": "Sunekos",
+          "services": [
+            {
+              "name": "Sunekos1200 - 1 Session",
+              "price": 1999
+            },
+            {
+              "name": "Sunekos1200 - 2 Sessions",
+              "price": 3099
+            }
+          ]
+        },
+        {
+          "category": "Custom Skin Booster",
+          "services": [
+            {
+              "name": "Starts From",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are skin boosters?",
+          "answer": "Skin boosters are a type of cosmetic treatment that involves injecting a gel-like solution containing hyaluronic acid into the skin. They are designed to improve skin hydration, texture, and overall appearance."
+        },
+        {
+          "question": "How do skin boosters work?",
+          "answer": "Skin boosters work by delivering hyaluronic acid deep into the skin. Hyaluronic acid is a naturally occurring substance in the body that attracts and retains water. It helps to hydrate the skin from within, improve skin texture, and stimulate collagen production for a more youthful appearance."
+        },
+        {
+          "question": "What are the benefits of skin boosters?",
+          "answer": "Skin boosters provide several benefits, including deep hydration, improved skin texture, reduced appearance of fine lines and wrinkles, enhanced skin firmness, and a more radiant complexion. They can also be used on various areas of the body, such as the face, neck, décolletage, and hands."
+        },
+        {
+          "question": "Is the treatment painful?",
+          "answer": "Discomfort during skin booster treatments is generally minimal. The solution is typically injected using fine needles or cannulas, and a numbing cream or local anesthesia may be applied to ensure a comfortable experience."
+        },
+        {
+          "question": "How long do the results last?",
+          "answer": "The duration of results can vary depending on factors such as individual metabolism and lifestyle. However, skin boosters are known for their long-lasting effects compared to traditional moisturizers. Results can be seen for several months, and ongoing treatments can help maintain the benefits."
+        },
+        {
+          "question": "Are there any side effects?",
+          "answer": "Common side effects are usually mild and temporary, such as redness, swelling, or bruising at the injection site. These effects typically resolve within a few days. Serious complications are rare but can include infection or allergic reactions. It is important to have the treatment performed by a qualified professional to minimize the risk of complications."
+        },
+        {
+          "question": "How many treatments are needed?",
+          "answer": "The number of treatments required may vary depending on individual goals and the condition of the skin. However, a series of sessions is typically recommended for optimal results. Your skincare provider will assess your needs and develop a personalized treatment plan."
+        },
+        {
+          "question": "Is there any downtime after the treatment?",
+          "answer": "Skin booster treatments usually require minimal downtime. You can typically resume your daily activities immediately after the procedure. However, it's advisable to avoid intense physical activities, excessive sun exposure, and certain skincare products for a few days following the treatment."
+        },
+        {
+          "question": "Who is a good candidate for skin boosters?",
+          "answer": "Good candidates for skin boosters are individuals looking to improve skin hydration, texture, and radiance. It is suitable for most skin types, but a consultation with a skincare provider is recommended to determine individual suitability."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "img": "lipo.webp",
+      "video": "kybella-1.mp4",
+      "title": "LipoSculpt",
+      "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
+      "desc": "A non-surgical fat reduction treatment to remove stubborn fat under the chin or in other small areas.",
+      "howItWorks": "LipoSculpt, a synthetic deoxycholic acid, breaks down stubborn fat deposits in the neck area, a common cause of the appearance of a double chin. After it's directly injected into fat, this tissue is dissolved and then removed over time through the body's natural metabolic process. For best results, a series of injections are needed in 1 month intervals, with results typically appearing after 2-4 sessions. A consultation with our providers is required to develop a treatment plan for your goals.",
+      "whyWeLoveIt": "FDA approved, LipoSculpt is a first-of-its kind treatment. It uses a naturally occuring enzyme present in our bodies to dissolve the stubborn fat and resolve a key concern for so many clients. It typically requires only an ice pack application prior to and after injection! Especially great for those who want results, but without the invasiveness of surgery.",
+      "treatableArea": "Under the Chin & Jaw | Select Areas of the Body",
+      "treatableConcerns": [
+        {
+          "icons": "lipoIcon1.png",
+          "txt": "Skin Regeneration"
+        },
+        {
+          "icons": "lipoIcon2.png",
+          "txt": "Skin Regeneration"
+        }
+      ],
+      "duration": 10,
+      "startingAmount": 1499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/lipo-sculpt",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon5.png",
+              "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid vigorous exercise for 24- 48 hours."
+            },
+            {
+              "icon": "ticon18.png",
+              "txt": "Do not touch, press, rub, massage, or manipulate the treatment area."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "beforeImg": "liposculptbefore.webp",
+      "afterImg": "liposculptafter.webp",
+      "treatments": [
+        {
+          "category": "LipoSculpt",
+          "services": [
+            { "name": "Per vial", "price": 1499 }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How do I know if I'm a candidate?",
+          "answer": "We recommend coming in for a consultation so one of our experts can evaluate if you have fat versus skin laxity. LipoSculpt only treats fat (which is usually firm to the touch). We have a treatment for skin laxity as well, so if that's your concern, check out Morpheus8."
+        },
+        {
+          "question": "Can I go back to work afterwards?",
+          "answer": "Yes, but your turtleneck or scarf is the best way to conceal and handle the post-treatment downtime. Clients will likely experience bruising and swelling in the submental area for up to 1 week."
+        },
+        {
+          "question": "What do results look like?",
+          "answer": "You'll start to see results after at least 2-4 sessions. Body weight fluctuations can affect the elasticity of the skin, so we encourage you to maintain a healthy diet and exercise regimen throughout this process. The maximum amount of treatments a client should get is 6 treatments in 6 months."
+        },
+        {
+          "question": "Can I get this while pregnant or nursing?",
+          "answer": "No, you cannot get this treatment while pregnant or nursing."
+        },
+        {
+          "question": "Does it hurt? Is there bruising?",
+          "answer": "We'll do our best to make it comfortable by icing the area before beginning treatment. Swelling, bruising, discomfort, numbness, and redness are among the most common post-treatment side effects."
+        },
+        {
+          "question": "How long do the results last?",
+          "answer": "The results are achieved once you've reached your desired look. As long as you maintain your body weight, you should not have to come in for touch-ups or additional treatments."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "img": "collagen.webp",
+      "video": false,
+      "title": "Collagen Threads",
+      "subHeading": "Hello Contoured Face. |  Hello Firm Skin. | Hello Youthful Appearance.",
+      "desc": "A face lift with no cutting and minimal down time.",
+      "howItWorks": "Collagen-stimulating thread lifts work by anchoring into the skin and creating a gentle pull to provide a “lift”. The strategic placements of threads will correct any skin laxity, contour the face and neck, as well as restore collagen by stimulating its production. This prolonged collagen stimulation helps strengthen the skin’s structure and improve its firmness.",
+      "whyWeLoveIt": "Collagen threads are 100% bio-compatible, absorbable materials with the ability to “anchor” to the skin tissue where they are placed. The two aims of thread lifts are to achieve a lifting action of the tissues where they are anchored and create a regenerative effect by stimulating collagen in a gradual manner. This means thread lifts have both instant and long-term benefits. The immediate improvement in skin laxity can be seen as soon as the threads are placed within the tissue. Over a 12 – 18 month period, these threads will stimulate the tissue to gradually and naturally create your own collagen.",
+      "treatableArea": "Forehead | Midface | Jawline | Neck",
+      "treatableConcerns": [
+        {
+          "icons": "collagenIcon1.png",
+          "txt": "Hydration"
+        },
+        {
+          "icons": "collagenIcon2.png",
+          "txt": "Tone & Texture"
+        },
+        {
+          "icons": "collagenIcon3.png",
+          "txt": "Redness"
+        },
+        {
+          "icons": "collagenIcon4.png",
+          "txt": "Hyper-pigmentation"
+        }
+      ],
+      "duration": 10,
+      "startingAmount": 699,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/collagen-threads",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon5.png",
+              "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid vigorous exercise for 24- 48 hours."
+            },
+            {
+              "icon": "ticon18.png",
+              "txt": "Do not touch, press, rub, massage, or manipulate the treatment area."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "beforeImg": "collagenbefore.webp",
+      "afterImg": "collagenafter.webp",
+      "treatments": [
+        {
+          "category": "Collagen Threads - Full Face",
+          "services": [
+            { "name": "1 Session", "price": 699 },
+            { "name": "3 Sessions", "price": 1899 }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is collagen thread the same as threadlift?",
+          "answer": "No. Collagen thread is a non-invasive procedure where the threads are gently applied on the skin. No needle, no pain. You can even rest and take a nap during the procedure."
+        },
+        {
+          "question": "What are the contents of the collagen thread?",
+          "answer": "The main component of the thread is collagen, fibroin protein which can penetrate the deeper layers of the tissues and provide 300 times the moisture of conventional skin care products."
+        },
+        {
+          "question": "Where can we use collagen threads?",
+          "answer": "Collagen threads do not only fill wrinkles on the face; they can help firm, smooth, and plump treated areas such as cheeks, forehead, under-eye area, nasolabial folds, and smokers' lines."
+        },
+        {
+          "question": "Can I get this while pregnant or nursing?",
+          "answer": "No, you cannot get this treatment while pregnant or nursing."
+        },
+        {
+          "question": "Does it hurt?",
+          "answer": "No, the procedure is non-invasive and painless, allowing you to relax or even nap during the treatment."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "img": "body.webp",
+      "video": false,
+      "title": "Body Contouring",
+      "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
+      "desc": "Contour, restore volume, and give a natural-looking fullness to your body.",
+      "howItWorks": "Body fillers are substances that are injected beneath the skin to add volume, enhance contours, and improve the overall appearance of specific areas of the body. The filler material is injected beneath the skin to fill in hollow areas, creases, or depressions, resulting in a smoother and more youthful appearance. Many body fillers contain hyaluronic acid (HA), a naturally occurring substance in the body that attracts and retains moisture. Body fillers with a thicker consistency can provide structural support and lift to sagging or drooping areas. They help reposition tissues, restore contours, and create a more youthful appearance.",
+      "whyWeLoveIt": "Body fillers offer several advantages and benefits, making them a popular choice for individuals seeking aesthetic enhancements. Body fillers provide a non-surgical alternative to invasive procedures such as surgery or implants. They allow individuals to enhance their appearance without the need for incisions, general anaesthesia, or prolonged recovery periods. This appeals to those who prefer non-invasive or minimally invasive options.",
+      "treatableArea": "Upper Face | Lower Face | Lips",
+      "treatableConcerns": [
+        {
+          "icons": "bodyIcon1.png",
+          "txt": "Fat Reduction"
+        },
+        {
+          "icons": "bodyIcon2.png",
+          "txt": "Contouring"
+        }
+      ],
+      "duration": 90,
+      "startingAmount": 425,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/body-contouring",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
+            },
+            {
+              "icon": "ticon14.png",
+              "txt": "Bring a friend! If your friend is a first time client at IV Wellness Lounge, you'll both be eligible to receive special pricing."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "If taken pre-treatment, arnica and bromelain can help reduce post-treatment swelling and bruising. You can also take Tylenol."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "It's best to avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
+            },
+            {
+              "icon": "ticon16.png",
+              "txt": "You are not a candidate for these injections if you are pregnant or breastfeeding."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "Cold packs are your friend. Use them liberally for 8 hours after your treatment to help reduce swelling."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid exercise for 24 hours after your treatment. And facials are a no-go for at least 2 weeks."
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "It’s important to stay hydrated! Be sure to drink plenty of water after your treatment."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "You may lie down after fillers, but please avoid laying on your face (even the sides of your face)."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "beforeImg": "bodybefore.webp",
+      "afterImg": "bodyafter.webp",
+      "treatments": [
+        {
+          "category": "Per ml- 1499 AED",
+          "services": [
+            {
+              "name": "Lip",
+              "price": 1499
+            },
+            {
+              "name": "Cheek",
+              "price": 2999
+            },
+            {
+              "name": "Tear Trough",
+              "price": 2999
+            },
+            {
+              "name": "Nasolabial Folds",
+              "price": 2999
+            },
+            {
+              "name": "Chin",
+              "price": 2999
+            },
+            {
+              "name": "Jawline",
+              "price": 2999
+            },
+            {
+              "name": "Texas Jawline",
+              "price": 3599
+            }
+          ]
+        },
+        {
+          "category": "Filler Dissolver",
+          "services": [
+            {
+              "name": "Liporase",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I keep my makeup on?",
+          "answer": "Your skin should be clean for treatment so we can properly assess your skin and determine where to make injections. If you wear makeup to your appointment, we’ll remove it before your service. Post-treatment, we don't advise reapplying makeup immediately following, as you should avoid touching your face as much as possible for the next 24 hours."
+        },
+        {
+          "question": "What must I absolutely avoid after my treatment?",
+          "answer": "After your treatment: No lying down for 4 hours; no exercise/working out for 24 hours; no facials for 2 weeks. Try not to touch the area excessively for the first 24 hours, except to apply arnica gel. Avoid salty foods and alcoholic beverages as they can contribute to swelling."
+        },
+        {
+          "question": "How long until I see the results?",
+          "answer": "You'll start to see results almost immediately and can expect to see full results in about 2 weeks."
+        },
+        {
+          "question": "How long do the results last?",
+          "answer": "Everyone's different, but typically results last anywhere from 6-18 months. It really depends on the filler we use and your aesthetic goals."
+        },
+        {
+          "question": "What is the downtime? Can I go back to work?",
+          "answer": "We use a topical anesthetic before making injections to help minimize any discomfort during the treatment. We also use an ice pack before and after. You can also take Tylenol before and after to help reduce any pain. You may experience bruising and swelling, which can take 1-2 weeks to go away. Therefore, we don't recommend scheduling your appointment right before a big event."
+        },
+        {
+          "question": "Can I receive dermal fillers while pregnant or nursing?",
+          "answer": "No, dermal fillers are not recommended while pregnant or nursing."
+        },
+        {
+          "question": "What brand of fillers do you offer?",
+          "answer": "We offer a variety of high-quality fillers tailored to your specific aesthetic goals. Your provider will discuss the options during your consultation."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "img": "body.webp",
+      "video": false,
+      "title": "PRP",
+      "subHeading": "Hello Youthful Appearance. |  Hello Clear Skin. | Hello Skin Glow.",
+      "desc": "A regenerative treatment that uses your own plasma to stimulate collagen, elastin, and hair follicle growth.",
+      "howItWorks": "PRP stands for Platelet-Rich Plasma—a natural, powerful solution derived from your own blood. After a small blood draw, your blood is spun in a centrifuge to isolate the nutrient-rich plasma. This plasma, loaded with growth factors, is then re-injected into targeted areas of the face or scalp to stimulate collagen production, improve skin quality, and activate hair follicles.\n When used on the face, PRP enhances skin tone and texture, reduces fine lines, and restores a youthful glow by boosting the body’s natural healing process. For the scalp, it reawakens dormant hair follicles, promoting healthier, fuller hair growth.",
+      "whyWeLoveIt": "PRP is the ultimate solution for those who prefer non-surgical, chemical-free rejuvenation. Because it uses your body’s own regenerative powers, it’s safe, biocompatible, and highly effective.",
+      "treatableArea": "Full Face | Neck | Lips | Decollete | Hair",
+      "treatableConcerns": [
+        {
+          "icons": "lipoIcon1.png",
+          "txt": "Skin Regeneration"
+        },
+        {
+          "icons": "chemicalIcon3.png",
+          "txt": "Skin Laxity"
+        },
+        {
+          "icons": "chemicalIcon4.png",
+          "txt": "Scars"
+        },
+        {
+          "icons": "bodyIcon1.png",
+          "txt": "Contouring"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 699,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/prp",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
+            },
+            {
+              "icon": "ticon14.png",
+              "txt": "Avoid Retinol, active ingredients, and at-home peels for at least 7 days prior to your treatment."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "Avoid filler treatments, or resurfacing for at least 2 weeks prior."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "Try not to apply makeup 1-2 days after your service."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "beforeImg": "prpbefore.webp",
+      "afterImg": "prpafter.webp",
+      "treatments": [
+        {
+          "category": "PRP Face",
+          "services": [
+            {
+              "name": "Per Session",
+              "price": 699
+            },
+            {
+              "name": "3 session",
+              "price": 1799
+            }
+          ]
+        },
+        {
+          "category": "PRP Hair",
+          "services": [
+            {
+              "name": "Per Session",
+              "price": 899
+            },
+            {
+              "name": "3 session",
+              "price": 2299
+            },
+            {
+              "name": "6 session",
+              "price": 3999
+            }
+          ]
+        },
+        {
+          "category": "PRP Hair Filler",
+          "services": [
+            {
+              "name": "Per Session",
+              "price": 2499
+            }
+          ]
+        },
+        {
+          "category": "Aq Growth Factor",
+          "services": [
+            {
+              "name": "Price",
+              "price": 499
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Where can PRP be applied?",
+          "answer": "PRP can be applied to the scalp to stimulate hair growth and to various areas of the face, including the cheeks, under-eyes, forehead, and jawline, to enhance skin texture, firmness, and overall glow."
+        },
+        {
+          "question": "Which skin or hair types are good candidates for PRP?",
+          "answer": "PRP is suitable for all skin types and tones. It’s an excellent option for anyone experiencing fine lines, dull or uneven skin, early signs of aging, or hair thinning and shedding, especially in the early stages of hair loss."
+        },
+        {
+          "question": "What are the indications for PRP therapy?",
+          "answer": "PRP is commonly used to: Improve skin tone and texture, Minimize fine lines, wrinkles, and acne scars, Address dark under-eye circles, Stimulate natural hair regrowth, Strengthen weak or thinning hair, Boost collagen and elastin for firmer, smoother skin"
+        },
+        {
+          "question": "How is PRP done?",
+          "answer": "A small amount of your blood is drawn and spun in a centrifuge to isolate the platelet-rich plasma. This golden serum is then carefully injected into the targeted facial areas or scalp using microneedling or fine injections to promote cellular repair and regeneration."
+        },
+        {
+          "question": "What are the advantages of PRP?",
+          "answer": "100% natural and biocompatible, Non-surgical and minimally invasive, Stimulates collagen, elastin, and hair follicle activity, Reduces signs of aging and restores youthful skin, Improves hair thickness and slows down hair loss, Little to no downtime required"
+        },
+        {
+          "question": "How often should I get PRP treatments?",
+          "answer": "<b>Face:</b> Every 4–6 weeks for 3–4 sessions. <b>Hair:</b> Every 4 weeks for 4–6 sessions, followed by maintenance every 4–6 months"
+        },
+        {
+          "question": "When will I see the results?",
+          "answer": "Initial improvements can be seen within 2–3 weeks, with more visible, progressive results over 4–12 weeks as collagen builds and hair follicles are stimulated."
+        },
+        {
+          "question": "Will the results last?",
+          "answer": "Yes! With a recommended treatment plan and proper maintenance, results can last 12–18 months for facial rejuvenation and several months for hair regrowth. Periodic maintenance sessions help extend and enhance results."
+        },
+        {
+          "question": "Are there any side effects?",
+          "answer": "Since PRP uses your own blood, allergic reactions are extremely rare. Mild swelling, redness, or tenderness may occur at the injection site but typically subsides within 24–48 hours."
+        }
+      ]      
+    },
+    {
+      "id": 12,
+      "img": "morpheus-after.webp",
+      "video": false,
+      "title": "Morpheus8",
+      "subHeading": "Hello Skin Glow. |  Hello Lifted Skin. | Hello Clear Skin.",
+      "desc": "A radiofrequency-enhanced microneedling treatment that revitalizes collagen production for renewed, taut, and visibly rejuvenated skin.",
+      "howItWorks": "Dealing with skin laxity, fine lines, wrinkles, or scarring? Morpheus8 combines microneedling and radiofrequency to address these concerns and is safe for everyone.",
+      "whyWeLoveIt": "Radiofrequency energy heats the skin's deeper layers, stimulating the production of collagen and elastin. This process enhances skin texture and complexion, resulting in a more youthful and radiant appearance.",
+      "treatableArea": "Full Face | Neck | Lips",
+      "treatableConcerns": [
+        {
+          "icons": "lipoIcon1.png",
+          "txt": "All Skin Tones"
+        },
+        {
+          "icons": "chemicalIcon3.png",
+          "txt": "Stretchmarks"
+        },
+        {
+          "icons": "chemicalIcon4.png",
+          "txt": "Scarring"
+        }
+      ],
+      "duration": "-",
+      "startingAmount": 2299,
+      "discount": "",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/morpheus",
+      "treatmentsTips": [
+      ],
+      "resultTxt": "Morpheus8 combined with PRP and Exosomes delivers a powerful skin rejuvenation treatment that enhances texture, reduces unwanted fat, tightens skin, and improves overall tone for a visibly refreshed and youthful appearance.",
+      "beforeImg": "",
+      "afterImg": "",
+      "treatments": [
+      ],
+      "faq": [
+      ]      
+    },
+    {
+      "id": 13,
+      "img": "hero.webp",
+      "video": false,
+      "title": "Soprano",
+      "subHeading": "Hello Smooth skin. |  Hello Even tone. | Hello Clear Texture.",
+      "desc": "Remove unwanted hair with the Most Efficient, Painless, Safe for all skin SOPRANO TITANIUM.",
+      "howItWorks": "Soprano Titanium hair removal utilizes 3D technology, integrating three laser wavelengths into a single applicator for optimal effectiveness",
+      "whyWeLoveIt": "While some areas of the body are naturally more sensitive than others, Laser Hair Removal with soprano titanium is virtually painless, and often described as feeling like a hot stone massage.",
+      "treatableArea": "Full Face | Under Arms | Bikini Line | Shoulders",
+      "treatableConcerns": [
+        {
+          "icons": "lipoIcon1.png",
+          "txt": "All Skin Tones"
+        },
+        {
+          "icons": "chemicalIcon4.png",
+          "txt": "Melanin-Rich Skin"
+        },
+        {
+          "icons": "chemicalIcon3.png",
+          "txt": "Darker Hair"
+        }
+      ],
+      "duration": "-",
+      "startingAmount": 119,
+      "discount": "",
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/laser-hair-removal",
+      "treatmentsTips": [
+      ],
+      "resultTxt": "Hair should begin to fall out approximately 2 weeks after your first treatment, but it's important to complete your recommended number of sessions to ensure smooth, hairless skin",
+      "beforeImg": "",
+      "afterImg": "",
+      "treatments": [
+      ],
+      "faq": [
+      ]      
+    }
+  ]
+}

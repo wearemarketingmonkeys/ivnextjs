@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+// Colors
+$primary-color: #F2EEE9;
+$secondary-color: #707070;
+$white-color: #ffffff;
+$black-color: #000000;
+$bg-color: #FCF9F5;
+$border-color: #EBEBEB;
+
+// Typography
+$font-hanken: "Hanken Grotesk", sans-serif;
+$font-nunito: "Nunito Sans", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.2;
+
+// Spacing
+$spacing-unit: 1rem;
+
+// Breakpoints
+$breakpoint-xs: 470px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Container width for each breakpoint
+$container-xs: 420px;
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;

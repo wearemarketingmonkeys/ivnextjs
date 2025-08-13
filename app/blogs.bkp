@@ -1,0 +1,85 @@
+import React, { useState, useEffect } from "react";
+import Pagination from "../components/Pagination";
+import HeroSection from "../components/HeroSection";
+import ArticleCard from "../components/ArticleCard";
+import articlesData from "../mocks/articlesData.json";
+import blogHero from "../assets/img/blog/blog-hero.webp";
+
+const Blogs = () => {
+  const [articles, setArticles] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [articlesPerPage, setArticlesPerPage] = useState(8);
+
+  const images = import.meta.glob("../assets/img/blog/*.webp", {
+    eager: true,
+  }); /* for image */
+
+  useEffect(() => {
+    // Map articles data with image URLs
+    const updatedArticles = articlesData.articlesData.map((article) => ({
+      ...article,
+      img: images[`../assets/img/blog/${article.img}`]?.default || "",
+    }));
+    setArticles(updatedArticles);
+  }, [articlesData]);
+
+  // Get current articles based on the current page
+  const indexOfLastArticle = currentPage * articlesPerPage;
+  const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
+  const currentArticles = articles.slice(
+    indexOfFirstArticle,
+    indexOfLastArticle
+  );
+
+  // Pagination function to handle page changes
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  return (
+    <>
+      {/* Blog hero */}
+      <div className="blog-hero">
+        <HeroSection
+          img={blogHero}
+          textLight1="Insights &"
+          textItalic1=" Wellness"
+          textLight2="Tips from"
+          textItalic2="IVHub"
+        />
+      </div>
+
+      
+
+      {/* Blog Cards */}
+      <div className="blog-cards">
+        <div className="container">
+          <div className="article-wrapper">
+            <h1>
+              Welcome to the IVHuv Blog – your go-to resource for the latest
+              updates, expert advice, and wellness inspiration.
+            </h1>
+            {currentArticles.map((x, index) => (
+              <ArticleCard
+                key={index}
+                img={x.img}
+                title={x.title}
+                desc={x.desc}
+                readMoreUrl={`/blogs/${x.title.replace(/\s+/g, "-")}`}
+              />
+            ))}
+            <div className="btn-wrap">
+              {/* Pagination */}
+              <Pagination
+                totalArticles={articles.length}
+                articlesPerPage={articlesPerPage}
+                paginate={paginate}
+                currentPage={currentPage}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Blogs;

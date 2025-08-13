@@ -1,0 +1,20 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.offer-card-wrapper{
+    padding: 64px 0;
+    .offer-card-wrap{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        width: 100%;
+        .card{
+            position: relative;
+            width: calc(50% - 12px);
+            @include mixin.respond(md){
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,2337 @@
+{
+    "dripsData": [
+      {
+        "id": 1,
+        "category": "Beauty",
+        "img": "beauty-hub.webp",
+        "title": "Beauty Hub",
+        "price": 999,
+        "desc": "complete beauty package for your skin, hair and nails",
+        "para1": "Our <b>Beauty IV Drip Therapy</b> (also known as the Beauty Hub) is a targeted intravenous infusion designed to support beauty and wellness from the inside out. This <b>IV drip</b> delivers a potent blend of essential vitamins, antioxidants, and amino acids directly into the bloodstream, bypassing the digestive system to ensure maximum absorption.",
+        "para2": "Formulated with high-efficacy ingredients including <b>Vitamin C, Biotin, N-Acetylcysteine (NAC), and Glutathione</b>, this therapy works at the cellular level to support collagen production, improve skin tone, reduce oxidative stress, and promote stronger hair and nails. The result is a visibly refreshed, hydrated, and radiant appearance with benefits that extend beyond the surface.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Glow with Beauty Hub",
+        "benifits": [
+          "Strengthens Hair, Skin, And Nails",
+          "Hydrates And Improves Skin Texture",
+          "Brightens Complexion And Evens Skin Tone",
+          "Detoxifies At A Cellular Level",
+          "Improves Energy And Reduces Fatigue",
+          "Replenishes Nutrients Lost To Stress, Pollution, And Poor Diet",
+          "Perfect Before Events, Travel Recovery, Or Routine Maintenance"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Breakouts and blemishes"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Hair loss or thinning"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Urban pollutant exposure"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor nutrition and stress-related imbalances"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post-vacation skin fatigue"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Pre-event aesthetic prep"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Dull or uneven skin tone"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Vitamin C",
+            "txt": "Boosts Collagen Production, Fights Free Radical Damage, Heals and Repairs the Skin"
+          },
+          {
+            "name": "Biotin",
+            "txt": "Supports Hair Health and Growth, Metabolism and Energy Production, Improves and Strengthens Nails"
+          },
+          {
+            "name": "N-Acetylcysteine",
+            "txt": "Support for glutathione production, Skin Detoxification, Healing, and Repair of Skin Damage."
+          },
+          {
+            "name": "Glutathione",
+            "txt": "Detoxification, Skin Health and Radiance, Anti-Aging Benefits"
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is Beauty IV Drip Therapy?",
+            "answer": "Beauty IV Drip Therapy is an intravenous treatment that delivers a mix of beauty-enhancing nutrients such as Vitamin C, Biotin, NAC, and Glutathione directly into your bloodstream. It helps improve skin clarity, support hair growth, and strengthen nails from within."
+          },
+          {
+            "question": "How often should I take this IV drip?",
+            "answer": "We recommend a session every 3–4 weeks as part of your regular beauty regimen. More frequent sessions may be advised based on lifestyle, stress levels, and personal goals."
+          },
+          {
+            "question": "Is the therapy safe?",
+            "answer": "Yes. All drips are administered by certified nurses or medical professionals in a licensed clinic. We follow strict hygiene protocols and use only premium-grade, medically approved compounds."
+          },
+          {
+            "question": "Can I get the Beauty IV Drip at home?",
+            "answer": "Absolutely. Our mobile IV service is available across Dubai. We offer home visits for clients who prefer receiving their therapy in the comfort of their own space."
+          },
+          {
+            "question": "When will I start seeing results?",
+            "answer": "Many clients notice improved hydration and glow within 24–48 hours. For deeper results in hair and nails, consistent monthly sessions are recommended."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/beauty-hub"
+      },
+      {
+        "id": 2,
+        "category": "Wellness",
+        "img": "boost-hub.webp",
+        "title": "Boost Hub",
+        "price": 999,
+        "desc": "Boost your Blood Cells!",
+        "para1": "The <b>Boost IV Drip</b> at IV Wellness Lounge Dubai is a clinically formulated intravenous therapy designed to help replenish iron and essential nutrients in individuals experiencing fatigue, low energy, and symptoms of iron deficiency anemia. By delivering a therapeutic dose of <b>iron</b>, along with supporting vitamins like <b>Vitamin B12</b>, <b>Folic Acid</b>, and <b>Vitamin C</b>, this IV drip bypasses the digestive tract and ensures rapid absorption and maximum effectiveness.",
+        "para2": "Unlike oral iron supplements, which can cause gastrointestinal discomfort and offer delayed results, our <b>IV therapy in Dubai</b> provides a more efficient, immediate solution to low iron levels, enabling your body to restore healthy red blood cell production and improve overall energy metabolism. The <b>Boost Hub IV drip</b> offers a fast and effective way to restore balance and support your body’s core functions from within.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get rid of Anemia and restore your body functions",
+        "benifits": [
+          "Raises Iron Levels Efficiently And Safely",
+          "Combats Fatigue, Dizziness, And Poor Focus",
+          "Supports Red Blood Cell Production And Oxygen Transport",
+          "Boosts Concentration And Cognitive Clarity",
+          "Improves Overall Energy Metabolism And Immune Response",
+          "Reduces Common Side Effects Associated With Oral Iron Tablets",
+          "Strengthens Nervous System And Hair Health"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Iron Deficiency"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Hair Thinning or Weak Nails"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Chronic Fatigue or Low Energy"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Postpartum Recovery"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Diet or Malabsorption Issues"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Low Immunity or Frequent Illness"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Heavy Menstrual Cycles"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Iron",
+            "txt": "Essential for red blood cell production, oxygen transport, energy metabolism, and immune support."
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Enhances iron absorption, protects cells, and boosts immunity."
+          },
+          {
+            "name": "Vitamin B12",
+            "txt": "Supports nerve function, energy levels, and DNA synthesis."
+          },
+          {
+            "name": "Folic Acid",
+            "txt": "Works with B12 to form healthy red blood cells and prevent anemia."
+          },
+          {
+            "name": "Vitamin B6",
+            "txt": "Aids hemoglobin production, regulates mood, and supports brain and immune function."
+          },
+          {
+            "name": "Vitamin D",
+            "txt": "Promotes bone health, muscle strength, and overall immunity."
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is the Boost IV Drip used for?",
+            "answer": "The Boost IV Drip is primarily designed to treat and prevent iron deficiency anemia and related symptoms such as fatigue, dizziness, and hair loss. It also supports overall immune health and energy levels."
+          },
+          {
+            "question": "How is this different from taking oral iron supplements?",
+            "answer": "Unlike tablets or capsules, this IV therapy in Dubai bypasses the digestive system, delivering nutrients directly into your bloodstream. This ensures faster, higher absorption with minimal side effects like bloating or constipation."
+          },
+          {
+            "question": "How soon will I feel better after the IV drip?",
+            "answer": "Most clients report a noticeable increase in energy and mental clarity within 24–72 hours. Full blood panel improvements typically occur after a series of sessions, based on medical need."
+          },
+          {
+            "question": "Is the Boost IV Drip safe?",
+            "answer": "Yes. All IV therapies at IV Wellness Lounge are performed by licensed medical professionals using sterile equipment and high-quality, clinically approved ingredients."
+          },
+          {
+            "question": "Can I get this drip therapy at home?",
+            "answer": "Yes. We offer home IV therapy across Dubai, so you can receive the Boost Drip in the comfort and privacy of your residence."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/boost-hub"
+      },
+      {
+        "id": 3,
+        "category": "Wellness",
+        "img": "cleanse-hub.webp",
+        "title": "Cleanse Hub",
+        "price": 999,
+        "desc": "Detox and Replenish",
+        "para1": "The <b>Cleanse IV Drip</b> at IV Wellness Lounge Dubai (also known as <b>Cleanse Hub</b>) is our signature detox IV therapy formulated to help eliminate harmful toxins, reduce inflammation, and restore internal balance. Designed specifically for those living in fast-paced urban environments, this intravenous drip targets liver function and oxidative stress, working from the inside out to cleanse your system and support overall well-being.",
+        "para2": "At the core of this IV drip is <b>N-Acetylcysteine (NAC)</b>, a powerful antioxidant known to stimulate glutathione production, the body’s master detoxifier. Combined with <b>Vitamin C</b>, <b>DMSO</b>, <b>MSM</b>, and <b>L-Glutamine</b>, this clinically curated formula enhances your body’s ability to naturally detoxify, improve circulation, and boost immune defense.",
+        "para3": "If you’re experiencing fatigue, mental fog, poor sleep, or general burnout, our <b>IV therapy in Dubai</b> offers a fast and effective way to reboot your system and restore clarity.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Cleanse Hub Detoxify and Rejuvenate Your Body",
+        "benifits": [
+          "Flushes Out Heavy Metals, Toxins, And Free Radicals",
+          "Reduces Inflammation And Oxidative Stress",
+          "Improves Mental Clarity And Focus",
+          "Supports Better Sleep And Reduced Fatigue",
+          "Enhances Liver Function And Cellular Regeneration",
+          "Boosts Immunity And Resilience To Environmental Stressors",
+          "Restores Hydration And Electrolyte Balance"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon14.png",
+            "txt": "High Stress Or Burnout"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Urban Pollutant Exposure"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Dietary Habits"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Brain Fog Or Poor Concentration"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Frequent Illness Or Low Immunity"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post-Travel Detox"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Sleep Deprivation And Fatigue"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 10
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 7
+          }
+        ],
+        "extraData": [
+          {
+            "name": "N-Acetylcysteine (NAC)",
+            "txt": "Promotes glutathione production, detoxifies the liver, reduces oxidative stress."
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Strengthens immune function and reduces inflammation."
+          },
+          {
+            "name": "DMSO",
+            "txt": "Offers anti-inflammatory and pain-relieving benefits, enhances cellular permeability."
+          },
+          {
+            "name": "MSM",
+            "txt": "Aids in detoxification, reduces joint and muscle inflammation, supports tissue recovery."
+          },
+          {
+            "name": "L-Glutamine",
+            "txt": "Supports immune health, aids digestion, and promotes muscle recovery."
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is the Cleanse IV Drip used for?",
+            "answer": "The Cleanse IV Drip is designed to support whole-body detoxification by flushing out environmental toxins, improving liver function, and reducing inflammation. It's ideal for individuals exposed to pollution, stress, or poor lifestyle habits."
+          },
+          {
+            "question": "How is it different from other IV drips?",
+            "answer": "While many IV drips focus on energy or hydration, the Cleanse IV specifically targets detox pathways using a unique blend of antioxidants and anti-inflammatory ingredients such as NAC, DMSO, and MSM."
+          },
+          {
+            "question": "How often should I take this IV therapy?",
+            "answer": "For general detox and maintenance, once every 3–4 weeks is recommended. For those undergoing lifestyle changes or recovering from travel or illness, a more intensive protocol may be advised."
+          },
+          {
+            "question": "Is Cleanse IV Drip safe?",
+            "answer": "Yes. All IV therapies are administered by trained medical staff using sterile, clinically approved compounds in a controlled environment."
+          },
+          {
+            "question": "Can I receive this IV drip at home?",
+            "answer": "Absolutely. We offer at-home IV therapy across Dubai, allowing you to receive the Cleanse IV Drip at your convenience."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/cleanse-hub"
+      },
+      {
+        "id": 4,
+        "category": "Wellness",
+        "img": "energy-hub.webp",
+        "title": "Energy Hub ",
+        "price": 999,
+        "desc": "Energy Hub Boost Energy Levels",
+        "para1": "Our <b>Energy IV Drip Therapy</b> (also known as <b>Energy Hub</b>) is designed to restore your energy levels, improve focus, and help you bounce back from fatigue and burnout. This IV drip delivers a concentrated blend of <b>B-complex vitamins</b>, <b>Carnitine</b>, and <b>Taurine</b> directly into the bloodstream, bypassing the digestive system for rapid absorption and noticeable results.",
+        "para2": "Whether you're battling adrenal fatigue, low energy, muscle exhaustion, or mental fog, this <b>IV drip in Dubai</b> is a clinically backed solution to revitalize your body from within. Our formula helps regulate metabolism, reduce stress-related depletion, and promote long-lasting energy without the crash of caffeine or stimulants.",
+        "para3": "If you're seeking <b>IV therapy in Dubai</b> that supports natural energy production and sharpens mental clarity, the Energy Hub is your go-to drip.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Boost Your Energy",
+        "benifits": [
+          "Increases Natural Energy At A Cellular Level",
+          "Improves Mental Clarity And Reduces Brain Fog",
+          "Supports Adrenal Gland Recovery And Hormone Balance",
+          "Boosts Metabolism And Fat-Burning Potential",
+          "Enhances Muscle Recovery And Reduces Post-Exercise Fatigue",
+          "Strengthens Immunity Under Stress",
+          "A Natural, Stimulant-Free Energy Solution"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon14.png",
+            "txt": "Adrenal Fatigue"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Low Energy Or Constant Tiredness"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Stress-Induced Burnout"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Muscle Soreness And Tension"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Heavy Work Schedules Or Night Shifts"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Frequent Travel Or Jet Lag"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Poor Focus Or Mental Fatigue"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 5
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Carnitine",
+            "txt": "Helps convert fat into energy and supports cardiovascular and muscle function"
+          },
+          {
+            "name": "Taurine",
+            "txt": " Enhances brain performance, supports electrolyte balance, and reduces oxidative stress"
+          },
+          {
+            "name": "B-Vitamins",
+            "txt": "Crucial for energy metabolism, nervous system function, and cellular repair"
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is the Energy IV Drip used for?",
+            "answer": "The Energy IV Drip is designed to restore energy levels, reduce fatigue, and improve mental focus by delivering B vitamins, amino acids, and nutrients directly into the bloodstream."
+          },
+          {
+            "question": "How quickly will I feel the effects?",
+            "answer": "Many clients begin feeling more energized and mentally alert within 1–2 hours after the session. The full effect typically lasts several days, depending on individual lifestyle and stress levels."
+          },
+          {
+            "question": "How is this better than energy drinks or supplements?",
+            "answer": "Unlike caffeine-based energy drinks, this IV therapy in Dubai offers natural, sustained energy without jitters or crashes. It also bypasses digestion for immediate absorption and higher effectiveness."
+          },
+          {
+            "question": "Is the Energy IV Drip safe?",
+            "answer": "Yes. All drips are administered by certified nurses using high-grade ingredients in a sterile environment. A brief medical consultation is conducted before your session."
+          },
+          {
+            "question": "Can I book this IV drip at home?",
+            "answer": "Yes. We offer home IV therapy across Dubai, allowing you to receive the Energy Drip in the comfort and privacy of your home or hotel."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/energy-hub"
+      },
+      {
+        "id": 5,
+        "category": "Fitness",
+        "img": "fitness-hub.webp",
+        "title": "Fitness Hub",
+        "price": 999,
+        "desc": "Kickstart The Fat Burn!",
+        "para1": "Our <b>Fitness IV Drip Therapy</b> (also known as <b>Fitness Hub</b>) is a powerful fat-burning and metabolism-boosting IV infusion designed for individuals pursuing weight loss, improved physical performance, and faster post-exercise recovery.",
+        "para2": "This <b>IV drip in Dubai</b> delivers a concentrated blend of <b>lipotropic compounds</b>, <b>amino acids</b>, and performance-enhancing vitamins like <b>CoQ10</b>, <b>Taurine</b>, and <b>Vitamin D</b> directly into your bloodstream. By targeting liver function and cellular metabolism, the Fitness IV helps your body mobilize fat stores, flush out toxins, and increase overall energy levels without relying on harsh supplements or restrictive diets.",
+        "para3": "Whether you're on a weight loss journey, preparing for a fitness goal, or recovering from intense workouts, this <b>IV therapy in Dubai</b> supports your transformation by working from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Kickstart The Fat Burn with fitness hub!",
+        "benifits": [
+          "Accelerates Fat Metabolism And Lipolysis (Fat Breakdown)",
+          "Enhances Liver Function To Remove Toxins And Waste",
+          "Reduces Post-Workout Soreness And Speeds Up Muscle Recovery",
+          "Increases Stamina And Endurance During Physical Activity",
+          "Improves Energy, Motivation, And Focus",
+          "Supports Hormonal Balance And Stress Recovery",
+          "Rehydrates The Body And Improves Nutrient Absorption"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon16.png",
+            "txt": "Weight Loss Support"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue During Training Or Workouts"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Muscle Soreness Or Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Recovery From Travel, Illness, Or Inactivity"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Detoxification After Unhealthy Eating"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Plateau In Weight Or Fat Loss Results"
+          }
+        ],
+        "buttonslist": [
+          {
+            "icon": "fitness-hub.webp",
+            "txt": "Fitness Hub",
+            "price": "999"
+          },
+          {
+            "icon": "fitness-hub-express.webp",
+            "txt": "Fitness Hub Express",
+            "price": "499"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "CoQ10",
+            "txt": "Supports cellular energy production, heart health, and fat burning at the mitochondrial level."
+          },
+          {
+            "name": "Taurine",
+            "txt": "Enhances muscle performance, improves endurance, and supports fat metabolism."
+          },
+          {
+            "name": "Vitamin D",
+            "txt": "Aids in hormonal balance, muscle strength, immune function, and fat oxidation."
+          },
+          {
+            "name": "Lipotropic Amino Acids",
+            "txt": "Assist in breaking down fat during metabolism and improve liver detox efficiency."
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Fitness IV Drip Therapy used for?",
+            "answer": "This IV therapy is designed to assist with weight management, metabolic support, and physical recovery by enhancing liver function, fat breakdown, and muscle repair."
+          },
+          {
+            "question": "Can I use this drip as part of a weight loss plan?",
+            "answer": "Yes. The Fitness IV Drip is an excellent complement to a healthy diet and regular exercise. It helps optimize your body’s internal processes to support faster, safer fat loss."
+          },
+          {
+            "question": "Will I lose weight just by taking this drip?",
+            "answer": "While it supports fat metabolism, this IV is most effective when combined with proper nutrition and movement. It is not a replacement for exercise or medical weight loss programs."
+          },
+          {
+            "question": "How quickly will I feel the effects?",
+            "answer": "Most clients report increased energy and reduced soreness within 24–48 hours. For best results, it can be taken weekly or bi-weekly during your fitness journey."
+          },
+          {
+            "question": "Is this IV drip safe?",
+            "answer": "Absolutely. All our IV therapies are administered by licensed nurses using clinically approved, medical-grade compounds."
+          },
+          {
+            "question": "Can I receive the Fitness IV Drip at home in Dubai?",
+            "answer": "Yes. We offer mobile IV therapy in Dubai, allowing you to receive the Fitness Drip at your home, hotel, or gym."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/fitness-hub"
+      },
+      {
+        "id": 6,
+        "category": "Fitness",
+        "img": "fitness-hub-express.webp",
+        "title": "Fitness Hub Express",
+        "price": 499,
+        "desc": "Kickstart The Fat Burn!",
+        "para1": "Our <b>Fitness IV Drip Therapy</b> (also known as <b>Fitness Hub</b>) is a powerful fat-burning and metabolism-boosting IV infusion designed for individuals pursuing weight loss, improved physical performance, and faster post-exercise recovery.",
+        "para2": "This <b>IV drip in Dubai</b> delivers a concentrated blend of <b>lipotropic compounds</b>, <b>amino acids</b>, and performance-enhancing vitamins like <b>CoQ10</b>, <b>Taurine</b>, and <b>Vitamin D</b> directly into your bloodstream. By targeting liver function and cellular metabolism, the Fitness IV helps your body mobilize fat stores, flush out toxins, and increase overall energy levels without relying on harsh supplements or restrictive diets.",
+        "para3": "Whether you're on a weight loss journey, preparing for a fitness goal, or recovering from intense workouts, this <b>IV therapy in Dubai</b> supports your transformation by working from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Kickstart The Fat Burn with fitness hub!",
+        "benifits": [
+          "Accelerates Fat Metabolism And Lipolysis (Fat Breakdown)",
+          "Enhances Liver Function To Remove Toxins And Waste",
+          "Reduces Post-Workout Soreness And Speeds Up Muscle Recovery",
+          "Increases Stamina And Endurance During Physical Activity",
+          "Improves Energy, Motivation, And Focus",
+          "Supports Hormonal Balance And Stress Recovery",
+          "Rehydrates The Body And Improves Nutrient Absorption"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon16.png",
+            "txt": "Weight Loss Support"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue During Training Or Workouts"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Muscle Soreness Or Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Recovery From Travel, Illness, Or Inactivity"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Detoxification After Unhealthy Eating"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Plateau In Weight Or Fat Loss Results"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "CoQ10",
+            "txt": "Supports cellular energy production, heart health, and fat burning at the mitochondrial level."
+          },
+          {
+            "name": "Taurine",
+            "txt": "Enhances muscle performance, improves endurance, and supports fat metabolism."
+          },
+          {
+            "name": "Vitamin D",
+            "txt": "Aids in hormonal balance, muscle strength, immune function, and fat oxidation."
+          },
+          {
+            "name": "Lipotropic Amino Acids",
+            "txt": "Assist in breaking down fat during metabolism and improve liver detox efficiency."
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Fitness IV Drip Therapy used for?",
+            "answer": "This IV therapy is designed to assist with weight management, metabolic support, and physical recovery by enhancing liver function, fat breakdown, and muscle repair."
+          },
+          {
+            "question": "Can I use this drip as part of a weight loss plan?",
+            "answer": "Yes. The Fitness IV Drip is an excellent complement to a healthy diet and regular exercise. It helps optimize your body’s internal processes to support faster, safer fat loss."
+          },
+          {
+            "question": "Will I lose weight just by taking this drip?",
+            "answer": "While it supports fat metabolism, this IV is most effective when combined with proper nutrition and movement. It is not a replacement for exercise or medical weight loss programs."
+          },
+          {
+            "question": "How quickly will I feel the effects?",
+            "answer": "Most clients report increased energy and reduced soreness within 24–48 hours. For best results, it can be taken weekly or bi-weekly during your fitness journey."
+          },
+          {
+            "question": "Is this IV drip safe?",
+            "answer": "Absolutely. All our IV therapies are administered by licensed nurses using clinically approved, medical-grade compounds."
+          },
+          {
+            "question": "Can I receive the Fitness IV Drip at home in Dubai?",
+            "answer": "Yes. We offer mobile IV therapy in Dubai, allowing you to receive the Fitness Drip at your home, hotel, or gym."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/fitness-hub-express"
+      },
+      {
+        "id": 7,
+        "category": "Beauty",
+        "img": "glow-hub.webp",
+        "title": "Glow Hub",
+        "price": 799,
+        "desc": "For your best looking self!",
+        "para1": "Our <b>Glow IV Drip Therapy</b> (also known as <b>Glow Hub</b>) is expertly formulated to help you achieve luminous, youthful skin by delivering a potent blend of antioxidants and skin-enhancing nutrients directly into your bloodstream. This advanced <b>IV therapy in Dubai</b> targets skin health at the cellular level, working to detoxify your body, reduce oxidative stress, and promote collagen production for a natural, radiant glow.",
+        "para2": "Whether you are recovering from environmental stress, fatigue, or looking to refresh your skin before a special event, our Glow IV drip is the perfect addition to your beauty routine for lasting skin vitality and wellness.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Natural Glow with Glow Hub Drip",
+        "benifits": [
+          "Promotes Glowing, Clear, And Youthful Skin",
+          "Detoxifies And Purifies Cells To Combat Dullness And Blemishes",
+          "Improves Skin Texture, Smoothness, And Elasticity",
+          "Fights Pigmentation And Free Radical Damage Caused By Pollution And Sun Exposure",
+          "Boosts Collagen Production For Firmer Skin And Anti-Aging Effects",
+          "Enhances Overall Energy And Reduces Fatigue",
+          "Ideal Pre-Event Treatment For Radiant, Camera-Ready Skin"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Dull Or Blemished Skin"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post-Vacation Skin Recovery"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Exposure To Pollutants And Environmental Stress"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue And Low Energy Impacting Skin Health"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Preparing For Weddings, Social Events, Or Photo Shoots"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Dietary Habits Affecting Skin Vitality"
+          }
+        ],
+        "buttonslist": [
+          {
+            "icon": "glow-hub.webp",
+            "txt": "Glow Hub",
+            "price": "799"
+          },
+          {
+            "icon": "glow-hub-express.webp",
+            "txt": "Glow Hub Express",
+            "price": "499"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 3
+          },
+          {
+            "dripid": 9
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Alpha Lipoic Acid",
+            "txt": "Repairs skin damage, reduces hyperpigmentation, and improves texture and smoothness"
+          },
+          {
+            "name": "Glutathione",
+            "txt": "The “Master Antioxidant” for detoxification, anti-aging, and skin radiance"
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Stimulates collagen synthesis, heals skin, and protects against oxidative damage"
+          }
+        ],
+        "faq": [
+          {
+            "question": "What does the Glow IV Drip do?",
+            "answer": "The Glow IV Drip replenishes essential antioxidants and vitamins directly into your bloodstream to detoxify cells, promote collagen production, and give your skin a natural, radiant glow."
+          },
+          {
+            "question": "How soon will I notice results?",
+            "answer": "Many clients observe an improvement in skin brightness and texture within 24 to 48 hours, with cumulative benefits after multiple sessions."
+          },
+          {
+            "question": "Is this IV therapy safe?",
+            "answer": "Yes. All treatments are conducted by certified medical professionals using sterile techniques and pharmaceutical-grade nutrients."
+          },
+          {
+            "question": "Can this IV drip help with acne or pigmentation?",
+            "answer": "While it supports skin health by reducing oxidative stress and promoting cell repair, it is best combined with a dermatologist’s advice for specific skin conditions."
+          },
+          {
+            "question": "How often should I receive the Glow IV Drip?",
+            "answer": "For optimal results, monthly sessions are recommended, though frequency can be personalized based on your skin goals and lifestyle."
+          },
+          {
+            "question": "Is home service available for this IV drip in Dubai?",
+            "answer": "Yes. We offer mobile IV therapy for Glow Drip anywhere in Dubai, so you can enjoy treatment in the comfort of your home or hotel."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/glow-hub"
+      },
+      {
+        "id": 8,
+        "category": "Beauty",
+        "img": "glow-hub-express.webp",
+        "title": "Glow Hub Express",
+        "price": 499,
+        "desc": "For your best looking self!",
+        "para1": "Our <b>Glow IV Drip Therapy</b> (also known as <b>Glow Hub</b>) is expertly formulated to help you achieve luminous, youthful skin by delivering a potent blend of antioxidants and skin-enhancing nutrients directly into your bloodstream. This advanced <b>IV therapy in Dubai</b> targets skin health at the cellular level, working to detoxify your body, reduce oxidative stress, and promote collagen production for a natural, radiant glow.",
+        "para2": "Whether you are recovering from environmental stress, fatigue, or looking to refresh your skin before a special event, our Glow IV drip is the perfect addition to your beauty routine for lasting skin vitality and wellness.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Your Natural Glow with Glow Hub Drip",
+        "benifits": [
+          "Promotes Glowing, Clear, And Youthful Skin",
+          "Detoxifies And Purifies Cells To Combat Dullness And Blemishes",
+          "Improves Skin Texture, Smoothness, And Elasticity",
+          "Fights Pigmentation And Free Radical Damage Caused By Pollution And Sun Exposure",
+          "Boosts Collagen Production For Firmer Skin And Anti-Aging Effects",
+          "Enhances Overall Energy And Reduces Fatigue",
+          "Ideal Pre-Event Treatment For Radiant, Camera-Ready Skin"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Dull Or Blemished Skin"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post-Vacation Skin Recovery"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Exposure To Pollutants And Environmental Stress"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue And Low Energy Impacting Skin Health"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Preparing For Weddings, Social Events, Or Photo Shoots"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Poor Dietary Habits Affecting Skin Vitality"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Alpha Lipoic Acid",
+            "txt": "Repairs skin damage, reduces hyperpigmentation, and improves texture and smoothness"
+          },
+          {
+            "name": "Glutathione",
+            "txt": "The “Master Antioxidant” for detoxification, anti-aging, and skin radiance"
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Stimulates collagen synthesis, heals skin, and protects against oxidative damage"
+          }
+        ],
+        "faq": [
+          {
+            "question": "What does the Glow IV Drip do?",
+            "answer": "The Glow IV Drip replenishes essential antioxidants and vitamins directly into your bloodstream to detoxify cells, promote collagen production, and give your skin a natural, radiant glow."
+          },
+          {
+            "question": "How soon will I notice results?",
+            "answer": "Many clients observe an improvement in skin brightness and texture within 24 to 48 hours, with cumulative benefits after multiple sessions."
+          },
+          {
+            "question": "Is this IV therapy safe?",
+            "answer": "Yes. All treatments are conducted by certified medical professionals using sterile techniques and pharmaceutical-grade nutrients."
+          },
+          {
+            "question": "Can this IV drip help with acne or pigmentation?",
+            "answer": "While it supports skin health by reducing oxidative stress and promoting cell repair, it is best combined with a dermatologist’s advice for specific skin conditions."
+          },
+          {
+            "question": "How often should I receive the Glow IV Drip?",
+            "answer": "For optimal results, monthly sessions are recommended, though frequency can be personalized based on your skin goals and lifestyle."
+          },
+          {
+            "question": "Is home service available for this IV drip in Dubai?",
+            "answer": "Yes. We offer mobile IV therapy for Glow Drip anywhere in Dubai, so you can enjoy treatment in the comfort of your home or hotel."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/glow-hub-express"
+      },
+      {
+        "id": 9,
+        "category": "Beauty",
+        "img": "hairfall-defense.webp",
+        "title": "Hairfall Defense",
+        "price": 899,
+        "desc": "Supercharge your hair!",
+        "para1": "At IV Wellness Lounge Dubai, our <b>Hairfall Defense IV Drip Therapy</b> is specially designed to combat hair thinning and hair fall by delivering essential vitamins and minerals directly into your bloodstream. This scientifically formulated <b>IV therapy in Dubai</b> targets the root causes of hair loss and scalp health issues, promoting stronger, thicker, and healthier hair.",
+        "para2": "Powered by Biotin (Vitamin B7), Vitamin B12, Zinc, and other key nutrients, this drip works at the cellular level to reinforce hair follicles, reduce scalp inflammation, and stimulate healthy hair growth making it the ideal solution for anyone experiencing hair fall, thinning, or stress-related hair concerns.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Strengthen & Nourish your Hair with Hairfall Defense",
+        "benifits": [
+          "Strengthens Hair Shafts And Supports Follicle Recovery",
+          "Increases Cell Production For Healthy Hair, Skin, And Nails",
+          "Reduces Scalp Inflammation And Prevents Sodium Buildup That Leads To Hair Loss",
+          "Improves Blood Circulation To The Scalp For Enhanced Nutrient Delivery",
+          "Promotes Collagen Formation And Hydrates Skin Around Hair Follicles",
+          "Helps Combat Hair Thinning Caused By Stress, Pollution, Or Poor Diet"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Individuals Experiencing Hair Fall Or Thinning"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Those Exposed To Environmental Pollutants Affecting Scalp Health"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "People Suffering From Stress-Related Hair Loss"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Anyone Seeking To Improve Overall Hair Strength And Appearance"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 7
+          },
+          {
+            "dripid": 3
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Biotin (Vitamin B7)",
+            "txt": "Nourishes hair roots and strengthens hair shafts for improved growth and texture."
+          },
+          {
+            "name": "Vitamin B12",
+            "txt": "Enhances scalp circulation and supports healthy cell turnover critical for hair growth."
+          },
+          {
+            "name": "Zinc",
+            "txt": "Reinforces hair follicle structural integrity and reduces hair fall."
+          },
+          {
+            "name": "Additional Vitamins & Minerals",
+            "txt": "Support scalp health, reduce inflammation, and boost collagen synthesis."
+          }
+        ],
+        "faq":[
+          {
+            "question": "How does the Hairfall Defense IV Drip work?",
+            "answer": "It delivers vital nutrients directly into your bloodstream to strengthen hair follicles, reduce scalp inflammation, and stimulate new hair growth."
+          },
+          {
+            "question": "Who should consider this IV therapy?",
+            "answer": "Anyone experiencing hair fall, thinning, scalp irritation, or hair loss related to stress, pollution, or nutritional deficiencies can benefit from this drip."
+          },
+          {
+            "question": "How soon can I expect to see results?",
+            "answer": "Many clients notice stronger, healthier hair texture and reduced shedding within 2–4 weeks after starting treatments, with more significant results after multiple sessions."
+          },
+          {
+            "question": "Is the treatment safe?",
+            "answer": "Yes, all IV drips are administered by certified nurses under medical supervision, using sterile and high-quality ingredients."
+          },
+          {
+            "question": "How often should I receive the Hairfall Defense IV Drip?",
+            "answer": "Frequency depends on your condition; typically, weekly or biweekly sessions are recommended initially, followed by maintenance treatments."
+          },
+          {
+            "question": "Can I get this IV drip at home in Dubai?",
+            "answer": "Yes. Our mobile IV therapy team delivers the Hairfall Defense drip anywhere in Dubai for your convenience."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/hairfall-defense"
+      },
+      {
+        "id": 10,
+        "category": "Recovery",
+        "img": "immune-hub.webp",
+        "title": "Immune Hub",
+        "price": 699,
+        "desc": "Supercharge Your Immune Defenses",
+        "para1": "Our <b>Immunity IV Therapy</b> (known as the <b>Immune HUB IV Drip</b>) is expertly designed to enhance your body’s natural defenses and accelerate recovery from illness. This powerful <b>IV therapy in Dubai</b> delivers vital immune-supporting vitamins and minerals directly into your bloodstream, ensuring rapid absorption and maximum effectiveness.",
+        "para2": "Ideal for those fighting viral infections, prone to frequent sickness, or looking for a preventive immunity boost during flu season, our Immune HUB drip combines clinically proven ingredients like Vitamin C, Zinc, and Essential B-Complex Vitamin to supercharge your immune system, increase antioxidant protection, and restore your energy levels.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reinforce Your Auto-Immune Defenses with immune booster drip",
+        "benifits": [
+          "Strengthens Immune System To Combat Viruses, Colds, And Infections Effectively",
+          "Boosts Antioxidant Defenses To Naturally Detoxify Your Body",
+          "Increases Energy Levels And Reduces Fatigue During Illness Or Recovery",
+          "Enhances Natural Defenses For Improved Overall Wellness",
+          "Perfect Preventive Therapy During High-Risk Flu And Infection Seasons"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "People Battling Viral Infections, Colds, Or Flu"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Those Prone To Frequent Illness Or Weakened Immunity"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Individuals Feeling Fatigued Or Under The Weather"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Anyone Seeking Proactive Immune Health Support"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 3
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 7
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Vitamin C",
+            "txt": "A powerful antioxidant that enhances immune function and protects cells from oxidative stress"
+          },
+          {
+            "name": "Zinc",
+            "txt": "Essential mineral that supports immunity, promotes wound healing, and maintains healthy vision"
+          },
+          {
+            "name": "Essential B-Complex Vitamin",
+            "txt": "Boosts energy production, reduces tiredness, and supports overall vitality"
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Immunity IV Therapy?",
+            "answer": "Immunity IV Therapy is a vitamin infusion that delivers immune-supporting nutrients directly into your bloodstream for fast and effective immune enhancement."
+          },
+          {
+            "question": "Who should consider Immunity IV Therapy in Dubai?",
+            "answer": "Anyone recovering from illness, prone to infections, or seeking to boost their immunity, especially during flu season or high-risk periods."
+          },
+          {
+            "question": "How soon will I notice benefits?",
+            "answer": "Many clients experience increased energy and improved immune response within 24 to 48 hours."
+          },
+          {
+            "question": "Is Immunity IV Therapy safe?",
+            "answer": "Yes, treatments are administered by qualified medical professionals using sterile equipment and high-quality ingredients."
+          },
+          {
+            "question": "How often should I get Immunity IV Therapy?",
+            "answer": "Frequency depends on your individual health goals; our team will recommend a personalized schedule."
+          },
+          {
+            "question": "Can I get Immunity IV Therapy at home in Dubai?",
+            "answer": "Absolutely. Our mobile IV therapy service brings the treatment to your home, office, or hotel anywhere across Dubai."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/immune-hub"
+      },
+      {
+        "id": 11,
+        "category": "Wellness",
+        "img": "womens-health-hub.webp",
+        "title": "Women's Health Hub",
+        "price": 999,
+        "desc": "A drip specifically designed for the ladies!",
+        "para1": "At IV Wellness Lounge Dubai, our <b>Women’s Health IV Drip Therapy</b>—also known as the <b>Women’s Health HUB</b>—is carefully formulated to support the unique health needs of women. This advanced <b>IV drip in Dubai</b> delivers essential vitamins and minerals directly into your bloodstream, ensuring rapid absorption and immediate benefits.",
+        "para2": "Whether you're dealing with fatigue, irregular menstrual cycles, low immunity, or hormonal imbalances, our <b>IV therapy in Dubai</b> addresses nutritional deficiencies, boosts energy, and supports mood, bone health, and hormonal regulation. With a potent combination of Iron, Vitamin B Complex, Vitamin D, and more, this drip therapy is designed to help women feel balanced, energized, and revitalized.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Boost Your Energy with Natural energy boosters",
+        "benifits": [
+          "Restores Essential Vitamins And Minerals For Overall Well-Being",
+          "Improves Bone Density And Supports A Regular Menstrual Cycle",
+          "Boosts Energy Production And Combats Fatigue",
+          "Enhances Mood And Reduces Mental Fog And Stress",
+          "Strengthens Immunity And Supports Better Sleep",
+          "Helps In Hormonal Balance And Skin Health"
+        ],
+        "benifitList": [
+           {
+            "icon": "icon2.png",
+            "txt": "Chronic Fatigue Or Low Energy"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Irregular Menstrual Cycles Or PMS Symptoms"
+          },
+          {
+            "icon": "icon1.png",
+            "txt": "Low Immunity Or Post-Illness Recovery"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Vitamin D Or Iron Deficiencies"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Brain Fog, Poor Concentration, Or Mood Swings"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post-Travel Recovery And Jet Lag"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "High Stress Or Sleep Deprivation"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 3
+          },
+          {
+            "dripid": 7
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Iron",
+            "txt": "Supports energy production, immune function, and oxygen transport."
+          },
+          {
+            "name": "Vitamin B Complex",
+            "txt": "Helps with stress response, hormone balance, red blood cell production, and cognitive clarity."
+          },
+          {
+            "name": "Vitamin D",
+            "txt": "Critical for bone health, immune support, and muscle strength."
+          },
+          {
+            "name": "Calcium & Magnesium (Optional Add-Ons)",
+            "txt": "Aid in muscle recovery, bone density, and menstrual regulation."
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is Women’s Health IV Therapy?",
+            "answer": "It’s a specially designed IV drip therapy for women that delivers essential vitamins and minerals directly into the bloodstream to support energy, hormonal balance, mood, and overall well-being."
+          },
+          {
+            "question": "Who should consider this IV therapy in Dubai?",
+            "answer": "Women dealing with fatigue, irregular periods, low immunity, vitamin deficiencies, or those seeking to improve their health holistically."
+          },
+          {
+            "question": "How quickly will I feel the effects?",
+            "answer": "Many clients report feeling more energized, mentally clear, and balanced within 24–48 hours of treatment."
+          },
+          {
+            "question": "Is it safe?",
+            "answer": "Yes, all our IV drips are administered by qualified medical professionals in a sterile, controlled environment using medical-grade nutrients."
+          },
+          {
+            "question": "Can I book this IV drip at home in Dubai?",
+            "answer": "Absolutely. We offer mobile IV therapy across Dubai, so you can enjoy your session in the comfort of your home or office."
+          },
+          {
+            "question": "How often should I take this IV therapy?",
+            "answer": "Frequency depends on your health needs. Our medical team will guide you with a personalized schedule."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/womens-health-hub"
+      },
+      {
+        "id": 12,
+        "category": "Fitness",
+        "img": "iv-supreme.webp",
+        "title": "IV Wellness Supreme",
+        "price": 1999,
+        "desc": "Reverse the signs of aging",
+        "para1": "<b>Experience the ultimate in cellular rejuvenation with IV Wellness Supreme IV Drip, Dubai’s most comprehensive IV therapy.</b> Formulated to target immunity, detox, energy, and recovery, this advanced IV drip therapy supports your body at the deepest cellular level. Rich in essential vitamins, antioxidants, amino acids, and metabolic coenzymes, the Supreme Drip revitalizes every system in your body restoring energy, enhancing immunity, and promoting visible anti-aging benefits.",
+        "para2": "Whether you’re facing chronic fatigue, dull skin, low immunity, or simply seeking long-term wellness, <b>IV Wellness Supreme IV Drip in Dubai</b> is your all-in-one solution to total-body rejuvenation.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Potential Benefits:",
+        "benifits": [
+          "Boosts Energy Naturally By Enhancing Mitochondrial Function And Cellular Repair",
+          "Strengthens Immunity, Helping Your Body Stay Resilient Year-Round",
+          "Promotes Anti-Aging, Brighter Skin, And Improved Hair And Nail Health",
+          "Detoxifies The Body, Flushing Toxins And Reducing Oxidative Stress",
+          "Improves Mental Focus, Clarity, And Stress Response",
+          "Speeds Up Muscle Recovery And Physical Performance",
+          "Rehydrates Deeply And Restores Vital Nutrients",
+          "Improves Sleep And Supports Nervous System Balance",
+          "Supports Healthy Metabolism And DNA Protection"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Aging Skin"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Cellular Damage"
+          },
+          {
+            "icon": "icon1.png",
+            "txt": "Post-Illness Recovery"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Low Immunity"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Brain Fog"
+          },
+          {
+            "icon": "icon14.png",
+            "txt": "Sleep Issues"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Anyone Looking To Restore Peak Vitality"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "FOLIC ACID",
+            "txt": "Promotes red blood cell production and healthy cell repair for enhanced vitality."
+          },
+          {
+            "name": "MAGNESIUM CHLORIDE",
+            "txt": "Reduces stress, enhances sleep quality, and supports muscle relaxation."
+          },
+          {
+            "name": "HYDROCOBALAMIN (VIT.B12)",
+            "txt": "Boosts energy production, sharpens mental focus, and supports nerve health."
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Brightens the skin, strengthens immunity, and combats oxidative damage."
+          },
+          {
+            "name": "NAD+ (Nicotinamide Adenine Dinucleotide)",
+            "txt": "Fuels cellular metabolism, enhances energy output, and supports optimal recovery."
+          },
+          {
+            "name": "Glutathione",
+            "txt": "The body's master antioxidant, detoxifying cells and promoting radiant skin."
+          },
+          {
+            "name": "Amino Acids Blend",
+            "txt": "Essential for muscle repair, faster recovery, and optimized tissue regeneration."
+          },
+          {
+            "name": "Zinc and Selenium",
+            "txt": "Powerful minerals that fortify the immune system and promote skin healing."
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is IV Wellness Supreme Drip Therapy?",
+            "answer": "It’s our most advanced IV drip in Dubai, combining immunity boosters, detox agents, energy enhancers, and anti-aging compounds in a single infusion. Designed to rejuvenate at the cellular level."
+          },
+          {
+            "question": "How long does the session take?",
+            "answer": "Each session typically lasts 45–60 minutes, with effects that can be felt immediately or within 24 hours."
+          },
+          {
+            "question": "How often should I get this IV therapy?",
+            "answer": "For optimal results, we recommend 1–2 sessions per month, depending on your lifestyle and wellness goals."
+          },
+          {
+            "question": "Is the IV Wellness Supreme Drip safe?",
+            "answer": "Yes, all our drips are administered by licensed professionals and formulated with clinically proven ingredients."
+          },
+          {
+            "question": "Can I get this IV drip therapy at home in Dubai?",
+            "answer": "Absolutely. We offer premium at-home IV drip therapy services across Dubai for your comfort and convenience."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/iv-wellness-supreme"
+      },
+      {
+        "id": 13,
+        "category": "Wellness",
+        "img": "zeus-drip.webp",
+        "title": "Zeus Drip",
+        "price": 1299,
+        "desc": "Get your fertility game back on track with this Zeus Drip.",
+        "para1": "The Zeus IV Drip is a specialized fertility-focused IV therapy in Dubai, formulated to detoxify the body, restore hormonal balance, and support reproductive health in men. Designed for those experiencing fertility concerns due to oxidative stress, poor diet, or environmental exposure, this IV drip therapy delivers a powerful blend of antioxidants, amino acids, vitamins, and minerals directly into the bloodstream for maximum absorption and effectiveness.",
+        "para2": "By targeting the root causes of male infertility including cellular damage and nutrient deficiencies, the Zeus Drip enhances sperm quality, boosts testosterone production, and strengthens your body’s internal systems to prepare for successful conception.",
+        "para3": "Whether you're looking to improve your chances of natural fertility or support other reproductive treatments, this IV drip in Dubai is a safe, non-invasive way to optimize your health from within.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reignite Your Fertility Journey",
+        "benifits": [
+          "Detoxifies The Body By Neutralizing Free Radicals",
+          "Enhances Sperm Quality And Motility",
+          "Supports Testosterone Production And Male Hormone Balance",
+          "Strengthens Immune Function",
+          "Reduces Oxidative Stress, A Key Cause Of Male Infertility",
+          "Replenishes Critical Nutrients Often Lost Due To Poor Diet Or Stress",
+          "Improves Overall Energy, Stamina, And Vitality"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Actively Trying To Conceive And Want To Enhance Fertility Naturally"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Experiencing Reduced Sperm Count, Motility, Or Quality"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Facing Oxidative Stress Due To Poor Lifestyle, Smoking, Or Pollution"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Recovering From Illness Or Long-Term Nutrient Deficiencies"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Looking To Boost Testosterone Levels And Hormonal Balance"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Undergoing Fertility Treatments And Seeking Complementary Support"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Wanting To Detox The Reproductive System For Better Overall Wellness"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Exposed To Environmental Toxins That May Affect Reproductive Health"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "ALA (Alpha Lipoic Acid)",
+            "txt": "Improves sperm quality and protects against oxidative stress."
+          },
+          {
+            "name": "Zinc",
+            "txt": "Supports sperm production, testosterone levels, and immune health."
+          },
+          {
+            "name": "Selenium",
+            "txt": "Enhances sperm motility and DNA integrity."
+          },
+          {
+            "name": "Carnitine",
+            "txt": "Boosts energy in sperm cells for better performance."
+          },
+          {
+            "name": "5-MTHF (Activated Folate)",
+            "txt": "Supports DNA synthesis and reproductive cell health."
+          },
+          {
+            "name": "Vitamin C",
+            "txt": "Protects against oxidative damage and supports hormonal function."
+          },
+          {
+            "name": "Vitamin B12 (Hydroxycobalamin)",
+            "txt": "Enhances energy metabolism and nerve health."
+          },
+          {
+            "name": "CoQ10",
+            "txt": "Improves mitochondrial function and DNA protection in sperm."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Who is the Zeus IV Drip designed for?",
+            "answer": "This IV drip is specifically formulated for men facing fertility challenges, oxidative stress, or hormonal imbalance. It’s ideal for those preparing for conception or seeking to improve sperm health."
+          },
+          {
+            "question": "Can I take this drip along with fertility treatments or supplements?",
+            "answer": "Yes. Zeus IV therapy is safe to combine with fertility supplements and reproductive treatments. We recommend consulting your physician for a coordinated plan."
+          },
+          {
+            "question": "How often should I take this IV Drip?",
+            "answer": "For fertility optimization, we typically recommend weekly sessions over 4–6 weeks. Our wellness consultants can create a personalized plan based on your needs."
+          },
+          {
+            "question": "Is it available as a home IV drip service in Dubai?",
+            "answer": "Absolutely. IV Wellness Lounge offers home IV therapy services across Dubai for your comfort and privacy."
+          },
+          {
+            "question": "Are there any side effects?",
+            "answer": "Our drips are formulated using pharmaceutical-grade ingredients. Most clients experience enhanced energy and improved wellness with no downtime."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/zeus-drip"
+      },
+      {
+        "id": 14,
+        "category": "Wellness",
+        "img": "queen-victoria-drip.webp",
+        "title": "Queen Victoria Drip",
+        "price": 1299,
+        "desc": "Revitalize, Empower, Conceive: Elevate Your Fertility Journey with IV Therapy",
+        "para1": "We offer <b>Queen Victoria IV Drip Therapy in Dubai</b>, a specially curated IV treatment designed to support female fertility, enhance egg quality, and create an internal environment optimal for conception. Unlike oral supplements, this powerful <b>IV drip therapy</b> delivers a precise blend of fertility-boosting nutrients directly into your bloodstream for faster absorption and greater efficacy.",
+        "para2": "This advanced <b>IV therapy in Dubai</b> combines essential ingredients such as <b>5-MTHF</b>, <b>CoQ10</b>, <b>Vitamin C</b>, <b>Magnesium</b>, <b>Acetylcysteine</b>, and <b>Zinc</b>, which are clinically known to support reproductive wellness, improve mitochondrial function, and reduce oxidative stress that could impede fertility. Whether you're preparing for conception or supporting IVF treatments, the <b>Queen Victoria IV Drip</b> offers comprehensive fertility support for women.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Elevating Hope, Restoring Possibilities: Female Fertility IV Therapy for Your Journey Ahead",
+        "benifits": [
+          "Enhances female fertility and reproductive function",
+          "Improves egg quality and supports embryo development",
+          "Replenishes essential fertility vitamins and nutrients",
+          "Helps reduce the risk of implantation failure and miscarriage",
+          "Detoxifies the body and neutralizes harmful free radicals",
+          "Strengthens immune system function during pre-conception",
+          "Supports hormonal balance and cellular health"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Those with poor diet, stress"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Preconception wellness and reproductive system detox"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Those with vitamin deficiencies"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "ALA",
+            "txt": "Improves egg quality and supports mitochondrial function"
+          },
+          {
+            "name": "Magnesium",
+            "txt": "Relieves stress, improves sleep, and reduces PMS symptoms"
+          },
+          {
+            "name": "COQ10",
+            "txt": "Supports skin repair, boosts energy production, and reduces oxidative stress"
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is the Queen Victoria IV Drip?",
+            "answer": "It is a fertility-focused IV therapy designed to deliver essential nutrients directly into your bloodstream to support egg quality, fertility, and hormonal balance in women."
+          },
+          {
+            "question": "How often should I take the Queen Victoria Drip?",
+            "answer": "We recommend consulting with our medical team, but typically 1–2 sessions per week during the pre-conception or IVF preparation phase can be ideal."
+          },
+          {
+            "question": "Can this IV drip be combined with fertility treatments?",
+            "answer": "Yes. Queen Victoria Drip complements fertility treatments like IUI, IVF, and egg freezing by strengthening your body from within."
+          },
+          {
+            "question": "Is it safe to take during pregnancy?",
+            "answer": "This drip is designed for pre-conception and fertility optimization. If you’re already pregnant, our medical team can suggest safer alternatives based on your trimester and health status."
+          },
+          {
+            "question": "Do I need a blood test before the session?",
+            "answer": "Not always, but it's recommended if you’ve had a history of deficiencies or fertility issues. Our team can guide you during your first consultation."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/queen-victoria-drip"
+      },
+      {
+        "id": 15,
+        "category": "Wellness",
+        "img": "chelation-therapy.webp",
+        "title": "Chelation Therapy",
+        "price": 1299,
+        "desc": "Detoxify your body of heavy metals",
+        "para1": "We offer <b>Chelation IV Therapy in Dubai</b>, a medically supervised treatment that helps detox your body from harmful heavy metals such as lead, mercury, arsenic, and aluminum. These toxic substances often accumulate silently through everyday exposure to polluted air, contaminated water, industrial environments, and even some foods. Over time, they can interfere with your body’s ability to function optimally, contributing to fatigue, chronic illness, cardiovascular disease, and cognitive decline.",
+        "para2": "Our <b>Chelation IV Drip</b> uses powerful chelating agents delivered directly into your bloodstream, allowing for efficient binding and removal of heavy metals from the body. Whether you're seeking improved cardiovascular health, enhanced mental clarity, or overall detoxification, this <b>IV therapy in Dubai</b> is ideal for resetting your system from the inside out.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Cleanse from Within with Chelation Therapy",
+        "benifits": [
+          "Detoxifies The Body By Removing Harmful Heavy Metals",
+          "May Reduce The Risk Of Certain Chronic Illnesses And Cancer",
+          "Supports Cardiovascular Health And Helps Lower Blood Pressure",
+          "Enhances Cognitive Function And May Slow Progression Of Alzheimer’s",
+          "Boosts Energy Levels And Reduces Chronic Fatigue",
+          "Improves Circulation And Reduces Inflammation In The Body",
+          "Supports Anti-Aging And Overall Cellular Wellness"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Individuals Exposed To Pollution, Industrial Environments, Or Contaminated Food/Water"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Patients With Chronic Fatigue, Memory Issues, Or Cardiovascular Concerns"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "People Experiencing Symptoms Of Heavy Metal Toxicity"
+          },
+          {
+            "icon": "icon4.png",
+            "txt": "Preventive Wellness Seekers Wanting A Deep Internal Detox"
+          }
+        ],
+        "extraData": [
+        ],
+        "faq":[
+          {
+            "question": "What is Chelation IV Therapy?",
+            "answer": "Chelation therapy is a detox treatment that uses IV-delivered chelating agents to bind and remove heavy metals from the bloodstream, helping improve overall health and prevent toxicity-related diseases."
+          },
+          {
+            "question": "How many sessions are required?",
+            "answer": "A typical chelation therapy plan may include 5–10 sessions, depending on your toxic load and treatment goals. Our medical team will recommend a protocol after your initial consultation."
+          },
+          {
+            "question": "Is this treatment safe?",
+            "answer": "Yes, when performed under the supervision of qualified medical professionals like at IV Wellness Lounge, chelation therapy is safe and well-tolerated."
+          },
+          {
+            "question": "Can I take this as a preventive measure?",
+            "answer": "Absolutely. Many of our clients opt for Chelation IV Drips as part of their regular detox routine to maintain optimal health, especially in an urban environment like Dubai."
+          },
+          {
+            "question": "Are there any side effects?",
+            "answer": "Most clients report feeling more energized and clear-headed post-treatment. Mild side effects such as slight fatigue or increased urination may occur temporarily as your body flushes out toxins."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/chelation-therapy"
+      },
+      {
+        "id": 16,
+        "category": "Wellness",
+        "img": "performance-support.webp",
+        "title": "Performance Support",
+        "price": 1299,
+        "desc": "Unlock your muscle recovery potential with THE Amino Blend",
+        "para1": "We offer <b>Performance Support IV Therapy in Dubai</b>, a specialized IV drip designed to fuel your fitness goals, speed up muscle recovery, and naturally enhance vitality including athletic stamina and sexual wellness. Whether you’re an athlete, a regular gym-goer, or simply want to fight fatigue and improve overall physical performance, this powerful <b>IV therapy in Dubai</b> is tailored to support your body’s active demands.",
+        "para2": "Formulated with a potent blend of <b>L-Carnitine</b>, <b>Taurine</b>, <b>Arginine</b>, and <b>BCAAs</b> (Valine, Leucine, and Isoleucine), our Performance Support IV Drip delivers essential amino acids directly into your bloodstream ensuring maximum absorption, rapid recovery, and enhanced endurance without putting stress on your digestive system.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Ignites your energy reserve",
+        "benifits": [
+          "Boosts Physical Performance And Endurance During Workouts",
+          "Supports Faster Muscle Recovery And Reduces Soreness Post-Exercise",
+          "Enhances Vitality, Energy Levels, And Sexual Health",
+          "Aids In Muscle Repair, Growth, And Overall Physical Wellness",
+          "Helps Reduce Post-Workout Fatigue And Stiffness",
+          "Ideal For Those Recovering After Travel, Illness, Or High Physical Exertion"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Fatigue"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Muscle Loss"
+          },
+          {
+            "icon": "icon16.png",
+            "txt": "Muscle Soreness and Stiffness"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Post Vacation"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Prolonged Recovery Time after Excercing"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "L-Carnitine",
+            "txt": "A hunger-suppressing nutrient that aids weight loss by transporting long-chain fatty acids into mitochondria, enhancing energy production."
+          },
+          {
+            "name": "Taurine",
+            "txt": "Essential for boosting athletic performance by reducing muscle fatigue and supporting overall muscle function and endurance."
+          },
+          {
+            "name": "Arginine",
+            "txt": "Promotes vasodilation to improve blood flow and nutrient delivery to muscles during exercise, leading to enhanced performance and faster recovery."
+          },
+          {
+            "name": "Valine, Leucine, And Isoleucine (BCAAs)",
+            "txt": "Branched-chain amino acids critical for muscle growth, repair, and recovery after intense workouts by aiding protein synthesis and minimizing muscle breakdown."
+          }
+        ],
+        "faq":[
+           {
+              "question": "What is Performance Support IV Therapy?",
+              "answer": "It’s a targeted IV drip that delivers key amino acids directly into your bloodstream to help improve gym performance, energy, recovery, and endurance."
+            },
+            {
+              "question": "What does this IV drip contain?",
+              "answer": "Our formula includes L-Carnitine (fat metabolism), Taurine (muscle endurance), Arginine (improves blood flow), and BCAAs (Valine, Leucine, Isoleucine) for muscle support and recovery."
+            },
+            {
+              "question": "How soon will I feel the effects?",
+              "answer": "Many clients report increased energy and reduced fatigue within hours of treatment, especially after workouts or travel."
+            },
+            {
+              "question": "Can this be used as part of my fitness plan?",
+              "answer": "Absolutely. This IV drip is ideal as part of a weekly or bi-weekly regimen to support your performance and recovery goals."
+            },
+            {
+              "question": "Is this treatment safe?",
+              "answer": "Yes. All IV drips at IV Wellness Lounge are administered by licensed medical professionals in a clean, certified wellness environment."
+            }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/performance-support"
+      },
+      {
+        "id": 17,
+        "category": "Wellness",
+        "img": "royal-cleanse.webp",
+        "title": "Royal Cleanse",
+        "price": 1499,
+        "desc": "Experience the ultimate detox with the king of cleanses",
+        "para1": "Experience the ultimate body detox with <b>Royal Cleanse IV Therapy in Dubai</b>, exclusively at <b>IV Wellness Lounge</b>. This premium <b>IV drip</b> is expertly formulated to support full-body detoxification, gut health restoration, and liver rejuvenation helping you reset, refresh, and recharge from within.",
+        "para2": "The <b>Royal Cleanse IV Drip</b> delivers a high-dose infusion of detoxifying agents like <b>Glutathione</b>, <b>NAC</b>, <b>TMG</b>, <b>MSM</b>, and <b>DMSO</b>, designed to sweep out accumulated toxins, reduce oxidative stress, and support cellular health. This is not just an <b>IV therapy</b>—it’s a royal reset for your entire system.",
+        "para3": "Whether you're looking to bounce back from fatigue, manage inflammation, or simply want to give your body a clean slate, <b>IV Wellness Lounge’s Royal Cleanse</b> is your go-to IV therapy in Dubai for deep cellular detox and immune support.",
+        "discount": 20,
+        "benifitImg": null,
+        "benifits": [
+          "Deep Detoxification At A Cellular Level",
+          "Liver Support And Antioxidant Protection",
+          "Supports Skin Clarity And Brightness Through Glutathione",
+          "Reduces Inflammation And Oxidative Stress",
+          "Enhances Immune Function And Gut Health",
+          "Restores Energy, Clarity, And Internal Balance"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Individuals Feeling Sluggish Or Fatigued"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "People Recovering From Heavy Travel, Alcohol, Or Stress"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Anyone Wanting To Reset Their System After Illness Or Inflammation"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Clients Seeking Glowing Skin And Internal Wellness"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Those Looking For A Powerful Immune And Liver Detox In Dubai"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Glutathione",
+            "txt": "The master antioxidant that detoxifies the liver, supports skin brightening, and reduces oxidative stress."
+          },
+          {
+            "name": "DMSO (Dimethyl Sulfoxide)",
+            "txt": "Enhances cellular penetration of nutrients and reduces oxidative damage."
+          },
+          {
+            "name": "MSM (Methylsulfonylmethane)",
+            "txt": "Supports detox pathways, strengthens gut lining, and offers antioxidant protection."
+          },
+          {
+            "name": "Trimethylglycine (TMG)",
+            "txt": "Aids liver detoxification and supports methylation processes essential for cellular repair."
+          }  
+        ],
+        "faq":[
+          {
+            "question": "What is Royal Cleanse IV Therapy?",
+            "answer": "Royal Cleanse is an advanced IV drip designed to detox your body, boost liver function, support gut health, and provide antioxidant protection—all in one therapy."
+          },
+          {
+            "question": "What are the main ingredients in this IV drip?",
+            "answer": "This therapy features Glutathione (master antioxidant), NAC (liver detox support), MSM (gut lining repair), TMG (methylation support), and DMSO (anti-inflammatory and cellular penetration)."
+          },
+          {
+            "question": "How often should I take this IV therapy?",
+            "answer": "Depending on your lifestyle and detox needs, clients often opt for this therapy once every 2–4 weeks or as recommended by our in-house doctor."
+          },
+          {
+            "question": "Is Royal Cleanse safe for regular use?",
+            "answer": "Yes, when administered under medical supervision. Our team ensures each client’s treatment is tailored to their health status and goals."
+          },
+          {
+            "question": "Can I get this IV drip at home in Dubai?",
+            "answer": "Absolutely. We offer safe and convenient at-home IV drip therapy across Dubai—our licensed nurse will bring the clinic to your doorstep."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/royal-cleanse"
+      },
+      {
+        "id": 18,
+        "category": "Recovery",
+        "img": "recovery-hub-anti-stress.webp",
+        "title": "Recovery Hub (Anti-Stress)",
+        "price": 999,
+        "desc": "Best for recovery, after a flu / illness or an injury and improves sleep patterns",
+        "para1": "Experience deep relaxation and faster recovery with <b>Recovery Hub (Anti-Stress) IV Therapy in Dubai</b> at IV Wellness Lounge. This specialized IV drip is designed to combat adrenal fatigue, reduce stress, and promote restful sleep, helping you recharge both physically and mentally.",
+        "para2": "Our Recovery Hub IV therapy delivers essential nutrients directly into your bloodstream for maximum absorption, providing rapid relief from fatigue, mental fog, and low immunity caused by modern-day stressors and pollutant exposure. Perfect for anyone needing a natural boost to unwind, restore energy, and improve overall well-being.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get On Your Feet With Recovery hub drip",
+        "benifits": [
+          "Alleviates Adrenal Fatigue And Reduces Stress Hormone Levels",
+          "Enhances Sleep Quality For Natural Restoration",
+          "Supports Immune System Health And Tissue Repair",
+          "Relieves Muscle Cramps And Calms The Nervous System",
+          "Boosts Mental Clarity And Reduces Brain Fog",
+          "Improves Overall Energy And Combats Feelings Of Being 'Under The Weather'",
+          "Helps Detoxify Effects Of Pollution And Environmental Toxins"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon14.png",
+            "txt": "Individuals Experiencing Chronic Stress And Mental Fatigue"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Those Suffering From Adrenal Fatigue And Low Energy Levels"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "People With Sleep Disturbances Or Poor Sleep Quality"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Clients Exposed To Environmental Pollutants Seeking Detox Support"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Anyone Feeling Mentally Foggy Or Emotionally Overwhelmed"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Individuals Needing Immune System Support During Stressful Periods"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Professionals With Demanding Lifestyles Requiring Fast Recovery And Relaxation"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 3
+          },
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 10
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Zinc",
+            "txt": "Enhances immune function and supports tissue healing"
+          },
+          {
+            "name": "Magnesium Sulfate",
+            "txt": "Relieves muscle cramps, calms the nervous system, and reduces fatigue"
+          },
+          {
+            "name": "Glutamine",
+            "txt": "Supports cognitive function, mood stabilization, and overall mental well-being"
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Recovery Hub IV Therapy?",
+            "answer": "It is an IV drip treatment designed to reduce stress, fight adrenal fatigue, and improve sleep quality by delivering essential nutrients directly into your bloodstream."
+          },
+          {
+            "question": "Who should consider this IV therapy?",
+            "answer": "Ideal for individuals experiencing fatigue, stress, sleep disturbances, low immunity, or mental fog, especially those living in high-stress environments like Dubai."
+          },
+          {
+            "question": "How long does a Recovery Hub IV session take?",
+            "answer": "Sessions typically last 45 minutes to 1 hour depending on individual treatment plans."
+          },
+          {
+            "question": "Is this IV therapy safe?",
+            "answer": "Yes, the therapy is safe when administered by licensed healthcare professionals following strict clinical standards."
+          },
+          {
+            "question": "How soon can I expect results?",
+            "answer": "Many clients report feeling more relaxed and energized within hours after the session, with improved sleep following the treatment."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/recovery-hub-anti-stress"
+      },
+      {
+        "id": 19,
+        "category": "Recovery",
+        "img": "post-party-hub.webp",
+        "title": "Post Party Hub",
+        "price": 899,
+        "desc": "Severe Hangover, Illness and Jetlag",
+        "para1": "Recover quickly from the effects of alcohol with our premium Hangover <b>IV Therapy</b> in Dubai, available exclusively at <b>IV Wellness Lounge</b>. This advanced <b>IV drip</b> for hangovers is specially formulated to restore hydration, flush out toxins, and replenish vital nutrients lost after a night of drinking.",
+        "para2": "<p>Our powerful hangover recovery <b>IV drip</b> includes a medical-grade blend of:</p><ul><li>Vitamin B12 – for energy and mental clarity</li><li>B-Complex Vitamins – to combat fatigue and boost metabolism</li><li>Magnesium – to relax muscles and reduce headaches</li><li>Vitamin C – to support immunity and detoxification</li><li>Thiamine (Vitamin B1) – essential for alcohol metabolism</li></ul>",
+        "para3": "Whether you're suffering from dehydration, nausea, headache, or exhaustion, our hangover treatment IV drip is designed to relieve symptoms fast and help you feel revitalized. Experience full-body recovery in a relaxing, spa-like environment and get back to your day with renewed energy.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with Post Party Hub Drip",
+        "benifits": [
+          "Rapidly Replenishes Electrolytes And Rehydrates The Body",
+          "Supports Liver Detoxification And Improves Liver Function",
+          "Reduces Nausea, Dizziness, And Muscle Aches Caused By Alcohol",
+          "Boosts Immune System And Increases Vitality",
+          "Helps Relieve Symptoms Of Food Poisoning, Jet Lag, And Inflammation",
+          "Enhances Overall Energy And Mental Clarity"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon7.png",
+            "txt": "Individuals Recovering From Hangovers And Alcohol-Induced Dehydration"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Those Experiencing Nausea, Dizziness, Or Muscle Aches After Partying"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "People Dealing With Symptoms Of Fatigue And Low Energy Following Social Events"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Travelers Suffering From Jet Lag And Electrolyte Imbalance"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Anyone Needing A Quick Detox And Immune Boost After Alcohol Consumption"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Clients Looking For Fast Rehydration And Enhanced Liver Support"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 10
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 3
+          }
+        ],
+        "extraData": [
+          {
+            "name": "500 ml RL",
+            "txt": "Restores electrolyte balance and promotes hydration by increasing urine production"
+          },
+          {
+            "name": "Glutathione",
+            "txt": "Master antioxidant that detoxifies the liver, reduces oxidative stress, and supports skin health"
+          },
+          {
+            "name": "Thiamine HCL",
+            "txt": "Replenishes thiamine levels depleted by alcohol, supporting energy metabolism and neurological function"
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Post Party Hub IV Therapy?",
+            "answer": "It is a specialized IV drip designed to quickly rehydrate and replenish essential nutrients lost after alcohol consumption, aiding rapid recovery from hangovers."
+          },
+          {
+            "question": "Who can benefit from this therapy?",
+            "answer": "Anyone experiencing hangover symptoms, dehydration, low energy, nausea, or fatigue after partying, traveling, or excessive alcohol intake."
+          },
+          {
+            "question": "How long does a session take?",
+            "answer": "The typical Post Party Hub IV therapy session lasts about 45 minutes to 1 hour."
+          },
+          {
+            "question": "Is the treatment safe?",
+            "answer": "Yes, it is administered by licensed medical professionals following strict safety protocols."
+          },
+          {
+            "question": "When will I feel better after the treatment?",
+            "answer": "Most clients notice improvement in symptoms such as nausea and fatigue within a few hours post-treatment."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/hangover-iv-drip"
+      },
+      {
+        "id": 20,
+        "category": "Recovery",
+        "img": "hydration-hub-express.webp",
+        "title": "Hydration Hub Express",
+        "price": 299,
+        "desc": "For Dehydrated you",
+        "para1": "Experience rapid and effective rehydration with our <b>Hydration IV Therapy in Dubai</b> at IV Wellness Lounge. Designed to replenish vital fluids and electrolytes lost due to dehydration, illness, or environmental stressors, this IV drip supports your body's natural balance and enhances recovery.",
+        "para2": "Whether you’re feeling under the weather, battling nausea, or recovering from food poisoning or excessive heat, our Hydration IV drip restores hydration at the cellular level, promoting overall wellness and vitality.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with IV hydration drip",
+        "benifits": [
+          "Rapidly Restores Hydration And Electrolyte Balance",
+          "Supports Recovery From Dehydration Caused By Illness, Food Poisoning, Or Alcohol Consumption",
+          "Protects The Body From Toxins And Environmental Pollutants",
+          "Enhances Energy Levels And Mental Clarity",
+          "Promotes Overall Well-Being And Faster Recovery",
+          "Safe, Non-Invasive, And Clinically Supervised IV Therapy"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon9.png",
+            "txt": "Individuals Experiencing Dehydration From Illness, Heat, Or Physical Exertion"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Those Recovering From Food Poisoning Or Stomach Upset"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "People Suffering From Hangovers Or Alcohol-Induced Dehydration"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Athletes And Fitness Enthusiasts Needing Rapid Rehydration"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Anyone Exposed To Environmental Pollutants And Toxins"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Individuals Feeling Fatigued, Nauseous, Or Under The Weather Due To Fluid Loss"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 7
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Isotonic Solution",
+            "txt": "A balanced electrolyte infusion that rapidly replenishes fluids and minerals to restore hydration"
+          },
+          {
+            "name": "Electrolyte Cocktail",
+            "txt": "A blend of essential minerals like sodium, potassium, and magnesium to boost energy, support cellular function, and maintain fluid balance"
+          }
+        ],
+        "faq":[
+          {
+            "question": "How soon will I feel the effects of the Hydration IV drip?",
+            "answer": "Most clients notice improved energy and hydration within 15 to 30 minutes after the session."
+          },
+          {
+            "question": "Is the Hydration IV drip safe?",
+            "answer": "Yes, our Hydration IV Therapy uses sterile, medical-grade solutions administered by trained professionals to ensure your safety and comfort."
+          },
+          {
+            "question": "How long does a Hydration IV session take?",
+            "answer": "Typically, the session lasts between 30 to 45 minutes, depending on individual needs."
+          },
+          {
+            "question": "Who can benefit from this therapy?",
+            "answer": "Anyone experiencing dehydration due to illness, heat exposure, physical exertion, or environmental toxins can benefit from this IV therapy."
+          },
+          {
+            "question": "Can this therapy help with hangovers?",
+            "answer": "Yes, the Hydration IV drip replenishes fluids and electrolytes lost due to alcohol, helping alleviate hangover symptoms efficiently."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/hydration-hub-express"
+      },
+      {
+        "id": 21,
+        "category": "NAD+",
+        "img": "nad-100mg.webp",
+        "title": "NAD+ 100mg",
+        "price": 999,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "<b>NAD+ IV Therapy</b> in Dubai at IV Wellness Lounge offers a powerful, science-backed infusion designed to boost cellular energy, enhance brain function, and slow the effects of aging. <b>Nicotinamide Adenine Dinucleotide (NAD)</b> is a vital coenzyme found in every cell, playing a key role in DNA repair, cellular metabolism, and neurological health.",
+        "para2": "Delivered directly into your bloodstream via <b>IV drip, NAD+ therapy</b> bypasses the digestive system for maximum absorption and effectiveness. This cutting-edge <b>IV therapy</b> supports overall wellness, promotes youthful energy, and aids recovery from chronic conditions—making it a preferred choice for individuals seeking enhanced vitality and longevity in Dubai.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "Enhances Cellular Energy Production And Mitochondrial Health",
+          "Supports DNA Repair And Slows Cellular Aging",
+          "Protects Brain Cells, Improving Focus And Mental Clarity",
+          "Aids In Muscle Recovery And Reduces Chronic Pain",
+          "Supports Addiction Recovery And Detoxification",
+          "Boosts Athletic Performance And Promotes Weight Management",
+          "Improves Sleep Quality And Regulates Circadian Rhythm",
+          "Promotes A Natural Skin Glow And Youthful Appearance"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon2.png",
+            "txt": "Individuals Experiencing Fatigue And Low Energy"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Those Seeking Anti-Aging And Cellular Regeneration"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "People Looking To Improve Mental Clarity And Cognitive Function"
+          },
+          {
+            "icon": "icon10.png",
+            "txt": "Athletes Aiming For Enhanced Performance And Faster Recovery"
+          },
+          {
+            "icon": "icon13.png",
+            "txt": "Patients Undergoing Addiction Recovery Or Detoxification"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Anyone Wanting To Support Healthy Sleep Patterns"
+          },
+          {
+            "icon": "icon7.png",
+            "txt": "Individuals Focused On Weight Management And Metabolic Health"
+          },
+          {
+            "icon": "icon1.png",
+            "txt": "Clients Interested In Achieving A Natural Skin Glow And Youthful Appearance"
+          }
+        ],
+        "secondherotitle": "Discover the Transformative Benefits of NAD+ IV Therapy in Dubai.",
+        "secondherodesc": "At IV Wellness Lounge Clinic our NAD+ IV Therapy is designed to rejuvenate your body at the cellular level, offering a range of health benefits that cater to various wellness goals.",
+        "sectioncontent": [
+          {
+            "heading": "What is NAD+",
+            "description": "Nicotinamide Adenine Dinucleotide (NAD+) is a vital coenzyme found in every cell of your body. It plays a crucial role in energy production, DNA repair, and regulating cellular functions. As we age, NAD+ levels naturally decline, leading to decreased vitality and increased susceptibility to age-related conditions."
+          },
+          {
+            "heading": "Benefits of NAD+ IV Therapy",
+            "bullets": [
+              {
+                "title": "Enhanced Energy Levels",
+                "description": "Boosts cellular energy production, combating fatigue and increasing overall vitality."
+              },
+              {
+                "title": "Improved Cognitive Function",
+                "description": "Supports brain health, enhancing memory, focus, and mental clarity."
+              },
+              {
+                "title": "Anti-Aging Effects",
+                "description": "Promotes DNA repair and cellular regeneration, reducing signs of aging."
+              },
+              {
+                "title": "Metabolic Support",
+                "description": "Aids in weight management by improving metabolic efficiency."
+              },
+              {
+                "title": "Mood Enhancement",
+                "description": "Helps alleviate symptoms of anxiety and depression by supporting neurotransmitter function."
+              },
+              {
+                "title": "Addiction Recovery Support",
+                "description": "Assists in reducing withdrawal symptoms and cravings during recovery processes."
+              }
+            ]
+          },
+          {
+            "heading": "Why Choose IV Wellness Clinic Dubai for NAD+ IV Therapy?",
+            "description": "Our clinic offers personalized NAD+ IV Therapy sessions tailored to your specific health needs. Administered by experienced healthcare professionals, our treatments ensure maximum efficacy and safety. We use high-quality, pharmaceutical-grade NAD+ to provide you with the best possible results."
+          },
+          {
+            "heading": "Book Your NAD+ IV Therapy Session Today",
+            "description": "Experience the revitalizing effects of NAD+ IV Therapy at IV Wellness Lounge Clinic Dubai."
+          }
+        ],
+        "buttonslist": [
+          {
+            "icon": "nad-100mg.webp",
+            "txt": "NAD+ 100mg",
+            "price": "999"
+          },
+          {
+            "icon": "nad-250mg.webp",
+            "txt": "NAD+ 250mg",
+            "price": "1699"
+          },
+          {
+            "icon": "nad-500mg.webp",
+            "txt": "NAD+ 500mg",
+            "price": "2599"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 3
+          }
+        ],
+        "extraData": [
+          {
+            "name": "NAD+ (Nicotinamide Adenine Dinucleotide)",
+            "txt": "Essential coenzyme that boosts cellular metabolism and supports DNA repair."
+          },
+          {
+            "name": "Isotonic Solution",
+            "txt": "Balanced electrolyte hydration to restore fluid balance and support overall health."
+          },
+          {
+            "name": "Electrolyte Cocktail",
+            "txt": "A blend of vital minerals to enhance energy, hydration, and cellular function."
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is NAD+ IV therapy?",
+            "answer": "NAD+ IV therapy is a treatment that delivers nicotinamide adenine dinucleotide directly into the bloodstream to enhance cellular function, energy, and repair."
+          },
+          {
+            "question": "How long does a typical NAD+ IV drip session take?",
+            "answer": "Sessions usually last between 1 to 2 hours, depending on the dosage and your individual health needs."
+          },
+          {
+            "question": "Is NAD+ IV therapy safe?",
+            "answer": "Yes, our therapy is administered by trained professionals using high-quality ingredients, ensuring a safe and comfortable experience."
+          },
+          {
+            "question": "How soon will I notice results?",
+            "answer": "Many clients report increased energy and mental clarity after the first session, with more significant benefits developing over a course of treatments."
+          },
+          {
+            "question": "Who can benefit from NAD+ IV therapy?",
+            "answer": "NAD+ therapy is ideal for individuals seeking anti-aging benefits, enhanced mental performance, athletic recovery, or support during addiction recovery."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+      },
+      {
+        "id":22,
+        "category": "NAD+",
+        "img": "nad-250mg.webp",
+        "title": "NAD+ 250mg",
+        "price": 1699,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "Nicotinamide Adenine Dinucleotide (NAD) is one of the most essential molecules in our body, it is a coenzyme found in each of our living cells.",
+        "para2": "NAD is the cornerstone of maintaining healthy internal organs and a healthy neurological system. This IV therapy is a holistic, all-natural solution for those suffering from chronic disease and age-related health issues, and can boost overall wellness in healthy individuals. Through a standard drip, IV delivers NAD directly to your bloodstream, bypassing the gut for full absorption. For NAD, IV infusions are preferred over orally ingested alternatives because NAD is hard to process through the gastrointestinal tract.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "General Wellness",
+          "DNA repair AND repairs damaged cells",
+          "Protects Brain Cells AND Improves Mental Health",
+          "Anti-Aging",
+          "Muscle Protection AND Reduce pain",
+          "Addiction Recovery",
+          "Enhances Athletic performance AND Weight loss",
+          "Improved Sleep Pattern"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon12.png",
+            "txt": "Natural Skin Glow"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "buttonslist": [
+          {
+            "icon": "nad-100mg.webp",
+            "txt": "NAD+ 100mg",
+            "price": "999"
+          },
+          {
+            "icon": "nad-250mg.webp",
+            "txt": "NAD+ 250mg",
+            "price": "1699"
+          },
+          {
+            "icon": "nad-500mg.webp",
+            "txt": "NAD+ 500mg",
+            "price": "2599"
+          }
+        ],
+        "extraData": [
+          
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+      },
+      {
+        "id": 23,
+        "category": "NAD+",
+        "img": "nad-500mg.webp",
+        "title": "NAD+ 500mg",
+        "price": 2599,
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "Nicotinamide Adenine Dinucleotide (NAD) is one of the most essential molecules in our body, it is a coenzyme found in each of our living cells.",
+        "para2": "NAD is the cornerstone of maintaining healthy internal organs and a healthy neurological system. This IV therapy is a holistic, all-natural solution for those suffering from chronic disease and age-related health issues, and can boost overall wellness in healthy individuals. Through a standard drip, IV delivers NAD directly to your bloodstream, bypassing the gut for full absorption. For NAD, IV infusions are preferred over orally ingested alternatives because NAD is hard to process through the gastrointestinal tract.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "General Wellness",
+          "DNA repair AND repairs damaged cells",
+          "Protects Brain Cells AND Improves Mental Health",
+          "Anti-Aging",
+          "Muscle Protection AND Reduce pain",
+          "Addiction Recovery",
+          "Enhances Athletic performance AND Weight loss",
+          "Improved Sleep Pattern"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon12.png",
+            "txt": "Natural Skin Glow"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Cellular Respiration & Mitochondria Health"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Youthful Energy"
+          }
+        ],
+        "buttonslist": [
+          {
+            "icon": "nad-100mg.webp",
+            "txt": "NAD+ 100mg",
+            "price": "999"
+          },
+          {
+            "icon": "nad-250mg.webp",
+            "txt": "NAD+ 250mg",
+            "price": "1699"
+          },
+          {
+            "icon": "nad-500mg.webp",
+            "txt": "NAD+ 500mg",
+            "price": "2599"
+          }
+        ],
+        "extraData": [
+          
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+      },
+      {
+        "id": 24,
+        "category": "Recovery",
+        "img": "ramdan-hub.webp",
+        "title": "Ramadan Hub",
+        "price": 799,
+        "desc": "To help you prepare for the holy month of Ramadan",
+        "para1": "Our <b>Ramadan IV Drip Therapy</b> is specially formulated to support your body during fasting periods by replenishing essential fluids, electrolytes, and nutrients lost during long hours without food or water. Designed to combat fatigue, dehydration, and low energy, this IV drip helps you feel stronger both mentally and physically throughout the holy month.",
+        "para2": "Whether you're preparing for Ramadan or looking to recover after fasting, this targeted <b>IV therapy in Dubai</b> ensures your body receives immediate hydration and nourishment in a safe and efficient way. Administered by medical professionals in our wellness clinic or in the comfort of your home, our <b>IV drip in Dubai</b> is the perfect way to support your health during this sacred time.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with Ramadan drip",
+        "benifits": [
+          "Rehydrates The Body Before And After Fasting",
+          "Restores Essential Electrolytes And Multivitamins",
+          "Improves Focus, Energy Levels, And Mood During Long Fasts",
+          "Supports Immunity And Recovery From Fasting-Related Fatigue",
+          "Aids In Detoxification And Preparing The Body For Fasting",
+          "Promotes Mental Clarity And Reduces Physical Weakness"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon5.png",
+            "txt": "Preparing Your Body Before The Start Of Ramadan"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Daily Support During Fasting Periods"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Recovering From Fatigue Or Dehydration"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Individuals Feeling Weak, Lightheaded, Or Low On Energy During The Day"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "People Observing Ramadan During The Summer Heat"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 10
+          },
+          {
+            "dripid": 20
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Hydration Fluids",
+            "txt": "Instantly restore lost fluids due to fasting."
+          },
+          {
+            "name": "Electrolytes",
+            "txt": "Maintain cellular balance and prevent dehydration-related fatigue."
+          },
+          {
+            "name": "Multivitamins",
+            "txt": "Boost immunity and energy naturally during fasting."
+          },
+          {
+            "name": "Trace Minerals",
+            "txt": "Help balance pH and support overall wellness during prolonged hours without food or water."
+          }
+        ],
+        "faq":[
+          {
+            "question": "What is Ramadan IV Drip Therapy?",
+            "answer": "It’s a tailored IV drip therapy formulated to help you stay hydrated, nourished, and energized before, during, and after fasting in Ramadan. It delivers fluids and essential nutrients directly into the bloodstream."
+          },
+          {
+            "question": "Is it safe to take this IV during Ramadan?",
+            "answer": "Yes, our IVs are safe and administered by licensed medical professionals. For those who want to take it before suhoor or after iftar, it is highly effective and permissible as it doesn't interfere with the fasting hours."
+          },
+          {
+            "question": "Can I take this IV Drip before Ramadan starts?",
+            "answer": "Absolutely. It is highly recommended to take it a few days before Ramadan to cleanse your body and boost hydration levels ahead of the fasting period."
+          },
+          {
+            "question": "What are the key benefits of this IV drip during fasting?",
+            "answer": "It combats dehydration, restores energy, reduces fatigue, and improves mood, helping you stay productive and focused during Ramadan."
+          },
+          {
+            "question": "Is this IV Drip available for home service in Dubai?",
+            "answer": "Yes. You can book a Ramadan IV Drip therapy in Dubai to be administered in your home, hotel, or office through our mobile wellness team."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/ramadan-hub"
+      }
+    ]
+  }
+  

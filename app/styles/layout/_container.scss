@@ -1,0 +1,40 @@
+@use '../base/variables' as vars;
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 vars.$spacing-unit;
+    display: flex;
+    flex-direction: column;
+
+    // Apply max-width for each breakpoint
+    @media (min-width: vars.$breakpoint-sm) {
+      max-width: vars.$container-sm;
+    }
+    @media (min-width: vars.$breakpoint-md) {
+      max-width: vars.$container-md;
+    }
+    @media (min-width: vars.$breakpoint-lg) {
+      max-width: vars.$container-lg;
+    }
+    @media (min-width: vars.$breakpoint-xl) {
+      max-width: vars.$container-xl;
+    }
+    @media (min-width: vars.$breakpoint-xxl) {
+      max-width: vars.$container-xxl;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: vars.$spacing-unit;
+  }
+  
+  .drips-extras .react-multi-carousel-list {
+    justify-content: center;
+}
+
+.signature-canvas{
+  background: #fff;
+}

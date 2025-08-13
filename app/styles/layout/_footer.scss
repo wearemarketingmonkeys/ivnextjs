@@ -1,0 +1,185 @@
+@use "../utilities/_mixins" as mixin;
+@use "../base/variables" as vars;
+@use "../base//fonts" as fonts;
+
+.footer-top {
+  position: relative;
+  background: linear-gradient(to right, #FCF9F5 50%, #f1e7dc 50%);
+  @include mixin.respond(lg){
+    background: #FCF9F5;
+  }
+
+  .top-wrapper{
+    display: flex;
+    align-items: center;
+    @include mixin.respond(lg){
+      flex-direction: column;
+    }
+    .left{
+      width: 50%;
+      padding: 64px 24px 64px 0;
+        
+      @include mixin.respond(xl){
+        padding: 64px 24px 64px 0;
+      }
+        
+      @include mixin.respond(lg){
+        width: 100%;
+        padding: 48px 0;
+      }
+      p{
+        margin-top: 20px;
+      }
+    }
+
+    .right{
+      width: 50%;
+      padding: 64px 0 64px 64px;
+        
+      @include mixin.respond(xl){
+        padding: 64px 0 64px 24px;
+      }
+        
+      @include mixin.respond(lg){
+        width: 100vw;
+        padding: 48px 0;
+        background-color: #f1e7dc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container{
+        padding: 0;
+        .btn-big{
+          font-size: 60px;
+          text-align: left;
+          position: relative;
+          width: max-content;
+          height: auto;
+          background-color: #f1e7dc;
+          border: none;
+          color: vars.$black-color;
+          @include mixin.respond(xxl){
+            font-size: 54px;
+          }
+          @include mixin.respond(xl){
+            font-size: 48px;
+          }
+          @include mixin.respond(lg){
+            padding: 0 1rem;
+          }
+          @include mixin.respond(sm){
+            font-size: 36px;
+          }
+          img{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            @include mixin.respond(xxl){
+              height: 36px;
+            }
+            @include mixin.respond(xl){
+              height: 32px;
+            }
+            @include mixin.respond(sm){
+              height: 24px;
+              top: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+
+  .footer-bottom {
+    background-color: vars.$black-color;
+    padding: 40px 0;
+    font-family: fonts.$font-johnston;
+    
+    .footer-wrapper{
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      @include mixin.respond(lg){
+        flex-wrap: wrap;
+      }
+      &__col {
+        width: max-content;
+
+        @include mixin.respond(lg){
+          width: calc(50% - 12px);
+        }
+        @include mixin.respond(sm){
+          width: 100%;
+        }
+        img{
+          margin-bottom: 12px;
+          height: 60px;
+          width: 60px;
+        }
+        p,
+        a{
+          font-size: 14px;
+          color: vars.$white-color;
+        }
+    
+        ul {
+          list-style: none;
+          padding: 0;
+    
+          li {
+            margin-bottom: 0.5rem;
+    
+            a {
+              text-decoration: none;
+              color: vars.$white-color;
+            }
+          }
+        }
+
+        &.social-wrap{
+          @include mixin.respond(sm){
+            display: flex;
+            flex-direction: column;
+          }
+        }
+    
+        &.footer-wrapper__social {
+          display: flex;
+          .wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            p{
+              text-transform: uppercase;
+            }
+            a{
+              display: flex;
+              align-items: center;
+              gap: 6px;
+              span{
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+        
+      &__social {
+        display: flex;
+        gap: 1rem;
+        svg {
+          font-size: 1.5rem;
+          cursor: pointer;
+  
+          &:hover {
+            color: #444;
+          }
+        }
+      }
+    }
+  }
+  
+  

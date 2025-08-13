@@ -1,0 +1,118 @@
+@use '../base/variables' as vars;
+@use '../utilities/_mixins' as mixin;
+@use '../base/fonts' as fonts;
+
+.about-us {
+  position: relative;
+
+  .details {
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      vars.$black-color 50%,
+      vars.$bg-color 50%
+    );
+    @include mixin.respond(lg){
+      background: vars.$bg-color;
+    }
+    .details-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        90deg,
+        vars.$black-color 50%,
+        vars.$bg-color 50%
+      );
+      -webkit-transform: rotate(22deg) scale(2);
+      transform: rotate(22deg) scale(2);
+      z-index: 1;
+      @include mixin.respond(lg){
+        display: none;
+      }
+    }
+    .details-wrap {
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      gap: 20%;
+      @include mixin.respond(lg){
+        flex-direction: column;
+      }
+      .left{
+        padding: 64px 0;
+        h1{
+            font-family: fonts.$font-primary;
+            font-weight: 300;
+            margin-bottom: 12px;
+        }
+        p{
+            color: vars.$white-color;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        
+      @include mixin.respond(lg){
+        background-color: vars.$black-color;
+        width: 100vw;
+      }
+      }
+      .right{
+        padding: 64px 0;
+        .container{
+          padding: 0;
+        }
+        h1{
+            font-family: fonts.$font-primary;
+            font-weight: 300;
+            margin-bottom: 12px;
+            color: vars.$black-color;
+        }
+        p{
+            color: vars.$white-color;
+            font-size: 20px;
+            line-height: 30px;
+            color: vars.$black-color;
+        }
+      }
+    }
+  }
+
+  .services {
+    background: #D2C6B4;
+    padding: 64px 0;
+
+    .services-wrap{
+      display: flex;
+      gap: 24px;
+      @include mixin.respond(lg){
+        flex-direction: column;
+        gap: 48px;
+      }
+    }
+    h2 {
+      font-size: 38px;
+      line-height: 1.5;
+      font-family: fonts.$font-primary;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-family: fonts.$font-primary;
+      font-size: 100px;
+      opacity: 0.48;
+      font-weight: 400;
+      span {
+        font-size: 28px;
+        line-height: 28px;
+      }
+    }
+    p {
+      line-height: 1.5;
+    }
+  }
+}

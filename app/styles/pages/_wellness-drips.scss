@@ -1,0 +1,147 @@
+@use "../base/variables" as vars;
+@use "../utilities/_mixins" as mixin;
+@use "../base/fonts" as fonts;
+
+.wellness-drips {
+  position: relative;
+  background-color: vars.$white-color;
+  .drips-hero {
+    height: 320px;
+    position: relative;
+    img {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      object-fit: cover;
+    }
+    .overlay {
+      background-color: #00000040;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+    .container {
+      height: 100%;
+    }
+    .drips-hero-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      flex-direction: column;
+      gap: 16px;
+      color: vars.$white-color;
+      text-transform: uppercase;
+      p {
+        color: vars.$white-color;
+        font-weight: 300;
+        font-family: fonts.$font-primary;
+        font-size: 14px;
+        font-weight: 200;
+      }
+    }
+  }
+
+  .filter-menu {
+    position: relative;
+    padding-top: 96px;
+    @include mixin.respond(lg) {
+        padding-top: 48px;
+    }
+    .filter-menu-wrapper {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: #51575d;
+        font-weight: 500;
+        font-size: 16px;
+        display: flex; flex-direction: column; align-items: center;
+
+        @include mixin.respond(sm) {
+          font-size: 12px;
+        }
+
+        &.active {
+          border-bottom: 2px solid #183c44;
+          color: #183c44;
+          padding-bottom: 8px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .drips-cards {
+    position: relative;
+    padding: 64px 0;
+    @include mixin.respond(lg) {
+        padding: 36px 0;
+    }
+    .react-multi-carousel-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      
+      @include mixin.respond(sm) {
+        display: block;
+      }
+    }
+      .drip-pair {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 12px;
+        gap: 16px; /* Adjust spacing between rows */
+      }
+    
+      .custom-arrow-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        position: absolute;
+        width: 100%;
+        top: calc(50% - 24px);
+        transform: translateY(-50%);
+        padding: 0 48px;
+        @include mixin.respond(lg) {
+            padding: 0 4px;
+        }
+      }
+      
+      .custom-arrow {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 20px;
+        height: 48px;
+        width: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .custom-arrow:hover {
+        background: rgba(0, 0, 0, 0.8);
+      }
+      
+  }
+}

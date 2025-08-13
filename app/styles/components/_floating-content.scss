@@ -1,0 +1,77 @@
+@use "../base/variables" as vars;
+@use "../base/fonts" as fonts;
+@use "../utilities/_mixins" as mixin;
+
+.floating-wrap {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  .whatsapp_float {
+    position: relative !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+    .floating-whatsapp-button{
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    img{
+        padding: 12px;
+        object-fit: contain;
+    }
+  }
+  .hot-btn-wrap {
+    background-color: vars.$primary-color;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    a:first-child,
+    span {
+      font-size: 14px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+    a:last-child {
+      font-size: 14px;
+      line-height: 26px;
+      -webkit-text-stroke: 0.5px transparent;
+      &:hover {
+        -webkit-text-stroke: 0.5px black;
+      }
+    }
+  }
+}
+
+.floatwp{
+  left: 15px;
+  right: auto;
+  bottom: 10px;
+}
+
+.floatpackages {
+  transform: rotate(270deg);
+  right: -22px;
+  bottom: 50%;
+
+  .hot-btn-wrap {
+    background: #000;
+
+    @include mixin.respond(sm) {
+      padding: 12px !important;
+    }
+  }
+
+  a {
+    color: #f2eee9;
+
+    @include mixin.respond(sm) {
+      font-size: 12px !important;
+    }
+  }
+}
