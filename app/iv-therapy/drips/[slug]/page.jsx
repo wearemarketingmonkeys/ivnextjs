@@ -69,17 +69,17 @@ export function generateMetadata({ params, searchParams }) {
 
   const active = pickVariant(drip, searchParams?.variant);
   const titleCore = active?.title || drip.title;
-  const description = drip.metaDescription || drip.desc || 'Personalized IV therapy.';
+  const description = drip.metadesc || drip.desc || 'Personalized IV therapy.';
   const canonical = `http://ivhub.com/iv-therapy/drips/${drip.slug}${
     searchParams?.variant ? `?variant=${encodeURIComponent(searchParams.variant)}` : ''
   }`;
 
   return {
-    title: `${titleCore} | IV Wellness Lounge`,
+    title: `${titleCore} | IV Therapy Drips | IV Wellness Lounge Dubai`,
     description,
     alternates: { canonical },
     openGraph: {
-      title: `${titleCore} | IV Wellness Lounge`,
+      title: `${titleCore} | IV Therapy Drips | IV Wellness Lounge Dubai`,
       description,
       url: canonical,
       type: 'website',
@@ -87,7 +87,7 @@ export function generateMetadata({ params, searchParams }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${titleCore} | IV Wellness Lounge`,
+      title: `${titleCore} | IV Therapy Drips | IV Wellness Lounge Dubai`,
       description,
       images: ['http://ivhub.com/og.png'],
     },

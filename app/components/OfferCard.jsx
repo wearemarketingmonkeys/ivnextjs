@@ -1,61 +1,79 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+// app/components/OfferCard.jsx
+'use client';
 
-const OfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
+import { useState } from 'react';
+import Link from 'next/link';
+
+export default function OfferCard({
+  img,
+  title,
+  descBrif,
+  descUl = [],
+  newBadge,
+  bookingHref = '/booking', // set to "https://book.ivhub.com/" if you want external booking
+}) {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
+  const toggle = () => setIsExpanded((v) => !v);
 
   return (
-    <div className="offer-card">
-      <div className="offer-card__image">
-        <img src={img} alt={title} />
-        {newBadge && <div className="new-badge">New</div>}
+    <article className={`offer-card${isExpanded ? ' expanded' : ''}`}>
+      <div
+        className="offer-card__image"
+        role="button"
+        tabIndex={0}
+        onClick={toggle}
+        onKeyDown={(e) => e.key === 'Enter' && toggle()}
+      >
+        {img ? <img src={img} alt={title || 'Offer image'} /> : null}
+        {newBadge ? <div className="new-badge">New</div> : null}
       </div>
 
       <div className="offer-card__content">
-        <div className="offer-card__header" onClick={toggleExpand}>
+        <header className="offer-card__header" onClick={toggle}>
           <h3 className="offer-card__title">{title}</h3>
-          <button className="offer-card__toggle">
-            {isExpanded ? "−" : "+"}
+          <button type="button" aria-expanded={isExpanded} className="offer-card__toggle">
+            {isExpanded ? '−' : '+'}
           </button>
-        </div>
+        </header>
 
         {isExpanded && (
           <div className="offer-card__details">
-            <p>{descBrif}</p>
-            {descUl && (
+            {descBrif ? <p>{descBrif}</p> : null}
+
+            {!!descUl?.length && (
               <ul>
-                <ul>
-                  {descUl.map((item, index) => (
-                    <li key={index}>
-                      <p>{item.liTitle}</p>
-                      {item.subLi && (
-                        <ul>
-                          {item.subLi.map((subItem, subIndex) => (
-                            <li key={subIndex}>
-                              <p>{subItem}</p>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>
+                {descUl.map((item, i) => (
+                  <li key={i}>
+                    <p>{item.liTitle}</p>
+                    {!!item.subLi?.length && (
+                      <ul>
+                        {item.subLi.map((s, j) => (
+                          <li key={j}>
+                            <p>{s}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
               </ul>
             )}
+
             <div className="btn-wrap">
-              <Link to={"/booking"} className="btn">
-                BOOK TREATMENT
-              </Link>
+              {/^https?:\/\//i.test(bookingHref) ? (
+                <a className="btn" href={bookingHref} target="_blank" rel="noopener noreferrer">
+                  BOOK TREATMENT
+                </a>
+              ) : (
+                <Link className="btn" href={bookingHref}>
+                  BOOK TREATMENT
+                </Link>
+              )}
             </div>
           </div>
         )}
       </div>
-    </div>
+    </article>
   );
-};
-
-export default OfferCard;
+}

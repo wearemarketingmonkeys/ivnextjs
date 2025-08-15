@@ -6,12 +6,12 @@ import boostersData from '../../mocks/energyBoosters.json';
 export const metadata = {
   title: 'Energy Boosters | IV Wellness Lounge',
   description:
-    'Targeted vitamin booster shots for quick energy, focus, and recovery. Book your next service and feel the difference with our personalized boosters.',
+    'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
   alternates: { canonical: 'https://ivhub.com/iv-therapy/boosters' },
   openGraph: {
     title: 'Energy Boosters | IV Wellness Lounge',
     description:
-      'Targeted vitamin booster shots for quick energy, focus, and recovery.',
+      'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
     url: 'https://ivhub.com/iv-therapy/boosters',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
@@ -20,7 +20,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Energy Boosters | IV Wellness Lounge',
     description:
-      'Targeted vitamin booster shots for quick energy, focus, and recovery.',
+      'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
     images: ['https://ivhub.com/og.png'],
   },
 };
