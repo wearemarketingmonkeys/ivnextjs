@@ -1,2 +1,5 @@
 /** @type {import('next').NextConfig} */
-module.exports = { reactStrictMode: true };
+const nextConfig = {
+  reactStrictMode: false, // DEV workaround for react-compare-image
+};
+module.exports = nextConfig;

@@ -194,6 +194,7 @@ export const menuItems = [
                 { label: "Packages", to: "/packages" },
                 { label: "Blogs", to: "/blogs" },
                 { label: "Contact us", to: "/contact-us" },
+                { label: "Careers", to: "/career" },
               ],
             },
           ],

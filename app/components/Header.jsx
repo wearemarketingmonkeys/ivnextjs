@@ -1,7 +1,9 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
 import Modal from 'react-minimal-modal';
 import { GoArrowUpRight } from 'react-icons/go';
 
@@ -121,6 +123,33 @@ const ivTherapyItems = [
 ];
 
 export default function Header() {
+
+  const pathname = usePathname();
+  const [isConcernsOpen, setConcernsOpen] = useState(false);
+  const megaRef = useRef(null);
+
+  // Close whenever the route changes
+  useEffect(() => {
+    setConcernsOpen(false);
+  }, [pathname]);
+
+  // Close on outside click / Esc
+  useEffect(() => {
+    if (!isConcernsOpen) return;
+    const onKey = (e) => e.key === 'Escape' && setConcernsOpen(false);
+    const onClickOutside = (e) => {
+      if (megaRef.current && !megaRef.current.contains(e.target)) {
+        setConcernsOpen(false);
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('mousedown', onClickOutside);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('mousedown', onClickOutside);
+    };
+  }, [isConcernsOpen]);
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false); // simple modal flag
   const [isSticky, setIsSticky] = useState(false);
@@ -200,7 +229,7 @@ export default function Header() {
                                         const text = sub.label ?? sub.dripsName ?? 'Untitled';
                                         return (
                                           <li key={sIdx}>
-                                            <Link href={href} onClick={handleSubmenuClick}>
+                                            <Link href={href} onClick={() => setMenuClosed(true)}>
                                               {text}
                                             </Link>
                                           </li>
@@ -280,12 +309,12 @@ export default function Header() {
             </h1>
 
             <div className="button-wrap">
-              <Link href="/iv-therapy/drips" className="btn" onClick={() => setIsOpen(false)}>
+              <Link href="/iv-therapy/drips" onClick={() => setIsOpen(false)}>
                 <span>Wellness Drips</span>
                 <GoArrowUpRight />
               </Link>
 
-              <Link href="/iv-therapy/boosters" className="btn" onClick={() => setIsOpen(false)}>
+              <Link href="/iv-therapy/boosters" onClick={() => setIsOpen(false)}>
                 <span>Energy Boosters</span>
                 <GoArrowUpRight />
               </Link>

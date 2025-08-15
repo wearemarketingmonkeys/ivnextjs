@@ -23,6 +23,7 @@ const Footer = () => {
         { label: 'Aesthetics',   path: '/aesthetic' },
         { label: 'News',         path: '/blogs' },
         { label: 'Business Enquiries', path: '/contact-us' },
+        { label: 'Careers', path: '/career' },
       ],
     },
     {

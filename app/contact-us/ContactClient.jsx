@@ -19,14 +19,19 @@ const socialLinks = [
 export default function ContactClient() {
   const [formData, setFormData] = useState({ name: '', subject: '', email: '', message: '' });
   const [status, setStatus] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => setFormData((s) => ({ ...s, [e.target.id]: e.target.value }));
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus('Form is submitting...');
+    setIsSubmitting(true);
+
     const { name, subject, email, message } = formData;
     if (!name || !subject || !email || !message) {
       setStatus('Please fill in all fields.');
+      setIsSubmitting(false);
       return;
     }
     try {
@@ -36,7 +41,7 @@ export default function ContactClient() {
       data.append('email', email);
       data.append('message', message);
 
-      const res = await fetch('https://iv-blogs.ivhub.com/php/contact.php', { method: 'POST', body: data });
+      const res = await fetch('https://mails.ivhub.com/contact.php', { method: 'POST', body: data });
       const ct = res.headers.get('content-type');
       if (ct?.includes('application/json')) {
         const json = await res.json();
@@ -51,6 +56,8 @@ export default function ContactClient() {
       console.error(err);
       setStatus('An error occurred. Please try again later.');
     }
+
+    setIsSubmitting(false);
   };
 
   return (
@@ -138,7 +145,9 @@ export default function ContactClient() {
                   {status && <p className="form-status">{status}</p>}
 
                   <div className="btn-wrap">
-                    <button type="submit" className="btn">Send now</button>
+                    <button type="submit" className="btn" disabled={isSubmitting}>
+                      {isSubmitting ? 'Please wait...' : 'Send now'}
+                    </button>
                   </div>
                 </form>
               </div>
