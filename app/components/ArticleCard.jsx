@@ -1,54 +1,53 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// app/components/ArticleCard.jsx
+// Server component (no "use client")
 
-const stripHtmlAndTruncate = (htmlString, wordLimit = 30) => {
-  // Create a temporary DOM element to parse HTML
-  const tempDiv = document.createElement("div");
-  tempDiv.innerHTML = htmlString;
+import Link from "next/link";
 
-  // Extract plain text
-  const plainText = tempDiv.textContent || tempDiv.innerText || "";
+// Strip HTML tags safely on server (no document usage)
+function stripHtmlAndTruncate(htmlString = "", wordLimit = 30) {
+  // remove tags
+  const text = String(htmlString).replace(/<\/?[^>]+(>|$)/g, " ");
+  // collapse whitespace
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (!wordLimit) return clean;
 
-  // Truncate to wordLimit
-  const words = plainText.trim().split(/\s+/);
-  const truncated = words.slice(0, wordLimit).join(" ");
-  return words.length > wordLimit ? truncated + "..." : truncated;
-};
+  const words = clean.split(" ");
+  if (words.length <= wordLimit) return clean;
+  return words.slice(0, wordLimit).join(" ") + "...";
+}
 
-const ArticleCard = ({ img, title, desc, readMoreUrl }) => {
+export default function ArticleCard(props) {
+  // Support both shapes:
+  // 1) <ArticleCard img title desc readMoreUrl />
+  // 2) <ArticleCard article={{ img, title, desc, slug/readMoreUrl }} />
+  const a = props.article ?? props;
+
+  const img = a.img;
+  const title = a.title || "";
+  const desc = a.desc || a.description || "";
+  const href =
+    a.readMoreUrl ||
+    a.href ||
+    (a.slug ? `/blogs/${a.slug}` : "#");
+
   return (
-    <div className="articleWrap">
+    <article className="articleWrap">
       <div className="content">
-        {/* <img src={img} alt="article img" /> */}
-        {/* <h2>{title}</h2> */}
+        {/* Uncomment if you want the thumbnail visible */}
+        {/* {img ? <img src={img} alt={title || "article"} /> : null} */}
+
         <h2>
-          <Link to={readMoreUrl}>{title}</Link>
+          <Link href={href}>{title}</Link>
         </h2>
-        <hr/>
-        <p>{stripHtmlAndTruncate(desc)}</p>
+
+        <hr />
+
+        {desc ? <p>{stripHtmlAndTruncate(desc)}</p> : null}
       </div>
-      <Link to={readMoreUrl}>Read article</Link>
-    </div>
+
+      <Link href={href} className="read-more-link">
+        Read article
+      </Link>
+    </article>
   );
-};
-
-export default ArticleCard;
-
-
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// const ArticleCard = ({ img, title, desc, readMoreUrl }) => {
-//   return (
-//     <div className="articleWrap">
-//       <div className="content">
-//         <img src={img} alt="article img" />
-//         <h2>{title}</h2>
-//         <p>{desc}</p>
-//       </div>
-//       <Link to={readMoreUrl}>Read article</Link>
-//     </div>
-//   );
-// };
-
-// export default ArticleCard;
+}

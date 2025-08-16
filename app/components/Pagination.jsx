@@ -1,41 +1,81 @@
-import React from 'react';
-import { GoChevronLeft, GoChevronRight  } from "react-icons/go";
+// app/components/Pagination.jsx
+// Server component (no "use client")
+import Link from "next/link";
+import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
-const Pagination = ({ totalArticles, articlesPerPage, paginate, currentPage }) => {
-  const pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(totalArticles / articlesPerPage); i++) {
-    pageNumbers.push(i);
-  }
+/**
+ * Supports either:
+ *  A) { currentPage, totalPages, basePath }
+ *  B) { totalArticles, articlesPerPage, currentPage, basePath }
+ */
+export default function Pagination({
+  // New shape
+  currentPage = 1,
+  totalPages,
+  basePath = "/blogs",
+  // Back-compat shape
+  totalArticles,
+  articlesPerPage = 40,
+}) {
+  // If totalPages not provided, compute from totalArticles/articlesPerPage
+  const computedTotalPages =
+    typeof totalPages === "number" && totalPages > 0
+      ? totalPages
+      : Math.max(1, Math.ceil((totalArticles || 0) / articlesPerPage));
+
+  if (computedTotalPages <= 1) return null;
+
+  const makeHref = (p) => (p === 1 ? basePath : `${basePath}?page=${p}`);
+  const pages = Array.from({ length: computedTotalPages }, (_, i) => i + 1);
 
   return (
-    <nav>
-      <ul className="pagination">
+    <nav className="pagination" aria-label="Pagination">
+      <ul className="pagination-list" style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap", listStyle: "none" }}>
+        {/* Prev */}
         <li>
-          <button
-            onClick={() => paginate(currentPage - 1)}
-            disabled={currentPage === 1}
-          >
-            <GoChevronLeft /> {/* Left Arrow */}
-          </button>
+          {currentPage > 1 ? (
+            <Link className="btn btn-stroke" href={makeHref(currentPage - 1)}>
+              <GoChevronLeft aria-hidden />
+              <span className="sr-only">Previous</span>
+            </Link>
+          ) : (
+            <span className="btn btn-stroke disabled" aria-disabled="true">
+              <GoChevronLeft aria-hidden />
+              <span className="sr-only">Previous</span>
+            </span>
+          )}
         </li>
 
-        {pageNumbers.map((number) => (
-          <li key={number} className={number === currentPage ? "active" : ""}>
-            <button onClick={() => paginate(number)}>{number}</button>
+        {/* Page numbers */}
+        {pages.map((p) => (
+          <li key={p}>
+            {p === currentPage ? (
+              <span className="btn" aria-current="page">
+                {p}
+              </span>
+            ) : (
+              <Link className="btn btn-stroke" href={makeHref(p)}>
+                {p}
+              </Link>
+            )}
           </li>
         ))}
 
+        {/* Next */}
         <li>
-          <button
-            onClick={() => paginate(currentPage + 1)}
-            disabled={currentPage === pageNumbers.length}
-          >
-            <GoChevronRight  /> {/* Right Arrow */}
-          </button>
+          {currentPage < computedTotalPages ? (
+            <Link className="btn btn-stroke" href={makeHref(currentPage + 1)}>
+              <GoChevronRight aria-hidden />
+              <span className="sr-only">Next</span>
+            </Link>
+          ) : (
+            <span className="btn btn-stroke disabled" aria-disabled="true">
+              <GoChevronRight aria-hidden />
+              <span className="sr-only">Next</span>
+            </span>
+          )}
         </li>
       </ul>
     </nav>
   );
-};
-
-export default Pagination;
+}
