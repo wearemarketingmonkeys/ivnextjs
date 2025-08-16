@@ -98,7 +98,7 @@
   }
 
   .contact-form {
-    padding: 64px 0;
+    padding: 25px 0;
     .form-wrapper {
       .heading{
         h1{
@@ -118,7 +118,7 @@
       .form-wrap {
         position: relative;
         background-color: vars.$bg-color;
-        margin-top: 80px;
+        margin-top: 10px;
         padding: 96px;
         display: flex;
         align-items: flex-start;
@@ -189,7 +189,7 @@
               }
 
               input,
-              textarea {
+              textarea,select {
                 width: 100%;
                 padding: 12px;
                 border: none;
