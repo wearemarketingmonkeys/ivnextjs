@@ -9,7 +9,7 @@ import SignatureCanvas from 'react-signature-canvas';
 const SERVICES = {
   hydrafacial: {
     label: 'HydraFacial',
-    postUrl: 'https://mails.ivhub.com/hydraconsentemail.php',
+    postUrl: 'https://mails.ivhub.com/hydraconsentemail-1.php',
     medicalOptions: [
       'Pregnancy or lactation',
       'Active acne, eczema, or psoriasis',
@@ -44,7 +44,7 @@ const SERVICES = {
 
   chemical: {
     label: 'Chemical Peel',
-    postUrl: 'https://mails.ivhub.com/chemicalconsentemail.php',
+    postUrl: 'https://mails.ivhub.com/chemicalconsentemail-1.php',
     medicalOptions: [
       'Pregnancy or lactation',
       'Use of isotretinoin (Accutane) in the past 6–12 months',
@@ -76,7 +76,7 @@ const SERVICES = {
 
   laser: {
     label: 'Laser Hair Removal',
-    postUrl: 'https://mails.ivhub.com/laserconsentemail.php',
+    postUrl: 'https://mails.ivhub.com/laserconsentemail-1.php',
     medicalOptions: [
       'Pregnant or breastfeeding',
       'History of keloid or hypertrophic scarring',
@@ -114,7 +114,7 @@ const SERVICES = {
 
   liposculpt: {
     label: 'Liposculpt',
-    postUrl: 'https://ivmails.onrender.com/liposculptconsentemail.php',
+    postUrl: 'https://ivmails.onrender.com/liposculptconsentemail-1.php',
     medicalOptions: [
       'Pregnancy or breastfeeding',
       'Active skin infection',
@@ -154,7 +154,7 @@ const SERVICES = {
 
   lipozero: {
     label: 'LipoZero',
-    postUrl: 'https://mails.ivhub.com/lipozeroconsentmail.php',
+    postUrl: 'https://mails.ivhub.com/lipozeroconsentmail-1.php',
     medicalOptions: [
       'Pregnancy or breastfeeding',
       'Use of blood thinners or anticoagulants',
@@ -191,7 +191,7 @@ const SERVICES = {
 
   microneedling: {
     label: "Microneedling",
-    postUrl: "https://mails.ivhub.com/microconsentmail.php",
+    postUrl: "https://mails.ivhub.com/microconsentmail-1.php",
     medicalOptions: [
       "Pregnancy or breastfeeding",
       "Use of blood thinners or anticoagulants",
