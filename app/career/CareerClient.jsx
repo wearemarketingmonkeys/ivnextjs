@@ -256,6 +256,10 @@ export default function CareerClient() {
                     />
                   </div>
 
+                  <div className="form-group">
+                    <label htmlFor="chk1"><input type="checkbox" value={"I confirm that my experience is relevant to the position I've applied for"} id="chk1"/> I confirm that my experience is relevant to the position I've applied for</label>
+                  </div>
+                  
                   {status && <p className="form-status">{status}</p>}
 
                   <div className="btn-wrap">
