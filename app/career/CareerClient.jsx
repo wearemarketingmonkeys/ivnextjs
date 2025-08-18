@@ -185,22 +185,19 @@ export default function CareerClient() {
                     />
                   </div>
 
-                  <div className="form-group">
-                    <label htmlFor="position">
-                      POSITION <span style={{ color: 'red' }}>*</span>
-                    </label>
+                  {/* <div className="form-group">
+                    <label htmlFor="position">POSITION<span style={{ color: "red" }}>*</span></label>
                     <input
                       type="text"
                       id="position"
                       placeholder="Enter the position you’re applying for"
                       value={formData.position}
                       onChange={handleChange}
-                      required
                     />
-                  </div>
+                  </div> */}
 
                   <div className="form-group">
-                    <label htmlFor="salary">EXPECTED SALARY</label>
+                    <label htmlFor="salary">EXPECTED SALARY<span style={{ color: "red" }}>*</span></label>
                     <input
                       type="text"
                       id="salary"
@@ -208,6 +205,21 @@ export default function CareerClient() {
                       value={formData.salary}
                       onChange={handleChange}
                     />
+                  </div>
+
+                  {/* New Dropdown Field */}
+                  <div className="form-group">
+                      <label htmlFor="position">POSITION</label>
+                      <select
+                      id="position"
+                      value={formData.position}
+                      onChange={handleChange}
+                      >
+                      <option value="">-- Select Position --</option>
+                      <option value="Registered Nurse">Registered Nurse</option>
+                      <option value="Beauty and Laser Therapist">Beauty and Laser Therapist</option>
+                      <option value="GP Aesthetic Doctor">GP Aesthetic Doctor</option>
+                      </select>
                   </div>
 
                   <div className="form-group">
