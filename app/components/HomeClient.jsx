@@ -261,7 +261,7 @@ export default function HomeClient() {
                 </div>
               </div>
               <div className="btn-wrap">
-                <button className="btn">Explore more</button>
+                <Link href="/aesthetic" className="btn">Explore more</Link>
               </div>
             </div>
           </div>

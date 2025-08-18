@@ -363,8 +363,7 @@ export default function ConsentUnifiedClient() {
                             checked={form.photographyConsent === t}
                             onChange={onChange}
                             required
-                          />{' '}
-                          {t}
+                          />{t}
                         </label>
                       ))}
                     </div>

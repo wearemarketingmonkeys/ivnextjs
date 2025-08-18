@@ -10,7 +10,7 @@ export default function OfferCard({
   descBrif,
   descUl = [],
   newBadge,
-  bookingHref = '/booking', // set to "https://book.ivhub.com/" if you want external booking
+  bookingHref = 'https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0', // set to "https://book.ivhub.com/" if you want external booking
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -61,15 +61,9 @@ export default function OfferCard({
             )}
 
             <div className="btn-wrap">
-              {/^https?:\/\//i.test(bookingHref) ? (
-                <a className="btn" href={bookingHref} target="_blank" rel="noopener noreferrer">
-                  BOOK TREATMENT
-                </a>
-              ) : (
-                <Link className="btn" href={bookingHref}>
+              <Link className="btn" href={bookingHref}>
                   BOOK TREATMENT
                 </Link>
-              )}
             </div>
           </div>
         )}
