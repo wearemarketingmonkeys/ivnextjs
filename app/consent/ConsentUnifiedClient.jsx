@@ -354,19 +354,23 @@ export default function ConsentUnifiedClient() {
 
                     <h3 className="section-title">Consent for Photography</h3>
                     <div className="form-group">
-                      {svc.photographyRadios.map((t) => (
-                        <label key={t} style={{ display: 'block', marginBottom: 6 }}>
+                      {svc.photographyRadios.map((t, i) => (
+                        <label key={i} style={{ display: 'block', marginBottom: 6 }}>
                           <input
                             type="radio"
                             name="allowPhoto"
                             value={t}
                             checked={form.photographyConsent === t}
-                            onChange={onChange}
+                            onChange={(e) =>
+                              setForm({ ...form, photographyConsent: e.target.value })
+                            }
                             required
-                          />{t}
+                          />
+                          {t}
                         </label>
                       ))}
                     </div>
+
                   </>
                 )}
 
