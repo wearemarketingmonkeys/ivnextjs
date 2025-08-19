@@ -469,6 +469,37 @@ export default function ConsentUnifiedClient() {
                   </div>
 
                   <div className="form-group">
+                      <div className="consentdetails">
+                          <h2 className="section-title">Disclaimer of Liability</h2>
+                          <div>
+                            <div>
+                              <p>
+                                I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and
+                                associated staff shall not be held financially liable for:
+                              </p>
+
+                              <ul style={{ paddingLeft: "20px" }}>
+                                <li>Any unsatisfactory or suboptimal result that may occur despite appropriate technique and materials used</li>
+                                <li>Any individual allergic or hypersensitive reaction, delayed response, or side effect that could not have been reasonably predicted or tested prior to treatment</li>
+                                <li>Any incompatibility or unsuitability of my skin or physiology for this treatment, including where the treatment fails to produce the expected or desired effect</li>
+                                <li>The need for further corrective procedures or medical management, which may incur additional cost</li>
+                              </ul>
+
+                              <p>
+                                I acknowledge that I have been given the opportunity to ask questions, understand the
+                                limitations of the procedure, and that results vary from person to person.
+                              </p>
+
+                              <p>
+                                  I have read and understood this disclaimer, and I agree to its terms without reservation.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                  </div>
+
+                  <div className="form-group">
                     <label>Patient Signature</label>
                     <div className="signature-pad" style={{ border: '1px solid #ddd', borderRadius: 8, overflow: 'hidden' }}>
                       <SignatureCanvas
