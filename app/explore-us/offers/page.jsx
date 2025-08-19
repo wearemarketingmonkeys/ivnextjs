@@ -6,12 +6,12 @@ import OfferCard from "../../components/OfferCard";
 
 // --- SEO ---
 export const metadata = {
-  title: "Offers | IV Wellness Lounge",
+  title: "Offers | IV Wellness Lounge Clinic in Dubai",
   description:
-    "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions at IV Wellness Lounge.",
+    "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions at IV Wellness Lounge Clinic in Dubai.",
   alternates: { canonical: "https://ivhub.com/explore-us/offers" },
   openGraph: {
-    title: "Offers | IV Wellness Lounge",
+    title: "Offers | IV Wellness Lounge Clinic in Dubai",
     description:
       "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions.",
     url: "https://ivhub.com/explore-us/offers",
@@ -20,7 +20,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Offers | IV Wellness Lounge",
+    title: "Offers | IV Wellness Lounge Clinic in Dubai",
     description:
       "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions.",
     images: ["https://ivhub.com/og.png"],
