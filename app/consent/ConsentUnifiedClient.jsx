@@ -334,48 +334,7 @@ export default function ConsentUnifiedClient() {
                   </select>
                 </div>
 
-                {/* Dynamic consent content */}
-                {svc && (
-                  <>
-                    <h2 className="section-title">{svc.label} Consent</h2>
-
-                    <div
-                      className="consent-copy"
-                      dangerouslySetInnerHTML={{ __html: svc.risksHtml }}
-                    />
-                    <br/>
-                    <div className="form-group">
-                      {svc.acknowledgements.map((txt, i) => (
-                        <label key={i} className="checkbox" style={{ display: 'block' }}>
-                          <input type="checkbox" name={`understanding${i + 1}`} required /> {txt}
-                        </label>
-                      ))}
-                    </div>
-
-                    <h3 className="section-title">Consent for Photography</h3>
-                    <div className="form-group">
-                      {svc.photographyRadios.map((t, i) => (
-                        <label key={i} style={{ display: 'block', marginBottom: 6 }}>
-                          <input
-                            type="radio"
-                            name="allowPhoto"
-                            value={t}
-                            checked={form.photographyConsent === t}
-                            onChange={(e) =>
-                              setForm({ ...form, photographyConsent: e.target.value })
-                            }
-                            required
-                          />
-                          {t}
-                        </label>
-                      ))}
-                    </div>
-
-                  </>
-                )}
-
-                
-                  {/* Patient info */}
+                {/* Patient info */}
                   <h2 className="section-title">Patient Information</h2>
                   <div className="form-group">
                     <label>Full Name</label>
@@ -441,6 +400,49 @@ export default function ConsentUnifiedClient() {
                       rows={3}
                     />
                   </div>
+
+                {/* Dynamic consent content */}
+                {svc && (
+                  <>
+                    <h2 className="section-title">{svc.label} Consent</h2>
+
+                    <div
+                      className="consent-copy"
+                      dangerouslySetInnerHTML={{ __html: svc.risksHtml }}
+                    />
+                    <br/>
+                    <div className="form-group">
+                      {svc.acknowledgements.map((txt, i) => (
+                        <label key={i} className="checkbox" style={{ display: 'block' }}>
+                          <input type="checkbox" name={`understanding${i + 1}`} required /> {txt}
+                        </label>
+                      ))}
+                    </div>
+
+                    <h3 className="section-title">Consent for Photography</h3>
+                    <div className="form-group">
+                      {svc.photographyRadios.map((t, i) => (
+                        <label key={i} style={{ display: 'block', marginBottom: 6 }}>
+                          <input
+                            type="radio"
+                            name="allowPhoto"
+                            value={t}
+                            checked={form.photographyConsent === t}
+                            onChange={(e) =>
+                              setForm({ ...form, photographyConsent: e.target.value })
+                            }
+                            required
+                          />
+                          {t}
+                        </label>
+                      ))}
+                    </div>
+
+                  </>
+                )}
+
+                
+                  
 
                   {/* Declaration & Signatures */}
                   <h2 className="section-title">Declaration & Signatures</h2>
