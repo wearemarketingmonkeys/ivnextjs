@@ -35,7 +35,7 @@ const SERVICES = {
       'I have disclosed my relevant medical history and medications.',
     ],
     photographyRadios: [
-      'I CONSENT to photography for clinical documentation only.',
+      'I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes..',
       'I CONSENT to photography for internal marketing.',
       'I DO NOT consent to any photography.',
     ],
@@ -67,7 +67,7 @@ const SERVICES = {
       'I acknowledge that results vary and multiple sessions may be needed.',
     ],
     photographyRadios: [
-      'I CONSENT to photography for clinical documentation only.',
+      'I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes..',
       'I CONSENT to photography for internal marketing.',
       'I DO NOT consent to any photography.',
     ],
@@ -105,7 +105,7 @@ const SERVICES = {
       'I have disclosed my relevant medical history and medications.',
     ],
     photographyRadios: [
-      'I CONSENT to photography for clinical documentation only.',
+      'I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes..',
       'I CONSENT to photography for internal marketing.',
       'I DO NOT consent to any photography.',
     ],
@@ -145,7 +145,7 @@ const SERVICES = {
       'I understand possible need for corrective or repeat treatments.',
     ],
     photographyRadios: [
-      'I CONSENT to before/after photographs for clinical documentation.',
+      'I CONSENT to before/after photographs for clinical documentation. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes.',
       'I CONSENT to photography for internal marketing.',
       'I DO NOT consent to any photography.',
     ],
@@ -182,7 +182,7 @@ const SERVICES = {
       'I confirm that I have disclosed my relevant medical history and medications.'
     ],
     photographyRadios: [
-      'I CONSENT to photography for clinical documentation only.',
+      'I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes..',
       'I CONSENT to photography for internal marketing.',
       'I DO NOT consent to any photography.'
     ],
@@ -220,7 +220,7 @@ const SERVICES = {
       "I have disclosed my relevant medical history and medications.",
     ],
     photographyRadios: [
-      "I CONSENT to photography for clinical documentation only.",
+      "I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes..",
       "I CONSENT to photography for internal marketing.",
       "I DO NOT consent to any photography.",
     ],
