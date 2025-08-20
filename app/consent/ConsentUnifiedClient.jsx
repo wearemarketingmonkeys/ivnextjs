@@ -432,8 +432,7 @@ export default function ConsentUnifiedClient() {
                               setForm({ ...form, photographyConsent: e.target.value })
                             }
                             required
-                          />
-                          {t}
+                          /> {t}
                         </label>
                       ))}
                     </div>
