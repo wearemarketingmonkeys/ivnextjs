@@ -72,7 +72,7 @@ export default function CompareClient({ before, after, altBefore = 'Before', alt
         <img
           src={after}
           alt={altAfter}
-          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ position: 'absolute', inset: 0, width: '258px', height: '390px', objectFit: 'cover', marginLeft: '50%' }}
         />
       )}
 
