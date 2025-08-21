@@ -55,6 +55,62 @@ export default function ConsentPage() {
                   </Link>
                 </div>
 
+                <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/consentbotox.php"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Botox Treatment Consent
+                    </a>
+                  </div>
+
+                  <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/consentfillers.php"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Dermal Fillers Consent
+                    </a>
+                  </div>
+
+                  <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/consentmorpheus.php"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Morpheus8 & Forma Consent
+                    </a>
+                  </div>
+
+                  <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/consentprp.php"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      PRP Therapy Consent
+                    </a>
+                  </div>
+
+                  <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/consentskinbooster.php"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Skin Booster Consent
+                    </a>
+                  </div>
+
+
               </div>
             </div>
           </div>
