@@ -378,7 +378,7 @@ export default function ConsentHydrafacial() {
 
                   <div className="btn-wrap">
                     <button type="submit" className="btn">
-                      Submit HydraFacial Consent
+                      Submit
                     </button>
                   </div>
                 </form>

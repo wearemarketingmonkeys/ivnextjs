@@ -341,7 +341,7 @@ export default function ConsentLaserClient() {
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">
-        <button type="submit" className="btn">Submit Laser Consent</button>
+        <button type="submit" className="btn">Submit</button>
       </div>
     </form>
   );

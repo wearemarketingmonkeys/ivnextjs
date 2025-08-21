@@ -389,13 +389,14 @@ export default function ConsentLiposculptClient() {
         </button>
       </div>
 
+      {status && <p className="form-status">{status}</p>}
+
       <div className="btn-wrap">
         <button type="submit" className="btn" disabled={submitting}>
-          {submitting ? "Submitting..." : "Submit Form"}
+          {submitting ? "Submitting..." : "Submit"}
         </button>
       </div>
 
-      {status && <p className="form-status">{status}</p>}
     </form>
   );
 }

@@ -296,7 +296,7 @@ export default function ConsentChemicalClient() {
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">
-        <button type="submit" className="btn">Submit Chemical Peel Consent</button>
+        <button type="submit" className="btn">Submit</button>
       </div>
     </form>
   );

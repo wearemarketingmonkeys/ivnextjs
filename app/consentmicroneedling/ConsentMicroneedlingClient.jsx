@@ -227,7 +227,7 @@ export default function ConsentMicroneedlingClient() {
       {/* status + submit */}
       {status && <p className="form-status">{status}</p>}
       <div className="btn-wrap">
-        <button type="submit" className="btn">Submit Microneedling Consent</button>
+        <button type="submit" className="btn">Submit</button>
       </div>
     </form>
   );
