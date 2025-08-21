@@ -216,9 +216,18 @@ export default function CareerClient() {
                       onChange={handleChange}
                       >
                       <option value="">-- Select Position --</option>
-                      <option value="Registered Nurse">Registered Nurse</option>
-                      <option value="Beauty and Laser Therapist">Beauty and Laser Therapist</option>
-                      <option value="GP Aesthetic Doctor">GP Aesthetic Doctor</option>
+                      <option value="Driver">Driver</option>
+                      <option value="Admin assistant (Healthcare Background)">Admin assistant (Healthcare Background)</option>
+                      <option value="Receptionist">Receptionist</option>
+                      <option value="Customer Support (Healthcare Background)">Customer Support (Healthcare Background)</option>
+                      <option value="Executive Assistant (Healthcare Background)">Executive Assistant (Healthcare Background)</option>
+                      <option value="Social Media">Social Media</option>
+                      <option value="Finance">Finance</option>
+                      <option value="Business Development">Business Development</option>
+                      <option value="Content Creator">Content Creator</option>
+                      <option value="Office Help">Office Help</option>
+                      <option value="Clinic Manager (Healthcare Background)">Clinic Manager (Healthcare Background)</option>
+                      <option value="Office Manager (Healthcare Background)">Office Manager (Healthcare Background)</option>
                       </select>
                   </div>
 
