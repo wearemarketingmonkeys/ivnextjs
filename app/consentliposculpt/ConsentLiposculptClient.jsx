@@ -314,7 +314,7 @@ export default function ConsentLiposculptClient() {
       <br />
       <label>
         <input type="checkbox" name="allowPhoto" onChange={onChange} /> I consent to
-        before/after medical photographs
+        before/after medical photographs. (If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes.)
       </label>
       <br />
       <br />

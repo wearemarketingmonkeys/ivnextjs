@@ -201,7 +201,7 @@ export default function ConsentChemicalClient() {
             onChange={onChange}
             required
           />{" "}
-          I consent to photography for clinical documentation only
+          I consent to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes.
         </label>
         <label style={{ display: "block", marginBottom: 6 }}>
           <input
