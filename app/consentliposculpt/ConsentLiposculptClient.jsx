@@ -149,7 +149,7 @@ export default function ConsentLiposculptClient() {
 
       // keep your current endpoint (change if you prefer your mails.ivhub.com host)
       const res = await fetch(
-        "https://ivmails.onrender.com/liposculptconsentemail.php",
+        "https://mails.ivhub.com/liposculptconsentemail.php",
         { method: "POST", body: fd }
       );
 
