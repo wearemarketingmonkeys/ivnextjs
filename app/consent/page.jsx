@@ -1,47 +1,65 @@
-// app/consent/page.jsx
-import ConsentUnifiedClient from "./ConsentUnifiedClient";
+import Link from "next/link";
 
 export const metadata = {
-  title: "Consent Form | IV Wellness Lounge Clinic in Dubai",
-  description:
-    "Select a service and complete a single consent form with shared patient and practitioner details.",
-  robots: {
-    index: false,
-    follow: false,
-  },
-  alternates: {
-    canonical: "https://ivhub.com/consent",
-  },
-  openGraph: {
-    title: "Consent Form | IV Wellness Lounge Clinic in Dubai",
-    description:
-      "Select a service and complete a single consent form with shared patient and practitioner details.",
-    url: "https://ivhub.com/consent",
-    siteName: "IV Wellness Lounge Clinic in Dubai",
-    images: [
-      {
-        url: "https://ivhub.com/og.png",
-        width: 1200,
-        height: 630,
-        alt: "IV Wellness Lounge Clinic in Dubai",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Consent Form | IV Wellness Lounge Clinic in Dubai",
-    description:
-      "Select a service and complete a single consent form with shared patient and practitioner details.",
-    images: ["https://ivhub.com/og.png"],
-  },
+  title: "Consent Forms | IV Wellness Lounge Clinic in Dubai",
+  description: "Select and complete your consent form at IV Wellness Lounge Clinic in Dubai.",
+  robots: { index: false, follow: false },
+  alternates: { canonical: "https://ivhub.com/consent" },
 };
-
 
 export default function ConsentPage() {
   return (
-    <div className="container">
-      <ConsentUnifiedClient />
+    <div className="contact-us">
+      <div className="container">
+        <div className="contact-form">
+          <div className="form-wrapper">
+            <div className="form-wrap" style={{ display: "block" }}>
+
+              <h1>Select the Consent Form</h1>
+              <br/>
+              <div className="formsection">
+
+                <div className="btn-wrap">
+                  <Link href="/consenthydrafacial" className="btn">
+                    Hydrafacial Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentlaser" className="btn">
+                    Laser Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentchemical" className="btn">
+                    Chemical Peel Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentliposculpt" className="btn">
+                    Liposculpt Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentlipozero" className="btn">
+                    Lipozero Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentmicroneedling" className="btn">
+                    Microneedling Consent
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

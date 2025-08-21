@@ -38,3 +38,22 @@
 .signature-canvas{
   background: #fff;
 }
+
+.formsection{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+  .btn-wrap {
+      width: 100%;
+  }
+
+  @media(max-width:1024px){
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media(max-width:500px){
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
