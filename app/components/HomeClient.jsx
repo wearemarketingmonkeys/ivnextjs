@@ -103,6 +103,7 @@ export default function HomeClient() {
     : selectedGot === gotDetails[16] ? setSelectedWeveGot(weveGotDetails[14])
     : selectedGot === gotDetails[17] ? setSelectedWeveGot(weveGotDetails[15])
     : selectedGot === gotDetails[18] ? setSelectedWeveGot(weveGotDetails[16])
+    : selectedGot === gotDetails[19] ? setSelectedWeveGot(weveGotDetails[17])
     : null;
   }, [selectedGot]);
 
@@ -263,6 +264,20 @@ export default function HomeClient() {
                                 ? gotDetails[11]
                                 : x === weveGotDetails[10]
                                 ? gotDetails[12]
+                                : x === weveGotDetails[11]
+                                ? gotDetails[13]
+                                : x === weveGotDetails[12]
+                                ? gotDetails[14]
+                                : x === weveGotDetails[13]
+                                ? gotDetails[15]
+                                : x === weveGotDetails[14]
+                                ? gotDetails[16]
+                                : x === weveGotDetails[15]
+                                ? gotDetails[17]
+                                : x === weveGotDetails[16]
+                                ? gotDetails[18]
+                                : x === weveGotDetails[17]
+                                ? gotDetails[19]
                                 : null
                             );
                           }}
