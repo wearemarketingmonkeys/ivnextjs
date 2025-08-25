@@ -36,12 +36,12 @@ const seenLinks = [
 
 const gotDetails = [
   "Crow's Feet", 'Dark Spot', 'Dullness', 'Loss of Firmness', 'Loss of Elasticity',
-  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod', 'Fatigue', 'Low Energy'
+  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod', 'Fatigue', 'Low Energy', 'Brainfog', 'Hangover', 'Weak Strands', 'Weak Immunity', 'Burnout', 'Slow recovery', 'Low Stamina',
 ];
 
 const weveGotDetails = [
   'Line & Wrinkle Relaxer','Mesotherapy','Skin Booster','Dermal Filter','Chemical Peel',
-  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial', 'Boost HUB IV Drip', 'Energy HUB IV drip'
+  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial', 'Boost Hub IV Drip', 'Energy Hub IV Drip', 'NAD+ IV Drip', 'Post Party IV Drip', 'Hairfall defense IV Drip', 'Immune Hub IV Drip', 'Supreme IV Drip', 'Fitness Hub IV Drip', 'Performance Support IV Drip',
 ];
 
 export default function HomeClient() {
@@ -97,6 +97,12 @@ export default function HomeClient() {
     : selectedGot === gotDetails[10] ? setSelectedWeveGot(weveGotDetails[7])
     : selectedGot === gotDetails[11] ? setSelectedWeveGot(weveGotDetails[9])
     : selectedGot === gotDetails[12] ? setSelectedWeveGot(weveGotDetails[10])
+    : selectedGot === gotDetails[13] ? setSelectedWeveGot(weveGotDetails[11])
+    : selectedGot === gotDetails[14] ? setSelectedWeveGot(weveGotDetails[12])
+    : selectedGot === gotDetails[15] ? setSelectedWeveGot(weveGotDetails[13])
+    : selectedGot === gotDetails[16] ? setSelectedWeveGot(weveGotDetails[14])
+    : selectedGot === gotDetails[17] ? setSelectedWeveGot(weveGotDetails[15])
+    : selectedGot === gotDetails[18] ? setSelectedWeveGot(weveGotDetails[16])
     : null;
   }, [selectedGot]);
 
@@ -251,6 +257,12 @@ export default function HomeClient() {
                                 ? gotDetails[6]
                                 : x === weveGotDetails[6]
                                 ? gotDetails[8]
+                                : x === weveGotDetails[7]
+                                ? gotDetails[10]
+                                : x === weveGotDetails[9]
+                                ? gotDetails[11]
+                                : x === weveGotDetails[10]
+                                ? gotDetails[12]
                                 : null
                             );
                           }}
