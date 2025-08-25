@@ -36,12 +36,12 @@ const seenLinks = [
 
 const gotDetails = [
   "Crow's Feet", 'Dark Spot', 'Dullness', 'Loss of Firmness', 'Loss of Elasticity',
-  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod', 'Fatigue',
+  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod', 'Fatigue', 'Low Energy'
 ];
 
 const weveGotDetails = [
   'Line & Wrinkle Relaxer','Mesotherapy','Skin Booster','Dermal Filter','Chemical Peel',
-  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial', 'Boost HUB IV Drip',
+  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial', 'Boost HUB IV Drip', 'Energy HUB IV Drip',
 ];
 
 export default function HomeClient() {
@@ -95,6 +95,8 @@ export default function HomeClient() {
     : selectedGot === gotDetails[8] ? setSelectedWeveGot(weveGotDetails[6])
     : selectedGot === gotDetails[9] ? setSelectedWeveGot(weveGotDetails[1])
     : selectedGot === gotDetails[10] ? setSelectedWeveGot(weveGotDetails[7])
+    : selectedGot === gotDetails[11] ? setSelectedWeveGot(weveGotDetails[9])
+    : selectedGot === gotDetails[12] ? setSelectedWeveGot(weveGotDetails[10])
     : null;
   }, [selectedGot]);
 
