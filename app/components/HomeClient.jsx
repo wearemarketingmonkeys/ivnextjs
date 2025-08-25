@@ -36,12 +36,12 @@ const seenLinks = [
 
 const gotDetails = [
   "Crow's Feet", 'Dark Spot', 'Dullness', 'Loss of Firmness', 'Loss of Elasticity',
-  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod',
+  'Dryness', 'Unwanted Hair', 'Breakouts', 'Love Handles', 'Redness', 'Winter-Bod', 'Fatigue',
 ];
 
 const weveGotDetails = [
   'Line & Wrinkle Relaxer','Mesotherapy','Skin Booster','Dermal Filter','Chemical Peel',
-  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial',
+  'Laser Hair Removal','Lipo Sculpt','Lipo Zero','Hydrafacial', 'Boost HUB IV Drip',
 ];
 
 export default function HomeClient() {
@@ -132,8 +132,9 @@ export default function HomeClient() {
         <div className="container">
           <div className="welcome-wrapper">
             <h1>Begin Your <br /> Wellness & Beauty Journey</h1>
-            <p>IV Wellness Lounge Clinic is a premium wellness lounge providing an upscale boutique experience. We provide aesthetic services and IV Infusion therapy with proven results, within your means. IV Wellness is a space where you can wallow in comfort while we provide preventive health and cosmetic solutions. Our lounge is elegantly designed to give you the most top-notch services with top-rated health care professionals and therapists.</p>
-            <p>IV Wellness Lounge is the place to be if you want be at your best inside out.</p>
+            <p>IV Wellness Lounge Clinic is Dubai’s most exclusive destination for advanced wellness and aesthetic refinement. Designed as a boutique sanctuary, our space blends sophistication with science, offering an experience that feels more like a luxury retreat than a clinic. At the heart of our services are our signature IV drips. These tailored formulations restore balance, renew energy, and elevate both inner and outer vitality.</p>
+            <p>Every detail is curated with precision. From aesthetic treatments to bespoke IV drips, we combine medical expertise with an indulgent environment to deliver results that are transformative yet discreet. Our team of leading healthcare professionals and therapists ensures that every treatment is delivered with the highest level of care.</p>
+            <p>For those who prefer privacy and convenience, our IV drips at home service extends the same elevated care into the comfort of your own space. Whether the goal is hydration, recovery, or radiance, our mobile wellness team brings personalized IV drips to your door with the elegance and attention you would expect from a five star experience. IV Wellness Lounge is where refinement, science, and wellbeing meet. Step into the world of premium IV drips in Dubai and discover a new standard of luxury wellness, whether in our lounge or at home.</p>
             <div className="btn-wrap">
               <Link href="/about-us" className="btn">About US</Link>
             </div>

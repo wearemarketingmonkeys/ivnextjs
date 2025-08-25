@@ -57,11 +57,11 @@ const Footer = () => {
             <div className="left">
               <h1>
                 Not Sure- <br />
-                Which Service is Right For You?
+                Which IV Drip or Treatment is Right For You?
               </h1>
               <p>
                 Talk with one of our expert providers to ask questions and
-                determine what treatment is right for you.
+                determine which IV Drip or Treatment is right for you.
               </p>
             </div>
             <div className="right">
