@@ -219,7 +219,7 @@ export default function DripDetailPage({ params, searchParams }) {
                     const href =
                       `/iv-therapy/drips/${drip.slug}` +
                       (searchParams?.variant
-                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}`
+                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(drip.id || '')}`
                         : `?session=${encodeURIComponent(sp.txt || '')}`);
 
                     return (
@@ -253,12 +253,12 @@ export default function DripDetailPage({ params, searchParams }) {
               )}
 
               {/* Discount + offers */}
-              {(drip.discount || drip.discount === 0) && (
+              {/* {(drip.discount || drip.discount === 0) && (
                 <p className="discount">
                   <span>{drip.discount}% discount on 3 or more sessions.</span>
                   <Link href="/explore-us/offers">Explore more offers</Link>
                 </p>
-              )}
+              )} */}
 
               {/* Rich paragraphs */}
               {paras.length > 0 && (
