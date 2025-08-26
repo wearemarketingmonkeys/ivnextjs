@@ -39,10 +39,6 @@ const ivTherapyItems = [
       { dripsName: "Energy Hub", dripsUrl: "/iv-therapy/drips/energy-hub" },
       { dripsName: "Fitness Hub", dripsUrl: "/iv-therapy/drips/fitness-hub" },
       { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
-      {
-        dripsName: "Fitness Hub Express",
-        dripsUrl: "/iv-therapy/drips/fitness-hub",
-      },
       { dripsName: "Glow Hub", dripsUrl: "/iv-therapy/drips/glow-hub" },
       {
         dripsName: "Glow Hub Express",
@@ -85,9 +81,7 @@ const ivTherapyItems = [
         dripsName: "Hydration Hub Express",
         dripsUrl: "/iv-therapy/drips/hydration-hub-express",
       },
-      { dripsName: "NAD+ 100mg", dripsUrl: "/iv-therapy/drips/nad-plus" },
-      { dripsName: "NAD+ 250mg", dripsUrl: "/iv-therapy/drips/nad-plus" },
-      { dripsName: "NAD+ 500mg", dripsUrl: "/iv-therapy/drips/nad-plus" },
+      { dripsName: "NAD+", dripsUrl: "/iv-therapy/drips/nad-plus" },
     ],
   },
   {

@@ -93,6 +93,7 @@ const normalizeDrip = (d) => {
 
 const allDrips = () => (dripsData?.dripsData || []).map(normalizeDrip);
 const bySlug = (slug) => allDrips().find((d) => d.slug === slug) || null;
+const byId = (id) => allDrips().find((d) => String(d.id) === String(id)) || null; // NEW
 
 const pickVariant = (drip, variantName) => {
   if (!variantName || !drip.buttonslist?.length) return null;
@@ -149,12 +150,15 @@ export default function DripDetailPage({ params, searchParams }) {
   // variant selected via query: /iv-therapy/drips/beauty-hub?variant=Glow
   const active = pickVariant(drip, searchParams?.variant);
 
-  // pick the pid (from query first, then fall back to active variant id, then drip.id)
+  // read pid from query and resolve which product drives session pricing
   const pidFromQuery = searchParams?.pid || null;
+  const priceDrip = pidFromQuery ? (byId(pidFromQuery) || drip) : drip; // NEW
+
+  // maintain a pidActive for URL persistence
   const pidActive = pidFromQuery || active?.id || drip.id || null;
 
-  // get the relevant session list for that pid
-  const sessionList = getSessionListForPid(drip, pidActive);
+  // get the relevant session list for that pid (from the resolved product)
+  const sessionList = getSessionListForPid(priceDrip, pidActive);
 
   // resolve the active session from the list
   const activeSession = pickSession(sessionList, searchParams?.session);
@@ -228,6 +232,7 @@ export default function DripDetailPage({ params, searchParams }) {
                         key={`${btn.title}-${i}`}
                         href={href}
                         className="variant-link"
+                        scroll={false} // prevent jumping to top on navigation
                         style={{
                           whiteSpace: 'nowrap',
                           padding: '8px 16px',
@@ -270,6 +275,7 @@ export default function DripDetailPage({ params, searchParams }) {
                         key={`${sp.txt}-${i}`}
                         href={href}
                         className="session-link"
+                        scroll={false} // prevent jumping to top on navigation
                         style={{
                           whiteSpace: 'nowrap',
                           padding: '8px 16px',
