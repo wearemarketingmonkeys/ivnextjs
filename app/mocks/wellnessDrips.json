@@ -165,6 +165,24 @@
             "txt": "Heavy Menstrual Cycles"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
+          }
+        ],
         "extraData": [
           {
             "name": "Iron",
@@ -267,6 +285,24 @@
           {
             "icon": "icon15.png",
             "txt": "Sleep Deprivation And Fatigue"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
           }
         ],
         "pairings": [
@@ -380,6 +416,24 @@
             "txt": "Poor Focus Or Mental Fatigue"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
+          }
+        ],
         "pairings": [
           {
             "dripid": 5
@@ -477,6 +531,24 @@
           {
             "icon": "icon16.png",
             "txt": "Plateau In Weight Or Fat Loss Results"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
           }
         ],
         "buttonslist": [
@@ -1088,6 +1160,24 @@
           {
             "icon": "icon14.png",
             "txt": "High Stress Or Sleep Deprivation"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
           }
         ],
         "pairings": [
@@ -1745,6 +1835,24 @@
           {
             "icon": "icon11.png",
             "txt": "Professionals With Demanding Lifestyles Requiring Fast Recovery And Relaxation"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
           }
         ],
         "pairings": [
