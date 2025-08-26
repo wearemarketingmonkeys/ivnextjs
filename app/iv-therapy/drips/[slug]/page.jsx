@@ -18,7 +18,7 @@ const toPublic = (p) => {
 
 const normButton = (b = {}) => ({
   ...b,
-  id: b.id ?? b.pid ?? null,
+  id: b.id ?? b.iv ?? null,
   // normalize txt/title, price, and image path
   title: b.title || b.txt || '',
   img: toPublic(b.img || b.icon),
@@ -27,28 +27,28 @@ const normButton = (b = {}) => ({
 
 // normalize shapes
 const normSession = (s = {}) => ({
-  pid: s.pid || null,
+  iv: s.iv || null,
   txt: s.txt || '',
   price: s.price ?? null,
 });
 
-// Choose the session list based on pid, with fallbacks.
+// Choose the session list based on iv, with fallbacks.
 // Supported shapes:
-//  A) drip.sessionpriceByPid[pid] = [{txt, price}]
-//  B) drip.sessionprice = [{pid, txt, price}]   (filter by pid)
+//  A) drip.sessionpriceByPid[iv] = [{txt, price}]
+//  B) drip.sessionprice = [{iv, txt, price}]   (filter by iv)
 //  C) drip.sessionprice = [{txt, price}]        (global / default)
-const getSessionListForPid = (drip, pid) => {
+const getSessionListForPid = (drip, iv) => {
   if (!drip) return [];
 
   // A) per-PID map
-  if (drip.sessionpriceByPid && pid && Array.isArray(drip.sessionpriceByPid[pid])) {
-    return drip.sessionpriceByPid[pid].map(normSession);
+  if (drip.sessionpriceByPid && iv && Array.isArray(drip.sessionpriceByPid[iv])) {
+    return drip.sessionpriceByPid[iv].map(normSession);
   }
 
   // B) per-PID array
-  if (Array.isArray(drip.sessionprice) && drip.sessionprice.some(sp => sp?.pid)) {
+  if (Array.isArray(drip.sessionprice) && drip.sessionprice.some(sp => sp?.iv)) {
     return drip.sessionprice
-      .filter(sp => !pid || String(sp.pid) === String(pid))
+      .filter(sp => !iv || String(sp.iv) === String(iv))
       .map(normSession);
   }
 
@@ -107,10 +107,10 @@ const pickVariant = (drip, variantName) => {
   return v || null;
 };
 
-// NEW: pick variant by pid from URL (compares to button.id)
-const pickVariantByPid = (drip, pid) => {
-  if (!pid || !drip.buttonslist?.length) return null;
-  const v = drip.buttonslist.find((b) => String(b.id) === String(pid));
+// NEW: pick variant by iv from URL (compares to button.id)
+const pickVariantByPid = (drip, iv) => {
+  if (!iv || !drip.buttonslist?.length) return null;
+  const v = drip.buttonslist.find((b) => String(b.id) === String(iv));
   return v || null;
 };
 
@@ -160,18 +160,18 @@ export default function DripDetailPage({ params, searchParams }) {
   // variant selected via query: /iv-therapy/drips/beauty-hub?variant=Glow
   const active = pickVariant(drip, searchParams?.variant);
 
-  // read pid from query and resolve which product drives session pricing
-  const pidFromQuery = searchParams?.pid || null;
+  // read iv from query and resolve which product drives session pricing
+  const pidFromQuery = searchParams?.iv || null;
   const priceDrip = pidFromQuery ? (byId(pidFromQuery) || drip) : drip; // NEW
 
-  // derive active variant by pid first, then fall back to variant name
+  // derive active variant by iv first, then fall back to variant name
   const activeByPid = pickVariantByPid(drip, pidFromQuery);
   const activeVariant = activeByPid || active;
 
   // maintain a pidActive for URL persistence
   const pidActive = pidFromQuery || activeVariant?.id || drip.id || null;
 
-  // get the relevant session list for that pid (from the resolved product)
+  // get the relevant session list for that iv (from the resolved product)
   const sessionList = getSessionListForPid(priceDrip, pidActive);
 
   // resolve the active session from the list
@@ -238,7 +238,7 @@ export default function DripDetailPage({ params, searchParams }) {
                     const href = `/iv-therapy/drips/${drip.slug}` +
                             `?variant=${encodeURIComponent(btn.title || '')}` +
                             (searchParams?.session ? `&session=${encodeURIComponent(searchParams.session)}` : '') +
-                            (btn.id ? `&pid=${encodeURIComponent(String(btn.id))}` : '');
+                            (btn.id ? `&iv=${encodeURIComponent(String(btn.id))}` : '');
 
 
 
@@ -282,8 +282,8 @@ export default function DripDetailPage({ params, searchParams }) {
                     const href =
                       `/iv-therapy/drips/${drip.slug}` +
                       (searchParams?.variant
-                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(pidActive || '')}`
-                        : `?session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(pidActive || '')}`);
+                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}&iv=${encodeURIComponent(pidActive || '')}`
+                        : `?session=${encodeURIComponent(sp.txt || '')}&iv=${encodeURIComponent(pidActive || '')}`);
 
                     return (
                       <Link
