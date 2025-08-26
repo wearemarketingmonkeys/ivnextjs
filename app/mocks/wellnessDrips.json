@@ -52,6 +52,24 @@
             "txt": "Dull or uneven skin tone"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "899.1"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
+          }
+        ],
         "extraData": [
           {
             "name": "Vitamin C",
@@ -2072,6 +2090,24 @@
             "description": "Experience the revitalizing effects of NAD+ IV Therapy at IV Wellness Lounge Clinic Dubai."
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "899.1"
+          },
+          {
+            "txt": "Two Session",
+            "price": "849.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "799.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "699.3"
+          }
+        ],
         "buttonslist": [
           {
             "icon": "nad-100mg.webp",
@@ -2176,6 +2212,24 @@
             "txt": "Youthful Energy"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1529.1"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1444.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1359.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "1189.3"
+          }
+        ],
         "buttonslist": [
           {
             "icon": "nad-100mg.webp",
@@ -2234,6 +2288,24 @@
           {
             "icon": "icon6.png",
             "txt": "Youthful Energy"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "2339.1"
+          },
+          {
+            "txt": "Two Session",
+            "price": "2339.1"
+          },
+          {
+            "txt": "Three Session",
+            "price": "2079.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "1819.3"
           }
         ],
         "buttonslist": [

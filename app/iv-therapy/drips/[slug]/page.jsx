@@ -24,6 +24,20 @@ const normButton = (b = {}) => ({
   price: b.price ?? null,
 });
 
+const normSession = (s = {}) => ({
+  txt: s.txt || '',
+  price: s.price ?? null,
+});
+
+const pickSession = (drip, sessionTxt) => {
+  if (!sessionTxt || !drip.sessionprice?.length) return null;
+  const s = drip.sessionprice.find(
+    (x) => (x.txt || '').trim().toLowerCase() === sessionTxt.trim().toLowerCase()
+  );
+  return s || null;
+};
+
+
 // derive slug from `slug` or from last segment of `moreDetailsUrl`
 const normalizeDrip = (d) => {
   const slug =
@@ -41,7 +55,9 @@ const normalizeDrip = (d) => {
       ? d.benifitList.map((x) => ({ ...x, icon: toPublic(x.icon) }))
       : [],
     buttonslist: Array.isArray(d.buttonslist) ? d.buttonslist.map(normButton) : [],
+    sessionprice: Array.isArray(d.sessionprice) ? d.sessionprice.map(normSession) : [],
   };
+
 };
 
 const allDrips = () => (dripsData?.dripsData || []).map(normalizeDrip);
@@ -104,8 +120,17 @@ export default function DripDetailPage({ params, searchParams }) {
 
   const heroImg = active?.img || drip.img;
   const heroTitle = active?.title || drip.title;
-  const heroPrice =
+
+  // session selected via query: /iv-therapy/drips/[slug]?session=One%20Session
+  const activeSession = pickSession(drip, searchParams?.session);
+
+  // base price from variant (or drip)…
+  const heroBasePrice =
     active && active.price !== null && active.price !== '' ? active.price : drip.price;
+
+  // …but if a session is chosen, it overrides the hero price
+  const heroPrice = activeSession?.price ?? heroBasePrice;
+
 
   // for SEO and UX, expose the same “buttonslist” choices as links that toggle the query param
   const buttons = drip.buttonslist || [];
@@ -154,8 +179,10 @@ export default function DripDetailPage({ params, searchParams }) {
                       (active?.title || '').toLowerCase() === (btn.title || '').toLowerCase() ||
                       (!active && i === 0 && !searchParams?.variant); // show first as active when no variant chosen
                     const href =
-                      `/iv-therapy/drips/${drip.slug}` +
-                      `?variant=${encodeURIComponent(btn.title || '')}`;
+                        `/iv-therapy/drips/${drip.slug}` +
+                        `?variant=${encodeURIComponent(btn.title || '')}` +
+                        (searchParams?.session ? `&session=${encodeURIComponent(searchParams.session)}` : '');
+
 
                     return (
                       <Link
@@ -178,6 +205,45 @@ export default function DripDetailPage({ params, searchParams }) {
                   })}
                 </div>
               )}
+
+              {drip.sessionprice?.length > 0 && (
+                <div
+                  className="session-buttons"
+                  style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', margin: '10px 0' }}
+                >
+                  {drip.sessionprice.map((sp, i) => {
+                    const isActive =
+                      (activeSession?.txt || '').toLowerCase() === (sp.txt || '').toLowerCase() ||
+                      (!activeSession && i === 0 && !searchParams?.session);
+
+                    const href =
+                      `/iv-therapy/drips/${drip.slug}` +
+                      (searchParams?.variant
+                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}`
+                        : `?session=${encodeURIComponent(sp.txt || '')}`);
+
+                    return (
+                      <Link
+                        key={`${sp.txt}-${i}`}
+                        href={href}
+                        className="session-link"
+                        style={{
+                          whiteSpace: 'nowrap',
+                          padding: '8px 16px',
+                          borderRadius: '6px',
+                          border: '1px solid #ccc',
+                          background: isActive ? '#000' : 'transparent',
+                          color: isActive ? '#fff' : '#000',
+                        }}
+                        aria-current={isActive ? 'true' : undefined}
+                      >
+                        {sp.txt}
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+
 
               {/* Price */}
               {heroPrice != null && heroPrice !== '' && (
