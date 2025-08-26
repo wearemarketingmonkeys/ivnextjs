@@ -18,6 +18,7 @@ const toPublic = (p) => {
 
 const normButton = (b = {}) => ({
   ...b,
+  id: b.id ?? b.pid ?? null,
   // normalize txt/title, price, and image path
   title: b.title || b.txt || '',
   img: toPublic(b.img || b.icon),
@@ -46,7 +47,9 @@ const getSessionListForPid = (drip, pid) => {
 
   // B) per-PID array
   if (Array.isArray(drip.sessionprice) && drip.sessionprice.some(sp => sp?.pid)) {
-    return drip.sessionprice.filter(sp => !pid || sp.pid === pid).map(normSession);
+    return drip.sessionprice
+      .filter(sp => !pid || String(sp.pid) === String(pid))
+      .map(normSession);
   }
 
   // C) global default
@@ -104,6 +107,13 @@ const pickVariant = (drip, variantName) => {
   return v || null;
 };
 
+// NEW: pick variant by pid from URL (compares to button.id)
+const pickVariantByPid = (drip, pid) => {
+  if (!pid || !drip.buttonslist?.length) return null;
+  const v = drip.buttonslist.find((b) => String(b.id) === String(pid));
+  return v || null;
+};
+
 // ----------------- static gen -----------------
 export function generateStaticParams() {
   return allDrips()
@@ -154,8 +164,12 @@ export default function DripDetailPage({ params, searchParams }) {
   const pidFromQuery = searchParams?.pid || null;
   const priceDrip = pidFromQuery ? (byId(pidFromQuery) || drip) : drip; // NEW
 
+  // derive active variant by pid first, then fall back to variant name
+  const activeByPid = pickVariantByPid(drip, pidFromQuery);
+  const activeVariant = activeByPid || active;
+
   // maintain a pidActive for URL persistence
-  const pidActive = pidFromQuery || active?.id || drip.id || null;
+  const pidActive = pidFromQuery || activeVariant?.id || drip.id || null;
 
   // get the relevant session list for that pid (from the resolved product)
   const sessionList = getSessionListForPid(priceDrip, pidActive);
@@ -164,10 +178,10 @@ export default function DripDetailPage({ params, searchParams }) {
   const activeSession = pickSession(sessionList, searchParams?.session);
 
   // base hero values (variant or drip)
-  const heroImg = active?.img || drip.img;
-  const heroTitle = active?.title || drip.title;
+  const heroImg = activeVariant?.img || drip.img;
+  const heroTitle = activeVariant?.title || drip.title;
   const heroBasePrice =
-    active && active.price !== null && active.price !== '' ? active.price : drip.price;
+    activeVariant && activeVariant.price !== null && activeVariant.price !== '' ? activeVariant.price : drip.price;
 
   // session overrides price if selected (or default to first in the list)
   const heroPrice = (activeSession?.price ?? (sessionList[0]?.price ?? heroBasePrice));
@@ -217,13 +231,14 @@ export default function DripDetailPage({ params, searchParams }) {
                   style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', margin: '10px 0' }}
                 >
                   {buttons.map((btn, i) => {
-                    const isActive =
-                      (active?.title || '').toLowerCase() === (btn.title || '').toLowerCase() ||
-                      (!active && i === 0 && !searchParams?.variant); // show first as active when no variant chosen
+                    const isActive = pidFromQuery
+                      ? String(pidFromQuery) === String(btn.id)
+                      : ((activeVariant?.title || '').toLowerCase() === (btn.title || '').toLowerCase() ||
+                         (!activeVariant && i === 0 && !searchParams?.variant)); // show first as active when no variant chosen
                     const href = `/iv-therapy/drips/${drip.slug}` +
                             `?variant=${encodeURIComponent(btn.title || '')}` +
                             (searchParams?.session ? `&session=${encodeURIComponent(searchParams.session)}` : '') +
-                            (pidActive ? `&pid=${encodeURIComponent(pidActive)}` : '');
+                            (btn.id ? `&pid=${encodeURIComponent(String(btn.id))}` : '');
 
 
 

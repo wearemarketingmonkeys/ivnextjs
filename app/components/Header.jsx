@@ -41,10 +41,6 @@ const ivTherapyItems = [
       { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
       { dripsName: "Glow Hub", dripsUrl: "/iv-therapy/drips/glow-hub" },
       {
-        dripsName: "Glow Hub Express",
-        dripsUrl: "/iv-therapy/drips/glow-hub",
-      },
-      {
         dripsName: "Hairfall Defense",
         dripsUrl: "/iv-therapy/drips/hairfall-defense",
       },
