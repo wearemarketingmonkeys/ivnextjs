@@ -24,18 +24,47 @@ const normButton = (b = {}) => ({
   price: b.price ?? null,
 });
 
+// normalize shapes
 const normSession = (s = {}) => ({
+  pid: s.pid || null,
   txt: s.txt || '',
   price: s.price ?? null,
 });
 
-const pickSession = (drip, sessionTxt) => {
-  if (!sessionTxt || !drip.sessionprice?.length) return null;
-  const s = drip.sessionprice.find(
+// Choose the session list based on pid, with fallbacks.
+// Supported shapes:
+//  A) drip.sessionpriceByPid[pid] = [{txt, price}]
+//  B) drip.sessionprice = [{pid, txt, price}]   (filter by pid)
+//  C) drip.sessionprice = [{txt, price}]        (global / default)
+const getSessionListForPid = (drip, pid) => {
+  if (!drip) return [];
+
+  // A) per-PID map
+  if (drip.sessionpriceByPid && pid && Array.isArray(drip.sessionpriceByPid[pid])) {
+    return drip.sessionpriceByPid[pid].map(normSession);
+  }
+
+  // B) per-PID array
+  if (Array.isArray(drip.sessionprice) && drip.sessionprice.some(sp => sp?.pid)) {
+    return drip.sessionprice.filter(sp => !pid || sp.pid === pid).map(normSession);
+  }
+
+  // C) global default
+  if (Array.isArray(drip.sessionprice)) {
+    return drip.sessionprice.map(normSession);
+  }
+
+  return [];
+};
+
+const pickSession = (sessionList, sessionTxt) => {
+  if (!sessionTxt || !sessionList?.length) return null;
+  const s = sessionList.find(
     (x) => (x.txt || '').trim().toLowerCase() === sessionTxt.trim().toLowerCase()
   );
   return s || null;
 };
+
 
 
 // derive slug from `slug` or from last segment of `moreDetailsUrl`
@@ -56,6 +85,8 @@ const normalizeDrip = (d) => {
       : [],
     buttonslist: Array.isArray(d.buttonslist) ? d.buttonslist.map(normButton) : [],
     sessionprice: Array.isArray(d.sessionprice) ? d.sessionprice.map(normSession) : [],
+    sessionpriceByPid: d.sessionpriceByPid || undefined,
+
   };
 
 };
@@ -118,18 +149,25 @@ export default function DripDetailPage({ params, searchParams }) {
   // variant selected via query: /iv-therapy/drips/beauty-hub?variant=Glow
   const active = pickVariant(drip, searchParams?.variant);
 
+  // pick the pid (from query first, then fall back to active variant id, then drip.id)
+  const pidFromQuery = searchParams?.pid || null;
+  const pidActive = pidFromQuery || active?.id || drip.id || null;
+
+  // get the relevant session list for that pid
+  const sessionList = getSessionListForPid(drip, pidActive);
+
+  // resolve the active session from the list
+  const activeSession = pickSession(sessionList, searchParams?.session);
+
+  // base hero values (variant or drip)
   const heroImg = active?.img || drip.img;
   const heroTitle = active?.title || drip.title;
-
-  // session selected via query: /iv-therapy/drips/[slug]?session=One%20Session
-  const activeSession = pickSession(drip, searchParams?.session);
-
-  // base price from variant (or drip)…
   const heroBasePrice =
     active && active.price !== null && active.price !== '' ? active.price : drip.price;
 
-  // …but if a session is chosen, it overrides the hero price
-  const heroPrice = activeSession?.price ?? heroBasePrice;
+  // session overrides price if selected (or default to first in the list)
+  const heroPrice = (activeSession?.price ?? (sessionList[0]?.price ?? heroBasePrice));
+
 
 
   // for SEO and UX, expose the same “buttonslist” choices as links that toggle the query param
@@ -178,10 +216,11 @@ export default function DripDetailPage({ params, searchParams }) {
                     const isActive =
                       (active?.title || '').toLowerCase() === (btn.title || '').toLowerCase() ||
                       (!active && i === 0 && !searchParams?.variant); // show first as active when no variant chosen
-                    const href =
-                        `/iv-therapy/drips/${drip.slug}` +
-                        `?variant=${encodeURIComponent(btn.title || '')}` +
-                        (searchParams?.session ? `&session=${encodeURIComponent(searchParams.session)}` : '');
+                    const href = `/iv-therapy/drips/${drip.slug}` +
+                            `?variant=${encodeURIComponent(btn.title || '')}` +
+                            (searchParams?.session ? `&session=${encodeURIComponent(searchParams.session)}` : '') +
+                            (pidActive ? `&pid=${encodeURIComponent(pidActive)}` : '');
+
 
 
                     return (
@@ -206,12 +245,16 @@ export default function DripDetailPage({ params, searchParams }) {
                 </div>
               )}
 
-              {drip.sessionprice?.length > 0 && (
-                <div
-                  className="session-buttons"
-                  style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', margin: '10px 0' }}
-                >
-                  {drip.sessionprice.map((sp, i) => {
+              {/* Price */}
+              {heroPrice != null && heroPrice !== '' && (
+                <h2>
+                  <i>AED {heroPrice}</i> / per session
+                </h2>
+              )}
+
+              {sessionList.length > 0 && (
+                <div className="session-buttons" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', margin: '10px 0' }}>
+                  {sessionList.map((sp, i) => {
                     const isActive =
                       (activeSession?.txt || '').toLowerCase() === (sp.txt || '').toLowerCase() ||
                       (!activeSession && i === 0 && !searchParams?.session);
@@ -219,8 +262,8 @@ export default function DripDetailPage({ params, searchParams }) {
                     const href =
                       `/iv-therapy/drips/${drip.slug}` +
                       (searchParams?.variant
-                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(drip.id || '')}`
-                        : `?session=${encodeURIComponent(sp.txt || '')}`);
+                        ? `?variant=${encodeURIComponent(searchParams.variant)}&session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(pidActive || '')}`
+                        : `?session=${encodeURIComponent(sp.txt || '')}&pid=${encodeURIComponent(pidActive || '')}`);
 
                     return (
                       <Link
@@ -245,12 +288,8 @@ export default function DripDetailPage({ params, searchParams }) {
               )}
 
 
-              {/* Price */}
-              {heroPrice != null && heroPrice !== '' && (
-                <h2>
-                  <i>AED {heroPrice}</i>
-                </h2>
-              )}
+
+              
 
               {/* Discount + offers */}
               {/* {(drip.discount || drip.discount === 0) && (
