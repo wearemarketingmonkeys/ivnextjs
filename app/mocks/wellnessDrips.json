@@ -553,11 +553,13 @@
         ],
         "buttonslist": [
           {
+            "id": 5,
             "icon": "fitness-hub.webp",
             "txt": "Fitness Hub",
             "price": "999"
           },
           {
+            "id": 6,
             "icon": "fitness-hub-express.webp",
             "txt": "Fitness Hub Express",
             "price": "499"
@@ -668,6 +670,38 @@
           {
             "icon": "icon16.png",
             "txt": "Plateau In Weight Or Fat Loss Results"
+          }
+        ],
+         "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "499"
+          },
+          {
+            "txt": "Two Session",
+            "price": "424.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "399.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "349.3"
+          }
+        ],
+        "buttonslist": [
+          {
+            "id": 5,
+            "icon": "fitness-hub.webp",
+            "txt": "Fitness Hub",
+            "price": "999"
+          },
+          {
+            "id": 6,
+            "icon": "fitness-hub-express.webp",
+            "txt": "Fitness Hub Express",
+            "price": "499"
           }
         ],
         "extraData": [
@@ -1057,6 +1091,24 @@
             "txt": "Anyone Seeking Proactive Immune Health Support"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "699"
+          },
+          {
+            "txt": "Two Session",
+            "price": "594.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "559.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "489.3"
+          }
+        ],
         "pairings": [
           {
             "dripid": 3
@@ -1410,6 +1462,24 @@
           {
             "icon": "icon8.png",
             "txt": "Exposed To Environmental Toxins That May Affect Reproductive Health"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1299"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1104.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1039.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "909.3"
           }
         ],
         "extraData": [
