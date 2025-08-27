@@ -799,13 +799,33 @@
             "txt": "Poor Dietary Habits Affecting Skin Vitality"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "799"
+          },
+          {
+            "txt": "Two Session",
+            "price": "679.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "639.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "559.3"
+          }
+        ],
         "buttonslist": [
           {
+            "id": 7,
             "icon": "glow-hub.webp",
             "txt": "Glow Hub",
             "price": "799"
           },
           {
+            "id": 8,
             "icon": "glow-hub-express.webp",
             "txt": "Glow Hub Express",
             "price": "499"
@@ -913,6 +933,38 @@
             "txt": "Poor Dietary Habits Affecting Skin Vitality"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "499"
+          },
+          {
+            "txt": "Two Session",
+            "price": "424.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "399.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "349.3"
+          }
+        ],
+        "buttonslist": [
+          {
+            "id": 7,
+            "icon": "glow-hub.webp",
+            "txt": "Glow Hub",
+            "price": "799"
+          },
+          {
+            "id": 8,
+            "icon": "glow-hub-express.webp",
+            "txt": "Glow Hub Express",
+            "price": "499"
+          }
+        ],
         "extraData": [
           {
             "name": "Alpha Lipoic Acid",
@@ -993,6 +1045,24 @@
           {
             "icon": "icon6.png",
             "txt": "Anyone Seeking To Improve Overall Hair Strength And Appearance"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "899"
+          },
+          {
+            "txt": "Two Session",
+            "price": "764.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "719.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "629.3"
           }
         ],
         "pairings": [
@@ -1348,6 +1418,24 @@
             "txt": "Anyone Looking To Restore Peak Vitality"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1999"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1699.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1599.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "1399.3"
+          }
+        ],
         "extraData": [
           {
             "name": "FOLIC ACID",
@@ -1577,6 +1665,24 @@
             "txt": "Those with vitamin deficiencies"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1299"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1104.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1039.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "909.3"
+          }
+        ],
         "extraData": [
           {
             "name": "ALA",
@@ -1726,6 +1832,24 @@
             "txt": "Prolonged Recovery Time after Excercing"
           }
         ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1299"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1104.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1039.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "909.3"
+          }
+        ],
         "extraData": [
           {
             "name": "L-Carnitine",
@@ -1810,6 +1934,24 @@
           {
             "icon": "icon3.png",
             "txt": "Those Looking For A Powerful Immune And Liver Detox In Dubai"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "1499"
+          },
+          {
+            "txt": "Two Session",
+            "price": "1274.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "1199.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "1049.3"
           }
         ],
         "extraData": [
@@ -2021,6 +2163,24 @@
           {
             "icon": "icon9.png",
             "txt": "Clients Looking For Fast Rehydration And Enhanced Liver Support"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "One Session",
+            "price": "899"
+          },
+          {
+            "txt": "Two Session",
+            "price": "764.15"
+          },
+          {
+            "txt": "Three Session",
+            "price": "719.2"
+          },
+          {
+            "txt": "Five Session",
+            "price": "629.3"
           }
         ],
         "pairings": [

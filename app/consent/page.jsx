@@ -110,6 +110,16 @@ export default function ConsentPage() {
                     </a>
                   </div>
 
+                  <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      IV Consent
+                    </a>
+                  </div>
 
               </div>
             </div>
