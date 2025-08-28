@@ -133,10 +133,10 @@
               }
               .single-list::before {
                   content: "✔"; /* tick icon */
-                  position: absolute;
+                  position: relative;
                   left: 0;
                   top: 0;
-                  color: #2ecc71; /* green tick */
+                  color: #000; /* green tick */
                   font-weight: bold;
                   font-size: 18px; /* size of tick */
                 }
