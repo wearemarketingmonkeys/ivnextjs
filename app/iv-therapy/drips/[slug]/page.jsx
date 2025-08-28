@@ -362,7 +362,7 @@ export default function DripDetailPage({ params, searchParams }) {
                   <li key={index}>{x}</li>
                 ))}
               </ul> */}
-              <div className="benifit-list">
+              <div className="benifit-list keybenefit">
                 {drip.benifits?.map((x, index) => (
                   <div className="single-list" key={index}>
                     <p>{x}</p>

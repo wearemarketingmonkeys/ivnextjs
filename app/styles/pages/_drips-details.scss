@@ -124,6 +124,24 @@
                 }
             }
 
+            .keybenefit{
+              .single-list{
+                background: #f2eee9;
+                min-height: 60px;
+                padding: 0 5px;
+                border-radius: 5px;
+              }
+              .single-list::before {
+                  content: "✔"; /* tick icon */
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  color: #2ecc71; /* green tick */
+                  font-weight: bold;
+                  font-size: 18px; /* size of tick */
+                }
+            }
+            
             .benifit-list{
                 display: flex;
                 align-items: center;
