@@ -141,7 +141,7 @@
                   font-size: 18px; /* size of tick */
               }
               @media (max-width: 500px) {
-                  gap: 10px;
+                  gap: 10px !important;
                   .single-list{
                     width: 100%;
                     padding: 5px 15px;
