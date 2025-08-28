@@ -71,9 +71,8 @@ export default function ExtrasCarousel({ items = [] }) {
   return (
     <Carousel
       responsive={responsive}
-      arrows={false}
+      arrows={true}
       showDots={false}
-      autoPlay
       infinite
       sliderClass="drips-extras-wrap"
       swipeable
