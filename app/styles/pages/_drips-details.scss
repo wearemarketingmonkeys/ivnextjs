@@ -111,10 +111,18 @@
             gap: 24px;
             @include mixin.respond(lg){
                 width: 100%;
+
+                .variant-link{
+                  font-size: 13px !important;
+                }
+                .btn-wrap{
+                  width: 100%;
+                }
             }
             h1{
                 text-transform: uppercase;
             }
+            
             .benifit-item{
                 li{
                     font-size: 18px;
