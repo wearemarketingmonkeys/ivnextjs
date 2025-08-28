@@ -114,12 +114,12 @@
             }
 
             .variant-link{
-              @include mixin.respond(lg){
+              @media (max-width: 500px) {
                 font-size: 13px !important;
               }
             }
             .btn-wrap{
-              @include mixin.respond(lg){
+              @media (max-width: 500px) {
                 width: 100%;
               }
             }
