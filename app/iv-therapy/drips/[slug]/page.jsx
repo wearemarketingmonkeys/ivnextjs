@@ -357,11 +357,18 @@ export default function DripDetailPage({ params, searchParams }) {
             <div className="right">
               {/* <h2>{data?.benifitTitle}</h2> */}
               <h2>Key Benefits :</h2>
-              <ul className="benifit-item">
+              {/* <ul className="benifit-item">
                 {drip.benifits?.map((x, index) => (
                   <li key={index}>{x}</li>
                 ))}
-              </ul>
+              </ul> */}
+              <div className="benifit-list">
+                {drip.benifits?.map((x, index) => (
+                  <div className="single-list" key={index}>
+                    <p>{x}</p>
+                  </div>
+                ))}
+              </div>
               <h4>Recommended for:</h4>
               <div className="benifit-list">
                 {drip.benifitList?.map((x, index) => (
