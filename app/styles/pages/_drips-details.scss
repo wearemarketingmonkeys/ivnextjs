@@ -111,14 +111,19 @@
             gap: 24px;
             @include mixin.respond(lg){
                 width: 100%;
-
-                .variant-link{
-                  font-size: 13px !important;
-                }
-                .btn-wrap{
-                  width: 100%;
-                }
             }
+
+            .variant-link{
+              @include mixin.respond(lg){
+                font-size: 13px !important;
+              }
+            }
+            .btn-wrap{
+              @include mixin.respond(lg){
+                width: 100%;
+              }
+            }
+            
             h1{
                 text-transform: uppercase;
             }
