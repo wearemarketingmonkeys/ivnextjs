@@ -44,6 +44,18 @@
         @include mixin.respond(lg) {
           width: 100%;
         }
+
+        .variant-link{
+          @media (max-width: 500px) {
+            font-size: 13px !important;
+          }
+        }
+        .btn-wrap{
+          @media (max-width: 500px) {
+            width: 100%;
+          }
+        }
+        
         .para {
           p {
             font-weight: 200;
@@ -55,6 +67,8 @@
             }
           }
         }
+
+        
 
         .discount {
           font-size: 14px;
@@ -111,17 +125,6 @@
             gap: 24px;
             @include mixin.respond(lg){
                 width: 100%;
-            }
-
-            .variant-link{
-              @media (max-width: 500px) {
-                font-size: 13px !important;
-              }
-            }
-            .btn-wrap{
-              @media (max-width: 500px) {
-                width: 100%;
-              }
             }
             
             h1{
