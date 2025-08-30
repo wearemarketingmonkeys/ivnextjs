@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import dripsData from '../../../mocks/wellnessDrips.json';
+import DripsCard from "../../../components/DripsCard.jsx";
 
 const ExtrasCarousel = dynamic(() => import('./ExtrasCarouselClient'), { ssr: false });
 const FaqAccordion  = dynamic(() => import('./FaqAccordionClient'),  { ssr: false });
@@ -89,7 +90,7 @@ const normalizeDrip = (d) => {
     buttonslist: Array.isArray(d.buttonslist) ? d.buttonslist.map(normButton) : [],
     sessionprice: Array.isArray(d.sessionprice) ? d.sessionprice.map(normSession) : [],
     sessionpriceByPid: d.sessionpriceByPid || undefined,
-
+    pairings: Array.isArray(d.pairings) ? d.pairings : [],
   };
 
 };
@@ -195,6 +196,12 @@ export default function DripDetailPage({ params, searchParams }) {
   const paras = [drip.para1, drip.para2, drip.para3, drip.para4, drip.para5, drip.para6].filter(
     (p) => typeof p === 'string' && p.trim() !== ''
   );
+
+  // ------- Pairings (server-safe) -------
+  // Your JSON can include: { pairings: [{ dripid: <id> }, ...] }
+  const all = allDrips();
+  const pairingDrips =
+    drip?.pairings?.map((p) => all.find((d) => d.id === p.dripid)).filter(Boolean) || [];
 
   // Breadcrumb LD+JSON
   const jsonLd = {
@@ -417,6 +424,36 @@ export default function DripDetailPage({ params, searchParams }) {
             <FaqAccordion items={drip.faq} />
           </div>
         </section>
+      )}
+
+      {/* Pairings (server render) */}
+      {pairingDrips && pairingDrips.length > 0 && (
+        <div className="drips-pairings">
+          <div className="container">
+            <div className="benifit-wrap">
+              <div className="right">
+                <h2 className="section-title">Recommended Pairings</h2>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="drips-pairings-wrap">
+              {pairingDrips.map((drip) => (
+                <div className="single-drips-details" key={drip.id}>
+                  <DripsCard
+                    dripsNumber={drip.id}
+                    dripsImg={drip.img}
+                    title={drip.title}
+                    desc={drip.desc}
+                    bookBtnUrl={drip.bookingBtn}
+                    moreDetailsUrl={drip.moreDetailsUrl}
+                    price={drip.price}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       )}
     </main>
   );
