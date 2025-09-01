@@ -355,12 +355,13 @@ export default function DripDetailPage({ params, searchParams }) {
                   Explore other drips
                 </Link>
               </div>
+
+              <BenefitsAccordion drip={drip} />
             </div>
           </div>
         </div>
       </section>
 
-      <BenefitsAccordion drip={drip} />
 
       {drip?.extraData?.length > 0 && (
         <section className="drips-extras">

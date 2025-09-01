@@ -61,6 +61,7 @@
           p {
             font-weight: 200;
             font-size: 18px;
+            text-align: justify;
             margin-bottom: 10px;
 
             b{
@@ -174,8 +175,8 @@
 
             .keybenefit{
               .single-list{
-                background: #f2eee9;
-                min-height: 68px;
+                // background: #f2eee9;
+                // min-height: 68px;
                 padding: 0 15px;
                 border-radius: 5px;
               }
@@ -204,8 +205,8 @@
                 gap: 36px;
                 @media (min-width: 1024px) {
                       display: grid;
-                      grid-template-columns: repeat(3, 1fr);
-                      gap: 10px;
+                      // grid-template-columns: repeat(3, 1fr);
+                      // gap: 10px;
                       align-items: start;
                 }
                 .single-list{
