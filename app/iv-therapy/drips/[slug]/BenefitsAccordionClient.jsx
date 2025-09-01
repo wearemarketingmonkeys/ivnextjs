@@ -4,7 +4,6 @@
 export default function BenefitsAccordion({ drip }) {
   return (
     <div className="benifit">
-      <div className="container">
         <div className="benifit-wrap">
           <div className="right">
             {/* Key Benefits */}
@@ -45,7 +44,6 @@ export default function BenefitsAccordion({ drip }) {
             </details>
           </div>
         </div>
-      </div>
     </div>
   );
 }

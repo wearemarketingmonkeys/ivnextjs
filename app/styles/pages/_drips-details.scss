@@ -97,8 +97,8 @@
 
   .benifit{
     position: relative;
-    background-color: #ffffff;
-    padding: 64px 0;
+    // background-color: #ffffff;
+    // padding: 64px 0;
     .benifit-wrap{
         display: flex;
         align-items: flex-start;
@@ -147,7 +147,7 @@
               /* remove default disclosure triangle on Safari */
               &::-webkit-details-marker { display: none; }
 
-              h2, h4 { margin: 0; width: 100%; text-align: center; }
+              h2, h4 { margin: 0; width: 100%; text-align: left; }
               .accordion-caret {
                 margin-left: auto;
                 transition: transform .2s ease;
