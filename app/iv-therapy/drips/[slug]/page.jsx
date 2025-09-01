@@ -6,6 +6,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import dripsData from '../../../mocks/wellnessDrips.json';
 import DripsCard from "../../../components/DripsCard.jsx";
+import BenefitsAccordion from "../../../components/BenefitsAccordion"; // adjust path if needed
+
 
 const ExtrasCarousel = dynamic(() => import('./ExtrasCarouselClient'), { ssr: false });
 const FaqAccordion  = dynamic(() => import('./FaqAccordionClient'),  { ssr: false });
@@ -358,37 +360,7 @@ export default function DripDetailPage({ params, searchParams }) {
         </div>
       </section>
 
-      <div className="benifit">
-        <div className="container">
-          <div className="benifit-wrap">
-            <div className="right">
-              {/* <h2>{data?.benifitTitle}</h2> */}
-              <h2>Key Benefits :</h2>
-              {/* <ul className="benifit-item">
-                {drip.benifits?.map((x, index) => (
-                  <li key={index}>{x}</li>
-                ))}
-              </ul> */}
-              <div className="benifit-list keybenefit">
-                {drip.benifits?.map((x, index) => (
-                  <div className="single-list" key={index}>
-                    <p>{x}</p>
-                  </div>
-                ))}
-              </div>
-              <h4>Recommended for:</h4>
-              <div className="benifit-list">
-                {drip.benifitList?.map((x, index) => (
-                  <div className="single-list" key={index}>
-                    <img src={x.icon} alt={x.txt} />
-                    <p>{x.txt}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <BenefitsAccordion drip={drip} />
 
       {drip?.extraData?.length > 0 && (
         <section className="drips-extras">
@@ -402,7 +374,7 @@ export default function DripDetailPage({ params, searchParams }) {
             </div>
           </div>
 
-          <div className="container-fluid">
+          <div className="container">
             {/* ⬇️ runs on client, keeps your Carousel + TiltCard exactly */}
             <ExtrasCarousel items={drip.extraData} />
           </div>

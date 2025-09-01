@@ -73,7 +73,6 @@ export default function ExtrasCarousel({ items = [] }) {
       responsive={responsive}
       arrows={true}
       showDots={false}
-      infinite
       sliderClass="drips-extras-wrap"
       swipeable
       draggable
