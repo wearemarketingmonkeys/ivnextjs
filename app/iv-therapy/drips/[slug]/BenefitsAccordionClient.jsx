@@ -8,7 +8,7 @@ export default function BenefitsAccordion({ drip }) {
         <div className="benifit-wrap">
           <div className="right">
             {/* Key Benefits */}
-            <details className="accordion-block" open>
+            <details className="accordion-block">
               <summary className="accordion-summary">
                 <h2 className="section-title">Key Benefits :</h2>
                 <span className="accordion-caret" aria-hidden>▾</span>
@@ -28,7 +28,7 @@ export default function BenefitsAccordion({ drip }) {
             {/* Recommended for */}
             <details className="accordion-block">
               <summary className="accordion-summary">
-                <h4>Recommended for:</h4>
+                <h2>Recommended For:</h2>
                 <span className="accordion-caret" aria-hidden>▾</span>
               </summary>
 
