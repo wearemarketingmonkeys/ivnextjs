@@ -143,6 +143,7 @@
               gap: 12px;
               cursor: pointer;
               user-select: none;
+              border-bottom: 1px solid #827878;
 
               /* remove default disclosure triangle on Safari */
               &::-webkit-details-marker { display: none; }
@@ -234,8 +235,14 @@
   .drips-extras{
     position: relative;
     background-color: #ffffff;
+    padding-top: 30px;
+
+    .react-multiple-carousel__arrow--right,.react-multiple-carousel__arrow--left{
+        right: calc(1% + 1px);
+    }
+
     .drips-extras-wrap{
-        padding: 60px 0;
+        padding: 30px 0;
         @include mixin.respond(lg){
           padding: 48px 0;
         }
