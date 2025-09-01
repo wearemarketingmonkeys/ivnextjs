@@ -40,8 +40,8 @@ const seenLinks = [
 ];
 
 const partnerLinks = [
-  'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
   'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
+  'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
 ];
 
 const gotDetails = [
