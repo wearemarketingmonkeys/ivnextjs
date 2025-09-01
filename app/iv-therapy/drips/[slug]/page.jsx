@@ -9,7 +9,7 @@ import DripsCard from "../../../components/DripsCard.jsx";
 
 
 const ExtrasCarousel = dynamic(() => import('./ExtrasCarouselClient'), { ssr: false });
-const BenefitsAccordion = dynamic(() => import('./BenefitsAccordion'), { ssr: false });
+const BenefitsAccordion = dynamic(() => import('./BenefitsAccordionClient'), { ssr: false });
 const FaqAccordion  = dynamic(() => import('./FaqAccordionClient'),  { ssr: false });
 
 
