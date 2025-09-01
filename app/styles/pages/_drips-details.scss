@@ -56,6 +56,38 @@
           }
         }
         
+        .accordion-block {
+          border-bottom: 1px solid #eee;
+          padding: 8px 0;
+
+          &[open] .accordion-caret { transform: rotate(180deg); }
+        }
+
+        .accordion-summary {
+          list-style: none; /* hide default marker in some browsers */
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          cursor: pointer;
+          user-select: none;
+
+          /* remove default disclosure triangle on Safari */
+          &::-webkit-details-marker { display: none; }
+
+          h2, h4 { margin: 0; }
+          .accordion-caret {
+            margin-left: auto;
+            transition: transform .2s ease;
+            font-size: 18px;
+            line-height: 1;
+          }
+        }
+
+        .accordion-content {
+          padding-top: 10px;
+        }
+
+
         .para {
           p {
             font-weight: 200;
