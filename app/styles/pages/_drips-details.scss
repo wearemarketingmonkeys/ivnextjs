@@ -15,7 +15,7 @@
         position: relative;
         width: 50%;
         background-color: #FFFAF4;
-        max-height: 600px;
+        max-height: 890px;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -28,7 +28,7 @@
             position: relative;
           width: 80%;
           height: 80%;
-          max-height: 600px;
+          max-height: 890px;
           object-fit: contain;
           object-position: top center;
           z-index: 9;
@@ -60,7 +60,7 @@
         .para {
           p {
             font-weight: 200;
-            font-size: 18px;
+            font-size: 16px;
             text-align: justify;
             margin-bottom: 10px;
 
