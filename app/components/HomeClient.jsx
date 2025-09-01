@@ -28,10 +28,20 @@ const seenIcons = [
   '/assets/img/home/GT.png',
 ];
 
+const partnerIcons = [
+  '/assets/img/home/fazaa-logo.png',
+  '/assets/img/home/NBD-logo.png',
+];
+
 const seenLinks = [
   'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
   'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
   'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
+];
+
+const partnerLinks = [
+  'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
+  'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
 ];
 
 const gotDetails = [
@@ -314,6 +324,24 @@ export default function HomeClient() {
               {seenIcons.map((x, i) => (
                 <div className="img-wrap" key={i}>
                   <a href={seenLinks[i]} target="_blank" rel="noopener noreferrer">
+                    <img src={x} alt="seen icon" />
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* partners */}
+      <div className="as-seen">
+        <div className="container">
+          <div className="as-seen-wrapper">
+            <h1>Our Partners</h1>
+            <div className="seen-wrap">
+              {partnerIcons.map((x, i) => (
+                <div className="img-wrap" key={i}>
+                  <a href={partnerLinks[i]} target="_blank" rel="noopener noreferrer">
                     <img src={x} alt="seen icon" />
                   </a>
                 </div>
