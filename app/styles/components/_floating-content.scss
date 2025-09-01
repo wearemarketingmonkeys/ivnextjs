@@ -35,6 +35,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
+    @include mixin.respond(sm) {
+      padding: 10px;
+      gap: 5px;
+    }
+
     a:first-child,
     span {
       font-size: 14px;
@@ -67,7 +73,7 @@
     background: #000;
 
     @include mixin.respond(sm) {
-      padding: 12px !important;
+      padding: 10px !important;
     }
   }
 
