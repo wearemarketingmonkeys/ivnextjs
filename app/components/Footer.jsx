@@ -84,6 +84,13 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Elfsight */}
+      <div className="testimonial">
+        <div className="container">
+          <div className="elfsight-app-f8470afc-7998-4690-b029-8b07167ad89c" data-elfsight-app-lazy />
+        </div>
+      </div>
+      
       {/* Footer Bottom Section */}
       <footer className="footer-bottom">
         <div className="container">

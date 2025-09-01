@@ -19,6 +19,10 @@
         position: relative;
         bottom: 0;
         right: 0;
+        @include mixin.respond(sm) {
+          width: 45px;
+          height: 45px;
+        }
     }
     img{
         padding: 12px;
