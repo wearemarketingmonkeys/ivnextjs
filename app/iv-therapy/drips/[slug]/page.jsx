@@ -6,10 +6,10 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import dripsData from '../../../mocks/wellnessDrips.json';
 import DripsCard from "../../../components/DripsCard.jsx";
-import BenefitsAccordion from "../../../components/BenefitsAccordion.jsx"; // adjust path if needed
 
 
 const ExtrasCarousel = dynamic(() => import('./ExtrasCarouselClient'), { ssr: false });
+const BenefitsAccordion = dynamic(() => import('./BenefitsAccordion'), { ssr: false });
 const FaqAccordion  = dynamic(() => import('./FaqAccordionClient'),  { ssr: false });
 
 
