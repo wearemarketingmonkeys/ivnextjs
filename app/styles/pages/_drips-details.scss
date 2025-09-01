@@ -237,7 +237,11 @@
     background-color: #ffffff;
     padding-top: 30px;
 
-    .react-multiple-carousel__arrow--right,.react-multiple-carousel__arrow--left{
+    .react-multiple-carousel__arrow--left{
+        left: calc(1% + 1px);
+    }
+
+    .react-multiple-carousel__arrow--right{
         right: calc(1% + 1px);
     }
 
