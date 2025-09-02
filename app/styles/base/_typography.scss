@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
     line-height: 25px;
     font-weight: 400;
-    @include mixin.respond(sm) {
+    @media screen and (max-width: 767px) {
       font-size: 16px;
     }
   }
