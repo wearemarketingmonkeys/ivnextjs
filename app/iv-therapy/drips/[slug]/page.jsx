@@ -386,15 +386,18 @@ export default function DripDetailPage({ params, searchParams }) {
         <section className="drips-faq">
           <div className="container">
             <div className="benifit-wrap">
-              <div className="right">
+              <div className="left">
                 <h2 className="section-title">Frequently Asked Questions (FAQ)</h2>
+                {/* ⬇️ runs on client, keeps your Accordion exactly */}
+                <FaqAccordion items={drip.faq} />
+              </div>
+              <div className="right">
+                <h1>
+                  Not Sure- <br />
+                  Which IV Drip or Treatment is Right For You?
+                </h1>
               </div>
             </div>
-          </div>
-
-          <div className="container">
-            {/* ⬇️ runs on client, keeps your Accordion exactly */}
-            <FaqAccordion items={drip.faq} />
           </div>
         </section>
       )}
