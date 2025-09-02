@@ -49,24 +49,6 @@ export const menuItems = [
                 { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
               ],
             },
-            {
-              submenuTitle: "Non surgical facelift",
-              submenu: [
-                { label: "Forma Hollywood Lift", to: "/morpheus" },
-                { label: "Soprano Titanium Korean Facelift add to soprano", to: "/laser-hair-removal" },
-                { label: "Lower face Wrinkle Relaxers", to: "/aesthetic/anti-aging" },
-                { label: "Nefertiti Lift", to: "/aesthetic/anti-aging" },
-              ],
-            },
-            {
-              submenuTitle: "Enlarged pores",
-              submenu: [
-                { label: "Morpheus8®", to: "/morpheus" },
-                { label: "Chemical Peels", to: "/aesthetic/chemical-peel" },
-                { label: "Microneedling", to: "/aesthetic/mesotherapy" },
-                { label: "Medical Grade Skincare", to: "/aesthetic/medical-grade-skincare" },
-              ],
-            },
           ],
         },
         {
@@ -154,6 +136,37 @@ export const menuItems = [
                 { label: "Lipozero", to: "/aesthetic/lipo-sculpt" },
                 { label: "Liposculpt", to: "/aesthetic/lipo-sculpt" },
                 { label: "Fitness Hub", to: "/iv-therapy/drips/fitness-hub" },
+              ],
+            },
+            {
+              submenuTitle: "Aging hands",
+              submenu: [
+                { label: "Hand Fillers", to: "/aesthetic/dermal-fillers" },
+                { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
+                { label: "PRP", to: "/aesthetic/prp" },
+                { label: "Radiesse", to: "/aesthetic/collagen-stimulation" },
+              ],
+            },
+          ],
+        },
+        {
+          submenuWrap: [
+            {
+              submenuTitle: "Non surgical facelift",
+              submenu: [
+                { label: "Forma Hollywood Lift", to: "/morpheus" },
+                { label: "Soprano Titanium Korean Facelift add to soprano", to: "/laser-hair-removal" },
+                { label: "Lower face Wrinkle Relaxers", to: "/aesthetic/anti-aging" },
+                { label: "Nefertiti Lift", to: "/aesthetic/anti-aging" },
+              ],
+            },
+            {
+              submenuTitle: "Enlarged pores",
+              submenu: [
+                { label: "Morpheus8®", to: "/morpheus" },
+                { label: "Chemical Peels", to: "/aesthetic/chemical-peel" },
+                { label: "Microneedling", to: "/aesthetic/mesotherapy" },
+                { label: "Medical Grade Skincare", to: "/aesthetic/medical-grade-skincare" },
               ],
             },
             {
