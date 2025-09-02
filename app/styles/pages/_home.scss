@@ -235,7 +235,7 @@
   }
   .winter-bod-wrapper {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 48px;
 
     @include mixin.respond(lg) {

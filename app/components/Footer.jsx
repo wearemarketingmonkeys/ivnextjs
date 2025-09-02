@@ -7,6 +7,32 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 const arrowTopRight = '/assets/icons/arrow-top-right.png';
 const logo = '/assets/img/logo/logo-white.png';
 
+const seenIcons = [
+  '/assets/img/home/yahoo.png',
+  '/assets/img/home/KT.png',
+  '/assets/img/home/gulf-times.png',
+];
+
+const partnerIcons = [
+  '/assets/img/home/emirates-platinum.jpg',
+  '/assets/img/home/emirates-group.png',
+  '/assets/img/home/fazaa-logo.png',
+  '/assets/img/home/NBD-logo.png',
+];
+
+const seenLinks = [
+  'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
+  'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
+  'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
+];
+
+const partnerLinks = [
+  '',
+  '',
+  'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
+  'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
+];
+
 const Footer = () => {
   const socialIcons = [
     { title: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/ivwellnessdifc' },
