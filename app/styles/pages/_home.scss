@@ -231,7 +231,7 @@
   padding: 50px 96px;
 
   @include mixin.respond(lg) {
-    padding: 30px;
+    padding: 20px 5px;
   }
   .winter-bod-wrapper {
     display: flex;

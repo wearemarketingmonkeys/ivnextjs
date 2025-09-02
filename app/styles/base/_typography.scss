@@ -33,9 +33,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: fonts.$font-johnston;
     font-size: 18px;
-    color: #707070;
-    line-height: 28px;
+    color: #000;
+    line-height: 25px;
     font-weight: 400;
+    @include mixin.respond(sm) {
+      font-size: 16px;
+    }
   }
   
   a {
