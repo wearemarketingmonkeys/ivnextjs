@@ -29,6 +29,8 @@ const seenIcons = [
 ];
 
 const partnerIcons = [
+  '/assets/img/home/emirates-platinum.jpg',
+  '/assets/img/home/emirates-group.png',
   '/assets/img/home/fazaa-logo.png',
   '/assets/img/home/NBD-logo.png',
 ];
@@ -40,6 +42,8 @@ const seenLinks = [
 ];
 
 const partnerLinks = [
+  '',
+  '',
   'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
   'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
 ];
