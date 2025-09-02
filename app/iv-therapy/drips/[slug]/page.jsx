@@ -393,9 +393,20 @@ export default function DripDetailPage({ params, searchParams }) {
               </div>
               <div className="right">
                 <h1>
-                  Not Sure- <br />
-                  Which IV Drip or Treatment is Right For You?
+                  Not Sure - Which IV Drip or Treatment is Right For You?
                 </h1>
+                <div className="btn-wrap">
+                    <a
+                  href="https://wa.me/97180048482"
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                    <span>
+                      Schedule <br /> A Consultation
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
