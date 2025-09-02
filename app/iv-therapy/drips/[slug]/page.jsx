@@ -403,7 +403,7 @@ export default function DripDetailPage({ params, searchParams }) {
                   rel="noopener noreferrer"
                 >
                     <span>
-                      Schedule <br /> A Consultation
+                      Schedule A Consultation
                     </span>
                   </a>
                 </div>
