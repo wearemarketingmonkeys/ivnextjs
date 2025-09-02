@@ -51,7 +51,7 @@ const Footer = () => {
   return (
     <>
       {/* Footer Top Section */}
-      <div className="footer-top">
+      {/* <div className="footer-top">
         <div className="container">
           <div className="top-wrapper">
             <div className="left">
@@ -66,7 +66,6 @@ const Footer = () => {
             </div>
             <div className="right">
               <div className="container">
-                {/* External links use <a href> */}
                 <a
                   href="https://wa.me/97180048482"
                   className="btn btn-big"
@@ -82,7 +81,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Elfsight */}
       <div className="testimonial">
@@ -90,7 +89,7 @@ const Footer = () => {
           <div className="elfsight-app-f8470afc-7998-4690-b029-8b07167ad89c" data-elfsight-app-lazy />
         </div>
       </div>
-      
+
       {/* Footer Bottom Section */}
       <footer className="footer-bottom">
         <div className="container">

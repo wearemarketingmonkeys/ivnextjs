@@ -25,7 +25,7 @@ const responsive = {
 const seenIcons = [
   '/assets/img/home/yahoo.png',
   '/assets/img/home/KT.png',
-  '/assets/img/home/GT.png',
+  '/assets/img/home/gulf-times.png',
 ];
 
 const partnerIcons = [
