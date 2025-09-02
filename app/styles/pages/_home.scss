@@ -438,10 +438,12 @@
   padding: 48px 0;
   background-color: vars.$white-color;
   .as-seen-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 48px;
+    display: block;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // gap: 48px;
+    text-align: center;
 
     @include mixin.respond(lg) {
       flex-direction: column;
@@ -457,6 +459,7 @@
     .seen-wrap {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 48px;
 
       img {
