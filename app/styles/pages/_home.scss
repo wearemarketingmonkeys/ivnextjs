@@ -416,6 +416,23 @@
   background-color: #f4f5f6;
 }
 
+.logosection{
+  display: flex;
+  align-items: center;
+
+  @include mixin.respond(sm) {
+    display: block;
+  }
+
+  .left,.right{
+    width: 50%;
+
+    @include mixin.respond(sm) {
+      width: 100%;
+    }
+  }
+}
+
 /* as seen */
 .as-seen {
   padding: 48px 0;
