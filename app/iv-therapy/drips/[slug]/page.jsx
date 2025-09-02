@@ -392,9 +392,9 @@ export default function DripDetailPage({ params, searchParams }) {
                 <FaqAccordion items={drip.faq} />
               </div>
               <div className="right">
-                <h1>
-                  Not Sure - Which IV Drip or Treatment is Right For You?
-                </h1>
+                <h2 className="section-title">
+                  Not Sure which IV Drip or Treatment is Right For You?
+                </h2>
                 <div className="btn-wrap">
                     <a
                   href="https://wa.me/97180048482"
