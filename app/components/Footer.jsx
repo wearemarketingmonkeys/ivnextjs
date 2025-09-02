@@ -83,6 +83,47 @@ const Footer = () => {
         </div>
       </div> */}
 
+      <div className="logosection">
+          <div className="left">
+                {/* As Seen */}
+                <div className="as-seen">
+                  <div className="container">
+                    <div className="as-seen-wrapper">
+                      <h1>As Seen On</h1>
+                      <div className="seen-wrap">
+                        {seenIcons.map((x, i) => (
+                          <div className="img-wrap" key={i}>
+                            <a href={seenLinks[i]} target="_blank" rel="noopener noreferrer">
+                              <img src={x} alt="seen icon" />
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div className="right">
+                {/* partners */}
+                <div className="as-seen">
+                  <div className="container">
+                    <div className="as-seen-wrapper">
+                      <h1>Our Partners</h1>
+                      <div className="seen-wrap">
+                        {partnerIcons.map((x, i) => (
+                          <div className="img-wrap" key={i}>
+                            <a href={partnerLinks[i]} target="_blank" rel="noopener noreferrer">
+                              <img src={x} alt="seen icon" />
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+
       {/* Elfsight */}
       <div className="testimonial">
         <div className="container">
