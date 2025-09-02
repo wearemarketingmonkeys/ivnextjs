@@ -251,8 +251,12 @@
       @include mixin.respond(lg) {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
       }
+
+      @include mixin.respond(sm) {
+        justify-content: center;
+      }
+
       .spin-wrap {
         height: 150px;
         width: 150px;
@@ -289,7 +293,14 @@
       display: flex;
       flex-direction: column;
       gap: 24px;
-      @include mixin.respond(lg) {
+      @include mixin.respond(sm) {
+        width: 100%;
+      }
+
+      .btn-wrap {
+        @include mixin.respond(sm) {
+          width: 100%;
+        }
       }
 
       h1 {
@@ -306,7 +317,7 @@
           width: 100%;
         }
         @media screen and (max-width: 767px) {
-          font-size: 24px;
+          font-size: 20px;
         }
         span {
           color: rgba(48, 42, 46, 0.5);
