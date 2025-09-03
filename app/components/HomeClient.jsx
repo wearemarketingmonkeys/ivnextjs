@@ -176,7 +176,7 @@ export default function HomeClient() {
                 infinite
                 autoPlay
                 autoPlaySpeed={3000}
-                showDots
+                showDots={false}
                 pauseOnHover
                 arrows   // built-in arrows
               >
