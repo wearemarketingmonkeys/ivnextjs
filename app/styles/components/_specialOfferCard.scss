@@ -90,21 +90,31 @@
     }
   }
 
-  /* Container + 3D flip scaffolding */
+
+  /* 3D scaffolding + iOS prefixes */
 .flip-card {
   perspective: 1200px;
   position: relative;
+  touch-action: manipulation; /* nicer taps */
+  -webkit-transform-style: preserve-3d;
 }
 .flip-card .flip-card__inner {
   position: relative;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   transition: transform 600ms ease;
   min-height: 100%;
+  will-change: transform;
 }
-.flip-card:hover .flip-card__inner {
-  transform: rotateY(180deg);
+
+/* ✅ Hover flip only on devices that actually hover (desktop) */
+@media (hover: hover) and (pointer: fine) {
+  .flip-card:hover .flip-card__inner {
+    transform: rotateY(180deg);
+  }
 }
-/* Tap/keyboard toggle */
+
+/* State-driven flip (mobile + desktop) */
 .flip-card.is-flipped .flip-card__inner {
   transform: rotateY(180deg);
 }
@@ -122,14 +132,14 @@
   box-shadow: 0 8px 26px rgba(0,0,0,.08);
   min-height: 100%;
 }
-.flip-card__face--front {
-  transform: rotateY(0deg);
-}
-.flip-card__face--back {
-  transform: rotateY(180deg);
-  position: absolute;
-  inset: 0;
-}
+
+/* Make sure only the visible face can receive taps/clicks */
+.flip-card__face { pointer-events: none; }
+.flip-card__face--front { transform: rotateY(0deg); pointer-events: auto; }
+.flip-card__face--back  { transform: rotateY(180deg); position: absolute; inset: 0; }
+
+.flip-card.is-flipped .flip-card__face--front { pointer-events: none; }
+.flip-card.is-flipped .flip-card__face--back  { pointer-events: auto; padding:0 20px; }
 
 /* Existing card styles, lightly adapted */
 .specialOffer-card {
