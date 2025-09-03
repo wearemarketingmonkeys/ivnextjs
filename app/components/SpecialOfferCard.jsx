@@ -1,35 +1,49 @@
 'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 
 const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  // Tap-to-flip for touch devices & keyboard toggle
+  const [isFlipped, setIsFlipped] = useState(false);
 
-  const toggleExpand = () => setIsExpanded((v) => !v);
+  const handleKey = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      setIsFlipped((v) => !v);
+    }
+  };
 
   return (
-    <div className="specialOffer-card">
-      <div className="specialOffer-card__image">
-        <img src={img} alt={title} />
-        {newBadge && <div className="new-badge">New</div>}
-      </div>
+    <div
+      className={`specialOffer-card flip-card ${isFlipped ? 'is-flipped' : ''}`}
+      role="button"
+      tabIndex={0}
+      aria-pressed={isFlipped}
+      aria-label={`${title} details`}
+      onClick={() => setIsFlipped((v) => !v)}      // tap on mobile
+      onKeyDown={handleKey}                        // keyboard accessibility
+    >
+      <div className="flip-card__inner" aria-hidden={false}>
+        {/* FRONT */}
+        <div className="flip-card__face flip-card__face--front">
+          <div className="specialOffer-card__image">
+            <img src={img} alt={title} />
+            {newBadge && <div className="new-badge">New</div>}
+          </div>
 
-      <div className="specialOffer-card__content">
-        <div
-          className="specialOffer-card__header"
-          onClick={toggleExpand}
-          aria-expanded={isExpanded}
-        >
-          <h3 className="specialOffer-card__title">{title}</h3>
-          <span className="specialOffer-card__toggle">{isExpanded ? "−" : "+"}</span>
+          <div className="specialOffer-card__content">
+            <h3 className="specialOffer-card__title">{title}</h3>
+            <div className="flip-hint">Tap or hover to see more</div>
+          </div>
         </div>
 
-        {isExpanded && (
-          <div className="specialOffer-card__details">
-            <p>{descBrif}</p>
+        {/* BACK */}
+        <div className="flip-card__face flip-card__face--back">
+          <div className="specialOffer-card__content">
+            <h3 className="specialOffer-card__title">{title}</h3>
 
-            {descUl && Array.isArray(descUl) && (
-              <ul>
+            {descUl && Array.isArray(descUl) && descUl.length > 0 ? (
+              <ul className="specialOffer-card__list">
                 {descUl.map((item, index) => (
                   <li key={index}>
                     <p>{item.liTitle}</p>
@@ -45,6 +59,8 @@ const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
                   </li>
                 ))}
               </ul>
+            ) : (
+              descBrif && <p>{descBrif}</p>
             )}
 
             <div className="btn-wrap">
@@ -58,7 +74,7 @@ const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
               </a>
             </div>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

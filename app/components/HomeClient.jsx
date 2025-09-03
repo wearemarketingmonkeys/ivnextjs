@@ -172,26 +172,26 @@ export default function HomeClient() {
             <div className="heading-wrap"><h1>Special Offers</h1></div>
 
             <Carousel
-  responsive={responsive}
-  infinite
-  autoPlay
-  autoPlaySpeed={3000}
-  showDots
-  pauseOnHover
-  arrows   // built-in arrows
->
-  {offers.map((x, i) => (
-    <div className="card" key={i}>
-      <SpecialOfferCard
-        img={x.img}
-        title={x.title}
-        descBrif={x.desc.brif}
-        descUl={x.desc.ul}
-        newBadge={x.newBadge}
-      />
-    </div>
-  ))}
-</Carousel>
+                responsive={responsive}
+                infinite
+                autoPlay
+                autoPlaySpeed={3000}
+                showDots
+                pauseOnHover
+                arrows   // built-in arrows
+              >
+                {offers.map((x, i) => (
+                  <div className="card" key={i}>
+                    <SpecialOfferCard
+                      img={x.img}
+                      title={x.title}
+                      descBrif={x.desc.brif}
+                      descUl={x.desc.ul}
+                      newBadge={x.newBadge}
+                    />
+                  </div>
+                ))}
+              </Carousel>
 
           </div>
         </div>
