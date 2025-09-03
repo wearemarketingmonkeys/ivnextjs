@@ -138,15 +138,6 @@ export const menuItems = [
                 { label: "Fitness Hub", to: "/iv-therapy/drips/fitness-hub" },
               ],
             },
-            {
-              submenuTitle: "Aging hands",
-              submenu: [
-                { label: "Hand Fillers", to: "/aesthetic/dermal-fillers" },
-                { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
-                { label: "PRP", to: "/aesthetic/prp" },
-                { label: "Radiesse", to: "/aesthetic/collagen-stimulation" },
-              ],
-            },
           ],
         },
         {
