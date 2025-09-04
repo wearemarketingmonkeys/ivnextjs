@@ -200,14 +200,14 @@ export default function ConsentHIFUClient() {
       ))}
 
       <h2>Expected Benefits</h2>
-        <ul className="form-display-list">
+        <ul style={{ paddingLeft: "20px" }}>
         {benefits.map((txt, i) => (
             <li key={i}>{txt}</li>
         ))}
         </ul>
-
-        <h2>Potential Side Effects</h2>
-        <ul className="form-display-list">
+        <br/>
+       <h2>Potential Side Effects</h2>
+        <ul style={{ paddingLeft: "20px" }}>
         {sideEffects.map((txt, i) => (
             <li key={i}>{txt}</li>
         ))}
