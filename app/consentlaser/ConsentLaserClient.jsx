@@ -23,9 +23,6 @@ const initialState = {
   medicalConditions: [],
   allergyExplanation: "",
 
-  // consents
-  photographyConsent: "",
-
   // acknowledgements (only posted when checked)
   understanding1: "",
   understanding2: "",
@@ -247,28 +244,6 @@ export default function ConsentLaserClient() {
           />{" "}
           I have disclosed all relevant medical history and medications.
         </label>
-      </div>
-
-      {/* Photography consent */}
-      <h2>Consent for Photography</h2>
-      <div className="form-group">
-        {[
-          "I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes.",
-          "I CONSENT to photography for internal marketing.",
-          "I DO NOT consent to any photography.",
-        ].map((t) => (
-          <label key={t} style={{ display: "block", marginBottom: 6 }}>
-            <input
-              type="radio"
-              name="photographyConsent"
-              value={t}
-              checked={form.photographyConsent === t}
-              onChange={onChange}
-              required
-            />{" "}
-            {t}
-          </label>
-        ))}
       </div>
 
       {/* Signatures */}
