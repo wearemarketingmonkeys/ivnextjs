@@ -242,7 +242,19 @@ export default function ConsentHIFUClient() {
         <label><input type="radio" name="marketingConsent" value="No" checked={form.marketingConsent === "No"} onChange={onChange} /> No</label>
       </div>
 
-      <h2>Liability Disclaimer</h2>
+      <h2>Consent Declaration</h2>
+      {[
+        "I am not pregnant or breastfeeding.",
+        "I have disclosed all medical conditions truthfully.",
+        "I understand the nature, risks, and expected outcomes of the procedure.",
+        "I give informed, voluntary consent to proceed.",
+        "I have had the opportunity to ask all relevant questions.",
+      ].map((txt, i) => (
+        <div className="form-group" key={i}>
+          <label><input type="checkbox" name="declarations" value={txt} onChange={onChange} /> {txt}</label>
+        </div>
+      ))}
+
       <div className="form-group">
           <div className="consentdetails">
               <h2 className="section-title">Disclaimer of Liability</h2>
@@ -272,18 +284,7 @@ export default function ConsentHIFUClient() {
 
       </div>
 
-      <h2>Consent Declaration</h2>
-      {[
-        "I am not pregnant or breastfeeding.",
-        "I have disclosed all medical conditions truthfully.",
-        "I understand the nature, risks, and expected outcomes of the procedure.",
-        "I give informed, voluntary consent to proceed.",
-        "I have had the opportunity to ask all relevant questions.",
-      ].map((txt, i) => (
-        <div className="form-group" key={i}>
-          <label><input type="checkbox" name="declarations" value={txt} onChange={onChange} /> {txt}</label>
-        </div>
-      ))}
+      
 
       <div className="form-group">
         <label>Patient Full Name</label>
