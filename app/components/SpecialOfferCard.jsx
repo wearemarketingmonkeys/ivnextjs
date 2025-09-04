@@ -33,7 +33,7 @@ const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
 
           <div className="specialOffer-card__content">
             <h3 className="specialOffer-card__title">{title}</h3>
-            <div className="flip-hint">Tap or hover to see more</div>
+            <div className="flip-hint">+</div>
           </div>
         </div>
 
