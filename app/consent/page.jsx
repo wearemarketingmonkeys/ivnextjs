@@ -20,6 +20,17 @@ export default function ConsentPage() {
               <div className="formsection">
 
                 <div className="btn-wrap">
+                    <a
+                      href="https://consent.ivhub.com/"
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      IV Consent
+                    </a>
+                  </div>
+
+                <div className="btn-wrap">
                   <Link href="/consenthydrafacial" className="btn">
                     Hydrafacial Consent
                   </Link>
@@ -111,16 +122,10 @@ export default function ConsentPage() {
                   </div>
 
                   <div className="btn-wrap">
-                    <a
-                      href="https://consent.ivhub.com/"
-                      className="btn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      IV Consent
-                    </a>
+                    <Link href="/consenthifu" className="btn">
+                      HIFU Consent
+                    </Link>
                   </div>
-
               </div>
             </div>
           </div>
