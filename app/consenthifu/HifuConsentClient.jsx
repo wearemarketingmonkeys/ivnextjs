@@ -187,16 +187,31 @@ export default function ConsentHIFUClient() {
 
       <h2>Procedure Understanding</h2>
         {[
-        "I understand that HIFU delivers focused ultrasound energy into the deeper layers of the skin to stimulate collagen production and tissue tightening.",
-        "I understand that HIFU is a non-surgical, non-invasive treatment with gradual results over several weeks to months.",
-        "I confirm this procedure will be performed by a DHA-licensed professional trained in HIFU technology.",
-        "I understand this treatment is not a substitute for a surgical facelift or skin excision procedure.",
+          "I understand that HIFU delivers focused ultrasound energy into the deeper layers of the skin to stimulate collagen production and tissue tightening.",
+          "I understand that HIFU is a non-surgical, non-invasive treatment with gradual results over several weeks to months.",
+          "I confirm this procedure will be performed by a DHA-licensed professional trained in HIFU technology.",
+          "I understand this treatment is not a substitute for a surgical facelift or skin excision procedure.",
         ].map((txt, i) => (
-        <div className="form-group" key={i}>
+          <div className="form-group" key={i}>
             <label>
-            <input type="checkbox" name="procedureUnderstanding[]" value={txt} onChange={onChange} /> {txt}
+              <input
+                type="checkbox"
+                name="procedureUnderstanding[]"
+                value={txt}
+                checked={form.procedureUnderstanding.includes(txt)}
+                onChange={(e) => {
+                  const { checked } = e.target;
+                  setForm((prev) => ({
+                    ...prev,
+                    procedureUnderstanding: checked
+                      ? [...prev.procedureUnderstanding, txt]
+                      : prev.procedureUnderstanding.filter((v) => v !== txt),
+                  }));
+                }}
+              />{" "}
+              {txt}
             </label>
-        </div>
+          </div>
         ))}
 
 
@@ -244,17 +259,34 @@ export default function ConsentHIFUClient() {
       </div>
 
       <h2>Consent Declaration</h2>
-      {[
-        "I am not pregnant or breastfeeding.",
-        "I have disclosed all medical conditions truthfully.",
-        "I understand the nature, risks, and expected outcomes of the procedure.",
-        "I give informed, voluntary consent to proceed.",
-        "I have had the opportunity to ask all relevant questions.",
-      ].map((txt, i) => (
-        <div className="form-group" key={i}>
-          <label><input type="checkbox" name="consentDeclaration[]" value={txt} onChange={onChange} /> {txt}</label>
-        </div>
-      ))}
+        {[
+          "I am not pregnant or breastfeeding.",
+          "I have disclosed all medical conditions truthfully.",
+          "I understand the nature, risks, and expected outcomes of the procedure.",
+          "I give informed, voluntary consent to proceed.",
+          "I have had the opportunity to ask all relevant questions.",
+        ].map((txt, i) => (
+          <div className="form-group" key={i}>
+            <label>
+              <input
+                type="checkbox"
+                name="consentDeclaration[]"
+                value={txt}
+                checked={form.consentDeclaration.includes(txt)}
+                onChange={(e) => {
+                  const { checked } = e.target;
+                  setForm((prev) => ({
+                    ...prev,
+                    consentDeclaration: checked
+                      ? [...prev.consentDeclaration, txt]
+                      : prev.consentDeclaration.filter((v) => v !== txt),
+                  }));
+                }}
+              />{" "}
+              {txt}
+            </label>
+          </div>
+        ))}
 
       <div className="form-group">
           <div className="consentdetails">
