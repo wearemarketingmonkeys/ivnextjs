@@ -156,7 +156,7 @@ export default function ConsentHIFUClient() {
       </div>
 
       <div className="form-group">
-        <label>ID Type / Number</label>
+        <label>EID Number</label>
         <input name="emiratesId" value={form.emiratesId} onChange={onChange} required />
       </div>
 
@@ -188,16 +188,19 @@ export default function ConsentHIFUClient() {
       ))}
 
       <h2>Procedure Understanding</h2>
-      {[
+        {[
         "I understand that HIFU delivers focused ultrasound energy into the deeper layers of the skin to stimulate collagen production and tissue tightening.",
         "I understand that HIFU is a non-surgical, non-invasive treatment with gradual results over several weeks to months.",
         "I confirm this procedure will be performed by a DHA-licensed professional trained in HIFU technology.",
         "I understand this treatment is not a substitute for a surgical facelift or skin excision procedure.",
-      ].map((txt, i) => (
+        ].map((txt, i) => (
         <div className="form-group" key={i}>
-          <label><input type="checkbox" name="understandings" value={txt} onChange={onChange} /> {txt}</label>
+            <label>
+            <input type="checkbox" name="procedureUnderstanding[]" value={txt} onChange={onChange} /> {txt}
+            </label>
         </div>
-      ))}
+        ))}
+
 
       <div className="form-group">
       <h2>Expected Benefits</h2>
@@ -251,7 +254,7 @@ export default function ConsentHIFUClient() {
         "I have had the opportunity to ask all relevant questions.",
       ].map((txt, i) => (
         <div className="form-group" key={i}>
-          <label><input type="checkbox" name="declarations" value={txt} onChange={onChange} /> {txt}</label>
+          <label><input type="checkbox" name="consentDeclaration[]" value={txt} onChange={onChange} /> {txt}</label>
         </div>
       ))}
 
