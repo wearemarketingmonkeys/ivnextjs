@@ -5,27 +5,34 @@
 /* Home Hero Styling */
 .home-hero {
   position: relative;
-  // height: calc(100lvh - 84px);
-  // min-height: 580px;
-  height: 300px;
-  min-height: 300px;
+  height: calc(100lvh - 84px);
+  min-height: 580px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @include mixin.respond(sm) {
+    height: 300px;
+    min-height: 300px;
+  }
+
   .hero-video {
     position: absolute;
     width: 100%;
-    // height: calc(100lvh - 84px);
-    // min-height: 580px;
-    height: 300px;
-    min-height: 300px;
+    height: calc(100lvh - 84px);
+    min-height: 580px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     object-fit: cover;
     object-position: center;
+
+    @include mixin.respond(sm) {
+      height: 300px;
+      min-height: 300px;
+    }
   }
 
   .btn-light{
@@ -35,16 +42,19 @@
   .hero-overlay {
     position: absolute;
     width: 100%;
-    // height: calc(100lvh - 84px);
-    // min-height: 580px;
-    height: 300px;
-    min-height: 300px;
+    height: calc(100lvh - 84px);
+    min-height: 580px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #0a0a0a;
     opacity: 0.3;
+
+    @include mixin.respond(sm) {
+      height: 300px;
+      min-height: 300px;
+    }
   }
 
   .hero-txt-wrapper {
