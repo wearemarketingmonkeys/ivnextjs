@@ -71,6 +71,7 @@
     .btn-wrap{
       @include mixin.respond(sm) {
         gap: 5px;
+        flex-direction: row;
       }
     }
 
@@ -167,6 +168,11 @@
     .hero-bar-wrap {
       height: 85px;
       margin-top: 24px;
+
+      @include mixin.respond(sm) {
+        display: none;
+      }
+
       .hero-bar {
         width: 2px;
         height: 85px;
