@@ -5,8 +5,10 @@
 /* Home Hero Styling */
 .home-hero {
   position: relative;
-  height: calc(100lvh - 84px);
-  min-height: 580px;
+  // height: calc(100lvh - 84px);
+  // min-height: 580px;
+  height: 300px;
+  min-height: 300px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,8 +16,10 @@
   .hero-video {
     position: absolute;
     width: 100%;
-    height: calc(100lvh - 84px);
-    min-height: 580px;
+    // height: calc(100lvh - 84px);
+    // min-height: 580px;
+    height: 300px;
+    min-height: 300px;
     top: 0;
     left: 0;
     right: 0;
@@ -31,8 +35,10 @@
   .hero-overlay {
     position: absolute;
     width: 100%;
-    height: calc(100lvh - 84px);
-    min-height: 580px;
+    // height: calc(100lvh - 84px);
+    // min-height: 580px;
+    height: 300px;
+    min-height: 300px;
     top: 0;
     left: 0;
     right: 0;
@@ -47,6 +53,23 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    @include mixin.respond(sm) {
+      gap: 5px;
+    }
+
+    .btn-wrap{
+      @include mixin.respond(sm) {
+        gap: 5px;
+      }
+    }
+
+    .btn{
+      @include mixin.respond(sm) {
+        height: 35px;
+        font-size: 14px;
+      }
+    }
 
     h3 {
       font-family: fonts.$font-magneta;
@@ -98,7 +121,7 @@
       }
 
       @include mixin.respond(xs) {
-        font-size: 25px;
+        font-size: 15px;
         span {
           &:first-child {
             padding-right: 8px;

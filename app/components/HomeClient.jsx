@@ -134,7 +134,7 @@ export default function HomeClient() {
       {/* Hero */}
       <div className="home-hero">
         <video className="hero-video" autoPlay muted playsInline loop>
-          <source src="/assets/video/IV-Welness-Drips-Loop.mp4" type="video/mp4" />
+          <source src="/assets/video/iv-lounge2.mp4" type="video/mp4" />
         </video>
         <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
