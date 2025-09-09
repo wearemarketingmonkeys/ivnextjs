@@ -1,6 +1,11 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
+import SignaturePad from "react-signature-canvas";
+
+const therapistSignatureRef = useRef();
+const managerSignatureRef = useRef();
+
 
 export default function IncidentReportClient() {
   const [form, setForm] = useState({});
@@ -30,7 +35,18 @@ export default function IncidentReportClient() {
         formData.append(key, value);
       });
 
-      const res = await fetch('https://ivmails.onrender.com/incidentreport.php', {
+      if (!therapistSignatureRef.current.isEmpty()) {
+        const blob = await (await fetch(therapistSignatureRef.current.toDataURL())).blob();
+        formData.append("therapistSignature", blob, "therapist-signature.png");
+        }
+
+        if (!managerSignatureRef.current.isEmpty()) {
+        const blob = await (await fetch(managerSignatureRef.current.toDataURL())).blob();
+        formData.append("managerSignature", blob, "manager-signature.png");
+        }
+
+
+      const res = await fetch('https://mails.ivhub.com/incidentreport.php', {
         method: 'POST',
         body: formData,
       });
@@ -125,17 +141,36 @@ export default function IncidentReportClient() {
     </div>
 
     <h2>Signatures</h2>
+
     <div className="form-group">
-      <input className="form-control" name="therapistSignature" placeholder="Therapist/Staff Reporting" onChange={handleChange} required />
-    </div>
-    <div className="form-group">
-      <input className="form-control" name="managerSignature" placeholder="Manager Reviewed By" onChange={handleChange} required />
+    <label>Therapist/Staff Reporting</label>
+    <SignaturePad
+        ref={therapistSignatureRef}
+        canvasProps={{ className: "signature-pad" }}
+    />
+    <button type="button" onClick={() => therapistSignatureRef.current.clear()} className="clear-signature">
+        Clear
+    </button>
     </div>
 
     <div className="form-group">
-      <button type="submit" disabled={submitting}>
-        {submitting ? "Submitting..." : "Submit"}
-      </button>
+    <label>Manager Reviewed By</label>
+    <SignaturePad
+        ref={managerSignatureRef}
+        canvasProps={{ className: "signature-pad" }}
+    />
+    <button type="button" onClick={() => managerSignatureRef.current.clear()} className="clear-signature">
+        Clear
+    </button>
+    </div>
+
+
+    <div className="form-group">
+        <div className="btn-wrap">
+            <button type="submit" disabled={submitting} className='btn'>
+                {submitting ? "Submitting..." : "Submit"}
+            </button>
+        </div>
       <p>{status}</p>
     </div>
   </form>
