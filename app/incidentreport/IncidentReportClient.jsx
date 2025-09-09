@@ -148,9 +148,9 @@ const managerSignatureRef = useRef();
     <label>Therapist/Staff Reporting</label>
     <SignaturePad
         ref={therapistSignatureRef}
-        canvasProps={{ className: "signature-pad" }}
+        canvasProps={{ width: 520, height: 200, className: "signature-canvas" }}
     />
-    <button type="button" onClick={() => therapistSignatureRef.current.clear()} className="clear-signature">
+    <button type="button" onClick={() => therapistSignatureRef.current.clear()} className="btn btn-stroke">
         Clear
     </button>
     </div>
@@ -159,9 +159,9 @@ const managerSignatureRef = useRef();
     <label>Manager Reviewed By</label>
     <SignaturePad
         ref={managerSignatureRef}
-        canvasProps={{ className: "signature-pad" }}
+        canvasProps={{ width: 520, height: 200, className: "signature-canvas" }}
     />
-    <button type="button" onClick={() => managerSignatureRef.current.clear()} className="clear-signature">
+    <button type="button" onClick={() => managerSignatureRef.current.clear()} className="btn btn-stroke">
         Clear
     </button>
     </div>
