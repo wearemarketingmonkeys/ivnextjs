@@ -44,57 +44,100 @@ export default function IncidentReportClient() {
   };
 
   return (
-      <form onSubmit={handleSubmit}>
-        <h2>Report Info</h2>
-        <input name="reportDate" type="date" placeholder="Date of Report" onChange={handleChange} required />
-        <input name="incidentTime" type="time" placeholder="Time of Incident" onChange={handleChange} required />
-        <input name="location" placeholder="Location" onChange={handleChange} required />
+  <form className="form" onSubmit={handleSubmit}>
+    <h2>Report Info</h2>
+    <div className="form-group">
+      <input className="form-control" name="reportDate" type="date" placeholder="Date of Report" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="incidentTime" type="time" placeholder="Time of Incident" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="location" placeholder="Location" onChange={handleChange} required />
+    </div>
 
-        <h2>Client Information</h2>
-        <input name="clientName" placeholder="Client Name" onChange={handleChange} required />
-        <input name="clientContact" placeholder="Contact Number (if required)" onChange={handleChange} />
+    <h2>Client Information</h2>
+    <div className="form-group">
+      <input className="form-control" name="clientName" placeholder="Client Name" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="clientContact" placeholder="Contact Number (if required)" onChange={handleChange} />
+    </div>
 
-        <h2>Treatment Details</h2>
-        <input name="treatmentType" placeholder="Type of Treatment" onChange={handleChange} required />
-        <input name="treatmentDate" type="date" placeholder="Date of Treatment" onChange={handleChange} required />
-        <input name="therapist" placeholder="Therapist/Practitioner" onChange={handleChange} required />
+    <h2>Treatment Details</h2>
+    <div className="form-group">
+      <input className="form-control" name="treatmentType" placeholder="Type of Treatment" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="treatmentDate" type="date" placeholder="Date of Treatment" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="therapist" placeholder="Therapist/Practitioner" onChange={handleChange} required />
+    </div>
 
-        <h2>Incident Description</h2>
-        <textarea name="incidentSituation" placeholder="Situation Leading to Incident" onChange={handleChange} required />
-        <textarea name="incidentDescription" placeholder="Description of Incident" onChange={handleChange} required />
+    <h2>Incident Description</h2>
+    <div className="form-group">
+      <textarea className="form-control" name="incidentSituation" placeholder="Situation Leading to Incident" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <textarea className="form-control" name="incidentDescription" placeholder="Description of Incident" onChange={handleChange} required />
+    </div>
 
-        <h2>Action Taken</h2>
-        <textarea name="therapistResponse" placeholder="Immediate Response by Therapist" onChange={handleChange} required />
-        <textarea name="managerEscalation" placeholder="Escalation/Manager Involvement" onChange={handleChange} />
+    <h2>Action Taken</h2>
+    <div className="form-group">
+      <textarea className="form-control" name="therapistResponse" placeholder="Immediate Response by Therapist" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <textarea className="form-control" name="managerEscalation" placeholder="Escalation/Manager Involvement" onChange={handleChange} />
+    </div>
 
-        <h2>Client Outcome</h2>
-        {["No adverse effect", "Minor reaction", "Equipment issue", "Follow-up needed"].map((label, i) => (
-          <label key={i}>
-            <input type="checkbox" name={`clientOutcome_${i}`} value={label} onChange={handleChange} /> {label}
-          </label>
-        ))}
-        <h5>Describe if applicable</h5>
-        <textarea name="managerEscalation" placeholder="Escalation/Manager Involvement" onChange={handleChange} />
-
-        <h2>Follow-Up Plan</h2>
-        {["Additional staff training", "Equipment check", "Policy update"].map((label, i) => (
-          <label key={i}>
-            <input type="checkbox" name={`followUp_${i}`} value={label} onChange={handleChange} /> {label}
-          </label>
-        ))}
-
-        <h2>Final Notes</h2>
+    <h2>Client Outcome</h2>
+    {["No adverse effect", "Minor reaction", "Equipment issue", "Follow-up needed"].map((label, i) => (
+      <div className="form-group" key={i}>
         <label>
-          <input type="checkbox" name="contactedFollowup" value="Client contacted for follow-up" onChange={handleChange} /> Client contacted for follow-up
+          <input type="checkbox" name={`clientOutcome_${i}`} value={label} onChange={handleChange} /> {label}
         </label>
-        <input name="otherNote" placeholder="Other notes" onChange={handleChange} />
+      </div>
+    ))}
 
-        <h2>Signatures</h2>
-        <input name="therapistSignature" placeholder="Therapist/Staff Reporting" onChange={handleChange} required />
-        <input name="managerSignature" placeholder="Manager Reviewed By" onChange={handleChange} required />
+    <h5>Describe if applicable</h5>
+    <div className="form-group">
+      <textarea className="form-control" name="clientOutcomeDetails" placeholder="Details (if applicable)" onChange={handleChange} />
+    </div>
 
-        <button type="submit" disabled={submitting}>{submitting ? 'Submitting...' : 'Submit'}</button>
-        <p>{status}</p>
-      </form>
-  );
+    <h2>Follow-Up Plan</h2>
+    {["Additional staff training", "Equipment check", "Policy update"].map((label, i) => (
+      <div className="form-group" key={i}>
+        <label>
+          <input type="checkbox" name={`followUp_${i}`} value={label} onChange={handleChange} /> {label}
+        </label>
+      </div>
+    ))}
+
+    <h2>Final Notes</h2>
+    <div className="form-group">
+      <label>
+        <input type="checkbox" name="contactedFollowup" value="Client contacted for follow-up" onChange={handleChange} /> Client contacted for follow-up
+      </label>
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="otherNote" placeholder="Other notes" onChange={handleChange} />
+    </div>
+
+    <h2>Signatures</h2>
+    <div className="form-group">
+      <input className="form-control" name="therapistSignature" placeholder="Therapist/Staff Reporting" onChange={handleChange} required />
+    </div>
+    <div className="form-group">
+      <input className="form-control" name="managerSignature" placeholder="Manager Reviewed By" onChange={handleChange} required />
+    </div>
+
+    <div className="form-group">
+      <button type="submit" disabled={submitting}>
+        {submitting ? "Submitting..." : "Submit"}
+      </button>
+      <p>{status}</p>
+    </div>
+  </form>
+);
 }
