@@ -146,6 +146,7 @@ const managerSignatureRef = useRef();
 
     <div className="form-group">
     <label>Therapist/Staff Reporting</label>
+    <div style={{ border: "1px solid #ddd", borderRadius: 8, overflow: "hidden", maxWidth: 520 }}>
     <SignaturePad
         ref={therapistSignatureRef}
         canvasProps={{ width: 520, height: 200, className: "signature-canvas" }}
@@ -154,9 +155,11 @@ const managerSignatureRef = useRef();
         Clear
     </button>
     </div>
+    </div>
 
     <div className="form-group">
     <label>Manager Reviewed By</label>
+    <div style={{ border: "1px solid #ddd", borderRadius: 8, overflow: "hidden", maxWidth: 520 }}>
     <SignaturePad
         ref={managerSignatureRef}
         canvasProps={{ width: 520, height: 200, className: "signature-canvas" }}
@@ -164,6 +167,7 @@ const managerSignatureRef = useRef();
     <button type="button" onClick={() => managerSignatureRef.current.clear()} className="btn btn-stroke">
         Clear
     </button>
+    </div>
     </div>
 
 
