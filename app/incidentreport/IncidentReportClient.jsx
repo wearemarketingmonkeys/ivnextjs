@@ -3,11 +3,13 @@
 import React, { useState, useRef } from 'react';
 import SignaturePad from "react-signature-canvas";
 
+
+export default function IncidentReportClient() {
+
+
 const therapistSignatureRef = useRef();
 const managerSignatureRef = useRef();
 
-
-export default function IncidentReportClient() {
   const [form, setForm] = useState({});
   const [status, setStatus] = useState('');
   const [submitting, setSubmitting] = useState(false);
