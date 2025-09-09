@@ -1,0 +1,100 @@
+'use client';
+
+import React, { useState, useRef } from 'react';
+
+export default function IncidentReportClient() {
+  const [form, setForm] = useState({});
+  const [status, setStatus] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    if (type === 'checkbox') {
+      setForm((prev) => ({
+        ...prev,
+        [name]: checked ? value : '',
+      }));
+    } else {
+      setForm((prev) => ({ ...prev, [name]: value }));
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setStatus('Submitting...');
+
+    try {
+      const formData = new FormData();
+      Object.entries(form).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+
+      const res = await fetch('https://ivmails.onrender.com/incidentreport.php', {
+        method: 'POST',
+        body: formData,
+      });
+
+      setStatus(res.ok ? 'Form submitted successfully!' : 'Submission failed. Try again.');
+      if (res.ok) setForm({});
+    } catch (err) {
+      setStatus('Submission failed. Try again.');
+    }
+    setSubmitting(false);
+  };
+
+  return (
+      <form onSubmit={handleSubmit}>
+        <h2>Report Info</h2>
+        <input name="reportDate" type="date" placeholder="Date of Report" onChange={handleChange} required />
+        <input name="incidentTime" type="time" placeholder="Time of Incident" onChange={handleChange} required />
+        <input name="location" placeholder="Location" onChange={handleChange} required />
+
+        <h2>Client Information</h2>
+        <input name="clientName" placeholder="Client Name" onChange={handleChange} required />
+        <input name="clientContact" placeholder="Contact Number (if required)" onChange={handleChange} />
+
+        <h2>Treatment Details</h2>
+        <input name="treatmentType" placeholder="Type of Treatment" onChange={handleChange} required />
+        <input name="treatmentDate" type="date" placeholder="Date of Treatment" onChange={handleChange} required />
+        <input name="therapist" placeholder="Therapist/Practitioner" onChange={handleChange} required />
+
+        <h2>Incident Description</h2>
+        <textarea name="incidentSituation" placeholder="Situation Leading to Incident" onChange={handleChange} required />
+        <textarea name="incidentDescription" placeholder="Description of Incident" onChange={handleChange} required />
+
+        <h2>Action Taken</h2>
+        <textarea name="therapistResponse" placeholder="Immediate Response by Therapist" onChange={handleChange} required />
+        <textarea name="managerEscalation" placeholder="Escalation/Manager Involvement" onChange={handleChange} />
+
+        <h2>Client Outcome</h2>
+        {["No adverse effect", "Minor reaction", "Equipment issue", "Follow-up needed"].map((label, i) => (
+          <label key={i}>
+            <input type="checkbox" name={`clientOutcome_${i}`} value={label} onChange={handleChange} /> {label}
+          </label>
+        ))}
+        <h5>Describe if applicable</h5>
+        <textarea name="managerEscalation" placeholder="Escalation/Manager Involvement" onChange={handleChange} />
+
+        <h2>Follow-Up Plan</h2>
+        {["Additional staff training", "Equipment check", "Policy update"].map((label, i) => (
+          <label key={i}>
+            <input type="checkbox" name={`followUp_${i}`} value={label} onChange={handleChange} /> {label}
+          </label>
+        ))}
+
+        <h2>Final Notes</h2>
+        <label>
+          <input type="checkbox" name="contactedFollowup" value="Client contacted for follow-up" onChange={handleChange} /> Client contacted for follow-up
+        </label>
+        <input name="otherNote" placeholder="Other notes" onChange={handleChange} />
+
+        <h2>Signatures</h2>
+        <input name="therapistSignature" placeholder="Therapist/Staff Reporting" onChange={handleChange} required />
+        <input name="managerSignature" placeholder="Manager Reviewed By" onChange={handleChange} required />
+
+        <button type="submit" disabled={submitting}>{submitting ? 'Submitting...' : 'Submit'}</button>
+        <p>{status}</p>
+      </form>
+  );
+}
