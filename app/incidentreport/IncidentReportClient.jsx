@@ -37,7 +37,7 @@ const managerSignatureRef = useRef();
         formData.append(key, value);
       });
 
-      if (!therapistSignatureRef.current.isEmpty()) {
+        if (!therapistSignatureRef.current.isEmpty()) {
         const blob = await (await fetch(therapistSignatureRef.current.toDataURL())).blob();
         formData.append("therapistSignature", blob, "therapist-signature.png");
         }
@@ -45,6 +45,10 @@ const managerSignatureRef = useRef();
         if (!managerSignatureRef.current.isEmpty()) {
         const blob = await (await fetch(managerSignatureRef.current.toDataURL())).blob();
         formData.append("managerSignature", blob, "manager-signature.png");
+        }
+
+        if (form.incidentPhoto) {
+        formData.append("incidentPhoto", form.incidentPhoto);
         }
 
 
@@ -141,6 +145,17 @@ const managerSignatureRef = useRef();
     <div className="form-group">
       <input className="form-control" name="otherNote" placeholder="Other notes" onChange={handleChange} />
     </div>
+
+    <h2>Upload Photo (optional)</h2>
+    <div className="form-group form-control">
+    <input
+        type="file"
+        name="incidentPhoto"
+        accept="image/*"
+        onChange={(e) => setForm({ ...form, incidentPhoto: e.target.files[0] })}
+    />
+    </div>
+
 
     <h2>Signatures</h2>
 
