@@ -50,6 +50,7 @@ const Footer = () => {
         { label: 'News',         path: '/blogs' },
         { label: 'Business Enquiries', path: '/contact-us' },
         { label: 'Careers', path: '/career' },
+        { label: 'Health Checkups', path: 'https://health-checkups.ivhub.com/' },
       ],
     },
     {
