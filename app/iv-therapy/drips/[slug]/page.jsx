@@ -235,24 +235,24 @@ export default function DripDetailPage({ params, searchParams }) {
 
               {drip?.superline?.length > 0 && (
                 <div className="superline flex items-start gap-2">
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    viewBox="0 0 24 24" 
-                    className="w-6 h-6 flex-shrink-0"
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="w-6 h-6 flex-shrink-0 inline-block"
+                    style={{ minWidth: "24px", minHeight: "24px" }}
                   >
-
                     <circle cx="12" cy="12" r="12" fill="black" />
-                    <path 
-                      d="M8 12l3 3 5-6" 
-                      fill="none" 
-                      stroke="#F5F5DC" 
-                      strokeWidth="2.5" 
-                      strokeLinecap="round" 
+                    <path
+                      d="M8 12l3 3 5-6"
+                      fill="none"
+                      stroke="#F5F5DC"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                   </svg>
 
-                  <p>
+                  <p className="leading-snug">
                     {drip.superline}
                   </p>
                 </div>
