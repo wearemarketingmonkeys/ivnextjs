@@ -570,3 +570,19 @@
     &.is-active { background: #292929; }
   }
 }
+
+
+.superline{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background: #e6e2dd;
+
+    svg{
+      width:25px;
+      margin-top: 5px;
+    }
+}

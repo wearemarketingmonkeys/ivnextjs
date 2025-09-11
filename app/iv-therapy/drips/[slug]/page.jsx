@@ -233,6 +233,31 @@ export default function DripDetailPage({ params, searchParams }) {
             <div className="right">
               <h1>{heroTitle}</h1>
 
+              {drip?.superline?.length > 0 && (
+                <div className="superline flex items-start gap-2">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    className="w-6 h-6 flex-shrink-0"
+                  >
+
+                    <circle cx="12" cy="12" r="12" fill="black" />
+                    <path 
+                      d="M8 12l3 3 5-6" 
+                      fill="none" 
+                      stroke="#F5F5DC" 
+                      strokeWidth="2.5" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+
+                  <p>
+                    {drip.superline}
+                  </p>
+                </div>
+              )}
+
               {/* Inline Buttons as server links (SSR, no client state needed) */}
               {buttons.length > 0 && (
                 <div
