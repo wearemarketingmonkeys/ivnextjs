@@ -470,3 +470,197 @@ export default function DripDetailPage({ params, searchParams }) {
     </main>
   );
 }
+
+
+/*
+{
+        "id": 20,
+        "category": "Recovery",
+        "img": "hydration-hub-express.webp",
+        "title": "Hydration Hub Express",
+        "price": 299,
+        "metadesc": "Quickly rehydrate with the Hydration Hub Express IV Drip at IV Wellness Lounge. Personalized IV therapy in Dubai for instant refreshment. Book now!",
+        "desc": "For Dehydrated you",
+        "para1": "Experience rapid and effective rehydration with our <b>Hydration IV Therapy in Dubai</b> at IV Wellness Lounge. Designed to replenish vital fluids and electrolytes lost due to dehydration, illness, or environmental stressors, this IV drip supports your body's natural balance and enhances recovery.",
+        "para2": "Whether you’re feeling under the weather, battling nausea, or recovering from food poisoning or excessive heat, our Hydration IV drip restores hydration at the cellular level, promoting overall wellness and vitality.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with IV hydration drip",
+        "benifits": [
+          "Rapidly Restores Hydration And Electrolyte Balance",
+          "Supports Recovery From Dehydration Caused By Illness, Food Poisoning, Or Alcohol Consumption",
+          "Protects The Body From Toxins And Environmental Pollutants",
+          "Enhances Energy Levels And Mental Clarity",
+          "Promotes Overall Well-Being And Faster Recovery",
+          "Safe, Non-Invasive, And Clinically Supervised IV Therapy"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon9.png",
+            "txt": "Individuals Experiencing Dehydration From Illness, Heat, Or Physical Exertion"
+          },
+          {
+            "icon": "icon15.png",
+            "txt": "Those Recovering From Food Poisoning Or Stomach Upset"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "People Suffering From Hangovers Or Alcohol-Induced Dehydration"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Athletes And Fitness Enthusiasts Needing Rapid Rehydration"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Anyone Exposed To Environmental Pollutants And Toxins"
+          },
+          {
+            "icon": "icon11.png",
+            "txt": "Individuals Feeling Fatigued, Nauseous, Or Under The Weather Due To Fluid Loss"
+          }
+        ],
+        "pairings": [
+          {
+            "dripid": 4
+          },
+          {
+            "dripid": 18
+          },
+          {
+            "dripid": 7
+          }
+        ],
+        "extraData": [
+          {
+            "name": "Isotonic Solution",
+            "txt": "A balanced electrolyte infusion that rapidly replenishes fluids and minerals to restore hydration"
+          },
+          {
+            "name": "Electrolyte Cocktail",
+            "txt": "A blend of essential minerals like sodium, potassium, and magnesium to boost energy, support cellular function, and maintain fluid balance"
+          }
+        ],
+        "faq":[
+          {
+            "question": "How soon will I feel the effects of the Hydration IV drip?",
+            "answer": "Most clients notice improved energy and hydration within 15 to 30 minutes after the session."
+          },
+          {
+            "question": "Is the Hydration IV drip safe?",
+            "answer": "Yes, our Hydration IV Therapy uses sterile, medical-grade solutions administered by trained professionals to ensure your safety and comfort."
+          },
+          {
+            "question": "How long does a Hydration IV session take?",
+            "answer": "Typically, the session lasts between 30 to 45 minutes, depending on individual needs."
+          },
+          {
+            "question": "Who can benefit from this therapy?",
+            "answer": "Anyone experiencing dehydration due to illness, heat exposure, physical exertion, or environmental toxins can benefit from this IV therapy."
+          },
+          {
+            "question": "Can this therapy help with hangovers?",
+            "answer": "Yes, the Hydration IV drip replenishes fluids and electrolytes lost due to alcohol, helping alleviate hangover symptoms efficiently."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/hydration-hub-express"
+      },
+      {
+  "id": 24,
+  "category": "Recovery",
+  "img": "ramdan-hub.webp",
+  "title": "Ramadan Hub",
+  "price": 799,
+  "metadesc": "Stay energized during Ramadan with the Ramadan Hub IV Drip at IV Wellness Lounge. Personalized IV therapy in Dubai to support your fasting. Book now!",
+  "desc": "To help you prepare for the holy month of Ramadan",
+  "para1": "Our <b>Ramadan IV Drip Therapy</b> is specially formulated to support your body during fasting periods by replenishing essential fluids, electrolytes, and nutrients lost during long hours without food or water. Designed to combat fatigue, dehydration, and low energy, this IV drip helps you feel stronger both mentally and physically throughout the holy month.",
+  "para2": "Whether you're preparing for Ramadan or looking to recover after fasting, this targeted <b>IV therapy in Dubai</b> ensures your body receives immediate hydration and nourishment in a safe and efficient way. Administered by medical professionals in our wellness clinic or in the comfort of your home, our <b>IV drip in Dubai</b> is the perfect way to support your health during this sacred time.",
+  "discount": 20,
+  "benifitImg": "ben.webp",
+  "benifitTitle": "Get Back On Your Feet with Ramadan drip",
+  "benifits": [
+    "Rehydrates The Body Before And After Fasting",
+    "Restores Essential Electrolytes And Multivitamins",
+    "Improves Focus, Energy Levels, And Mood During Long Fasts",
+    "Supports Immunity And Recovery From Fasting-Related Fatigue",
+    "Aids In Detoxification And Preparing The Body For Fasting",
+    "Promotes Mental Clarity And Reduces Physical Weakness"
+  ],
+  "benifitList": [
+    {
+      "icon": "icon5.png",
+      "txt": "Preparing Your Body Before The Start Of Ramadan"
+    },
+    {
+      "icon": "icon2.png",
+      "txt": "Daily Support During Fasting Periods"
+    },
+    {
+      "icon": "icon9.png",
+      "txt": "Recovering From Fatigue Or Dehydration"
+    },
+    {
+      "icon": "icon6.png",
+      "txt": "Individuals Feeling Weak, Lightheaded, Or Low On Energy During The Day"
+    },
+    {
+      "icon": "icon3.png",
+      "txt": "People Observing Ramadan During The Summer Heat"
+    }
+  ],
+  "pairings": [
+    {
+      "dripid": 4
+    },
+    {
+      "dripid": 10
+    },
+    {
+      "dripid": 20
+    }
+  ],
+  "extraData": [
+    {
+      "name": "Hydration Fluids",
+      "txt": "Instantly restore lost fluids due to fasting."
+    },
+    {
+      "name": "Electrolytes",
+      "txt": "Maintain cellular balance and prevent dehydration-related fatigue."
+    },
+    {
+      "name": "Multivitamins",
+      "txt": "Boost immunity and energy naturally during fasting."
+    },
+    {
+      "name": "Trace Minerals",
+      "txt": "Help balance pH and support overall wellness during prolonged hours without food or water."
+    }
+  ],
+  "faq":[
+    {
+      "question": "What is Ramadan IV Drip Therapy?",
+      "answer": "It’s a tailored IV drip therapy formulated to help you stay hydrated, nourished, and energized before, during, and after fasting in Ramadan. It delivers fluids and essential nutrients directly into the bloodstream."
+    },
+    {
+      "question": "Is it safe to take this IV during Ramadan?",
+      "answer": "Yes, our IVs are safe and administered by licensed medical professionals. For those who want to take it before suhoor or after iftar, it is highly effective and permissible as it doesn't interfere with the fasting hours."
+    },
+    {
+      "question": "Can I take this IV Drip before Ramadan starts?",
+      "answer": "Absolutely. It is highly recommended to take it a few days before Ramadan to cleanse your body and boost hydration levels ahead of the fasting period."
+    },
+    {
+      "question": "What are the key benefits of this IV drip during fasting?",
+      "answer": "It combats dehydration, restores energy, reduces fatigue, and improves mood, helping you stay productive and focused during Ramadan."
+    },
+    {
+      "question": "Is this IV Drip available for home service in Dubai?",
+      "answer": "Yes. You can book a Ramadan IV Drip therapy in Dubai to be administered in your home, hotel, or office through our mobile wellness team."
+    }
+  ],
+  "bookingBtn": "https://book.ivhub.com/",
+  "moreDetailsUrl": "/iv-therapy/drips/ramadan-hub"
+}
+*/

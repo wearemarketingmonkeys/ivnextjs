@@ -38,7 +38,7 @@ const ivTherapyItems = [
       { dripsName: "Cleanse Hub", dripsUrl: "/iv-therapy/drips/cleanse-hub" },
       { dripsName: "Energy Hub", dripsUrl: "/iv-therapy/drips/energy-hub" },
       { dripsName: "Fitness Hub", dripsUrl: "/iv-therapy/drips/fitness-hub" },
-      { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
+      // { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
       { dripsName: "Glow Hub", dripsUrl: "/iv-therapy/drips/glow-hub" },
       {
         dripsName: "Hairfall Defense",
@@ -73,10 +73,7 @@ const ivTherapyItems = [
         dripsUrl: "/iv-therapy/drips/recovery-hub-anti-stress",
       },
       { dripsName: "Post Party Hub", dripsUrl: "/iv-therapy/drips/hangover-iv-drip" },
-      {
-        dripsName: "Hydration Hub Express",
-        dripsUrl: "/iv-therapy/drips/hydration-hub-express",
-      },
+      // { dripsName: "Hydration Hub Express", dripsUrl: "/iv-therapy/drips/hydration-hub-express"},
       { dripsName: "NAD+", dripsUrl: "/iv-therapy/drips/nad-plus" },
     ],
   },
