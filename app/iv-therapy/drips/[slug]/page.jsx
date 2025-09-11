@@ -239,7 +239,7 @@ export default function DripDetailPage({ params, searchParams }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-6 h-6 flex-shrink-0 inline-block"
-                    style={{ minWidth: "24px", minHeight: "24px" }}
+                    style={{ minWidth: "20px", minHeight: "20px" }}
                   >
                     <circle cx="12" cy="12" r="12" fill="black" />
                     <path
