@@ -580,9 +580,11 @@
     padding: 10px;
     border-radius: 10px;
     background: #e6e2dd;
+    align-content: flex-start;
 
     svg{
-      width:25px;
+      width:20px;
+      max-width: 20px;
       margin-top: 5px;
     }
 }
