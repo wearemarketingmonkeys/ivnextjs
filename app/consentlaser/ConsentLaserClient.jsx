@@ -143,7 +143,7 @@ export default function ConsentLaserClient() {
             name="fullName"
             value={form.fullName}
             onChange={(e) => {
-              handleChange(e);
+              onChange(e);
               fetchPatientSuggestions(e.target.value);
             }}
             placeholder="Full Name"
