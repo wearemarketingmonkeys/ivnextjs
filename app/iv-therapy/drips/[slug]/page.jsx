@@ -354,33 +354,34 @@ export default function DripDetailPage({ params, searchParams }) {
                 </p>
               )} */}
 
-              {/* Rich paragraphs */}
-              {paras.length > 0 && (
-                <div className="para">
-                  {paras.map((para, idx) => (
-                    <p key={idx} dangerouslySetInnerHTML={{ __html: `${para}<br />` }} />
-                  ))}
+              <div className="mobreverse">
+                {/* Rich paragraphs */}
+                {paras.length > 0 && (
+                  <div className="para">
+                    {paras.map((para, idx) => (
+                      <p key={idx} dangerouslySetInnerHTML={{ __html: `${para}<br />` }} />
+                    ))}
+                  </div>
+                )}
+
+                {/* CTAs */}
+                <div className="btn-wrap">
+                  {drip.bookingBtn ? (
+                    /^https?:\/\//i.test(drip.bookingBtn) ? (
+                      <a href={drip.bookingBtn} className="btn" target="_blank" rel="noopener noreferrer">
+                        Book Now
+                      </a>
+                    ) : (
+                      <Link href={drip.bookingBtn} className="btn">
+                        Book Now
+                      </Link>
+                    )
+                  ) : null}
+                  <Link href="/iv-therapy/drips" className="btn btn-stroke">
+                    Explore other drips
+                  </Link>
                 </div>
-              )}
-
-              {/* CTAs */}
-              <div className="btn-wrap">
-                {drip.bookingBtn ? (
-                  /^https?:\/\//i.test(drip.bookingBtn) ? (
-                    <a href={drip.bookingBtn} className="btn" target="_blank" rel="noopener noreferrer">
-                      Book Now
-                    </a>
-                  ) : (
-                    <Link href={drip.bookingBtn} className="btn">
-                      Book Now
-                    </Link>
-                  )
-                ) : null}
-                <Link href="/iv-therapy/drips" className="btn btn-stroke">
-                  Explore other drips
-                </Link>
               </div>
-
               <BenefitsAccordion drip={drip} />
             </div>
           </div>

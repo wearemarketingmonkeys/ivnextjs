@@ -588,3 +588,16 @@
       margin-top: 2px;
     }
 }
+
+.mobreverse{
+  @include mixin.respond(sm) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .btn-wrap{
+    @include mixin.respond(sm) {
+      margin-bottom: 30px;
+    } 
+  }
+}
