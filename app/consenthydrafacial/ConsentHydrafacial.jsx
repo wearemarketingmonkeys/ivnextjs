@@ -173,6 +173,7 @@ export default function ConsentHydrafacial() {
                                 ...prev,
                                 patientName: s.patientName,
                                 emiratesId: s.emiratesId,
+                                gender: s.gender,
                                 fullName: s.fullName,
                                 email: s.email,
                                 dob: s.dob,
