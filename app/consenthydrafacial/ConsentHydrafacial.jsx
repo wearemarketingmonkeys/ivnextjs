@@ -67,6 +67,43 @@ export default function ConsentHydrafacial() {
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
+  // Autofill function
+const fetchPatientData = async (name) => {
+  if (name.length < 3) return; // wait until at least 3 chars
+
+    try {
+      const res = await fetch(`https://mails.ivhub.com/gethydrafacial.php?name=${encodeURIComponent(name)}`);
+      if (!res.ok) return;
+      const data = await res.json();
+
+      // Update state with fetched values if available
+      setForm((prev) => ({
+        ...prev,
+        emiratesId: data.emiratesId || prev.emiratesId,
+        dob: data.dob || prev.dob,
+        gender: data.gender || prev.gender,
+        contact: data.contact || prev.contact,
+        email: data.email || prev.email,
+        fullName: data.fullName || prev.fullName,
+        patientName: data.fullName || prev.patientName,
+      }));
+
+      // If API sends back a base64 signature image
+      if (data.sign && sigRef.current) {
+        const img = new Image();
+        img.src = `data:image/png;base64,${data.sign}`;
+        img.onload = () => {
+          sigRef.current.clear();
+          const ctx = sigRef.current.getCanvas().getContext("2d");
+          ctx.drawImage(img, 0, 0);
+        };
+      }
+    } catch (err) {
+      console.error("Autofill error:", err);
+    }
+  };
+
+
   const clearSignature = () => sigRef.current?.clear();
 
   const handleSubmit = async (e) => {
@@ -118,7 +155,10 @@ export default function ConsentHydrafacial() {
                     <input
                       name="fullName"
                       value={form.fullName}
-                      onChange={handleChange}
+                      onChange={(e) => {
+                        handleChange(e);
+                        fetchPatientData(e.target.value);
+                      }}
                       placeholder="Full Name"
                       required
                     />
