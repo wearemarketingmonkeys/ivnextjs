@@ -137,7 +137,7 @@ export default function ConsentLaserClient() {
   return (
     <form className="form" onSubmit={onSubmit}>
       {/* Patient info */}
-      <div className="form-group">
+      <div className="form-group" style={{ position: "relative" }}>
         <label>Full Name</label>
         <input
             name="fullName"
