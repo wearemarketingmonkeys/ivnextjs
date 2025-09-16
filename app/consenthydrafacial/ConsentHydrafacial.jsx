@@ -171,6 +171,8 @@ export default function ConsentHydrafacial() {
                             onClick={() => {
                               setForm((prev) => ({
                                 ...prev,
+                                patientName: s.patientName,
+                                emiratesId: s.emiratesId,
                                 fullName: s.fullName,
                                 email: s.email,
                                 dob: s.dob,
