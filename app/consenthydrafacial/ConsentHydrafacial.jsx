@@ -189,7 +189,7 @@ export default function ConsentHydrafacial() {
                                 img.onload = () => {
                                   sigRef.current.clear();
                                   const ctx = sigRef.current.getCanvas().getContext("2d");
-                                  ctx.drawImage(img, 0, 0);
+                                  ctx.drawImage(img, 0, 0, ctx.canvas.width, ctx.canvas.height);
                                 };
                               }
                             }}
