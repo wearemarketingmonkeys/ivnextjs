@@ -590,6 +590,11 @@
 }
 
 .mobreverse{
+
+  .mobreverse .btn-wrap{
+    width: auto;
+  }
+
   @include mixin.respond(sm) {
     display: flex;
     flex-direction: column-reverse;
