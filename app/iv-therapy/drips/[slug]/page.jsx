@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 
 
 import { notFound } from 'next/navigation';
+import { encodeBase64 } from "../../../../utils/base64";
 import Link from 'next/link';
 import dripsData from '../../../mocks/wellnessDrips.json';
 import DripsCard from "../../../components/DripsCard.jsx";
@@ -216,6 +217,20 @@ export default function DripDetailPage({ params, searchParams }) {
     ],
   };
 
+  // Build payload
+  const payload = {
+    drip: drip.title,
+    variant: active?.title || null,
+    session: activeSession?.txt || null,
+    price: heroPrice,
+  };
+
+  // Encode
+  const encodedKey = encodeBase64(payload);
+
+  // Build final URL
+  const cartUrl = `https://book.ivhub.com/cart.php?key=${encodedKey}`;
+
   return (
     <main className="drips-details">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -365,7 +380,7 @@ export default function DripDetailPage({ params, searchParams }) {
                 )}
 
                 {/* CTAs */}
-                <div className="btn-wrap">
+                {/* <div className="btn-wrap">
                   {drip.bookingBtn ? (
                     /^https?:\/\//i.test(drip.bookingBtn) ? (
                       <a href={drip.bookingBtn} className="btn" target="_blank" rel="noopener noreferrer">
@@ -377,6 +392,14 @@ export default function DripDetailPage({ params, searchParams }) {
                       </Link>
                     )
                   ) : null}
+                  <Link href="/iv-therapy/drips" className="btn btn-stroke">
+                    Explore other drips
+                  </Link>
+                </div> */}
+                <div className="btn-wrap">
+                  <Link href={cartUrl} className="btn">
+                    Book Now
+                  </Link>
                   <Link href="/iv-therapy/drips" className="btn btn-stroke">
                     Explore other drips
                   </Link>
