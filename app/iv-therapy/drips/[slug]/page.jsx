@@ -218,11 +218,13 @@ export default function DripDetailPage({ params, searchParams }) {
   };
 
   // Build payload
+  const sessionCount = parseInt(activeSession?.txt?.replace(/\D/g, ''), 10) || 1;
+
   const payload = {
     drip: drip.title,
     variant: active?.title || null,
-    session: activeSession?.txt || null,
-    price: heroPrice,
+    session: activeSession?.txt,
+    price: parseFloat((heroPrice * sessionCount).toFixed(2)),
   };
 
   // Encode
@@ -380,7 +382,7 @@ export default function DripDetailPage({ params, searchParams }) {
                 )}
 
                 {/* CTAs */}
-                <div className="btn-wrap">
+                {/* <div className="btn-wrap">
                   {drip.bookingBtn ? (
                     /^https?:\/\//i.test(drip.bookingBtn) ? (
                       <a href={drip.bookingBtn} className="btn" target="_blank" rel="noopener noreferrer">
@@ -395,15 +397,15 @@ export default function DripDetailPage({ params, searchParams }) {
                   <Link href="/iv-therapy/drips" className="btn btn-stroke">
                     Explore other drips
                   </Link>
-                </div>
-                {/* <div className="btn-wrap">
+                </div> */}
+                <div className="btn-wrap">
                   <Link href={cartUrl} className="btn">
                     Book Now
                   </Link>
                   <Link href="/iv-therapy/drips" className="btn btn-stroke">
                     Explore other drips
                   </Link>
-                </div> */}
+                </div>
               </div>
               <BenefitsAccordion drip={drip} />
             </div>
