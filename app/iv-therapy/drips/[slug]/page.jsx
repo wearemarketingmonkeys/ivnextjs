@@ -380,7 +380,7 @@ export default function DripDetailPage({ params, searchParams }) {
                 )}
 
                 {/* CTAs */}
-                {/* <div className="btn-wrap">
+                <div className="btn-wrap">
                   {drip.bookingBtn ? (
                     /^https?:\/\//i.test(drip.bookingBtn) ? (
                       <a href={drip.bookingBtn} className="btn" target="_blank" rel="noopener noreferrer">
@@ -395,15 +395,15 @@ export default function DripDetailPage({ params, searchParams }) {
                   <Link href="/iv-therapy/drips" className="btn btn-stroke">
                     Explore other drips
                   </Link>
-                </div> */}
-                <div className="btn-wrap">
+                </div>
+                {/* <div className="btn-wrap">
                   <Link href={cartUrl} className="btn">
                     Book Now
                   </Link>
                   <Link href="/iv-therapy/drips" className="btn btn-stroke">
                     Explore other drips
                   </Link>
-                </div>
+                </div> */}
               </div>
               <BenefitsAccordion drip={drip} />
             </div>
