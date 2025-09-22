@@ -36,6 +36,7 @@ const initialState = {
 
 export default function ConsentChemicalClient() {
   const [form, setForm] = useState(initialState);
+  const [suggestions, setSuggestions] = useState([]);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
@@ -57,6 +58,23 @@ export default function ConsentChemicalClient() {
       ...prev,
       [name]: type === "checkbox" ? checked : value,
     }));
+  };
+
+  // Autofill function
+  const fetchPatientSuggestions = async (name) => {
+    if (name.length < 3) {
+      setSuggestions([]);
+      return;
+    }
+
+    try {
+      const res = await fetch(`https://mails.ivhub.com/getchemicalpeel.php?name=${encodeURIComponent(name)}`);
+      if (!res.ok) return;
+      const data = await res.json();
+      setSuggestions(Array.isArray(data) ? data : []);
+    } catch (err) {
+      console.error("Fetch error:", err);
+    }
   };
 
   const clearSignature = () => sigRef.current?.clear();
@@ -101,9 +119,71 @@ export default function ConsentChemicalClient() {
   return (
     <form className="form" onSubmit={onSubmit}>
       {/* Patient Information */}
-      <div className="form-group">
-        <label>Full Name</label>
-        <input name="fullName" value={form.fullName} onChange={onChange} required />
+      <div className="form-group" style={{ position: "relative" }}>
+      <label>Full Name</label>
+      <input
+        name="fullName"
+        value={form.fullName}
+        onChange={(e) => {
+          onChange(e);
+          fetchPatientSuggestions(e.target.value);
+        }}
+        placeholder="Full Name"
+        required
+        autoComplete="off"
+      />
+
+        {/* Dropdown */}
+        {suggestions.length > 0 && (
+          <ul className="dropdown" style={{
+            position: "absolute",
+            top: "100%",
+            left: 0,
+            right: 0,
+            border: "1px solid #ddd",
+            background: "#fff",
+            listStyle: "none",
+            margin: 0,
+            padding: 0,
+            maxHeight: "200px",
+            overflowY: "auto",
+            zIndex: 9999
+          }}>
+            {suggestions.map((s) => (
+              <li
+                key={s.id}
+                style={{ padding: "8px", cursor: "pointer" }}
+                onClick={() => {
+                  setForm((prev) => ({
+                    ...prev,
+                    patientName: s.patientName,
+                    emiratesId: s.emiratesId,
+                    gender: s.gender,
+                    fullName: s.fullName,
+                    email: s.email,
+                    dob: s.dob,
+                    consentDate: s.consentDate,
+                    contact: s.contact,
+                    practitionerName: s.practitionerName,
+                  }));
+                  setSuggestions([]);
+                  // Load signature if exists
+                  if (s.sign && sigRef.current) {
+                    const img = new Image();
+                    img.src = `data:image/png;base64,${s.sign}`;
+                    img.onload = () => {
+                      sigRef.current.clear();
+                      const ctx = sigRef.current.getCanvas().getContext("2d");
+                      ctx.drawImage(img, 0, 0, ctx.canvas.width, ctx.canvas.height);
+                    };
+                  }
+                }}
+              >
+                {s.fullName} ({s.contact})
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
 
       <div className="form-group">
