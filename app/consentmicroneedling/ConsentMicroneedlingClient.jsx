@@ -65,7 +65,7 @@ export default function ConsentMicroneedlingClient() {
     }
 
     try {
-      const res = await fetch(`https://mails.ivhub.com/gethydrafacial.php?name=${encodeURIComponent(name)}`);
+      const res = await fetch(`https://mails.ivhub.com/getmicroneedling.php?name=${encodeURIComponent(name)}`);
       if (!res.ok) return;
       const data = await res.json();
       setSuggestions(Array.isArray(data) ? data : []);
