@@ -14,7 +14,6 @@ const seenIcons = [
 ];
 
 const partnerIcons = [
-  '/assets/img/home/dewa.png',
   '/assets/img/home/emirates-platinum.jpg',
   '/assets/img/home/emirates-group.png',
   '/assets/img/home/fazaa-logo.png',
@@ -28,7 +27,6 @@ const seenLinks = [
 ];
 
 const partnerLinks = [
-  '',
   '',
   '',
   'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
