@@ -68,7 +68,7 @@ const steps = [
   {
     img: '/assets/img/laser/step3.jpg',
     title: 'Inhibition of Hair Growth',
-    desc: 'The hair follicle chromophores are damaged, inhibiting future hair growth. Hair should begin to fall out approximately 2 weeks later.',
+    desc: 'The hair follicle chromophores are damaged, inhibiting future hair growth.',
   },
 ];
 
@@ -210,9 +210,7 @@ export default function LaserHairRemovalPage() {
             <div className="right">
               <h1>Results</h1>
               <div className="description">
-                Hair should begin to fall out approximately 2 weeks after your
-                first treatment, but it's important to complete your recommended
-                number of sessions to ensure smooth, hairless skin
+                With Soprano Titanium technology, results begin to show approximately 2 weeks after your first treatment. It’s important to complete the recommended number of sessions to achieve smooth, long-lasting hairless skin.
               </div>
               <div className="unwanted-hair">
                 <img src="/assets/img/laser/calendar.png" alt="hair removal" />
