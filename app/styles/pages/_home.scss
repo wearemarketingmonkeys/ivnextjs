@@ -526,6 +526,12 @@
   }
 }
 
+.right{
+  .seen-wrap{
+    gap: 16px;
+  }
+}
+
 /* Animations */
 @keyframes spin {
   from {
