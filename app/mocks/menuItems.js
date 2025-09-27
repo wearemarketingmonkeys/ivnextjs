@@ -5,7 +5,6 @@ export const menuItems = [
     },
     {
       label: "Concerns & Treatments",
-      to: "/aesthetic",
       submenuWrapper: [
         {
           submenuWrap: [
