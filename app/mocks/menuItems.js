@@ -132,7 +132,7 @@ export const menuItems = [
               submenuTitle: "Body contouring (Fat melting)",
               submenu: [
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
-                { label: "Lipozero", to: "/aesthetic/lipo-sculpt" },
+                { label: "Lipozero", to: "/aesthetic/lipo-zero" },
                 { label: "Liposculpt", to: "/aesthetic/lipo-sculpt" },
                 { label: "Fitness Hub", to: "/iv-therapy/drips/fitness-hub" },
               ],

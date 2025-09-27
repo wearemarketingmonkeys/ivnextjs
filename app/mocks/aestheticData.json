@@ -1375,12 +1375,12 @@
       "id": 10,
       "img": "body.webp",
       "video": false,
-      "title": "Body Contouring",
+      "title": "Lipo Zero",
       "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
-      "desc": "Contour, restore volume, and give a natural-looking fullness to your body.",
-      "howItWorks": "Body fillers are substances that are injected beneath the skin to add volume, enhance contours, and improve the overall appearance of specific areas of the body. The filler material is injected beneath the skin to fill in hollow areas, creases, or depressions, resulting in a smoother and more youthful appearance. Many body fillers contain hyaluronic acid (HA), a naturally occurring substance in the body that attracts and retains moisture. Body fillers with a thicker consistency can provide structural support and lift to sagging or drooping areas. They help reposition tissues, restore contours, and create a more youthful appearance.",
-      "whyWeLoveIt": "Body fillers offer several advantages and benefits, making them a popular choice for individuals seeking aesthetic enhancements. Body fillers provide a non-surgical alternative to invasive procedures such as surgery or implants. They allow individuals to enhance their appearance without the need for incisions, general anaesthesia, or prolonged recovery periods. This appeals to those who prefer non-invasive or minimally invasive options.",
-      "treatableArea": "Upper Face | Lower Face | Lips",
+      "desc": "Contour, reduce stubborn fat, and give a natural-looking fullness to your body.",
+      "howItWorks": "LipoZero is a state-of-the-art, non-invasive radiofrequency (RF) cavitation device designed to contour the body, reduce stubborn fat, tighten skin, and improve overall body tone. Using advanced ultrasound cavitation + multipolar RF + vacuum suction technology, LipoZero helps sculpt and smooth the body without surgery, downtime, or discomfort. Sculpt, smooth, and tighten your body with LipoZero RF Cavitation. Contact us today to schedule your personalized treatment plan.",
+      "whyWeLoveIt": "Together, these modalities contour, tighten, and smooth the treated area while supporting long-term results.",
+      "treatableArea": "Abdomen | Flanks (love handles) | Thighs (inner & outer) | Buttocks | Arms | Back & bra line | Chin & jawline",
       "treatableConcerns": [
         {
           "icons": "bodyIcon1.png",
@@ -1392,37 +1392,25 @@
         }
       ],
       "duration": 90,
-      "startingAmount": 425,
+      "startingAmount": 1499,
       "discount": 20,
       "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
-      "fullDetailsUrl": "/aesthetic/body-contouring",
+      "fullDetailsUrl": "/aesthetic/lipo-zero",
       "treatmentsTips": [
         {
           "name": "Pre-Treatment Tips",
           "tips": [
             {
-              "icon": "ticon1.png",
-              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
-            },
-            {
-              "icon": "ticon14.png",
-              "txt": "Bring a friend! If your friend is a first time client at IV Wellness Lounge, you'll both be eligible to receive special pricing."
-            },
-            {
-              "icon": "ticon19.png",
-              "txt": "If taken pre-treatment, arnica and bromelain can help reduce post-treatment swelling and bruising. You can also take Tylenol."
+              "icon": "ticon12.png",
+              "txt": "Stay hydrated — drink at least 2 liters of water before and after each session."
             },
             {
               "icon": "ticon20.png",
-              "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
+              "txt": "Avoid alcohol, heavy meals, and caffeine 24 hours before treatment."
             },
             {
-              "icon": "ticon21.png",
-              "txt": "It's best to avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
-            },
-            {
-              "icon": "ticon16.png",
-              "txt": "You are not a candidate for these injections if you are pregnant or breastfeeding."
+              "icon": "ticon10.png",
+              "txt": "No tanning or applying lotions/oils to the treatment area on the day of your session."
             }
           ]
         },
@@ -1431,73 +1419,50 @@
           "tips": [
             {
               "icon": "ticon7.png",
-              "txt": "Cold packs are your friend. Use them liberally for 8 hours after your treatment to help reduce swelling."
+              "txt": "Continue to drink 2–3 liters of water daily to aid lymphatic drainage."
             },
             {
               "icon": "ticon22.png",
-              "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
+              "txt": "Maintain a balanced diet and active lifestyle for best results."
             },
             {
               "icon": "ticon8.png",
-              "txt": "Avoid exercise for 24 hours after your treatment. And facials are a no-go for at least 2 weeks."
-            },
-            {
-              "icon": "ticon23.png",
-              "txt": "It’s important to stay hydrated! Be sure to drink plenty of water after your treatment."
+              "txt": "Engage in light exercise (walking, cardio) within 24 hours to support fat metabolism."
             },
             {
               "icon": "ticon20.png",
-              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
-            },
-            {
-              "icon": "ticon17.png",
-              "txt": "You may lie down after fillers, but please avoid laying on your face (even the sides of your face)."
+              "txt": "Avoid heavy alcohol intake for 48 hours post-treatment."
             }
           ]
         }
       ],
-      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "resultTxt": "Results are long-lasting when combined with a healthy lifestyle and stable weight.",
       "beforeImg": "bodybefore.webp",
       "afterImg": "bodyafter.webp",
       "treatments": [
         {
-          "category": "Per ml- 1499 AED",
+          "category": "Small Area",
           "services": [
             {
-              "name": "Lip",
-              "price": 1499
-            },
-            {
-              "name": "Cheek",
-              "price": 2999
-            },
-            {
-              "name": "Tear Trough",
-              "price": 2999
-            },
-            {
-              "name": "Nasolabial Folds",
-              "price": 2999
-            },
-            {
-              "name": "Chin",
-              "price": 2999
-            },
-            {
-              "name": "Jawline",
-              "price": 2999
-            },
-            {
-              "name": "Texas Jawline",
-              "price": 3599
+              "name": "Face/Love Handles",
+              "price": 399
             }
           ]
         },
         {
-          "category": "Filler Dissolver",
+          "category": "Medium Area",
           "services": [
             {
-              "name": "Liporase",
+              "name": "Back/Hips",
+              "price": 499
+            }
+          ]
+        },
+        {
+          "category": "Large Area",
+          "services": [
+            {
+              "name": "Tummy/Full Legs/Full Arms",
               "price": 599
             }
           ]
@@ -1505,33 +1470,29 @@
       ],
       "faq": [
         {
-          "question": "Can I keep my makeup on?",
-          "answer": "Your skin should be clean for treatment so we can properly assess your skin and determine where to make injections. If you wear makeup to your appointment, we’ll remove it before your service. Post-treatment, we don't advise reapplying makeup immediately following, as you should avoid touching your face as much as possible for the next 24 hours."
+          "question": "How many sessions will I need?",
+          "answer": "Most clients require 6–10 sessions, spaced 5 days apart, depending on treatment goals and area size."
         },
         {
-          "question": "What must I absolutely avoid after my treatment?",
-          "answer": "After your treatment: No lying down for 4 hours; no exercise/working out for 24 hours; no facials for 2 weeks. Try not to touch the area excessively for the first 24 hours, except to apply arnica gel. Avoid salty foods and alcoholic beverages as they can contribute to swelling."
+          "question": "Is it painful?",
+          "answer": "No — treatments are comfortable and often described as a warm massage."
         },
         {
-          "question": "How long until I see the results?",
-          "answer": "You'll start to see results almost immediately and can expect to see full results in about 2 weeks."
+          "question": "Is there downtime?",
+          "answer": "None. You can return to work or daily activities immediately."
         },
         {
-          "question": "How long do the results last?",
-          "answer": "Everyone's different, but typically results last anywhere from 6-18 months. It really depends on the filler we use and your aesthetic goals."
+          "question": "Can it replace liposuction?",
+          "answer": "No — LipoZero is ideal for body contouring and skin tightening, not for major fat removal or weight loss."
         },
         {
-          "question": "What is the downtime? Can I go back to work?",
-          "answer": "We use a topical anesthetic before making injections to help minimize any discomfort during the treatment. We also use an ice pack before and after. You can also take Tylenol before and after to help reduce any pain. You may experience bruising and swelling, which can take 1-2 weeks to go away. Therefore, we don't recommend scheduling your appointment right before a big event."
+          "question": "Who is a good candidate?",
+          "answer": "Individuals close to their ideal body weight with localized fat, mild cellulite, or skin laxity are the best candidates."
         },
         {
-          "question": "Can I receive dermal fillers while pregnant or nursing?",
-          "answer": "No, dermal fillers are not recommended while pregnant or nursing."
-        },
-        {
-          "question": "What brand of fillers do you offer?",
-          "answer": "We offer a variety of high-quality fillers tailored to your specific aesthetic goals. Your provider will discuss the options during your consultation."
-        }
+          "question": "Is it safe?",
+          "answer": "Yes — LipoZero is FDA-approved, non-invasive, and safe when performed by trained professionals."
+        } 
       ]
     },
     {
