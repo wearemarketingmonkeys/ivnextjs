@@ -1374,7 +1374,7 @@
     {
       "id": 10,
       "img": "body.webp",
-      "video": false,
+      "video": "lipozero.mp4",
       "title": "Lipo Zero",
       "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
       "desc": "Contour, reduce stubborn fat, and give a natural-looking fullness to your body.",
@@ -1418,11 +1418,11 @@
           "name": "Post-treatment Tips",
           "tips": [
             {
-              "icon": "ticon7.png",
+              "icon": "ticon12.png",
               "txt": "Continue to drink 2–3 liters of water daily to aid lymphatic drainage."
             },
             {
-              "icon": "ticon22.png",
+              "icon": "ticon13.png",
               "txt": "Maintain a balanced diet and active lifestyle for best results."
             },
             {
@@ -1437,8 +1437,8 @@
         }
       ],
       "resultTxt": "Results are long-lasting when combined with a healthy lifestyle and stable weight.",
-      "beforeImg": "bodybefore.webp",
-      "afterImg": "bodyafter.webp",
+      "beforeImg": "lipozerobefore.webp",
+      "afterImg": "lipozeroafter.webp",
       "treatments": [
         {
           "category": "Small Area",
