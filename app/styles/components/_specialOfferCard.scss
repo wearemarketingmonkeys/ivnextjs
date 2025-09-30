@@ -158,7 +158,7 @@
   object-fit: cover;
   display: block;
 
-  @include mixin.respond(sm) {
+  @media(max-width:500px) {
     height: 92%;
   }
 }
