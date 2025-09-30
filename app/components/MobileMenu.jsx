@@ -6,7 +6,7 @@ import { menuItems } from '../mocks/menuItems';
 import { MdOutlineChevronRight, MdArrowBack } from 'react-icons/md';
 
 // Put /public/assets/img/logo/logo.svg in your project
-const logo = '/assets/img/logo/logo.svg';
+const logo = '/assets/img/logo/october-iv-logo.png';
 
 // Items shown when tapping “IV Therapy” at the root
 const ivTherapyMenu = [
