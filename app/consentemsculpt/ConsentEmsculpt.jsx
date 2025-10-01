@@ -7,6 +7,7 @@ const initialState = {
   serviceId: "emsculpt",
 
   fullName: "",
+  emiratesId: "",
   dob: "",
   contact: "",
   email: "",
@@ -135,6 +136,16 @@ export default function ConsentEmsculpt() {
         <label>Full Name (as per ID)</label>
         <input name="fullName" value={form.fullName} onChange={handleChange} required />
       </div>
+      <div className="form-group">
+        <label>Emirates ID / Passport</label>
+        <input
+            name="emiratesId"
+            value={form.emiratesId}
+            onChange={handleChange}
+            placeholder="Emirates ID / Passport"
+            required
+        />
+        </div>
       <div className="form-group">
         <label>Date of Birth</label>
         <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
