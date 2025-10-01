@@ -199,7 +199,7 @@ export default function ConsentEmsculpt() {
 
       {/* EXPECTED BENEFITS (display only, send as hidden) */}
       <h2>Expected Benefits</h2>
-      <ul>
+      <ul style={{ paddingLeft: "20px" }}>
         <li>Toning and firming of muscle groups</li>
         <li>Strengthening of weak or atrophied muscles</li>
         <li>Circumferential fat reduction (device-dependent)</li>
@@ -208,6 +208,7 @@ export default function ConsentEmsculpt() {
       </ul>
       <p><em>Results typically develop over several weeks. 4–6 sessions recommended.</em></p>
 
+        <br/>
       {/* POSSIBLE SIDE EFFECTS */}
       <h2>Possible Side Effects</h2>
       <ul>
@@ -219,6 +220,7 @@ export default function ConsentEmsculpt() {
         <li>Temporary increase in urination due to fat metabolism</li>
       </ul>
 
+        <br/>
       {/* CONTRAINDICATIONS */}
       <h2>Contraindications</h2>
       {contraindicationOptions.map((c) => (
@@ -252,6 +254,7 @@ export default function ConsentEmsculpt() {
         <li>Multiple sessions may be required</li>
       </ul>
 
+      <br/>
       {/* RESULTS & LIMITATIONS */}
       <h2>Results & Limitations</h2>
       <ul>
@@ -260,6 +263,7 @@ export default function ConsentEmsculpt() {
         <li>Maintenance may be necessary</li>
       </ul>
 
+      <br/>
       {/* PHOTO CONSENT */}
       <h2>Photos & Marketing Consent</h2>
       <div className="form-group">
@@ -275,8 +279,23 @@ export default function ConsentEmsculpt() {
       <h2>Liability Disclaimer</h2>
       <div className="form-group">
         <label>
-          <input type="checkbox" name="liabilityDisclaimer" value="I accept liability disclaimer" checked={!!form.liabilityDisclaimer} onChange={handleChange}/> I have read, understood, and accept this disclaimer fully.
+          <input type="checkbox" name="liabilityDisclaimer" value="I accept liability disclaimer" checked={!!form.liabilityDisclaimer} onChange={handleChange}/> I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and associated staff shall not be held financially liable for:
         </label>
+        <ul style={{ paddingLeft: "20px" }}>
+            <li>Any unsatisfactory or suboptimal result that may occur despite appropriate technique and materials used</li>
+            <li>Any individual allergic or hypersensitive reaction, delayed response, or side effect that could not have been reasonably predicted or tested prior to treatment</li>
+            <li>Any incompatibility or unsuitability of my skin or physiology for this treatment, including where the treatment fails to produce the expected or desired effect</li>
+            <li>The need for further corrective procedures or medical management, which may incur additional cost</li>
+        </ul>
+
+        <p>
+        I acknowledge that I have been given the opportunity to ask questions, understand the
+        limitations of the procedure, and that results vary from person to person.
+        </p>
+
+        <p>
+            I have read and understood this disclaimer, and I agree to its terms without reservation.
+        </p>
       </div>
 
       {/* FINAL CONSENT */}

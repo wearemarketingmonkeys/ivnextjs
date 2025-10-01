@@ -321,16 +321,16 @@ export default function ConsentCollagen() {
             <li>Any individual allergic or hypersensitive reaction, delayed response, or side effect that could not have been reasonably predicted or tested prior to treatment</li>
             <li>Any incompatibility or unsuitability of my skin or physiology for this treatment, including where the treatment fails to produce the expected or desired effect</li>
             <li>The need for further corrective procedures or medical management, which may incur additional cost</li>
-            </ul>
+        </ul>
 
-            <p>
-            I acknowledge that I have been given the opportunity to ask questions, understand the
-            limitations of the procedure, and that results vary from person to person.
-            </p>
+        <p>
+        I acknowledge that I have been given the opportunity to ask questions, understand the
+        limitations of the procedure, and that results vary from person to person.
+        </p>
 
-            <p>
-                I have read and understood this disclaimer, and I agree to its terms without reservation.
-            </p>
+        <p>
+            I have read and understood this disclaimer, and I agree to its terms without reservation.
+        </p>
       </div>
 
       {/* FINAL CONSENT */}
