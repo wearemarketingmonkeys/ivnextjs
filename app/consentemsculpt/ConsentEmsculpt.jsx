@@ -12,7 +12,6 @@ const initialState = {
   contact: "",
   email: "",
   procedureDate: "",
-  emergencyContact: "",
   practitionerName: "",
 
   treatmentUnderstanding: [],
@@ -161,10 +160,6 @@ export default function ConsentEmsculpt() {
       <div className="form-group">
         <label>Date of Procedure</label>
         <input type="date" name="procedureDate" value={form.procedureDate} onChange={handleChange} required />
-      </div>
-      <div className="form-group">
-        <label>Emergency Contact Name & Number</label>
-        <input name="emergencyContact" value={form.emergencyContact} onChange={handleChange} />
       </div>
       <div className="form-group">
         <label>Treating Practitioner / Therapist</label>
