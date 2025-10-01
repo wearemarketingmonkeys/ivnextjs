@@ -67,6 +67,18 @@ export default function ConsentPage() {
                 </div>
 
                 <div className="btn-wrap">
+                  <Link href="/consentcollagen" className="btn">
+                    Collagen Stimulator Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href="/consentemsculpt" className="btn">
+                    EMSculpt / Body Contouring Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
                     <a
                       href="https://consent.ivhub.com/consentbotox.php"
                       className="btn"
