@@ -18,7 +18,6 @@ const initialState = {
   treatmentAreas: [],
   otherArea: "",
 
-  // checkboxes acknowledgements
   understanding: [],
   expectedBenefits: [],
   sideEffects: [],
@@ -63,7 +62,6 @@ export default function ConsentCollagen() {
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
 
-    // multiple checkboxes (arrays)
     if (type === "checkbox" && Array.isArray(form[name])) {
       setForm((prev) => {
         const arr = checked
@@ -74,16 +72,17 @@ export default function ConsentCollagen() {
       return;
     }
 
-    // contraindications: yes/no grid
     if (name.startsWith("contra_")) {
       setForm((prev) => ({
         ...prev,
-        contraindications: { ...prev.contraindications, [value]: checked ? "Yes" : "No" },
+        contraindications: {
+          ...prev.contraindications,
+          [name.replace("contra_", "")]: value,
+        },
       }));
       return;
     }
 
-    // radios / text / date / email
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
@@ -134,22 +133,57 @@ export default function ConsentCollagen() {
     <form className="form" onSubmit={handleSubmit}>
       {/* PATIENT DETAILS */}
       <h2>Patient Details</h2>
-      <input name="fullName" value={form.fullName} onChange={handleChange} placeholder="Full Name (as per ID)" required />
-      <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
-      <input name="contact" value={form.contact} onChange={handleChange} placeholder="Mobile Number" required />
-      <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email Address" required />
-      <input type="date" name="procedureDate" value={form.procedureDate} onChange={handleChange} required />
-      <input name="emergencyContact" value={form.emergencyContact} onChange={handleChange} placeholder="Emergency Contact" />
-      <input name="practitionerName" value={form.practitionerName} onChange={handleChange} placeholder="Treating Practitioner" />
+      <div className="form-group">
+        <label>Full Name (as per ID)</label>
+        <input name="fullName" value={form.fullName} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Date of Birth</label>
+        <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Mobile Number</label>
+        <input name="contact" value={form.contact} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Email Address</label>
+        <input type="email" name="email" value={form.email} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Date of Procedure</label>
+        <input type="date" name="procedureDate" value={form.procedureDate} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Emergency Contact Name & Number</label>
+        <input name="emergencyContact" value={form.emergencyContact} onChange={handleChange} />
+      </div>
+      <div className="form-group">
+        <label>Treating Practitioner (if known)</label>
+        <input name="practitionerName" value={form.practitionerName} onChange={handleChange} />
+      </div>
 
       {/* PRODUCT DETAILS */}
       <h2>Product Details</h2>
-      <input name="productUsed" value={form.productUsed} onChange={handleChange} placeholder="Collagen Stimulator Product Used" />
-      <h3>Areas to be Treated</h3>
-      {treatmentOptions.map((t) => (
-        <label key={t}><input type="checkbox" name="treatmentAreas" value={t} checked={form.treatmentAreas.includes(t)} onChange={handleChange}/> {t}</label>
-      ))}
-      <input name="otherArea" value={form.otherArea} onChange={handleChange} placeholder="Other area" />
+      <div className="form-group">
+        <label>Collagen Stimulator Product Used</label>
+        <input name="productUsed" value={form.productUsed} onChange={handleChange} />
+      </div>
+      <div className="form-group">
+        <label>Area(s) to be Treated</label>
+        {treatmentOptions.map((t) => (
+          <label key={t} style={{ display: "block" }}>
+            <input
+              type="checkbox"
+              name="treatmentAreas"
+              value={t}
+              checked={form.treatmentAreas.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        ))}
+        <input name="otherArea" value={form.otherArea} onChange={handleChange} placeholder="Other area" />
+      </div>
 
       {/* PROCEDURE UNDERSTANDING */}
       <h2>Procedure Understanding</h2>
@@ -159,7 +193,18 @@ export default function ConsentCollagen() {
         "I understand this is not HA filler with instant volume.",
         "I confirm treatment will be performed by DHA-licensed professional.",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="understanding" value={t} checked={form.understanding.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="understanding"
+              value={t}
+              checked={form.understanding.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* EXPECTED BENEFITS */}
@@ -170,7 +215,18 @@ export default function ConsentCollagen() {
         "Gradual, natural improvement",
         "Long-lasting results (up to 2 years)",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="expectedBenefits" value={t} checked={form.expectedBenefits.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="expectedBenefits"
+              value={t}
+              checked={form.expectedBenefits.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* SIDE EFFECTS */}
@@ -184,19 +240,42 @@ export default function ConsentCollagen() {
         "Vascular occlusion (very rare)",
         "Allergic reaction or irritation",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="sideEffects" value={t} checked={form.sideEffects.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="sideEffects"
+              value={t}
+              checked={form.sideEffects.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* CONTRAINDICATIONS */}
       <h2>Contraindications</h2>
       {contraindicationOptions.map((c) => (
-        <div key={c}>
-          <span>{c}</span>
-          <label><input type="radio" name={`contra_${c}`} value={c} onChange={handleChange}/> Yes</label>
-          <label><input type="radio" name={`contra_${c}`} value={c} onChange={handleChange}/> No</label>
+        <div className="form-group" key={c}>
+          <label>{c}</label>
+          <label>
+            <input type="radio" name={`contra_${c}`} value="Yes" onChange={handleChange} /> Yes
+          </label>
+          <label>
+            <input type="radio" name={`contra_${c}`} value="No" onChange={handleChange} /> No
+          </label>
         </div>
       ))}
-      <textarea name="contraindicationsNotes" value={form.contraindicationsNotes} onChange={handleChange} placeholder="If Yes, please explain" rows={3}/>
+      <div className="form-group">
+        <label>If Yes to any, please explain:</label>
+        <textarea
+          name="contraindicationsNotes"
+          value={form.contraindicationsNotes}
+          onChange={handleChange}
+          rows={3}
+        />
+      </div>
 
       {/* PRE/AFTERCARE */}
       <h2>Pre-treatment & Aftercare</h2>
@@ -207,7 +286,18 @@ export default function ConsentCollagen() {
         "Avoid heat/sun/sauna/exercise 48–72h",
         "Contact clinic if adverse symptoms",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="preAftercare" value={t} checked={form.preAftercare.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="preAftercare"
+              value={t}
+              checked={form.preAftercare.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* RESULTS & LIMITATIONS */}
@@ -218,18 +308,59 @@ export default function ConsentCollagen() {
         "Collagen production is gradual, 6–12 weeks",
         "May require additional sessions",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="resultsLimitations" value={t} checked={form.resultsLimitations.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="resultsLimitations"
+              value={t}
+              checked={form.resultsLimitations.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* PHOTO CONSENT */}
       <h2>Photo Consent</h2>
-      {["Yes", "No"].map((opt) => (
-        <label key={opt}><input type="radio" name="photoConsent" value={opt} checked={form.photoConsent === opt} onChange={handleChange}/> {opt}</label>
-      ))}
+      <div className="form-group">
+        <label>
+          <input
+            type="radio"
+            name="photoConsent"
+            value="Yes"
+            checked={form.photoConsent === "Yes"}
+            onChange={handleChange}
+          />{" "}
+          Yes
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="photoConsent"
+            value="No"
+            checked={form.photoConsent === "No"}
+            onChange={handleChange}
+          />{" "}
+          No
+        </label>
+      </div>
 
       {/* LIABILITY DISCLAIMER */}
       <h2>Liability Disclaimer</h2>
-      <label><input type="checkbox" name="liabilityDisclaimer" value="I accept liability disclaimer" checked={!!form.liabilityDisclaimer} onChange={handleChange}/> I have read and accept the disclaimer.</label>
+      <div className="form-group">
+        <label>
+          <input
+            type="checkbox"
+            name="liabilityDisclaimer"
+            value="I accept liability disclaimer"
+            checked={!!form.liabilityDisclaimer}
+            onChange={handleChange}
+          />{" "}
+          I have read and accept the disclaimer.
+        </label>
+      </div>
 
       {/* FINAL CONSENT */}
       <h2>Final Consent</h2>
@@ -240,22 +371,47 @@ export default function ConsentCollagen() {
         "I had opportunity to ask questions",
         "I give voluntary informed consent",
       ].map((t, i) => (
-        <label key={i}><input type="checkbox" name="finalConsent" value={t} checked={form.finalConsent.includes(t)} onChange={handleChange}/> {t}</label>
+        <div className="form-group" key={i}>
+          <label>
+            <input
+              type="checkbox"
+              name="finalConsent"
+              value={t}
+              checked={form.finalConsent.includes(t)}
+              onChange={handleChange}
+            />{" "}
+            {t}
+          </label>
+        </div>
       ))}
 
       {/* SIGNATURE */}
       <h2>Signature</h2>
-      <input name="patientName" value={form.patientName} onChange={handleChange} placeholder="Patient Full Name" required />
-      <input type="date" name="consentDate" value={form.consentDate} onChange={handleChange} required />
-
-      <div style={{ border: "1px solid #ddd", borderRadius: 8, maxWidth: 520 }}>
-        <SignatureCanvas ref={sigRef} canvasProps={{ width: 520, height: 200, className: "signature-canvas" }} />
+      <div className="form-group">
+        <label>Patient Full Name</label>
+        <input name="patientName" value={form.patientName} onChange={handleChange} required />
       </div>
-      <button type="button" onClick={clearSignature}>Clear Signature</button>
+      <div className="form-group">
+        <label>Consent Date</label>
+        <input type="date" name="consentDate" value={form.consentDate} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Patient Signature</label>
+        <div style={{ border: "1px solid #ddd", borderRadius: 8, overflow: "hidden", maxWidth: 520 }}>
+          <SignatureCanvas ref={sigRef} canvasProps={{ width: 520, height: 200, className: "signature-canvas" }} />
+        </div>
+        <button type="button" className="btn btn-stroke" onClick={clearSignature} style={{ marginTop: 8 }}>
+          Clear Signature
+        </button>
+      </div>
 
       {status && <p className="form-status">{status}</p>}
 
-      <button type="submit" className="btn">Submit</button>
+      <div className="btn-wrap">
+        <button type="submit" className="btn">
+          Submit
+        </button>
+      </div>
     </form>
   );
 }
