@@ -27,7 +27,7 @@ const initialState = {
   expectedBenefits: "Toning/firming muscles; Strengthening weak muscles; Circumferential fat reduction; Improved definition/core strength; Non-invasive no downtime",
   sideEffects: "Muscle soreness; Redness/swelling/tingling; Skin sensitivity; Rare spasm; Discomfort; Temporary increased urination",
 
-  photoConsent: "",
+  photographyConsent: "",
   liabilityDisclaimer: "",
   finalConsent: [],
 
@@ -276,15 +276,27 @@ export default function ConsentEmsculpt() {
 
       <br/>
       {/* PHOTO CONSENT */}
-      <h2>Photos & Marketing Consent</h2>
-      <div className="form-group">
-        <label>
-          <input type="radio" name="photoConsent" value="Yes" checked={form.photoConsent === "Yes"} onChange={handleChange}/> Yes
-        </label>
-        <label>
-          <input type="radio" name="photoConsent" value="No" checked={form.photoConsent === "No"} onChange={handleChange}/> No
-        </label>
-      </div>
+      {/* PHOTO CONSENT */}
+      <h2>Consent for Photography</h2>
+        <div className="form-group">
+        {[
+            "I CONSENT to photography for clinical documentation only. If I decline consent for clinical documentation photography, the clinic will not be able to provide any touch-up treatments, revisions, or follow-up corrective procedures, as photographic evidence is mandatory for clinical justification and medico-legal purposes.",
+            "I CONSENT to photography for internal marketing.",
+            "I DO NOT consent to any photography.",
+        ].map((t, i) => (
+            <label key={i} style={{ display: "block", marginBottom: 6 }}>
+            <input
+                type="radio"
+                name="photographyConsent"
+                value={t}
+                checked={form.photographyConsent === t}
+                onChange={handleChange}
+                required
+            />{" "}
+            {t}
+            </label>
+        ))}
+        </div>
 
       {/* LIABILITY DISCLAIMER */}
       <h2>Liability Disclaimer</h2>
