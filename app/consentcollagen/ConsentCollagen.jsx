@@ -207,53 +207,6 @@ export default function ConsentCollagen() {
         </div>
       ))}
 
-      {/* EXPECTED BENEFITS */}
-      <h2>Expected Benefits</h2>
-      {[
-        "Restoration of facial volume",
-        "Enhanced skin firmness, texture, elasticity",
-        "Gradual, natural improvement",
-        "Long-lasting results (up to 2 years)",
-      ].map((t, i) => (
-        <div className="form-group" key={i}>
-          <label>
-            <input
-              type="checkbox"
-              name="expectedBenefits"
-              value={t}
-              checked={form.expectedBenefits.includes(t)}
-              onChange={handleChange}
-            />{" "}
-            {t}
-          </label>
-        </div>
-      ))}
-
-      {/* SIDE EFFECTS */}
-      <h2>Potential Side Effects</h2>
-      {[
-        "Swelling, redness, bruising",
-        "Tenderness/soreness",
-        "Small bumps or nodules",
-        "Asymmetry or contour irregularities",
-        "Granuloma formation (rare)",
-        "Vascular occlusion (very rare)",
-        "Allergic reaction or irritation",
-      ].map((t, i) => (
-        <div className="form-group" key={i}>
-          <label>
-            <input
-              type="checkbox"
-              name="sideEffects"
-              value={t}
-              checked={form.sideEffects.includes(t)}
-              onChange={handleChange}
-            />{" "}
-            {t}
-          </label>
-        </div>
-      ))}
-
       {/* CONTRAINDICATIONS */}
       <h2>Contraindications</h2>
       {contraindicationOptions.map((c) => (
@@ -277,50 +230,52 @@ export default function ConsentCollagen() {
         />
       </div>
 
-      {/* PRE/AFTERCARE */}
-      <h2>Pre-treatment & Aftercare</h2>
-      {[
-        "Avoid alcohol/aspirin/ibuprofen 24h before & after",
-        "Follow massage post-care instructions",
-        "Avoid dental/facial/peels for 2 weeks",
-        "Avoid heat/sun/sauna/exercise 48–72h",
-        "Contact clinic if adverse symptoms",
-      ].map((t, i) => (
-        <div className="form-group" key={i}>
-          <label>
-            <input
-              type="checkbox"
-              name="preAftercare"
-              value={t}
-              checked={form.preAftercare.includes(t)}
-              onChange={handleChange}
-            />{" "}
-            {t}
-          </label>
-        </div>
-      ))}
+      {/* EXPECTED BENEFITS */}
+        <h2>Expected Benefits</h2>
+        <ul>
+        <li>Restoration of facial volume loss due to aging or weight loss</li>
+        <li>Enhanced skin firmness, texture, and elasticity</li>
+        <li>Gradual and natural-looking improvement</li>
+        <li>Long-lasting results (up to 2 years with a full course)</li>
+        </ul>
+        <p><em>Note: 2 sessions spaced 3–6 months apart may be required for optimal results.</em></p>
+        <input type="hidden" name="expectedBenefits" value="Restoration of facial volume; Enhanced firmness/texture/elasticity; Gradual improvement; Long-lasting results up to 2 years" />
 
-      {/* RESULTS & LIMITATIONS */}
-      <h2>Results & Limitations</h2>
-      {[
-        "Results vary per person",
-        "Non-surgical and non-permanent",
-        "Collagen production is gradual, 6–12 weeks",
-        "May require additional sessions",
-      ].map((t, i) => (
-        <div className="form-group" key={i}>
-          <label>
-            <input
-              type="checkbox"
-              name="resultsLimitations"
-              value={t}
-              checked={form.resultsLimitations.includes(t)}
-              onChange={handleChange}
-            />{" "}
-            {t}
-          </label>
-        </div>
-      ))}
+        {/* POTENTIAL SIDE EFFECTS */}
+        <h2>Potential Side Effects</h2>
+        <ul>
+        <li>Swelling, redness, or bruising at the injection site</li>
+        <li>Mild tenderness or soreness</li>
+        <li>Small bumps or nodules (may be temporary or persistent)</li>
+        <li>Asymmetry or contour irregularities</li>
+        <li>Granuloma formation (rare)</li>
+        <li>Vascular occlusion (very rare)</li>
+        <li>Allergic reaction or skin irritation</li>
+        </ul>
+        <p><em>I understand that post-injection massage and aftercare are essential in preventing complications.</em></p>
+        <input type="hidden" name="sideEffects" value="Swelling/redness/bruising; Tenderness; Small bumps/nodules; Asymmetry; Granuloma (rare); Vascular occlusion (rare); Allergic reaction/irritation" />
+
+        {/* PRE/AFTERCARE */}
+        <h2>Pre-treatment & Aftercare</h2>
+        <ul>
+        <li>I will avoid alcohol, aspirin, ibuprofen, and vigorous activity 24 hours before and after</li>
+        <li>I will follow post-care instructions including massage (5 minutes, 5 times a day, for 5 days if advised)</li>
+        <li>I will not undergo dental work, facials, or chemical peels for 2 weeks after treatment</li>
+        <li>I will avoid excessive heat (sun, sauna, exercise) for 48–72 hours</li>
+        <li>I will contact the clinic if I experience any adverse symptoms</li>
+        </ul>
+        <input type="hidden" name="preAftercare" value="Avoid alcohol/aspirin/ibuprofen; Follow massage instructions; Avoid dental/facial/peels 2 weeks; Avoid heat/sun/sauna/exercise 48–72h; Contact clinic if adverse symptoms" />
+
+        {/* RESULTS & LIMITATIONS */}
+        <h2>Results & Limitations</h2>
+        <ul>
+        <li>I understand results vary from person to person</li>
+        <li>I understand this treatment is non-surgical and non-permanent</li>
+        <li>I understand collagen production is gradual and visible changes may take 6–12 weeks</li>
+        <li>I may require additional sessions or maintenance to achieve desired results</li>
+        </ul>
+        <input type="hidden" name="resultsLimitations" value="Results vary; Non-surgical & non-permanent; Gradual 6–12 weeks; May require maintenance" />
+
 
       {/* PHOTO CONSENT */}
       <h2>Photo Consent</h2>
@@ -358,8 +313,23 @@ export default function ConsentCollagen() {
             checked={!!form.liabilityDisclaimer}
             onChange={handleChange}
           />{" "}
-          I have read and accept the disclaimer.
+          I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and associated staff shall not be held financially liable for:
         </label>
+        <ul style={{ paddingLeft: "20px" }}>
+            <li>Any unsatisfactory or suboptimal result that may occur despite appropriate technique and materials used</li>
+            <li>Any individual allergic or hypersensitive reaction, delayed response, or side effect that could not have been reasonably predicted or tested prior to treatment</li>
+            <li>Any incompatibility or unsuitability of my skin or physiology for this treatment, including where the treatment fails to produce the expected or desired effect</li>
+            <li>The need for further corrective procedures or medical management, which may incur additional cost</li>
+            </ul>
+
+            <p>
+            I acknowledge that I have been given the opportunity to ask questions, understand the
+            limitations of the procedure, and that results vary from person to person.
+            </p>
+
+            <p>
+                I have read and understood this disclaimer, and I agree to its terms without reservation.
+            </p>
       </div>
 
       {/* FINAL CONSENT */}
