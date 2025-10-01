@@ -232,7 +232,7 @@ export default function ConsentCollagen() {
 
       {/* EXPECTED BENEFITS */}
         <h2>Expected Benefits</h2>
-        <ul>
+        <ul style={{ paddingLeft: "20px" }}>
         <li>Restoration of facial volume loss due to aging or weight loss</li>
         <li>Enhanced skin firmness, texture, and elasticity</li>
         <li>Gradual and natural-looking improvement</li>
