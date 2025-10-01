@@ -241,9 +241,10 @@ export default function ConsentCollagen() {
         <p><em>Note: 2 sessions spaced 3–6 months apart may be required for optimal results.</em></p>
         <input type="hidden" name="expectedBenefits" value="Restoration of facial volume; Enhanced firmness/texture/elasticity; Gradual improvement; Long-lasting results up to 2 years" />
 
+        <br/>
         {/* POTENTIAL SIDE EFFECTS */}
         <h2>Potential Side Effects</h2>
-        <ul>
+        <ul style={{ paddingLeft: "20px" }}>
         <li>Swelling, redness, or bruising at the injection site</li>
         <li>Mild tenderness or soreness</li>
         <li>Small bumps or nodules (may be temporary or persistent)</li>
@@ -255,9 +256,10 @@ export default function ConsentCollagen() {
         <p><em>I understand that post-injection massage and aftercare are essential in preventing complications.</em></p>
         <input type="hidden" name="sideEffects" value="Swelling/redness/bruising; Tenderness; Small bumps/nodules; Asymmetry; Granuloma (rare); Vascular occlusion (rare); Allergic reaction/irritation" />
 
+        <br/>
         {/* PRE/AFTERCARE */}
         <h2>Pre-treatment & Aftercare</h2>
-        <ul>
+        <ul style={{ paddingLeft: "20px" }}>
         <li>I will avoid alcohol, aspirin, ibuprofen, and vigorous activity 24 hours before and after</li>
         <li>I will follow post-care instructions including massage (5 minutes, 5 times a day, for 5 days if advised)</li>
         <li>I will not undergo dental work, facials, or chemical peels for 2 weeks after treatment</li>
@@ -266,9 +268,10 @@ export default function ConsentCollagen() {
         </ul>
         <input type="hidden" name="preAftercare" value="Avoid alcohol/aspirin/ibuprofen; Follow massage instructions; Avoid dental/facial/peels 2 weeks; Avoid heat/sun/sauna/exercise 48–72h; Contact clinic if adverse symptoms" />
 
+        <br/>
         {/* RESULTS & LIMITATIONS */}
         <h2>Results & Limitations</h2>
-        <ul>
+        <ul style={{ paddingLeft: "20px" }}>
         <li>I understand results vary from person to person</li>
         <li>I understand this treatment is non-surgical and non-permanent</li>
         <li>I understand collagen production is gradual and visible changes may take 6–12 weeks</li>
@@ -276,7 +279,7 @@ export default function ConsentCollagen() {
         </ul>
         <input type="hidden" name="resultsLimitations" value="Results vary; Non-surgical & non-permanent; Gradual 6–12 weeks; May require maintenance" />
 
-
+      <br/>
       {/* PHOTO CONSENT */}
       <h2>Photo Consent</h2>
       <div className="form-group">
