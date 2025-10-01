@@ -19,13 +19,15 @@ const initialState = {
   otherArea: "",
 
   understanding: [],
-  expectedBenefits: "",
-  sideEffects: "",
+ 
+  expectedBenefits: "Restoration of facial volume; Enhanced firmness/texture/elasticity; Gradual improvement; Long-lasting results up to 2 years",
+  sideEffects: "Swelling/redness/bruising; Tenderness; Small bumps/nodules; Asymmetry; Granuloma (rare); Vascular occlusion (rare); Allergic reaction/irritation",
+  preAftercare: "Avoid alcohol/aspirin/ibuprofen; Follow massage instructions; Avoid dental/facial/peels 2 weeks; Avoid heat/sun/sauna/exercise 48–72h; Contact clinic if adverse symptoms",
+  resultsLimitations: "Results vary; Non-surgical & non-permanent; Gradual 6–12 weeks; May require maintenance",
+ 
   contraindications: {},
   contraindicationsNotes: "",
 
-  preAftercare: "",
-  resultsLimitations: "",
   photoConsent: "",
   liabilityDisclaimer: "",
   finalConsent: [],
@@ -239,7 +241,6 @@ export default function ConsentCollagen() {
         <li>Long-lasting results (up to 2 years with a full course)</li>
         </ul>
         <p><em>Note: 2 sessions spaced 3–6 months apart may be required for optimal results.</em></p>
-        <input type="hidden" name="expectedBenefits" value="Restoration of facial volume; Enhanced firmness/texture/elasticity; Gradual improvement; Long-lasting results up to 2 years" />
 
         <br/>
         {/* POTENTIAL SIDE EFFECTS */}
@@ -254,7 +255,6 @@ export default function ConsentCollagen() {
         <li>Allergic reaction or skin irritation</li>
         </ul>
         <p><em>I understand that post-injection massage and aftercare are essential in preventing complications.</em></p>
-        <input type="hidden" name="sideEffects" value="Swelling/redness/bruising; Tenderness; Small bumps/nodules; Asymmetry; Granuloma (rare); Vascular occlusion (rare); Allergic reaction/irritation" />
 
         <br/>
         {/* PRE/AFTERCARE */}
@@ -266,7 +266,6 @@ export default function ConsentCollagen() {
         <li>I will avoid excessive heat (sun, sauna, exercise) for 48–72 hours</li>
         <li>I will contact the clinic if I experience any adverse symptoms</li>
         </ul>
-        <input type="hidden" name="preAftercare" value="Avoid alcohol/aspirin/ibuprofen; Follow massage instructions; Avoid dental/facial/peels 2 weeks; Avoid heat/sun/sauna/exercise 48–72h; Contact clinic if adverse symptoms" />
 
         <br/>
         {/* RESULTS & LIMITATIONS */}
@@ -277,7 +276,6 @@ export default function ConsentCollagen() {
         <li>I understand collagen production is gradual and visible changes may take 6–12 weeks</li>
         <li>I may require additional sessions or maintenance to achieve desired results</li>
         </ul>
-        <input type="hidden" name="resultsLimitations" value="Results vary; Non-surgical & non-permanent; Gradual 6–12 weeks; May require maintenance" />
 
       <br/>
       {/* PHOTO CONSENT */}
