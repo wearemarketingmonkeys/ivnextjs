@@ -19,13 +19,13 @@ const initialState = {
   otherArea: "",
 
   understanding: [],
-  expectedBenefits: [],
-  sideEffects: [],
+  expectedBenefits: "",
+  sideEffects: "",
   contraindications: {},
   contraindicationsNotes: "",
 
-  preAftercare: [],
-  resultsLimitations: [],
+  preAftercare: "",
+  resultsLimitations: "",
   photoConsent: "",
   liabilityDisclaimer: "",
   finalConsent: [],
