@@ -185,6 +185,7 @@ export default function HomeClient() {
                     <SpecialOfferCard
                       img={x.img}
                       title={x.title}
+                      bookingBtn={x.bookingBtn}
                       descBrif={x.desc.brif}
                       descUl={x.desc.ul}
                       newBadge={x.newBadge}

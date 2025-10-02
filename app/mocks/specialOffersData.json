@@ -7,7 +7,7 @@
       "desc": {
         "brif": "In the spirit of promoting women's health and encouraging regular check-ups, we're proud to offer you a special 10% discount on our IV drips throughout this month (LOVE10)"
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://book.ivhub.com/",
       "newBadge": false
     },
     {
@@ -17,7 +17,7 @@
       "desc": {
         "brif": "Wellness meets privilege: your HSBC code unlocks up to 40% OFF. Offer is valid from 6th to 10th October."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482?text=Hello, I’d like to redeem my coupon code HSBCIVWL for custom services as part of the HSBC Customer Experience Week.",
       "newBadge": false
     },
     {
@@ -27,7 +27,7 @@
       "desc": {
         "brif": "Non-invasive lift, contour, and definition in minutes. Instant lift, lasting definition. The glow-up that feels as good as it looks."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482?text=Hello, can you book me in for a free Korean 3D Lift consultation",
       "newBadge": false
     },
     {
@@ -37,7 +37,7 @@
       "desc": {
         "brif": "Enjoy Smooth,  Hair-Free Skin with 50% Off Soprano Titanium Laser Hair Removal"
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -47,7 +47,7 @@
       "desc": {
         "brif": "Restore your natural glow and target stubborn pigmentation with our Salmon DNA PDRN Skin Booster. This powerful treatment promotes deep skin rejuvenation, enhances radiance, and reduces signs of aging—leaving your skin visibly brighter, smoother, and more hydrated."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -57,7 +57,7 @@
       "desc": {
         "brif": "Whether you’re boosting immunity, hydrating, detoxing, or enhancing energy, now’s the perfect time to elevate your wellness routine"
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -67,7 +67,7 @@
       "desc": {
         "brif": "Level up your skin transformation! Book any Morpheus8 treatment and receive a complimentary skin booster to maximize your glow and enhance your results."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -77,7 +77,7 @@
       "desc": {
         "brif": "Ready to sculpt your body and target stubborn fat? Enjoy a 20% discount on our advanced fat melting procedure, designed to contour, slim, and redefine your shape—without surgery or downtime."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -87,7 +87,7 @@
       "desc": {
         "brif": "Experience the ultimate in scalp and hair care with our Hair HydraFacial + PRP combo—designed to cleanse, nourish, and stimulate hair growth from the roots."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -97,7 +97,7 @@
       "desc": {
         "brif": "Restore youthful skin, reduce wrinkles, and refresh your appearance with our expert treatment."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -107,7 +107,7 @@
       "desc": {
         "brif": "Enhance your natural beauty by adding volume, smoothing lines, and sculpting facial features for a refreshed, youthful look."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     },
     {
@@ -117,7 +117,7 @@
       "desc": {
         "brif": "Exfoliate, renew, and brighten your skin in any season with this gentle yet powerful peel for a radiant, even-toned complexion."
       },
-      "bookingBtn": "/booking",
+      "bookingBtn": "https://wa.me/97180048482",
       "newBadge": false
     }
   ]

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
+const SpecialOfferCard = ({ img, title, bookingBtn, descBrif, descUl, newBadge }) => {
   // Tap-to-flip for touch devices & keyboard toggle
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -65,7 +65,7 @@ const SpecialOfferCard = ({ img, title, descBrif, descUl, newBadge }) => {
 
             <div className="btn-wrap">
               <a
-                href="https://wa.me/97180048482"
+                href={bookingBtn}
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
