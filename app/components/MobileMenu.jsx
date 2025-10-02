@@ -36,14 +36,16 @@ function normalizeItems(items = []) {
         return { groupTitle: it.submenuTitle, children: normalizeItems(it.submenu) };
       }
 
-      // WRAPPER CASE (your "Discover"):
-      // { label, submenuWrapper: [{ submenuWrap: [{ submenuTitle, submenu: [...] }, ...] }, ...] }
+      // WRAPPER CASE (submenuWrapper → submenuWrap → submenuTitle+submenu)
       if (Array.isArray(it?.submenuWrapper)) {
-        // 🚩 Promote all inner submenu items up one level so one tap shows the links
-        const promotedLeaves = it.submenuWrapper.flatMap((sw) =>
-          (sw.submenuWrap || []).flatMap((wrap) => wrap.submenu || [])
+        const groups = it.submenuWrapper.flatMap((sw) =>
+          (sw.submenuWrap || []).map((wrap) => ({
+            groupTitle: wrap.submenuTitle,
+            children: normalizeItems(wrap.submenu),
+          }))
         );
-        return { groupTitle: it.label || 'Menu', children: normalizeItems(promotedLeaves) };
+
+        return { groupTitle: it.label || 'Menu', children: groups };
       }
 
       return null;
@@ -58,7 +60,17 @@ export default function MobileMenu({ isOpen, onClose }) {
   const rootItems = normalizeItems(menuItems);
   const current = stack.length ? stack[stack.length - 1] : { title: 'Menu', items: rootItems };
 
-  const goDeeper = (raw, title) => setStack((s) => [...s, { title, items: normalizeItems(raw) }]);
+  
+  const goDeeper = (raw, title, alreadyNormalized = false) => {
+  setStack((s) => [
+    ...s,
+    {
+      title,
+      items: alreadyNormalized ? raw : normalizeItems(raw),
+    },
+  ]);
+};
+
   const goBack = () => setStack((s) => s.slice(0, -1));
   const closeAll = () => {
     onClose?.();
@@ -106,12 +118,13 @@ export default function MobileMenu({ isOpen, onClose }) {
                 return (
                   <li className="menu-item" key={`grp-${i}`}>
                     <div
-                      className="menu-single-item"
-                      onClick={() => goDeeper(item.children, item.groupTitle)}
+                      className="menu-single-item 1"
+                      onClick={() => goDeeper(item.children, item.groupTitle, true)}
                     >
                       <span>{item.groupTitle}</span>
                       <MdOutlineChevronRight />
                     </div>
+
                   </li>
                 );
               }
