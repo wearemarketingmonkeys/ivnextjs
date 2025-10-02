@@ -1039,6 +1039,15 @@
       "afterImg": "skinboosterafter.webp",
       "treatments": [
         {
+          "category": "Salmon DNA",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 1299
+            }
+          ]
+        },
+        {
           "category": "Profhilo",
           "services": [
             {
