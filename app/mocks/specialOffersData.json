@@ -12,6 +12,16 @@
     },
     {
       "id": 1,
+      "img": "hsbc.jpg",
+      "title": "HSBC Customer Experience Week",
+      "desc": {
+        "brif": "Wellness meets privilege: your HSBC code unlocks up to 40% OFF"
+      },
+      "bookingBtn": "/booking",
+      "newBadge": false
+    },
+    {
+      "id": 1,
       "img": "koreanlift.jpg",
       "title": "Korean 3D lift",
       "desc": {
