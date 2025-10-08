@@ -7,6 +7,7 @@ import SignatureCanvas from "react-signature-canvas";
 const initialState = {
   fullName: "",
   dob: "",
+  gender: "",
   contact: "",
   email: "",
   emergencyContact: "",
@@ -180,6 +181,39 @@ export default function ConsentLiposculptClient() {
         <label>Date of Birth</label>
         <input type="date" name="dob" onChange={onChange} required />
       </div>
+      <div className="form-group">
+          <label>Gender</label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Male"
+              onChange={onChange}
+              required
+            />{" "}
+            Male
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Female"
+              onChange={onChange}
+              required
+            />{" "}
+            Female
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Other"
+              onChange={onChange}
+              required
+            />{" "}
+            Other
+          </label>
+        </div>
       <div className="form-group">
         <label>Contact Number</label>
         <input name="contact" onChange={onChange} required />
