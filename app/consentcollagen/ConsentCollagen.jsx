@@ -9,6 +9,7 @@ const initialState = {
   fullName: "",
   emiratesId: "",
   dob: "",
+  gender: "",
   contact: "",
   email: "",
   procedureDate: "",
@@ -153,6 +154,42 @@ export default function ConsentCollagen() {
         <label>Date of Birth</label>
         <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
       </div>
+       <div className="form-group">
+          <label>Gender</label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Male"
+              checked={form.gender === "Male"}
+              onChange={handleChange}
+              required
+            />{" "}
+            Male
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Female"
+              checked={form.gender === "Female"}
+              onChange={handleChange}
+              required
+            />{" "}
+            Female
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Other"
+              checked={form.gender === "Other"}
+              onChange={handleChange}
+              required
+            />{" "}
+            Other
+          </label>
+        </div>
       <div className="form-group">
         <label>Mobile Number</label>
         <input name="contact" value={form.contact} onChange={handleChange} required />

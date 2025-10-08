@@ -40,6 +40,7 @@ const initialState = {
   serviceId: "hifu",
   fullName: "",
   dob: "",
+  gender: "",
   contact: "",
   emiratesId: "",
   email: "",
@@ -147,6 +148,43 @@ export default function ConsentHIFUClient() {
         <label>Date of Birth</label>
         <input type="date" name="dob" value={form.dob} onChange={onChange} required />
       </div>
+
+      <div className="form-group">
+          <label>Gender</label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Male"
+              checked={form.gender === "Male"}
+              onChange={onChange}
+              required
+            />{" "}
+            Male
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Female"
+              checked={form.gender === "Female"}
+              onChange={onChange}
+              required
+            />{" "}
+            Female
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="Other"
+              checked={form.gender === "Other"}
+              onChange={onChange}
+              required
+            />{" "}
+            Other
+          </label>
+        </div>
 
       <div className="form-group">
         <label>Mobile Number</label>
