@@ -838,6 +838,474 @@
       ]
     },
     {
+      "id": 5,
+      "img": "dermal.webp",
+      "video": "lip-filler.mp4",
+      "title": "LIP Fillers",
+      "othertext": "<b>Final pricing depending on the product used and personalized recommendations made during your doctor consultation</b>",
+      "subHeading": "Hello Volume. |  Hello Fullness. | Hello Definition.",
+      "desc": "Contour, restore volume, and give a natural-looking fullness to the jaw, cheeks, lips and more.",
+      "howItWorks": "The face naturally loses volume thanks to gravity and a loss in natural collagen. Powered by a soft, gel-like form of hyaluronic acid – the star ingredient in many moisturizers and naturally occurring in skin – dermal fillers give shape and structure back to the face. They work to restore and plump up volume, smooth the appearance of lines and wrinkles, or give lips and cheeks a naturally fuller look.",
+      "whyWeLoveIt": "Experience the art of subtle enhancement with our lip filler treatments in Dubai, designed to create naturally full, symmetrical, and hydrated lips. At IV Wellness Lounge Dubai, every lip filler procedure is customized to your features, enhancing shape, definition, and smoothness while maintaining a soft, natural look.<br/><br/>Our premium lip fillers are made from hyaluronic acid, a naturally occurring substance that attracts hydration and gives your lips structure and volume. Whether you want a gentle contour or a noticeable plump, our expert practitioners deliver results that elevate your confidence without overdoing it.",
+      "treatableArea": "Upper Face | Lower Face | Lips",
+      "treatableConcerns": [
+        {
+          "icons": "dermalIcon1.png",
+          "txt": "Contouring"
+        },
+        {
+          "icons": "dermalIcon2.png",
+          "txt": "Lines & Wrinkles"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 899,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/lip-fillers",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon23.png",
+              "txt": "Stay hydrated and eat a light meal before your lip filler treatment."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "Refrain from taking aspirin, ibuprofen, or vitamin E unless prescribed."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "Avoid scheduling your lip filler session during active cold sores or infections."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "Do not wear lipstick or makeup for at least 12 - 24 hours post-filler."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Skip workouts, saunas, and heat exposure for 48 hours"
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "Stay hydrated and use a gentle lip balm if needed."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Avoid touching or massaging your lips for 24 hours. Sleep with your head slightly elevated to reduce swelling."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "With proper care, your lip fillers will settle beautifully within a few days, leaving your lips soft, smooth, and naturally enhanced.",
+      "beforeImg": "lip-filler-before.jpg",
+      "afterImg": "lip-filler-after.jpg",
+      "treatments": [
+        {
+          "category": "Per ml- 1499 AED",
+          "services": [
+            {
+              "name": "Lip",
+              "price": 1499
+            },
+            {
+              "name": "Cheek",
+              "price": 2999
+            },
+            {
+              "name": "Tear Trough",
+              "price": 2999
+            },
+            {
+              "name": "Nasolabial Folds",
+              "price": 2999
+            },
+            {
+              "name": "Chin",
+              "price": 2999
+            },
+            {
+              "name": "Jawline",
+              "price": 2999
+            },
+            {
+              "name": "Texas Jawline",
+              "price": 3599
+            }
+          ]
+        },
+        {
+          "category": "Filler Dissolver",
+          "services": [
+            {
+              "name": "Liporase",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I keep my makeup on after lip filler?",
+          "answer": "It’s best to avoid applying makeup immediately after your lip filler session. Wait at least 12 - 24 hours before using lip products to prevent irritation or infection."
+        },
+        {
+          "question": "What must I absolutely avoid after getting lip filler?",
+          "answer": "Avoid touching your lips, heavy exercise, alcohol, spicy food, and hot drinks for the first day after your lip filler procedure. Also skip facials or massages for a few days."
+        },
+        {
+          "question": "How long until I see the results?",
+          "answer": "Results from lip fillers are visible immediately, but final results appear once any swelling subsides, usually within 7 to 14 days."
+        },
+        {
+          "question": "How long do the results last?",
+          "answer": "Your lip filler results typically last between 6 and 12 months, depending on your metabolism, filler type, and lifestyle. Regular touch-ups help maintain the look."
+        },
+        {
+          "question": "What is the downtime? Can I go back to work after lip filler?",
+          "answer": "Downtime is minimal. Most clients return to work or social activities the same day after getting lip fillers in Dubai. Slight swelling may last 24 - 48 hours."
+        },
+        {
+          "question": "Can I get lip fillers if I’m pregnant or nursing?",
+          "answer": "We don’t recommend lip fillers during pregnancy or while breastfeeding due to safety considerations. It’s best to wait until after this period before booking your lip filler treatment."
+        },
+        {
+          "question": "How much do Lip fillers cost?",
+          "answer": "Lip filler cost starts from AED 899 (final pricing depending on the product used and personalized recommendations made during your doctor consultation)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "dermal.webp",
+      "video": "dermal.mp4",
+      "title": "Upper/ Lower/ Full face Fillers",
+      "othertext": "<b>Final pricing depending on the product used and personalized recommendations made during your doctor consultation</b>",
+      "subHeading": "Hello Volume. |  Hello Fullness. | Hello Definition.",
+      "desc": "Contour, restore volume, and give a natural-looking fullness to the jaw, cheeks, lips and more.",
+      "howItWorks": "The face naturally loses volume thanks to gravity and a loss in natural collagen. Powered by a soft, gel-like form of hyaluronic acid – the star ingredient in many moisturizers and naturally occurring in skin – dermal fillers give shape and structure back to the face. They work to restore and plump up volume, smooth the appearance of lines and wrinkles, or give lips and cheeks a naturally fuller look.",
+      "whyWeLoveIt": "Rediscover youthful contours and symmetry with expertly performed face fillers in Dubai at IV Wellness Lounge. Our advanced filler treatments are designed to lift, sculpt, and restore natural volume to the upper, lower, or full face - enhancing your features without altering your expression.<br/><br/>Each facial filler session is fully customized using premium hyaluronic acid formulas and precise injection techniques. Whether you’re addressing volume loss, fine lines, or facial definition, our specialists create balanced, elegant results that complement your unique bone structure.<br/><br/>At IV Wellness, we focus on artistry, subtlety, and medical precision, giving you results that look refreshed, not “done.”",
+      "treatableArea": "Upper Face | Lower Face | Lips",
+      "treatableConcerns": [
+        {
+          "icons": "dermalIcon1.png",
+          "txt": "Contouring"
+        },
+        {
+          "icons": "dermalIcon2.png",
+          "txt": "Lines & Wrinkles"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 899,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/face-fillers",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon14.png",
+              "txt": "Inform your practitioner of any medications or allergies"
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "Stay hydrated and arrive with a clean, makeup-free face"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and blood thinners 48 hours before treatment"
+            },
+            {
+              "icon": "ticon16.png",
+              "txt": "Avoid scheduling during active infections or dental work"
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "Avoid makeup and skincare products for 12 - 24 hours post-treatment"
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Refrain from touching or massaging the treated area for 24 hours"
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Skip saunas, steam rooms, and intense workouts for 48 hours"
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "Use gentle cleansers and avoid active ingredients (like retinol or acids) for a few days"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Sleep on your back with your head slightly elevated"
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After your facial filler procedure, mild swelling or tenderness is normal. Follow these steps to ensure optimal healing and results",
+      "beforeImg": "face-before.jpg",
+      "afterImg": "face-after.jpg",
+      "treatments": [
+        {
+          "category": "Per ml- 1499 AED",
+          "services": [
+            {
+              "name": "Lip",
+              "price": 1499
+            },
+            {
+              "name": "Cheek",
+              "price": 2999
+            },
+            {
+              "name": "Tear Trough",
+              "price": 2999
+            },
+            {
+              "name": "Nasolabial Folds",
+              "price": 2999
+            },
+            {
+              "name": "Chin",
+              "price": 2999
+            },
+            {
+              "name": "Jawline",
+              "price": 2999
+            },
+            {
+              "name": "Texas Jawline",
+              "price": 3599
+            }
+          ]
+        },
+        {
+          "category": "Filler Dissolver",
+          "services": [
+            {
+              "name": "Liporase",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I wear makeup after face fillers?",
+          "answer": "Avoid makeup for at least 12–24 hours after your face filler treatment to prevent irritation or infection."
+        },
+        {
+          "question": "What should I avoid after getting face fillers?",
+          "answer": "Avoid alcohol, strenuous activity, heat exposure, and facial massages for the first 48 hours. Do not touch or press the treated areas immediately after your filler injections."
+        },
+        {
+          "question": "How long until I see results?",
+          "answer": "You’ll notice an immediate lift and contour after treatment. The final, refined result of your face fillers appears once minor swelling settles, usually within 7 to 14 days."
+        },
+        {
+          "question": "How long do face fillers last?",
+          "answer": "The results of facial fillers last between 9 and 18 months, depending on your metabolism, filler type, and treatment area."
+        },
+        {
+          "question": "What is the downtime? Can I go back to work?",
+          "answer": "Downtime is minimal. Most clients resume normal activities the same day after receiving face fillers in Dubai. Minor swelling or tenderness can last up to two days."
+        },
+        {
+          "question": "Can I get fillers while pregnant or nursing?",
+          "answer": "We do not perform facial filler treatments during pregnancy or while breastfeeding for safety reasons."
+        },
+        {
+          "question": "How much do Face fillers cost?",
+          "answer": "Face filler cost starts from AED 899 (final pricing depending on the product used and personalized recommendations made during your doctor consultation)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "dermal.webp",
+      "video": "hip-filler.mp4",
+      "title": "Body Fillers",
+      "othertext": "<b>Final pricing depending on the product used and personalized recommendations made during your doctor consultation</b>",
+      "subHeading": "Hello Volume. |  Hello Fullness. | Hello Definition.",
+      "desc": "Contour, restore volume, and give a natural-looking fullness to the jaw, cheeks, lips and more.",
+      "howItWorks": "The face naturally loses volume thanks to gravity and a loss in natural collagen. Powered by a soft, gel-like form of hyaluronic acid – the star ingredient in many moisturizers and naturally occurring in skin – dermal fillers give shape and structure back to the face. They work to restore and plump up volume, smooth the appearance of lines and wrinkles, or give lips and cheeks a naturally fuller look.",
+      "whyWeLoveIt": "Achieve balanced, natural-looking curves with body fillers in Dubai at IV Wellness Lounge. Using advanced, hyaluronic acid-based body filler treatments, we enhance and contour areas like the thighs, calves, and hips creating proportion, symmetry, and definition without surgery.<br/><br/>Our expert practitioners use medical-grade injectables designed specifically for the body to restore lost volume, improve shape, and enhance overall silhouette. Whether you’re looking to achieve a fuller hip contour, smooth irregularities in the thighs, or add subtle volume to the calves, our body filler treatments in Dubai offer immediate, safe, and long-lasting results.",
+      "treatableArea": "Hips | Thighs | Calves",
+      "treatableConcerns": [
+        {
+          "icons": "dermalIcon1.png",
+          "txt": "Contouring"
+        },
+        {
+          "icons": "dermalIcon2.png",
+          "txt": "Lines & Wrinkles"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 899,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/body-fillers",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon14.png",
+              "txt": "Refrain from taking vitamin E, fish oil, or aspirin before your appointment"
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "Stay hydrated and have a balanced meal before your body filler session"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and blood thinners 48 hours before treatment"
+            },
+            {
+              "icon": "ticon16.png",
+              "txt": "Avoid treatment during active infections or skin inflammation"
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "Light swelling or tenderness is normal and resolves within days"
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Refrain from applying pressure to treated areas for 2–3 days"
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid exercise, saunas, and heat exposure for 48 hours"
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "Keep the area clean and avoid tight clothing for the first 24 hours"
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
+            },
+            {
+              "icon": "ticon17.png",
+              "txt": "Sleep on your back or side to avoid compressing the area"
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After your body filler procedure, you can resume most activities within 24 hours. To ensure smooth healing and the best contour. Results are visible immediately, with full settling and contour definition appearing over 2–3 weeks.",
+      "beforeImg": "body-before.png",
+      "afterImg": "body-after.png",
+      "treatments": [
+        {
+          "category": "Per ml- 1499 AED",
+          "services": [
+            {
+              "name": "Lip",
+              "price": 1499
+            },
+            {
+              "name": "Cheek",
+              "price": 2999
+            },
+            {
+              "name": "Tear Trough",
+              "price": 2999
+            },
+            {
+              "name": "Nasolabial Folds",
+              "price": 2999
+            },
+            {
+              "name": "Chin",
+              "price": 2999
+            },
+            {
+              "name": "Jawline",
+              "price": 2999
+            },
+            {
+              "name": "Texas Jawline",
+              "price": 3599
+            }
+          ]
+        },
+        {
+          "category": "Filler Dissolver",
+          "services": [
+            {
+              "name": "Liporase",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+          {
+            "question": "Can I wear tight clothes after body fillers?",
+            "answer": "Avoid tight clothing for the first 24–48 hours after your body filler treatment to prevent unnecessary pressure or irritation."
+          },
+          {
+            "question": "How long do body fillers last?",
+            "answer": "Results from body fillers in Dubai typically last 12 to 24 months, depending on the filler used, your metabolism, and your activity level."
+          },
+          {
+            "question": "Is there any downtime?",
+            "answer": "There’s minimal downtime. Most clients resume normal activities within a day after receiving hip fillers, thigh fillers, or calf fillers. Mild swelling or bruising may appear temporarily."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "You’ll see an immediate improvement in contour and volume. The final, refined result appears as the filler integrates naturally within 2-3 weeks."
+          },
+          {
+            "question": "Are body fillers safe?",
+            "answer": "Yes. At IV Wellness Lounge, treatments are performed by qualified medical professionals in a sterile, controlled environment."
+          },
+          {
+            "question": "Can I get body fillers if I’m pregnant or breastfeeding?",
+            "answer": "We do not recommend body filler treatments during pregnancy or while breastfeeding for safety reasons."
+          },
+          {
+            "question": "How much do Body fillers cost?",
+            "answer": "Body filler cost starts from AED 899 (final pricing depending on the product used and personalized recommendations made during your doctor consultation)."
+          }
+        ]
+    },
+    {
       "id": 6,
       "img": "collagen-stimulation.webp",
       "video": "collagenStimolation.mp4",

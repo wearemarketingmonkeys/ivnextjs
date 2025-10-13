@@ -130,7 +130,7 @@ export default function AestheticDetailsPage({ params }) {
                 </div>
               )}
 
-              {service.whyWeLoveIt ? <div className="why-love">{service.whyWeLoveIt}</div> : null}
+              {service.whyWeLoveIt ? <div className="why-love" dangerouslySetInnerHTML={{ __html: service.whyWeLoveIt }} /> : null}
 
               {service.treatableArea && (
                 <div className="treatable-area">

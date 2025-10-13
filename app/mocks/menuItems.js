@@ -123,9 +123,11 @@ export const menuItems = [
               ],
             },
             {
-              submenuTitle: "Bruxism",
+              submenuTitle: "Dermal Fillers",
               submenu: [
-                { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
+                { label: "Lip Fillers", to: "/aesthetic/lip-fillers" },
+                { label: "Upper/ Lower/ Full Face Fillers", to: "/aesthetic/face-fillers" },
+                { label: "Body Fillers", to: "/aesthetic/body-fillers" },
               ],
             },
             {
