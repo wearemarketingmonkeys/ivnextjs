@@ -54,6 +54,10 @@
         @include mixin.respond(lg) {
           width: 100%;
         }
+        h2{
+          font-size: 17px;
+          font-style: italic;
+        }
         .dur-cost {
           display: flex;
           gap: 8px;
