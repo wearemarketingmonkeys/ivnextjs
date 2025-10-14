@@ -311,3 +311,192 @@
   gap: 12px;
   line-height: 25px;
 }
+
+.benefit-wrap{
+    display: flex;
+    align-items: center;
+
+    @include mixin.respond(sm) {
+      display: block;
+    }
+    
+    .left{
+      width: 50%;
+      padding-left: 20px;
+      @include mixin.respond(sm) {
+        width: 100%;
+      }
+    }
+
+    .right{
+      width: 100% !important;
+      padding-left: 0;
+      text-align: center;
+      @include mixin.respond(sm) {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+
+    h1{
+      font-size: 35px;
+
+      @include mixin.respond(sm) {
+        font-size: 28px;
+      }
+    }
+
+    .btn-wrap{
+      width: 100%;
+      justify-content: center;
+
+      a{
+        width: auto;
+        font-size: 18px;
+        margin-top: 20px;
+
+        @include mixin.respond(sm) {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+
+
+  .benefit{
+    position: relative;
+    // background-color: #ffffff;
+    // padding: 64px 0;
+    .benefit-wrap{
+        display: flex;
+        align-items: flex-start;
+        gap: 48px;
+        @include mixin.respond(lg){
+            flex-direction: column;
+        }
+        .left{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include mixin.respond(lg){
+                width: 100%;
+            }
+            img{
+                width: 80%;
+            }
+        }
+
+        .right{
+            //width: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            @include mixin.respond(lg){
+                width: 100%;
+            }
+
+            .accordion-block {
+              border-bottom: 1px solid #eee;
+              padding: 8px 0;
+
+              &[open] .accordion-caret { transform: rotate(180deg); }
+            }
+
+            .accordion-summary {
+              list-style: none; /* hide default marker in some browsers */
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              cursor: pointer;
+              user-select: none;
+              border-bottom: 1px solid #827878;
+
+              /* remove default disclosure triangle on Safari */
+              &::-webkit-details-marker { display: none; }
+
+              h2, h4 { margin: 0; width: 100%; text-align: left; }
+              .accordion-caret {
+                margin-left: auto;
+                transition: transform .2s ease;
+                font-size: 18px;
+                line-height: 1;
+              }
+            }
+
+            .accordion-content {
+              padding-top: 10px;
+            }
+            
+            h1{
+                text-transform: uppercase;
+            }
+            
+            .benefit-item{
+                li{
+                    font-size: 18px;
+                    font-weight: 200;
+                    margin-left: 20px;
+                    line-height: 28px;
+                }
+            }
+
+            .keybenefit{
+              .single-list{
+                // background: #f2eee9;
+                // min-height: 68px;
+                padding: 0 15px;
+                border-radius: 5px;
+              }
+              .single-list::before {
+                  content: "✔"; /* tick icon */
+                  position: relative;
+                  left: 0;
+                  top: 0;
+                  color: #000; /* green tick */
+                  font-weight: bold;
+                  font-size: 18px; /* size of tick */
+              }
+              @media (max-width: 500px) {
+                  gap: 10px !important;
+                  .single-list{
+                    width: 100%;
+                    padding: 5px 15px;
+                  }
+              }
+            }
+            
+            .benefit-list{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 5px;
+                @media (min-width: 1024px) {
+                      display: grid;
+                      // grid-template-columns: repeat(3, 1fr);
+                      // gap: 10px;
+                      align-items: start;
+                }
+                .single-list{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    img{
+                        height: 36px;
+                        width: 36px;
+                        object-fit: contain;
+                        object-position: center;
+                    }
+
+                    p{
+                        text-transform: capitalize;
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+  }
