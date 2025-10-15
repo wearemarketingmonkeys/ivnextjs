@@ -196,7 +196,7 @@ export default function AestheticDetailsPage({ params }) {
                           </summary>
 
                           <div className="accordion-content">
-                            <p>The P-Shot in Dubai is ideal for men who:</p><br/>
+                            <p>{service.idealtitle}</p><br/>
                             <div className="benefit-list keybenefit">
                               {service.idealFor.map((x, index) => (
                                 <div className="single-list" key={index}>
