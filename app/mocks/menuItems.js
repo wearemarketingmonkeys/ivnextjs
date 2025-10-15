@@ -54,6 +54,12 @@ export const menuItems = [
                 { label: "P-Shot Treatment", to: "/aesthetic/p-shot-treatment" },
               ],
             },
+            {
+              submenuTitle: "Female Wellness",
+              submenu: [
+                { label: "O-Shot Treatment", to: "/aesthetic/o-shot-treatment" },
+              ],
+            },
           ],
         },
         {
