@@ -43,12 +43,6 @@ export const menuItems = [
               ],
             },
             {
-              submenuTitle: "Active acne",
-              submenu: [
-                { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
-              ],
-            },
-            {
               submenuTitle: "Male Wellness",
               submenu: [
                 { label: "P-Shot Treatment", to: "/aesthetic/p-shot-treatment" },
@@ -191,6 +185,12 @@ export const menuItems = [
                 { label: "Radiesse", to: "/aesthetic/collagen-stimulation" },
               ],
             },
+            {
+              submenuTitle: "Active acne",
+              submenu: [
+                { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
+              ],
+            }
           ],
         },
       ],
