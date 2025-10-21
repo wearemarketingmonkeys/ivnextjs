@@ -26,8 +26,6 @@ export const metadata = {
   },
 };
 
-
-
 // Helper: image path mapping
 const toBlogImg = (file) =>
   file ? (file.startsWith("/") ? file : `/assets/img/blog/${file}`) : "";
@@ -40,8 +38,9 @@ export default async function BlogsPage({ searchParams }) {
   const pageParam = parseInt(searchParams?.page || "1", 10);
   const articlesPerPage = 40;
 
+  // 🔥 Always fetch fresh data — no caching
   const res = await fetch("https://iv-blogs.ivhub.com/blogslist", {
-    next: { revalidate: 60 },
+    cache: "no-store",
   });
 
   if (!res.ok) {
@@ -107,7 +106,6 @@ export default async function BlogsPage({ searchParams }) {
               currentPage={pageParam}
               basePath="/blogs"
             />
-
           )}
         </div>
       </div>
