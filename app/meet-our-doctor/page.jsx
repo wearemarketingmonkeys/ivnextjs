@@ -2,12 +2,6 @@ import Image from "next/image"
 // import MyGallery from "./gallery"
 
 export const metadata = {
-  title: "Dr. Alejandra Beltran",
-  description: `About Dr. Alejandra Beltran
-Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.`,
-}
-
-export const metadata = {
   title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
   description:
     'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
