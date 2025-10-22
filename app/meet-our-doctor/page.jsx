@@ -7,6 +7,29 @@ export const metadata = {
 Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.`,
 }
 
+export const metadata = {
+  title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+  description:
+    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+  alternates: { canonical: 'https://ivhub.com/meet-our-doctor' },
+  openGraph: {
+    title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+    description:
+    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    url: 'https://ivhub.com/meet-our-doctor',
+    type: 'website',
+    images: [{ url: 'https://ivhub.com/assets/img/mod/dralejandra.jpeg', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+    description:
+    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    url: 'https://ivhub.com/meet-our-doctor',
+    images: ['https://ivhub.com/assets/img/mod/dralejandra.jpeg'],
+  },
+};
+
 export default function AestheticPage() {
   return (
     <>
