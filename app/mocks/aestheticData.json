@@ -2243,7 +2243,7 @@
           "services": [
             {
               "name": "Per Session",
-              "price": 99
+              "price": 999
             }
           ]
         },
