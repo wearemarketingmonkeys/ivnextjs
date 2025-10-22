@@ -2150,6 +2150,153 @@
       ]      
     },
     {
+      "id": 11,
+      "img": "body.webp",
+      "video": false,
+      "title": "PRP Treatment",
+      "subHeading": "Hello Youthful Appearance. |  Hello Clear Skin. | Hello Skin Glow.",
+      "desc": "A regenerative treatment that uses your own plasma to stimulate collagen, elastin, and hair follicle growth.",
+      "howItWorks": "PRP stands for Platelet-Rich Plasma—a natural, powerful solution derived from your own blood. After a small blood draw, your blood is spun in a centrifuge to isolate the nutrient-rich plasma. This plasma, loaded with growth factors, is then re-injected into targeted areas of the face or scalp to stimulate collagen production, improve skin quality, and activate hair follicles.\n When used on the face, PRP enhances skin tone and texture, reduces fine lines, and restores a youthful glow by boosting the body’s natural healing process. For the scalp, it reawakens dormant hair follicles, promoting healthier, fuller hair growth.",
+      "whyWeLoveIt": "PRP is the ultimate solution for those who prefer non-surgical, chemical-free rejuvenation. Because it uses your body’s own regenerative powers, it’s safe, biocompatible, and highly effective.",
+      "treatableArea": "Full Face | Neck | Lips | Decollete | Hair",
+      "treatableConcerns": [
+        {
+          "icons": "lipoIcon1.png",
+          "txt": "Skin Regeneration"
+        },
+        {
+          "icons": "chemicalIcon3.png",
+          "txt": "Skin Laxity"
+        },
+        {
+          "icons": "chemicalIcon4.png",
+          "txt": "Scars"
+        },
+        {
+          "icons": "bodyIcon1.png",
+          "txt": "Contouring"
+        }
+      ],
+      "duration": 45,
+      "startingAmount": 699,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/prp-treatment",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
+            },
+            {
+              "icon": "ticon14.png",
+              "txt": "Avoid Retinol, active ingredients, and at-home peels for at least 7 days prior to your treatment."
+            },
+            {
+              "icon": "ticon19.png",
+              "txt": "Avoid filler treatments, or resurfacing for at least 2 weeks prior."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
+            },
+            {
+              "icon": "ticon21.png",
+              "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon7.png",
+              "txt": "Try not to apply makeup 1-2 days after your service."
+            },
+            {
+              "icon": "ticon22.png",
+              "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
+            },
+            {
+              "icon": "ticon8.png",
+              "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
+            },
+            {
+              "icon": "ticon23.png",
+              "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
+            },
+            {
+              "icon": "ticon20.png",
+              "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "You can expect an overall improvement of the texture and tone of the skin, tightening, and increased reflectivity of light.",
+      "beforeImg": "prpbefore.webp",
+      "afterImg": "prpafter.webp",
+      "treatments": [
+        {
+          "category": "PRP Face",
+          "services": [
+            {
+              "name": "Per Session",
+              "price": 99
+            }
+          ]
+        },
+        {
+          "category": "PRP Hair",
+          "services": [
+            {
+              "name": "Per Session",
+              "price": 1499
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Where can PRP be applied?",
+          "answer": "PRP can be applied to the scalp to stimulate hair growth and to various areas of the face, including the cheeks, under-eyes, forehead, and jawline, to enhance skin texture, firmness, and overall glow."
+        },
+        {
+          "question": "Which skin or hair types are good candidates for PRP?",
+          "answer": "PRP is suitable for all skin types and tones. It’s an excellent option for anyone experiencing fine lines, dull or uneven skin, early signs of aging, or hair thinning and shedding, especially in the early stages of hair loss."
+        },
+        {
+          "question": "What are the indications for PRP therapy?",
+          "answer": "PRP is commonly used to: Improve skin tone and texture, Minimize fine lines, wrinkles, and acne scars, Address dark under-eye circles, Stimulate natural hair regrowth, Strengthen weak or thinning hair, Boost collagen and elastin for firmer, smoother skin"
+        },
+        {
+          "question": "How is PRP done?",
+          "answer": "A small amount of your blood is drawn and spun in a centrifuge to isolate the platelet-rich plasma. This golden serum is then carefully injected into the targeted facial areas or scalp using microneedling or fine injections to promote cellular repair and regeneration."
+        },
+        {
+          "question": "What are the advantages of PRP?",
+          "answer": "100% natural and biocompatible, Non-surgical and minimally invasive, Stimulates collagen, elastin, and hair follicle activity, Reduces signs of aging and restores youthful skin, Improves hair thickness and slows down hair loss, Little to no downtime required"
+        },
+        {
+          "question": "How often should I get PRP treatments?",
+          "answer": "<b>Face:</b> Every 4–6 weeks for 3–4 sessions. <b>Hair:</b> Every 4 weeks for 4–6 sessions, followed by maintenance every 4–6 months"
+        },
+        {
+          "question": "When will I see the results?",
+          "answer": "Initial improvements can be seen within 2–3 weeks, with more visible, progressive results over 4–12 weeks as collagen builds and hair follicles are stimulated."
+        },
+        {
+          "question": "Will the results last?",
+          "answer": "Yes! With a recommended treatment plan and proper maintenance, results can last 12–18 months for facial rejuvenation and several months for hair regrowth. Periodic maintenance sessions help extend and enhance results."
+        },
+        {
+          "question": "Are there any side effects?",
+          "answer": "Since PRP uses your own blood, allergic reactions are extremely rare. Mild swelling, redness, or tenderness may occur at the injection site but typically subsides within 24–48 hours."
+        }
+      ]      
+    },
+    {
       "id": 12,
       "img": "morpheus-after.webp",
       "video": false,
