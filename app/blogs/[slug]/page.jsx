@@ -18,6 +18,7 @@ const slugify = (t = '') =>
 
 async function fetchAllBlogs() {
   const res = await fetch('https://iv-blogs.ivhub.com/blogslist');
+  
 
   /*const res = await fetch('https://iv-blogs.ivhub.com/blogslist', {
     // cache with ISR

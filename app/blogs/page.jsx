@@ -45,6 +45,7 @@ export default async function BlogsPage({ searchParams }) {
   });*/
 
   const res = await fetch("https://iv-blogs.ivhub.com/blogslist");
+  
 
   if (!res.ok) {
     return (
