@@ -1,5 +1,5 @@
 import Image from "next/image"
-import MyGallery from "./gallery"
+// import MyGallery from "./gallery"
 
 export const metadata = {
   title: "Dr. Alejandra Beltran",
@@ -127,7 +127,7 @@ export default function AestheticPage() {
       </section>
 
       <section className="mod-img-gallary">
-        <MyGallery />
+        {/* <MyGallery /> */}
       </section>
 
       <section className="mod-education">
