@@ -30,7 +30,7 @@ export const metadata = {
   },
 };
 
-export default function AestheticPage() {
+export default function MeetOurDoctorPage() {
   return (
     <>
       <section className="mod-hero">
