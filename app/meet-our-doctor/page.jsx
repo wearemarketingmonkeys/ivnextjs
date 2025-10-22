@@ -172,7 +172,7 @@ export default function AestheticPage() {
 
       <section className="mod-ctr">
         <h3>Make an appointment with Dr. Alejandra Beltran</h3>
-        <a href="https://wa.me/+971585748444">Book Online Consultation</a>
+        <a href="https://wa.me/+971566082103">Book Online Consultation</a>
       </section>
     </>
   )
