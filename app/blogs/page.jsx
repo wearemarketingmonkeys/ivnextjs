@@ -40,7 +40,7 @@ export default async function BlogsPage({ searchParams }) {
   const pageParam = parseInt(searchParams?.page || "1", 10);
   const articlesPerPage = 40;
 
-  const res = await fetch("https://iv-blogs.ivhub.com/blogslist", {
+  const res = await fetch("https://iv-blogs.ivhub.com/blogslist/feeds", {
     next: { revalidate: 600 },
   });
 
