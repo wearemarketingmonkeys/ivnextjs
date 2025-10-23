@@ -20,10 +20,12 @@ async function fetchAllBlogs() {
   // const res = await fetch('https://iv-blogs.ivhub.com/blogslist');
 
 
-  const res = await fetch('https://iv-blogs.ivhub.com/blogslist', {
+  /*const res = await fetch('https://iv-blogs.ivhub.com/blogslist', {
     // cache with ISR
     next: { revalidate },
-  });
+  });*/
+
+  const res = fetch(`https://iv-blogs.ivhub.com/blogslist?v=${Date.now()}`, { cache: "no-store" });
 
   if (!res.ok) return [];
   const data = await res.json();
