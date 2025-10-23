@@ -1,5 +1,3 @@
-"use client";
-
 // app/blogs/[slug]/page.jsx
 import { notFound } from 'next/navigation';
 import ShareBarClient from './ShareBarClient';
