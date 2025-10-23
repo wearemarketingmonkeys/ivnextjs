@@ -1,5 +1,3 @@
-"use client";
-
 // app/blogs/page.jsx
 import HeroSection from '../components/HeroSection';
 import Pagination from "../components/Pagination";
