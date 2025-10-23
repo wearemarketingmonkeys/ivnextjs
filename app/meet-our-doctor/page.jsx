@@ -188,7 +188,6 @@ export default function MeetOurDoctorPage() {
               <Image
                 src="/assets/img/mod/middlesex.png"
                 width={230}
-                height={75}
                 alt="Middlesex University, Dubai"
               />
             </div>
