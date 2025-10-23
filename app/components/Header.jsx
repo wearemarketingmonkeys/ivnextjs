@@ -28,7 +28,7 @@ function hrefOf(x) {
 const ivTherapyItems = [
   {
     img: paths.wellnessImg,
-    drips: 24,
+    drips: 25,
     title: "Wellness Drips",
     btnTxt: "Explore Drips",
     btnUrl: "/iv-therapy/drips",
