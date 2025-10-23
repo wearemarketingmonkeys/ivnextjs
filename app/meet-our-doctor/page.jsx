@@ -170,7 +170,6 @@ export default function MeetOurDoctorPage() {
               <Image
                 src="/assets/img/mod/northwest.png"
                 width={230}
-                height={75}
                 alt="Northwest University"
               />
             </div>
@@ -186,7 +185,7 @@ export default function MeetOurDoctorPage() {
 
             <div className="logo">
               <Image
-                src="/assets/img/mod/middlesex.png"
+                src="/assets/img/mod/middlesex.jpg"
                 width={230}
                 alt="Middlesex University, Dubai"
               />
@@ -205,7 +204,6 @@ export default function MeetOurDoctorPage() {
               <Image
                 src="/assets/img/mod/university-of-liverpool.webp"
                 width={230}
-                height={75}
                 alt="Fellowship in Diabetology"
               />
             </div>
