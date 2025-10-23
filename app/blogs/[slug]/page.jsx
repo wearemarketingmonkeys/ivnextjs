@@ -17,9 +17,10 @@ const slugify = (t = '') =>
   t.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 async function fetchAllBlogs() {
-  const res = await fetch('https://iv-blogs.ivhub.com/blogslist', {
-        next: { revalidate: 600 },
+  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'https://ivhub.com'}/api/blogs`, {
+    cache: "no-store",
   });
+
   if (!res.ok) return [];
   const data = await res.json();
   const arr = Array.isArray(data?.articlesData) ? data.articlesData : [];
