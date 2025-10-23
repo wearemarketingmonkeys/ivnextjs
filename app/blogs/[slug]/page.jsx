@@ -18,7 +18,7 @@ const slugify = (t = '') =>
 
 async function fetchAllBlogs() {
   const res = await fetch('https://iv-blogs.ivhub.com/blogslist', {
-      cache: "no-store",
+        next: { revalidate: 600 },
   });
   if (!res.ok) return [];
   const data = await res.json();
