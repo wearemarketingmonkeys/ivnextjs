@@ -40,40 +40,31 @@ export default async function BlogsPage({ searchParams }) {
   const pageParam = parseInt(searchParams?.page || "1", 10);
   const articlesPerPage = 40;
 
-  const res = await fetch("https://iv-blogs.ivhub.com/blogslist", {
-    next: { revalidate: 600 },
-  });
+  let articles = [];
 
-  if (!res.ok) {
-    return (
-      <>
-        <div className="blog-hero">
-          <HeroSection
-            img="/assets/img/blog/blog-hero.webp"
-            textLight1="The Wellness Edit"
-            textItalic1=" - Health,"
-            textLight2="Beauty"
-            textItalic2="& Beyond"
-          />
-        </div>
-        <div className="blog-cards">
-          <div className="container">
-            <p>Unable to load blog posts right now. Please try again later.</p>
-          </div>
-        </div>
-      </>
-    );
+  try {
+    // ✅ Fetch through local API proxy
+    const res = await fetch("https://ivhubnew.onrender.com/api/blogs", {
+      cache: "no-store",
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      const articlesData = Array.isArray(data?.articlesData)
+        ? data.articlesData
+        : [];
+
+      articles = articlesData.map((a) => ({
+        ...a,
+        img: a.img?.startsWith("/") ? a.img : `/assets/img/blog/${a.img}`,
+        slug: a.slug || a.title.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      }));
+    } else {
+      console.error("Blogs API returned:", res.status);
+    }
+  } catch (err) {
+    console.error("Error fetching blogs:", err);
   }
-
-  const data = await res.json();
-  const articlesData = Array.isArray(data?.articlesData) ? data.articlesData : [];
-
-  // Map data
-  const articles = articlesData.map((a) => ({
-    ...a,
-    img: toBlogImg(a.img),
-    slug: a.slug || slugifyTitle(a.title),
-  }));
 
   // Pagination logic
   const totalPages = Math.max(1, Math.ceil(articles.length / articlesPerPage));
