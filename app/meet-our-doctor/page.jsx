@@ -145,8 +145,8 @@ export default function MeetOurDoctorPage() {
 
           <div className="education">
             <div>
-              <h3>Bachelor of medicine, Bachelor of Surgery  </h3>
-              <p>Escuela de Medicina Juan N Corpas, Colombia</p>
+              <h3>MBBS</h3>
+              <p>Shree Balaji Medical College, Chennai</p>
             </div>
             <div className="logo">
               <Image
@@ -160,9 +160,63 @@ export default function MeetOurDoctorPage() {
 
           <div className="education">
             <div>
-              <h3>Profesional Diploma in Aesthetic Medicine </h3>
+              <h3>Diploma in Aesthetic Medicine</h3>
               <p>
-                American Academy of Aesthetics Medicine
+                Norwest University
+              </p>
+            </div>
+
+            <div className="logo">
+              <Image
+                src="/assets/img/mod/AAAM.png"
+                width={230}
+                height={75}
+                alt="American Academy of Aesthetics Mediciney"
+              />
+            </div>
+          </div>
+
+          <div className="education">
+            <div>
+              <h3>MBA in Healthcare Management</h3>
+              <p>
+                Middlesex University, Dubai
+              </p>
+            </div>
+
+            <div className="logo">
+              <Image
+                src="/assets/img/mod/AAAM.png"
+                width={230}
+                height={75}
+                alt="American Academy of Aesthetics Mediciney"
+              />
+            </div>
+          </div>
+
+          <div className="education">
+            <div>
+              <h3>Fellowship in Diabetology</h3>
+              <p>
+                University of Liverpool
+              </p>
+            </div>
+
+            <div className="logo">
+              <Image
+                src="/assets/img/mod/AAAM.png"
+                width={230}
+                height={75}
+                alt="American Academy of Aesthetics Mediciney"
+              />
+            </div>
+          </div>
+
+          <div className="education">
+            <div>
+              <h3>Diploma in Dermatology</h3>
+              <p>
+                UK
               </p>
             </div>
 
