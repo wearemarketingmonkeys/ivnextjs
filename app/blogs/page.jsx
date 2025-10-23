@@ -1,51 +1,31 @@
-// app/blogs/page.jsx
-import HeroSection from '../components/HeroSection';
+"use client";
+
+import { useEffect, useState } from "react";
+import HeroSection from "../components/HeroSection";
 import Pagination from "../components/Pagination";
 import ArticleCard from "../components/ArticleCard";
 
-// SEO
-export const metadata = {
-  title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
-  description:
-    'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration from IV Wellness Lounge Clinic in Dubai.',
-  alternates: { canonical: 'https://ivhub.com/blogs' },
-  openGraph: {
-    title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration.',
-    url: 'https://ivhub.com/blogs',
-    type: 'website',
-    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration.',
-    images: ['https://ivhub.com/og.png'],
-  },
-};
+export default function BlogsPage() {
+  const [articles, setArticles] = useState([]);
+  const [error, setError] = useState(false);
 
+  useEffect(() => {
+    async function fetchBlogs() {
+      try {
+        const res = await fetch("https://iv-blogs.ivhub.com/blogslist/feeds");
+        if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+        const data = await res.json();
+        setArticles(Array.isArray(data?.articlesData) ? data.articlesData : []);
+      } catch (err) {
+        console.error("Error fetching blogs:", err);
+        setError(true);
+      }
+    }
 
+    fetchBlogs();
+  }, []);
 
-// Helper: image path mapping
-const toBlogImg = (file) =>
-  file ? (file.startsWith("/") ? file : `/assets/img/blog/${file}`) : "";
-
-function slugifyTitle(t = "") {
-  return t.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-}
-
-export default async function BlogsPage({ searchParams }) {
-  const pageParam = parseInt(searchParams?.page || "1", 10);
-  const articlesPerPage = 40;
-
-  const res = await fetch("https://iv-blogs.ivhub.com/blogslist/feeds", {
-    cache: "no-store",
-  });
-
-
-  if (!res.ok) {
+  if (error) {
     return (
       <>
         <div className="blog-hero">
@@ -66,21 +46,6 @@ export default async function BlogsPage({ searchParams }) {
     );
   }
 
-  const data = await res.json();
-  const articlesData = Array.isArray(data?.articlesData) ? data.articlesData : [];
-
-  // Map data
-  const articles = articlesData.map((a) => ({
-    ...a,
-    img: toBlogImg(a.img),
-    slug: a.slug || slugifyTitle(a.title),
-  }));
-
-  // Pagination logic
-  const totalPages = Math.max(1, Math.ceil(articles.length / articlesPerPage));
-  const startIndex = (pageParam - 1) * articlesPerPage;
-  const currentArticles = articles.slice(startIndex, startIndex + articlesPerPage);
-
   return (
     <>
       <div className="blog-hero">
@@ -96,19 +61,18 @@ export default async function BlogsPage({ searchParams }) {
       <div className="blog-cards">
         <div className="container">
           <div className="article-wrapper">
-            {currentArticles.map((x, i) => (
+            {articles.map((x, i) => (
               <ArticleCard key={i} article={x} />
             ))}
           </div>
 
-          {totalPages > 1 && (
+          {articles.length > 40 && (
             <Pagination
               totalArticles={articles.length}
               articlesPerPage={40}
-              currentPage={pageParam}
+              currentPage={1}
               basePath="/blogs"
             />
-
           )}
         </div>
       </div>
