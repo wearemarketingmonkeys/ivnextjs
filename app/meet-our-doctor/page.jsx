@@ -150,7 +150,7 @@ export default function MeetOurDoctorPage() {
             </div>
             <div className="logo">
               <Image
-                src="/assets/img/mod/Corpas.png"
+                src="/assets/img/mod/balaji.png"
                 width={224}
                 height={100}
                 alt="Escuela de Medicina Juan N Corpas"
@@ -162,16 +162,16 @@ export default function MeetOurDoctorPage() {
             <div>
               <h3>Diploma in Aesthetic Medicine</h3>
               <p>
-                Norwest University
+                Northwest University
               </p>
             </div>
 
             <div className="logo">
               <Image
-                src="/assets/img/mod/AAAM.png"
+                src="/assets/img/mod/northwest.png"
                 width={230}
                 height={75}
-                alt="American Academy of Aesthetics Mediciney"
+                alt="Northwest University"
               />
             </div>
           </div>
@@ -186,10 +186,10 @@ export default function MeetOurDoctorPage() {
 
             <div className="logo">
               <Image
-                src="/assets/img/mod/AAAM.png"
+                src="/assets/img/mod/middlesex.png"
                 width={230}
                 height={75}
-                alt="American Academy of Aesthetics Mediciney"
+                alt="Middlesex University, Dubai"
               />
             </div>
           </div>
@@ -204,10 +204,10 @@ export default function MeetOurDoctorPage() {
 
             <div className="logo">
               <Image
-                src="/assets/img/mod/AAAM.png"
+                src="/assets/img/mod/university-of-liverpool.webp"
                 width={230}
                 height={75}
-                alt="American Academy of Aesthetics Mediciney"
+                alt="Fellowship in Diabetology"
               />
             </div>
           </div>
@@ -221,12 +221,7 @@ export default function MeetOurDoctorPage() {
             </div>
 
             <div className="logo">
-              <Image
-                src="/assets/img/mod/AAAM.png"
-                width={230}
-                height={75}
-                alt="American Academy of Aesthetics Mediciney"
-              />
+              
             </div>
           </div>
          
