@@ -2,23 +2,23 @@ import Image from "next/image"
 // import MyGallery from "./gallery"
 
 export const metadata = {
-  title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+  title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
   description:
-    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
   alternates: { canonical: 'https://ivhub.com/meet-our-doctor' },
   openGraph: {
-    title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+    title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
     description:
-    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
     url: 'https://ivhub.com/meet-our-doctor',
     type: 'website',
     images: [{ url: 'https://ivhub.com/assets/img/mod/dralejandra.jpeg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Alejandra Beltran | IV Wellness Lounge Clinic in Dubai',
+    title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
     description:
-    'About Dr. Alejandra Beltran Meet Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
     url: 'https://ivhub.com/meet-our-doctor',
     images: ['https://ivhub.com/assets/img/mod/dralejandra.jpeg'],
   },
@@ -29,7 +29,7 @@ export default function MeetOurDoctorPage() {
     <>
       <section className="mod-hero">
         <div className="mod-title">
-          <h1>Dr. Alejandra Beltran</h1>
+          <h1>Dr. Pradheeksha Krishnaprasad</h1>
           <div>The pinnacle of Aesthetic and Laser</div>
         </div>
         <div className="mod-media">
@@ -37,7 +37,7 @@ export default function MeetOurDoctorPage() {
             src="/assets/img/mod/dralejandra.jpeg"
             width={400}
             height={600}
-            alt="Dr. Alejandra Beltran"
+            alt="Dr. Pradheeksha Krishnaprasad"
           />
         </div>
       </section>
@@ -48,40 +48,32 @@ export default function MeetOurDoctorPage() {
             src="/assets/img/mod/dr22.jpeg"
             width={450}
             height={623}
-            alt="Dr. Alejandra Beltran"
+            alt="Dr. Pradheeksha Krishnaprasad"
           />
         </div>
         <div className="content">
-          <h2>About Dr. Alejandra Beltran</h2>
+          <h2>About Dr. Pradheeksha Krishnaprasad</h2>
           <p>
-            Dr. Alejandra, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table. 
-            From her beginnings in Latin America and the United States to her current adventures in Dubai, she's left a 
-            lasting impression in aesthetics and hair restoration.Dr. Alejandra's journey is a testament to her 
-            relentless pursuit of knowledge and excellence. She's proudly certified by the prestigious American Academy of 
-            Aesthetic Medicine and has mastered the art of laser rejuvenation, adding a fresh twist to her practice.
+            Dr. Pradheeksha Krishnaprasad, widely known as Dr. Pratz, is an accomplished Aesthetic Physician with extensive international training and a passion for integrating science, artistry, and wellness in aesthetic medicine. She specializes in advanced injectables, Korean lifting techniques, regenerative medicine, and endocrinology-based weight management.
           </p>
           <p>
-            But what truly makes Dr. Alejandra shine is her genuine passion for highlighting each person's natural beauty. 
-              With a toolbox full of certifications in facial and body rejuvenation technologies, she celebrates the uniqueness of every individual.
-              Attending top conferences in dermatology and aesthetic medicine is just one way Dr. Alejandra stays ahead in her field.
-              Each treatment she offers is carefully tailored to fit the specific needs of her patients, aiming to boost their confidence and help them feel at home in their own skin.
-              Dr. Alejandra isn't just a skilled practitioner; she's a firm believer in embracing individuality and staying true to oneself.
+            Dr. Pratz earned her MBBS degree from Shree Balaji Medical College, Chennai, and pursued a Diploma in Aesthetic Medicine from Norwest University, affiliated with the American Board of Aesthetic Medicine. She has completed multiple fellowships in Aesthetic Medicine and Advanced Injectables across more than eight countries, gaining a truly global perspective in aesthetic and regenerative practices.
           </p>
-          <p>Aesthetic Laser Procedures Learning Program<br />
-            “Lasers And Light Sources, Including IPL”</p>
-            <p>American Academy Of Aesthetic Medicine, 2022<br />
-            “Certificate In Aesthetic Medicine”</p>
-            <p>American Safety And Health Institute, 2021<br />
-            “BLS Training”</p>
-            <p>DubiMed, 2021<br />
-            “VIORA Training, Secret Dual Combination Technology”</p>
-              <p>Fundacion Universitaria Juan N. Corpas, 2017<br />
-            “Physician And General Surgeon”</p>
-               <p>INMODE Aesthetic Solutions, 2022<br />
-            “Morpheus Pro System Training Course”</p>
-                 <p>Medica, 2022<br />
-            “Ultherapy Training”</p>
-              <p>Professional Medical Education Association, INC, 2022</p>
+          <p>
+            In addition, she holds an MBA in Healthcare Management from Middlesex University, Dubai, a two-year Fellowship in Diabetology from the University of Liverpool, and a Diploma in Dermatology from the UK, enabling her to merge medical, dermatological, and wellness disciplines into a comprehensive patient care approach.
+          </p>
+          <p>
+            Dr. Pratz also holds an NCLC License in Advanced Laser Technologies, further enhancing her expertise in non-surgical aesthetic and skin rejuvenation treatments.
+          </p>
+          <p>
+            She is certified by ARMED, InMode, Yuma emerites, Candela,Mesoaesthetic, and the Allergan Institute, and has attended numerous international conferences focused on innovation and safety in aesthetic medicine. Her professional achievements have also led her to become a Brand Ambassador for Sticol, Xomage, and Yuma Emirates.
+          </p>
+          <p>
+            Her interests extend into biohacking, hormonal optimization, and metabolic health, utilizing advanced medical protocols, including GLP-1 inhibitors, for holistic weight management and longevity. With over six years of experience in plastic surgery and dermatology, she brings a multidimensional approach to beauty and health.
+          </p>
+          <p>
+            Dr. Pratz is also highly regarded for her expertise in hair restoration, transplant procedures, regenerative therapy, and wellness-based aesthetic treatments, dedicated to helping patients look and feel their best from the inside out.
+          </p>
         </div>
       </section>
 
@@ -188,7 +180,7 @@ export default function MeetOurDoctorPage() {
       </section>
 
       <section className="mod-ctr">
-        <h3>Make an appointment with Dr. Alejandra Beltran</h3>
+        <h3>Make an appointment with Dr. Pradheeksha Krishnaprasad</h3>
         <a href="https://wa.me/+971566082103">Book Online Consultation</a>
       </section>
     </>
