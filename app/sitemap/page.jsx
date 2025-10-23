@@ -191,11 +191,6 @@ export default function Sitemap() {
             <Link href="https://www.ivhub.com/aesthetic/chemical-peel">Chemical Peels</Link>
           </li>
           <li>
-            <Link href="https://www.ivhub.com/aesthetic/medical-grade-skincare">
-              Medical Grade Skincare
-            </Link>
-          </li>
-          <li>
             <Link href="https://www.ivhub.com/aesthetic/hydra-facial">
               Hydrafacial & Collagen Threads
             </Link>

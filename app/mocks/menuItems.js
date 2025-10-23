@@ -115,7 +115,6 @@ export const menuItems = [
                 { label: "PRP", to: "/aesthetic/prp" },
                 { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
-                { label: "Medical Grade Skincare", to: "/aesthetic/medical-grade-skincare" },
                 { label: "Glow Hub", to: "/iv-therapy/drips/glow-hub" },
                 { label: "Beauty Hub", to: "/iv-therapy/drips/beauty-hub" },
               ],
@@ -164,7 +163,6 @@ export const menuItems = [
                 { label: "Morpheus8®", to: "/morpheus" },
                 { label: "Chemical Peels", to: "/aesthetic/chemical-peel" },
                 { label: "Microneedling", to: "/aesthetic/mesotherapy" },
-                { label: "Medical Grade Skincare", to: "/aesthetic/medical-grade-skincare" },
               ],
             },
             {
