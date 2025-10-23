@@ -75,6 +75,7 @@ const ivTherapyItems = [
       { dripsName: "Post Party Hub", dripsUrl: "/iv-therapy/drips/hangover-iv-drip" },
       // { dripsName: "Hydration Hub Express", dripsUrl: "/iv-therapy/drips/hydration-hub-express"},
       { dripsName: "NAD+", dripsUrl: "/iv-therapy/drips/nad-plus" },
+      { dripsName: "Methylene Blue IV Drip", dripsUrl: "/iv-therapy/drips/methylene-blue-IV-drip" },
     ],
   },
   {

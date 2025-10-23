@@ -2605,6 +2605,118 @@
         ],
         "bookingBtn": "https://book.ivhub.com/",
         "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+      },
+      {
+        "id": 24,
+        "category": "Beauty",
+        "img": "Methylene-Blue.webp",
+        "title": "Methylene Blue IV Drip",
+        "price": 1499,
+        "superline": "Enhance Cellular Energy • Sharpen Mental Focus • Support Longevity",
+        "metadesc": "Methylene Blue IV Therapy at IV Wellness Lounge is a next-generation mitochondrial support infusion designed to help your body produce energy more efficiently. Known for its vibrant blue color and cellular-protective properties, Methylene Blue is being recognized in modern wellness medicine for its potential to boost brain clarity, energy metabolism, and anti-aging defenses. Book Now!",
+        "desc": "The ULTIMATE Drip for your Mind and Body!",
+        "para1": "<b>Methylene Blue</b> is a compound with a long history in medicine — first used to treat methemoglobinemia and later studied for its neuroprotective and antioxidant effects. In low doses, it supports mitochondrial respiration, helping cells generate more ATP — the body’s primary energy currency.",
+        "para2": "At IV Hub, we offer clinically formulated IV infusions that combine pharmaceutical-grade Methylene Blue with synergistic antioxidants and hydration to help optimize energy, focus, and recovery.",
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Reverse the signs of aging",
+        "benifits": [
+          "Cognitive Clarity & Focus – Supports brain mitochondria and oxygen utilization.",
+          "Mitochondrial Support – Enhances cellular energy and metabolic efficiency.",
+          "Anti-Aging & Longevity Support – Helps reduce oxidative stress and supports healthy aging.",
+          "Improved Physical Performance – Aids recovery and reduces fatigue from oxidative load.",
+          "Enhanced Detox & Oxygenation – Supports the body’s natural cleansing and oxygen transport."
+        ],
+        "benifitList": [
+          {
+            "icon": "icon1.png",
+            "txt": "Breakouts and blemishes"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Cognitive Support & Longevity"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "Chronic Fatigue & Brain Fog"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Low Cellular Energy or Mitochondrial Dysfunction"
+          },
+          {
+            "icon": "icon8.png",
+            "txt": "Mood Regulation"
+          },
+          {
+            "icon": "icon5.png",
+            "txt": "Wellness & Preventive Applications"
+          }
+        ],
+        "sessionprice": [
+          {
+            "txt": "1 Session",
+            "price": "1499"
+          }
+        ],
+        "extraData": [
+          {
+            "name": "NAD+ (Nicotinamide Adenine Dinucleotide)",
+            "txt": "Essential coenzyme that boosts cellular metabolism and supports DNA repair."
+          },
+          {
+            "name": "Isotonic Solution",
+            "txt": "Balanced electrolyte hydration to restore fluid balance and support overall health."
+          },
+          {
+            "name": "Electrolyte Cocktail",
+            "txt": "A blend of vital minerals to enhance energy, hydration, and cellular function."
+          }
+        ],
+        "faq": [
+          {
+            "question": "What is Methylene Blue IV Therapy?",
+            "answer": "Methylene Blue IV Therapy is a specialized intravenous infusion that delivers pharmaceutical-grade methylene blue directly into your bloodstream. It is designed to support mitochondrial energy production, enhance cellular oxygenation, and promote mental clarity and anti-aging benefits. At IV Wellness Lounge in Dubai, each session is supervised by qualified medical professionals for safety and optimal results."
+          },
+          {
+            "question": "What are the benefits of Methylene Blue IV Drip?",
+            "answer": "Potential benefits include improved brain focus, higher energy levels, cellular regeneration, and reduced oxidative stress. Many clients report sharper mental performance, quicker recovery from fatigue, and a general sense of vitality. (Results vary and are not intended to replace medical treatment.)"
+          },
+          {
+            "question": "How does Methylene Blue work in the body?",
+            "answer": "Methylene Blue supports the mitochondria, which are the “powerhouses” of your cells. It enhances the electron transport chain, leading to more efficient ATP (energy) production. This helps improve cognitive function, metabolism, and anti-aging processes at a cellular level."
+          },
+          {
+            "question": "Is Methylene Blue IV Therapy safe?",
+            "answer": "When administered correctly by trained medical professionals, Methylene Blue IV is generally safe. However, it is not suitable for individuals with G6PD deficiency or those taking certain antidepressants such as SSRIs or SNRIs due to the risk of serotonin syndrome. At IV Hub, we conduct a thorough medical screening before treatment to ensure safety."
+          },
+          {
+            "question": "How long does a Methylene Blue IV drip take?",
+            "answer": "A typical Methylene Blue infusion session lasts about 30 to 45 minutes. You can relax in our comfortable wellness lounge during the process, and most clients feel refreshed and re-energized afterward."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "The number of sessions depends on your goals and health status. Some clients start with a series of 3–6 infusions spaced weekly, while others book maintenance drips monthly for ongoing mitochondrial and cognitive support. Our IV specialists will personalize your plan during your consultation."
+          },
+          {
+            "question": "What should I expect after my Methylene Blue IV drip?",
+            "answer": "You may notice increased mental clarity, steady energy, or enhanced mood within hours. Mild, temporary side effects can include blue-tinted urine or stool, which is normal and harmless. You should also stay hydrated after the session for best results."
+          },
+          {
+            "question": "Can I combine Methylene Blue IV with other treatments?",
+            "answer": "Yes. Methylene Blue IV can be safely combined with other wellness infusions like NAD+ IV Therapy, Vitamin C Drip, or Glutathione IV under medical supervision. At IV Hub, we often create custom combination protocols to target longevity, brain performance, and detoxification goals."
+          },
+          {
+            "question": "Who should avoid Methylene Blue IV Therapy?",
+            "answer": "Avoid this treatment if you are: Pregnant or breastfeeding. Taking SSRIs, MAOIs, or serotonergic medications. Diagnosed with G6PD deficiency. Experiencing acute kidney or liver issues. Our medical team will review your medical history before recommending therapy."
+          },
+          {
+            "question": "Where can I get Methylene Blue IV Therapy in Dubai?",
+            "answer": "You can book your Methylene Blue IV Therapy at IV Hub Wellness Lounge, Dubai’s trusted IV therapy center specializing in anti-aging, hydration, and performance infusions. All treatments are performed in a clinical-grade environment by certified IV professionals."
+          }
+        ],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/methylene-blue-IV-drip"
       }
     ]
   }

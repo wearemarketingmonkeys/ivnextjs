@@ -129,6 +129,11 @@ export default function Sitemap() {
             </Link>
           </li>
           <li>
+            <Link href="https://www.ivhub.com/iv-therapy/drips/methylene-blue-IV-drip">
+              Methylene Blue IV Drip
+            </Link>
+          </li>
+          <li>
             <Link href="https://www.ivhub.com/iv-therapy/drips/nad-plus">NAD+ 100mg</Link>
           </li>
           <li>
