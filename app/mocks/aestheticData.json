@@ -143,12 +143,12 @@
     {
       "id": 2,
       "img": "hydra.webp",
-      "video": "hydra.mp4",
-      "title": "HydraFacial™",
+      "video": "oxygeneo.mp4",
+      "title": "OxyGeneo Facial",
       "subHeading": "Hello Brightness. |  Hello Fresh Skin. | Hello Clear Pores.",
-      "desc": "Refresh and nourish your skin with our signature facial that gets you glowing.",
+      "desc": "Refresh and nourish your skin with our oxygeneo facial that gets you shine.",
       "howItWorks": "Our high-tech HydraFacial® cleanses, exfoliates and hydrates to remove dead, dull skin and bring brighter skin to the surface. The Vortex-Fusion system removes debris from pores without discomfort while delivering medical-grade serum boosters to target your specific concerns.",
-      "whyWeLoveIt": "It's perfect for beginners and veterans alike, and you get to personalize it with a booster serum targeted to your concern. In addition to the deep-cleaning and intense hydration that comes with every HydraFacial®, you can also tackle uneven skin texture, dryness, congested pores, and acne. It's great for all skin types and is completely non-invasive with no downtime. You'll walk out with increased clarity and tighter, firmer, glowing skin.",
+      "whyWeLoveIt": "Experience the ultimate skin renewal with the OxyGeneo Facial in Dubai at IV Wellness Lounge. This advanced facial treatment combines gentle exfoliation, oxygen infusion, and deep nourishment to restore radiance and even out skin tone. Designed to target pigmentation, dullness, and uneven texture, the OxyGeneo Facial leaves your skin visibly brighter, smoother, and glowing after just one session.<br/>By using patented OxyGeneo technology, this treatment boosts oxygen levels in the skin while infusing active ingredients like hyaluronic acid, vitamins, and antioxidants. It’s ideal for those looking to improve texture, fade pigmentation, and achieve a long-lasting, luminous glow.",
       "treatableArea": false,
       "treatableConcerns": [
         {
@@ -169,10 +169,10 @@
         }
       ],
       "duration": 20,
-      "startingAmount": 199,
+      "startingAmount": 699,
       "discount": 20,
       "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
-      "fullDetailsUrl": "/aesthetic/hydra-facial",
+      "fullDetailsUrl": "/aesthetic/oxygeneo-hydrafacial",
       "treatmentsTips": [
         {
           "name": "Pre-Treatment Tips",
@@ -206,95 +206,45 @@
         }
       ],
       "resultTxt": "Results Experience noticeable improvement in overall skin texture and tone.  Treatment: Redefine & Signature HydraFacial (2 sessions)",
-      "beforeImg": "hydrabefore.webp",
-      "afterImg": "hydraafter.webp",
+      "beforeImg": "oxybefore.webp",
+      "afterImg": "oxyafter.webp",
       "treatments": [
         {
           "category": "HydraFacial™",
           "services": [
             {
-              "name": "Express HydraFacial",
-              "price": 199
-            },
-            {
-              "name": "HydraGlow",
-              "price": 399
-            },
-            {
-              "name": "Signature HydraGlow",
-              "price": 599
-            },
-            {
-              "name": "Redefine Facial Sculpt",
-              "price": 999
-            },
-            {
-              "name": "Scalp Hydrafacial",
-              "price": 799
-            },
-            {
-              "name": "Forma Hollywood Lift",
-              "price": 1299
+              "name": "Oxygeneo",
+              "price": 699
             } 
-          ]
-        },
-        {
-          "category": "Add On",
-          "services": [
-            {
-              "name": "Vitamin C Serum",
-              "price": 29
-            },
-            {
-              "name": "Gold Serum",
-              "price": 199
-            },
-            {
-              "name": "Brightening Serum",
-              "price": 199
-            },
-            {
-              "name": "Collagen Threads",
-              "price": 499
-            }
-          ]
-        },
-        {
-          "category": "Lymphatic Drainage Massage",
-          "services": [
-            {
-              "name": "Face - 1 Session",
-              "price": 249
-            },
-            {
-              "name": "Face - 3 Sessions",
-              "price": 599
-            }
           ]
         }
       ],
       "faq": [
-        {
-          "question": "When Will I See Results?",
-          "answer": "Skin will feel hydrated, look cleaner, brighter, and healthier instantly. Noticeably radiant, too. Concerns such as hyperpigmentation, impacted skin or acne may take longer to treat, but clients usually see an improvement after 5 treatments."
-        },
-        {
-          "question": "Can I Go Back to Work Afterwards?",
-          "answer": "Absolutely. That's the beauty of this baby. Keep in mind you may experience some redness that should last no longer than 15 minutes. Refrain from applying makeup for 24 hours—let those serums do their work!"
-        },
-        {
-          "question": "How Often Should I Get This Service?",
-          "answer": "Best results are achieved by making HydraFacial a consistent part of your skincare routine. We recommend receiving this treatment once a month to maintain overall skin health."
-        },
-        {
-          "question": "Does It Hurt?",
-          "answer": "No, this treatment is not painful—not even the extractions. So sit back, and relax. If you have opted for a medical-grade peel or Mesotherapy add-on you may experience mild discomfort."
-        },
-        {
-          "question": "How Does This Compare to My Regular Facial?",
-          "answer": "Chances are your (regular) facial feels nice and all, but HydraFacial is in a category all its own. HydraFacial is an advanced treatment that's geared toward delivering visible results and skin improvement via deep cleansing, exfoliation, extraction and intense hydration. It uses technology to get the job done."
-        }
-      ]
+      {
+        "question": "When will I see results?",
+        "answer": "You’ll notice a visible glow and smoother texture right after your first OxyGeneo Facial. Pigmentation and tone improvements continue to develop over the next few sessions."
+      },
+      {
+        "question": "What does it target?",
+        "answer": "The OxyGeneo Facial targets pigmentation, dullness, fine lines, dehydration, and uneven skin tone by oxygenating and deeply nourishing the skin from within."
+      },
+      {
+        "question": "Can I go back to work afterwards?",
+        "answer": "Yes. There’s absolutely no downtime. You can return to work or social activities immediately after your treatment."
+      },
+      {
+        "question": "How often should I get this service?",
+        "answer": "For ongoing radiance and even tone, it’s recommended every 3-4 weeks. A course of 4-6 sessions delivers the best cumulative results."
+      },
+      {
+        "question": "Does it hurt?",
+        "answer": "Not at all. The OxyGeneo treatment is gentle, soothing, and relaxing, many clients describe it as a spa-like experience."
+      },
+      {
+        "question": "How does this compare to my regular facial?",
+        "answer": "Unlike traditional facials that only treat the surface, the OxyGeneo Facial works on a cellular level - exfoliating, oxygenating, and infusing active ingredients simultaneously. It delivers both instant and long-term results for pigmentation, hydration, and natural glow."
+      }
+    ]
     },
     {
       "id": 3,
