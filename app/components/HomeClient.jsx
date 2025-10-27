@@ -129,7 +129,7 @@ export default function HomeClient() {
 
   return (
     <>
-      {/* <PromoPopup /> */}
+      <PromoPopup />
 
       {/* Hero */}
       <div className="home-hero">
