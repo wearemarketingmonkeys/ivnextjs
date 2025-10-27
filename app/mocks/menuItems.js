@@ -87,7 +87,7 @@ export const menuItems = [
               submenuTitle: "Hydration",
               submenu: [
                 { label: "Signature Hydrafacial", to: "/aesthetic/hydra-facial" },
-                { label: "Oxygeneo Hydrafacial", to: "/aesthetic/oxygeneo-hydrafacial" },
+                { label: "Oxygeneo Facial", to: "/aesthetic/oxygeneo-facial" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
                 { label: "Collagen Threads", to: "/aesthetic/hydra-facial" },
                 { label: "Fillers", to: "/aesthetic/dermal-fillers" },

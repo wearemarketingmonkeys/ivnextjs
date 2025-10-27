@@ -328,7 +328,7 @@
       "startingAmount": 699,
       "discount": 20,
       "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
-      "fullDetailsUrl": "/aesthetic/oxygeneo-hydrafacial",
+      "fullDetailsUrl": "/aesthetic/oxygeneo-facial",
       "treatmentsTips": [
         {
           "name": "Pre-Treatment Tips",
@@ -366,7 +366,7 @@
       "afterImg": "oxyafter.webp",
       "treatments": [
         {
-          "category": "HydraFacial™",
+          "category": "Facial™",
           "services": [
             {
               "name": "Oxygeneo",
