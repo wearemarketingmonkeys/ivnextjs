@@ -21,12 +21,19 @@ const PromoPopup = () => {
               &times;
             </span>
             <h2 style={styles.title}>PROMOS</h2>
-            <h3 style={styles.subTitle}>LASER HAIR REMOVAL</h3>
-            <p>upto 50% OFF!</p>
-            <h3 style={styles.discount}>Complimentary Booster (worth AED 499)</h3>
-            <p>with the purchase of any IV Drip valued at AED 1599</p>
-            <h3 style={styles.discount}>Hollywood or Korean Facelift</h3>
-            <p>Get 50% OFF!</p>
+            <h3 style={styles.subTitle}>Holiday specials</h3>
+            <p>upto 50% off below treatments*</p>
+            <br/>
+            <p>EXOSOMES</p>
+            <p>GLASS SKIN - SKIN BOOSTER</p>
+            <p>Filler</p>
+            <p>Botox</p>
+            <p>Collagen Boost</p>
+            <p>Fat Melting</p>
+            <p>Korean 3D facelift</p>
+            <br/>
+            <p>Limited slots, limited time</p>
+            <p><i>T&C Applicable</i></p>
             <a
               href="https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0"
               className="main-btn btn"
