@@ -324,7 +324,7 @@
           "txt": "Redness"
         }
       ],
-      "duration": 20,
+      "duration": 30,
       "startingAmount": 699,
       "discount": 20,
       "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
@@ -365,15 +365,7 @@
       "beforeImg": "oxybefore.webp",
       "afterImg": "oxyafter.webp",
       "treatments": [
-        {
-          "category": "Facial™",
-          "services": [
-            {
-              "name": "Oxygeneo",
-              "price": 699
-            } 
-          ]
-        }
+        
       ],
       "faq": [
       {
