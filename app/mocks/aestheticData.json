@@ -225,10 +225,6 @@
               "price": 599
             },
             {
-              "name": "Salmon DNA",
-              "price": 699
-            },
-            {
               "name": "Redefine Facial Sculpt",
               "price": 999
             },
@@ -260,7 +256,11 @@
             {
               "name": "Collagen Threads",
               "price": 499
-            }
+            },
+            {
+              "name": "Salmon DNA",
+              "price": 699
+            },
           ]
         },
         {
