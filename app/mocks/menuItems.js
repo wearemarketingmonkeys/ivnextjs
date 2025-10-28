@@ -16,6 +16,7 @@ export const menuItems = [
                 { label: "Skin Booster", to: "/aesthetic/skin-boosters" },
                 { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
                 { label: "Collagen stimulation (Sculptra & Radiesse)", to: "/aesthetic/collagen-stimulation" },
+                { label: "HIFU Treatment", to: "/aesthetic/hifu-treatment" },
               ],
             },
             {
