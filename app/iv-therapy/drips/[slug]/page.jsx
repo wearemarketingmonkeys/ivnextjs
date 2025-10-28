@@ -318,10 +318,9 @@ export default function DripDetailPage({ params, searchParams }) {
 
               {/* Price */}
               {heroPrice != null && heroPrice !== '' && (
-                <h2>
-                  <i>AED {heroPrice}</i> / per session
-                </h2>
+                <h2><i>AED {heroPrice}</i>{' '}{drip?.subqty?.length > 0 ? ` / ${drip.subqty}` : ''} / per session</h2>
               )}
+
 
               {sessionList.length > 0 && (
                 <div className="session-buttons" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', margin: '10px 0' }}>
