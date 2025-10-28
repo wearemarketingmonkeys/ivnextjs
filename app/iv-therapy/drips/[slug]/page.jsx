@@ -233,7 +233,7 @@ export default function DripDetailPage({ params, searchParams }) {
   // Build final URL
   const cartUrl = `https://book.ivhub.com/cart.php?key=${encodedKey}`;
 
-  const displayprop = drip?.subqty?.sessionhide === 'yes' ? 'none' : 'flex';
+  const displayprop = drip?.sessionhide === 'yes' ? 'none' : 'flex';
 
 
   return (
