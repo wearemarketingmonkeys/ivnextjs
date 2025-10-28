@@ -2646,6 +2646,74 @@
           "answer": "Many women report an increase in desire, confidence, and overall intimate satisfaction after treatment."
         }
       ]
+    },
+    {
+      "id": 16,
+      "img": "",
+      "video": "hifu.mp4",
+      "title": "HIFU Treatment",
+      "othertext": "",
+      "subHeading": "Hello Skin Glow. | Hello Youthful Appearance. | Hello Clear Skin.",
+      "desc": "Experience advanced non-surgical lifting with HIFU at IV Wellness Lounge Dubai. Our experts tailor every session to your needs, whether it’s tightening the face, defining the jawline, sculpting the body, or firming the neck, for natural, lasting results that bring back youthful confidence.",
+      "howItWorks": "HIFU (High-Intensity Focused Ultrasound) works by delivering precise ultrasound energy deep beneath the skin’s surface, targeting the same layers addressed in surgical facelifts — without any incisions. This focused energy heats the tissue to stimulate the natural production of collagen and elastin, tightening and lifting the skin over time.<br/><br/>During your session, a handheld device glides smoothly across the treatment area, sending controlled pulses of ultrasound energy to specific depths. There’s no damage to the skin’s surface, only deep tissue rejuvenation. Over the following weeks, your skin gradually becomes firmer, smoother, and more lifted as collagen rebuilds naturally.",
+      "whyWeLoveIt": "At <b>IV Wellness Lounge Dubai</b>, we bring the power of advanced HIFU technology to redefine how your skin looks and feels. HIFU (High-Intensity Focused Ultrasound) is a non-surgical lifting and tightening treatment that works deep beneath the skin’s surface to stimulate collagen and elastin production.<br/><br/>The result is smoother, firmer, and more sculpted skin without needles, surgery, or downtime. The HIFU treatment in Dubai is ideal for lifting the face, tightening the neck, sculpting the chin and jawline, and firming areas of the body that have lost elasticity.<br/><br/>Whether you’re targeting sagging skin, fine lines, or simply want a more defined contour, HIFU delivers noticeable, natural results that improve over time.",
+      "treatableArea": "Face | Neck | Chin | Jawline | Arms | Abdomen | Thighs",
+      "treatableConcerns": [],
+      "duration": 20,
+      "startingAmount": 1499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/hifu-treatment",
+      "benefits": [
+          "Tightens and lifts skin on the face, neck, chin, and body",
+          "Defines jawline and reduces double chin",
+          "Firms sagging skin and smooths fine lines",
+          "Stimulates natural collagen and elastin production",
+          "Improves skin texture, tone, and elasticity",
+          "Contours and sculpts without surgery or downtime",
+          "Long-lasting, natural results with minimal discomfort"
+      ],
+      "safety": "The HIFU procedure is FDA-approved, safe, and non-invasive. It uses focused ultrasound energy to heat the deeper layers of the skin without affecting the surface. This triggers the body’s natural healing response, boosting collagen and tightening skin over time.<br/><br/>You may experience a warm or tingling sensation during treatment, but no significant pain or side effects. Mild redness may appear briefly and subsides within hours. There is no downtime, allowing you to return to your routine immediately after your session.",
+      "idealtitle": "The HIFU facial and body treatment is perfect for individuals who want to:",
+      "idealFor": [
+        "Lift and tighten sagging skin on the face or neck",
+        "Define the chin and jawline for a sharper contour",
+        "Improve elasticity and firmness on the body",
+        "Reduce fine lines, wrinkles, and mild skin laxity",
+        "Achieve a youthful, sculpted look without surgery",
+        "Maintain results from previous aesthetic treatments"
+      ],
+      "treatmentsTips": [],
+      "resultTxt": "Some clients notice an immediate lift and firmness after their first HIFU session, with results continuing to improve over the next 8 to 12 weeks as new collagen forms. Depending on your skin type and treatment area, results can last between 12 to 18 months. Maintenance sessions can be scheduled annually for sustained firmness and definition.",
+      "beforeImg": "hifubefore.webp",
+      "afterImg": "hifuafter.webp",
+      "treatments": [],
+      "faq": [
+        {
+          "question": "When will I see results?",
+          "answer": "You’ll notice a subtle lift right after your first session, with full tightening effects developing over 2 to 3 months as collagen rebuilds naturally."
+        },
+        {
+          "question": "What does HIFU target?",
+          "answer": "The HIFU treatment in Dubai targets sagging skin, double chin, fine lines, and loss of firmness across the face, neck, and body. It works by stimulating deep collagen remodeling for a natural lift."
+        },
+        {
+          "question": "Can I go back to work afterwards?",
+          "answer": "Yes. HIFU is a zero-downtime procedure. You can return to work or social plans immediately."
+        },
+        {
+          "question": "How often should I get this treatment?",
+          "answer": "Most clients require one full session per year. Depending on skin condition, some choose touch-ups every 6 to 12 months for maintenance."
+        },
+        {
+          "question": "Does it hurt?",
+          "answer": "The procedure is well tolerated. You may feel a gentle warmth or tingling beneath the skin, which indicates that collagen stimulation is occurring."
+        },
+        {
+          "question": "How does this compare to my regular facial?",
+          "answer": "Unlike regular facials that only treat the skin’s surface, HIFU works deep into the foundational layers to lift and tighten from within. It’s a true non-surgical alternative to a facelift or body tightening procedure."
+        }
+      ]
     }
   ]
 }
