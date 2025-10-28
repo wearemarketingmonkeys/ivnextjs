@@ -233,6 +233,9 @@ export default function DripDetailPage({ params, searchParams }) {
   // Build final URL
   const cartUrl = `https://book.ivhub.com/cart.php?key=${encodedKey}`;
 
+  const displayprop = drip?.subqty?.sessionhide === 'yes' ? 'none' : 'flex';
+
+
   return (
     <main className="drips-details">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -323,7 +326,7 @@ export default function DripDetailPage({ params, searchParams }) {
 
 
               {sessionList.length > 0 && (
-                <div className="session-buttons" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', margin: '10px 0' }}>
+                <div className="session-buttons" style={{ display: displayprop, gap: 10, flexWrap: 'wrap', margin: '10px 0' }}>
                   {sessionList.map((sp, i) => {
                     const isActive =
                       (activeSession?.txt || '').toLowerCase() === (sp.txt || '').toLowerCase() ||
