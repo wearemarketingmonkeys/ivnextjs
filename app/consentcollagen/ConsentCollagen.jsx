@@ -397,6 +397,17 @@ export default function ConsentCollagen() {
           </label>
         </div>
       ))}
+        
+      {/* SIGNATURE */}
+      <h2>Signature</h2>
+      <div className="form-group">
+        <label>Patient Full Name</label>
+        <input name="patientName" value={form.patientName} onChange={handleChange} required />
+      </div>
+      <div className="form-group">
+        <label>Consent Date</label>
+        <input type="date" name="consentDate" value={form.consentDate} onChange={handleChange} required />
+      </div>
 
       <div className="form-group">
           <label>
@@ -412,16 +423,6 @@ export default function ConsentCollagen() {
           </label>
         </div>
         
-      {/* SIGNATURE */}
-      <h2>Signature</h2>
-      <div className="form-group">
-        <label>Patient Full Name</label>
-        <input name="patientName" value={form.patientName} onChange={handleChange} required />
-      </div>
-      <div className="form-group">
-        <label>Consent Date</label>
-        <input type="date" name="consentDate" value={form.consentDate} onChange={handleChange} required />
-      </div>
       <div className="form-group">
         <label>Patient Signature</label>
         <div style={{ border: "1px solid #ddd", borderRadius: 8, overflow: "hidden", maxWidth: 520 }}>
