@@ -15,6 +15,8 @@ const initialState = {
   procedureDate: "",
   practitionerName: "",
 
+  policy1: "",
+
   treatmentUnderstanding: [],
   treatmentAreas: [],
   otherArea: "",
@@ -368,6 +370,20 @@ export default function ConsentEmsculpt() {
           </label>
         </div>
       ))}
+
+      <div className="form-group">
+          <label>
+            <input
+              type="checkbox"
+              name="policy1"
+              checked={!!form.policy1}
+              value="I have read and agree to the Cancellation and Refund Policy"
+              onChange={handleChange}
+              required
+            />{" "}
+            I have read and agree to the <a href="https://ivhub.com/cancellation-policy"><b>Cancellation and Refund Policy<b></b></b></a>
+          </label>
+        </div>
 
       {/* SIGNATURE */}
       <h2>Signature</h2>

@@ -20,6 +20,8 @@ const initialState = {
   otherArea: "",
 
   understanding: [],
+
+  policy1: "",
  
   expectedBenefits: "Restoration of facial volume; Enhanced firmness/texture/elasticity; Gradual improvement; Long-lasting results up to 2 years",
   sideEffects: "Swelling/redness/bruising; Tenderness; Small bumps/nodules; Asymmetry; Granuloma (rare); Vascular occlusion (rare); Allergic reaction/irritation",
@@ -396,6 +398,20 @@ export default function ConsentCollagen() {
         </div>
       ))}
 
+      <div className="form-group">
+          <label>
+            <input
+              type="checkbox"
+              name="policy1"
+              checked={!!form.policy1}
+              value="I have read and agree to the Cancellation and Refund Policy"
+              onChange={onChange}
+              required
+            />{" "}
+            I have read and agree to the <a href="https://ivhub.com/cancellation-policy"><b>Cancellation and Refund Policy<b></b></b></a>
+          </label>
+        </div>
+        
       {/* SIGNATURE */}
       <h2>Signature</h2>
       <div className="form-group">
