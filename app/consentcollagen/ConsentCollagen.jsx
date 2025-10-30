@@ -405,7 +405,7 @@ export default function ConsentCollagen() {
               name="policy1"
               checked={!!form.policy1}
               value="I have read and agree to the Cancellation and Refund Policy"
-              onChange={onChange}
+              onChange={handleChange}
               required
             />{" "}
             I have read and agree to the <a href="https://ivhub.com/cancellation-policy"><b>Cancellation and Refund Policy<b></b></b></a>
