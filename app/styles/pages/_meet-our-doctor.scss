@@ -13,6 +13,18 @@
     align-items: center;
   }
 
+  .mod-media{
+    text-align: right;
+
+    img{
+      width: 100%;
+    
+      @media screen and (max-width: 600px) {
+        width: 60%;
+      }
+    }
+  }
+
   .mod-title {
     h1 {
       font-size: 70px;
