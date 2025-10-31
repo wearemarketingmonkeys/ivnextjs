@@ -615,7 +615,7 @@
 
   a {
     color: #f2eee9;
-    -webkit-text-stroke: 1px transparent; // valid stroke syntax
+    -webkit-text-stroke: 1px; // valid stroke syntax
     letter-spacing: 0.5px;
     display: inline-block; // ensures transform animates correctly
     transition: transform 0.3s ease, color 0.3s ease;
