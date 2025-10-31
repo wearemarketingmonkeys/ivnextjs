@@ -85,7 +85,7 @@ const PromoPopup = () => {
         @media (max-width: 768px) {
           .popup {
             flex-direction: column;
-            max-height: 620px;
+            max-height: 660px;
           }
 
           .content{
