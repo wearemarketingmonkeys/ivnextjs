@@ -30,7 +30,7 @@ export default function MeetOurDoctorPage() {
       <section className="mod-hero">
         <div className="mod-title">
           <h1>Dr. Pradheeksha Krishnaprasad</h1>
-          <div>The pinnacle of Aesthetic and Laser</div>
+          <div>Blending Korean Innovation with Regenerative Wellness</div>
         </div>
         <div className="mod-media">
           <Image
