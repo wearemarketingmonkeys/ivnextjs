@@ -35,8 +35,8 @@ export default function MeetOurDoctorPage() {
         <div className="mod-media">
           <Image
             src="/assets/img/mod/doctor1.jpg"
-            width={400}
-            height={600}
+            width={450}
+            height={550}
             alt="Dr. Pradheeksha Krishnaprasad"
           />
         </div>
@@ -47,7 +47,7 @@ export default function MeetOurDoctorPage() {
           <Image
             src="/assets/img/mod/doctor2.jpg"
             width={450}
-            height={623}
+            height={600}
             alt="Dr. Pradheeksha Krishnaprasad"
           />
         </div>
