@@ -278,6 +278,14 @@ export default function DripDetailPage({ params, searchParams }) {
                 </div>
               )}
 
+              {drip?.readstudy && drip.readstudy.length > 0 && (
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: drip.readstudy,
+                  }}
+                />
+              )}
+
               {/* Inline Buttons as server links (SSR, no client state needed) */}
               {buttons.length > 0 && (
                 <div

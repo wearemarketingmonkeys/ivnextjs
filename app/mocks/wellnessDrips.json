@@ -2440,7 +2440,8 @@
           }
         ],
         "bookingBtn": "https://book.ivhub.com/",
-        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus",
+        "readstudy": "<div className='superline flex items-start gap-2 readstudy'><div><strong>Backed by University of Oslo research</strong> showing NAD⁺ supports healthy aging. <br/><br/><a href='https://www.med.uio.no/klinmed/english/research/news-and-events/news/2025/nad-zombie-cells-and-the-battle-against-premature-ageing.html' target='_blank' rel='noopener noreferrer' className='mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-800'>Read study →</a></div></div>"
       },
       {
         "id":22,
@@ -2522,7 +2523,8 @@
           
         ],
         "bookingBtn": "https://book.ivhub.com/",
-        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus",
+        "readstudy": "<div className='superline flex items-start gap-2 readstudy'><div><strong>Backed by University of Oslo research</strong> showing NAD⁺ supports healthy aging. <br/><br/><a href='https://www.med.uio.no/klinmed/english/research/news-and-events/news/2025/nad-zombie-cells-and-the-battle-against-premature-ageing.html' target='_blank' rel='noopener noreferrer' className='mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-800'>Read study →</a></div></div>"
       },
       {
         "id": 23,
@@ -2604,7 +2606,8 @@
           
         ],
         "bookingBtn": "https://book.ivhub.com/",
-        "moreDetailsUrl": "/iv-therapy/drips/nad-plus"
+        "moreDetailsUrl": "/iv-therapy/drips/nad-plus",
+        "readstudy": "<div className='superline flex items-start gap-2 readstudy'><div><strong>Backed by University of Oslo research</strong> showing NAD⁺ supports healthy aging. <br/><br/><a href='https://www.med.uio.no/klinmed/english/research/news-and-events/news/2025/nad-zombie-cells-and-the-battle-against-premature-ageing.html' target='_blank' rel='noopener noreferrer' className='mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-800'>Read study →</a></div></div>"
       },
       {
         "id": 24,

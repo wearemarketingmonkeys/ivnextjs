@@ -606,3 +606,24 @@
     } 
   }
 }
+
+.readstudy {
+  background: #7ca47c;
+  border: 1px solid #7ca47c;
+  color: #f2eee9;
+  padding: 1rem; // optional for layout consistency
+
+  a {
+    color: #f2eee9;
+    -webkit-text-stroke: 1px transparent; // valid stroke syntax
+    letter-spacing: 0.5px;
+    display: inline-block; // ensures transform animates correctly
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none; // optional for cleaner look
+  }
+
+  a:hover {
+    transform: translateX(4px); // slides slightly right
+    color: #ffffff; // optional subtle brightness
+  }
+}
