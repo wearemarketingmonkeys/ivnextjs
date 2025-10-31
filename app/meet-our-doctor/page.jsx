@@ -36,7 +36,7 @@ export default function MeetOurDoctorPage() {
           <Image
             src="/assets/img/mod/doctor1.jpg"
             width={450}
-            height={550}
+            height={600}
             alt="Dr. Pradheeksha Krishnaprasad"
           />
         </div>
