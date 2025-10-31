@@ -77,62 +77,71 @@ export default function MeetOurDoctorPage() {
       </section>
 
       <section className="mod-focus-area">
-        <h2>FOCUS TREATMENT AREA </h2>
+        <h2>Focus Treatment Area</h2>
         <div className="item">
           <button className="button-89" role="button">
-            Acne treatment
+            Fine lines & wrinkles
           </button>
           <button className="button-89" role="button">
-            Acne Scar treatment
+            Skin laxity
           </button>
           <button className="button-89" role="button">
-            Keloid Scar
+            Dullness & dehydration
           </button>
           <button className="button-89" role="button">
-            Hair loss
+            Pigmentation & uneven tone
           </button>
           <button className="button-89" role="button">
-            Botox
+            Acne scars
           </button>
           <button className="button-89" role="button">
-            Dermal Fillers
+            Open pores
           </button>
           <button className="button-89" role="button">
-            Mesotherapy
+            Volume loss
           </button>
           <button className="button-89" role="button">
-            PRP (platelet rich plasma)
+            Double chin
           </button>
           <button className="button-89" role="button">
-            Radiofrequency
+            Under-eye hollows
           </button>
           <button className="button-89" role="button">
-            Collagen Stimulation by 
-              Injection
+            Dark circles
           </button>
           <button className="button-89" role="button">
-            Skin boosters
+            Uneven texture
           </button>
           <button className="button-89" role="button">
-            Exosomes & Stem cells
+            Sagging jawline
           </button>
           <button className="button-89" role="button">
-            Lipolysis injections
+            Melasma
           </button>
           <button className="button-89" role="button">
-            Hand and neck rejuvenation
+            Stretch marks
           </button>
           <button className="button-89" role="button">
-            Body Fillers
+            Cellulite
           </button>
           <button className="button-89" role="button">
-            Hyperhidrosis
+            Hair thinning
           </button>
           <button className="button-89" role="button">
-            Treatment of hyperpigmentation
+            Enlarged pores
+          </button>
+          <button className="button-89" role="button">
+            Sun damage
+          </button>
+          <button className="button-89" role="button">
+            Neck aging
+          </button>
+          <button className="button-89" role="button">
+            Hand rejuvenation
           </button>
         </div>
       </section>
+
 
       <section className="mod-img-gallary">
         {/* <MyGallery /> */}
@@ -141,7 +150,7 @@ export default function MeetOurDoctorPage() {
       <section className="mod-education">
         <div className="mod-education-wrap">
           <h2>Education </h2>
-
+          <br/>
           <div className="education">
             <div>
               <h3>MBBS</h3>
