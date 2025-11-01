@@ -11,8 +11,8 @@ import MobileMenu from './MobileMenu';
 import { menuItems } from '../mocks/menuItems';
 
 const paths = {
-  logo: '/assets/img/logo/october-iv-logo.png',
-  mblLogo: '/assets/img/logo/october-iv-logo.png',
+  logo: '/assets/img/logo/logo.png',
+  mblLogo: '/assets/img/logo/logo.png',
   waIcon: '/assets/icons/wa.png',
   hamburger: '/assets/icons/hamburger.png',
   caretBlack: '/assets/icons/caret-black.png',

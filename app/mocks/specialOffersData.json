@@ -2,26 +2,6 @@
   "specialOffersData": [
     {
       "id": 1,
-      "img": "octoberoffer.jpeg",
-      "title": "This October, celebrate your strength with 10% off IV drips because self-care is the greatest power",
-      "desc": {
-        "brif": "In the spirit of promoting women's health and encouraging regular check-ups, we're proud to offer you a special 10% discount on our IV drips throughout this month (LOVE10)"
-      },
-      "bookingBtn": "https://book.ivhub.com/",
-      "newBadge": false
-    },
-    {
-      "id": 2,
-      "img": "hsbc.jpg",
-      "title": "HSBC Customer Experience Week",
-      "desc": {
-        "brif": "Wellness meets privilege: your HSBC code unlocks up to 40% OFF. Offer is valid from 6th to 10th October."
-      },
-      "bookingBtn": "https://wa.me/97180048482?text=Hello, I’d like to redeem my coupon code HSBCIVWL for custom services as part of the HSBC Customer Experience Week.",
-      "newBadge": false
-    },
-    {
-      "id": 3,
       "img": "koreanlift.jpg",
       "title": "Korean 3D lift",
       "desc": {
@@ -31,7 +11,7 @@
       "newBadge": false
     },
     {
-      "id": 4,
+      "id": 2,
       "img": "laser.jpeg",
       "title": "Laser Hair Removal 50% Off",
       "desc": {
@@ -41,7 +21,7 @@
       "newBadge": false
     },
     {
-      "id": 5,
+      "id": 3,
       "img": "booster.jpeg",
       "title": "Get a Complimentary Booster Worth AED 499 on Drips Over AED 1,599!",
       "desc": {
@@ -51,7 +31,7 @@
       "newBadge": false
     },
     {
-      "id": 6,
+      "id": 4,
       "img": "morpheus8.jpeg",
       "title": "Get a FREE Skin Booster with Any Morpheus8 Treatment!",
       "desc": {
@@ -61,7 +41,7 @@
       "newBadge": false
     },
     {
-      "id": 7,
+      "id": 5,
       "img": "stubborn.jpeg",
       "title": "Melt Away Stubborn Fat – Now at 20% Off!",
       "desc": {
@@ -71,7 +51,7 @@
       "newBadge": false
     },
     {
-      "id": 8,
+      "id": 6,
       "img": "hairloss1.jpeg",
       "title": "Revive Your Roots with Our Hair Restoration Duo – Only AED 1,299!",
       "desc": {
@@ -81,7 +61,7 @@
       "newBadge": false
     },
     {
-      "id": 9,
+      "id": 7,
       "img": "wrinklerelaxer.jpeg",
       "title": "Smooth fine lines & rejuvenate  — now 30% off!",
       "desc": {
@@ -91,7 +71,7 @@
       "newBadge": false
     },
     {
-      "id": 10,
+      "id": 8,
       "img": "dermal.jpeg",
       "title": "Plump, contour & rejuvenate with Dermal Fillers — starting at AED 899 only!",
       "desc": {
@@ -101,7 +81,7 @@
       "newBadge": false
     },
     {
-      "id": 11,
+      "id": 9,
       "img": "chemical.jpeg",
       "title": "Glow all year round with our All-Season Chemical Peel — starting at AED 599!",
       "desc": {
