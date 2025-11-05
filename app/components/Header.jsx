@@ -255,7 +255,7 @@ export default function Header() {
                 </ul>
 
                 <div className="phone-wrap">
-                  <a href="https://book.ivhub.com/" className="btn" target="_blank" rel="noopener noreferrer">
+                  <a href="https://book.ivhub.com/cart.php" className="btn" target="_blank" rel="noopener noreferrer">
                     Book Now
                   </a>
                   <a className="whatsapp" href="https://wa.me/97180048482" target="_blank" rel="noopener noreferrer">
@@ -265,7 +265,7 @@ export default function Header() {
               </div>
 
               <div className="btn-wrap">
-                <a href="https://book.ivhub.com/" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://book.ivhub.com/cart.php" className="btn" target="_blank" rel="noopener noreferrer">
                   Book Now
                 </a>
               </div>
