@@ -210,7 +210,6 @@ export const menuItems = [
                 { label: "About us", to: "/about-us" },
                 { label: "Meet Our Doctor", to: "/meet-our-doctor" },
                 { label: "Packages", to: "/packages" },
-                { label: "Membership", to: "/membership" },
                 { label: "Blogs", to: "/blogs" },
                 { label: "Contact us", to: "/contact-us" },
                 { label: "Careers", to: "/career" },
