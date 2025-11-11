@@ -182,7 +182,7 @@ export default function Sitemap() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.ivhub.com/aesthetic/mesotherapy">Mesotherapy</Link>
+            <Link href="https://www.ivhub.com/aesthetic/microneedling">Microneedling</Link>
           </li>
           <li>
             <Link href="https://www.ivhub.com/aesthetic/collagen-stimulation">

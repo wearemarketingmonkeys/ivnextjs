@@ -14,7 +14,7 @@ export const menuItems = [
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
                 { label: "Forma", to: "/morpheus" },
                 { label: "Skin Booster", to: "/aesthetic/skin-boosters" },
-                { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling", to: "/aesthetic/microneedling" },
                 { label: "Collagen stimulation (Sculptra & Radiesse)", to: "/aesthetic/collagen-stimulation" },
                 { label: "HIFU Treatment", to: "/aesthetic/hifu-treatment" },
               ],
@@ -66,7 +66,7 @@ export const menuItems = [
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
                 { label: "Fillers", to: "/aesthetic/dermal-fillers" },
                 { label: "PRP", to: "/aesthetic/prp" },
-                { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling", to: "/aesthetic/microneedling" },
                 { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
                 { label: "Collagen stimulation (Sculptra & Radiesse)", to: "/aesthetic/collagen-stimulation" },
@@ -99,7 +99,7 @@ export const menuItems = [
               submenuTitle: "Dullness",
               submenu: [
                 { label: "Signature Hydrafacial", to: "/aesthetic/hydra-facial" },
-                { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling", to: "/aesthetic/microneedling" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
                 { label: "Glow Hub", to: "/iv-therapy/drips/glow-hub" },
                 { label: "IV Therapy", to: "/iv-therapy/drips" },
@@ -115,7 +115,7 @@ export const menuItems = [
               submenu: [
                 { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
                 { label: "PRP", to: "/aesthetic/prp" },
-                { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling", to: "/aesthetic/microneedling" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
                 { label: "Glow Hub", to: "/iv-therapy/drips/glow-hub" },
                 { label: "Beauty Hub", to: "/iv-therapy/drips/beauty-hub" },
@@ -164,7 +164,7 @@ export const menuItems = [
               submenu: [
                 { label: "Morpheus8®", to: "/morpheus" },
                 { label: "Chemical Peels", to: "/aesthetic/chemical-peel" },
-                { label: "Microneedling", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling", to: "/aesthetic/microneedling" },
               ],
             },
             {
@@ -173,7 +173,7 @@ export const menuItems = [
                 { label: "PRP", to: "/aesthetic/prp" },
                 { label: "Tear Trough Fillers", to: "/aesthetic/dermal-fillers" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
-                { label: "Mesotherapy (under-eye formula)", to: "/aesthetic/mesotherapy" },
+                { label: "Microneedling (under-eye formula)", to: "/aesthetic/microneedling" },
               ],
             },
             {

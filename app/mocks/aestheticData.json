@@ -4,11 +4,11 @@
       "id": 1,
       "img": "meso.webp",
       "video": false,
-      "title": "Mesotherapy",
+      "title": "Microneedling",
       "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
       "desc": "A microneedling treatment that stimulates collagen and elastin production for tighter skin.",
-      "howItWorks": "The word ‘meso’ indicates ‘middle.’ In Mesotherapy procedures, thin needles are used to administer injections to the middle layer of skin. A therapist injects hormones, vitamins, and enzymes into your skin using very thin needles to tighten and revitalize it. The aim of this treatment is to address the root causes of skin deterioration, such as inflammation and poor circulation. Mesotherapy is commonly used to treat a variety of skin problems, including pigmentation, skin tightening, wrinkles, lines, etc.",
-      "whyWeLoveIt": "Mesotherapy is a non-invasive rejuvenation treatment designed to restore vitality to both skin and hair. Using either gentle microneedling or targeted microinjections, it delivers a potent blend of vitamins, antioxidants, and plant-based actives directly where they're needed most. For the skin, it deeply hydrates, brightens, and enhances texture—revealing a radiant, youthful glow. For the scalp, it stimulates circulation, strengthens hair follicles, and supports healthy, fuller-looking hair. Whether you’re looking to revive your complexion or boost hair growth, Mesotherapy offers a refined, effective solution without downtime—nourishing beauty from the inside out.",
+      "howItWorks": "The word ‘meso’ indicates ‘middle.’ In Microneedling procedures, thin needles are used to administer injections to the middle layer of skin. A therapist injects hormones, vitamins, and enzymes into your skin using very thin needles to tighten and revitalize it. The aim of this treatment is to address the root causes of skin deterioration, such as inflammation and poor circulation. Microneedling is commonly used to treat a variety of skin problems, including pigmentation, skin tightening, wrinkles, lines, etc.",
+      "whyWeLoveIt": "Rediscover your skin’s natural radiance with Microneedling at IV Wellness Lounge Dubai. This advanced skin rejuvenation treatment uses fine medical-grade needles to create controlled microchannels in the skin, triggering your body’s natural healing process and stimulating collagen and elastin production.<br/>The result is firmer, smoother, and more youthful-looking skin with improved tone and texture. Microneedling helps reduce acne scars, fine lines, enlarged pores, and pigmentation while restoring a healthy glow from within.<br/>At IV Wellness, each microneedling session is tailored to your skin’s needs, using professional Microneedling and precise technique to ensure comfort, safety, and visible transformation. The treatment is non-invasive, with minimal downtime and long-lasting results that continue to improve over time.<br/>Perfect for anyone seeking a radiant complexion, refined texture, and natural rejuvenation - Microneedling in Dubai is your pathway to healthy, confident skin.",
       "treatableArea": "Full Face | Neck | Decollate | Hair",
       "treatableConcerns": [
         {
@@ -32,7 +32,7 @@
       "startingAmount": 699,
       "discount": 20,
       "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
-      "fullDetailsUrl": "/aesthetic/mesotherapy",
+      "fullDetailsUrl": "/aesthetic/microneedling",
       "treatmentsTips": [
         {
           "name": "Pre-Treatment Tips",
@@ -90,7 +90,7 @@
       "afterImg": "mesoafter.webp",
       "treatments": [
         {
-          "category": "Mesotherapy",
+          "category": "Microneedling",
           "services": [
             { "name": "PRP Microneedling", "price": 499 },
             { "name": "Glow Microneedling", "price": 699 },
@@ -107,24 +107,24 @@
           "answer": "We could apply it to face, neck, scalp (hair) depending on the indications."
         },
         {
-          "question": "Which skin type is good candidate for Mesotherapy?",
-          "answer": "All skin types are good candidate for Mesotherapy."
+          "question": "Which skin type is good candidate for Microneedling?",
+          "answer": "All skin types are good candidate for Microneedling."
         },
         {
-          "question": "What are the indications for Mesotherapy?",
+          "question": "What are the indications for Microneedling?",
           "answer": "Acne scars, rejuvenation, face fullness and glow, whitening face, Lip dystrophy, Alopecia, Hair Loss (both female and male), Cellulite, local Obesity, Stretch Lines, Rides, Sun Damaged Skin, and Wrinkles."
         },
         {
           "question": "How is mesothrapy done?",
-          "answer": "Mesotherapy can be carried out either manually using a syringe (mandatory in fat) or by using very small needles in meso roller or pen, or with a Mesotherapy gun."
+          "answer": "Microneedling can be carried out either manually using a syringe (mandatory in fat) or by using very small needles in meso roller or pen, or with a Microneedling gun."
         },
         {
-          "question": "What are the advantages of Mesotherapy?",
-          "answer": "Mesotherapy is a safe technique. Mesotherapy Solution is placed directly into the target area thus minimizing side effects, allergies and drug interaction. Mesotherapy also is an effective alternative for the treatment of cellulite, localized fat deposits, and alopecia and face/neck rejuvenation. Unlike surgery, Mesotherapy requires no post-operative recovery time, requires no heavy bandages or girdles, and no anesthesia is necessary. While many surgical procedures require one to two weeks of recovery, patients undergoing Mesotherapy have no interruptions to their daily life, while obtaining natural cosmetics rejuvenation."
+          "question": "What are the advantages of Microneedling?",
+          "answer": "Microneedling is a safe technique. Microneedling Solution is placed directly into the target area thus minimizing side effects, allergies and drug interaction. Microneedling also is an effective alternative for the treatment of cellulite, localized fat deposits, and alopecia and face/neck rejuvenation. Unlike surgery, Microneedling requires no post-operative recovery time, requires no heavy bandages or girdles, and no anesthesia is necessary. While many surgical procedures require one to two weeks of recovery, patients undergoing Microneedling have no interruptions to their daily life, while obtaining natural cosmetics rejuvenation."
         },
         {
-          "question": "How often should one get mesotherapy?",
-          "answer": "Mesotherapy treatments are typically given once per week. As improvement is seen, the treatments may be given less frequently, such as once every two weeks or once per month. It is mandatory for best results to come every week for the first four sessions but after that on occasion a treatment may be skipped--this will not affect your progress."
+          "question": "How often should one get Microneedling?",
+          "answer": "Microneedling treatments are typically given once per week. As improvement is seen, the treatments may be given less frequently, such as once every two weeks or once per month. It is mandatory for best results to come every week for the first four sessions but after that on occasion a treatment may be skipped--this will not affect your progress."
         },
         {
           "question": "When will I see the results?",
@@ -136,7 +136,7 @@
         },
         {
           "question": "Are there any side effects?",
-          "answer": "A common side effect of Mesotherapy is bruising, which generally resolves over one week. To speed up the healing process, we recommend that the homeopathic supplement arnica be applied topically on a daily basis. Patients may experience temporary soreness. This will subside within 24-48 hours."
+          "answer": "A common side effect of Microneedling is bruising, which generally resolves over one week. To speed up the healing process, we recommend that the homeopathic supplement arnica be applied topically on a daily basis. Patients may experience temporary soreness. This will subside within 24-48 hours."
         }
       ]
     },

@@ -26,7 +26,7 @@ const menuItems = [
     label: "AESTHETIC",
     to: "/aesthetic",
     submenu: [
-      { label: "Mesotherapy", to: "/aesthetic/mesotherapy" },
+      { label: "Microneedling", to: "/aesthetic/microneedling" },
       { label: "HydraFacial", to: "/aesthetic/hydra-facial" },
       { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
       { label: "Anti Aging", to: "/aesthetic/anti-aging" },
