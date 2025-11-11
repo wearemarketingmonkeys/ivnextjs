@@ -37,6 +37,9 @@ const service = {
       { name: 'Morpheus Face', price: '2299' },
       { name: 'Morpheus Body', price: '2999' },
     ]},
+    { category: 'Face', services: [
+      { name: 'Forma Hollywood Lift', price: '999' },
+    ]},
     { category: 'Add-On', services: [
       { name: 'PRP', price: '399' },
       { name: 'Exosomes', price: '1499' },

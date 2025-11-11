@@ -8,7 +8,7 @@
       "subHeading": "Hello Clear Skin. |  Hello Skin Glow. | Hello Youthful Appearance.",
       "desc": "A microneedling treatment that stimulates collagen and elastin production for tighter skin.",
       "howItWorks": "The word ‘meso’ indicates ‘middle.’ In Microneedling procedures, thin needles are used to administer injections to the middle layer of skin. A therapist injects hormones, vitamins, and enzymes into your skin using very thin needles to tighten and revitalize it. The aim of this treatment is to address the root causes of skin deterioration, such as inflammation and poor circulation. Microneedling is commonly used to treat a variety of skin problems, including pigmentation, skin tightening, wrinkles, lines, etc.",
-      "whyWeLoveIt": "Rediscover your skin’s natural radiance with Microneedling at IV Wellness Lounge Dubai. This advanced skin rejuvenation treatment uses fine medical-grade needles to create controlled microchannels in the skin, triggering your body’s natural healing process and stimulating collagen and elastin production.<br/>The result is firmer, smoother, and more youthful-looking skin with improved tone and texture. Microneedling helps reduce acne scars, fine lines, enlarged pores, and pigmentation while restoring a healthy glow from within.<br/>At IV Wellness, each microneedling session is tailored to your skin’s needs, using professional Microneedling and precise technique to ensure comfort, safety, and visible transformation. The treatment is non-invasive, with minimal downtime and long-lasting results that continue to improve over time.<br/>Perfect for anyone seeking a radiant complexion, refined texture, and natural rejuvenation - Microneedling in Dubai is your pathway to healthy, confident skin.",
+      "whyWeLoveIt": "Rediscover your skin’s natural radiance with Microneedling at IV Wellness Lounge Dubai. This advanced skin rejuvenation treatment uses fine medical-grade needles to create controlled microchannels in the skin, triggering your body’s natural healing process and stimulating collagen and elastin production.<br/><br/>The result is firmer, smoother, and more youthful-looking skin with improved tone and texture. Microneedling helps reduce acne scars, fine lines, enlarged pores, and pigmentation while restoring a healthy glow from within.<br/><br/>At IV Wellness, each microneedling session is tailored to your skin’s needs, using professional Microneedling and precise technique to ensure comfort, safety, and visible transformation. The treatment is non-invasive, with minimal downtime and long-lasting results that continue to improve over time.<br/><br/>Perfect for anyone seeking a radiant complexion, refined texture, and natural rejuvenation - Microneedling in Dubai is your pathway to healthy, confident skin.",
       "treatableArea": "Full Face | Neck | Decollate | Hair",
       "treatableConcerns": [
         {
@@ -229,12 +229,17 @@
               "price": 999
             },
             {
-              "name": "Scalp Hydrafacial",
-              "price": 799
-            },
-            {
               "name": "Forma Hollywood Lift",
               "price": 1299
+            } 
+          ]
+        },
+        {
+          "category": "Hair",
+          "services": [
+            {
+              "name": "Scalp Hydrafacial",
+              "price": 799
             } 
           ]
         },
@@ -553,7 +558,7 @@
       "desc": "Reduce the appearance of lines and wrinkles for a smoother, more refreshed look.",
       "howItWorks": "Beneath every wrinkle is a muscle nerve. We inject micro-doses of products into the end of that nerve to temporarily block – or freeze – its impulses and allow the facial muscles to relax. The result? Skin that's softer-looking, smoother, renewed.",
       "whyWeLoveIt": "When artfully administered, products give skin a renewed, smoothed-out appearance that looks natural. This FDA approved treatment has been used medically since the 1970s, so we know it’s safe. It's highly effective with zero downtime.",
-      "treatableArea": "Forehead | Crow's Feet | Frown Lines | Bunny Lines | Sad Smile | Perioral | Gummy Smile | Mentalis Muscle | Cosmetic Masseter | Underarms | Brows",
+      "treatableArea": "Traptox | Forehead | Crow's Feet | Frown Lines | Bunny Lines | Sad Smile | Perioral | Gummy Smile | Mentalis Muscle | Cosmetic Masseter | Underarms | Brows",
       "treatableConcerns": [
         {
           "icons": "antiIcon1.png",
@@ -1608,6 +1613,15 @@
       "beforeImg": "skinboosterbefore.webp",
       "afterImg": "skinboosterafter.webp",
       "treatments": [
+        {
+          "category": "Lip Booster",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 699
+            }
+          ]
+        },
         {
           "category": "Salmon DNA",
           "services": [
