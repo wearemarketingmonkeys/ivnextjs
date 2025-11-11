@@ -171,7 +171,7 @@ export const menuItems = [
               submenuTitle: "Under-eye concerns (Dark Circles, Puffiness)",
               submenu: [
                 { label: "PRP", to: "/aesthetic/prp" },
-                { label: "Tear Trough Fillers", to: "/aesthetic/dermal-fillers" },
+                { label: "Tear Trough Fillers", to: "/aesthetic/face-fillers" },
                 { label: "Skin Boosters", to: "/aesthetic/skin-boosters" },
                 { label: "Microneedling (under-eye formula)", to: "/aesthetic/microneedling" },
               ],

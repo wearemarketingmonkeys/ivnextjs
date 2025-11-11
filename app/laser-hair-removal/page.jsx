@@ -33,7 +33,7 @@ export const metadata = {
 // --- DATA (same content as your original) ---
 const service = {
   treatments: [
-    { category: 'Soprano', areas: 'Soprano Titanium Korean Facelift',
+    { category: 'Facelift', areas: 'Soprano Titanium Korean Facelift',
       services: [{ name:'1 Session', price:'1499' }] },
     { category: 'XS Area', areas: 'Upper Lip, Chin, Nipple, Fingers, Toes, Ears, Eyebrows, Nose',
       services: [{ name:'1 Session', price:'119' }, { name:'3 Sessions', price:'299' }, { name:'6 Sessions', price:'429' }] },
