@@ -28,7 +28,8 @@ export const menuItems = [
               submenu: [
                 { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
-                { label: "Fillers", to: "/aesthetic/face-fillers" },
+                { label: "Upper/ Lower/ Full Face Fillers", to: "/aesthetic/face-fillers" },
+                { label: "Lip Fillers", to: "/aesthetic/lip-fillers" },
                 { label: "HIFU Treatment", to: "/aesthetic/hifu-treatment" },
                 { label: "PRP", to: "/aesthetic/prp" },
                 { label: "Microneedling", to: "/aesthetic/microneedling" },
@@ -55,7 +56,7 @@ export const menuItems = [
               submenu: [
                 { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
-                { label: "Fillers", to: "/aesthetic/face-fillers" },
+                { label: "Body Fillers", to: "/aesthetic/body-fillers" },
                 { label: "HIFU Treatment", to: "/aesthetic/hifu-treatment" },
                 { label: "PRP", to: "/aesthetic/prp" },
                 { label: "Chemical Peel", to: "/aesthetic/chemical-peel" },
@@ -74,6 +75,8 @@ export const menuItems = [
               submenuTitle: "Male Wellness",
               submenu: [
                 { label: "P-Shot Treatment", to: "/aesthetic/p-shot-treatment" },
+                { label: "Performance support", to: "/iv-therapy/drips/performance-support" },
+                { label: "NAD+", to: "/iv-therapy/drips/nad-plus" },
               ],
             },
           ],
