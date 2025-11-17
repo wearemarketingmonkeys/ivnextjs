@@ -5,7 +5,26 @@
       "img": "hsbc2.jpg",
       "title": "HSBC Customer Experience Week",
       "desc": {
-        "brif": "Glow and Hydrate with Skin Boosters AED 899 (down from AED 1499) | HIFU small area - AED 999 DOWN FROM 1499 | Exosomes Glow Package (Hydrafacial + Exosomes) - AED 1,499 (DOWN FROM 2199) | Advanced Hair Regeneration (PRP +Growth Factor) - starting AED 999 (DOWN FROM 1398) | Face Glow Revival (2 Glutathione IV Drips + Glow Hydrafacial + Skin Booster) - AED 1,999 (DOWN FROM 2499) | IV DRIPS - 15% OFF any Drip"
+        "ul": [
+          {
+            "liTitle": "Glow and Hydrate with Skin Boosters AED 899 (down from AED 1499)"
+          },
+          {
+            "liTitle": "HIFU small area - AED 999 DOWN FROM 1499"
+          },
+          {
+            "liTitle": "Exosomes Glow Package (Hydrafacial + Exosomes) - AED 1,499 (DOWN FROM 2199)"
+          },
+          {
+            "liTitle": "Advanced Hair Regeneration (PRP +Growth Factor) - starting AED 999 (DOWN FROM 1398)"
+          },
+          {
+            "liTitle": "Face Glow Revival (2 Glutathione IV Drips + Glow Hydrafacial + Skin Booster) - AED 1,999 (DOWN FROM 2499)"
+          },
+          {
+            "liTitle": "IV DRIPS - 15% OFF any Drip"
+          }
+        ]
       },
       "bookingBtn": "https://wa.me/97180048482?text=Hello, I’d like to redeem my coupon code HSBCIVWL for custom services as part of the HSBC Dubai Fitness Challenge event",
       "newBadge": true
