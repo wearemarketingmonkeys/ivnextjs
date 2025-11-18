@@ -6,6 +6,21 @@ export const metadata = {
   description:
     'Review IV Wellness Lounge Clinic’s appointment & cancellation terms. Understand notice requirements, fees & refund eligibility before you book your session.',
   alternates: { canonical: 'https://ivhub.com/cancellation-policy' },
+  openGraph: {
+    title: 'Cancellation Policy | IV Wellness Lounge Clinic in Dubai',
+    description:
+      'Review IV Wellness Lounge Clinic’s appointment & cancellation terms. Understand notice requirements, fees & refund eligibility before you book your session.',
+    url: 'https://ivhub.com/cancellation-policy',
+    type: 'website',
+    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cancellation Policy | IV Wellness Lounge Clinic in Dubai',
+    description:
+      'Review IV Wellness Lounge Clinic’s appointment & cancellation terms. Understand notice requirements, fees & refund eligibility before you book your session.',
+    images: ['https://ivhub.com/og.png'],
+  },
 };
 
 export default function CancellationPolicy() {

@@ -5,6 +5,20 @@ const heroImg = "/assets/img/blog/blog-hero.webp";
 export const metadata = {
   title: 'About IV Wellness Lounge Clinic | Trusted IV Specialists',
   description: 'Our team combines advanced medical knowledge with luxury care, setting the standard for IV therapy in Dubai. Learn about our commitment, schedule a visit today.',
+  alternates: { canonical: 'https://ivhub.com/about-us' },
+  openGraph: {
+    title: 'About IV Wellness Lounge Clinic | Trusted IV Specialists',
+    description: 'Our team combines advanced medical knowledge with luxury care, setting the standard for IV therapy in Dubai. Learn about our commitment, schedule a visit today.',
+    url: 'https://ivhub.com/cancellation-policy',
+    type: 'website',
+    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About IV Wellness Lounge Clinic | Trusted IV Specialists',
+    description: 'Our team combines advanced medical knowledge with luxury care, setting the standard for IV therapy in Dubai. Learn about our commitment, schedule a visit today.',
+    images: ['https://ivhub.com/og.png'],
+  },
 };
 
 const About = () => {
