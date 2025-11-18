@@ -14,7 +14,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://ivhub.com/assets/img/hsbc2.jpg',
+        url: 'https://ivhub.com/assets/img/offer/hsbc2.jpg',
         width: 1200,
         height: 630,
       },
@@ -26,7 +26,7 @@ export const metadata = {
     description:
       'Discover special promotions for HSBC Customer Experience Week at IV Wellness Lounge Dubai, featuring premium skin, hair, and wellness treatments.',
     url: 'https://ivhub.com/hsbc-customer-experience-week',
-    images: ['https://ivhub.com/assets/img/hsbc2.jpg'],
+    images: ['https://ivhub.com/assets/img/offer/hsbc2.jpg'],
   },
 };
 
@@ -46,7 +46,7 @@ export default function HSBCPage() {
         </div>
         <div className="mod-media">
           <Image
-            src="/assets/img/hsbc2.jpg"
+            src="/assets/img/offer/hsbc2.jpg"
             alt="HSBC"
             width={1200}
             height={600}
