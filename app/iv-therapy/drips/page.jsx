@@ -1,23 +1,20 @@
 // app/iv-therapy/drips/page.jsx
 
 export const metadata = {
-  title: "Drips | IV Wellness Lounge",
-  description:
-    "Tailored IV drip therapy for your well-being. Choose, schedule, consult, and rejuvenate. Feel your best with our personalized nutrient infusions.",
+  title: "IV Drips in Dubai | Custom Formulations | IV Wellness Lounge",
+  description: "Receive bespoke IV drips at IV Wellness Lounge Clinic Dubai. Restore hydration, boost immunity, and support recovery. Book your tailored IV drip session now.",
   alternates: { canonical: "http://ivhub.com/iv-therapy/drips" },
   openGraph: {
-    title: "Drips | IV Wellness Lounge",
-    description:
-      "Tailored IV drip therapy for your well-being. Choose, schedule, consult, and rejuvenate. Feel your best with our personalized nutrient infusions.",
+    title: "IV Drips in Dubai | Custom Formulations | IV Wellness Lounge",
+    description: "Receive bespoke IV drips at IV Wellness Lounge Clinic Dubai. Restore hydration, boost immunity, and support recovery. Book your tailored IV drip session now.",
     url: "http://ivhub.com/iv-therapy/drips",
     type: "website",
     images: [{ url: "http://ivhub.com/og.png", width: 1200, height: 630, alt: "IV Wellness Lounge" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Drips | IV Wellness Lounge",
-    description:
-      "Tailored IV drip therapy for your well-being. Choose, schedule, consult, and rejuvenate. Feel your best with our personalized nutrient infusions.",
+    title: "IV Drips in Dubai | Custom Formulations | IV Wellness Lounge",
+    description: "Receive bespoke IV drips at IV Wellness Lounge Clinic Dubai. Restore hydration, boost immunity, and support recovery. Book your tailored IV drip session now.",
     images: ["http://ivhub.com/og.png"],
   },
 };

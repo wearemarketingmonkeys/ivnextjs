@@ -9,23 +9,20 @@ import FaqAccordionClient from './FaqAccordionClient';
 
 // --- SEO ---
 export const metadata = {
-  title: 'Morpheus8 RF Microneedling | IV Wellness Lounge Clinic in Dubai',
-  description:
-    'A radiofrequency-enhanced microneedling treatment that revitalizes collagen production for renewed, taut, and visibly rejuvenated skin.',
+  title: 'Morpheus8 Treatments in Dubai | IV Wellness Lounge Clinic',
+  description: 'Tighten and rejuvenate skin with Morpheus8 at IV Wellness Lounge Clinic Dubai. Fractional microneedling treats face and body. Book your consultation now.',
   alternates: { canonical: 'https://ivhub.com/morpheus' },
   openGraph: {
-    title: 'Morpheus8 RF Microneedling | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'A radiofrequency-enhanced microneedling treatment that revitalizes collagen production for renewed, taut, and visibly rejuvenated skin.',
+    title: 'Morpheus8 Treatments in Dubai | IV Wellness Lounge Clinic',
+    description: 'Tighten and rejuvenate skin with Morpheus8 at IV Wellness Lounge Clinic Dubai. Fractional microneedling treats face and body. Book your consultation now.',
     url: 'https://ivhub.com/morpheus',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Morpheus8 RF Microneedling | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'A radiofrequency-enhanced microneedling treatment that revitalizes collagen production for renewed, taut, and visibly rejuvenated skin.',
+    title: 'Morpheus8 Treatments in Dubai | IV Wellness Lounge Clinic',
+    description: 'Tighten and rejuvenate skin with Morpheus8 at IV Wellness Lounge Clinic Dubai. Fractional microneedling treats face and body. Book your consultation now.',
     images: ['https://ivhub.com/og.png'],
   },
 };

@@ -2,23 +2,20 @@ import Image from "next/image"
 // import MyGallery from "./gallery"
 
 export const metadata = {
-  title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
-  description:
-    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+  title: 'Our Doctor | IV Wellness Lounge Clinic Experts in Dubai',
+  description: 'Learn about the medical expertise behind IV Wellness Lounge Clinic Dubai. Meet our lead doctor and discover the clinical standards guiding your treatments.',
   alternates: { canonical: 'https://ivhub.com/meet-our-doctor' },
   openGraph: {
-    title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
-    description:
-    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    title: 'Our Doctor | IV Wellness Lounge Clinic Experts in Dubai',
+    description: 'Learn about the medical expertise behind IV Wellness Lounge Clinic Dubai. Meet our lead doctor and discover the clinical standards guiding your treatments.',
     url: 'https://ivhub.com/meet-our-doctor',
     type: 'website',
     images: [{ url: 'https://ivhub.com/assets/img/mod/dralejandra.jpeg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Pradheeksha Krishnaprasad | IV Wellness Lounge Clinic in Dubai',
-    description:
-    'About Dr. Pradheeksha Krishnaprasad Meet Dr. Pratz, our vibrant expert in aesthetic medicine, bringing over 6 years of experience to the table.',
+    title: 'Our Doctor | IV Wellness Lounge Clinic Experts in Dubai',
+    description: 'Learn about the medical expertise behind IV Wellness Lounge Clinic Dubai. Meet our lead doctor and discover the clinical standards guiding your treatments.',
     url: 'https://ivhub.com/meet-our-doctor',
     images: ['https://ivhub.com/assets/img/mod/dralejandra.jpeg'],
   },

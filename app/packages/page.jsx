@@ -5,9 +5,22 @@ import HeroSection from '../components/HeroSection';
 import IvPackageCard from '../components/IvPackageCard'; // ok if this is client
 
 export const metadata = {
-  title: 'IV Packages | IV Wellness Lounge',
-  description:
-    'Explore our exclusive IV therapy packages designed to boost wellness, energy, and recovery. Book your package today at IV Wellness Lounge.',
+  title: 'Wellness Packages in Dubai | IV Wellness Lounge Clinic',
+  description: 'Select premium wellness packages at IV Wellness Lounge Clinic Dubai. Combine IV drips and treatments for enhanced results and value. Book your package today.',
+  alternates: { canonical: 'https://ivhub.com/packages' },
+  openGraph: {
+    title: 'Wellness Packages in Dubai | IV Wellness Lounge Clinic',
+    description: 'Select premium wellness packages at IV Wellness Lounge Clinic Dubai. Combine IV drips and treatments for enhanced results and value. Book your package today.',
+    url: 'https://ivhub.com/packages',
+    type: 'website',
+    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Wellness Packages in Dubai | IV Wellness Lounge Clinic',
+    description: 'Select premium wellness packages at IV Wellness Lounge Clinic Dubai. Combine IV drips and treatments for enhanced results and value. Book your package today.',
+    images: ['https://ivhub.com/og.png'],
+  },
 };
 
 export default function IvPackages() {

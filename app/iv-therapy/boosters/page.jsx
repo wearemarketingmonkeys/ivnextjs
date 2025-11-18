@@ -4,23 +4,20 @@ import boostersData from '../../mocks/energyBoosters.json';
 
 // ---------- SEO ----------
 export const metadata = {
-  title: 'Energy Boosters | IV Wellness Lounge',
-  description:
-    'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
+  title: 'IV Boosters in Dubai | IV Wellness Lounge Clinic Treatments',
+  description: 'Choose targeted IV boosters at IV Wellness Lounge Clinic Dubai for enhanced hydration, energy, and wellness. Book your customized booster session now.',
   alternates: { canonical: 'https://ivhub.com/iv-therapy/boosters' },
   openGraph: {
-    title: 'Energy Boosters | IV Wellness Lounge',
-    description:
-      'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
+    title: 'IV Boosters in Dubai | IV Wellness Lounge Clinic Treatments',
+    description: 'Choose targeted IV boosters at IV Wellness Lounge Clinic Dubai for enhanced hydration, energy, and wellness. Book your customized booster session now.',
     url: 'https://ivhub.com/iv-therapy/boosters',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Energy Boosters | IV Wellness Lounge',
-    description:
-      'Elevate your well-being with our range of vitamin boosters. Choose from Vitamin C, Super B&#x27;s, CoQ10, MIC, and Vitamin D boosters to revitalize your body.',
+    title: 'IV Boosters in Dubai | IV Wellness Lounge Clinic Treatments',
+    description: 'Choose targeted IV boosters at IV Wellness Lounge Clinic Dubai for enhanced hydration, energy, and wellness. Book your customized booster session now.',
     images: ['https://ivhub.com/og.png'],
   },
 };

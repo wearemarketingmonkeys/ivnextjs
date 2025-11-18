@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'IV Wellness Lounge Clinic in Dubai | IV Drips & Aesthetics',
     description: 'Advanced IV drips and aesthetics by medical experts in a luxury setting or at home. Boost energy, hydration, and recovery. Book your personalized session now.',
-    url: 'https://ivhub.com/cancellation-policy',
+    url: 'https://ivhub.com/',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },

@@ -2,23 +2,20 @@
 // Server Component — no "use client"
 
 export const metadata = {
-  title: 'Privacy Policy | IV Wellness Lounge',
-  description:
-    'Learn how IV Wellness Lounge (ivhub.com) collects, uses, shares, and protects your personal data, and how to exercise your privacy rights.',
+  title: 'Privacy Policy | IV Wellness Lounge Clinic in Dubai',
+  description: 'Review how IV Wellness Lounge Clinic Dubai protects your personal data. Learn about our collection, storage, and usage practices before you use our services.',
   alternates: { canonical: 'https://ivhub.com/privacy-policy' },
   openGraph: {
-    title: 'Privacy Policy | IV Wellness Lounge',
-    description:
-      'Details on data we collect, how it’s used, sharing, retention, security, cookies, third-party links, and your privacy rights.',
+    title: 'Privacy Policy | IV Wellness Lounge Clinic in Dubai',
+    description: 'Review how IV Wellness Lounge Clinic Dubai protects your personal data. Learn about our collection, storage, and usage practices before you use our services.',
     url: 'https://ivhub.com/privacy-policy',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Privacy Policy | IV Wellness Lounge',
-    description:
-      'Details on data we collect, how it’s used, sharing, retention, security, cookies, third-party links, and your privacy rights.',
+    title: 'Privacy Policy | IV Wellness Lounge Clinic in Dubai',
+    description: 'Review how IV Wellness Lounge Clinic Dubai protects your personal data. Learn about our collection, storage, and usage practices before you use our services.',
     images: ['https://ivhub.com/og.png'],
   },
 };

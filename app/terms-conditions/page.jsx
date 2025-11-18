@@ -2,23 +2,20 @@
 // Server Component (no "use client")
 
 export const metadata = {
-  title: 'Terms and Conditions | IV Wellness Lounge',
-  description:
-    'Read IV Wellness Lounge’s terms and conditions of services, payment policy, PHI consent, informed consent, risks, and client acknowledgments.',
+  title: 'Terms & Conditions | IV Wellness Lounge Clinic in Dubai',
+  description: 'Read IV Wellness Lounge Clinic Dubai’s terms and conditions before booking. Understand user responsibilities, service guidelines, and policies for your visit.',
   alternates: { canonical: 'https://ivhub.com/terms-conditions' },
   openGraph: {
-    title: 'Terms and Conditions | IV Wellness Lounge',
-    description:
-      'Terms and conditions covering services, payment, PHI consent, informed consent, risks, and client acknowledgments.',
+    title: 'Terms & Conditions | IV Wellness Lounge Clinic in Dubai',
+    description: 'Read IV Wellness Lounge Clinic Dubai’s terms and conditions before booking. Understand user responsibilities, service guidelines, and policies for your visit.',
     url: 'https://ivhub.com/terms-conditions',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Terms and Conditions | IV Wellness Lounge',
-    description:
-      'Terms and conditions covering services, payment, PHI consent, informed consent, risks, and client acknowledgments.',
+    title: 'Terms & Conditions | IV Wellness Lounge Clinic in Dubai',
+    description: 'Read IV Wellness Lounge Clinic Dubai’s terms and conditions before booking. Understand user responsibilities, service guidelines, and policies for your visit.',
     images: ['https://ivhub.com/og.png'],
   },
 };

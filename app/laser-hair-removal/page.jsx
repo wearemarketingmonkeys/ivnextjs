@@ -9,23 +9,20 @@ import CompareClient from './CompareClient';
 
 // --- SEO ---
 export const metadata = {
-  title: 'Soprano Titanium – Laser Hair Removal | IV Wellness Lounge Clinic in Dubai',
-  description:
-    'Virtually painless, safe for all skin tones, and highly effective. See pricing by area and learn how Soprano Titanium works.',
+  title: 'Laser Hair Removal in Dubai | IV Wellness Lounge Clinic',
+  description: 'Achieve smooth, hair-free skin at IV Wellness Lounge Clinic Dubai. Advanced laser technology ensures effective, comfortable results. Book your session today.',
   alternates: { canonical: 'https://ivhub.com/laser-hair-removal' },
   openGraph: {
-    title: 'Soprano Titanium – Laser Hair Removal | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'Virtually painless, safe for all skin tones, and highly effective. See pricing by area and learn how Soprano Titanium works.',
+    title: 'Laser Hair Removal in Dubai | IV Wellness Lounge Clinic',
+    description: 'Achieve smooth, hair-free skin at IV Wellness Lounge Clinic Dubai. Advanced laser technology ensures effective, comfortable results. Book your session today.',
     url: 'https://ivhub.com/laser-hair-removal',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Soprano Titanium – Laser Hair Removal | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'Virtually painless, safe for all skin tones, and highly effective. See pricing by area and learn how Soprano Titanium works.',
+    title: 'Laser Hair Removal in Dubai | IV Wellness Lounge Clinic',
+    description: 'Achieve smooth, hair-free skin at IV Wellness Lounge Clinic Dubai. Advanced laser technology ensures effective, comfortable results. Book your session today.',
     images: ['https://ivhub.com/og.png'],
   },
 };
