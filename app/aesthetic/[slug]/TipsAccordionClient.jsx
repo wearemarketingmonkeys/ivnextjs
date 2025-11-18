@@ -43,7 +43,7 @@ export default function TipsAccordion({ items = [], type = 'tips', treatments = 
             <div className="tips-wrapper">
               {(x.tips || []).map((y, yi) => (
                 <div className="tips-wrap" key={yi}>
-                  {y.icon ? <img src={y.icon} alt="{y.alt}" /> : null}
+                  {y.icon ? <img src={y.icon} alt={y.alt} /> : null}
                   <p>{y.txt}</p>
                 </div>
               ))}
