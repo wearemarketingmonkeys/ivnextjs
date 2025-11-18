@@ -48,8 +48,8 @@ export default function HSBCPage() {
           <Image
             src="/assets/img/offer/hsbc2.jpg"
             alt="HSBC"
-            width={1000}
-            height={500}
+            width={1200}
+            height={600}
           />
         </div>
       </section>
