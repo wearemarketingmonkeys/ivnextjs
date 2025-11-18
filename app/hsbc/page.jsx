@@ -2,14 +2,14 @@ import Image from "next/image"
 // import MyGallery from "./gallery"
 
 export const metadata = {
-  title: 'HSBC Customer Experience Week | IV Wellness Lounge Dubai',
+  title: 'HSBC Customer Experience Week | IV Wellness Lounge Clinic',
   description:
-    'Celebrate HSBC Customer Experience Week with exclusive wellness and aesthetic offers at IV Wellness Lounge Dubai. Special discounts on skin boosters, HIFU, hydrafacial packages, hair regeneration, IV drips, and more.',
+    'Celebrate HSBC Customer Experience Week with exclusive wellness and aesthetic offers at IV Wellness Lounge Clinic. Special discounts on skin boosters, HIFU, hydrafacial packages, hair regeneration, IV drips, and more.',
   alternates: { canonical: 'https://ivhub.com/hsbc-customer-experience-week' },
   openGraph: {
-    title: 'HSBC Customer Experience Week | IV Wellness Lounge Dubai',
+    title: 'HSBC Customer Experience Week | IV Wellness Lounge Clinic',
     description:
-      'Exclusive limited-time offers for HSBC Customer Experience Week at IV Wellness Lounge Dubai. Enjoy discounted treatments including skin boosters, HIFU, hydrafacials, exosomes glow packages, and IV drips.',
+      'Exclusive limited-time offers for HSBC Customer Experience Week at IV Wellness Lounge Clinic. Enjoy discounted treatments including skin boosters, HIFU, hydrafacials, exosomes glow packages, and IV drips.',
     url: 'https://ivhub.com/hsbc-customer-experience-week',
     type: 'website',
     images: [
@@ -22,9 +22,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HSBC Customer Experience Week | IV Wellness Lounge Dubai',
+    title: 'HSBC Customer Experience Week | IV Wellness Lounge Clinic',
     description:
-      'Discover special promotions for HSBC Customer Experience Week at IV Wellness Lounge Dubai, featuring premium skin, hair, and wellness treatments.',
+      'Discover special promotions for HSBC Customer Experience Week at IV Wellness Lounge Clinic, featuring premium skin, hair, and wellness treatments.',
     url: 'https://ivhub.com/hsbc-customer-experience-week',
     images: ['https://ivhub.com/assets/img/offer/hsbc2.jpg'],
   },
@@ -41,7 +41,7 @@ export default function HSBCPage() {
             Join us in celebrating HSBC Customer Experience Week with exclusive,
             limited-time wellness and aesthetic offers crafted to help you look and
             feel your best. Enjoy premium treatments at special prices only at
-            IV Wellness Lounge Dubai.
+            IV Wellness Lounge Clinic.
           </div>
         </div>
         <div className="mod-media">
