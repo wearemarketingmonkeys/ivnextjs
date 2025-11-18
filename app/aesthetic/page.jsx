@@ -4,9 +4,9 @@ import aestheticData from '../mocks/aestheticData.json';
 
 // ✅ SEO (server only)
 export const metadata = {
-  title: 'Aesthetic | IV Wellness Lounge',
+  title: 'Aesthetic Treatments in Dubai | IV Wellness Lounge Clinic',
   description:
-    "Rediscover your natural beauty with IV Wellness's advanced aesthetic treatments. Tailored procedures for skin, hair, and overall rejuvenation in a luxury environment.",
+    "Medical-grade facials, injectables, and advanced skin care in a luxury setting. Achieve a natural, refreshed look. Book your personalized aesthetic consult now.",
   alternates: { canonical: 'https://ivhub.com/aesthetic' },
 };
 

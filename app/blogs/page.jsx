@@ -5,25 +5,10 @@ import ArticleCard from "../components/ArticleCard";
 
 // SEO
 export const metadata = {
-  title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
+  title: 'Wellness Insights | IV Wellness Lounge Clinic Blog',
   description:
-    'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration from IV Wellness Lounge Clinic in Dubai.',
+    'Expert articles on IV therapy, wellness trends, and aesthetic care from our clinical team in Dubai. Stay informed, read the latest tips and updates on our blog.',
   alternates: { canonical: 'https://ivhub.com/blogs' },
-  openGraph: {
-    title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration.',
-    url: 'https://ivhub.com/blogs',
-    type: 'website',
-    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Blogs | IV Wellness Lounge Clinic in Dubai',
-    description:
-      'The Wellness Edit – Health, Beauty & Beyond. Expert advice, updates, and wellness inspiration.',
-    images: ['https://ivhub.com/og.png'],
-  },
 };
 
 
