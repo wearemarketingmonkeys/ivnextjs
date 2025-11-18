@@ -55,7 +55,7 @@ export default function HSBCPage() {
       </section>
 
       <section className="mod-focus-area">
-        <h2>Focus Treatment Area</h2>
+        <h2>Explore Offers</h2>
         <div className="item">
           <button className="button-89" role="button">
             Glow and Hydrate with Skin Boosters AED 899 (down from AED 1499)
