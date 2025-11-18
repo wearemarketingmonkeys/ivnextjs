@@ -3,13 +3,11 @@
 import ContactClient from './ContactClient';
 
 export const metadata = {
-  title: 'Contact Us | IV Wellness Lounge',
-  description:
-    'Have a question? Contact IV Wellness Lounge for appointments, inquiries, and support.',
+  title: 'Contact IV Wellness Lounge Clinic | Dubai Wellness Care',
+  description: 'Reach out to IV Wellness Lounge Clinic in Dubai for bookings, enquiries, or at-home IV drip services. Our team responds quickly, submit your request today.',
   openGraph: {
-    title: 'Contact IV Wellness Lounge',
-    description:
-      'Reach out to IV Wellness Lounge for bookings and questions.',
+    title: 'Contact IV Wellness Lounge Clinic | Dubai Wellness Care',
+    description: 'Reach out to IV Wellness Lounge Clinic in Dubai for bookings, enquiries, or at-home IV drip services. Our team responds quickly, submit your request today.',
     images: [{ url: '/assets/img/contact/hero.webp', width: 1200, height: 630 }],
   },
 };

@@ -6,23 +6,20 @@ import OfferCard from "../../components/OfferCard";
 
 // --- SEO ---
 export const metadata = {
-  title: "Offers | IV Wellness Lounge Clinic in Dubai",
-  description:
-    "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions at IV Wellness Lounge Clinic in Dubai.",
+  title: "Exclusive Offers | IV Wellness Lounge Clinic in Dubai Deals",
+  description: "Unlock special rates on premium IV drips and wellness packages at IV Wellness Lounge Clinic Dubai. Limited-time deals available, claim your offer today.",
   alternates: { canonical: "https://ivhub.com/explore-us/offers" },
   openGraph: {
-    title: "Offers | IV Wellness Lounge Clinic in Dubai",
-    description:
-      "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions.",
+    title: "Exclusive Offers | IV Wellness Lounge Clinic in Dubai Deals",
+    description: "Unlock special rates on premium IV drips and wellness packages at IV Wellness Lounge Clinic Dubai. Limited-time deals available, claim your offer today.",
     url: "https://ivhub.com/explore-us/offers",
     type: "website",
     images: [{ url: "https://ivhub.com/og.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Offers | IV Wellness Lounge Clinic in Dubai",
-    description:
-      "Limited-time offers on IV therapy and aesthetic treatments. Save on packages and sessions.",
+    title: "Exclusive Offers | IV Wellness Lounge Clinic in Dubai Deals",
+    description: "Unlock special rates on premium IV drips and wellness packages at IV Wellness Lounge Clinic Dubai. Limited-time deals available, claim your offer today.",
     images: ["https://ivhub.com/og.png"],
   },
 };

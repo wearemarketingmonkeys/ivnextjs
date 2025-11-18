@@ -3,23 +3,20 @@
 import CareerClient from './CareerClient';
 
 export const metadata = {
-  title: 'Careers | IV Wellness Lounge',
-  description:
-    "Ready to build your career with IV Wellness Lounge? Apply now—upload your CV and optional license/certification. We'll get back to you soon.",
+  title: 'Careers at IV Wellness Lounge Clinic | Join Our Dubai Team',
+  description: "Explore career opportunities at IV Wellness Lounge Clinic. Apply your medical or therapy skills in a luxury wellness environment. Submit your application today.",
   alternates: { canonical: 'https://ivhub.com/career' },
   openGraph: {
-    title: 'Careers | IV Wellness Lounge',
-    description:
-      "Ready to build your career with IV Wellness Lounge? Apply now—upload your CV and optional license/certification.",
+    title: 'Careers at IV Wellness Lounge Clinic | Join Our Dubai Team',
+    description: "Explore career opportunities at IV Wellness Lounge Clinic. Apply your medical or therapy skills in a luxury wellness environment. Submit your application today.",
     url: 'https://ivhub.com/career',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Careers | IV Wellness Lounge',
-    description:
-      "Ready to build your career with IV Wellness Lounge? Apply now—upload your CV and optional license/certification.",
+    title: 'Careers at IV Wellness Lounge Clinic | Join Our Dubai Team',
+    description: "Explore career opportunities at IV Wellness Lounge Clinic. Apply your medical or therapy skills in a luxury wellness environment. Submit your application today.",
     images: ['https://ivhub.com/og.png'],
   },
 };
