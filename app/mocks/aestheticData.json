@@ -39,22 +39,27 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
             },
             {
               "icon": "ticon2.png",
+              "alt": "Circular emblem with a crossed-out illustration of a folder, symbolizing prohibited file uploads.",
               "txt": "Avoid Retinol, active ingredients, and at-home peels for at least 7 days prior to your treatment."
             },
             {
               "icon": "ticon3.png",
+              "alt": "Symbol depicting a syringe with a diagonal line crossing it, indicating 'no vaccination.'",
               "txt": "Avoid filler treatments, or resurfacing for at least 2 weeks prior."
             },
             {
               "icon": "ticon4.png",
+              "alt": "Icon depicting a sun with a diagonal line crossing it, symbolizing no sunlight or night.",
               "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
             },
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
             }
           ]
@@ -64,22 +69,27 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Try not to apply makeup 1-2 days after your service"
             },
             {
               "icon": "ticon6.png",
+              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
               "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
             },
             {
               "icon": "ticon4.png",
+              "alt": "Icon depicting a sun with a diagonal line crossing it, symbolizing no sunlight or night.",
               "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
             },
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
             }
           ]
@@ -179,10 +189,12 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment..."
             },
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "When scheduling, we recommend receiving this treatment 1-2 days before an event."
             }
           ]
@@ -192,14 +204,17 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Try not to apply makeup 24 hours after your service. Your skin will thank you for it."
             },
             {
               "icon": "ticon9.png",
+              "alt": "Beige circular shape with five small white dots evenly spaced on its surface.",
               "txt": "You may experience some redness, but it should resolve within 15 minutes from the time of treatment."
             },
             {
               "icon": "ticon10.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
               "txt": "Wear sunscreen post-treatment and integrate sun care into your daily routine to protect and maintain your results."
             }
           ]
@@ -344,10 +359,12 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment..."
             },
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "When scheduling, we recommend receiving this treatment 1-2 days before an event."
             }
           ]
@@ -357,14 +374,17 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Try not to apply makeup 24 hours after your service. Your skin will thank you for it."
             },
             {
               "icon": "ticon9.png",
+              "alt": "Beige circular shape with five small white dots evenly spaced on its surface.",
               "txt": "You may experience some redness, but it should resolve within 15 minutes from the time of treatment."
             },
             {
               "icon": "ticon10.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
               "txt": "Wear sunscreen post-treatment and integrate sun care into your daily routine to protect and maintain your results."
             }
           ]
@@ -446,14 +466,17 @@
             },
             {
               "icon": "ticon12.png",
+              "alt": "Simplistic line drawing of a plastic water bottle inside a light beige circle.",
               "txt": "Hydrate, hydrate, hydrate! Keep your body and skin moisturized in the days leading up to your treatment."
             },
             {
               "icon": "ticon6.png",
+              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
               "txt": "Avoid topical Retin-A, any acids, exfoliants, facial masks, self tanners and prescription skincare products for 3 days prior treatment."
             },
             {
               "icon": "ticon10.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
               "txt": "Wear SPF every day leading up to your treatment, and everyday after."
             }
           ]
@@ -463,26 +486,32 @@
           "tips": [
             {
               "icon": "ticon6.png",
+              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
               "txt": "Do not put anything on your face for 4 hours. To cleanse, use a gentle cleanser for the week post-treatment! After 6-7 days it's safe to resume your normal skincare regimen."
             },
             {
               "icon": "ticon6.png",
+              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
               "txt": "Hold off on your retinol, glycolics, or any exfoliating products until all of the exfoliation and sensitivity has subsided (on average between day 7-10)."
             },
             {
               "icon": "ticon4.png",
+              "alt": "Icon depicting a sun with a diagonal line crossing it, symbolizing no sunlight or night.",
               "txt": "Avoid sun exposure, tanning and self tanning products for 2 weeks - tanning beds are an absolute no-go as well. Remember SPF!"
             },
             {
               "icon": "ticon13.png",
+              "alt": "Cream-filled jar placed on a light beige background, featuring a simple design.",
               "txt": "Your provider will give you post-treatment kit to take home. Please make sure you follow instructions for best results."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid exercise and sweat-inducing activities for 72 - 96 hours."
             },
             {
               "icon": "ticon13.png",
+              "alt": "Cream-filled jar placed on a light beige background, featuring a simple design.",
               "txt": "Keep your body and skin moisturized! We know it's tempting, but no picking, rubbing or premature removal of the skin."
             }
           ]
@@ -580,6 +609,7 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
             },
             {
@@ -588,10 +618,12 @@
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Be sure to have your daily workout before your treatment, since we don’t recommend any exercise for 24 hours afterwards."
             },
             {
               "icon": "ticon15.png",
+              "alt": "Circular clock icon with a minimalist design, featuring a light background and simple hands.",
               "txt": "You can get right back to work after your treatment, but we recommend leaving yourself an hour of time to avoid being stressed or rushed."
             },
             {
@@ -605,10 +637,12 @@
           "tips": [
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Avoid lying down (or do a downward dog) for 4 hours after your procedure."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Wait 24 hours before going back to the gym or yoga class – or any kind of exercise, really."
             },
             {
@@ -816,6 +850,7 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas.."
             },
             {
@@ -828,10 +863,12 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "It's best to avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
             },
             {
@@ -845,26 +882,32 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "Cold packs are your friend. Use them liberally for 8 hours after your treatment to help reduce swelling."
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid exercise for 24 hours after your treatment. And facials are a no-go for at least 2 weeks."
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "It’s important to stay hydrated! Be sure to drink plenty of water after your treatment."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "You may lie down after fillers, but please avoid laying on your face (even the sides of your face)."
             }
           ]
@@ -976,6 +1019,7 @@
           "tips": [
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "Stay hydrated and eat a light meal before your lip filler treatment."
             },
             {
@@ -984,10 +1028,12 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "Avoid scheduling your lip filler session during active cold sores or infections."
             }
           ]
@@ -997,26 +1043,32 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Do not wear lipstick or makeup for at least 12 - 24 hours post-filler."
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Arnica gel helps reduce bruising. You can start using it 30 minutes after your service – just apply it gently to the treated area."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Skip workouts, saunas, and heat exposure for 48 hours"
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "Stay hydrated and use a gentle lip balm if needed."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Avoid touching or massaging your lips for 24 hours. Sleep with your head slightly elevated to reduce swelling."
             }
           ]
@@ -1140,6 +1192,7 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and blood thinners 48 hours before treatment"
             },
             {
@@ -1153,26 +1206,32 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Avoid makeup and skincare products for 12 - 24 hours post-treatment"
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Refrain from touching or massaging the treated area for 24 hours"
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Skip saunas, steam rooms, and intense workouts for 48 hours"
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "Use gentle cleansers and avoid active ingredients (like retinol or acids) for a few days"
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Sleep on your back with your head slightly elevated"
             }
           ]
@@ -1296,6 +1355,7 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and blood thinners 48 hours before treatment"
             },
             {
@@ -1309,26 +1369,32 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "Light swelling or tenderness is normal and resolves within days"
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Refrain from applying pressure to treated areas for 2–3 days"
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid exercise, saunas, and heat exposure for 48 hours"
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "Keep the area clean and avoid tight clothing for the first 24 hours"
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and salty foods – two culprits that contribute to swelling."
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Sleep on your back or side to avoid compressing the area"
             }
           ]
@@ -1447,14 +1513,17 @@
           "tips": [
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
             }
           ]
@@ -1464,14 +1533,17 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid vigorous exercise for 24- 48 hours."
             },
             {
@@ -1480,6 +1552,7 @@
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
             }
           ]
@@ -1563,6 +1636,7 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment in order to get a clean canvas."
             },
             {
@@ -1571,10 +1645,12 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcoholic beverages the night before your appointment. It can make skin more susceptible to bruising."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "It's best to avoid aspirin and NSAIDS (Advil, Motrin, Aleve) for a week before your treatment to help reduce bruising."
             }
           ]
@@ -1588,22 +1664,27 @@
             },
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "At-home cold packs are your friend. Use them liberally for 8 hours after your treatment to minimize swelling."
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Gently apply Arnica Gel to the treatment area starting 30 minutes after your session to help reduce bruising."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Pause workout for 24 hours after your treatment."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol and salty foods - two culprits that contribute to swelling."
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Avoid laying flat for a few hours post-treatment and sleep slightly elevated on a pillow or two that evening."
             }
           ]
@@ -1776,14 +1857,17 @@
           "tips": [
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
             }
           ]
@@ -1793,14 +1877,17 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid vigorous exercise for 24- 48 hours."
             },
             {
@@ -1809,6 +1896,7 @@
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
             }
           ]
@@ -1891,14 +1979,17 @@
           "tips": [
             {
               "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "Have an event coming up in the next 2 weeks? You may want to consider rescheduling your appointment until after the big day."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "Avoid aspirin and NSAIDs (Advil, Motrin, Aleve) for 72 hours prior to your before your treatment to help reduce bruising."
             }
           ]
@@ -1908,14 +1999,17 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "To reduce unwanted swelling , you can apply ice topically for 24 hours post treatment- Apply for 15-minutes and then remove for 15 minutes, then repeat!"
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "No alcohol, nicotine or smoking for 48 hours before and after treatment."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid vigorous exercise for 24- 48 hours."
             },
             {
@@ -1924,6 +2018,7 @@
             },
             {
               "icon": "ticon17.png",
+              "alt": "No sleeping sign with a crossed-out bed icon, indicating sleeping is prohibited.",
               "txt": "Sleep on your back and with your head elevated for the next 24 hours after treatment."
             }
           ]
@@ -1995,14 +2090,17 @@
           "tips": [
             {
               "icon": "ticon12.png",
+              "alt": "Simplistic line drawing of a plastic water bottle inside a light beige circle.",
               "txt": "Stay hydrated — drink at least 2 liters of water before and after each session."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol, heavy meals, and caffeine 24 hours before treatment."
             },
             {
               "icon": "ticon10.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
               "txt": "No tanning or applying lotions/oils to the treatment area on the day of your session."
             }
           ]
@@ -2012,18 +2110,22 @@
           "tips": [
             {
               "icon": "ticon12.png",
+              "alt": "Simplistic line drawing of a plastic water bottle inside a light beige circle.",
               "txt": "Continue to drink 2–3 liters of water daily to aid lymphatic drainage."
             },
             {
               "icon": "ticon13.png",
+              "alt": "Cream-filled jar placed on a light beige background, featuring a simple design.",
               "txt": "Maintain a balanced diet and active lifestyle for best results."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Engage in light exercise (walking, cardio) within 24 hours to support fat metabolism."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid heavy alcohol intake for 48 hours post-treatment."
             }
           ]
@@ -2127,6 +2229,7 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
             },
             {
@@ -2139,10 +2242,12 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
             }
           ]
@@ -2152,22 +2257,27 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "Try not to apply makeup 1-2 days after your service."
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
             }
           ]
@@ -2304,6 +2414,7 @@
           "tips": [
             {
               "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
               "txt": "If you wear makeup to your appointment, we'll need to remove it before your treatment."
             },
             {
@@ -2316,10 +2427,12 @@
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "If you've been sunburned recently, it's best to wait 3 weeks to a month before this treatment."
             },
             {
               "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "We do not recommend receiving this treatment a few days before an event, since you may experience some redness and flaking."
             }
           ]
@@ -2329,22 +2442,27 @@
           "tips": [
             {
               "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
               "txt": "Try not to apply makeup 1-2 days after your service."
             },
             {
               "icon": "ticon22.png",
+              "alt": "White tube of cream with a simple design on a muted beige circular background.",
               "txt": "Avoid acids, Retinols, harsh scrubs, and exfoliants until you're fully healed, about 5-10 days after treatment."
             },
             {
               "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Avoid products and sun exposure for the first couple of days after your treatment. Integrate sun care into your routine to maintain results."
             },
             {
               "icon": "ticon23.png",
+              "alt": "Minimalist icon of a water bottle enclosed in a circular beige background.",
               "txt": "You’ll likely experience noticeable redness, and possibly swelling, afterwards. A cool compress or cooling masque will alleviate the swelling quicker."
             },
             {
               "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid working out (anything where you break a sweat) for 1-2 days post-treatment."
             }
           ]
