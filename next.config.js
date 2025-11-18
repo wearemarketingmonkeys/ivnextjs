@@ -20,6 +20,16 @@ const nextConfig = {
         destination: '/iv-therapy/drips/hangover-iv-drip',
         permanent: true,
       },
+      {
+        source: '/iv-therapy/drips/hydration-hub-express',
+        destination: '/iv-therapy/drips',
+        permanent: true,
+      },
+      {
+        source: '/iv-therapy/drips/ramadan-hub',
+        destination: '/iv-therapy/drips',
+        permanent: true,
+      },
     ];
   },
 };

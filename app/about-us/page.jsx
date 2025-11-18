@@ -3,8 +3,8 @@ import HeroSection from "../components/HeroSection";
 const heroImg = "/assets/img/blog/blog-hero.webp";
 
 export const metadata = {
-  title: 'Who We Are | IV Wellness Lounge',
-  description: 'Your partner for safe and effective beauty &amp; wellness. We demystify cosmetic dermatology through medically-tested procedures for natural results.',
+  title: 'About IV Wellness Lounge Clinic | Trusted IV Specialists',
+  description: 'Our team combines advanced medical knowledge with luxury care, setting the standard for IV therapy in Dubai. Learn about our commitment, schedule a visit today.',
 };
 
 const About = () => {
