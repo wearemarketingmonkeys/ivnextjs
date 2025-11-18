@@ -355,3 +355,31 @@
     }
   }
 }
+
+.hsbc .mod-title{
+  width: 60%;
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.hsbc .mod-media img{
+  
+    @media screen and (min-width: 1000px) {
+      width: 70%;
+    }
+
+}
+
+.hsbc .mod-media{
+  width: 40%;
+
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
+}
+
+.mod-ctr.hsbc{
+  padding-top:0;
+}

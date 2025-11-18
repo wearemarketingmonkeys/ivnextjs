@@ -34,7 +34,7 @@ export const metadata = {
 export default function HSBCPage() {
   return (
     <>
-      <section className="mod-hero">
+      <section className="mod-hero hsbc">
         <div className="mod-title">
           <h1>HSBC Customer Experience Week</h1>
           <div>
@@ -48,8 +48,8 @@ export default function HSBCPage() {
           <Image
             src="/assets/img/offer/hsbc2.jpg"
             alt="HSBC"
-            width={384}
-            height={481}
+            width={1000}
+            height={500}
           />
         </div>
       </section>
@@ -67,19 +67,19 @@ export default function HSBCPage() {
             Exosomes Glow Package (Hydrafacial + Exosomes) - AED 1,499 (DOWN FROM 2199)
           </button>
           <button className="button-89" role="button">
+            IV DRIPS - 15% OFF any Drip
+          </button>
+          <button className="button-89" role="button">
             Advanced Hair Regeneration (PRP +Growth Factor) - starting AED 999 (DOWN FROM 1398)
           </button>
           <button className="button-89" role="button">
             Face Glow Revival (2 Glutathione IV Drips + Glow Hydrafacial + Skin Booster) - AED 1,999 (DOWN FROM 2499)
           </button>
-          <button className="button-89" role="button">
-            IV DRIPS - 15% OFF any Drip
-          </button>
         </div>
       </section>
 
-      <section className="mod-ctr">
-        <a href="https://wa.me/+971566082103">Get Offer Now</a>
+      <section className="mod-ctr hsbc">
+        <a href="https://wa.me/97180048482?text=Hello, I’d like to redeem my coupon code HSBCIVWL for custom services as part of the HSBC Dubai Fitness Challenge event">Get Offer Now</a>
       </section>
     </>
   )
