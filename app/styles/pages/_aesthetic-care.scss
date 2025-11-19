@@ -1,0 +1,146 @@
+/* --------------------------------------------- */
+/*  LUXURY AESTHETIC THEME                       */
+/* --------------------------------------------- */
+
+:root {
+  --luxury-gold: #926410;
+  --luxury-gold-dark: #926410;
+  --luxury-border: #e4d5b7;
+  --luxury-cream: #faf8f3;
+  --luxury-bg: #f8f5ef;
+  --luxury-text: #3a3a3a;
+  --luxury-subtext: #4a4a4a;
+}
+
+/* Page background */
+.luxury-page {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  background: var(--luxury-bg);
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.luxury-wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h1{
+    font-size:30px;
+    text-align:center;
+  }
+}
+
+/* Card container */
+.luxury-card {
+  background: #ffffff;
+  border: 1px solid var(--luxury-border);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.luxury-card:hover {
+  box-shadow: 0 6px 28px rgba(0,0,0,0.10);
+}
+
+/* Accordion header */
+.luxury-header {
+  width: 100%;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid var(--luxury-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.luxury-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--luxury-text);
+  letter-spacing: 0.5px;
+}
+
+/* Luxury + / - icon */
+.luxury-icon {
+  font-size: 2rem;
+  color: var(--luxury-gold);
+  transition: transform 0.3s ease;
+}
+
+.luxury-icon.rotate {
+  transform: rotate(180deg);
+}
+
+/* Content area */
+.luxury-content {
+  background: var(--luxury-cream);
+  border-top: 1px solid var(--luxury-border);
+  padding: 2rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  animation: fadeIn 0.35s ease-out;
+}
+
+@media (min-width: 768px) {
+  .luxury-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Section labels */
+.luxury-section-label {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--luxury-gold-dark);
+  margin-bottom: 1rem;
+}
+
+/* List styling */
+.luxury-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.luxury-item {
+  display: flex;
+  gap: 10px;
+  color: var(--luxury-subtext);
+  line-height: 1.55;
+}
+
+.luxury-bullet {
+  color: var(--luxury-gold);
+  font-size: 1.25rem;
+  margin-top: 2px;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional premium typography */
+.luxury-font {
+  font-family: "Cormorant Garamond", serif;
+}
