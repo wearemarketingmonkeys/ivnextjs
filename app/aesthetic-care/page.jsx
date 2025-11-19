@@ -2,8 +2,22 @@
 import AestheticCare from "./AestheticCare";
 
 export const metadata = {
-  title: "Aesthetic Treatment Pre & Post Care | IV Wellness Lounge",
+  title: "Aesthetic Treatment Pre & Post Care | IV Wellness Lounge Clinic",
   description: "Complete pre & post care instructions for Botox, Fillers, Microneedling, PRP, Laser Hair Removal, HydraFacial, and more.",
+  alternates: { canonical: 'https://ivhub.com/aesthetic-care' },
+  openGraph: {
+    title: "Aesthetic Treatment Pre & Post Care | IV Wellness Lounge Clinic",
+    description: "Complete pre & post care instructions for Botox, Fillers, Microneedling, PRP, Laser Hair Removal, HydraFacial, and more.",
+    url: 'https://ivhub.com/aesthetic-care',
+    type: 'website',
+    images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Aesthetic Treatment Pre & Post Care | IV Wellness Lounge Clinic",
+    description: "Complete pre & post care instructions for Botox, Fillers, Microneedling, PRP, Laser Hair Removal, HydraFacial, and more.",
+    images: ['https://ivhub.com/og.png'],
+  },
 };
 
 export default function Page() {
