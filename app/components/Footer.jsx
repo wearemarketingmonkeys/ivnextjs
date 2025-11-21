@@ -11,6 +11,7 @@ const seenIcons = [
   '/assets/img/home/yahoo.png',
   '/assets/img/home/KT.png',
   '/assets/img/home/gulf-times.png',
+  '/assets/img/home/vogue-arabia.png',
 ];
 
 const partnerIcons = [
@@ -19,12 +20,14 @@ const partnerIcons = [
   '/assets/img/home/dewa.png',
   '/assets/img/home/fazaa-logo.png',
   '/assets/img/home/NBD-logo.png',
+  '/assets/img/home/HSBC-Logo.png',
 ];
 
 const seenLinks = [
   'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
   'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
   'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
+  ''
 ];
 
 const partnerLinks = [
@@ -33,6 +36,7 @@ const partnerLinks = [
   '',
   'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
   'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
+  ''
 ];
 
 const Footer = () => {
