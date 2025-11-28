@@ -1695,6 +1695,15 @@
       "afterImg": "skinboosterafter.webp",
       "treatments": [
         {
+          "category": "Glow Skin Booster",
+          "services": [
+            {
+              "name": "1 Session",
+              "price": 1499
+            }
+          ]
+        },
+        {
           "category": "Lip Booster",
           "services": [
             {
