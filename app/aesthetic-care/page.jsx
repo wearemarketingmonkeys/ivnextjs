@@ -824,6 +824,22 @@ export default function Page() {
       "Follow any additional instructions provided by your practitioner.",
       "Always apply SPF 30+ daily for treated areas."
     ]
+  },
+  {
+    "title": "Soprano Titanium Laser Hair Removal — Pre & Post Care",
+
+    "pre": [
+      "Shave the area that you want to get lasered at least 24 hours before the appointment.",
+      "Avoid sun exposure, tanning beds, and self-tanning products at least 24 hours prior to treatment.",
+      "Avoid exfoliating active ingredients on your treatment area for at least 3 days prior to treatment.",
+      "Avoid photosensitizing medications, such as antibiotics, for at least 2 days prior to treatment."
+    ],
+
+    "post": [
+      "Avoid direct sun exposure after laser hair removal, and be sure to wear SPF to help prevent damage.",
+      "If skin feels a bit sensitive after treatment, you can utilize an ice pack or Aloe Vera gel to soothe the treatment area.",
+      "Feel free to shave between appointments."
+    ]
   }
 ];
 
