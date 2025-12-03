@@ -58,7 +58,7 @@ export function generateMetadata({ params }) {
   const item = bySlug(params.slug);
   if (!item) return {};
   const canonical = `https://ivhub.com/aesthetic/${item.slug}`;
-  const title = `${item.title} | IV Wellness Lounge`;
+  const title = `${item.title} | IV Wellness Lounge Clinic`;
   const description = item.metaDescription || item.desc || item.whyWeLoveIt || 'Advanced aesthetic treatment.';
 
   return {
