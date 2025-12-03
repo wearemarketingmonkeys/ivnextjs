@@ -171,18 +171,18 @@
           "name": "Pre-Treatment Tips",
           "tips": [
             {
-              "icon": "ticon1.png",
-              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
+              "icon": "ticon20.png",
+              "alt": "Circular icon featuring a crossed-out wine glass, symbolizing alcohol prohibition.",
               "txt": "Avoid alcohol, caffeine, and blood thinners for 24–48 hours unless prescribed by a doctor."
             },
             {
-              "icon": "ticon2.png",
-              "alt": "Circular emblem with a crossed-out illustration of a folder, symbolizing prohibited file uploads.",
+              "icon": "ticon15.png",
+              "alt": "Circular clock icon with a minimalist design, featuring a light background and simple hands.",
               "txt": "Pause actives like retinol, AHA, BHA for 7 days before treatment."
             },
             {
-              "icon": "ticon3.png",
-              "alt": "Symbol depicting a syringe with a diagonal line crossing it, indicating 'no vaccination.'",
+              "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "No brow tinting, waxing, or threading for 72 hours prior."
             },
             {
@@ -191,12 +191,12 @@
               "txt": "Avoid intense sun exposure and self-tanner for 1 week."
             },
             {
-              "icon": "ticon5.png",
-              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "icon": "ticon15.png",
+              "alt": "Circular clock icon with a minimalist design, featuring a light background and simple hands.",
               "txt": "Schedule Botox or fillers at least 2 weeks before or after your session."
             },
             {
-              "icon": "ticon5.png",
+              "icon": "ticon18.png",
               "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
               "txt": "Arrive with clean skin and no makeup on the brow area."
             }
@@ -211,8 +211,8 @@
               "txt": "Keep brows dry for the first 7 days. Avoid sweating, saunas, steam, and swimming."
             },
             {
-              "icon": "ticon6.png",
-              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
+              "icon": "ticon21.png",
+              "alt": "Icon of a pill with a circle and diagonal line, indicating 'no pills' or 'not allowed'.",
               "txt": "Cleanse surrounding skin only. Do not pick flaking skin."
             },
             {
@@ -221,12 +221,12 @@
               "txt": "Apply the provided healing ointment as directed."
             },
             {
-              "icon": "ticon7.png",
-              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
+              "icon": "ticon15.png",
+              "alt": "Circular clock icon with a minimalist design, featuring a light background and simple hands.",
               "txt": "Avoid makeup, acids, retinol, and exfoliants on brows for 10–14 days."
             },
             {
-              "icon": "ticon8.png",
+              "icon": "ticon19.png",
               "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
               "txt": "Protect healed brows with SPF 30+ daily to slow fading."
             },
@@ -238,7 +238,7 @@
           ]
         }
       ],
-      "resultTxt": "With four sessions of microneedling performed over four months, you can expect a significant improvement in skin texture and tone, reduction in pigmentation, enhanced firmness and tightening, and increased skin radiance",
+      "resultTxt": "After a microblading session, you can expect beautifully defined, fuller brows that enhance your natural features and frame your face. The color appears slightly bolder at first and gradually softens into a natural shade as the skin heals. Within two weeks, the brows settle into their final look - soft, symmetrical, and realistic.",
       "beforeImg": "microblading-before.webp",
       "afterImg": "microblading-after.webp",
       "treatments": [
