@@ -27,7 +27,7 @@ const seenLinks = [
   'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
   'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
   'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
-  ''
+  'https://www.voguearabia.com/article/the-best-time-to-get-a-mini-facelift'
 ];
 
 const partnerLinks = [
