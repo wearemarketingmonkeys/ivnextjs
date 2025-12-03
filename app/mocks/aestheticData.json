@@ -151,6 +151,148 @@
       ]
     },
     {
+      "id": 1,
+      "img": false,
+      "video": "microblading.mp4",
+      "title": "Microblading",
+      "subHeading": "Hello Perfect Brows. | Hello Natural Definition. | Hello Effortless Beauty.",
+      "desc": "A semi-permanent brow enhancement technique that creates natural, hair-like strokes for fuller, more defined eyebrows.",
+      "howItWorks": "Microblading is a meticulous semi-permanent makeup technique where ultra-fine blades deposit pigment into the upper layers of the skin, creating realistic, hair-like strokes. Each brow is custom-mapped to your facial structure, ensuring balance, symmetry, and a design tailored to your natural features. The result is soft, natural-looking brows that enhance expression and require minimal daily maintenance.",
+      "whyWeLoveIt": "Wake up to perfect brows with Microblading at <b>IV Wellness Lounge Dubai</b>. This semi-permanent brow treatment uses ultra-fine strokes to mimic real hair for fuller, more defined, and natural-looking eyebrows. Each set of brows is custom mapped to your face, color-matched to your tones, and crafted to enhance symmetry and expression.",
+      "treatableArea": "Eyebrows | Brow Line",
+      "treatableConcerns": [],
+      "duration": 90,
+      "startingAmount": 1499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/microblading",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
+              "txt": "Avoid alcohol, caffeine, and blood thinners for 24–48 hours unless prescribed by a doctor."
+            },
+            {
+              "icon": "ticon2.png",
+              "alt": "Circular emblem with a crossed-out illustration of a folder, symbolizing prohibited file uploads.",
+              "txt": "Pause actives like retinol, AHA, BHA for 7 days before treatment."
+            },
+            {
+              "icon": "ticon3.png",
+              "alt": "Symbol depicting a syringe with a diagonal line crossing it, indicating 'no vaccination.'",
+              "txt": "No brow tinting, waxing, or threading for 72 hours prior."
+            },
+            {
+              "icon": "ticon4.png",
+              "alt": "Icon depicting a sun with a diagonal line crossing it, symbolizing no sunlight or night.",
+              "txt": "Avoid intense sun exposure and self-tanner for 1 week."
+            },
+            {
+              "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Schedule Botox or fillers at least 2 weeks before or after your session."
+            },
+            {
+              "icon": "ticon5.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Arrive with clean skin and no makeup on the brow area."
+            }
+          ]
+        },
+        {
+          "name": "Post-treatment Tips",
+          "tips": [
+            {
+              "icon": "ticon1.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
+              "txt": "Keep brows dry for the first 7 days. Avoid sweating, saunas, steam, and swimming."
+            },
+            {
+              "icon": "ticon6.png",
+              "alt": "Icon displaying a crossed-out pump bottle, indicating no products or usage allowed.",
+              "txt": "Cleanse surrounding skin only. Do not pick flaking skin."
+            },
+            {
+              "icon": "ticon4.png",
+              "alt": "Icon depicting a sun with a diagonal line crossing it, symbolizing no sunlight or night.",
+              "txt": "Apply the provided healing ointment as directed."
+            },
+            {
+              "icon": "ticon7.png",
+              "alt": "Snowflake icon on a beige background, symbolizing cold and winter themes.",
+              "txt": "Avoid makeup, acids, retinol, and exfoliants on brows for 10–14 days."
+            },
+            {
+              "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
+              "txt": "Protect healed brows with SPF 30+ daily to slow fading."
+            },
+            {
+              "icon": "ticon8.png",
+              "alt": "Icon depicting a ban on weights, featuring a crossed-out dumbbell in a circular design.",
+              "txt": "Expect softening of color by week two. Final results settle after your touch-up."
+            }
+          ]
+        }
+      ],
+      "resultTxt": "With four sessions of microneedling performed over four months, you can expect a significant improvement in skin texture and tone, reduction in pigmentation, enhanced firmness and tightening, and increased skin radiance",
+      "beforeImg": "microblading-before.webp",
+      "afterImg": "microblading-after.webp",
+      "treatments": [
+        {
+          "category": "Microblading",
+          "services": [
+            { "name": "1 Session", "price": 1499 }
+          ]
+        }
+      ],
+      "faq": [
+      {
+        "question": "Does microblading hurt?",
+        "answer": "Discomfort is minimal. We use topical numbing for comfort throughout the session."
+      },
+      {
+        "question": "How long do results last?",
+        "answer": "Results typically last 12 to 18 months depending on skin type, lifestyle, and sun exposure. Oily skin types may need more frequent refreshes."
+      },
+      {
+        "question": "What is the touch-up for?",
+        "answer": "Your 6–8 week touch-up refines shape, adjusts color, and fills areas where pigment softened during healing for a long-lasting finish."
+      },
+      {
+        "question": "Am I a good candidate?",
+        "answer": "Most clients are suitable. We avoid treatment if you are pregnant or nursing, have active skin conditions in the brow area, are on acne medication like isotretinoin, or have uncontrolled medical conditions. A consultation confirms suitability."
+      },
+      {
+        "question": "What is the difference between microblading and microshading?",
+        "answer": "Microblading creates fine hair strokes for a fluffy look. Microshading adds a soft powdery shadow for more fullness. Combination brows blend both for structure and softness."
+      },
+      {
+        "question": "Can I go back to work after microblading?",
+        "answer": "Yes. There is no downtime. Brows will look bolder for a few days, then soften as they heal."
+      },
+      {
+        "question": "When can I exercise or swim?",
+        "answer": "Avoid heavy workouts and all swimming for 7–10 days to protect pigment and prevent moisture-related fading."
+      },
+      {
+        "question": "Will my brows look natural?",
+        "answer": "Yes. We custom map to your features, match pigments to your undertone, and place strokes in your natural hair direction for a realistic result."
+      },
+      {
+        "question": "How do I prepare my shape?",
+        "answer": "Come with your preferred brow style in mind. We pre-draw, review symmetry together, and only proceed when you approve the outline."
+      },
+      {
+        "question": "Is it the same as a tattoo?",
+        "answer": "It is semi-permanent. Pigment is placed more superficially than traditional tattooing, so it fades gradually and can be refreshed or adjusted over time."
+      }
+    ]
+    },
+    {
       "id": 2,
       "img": "hydra.webp",
       "video": "hydra.mp4",
