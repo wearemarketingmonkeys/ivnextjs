@@ -51,6 +51,8 @@ export default function TermsConditionsPage() {
           plan or other third party payer.
           <br /><br />
 
+          <b>All prices mentioned for products or services doesn't include VAT.</b>
+          <br /><br />
           Iv wellness lounge clinic llc does not diagnose or treat any illness, disease or
           health condition.
           <br />
