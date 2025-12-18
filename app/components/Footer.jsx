@@ -171,7 +171,10 @@ const Footer = () => {
             {/* Left Column */}
             <div className="footer-wrapper__col social-wrap">
               <img src={logo} alt="IV Wellness Lounge" />
-              <p>GATE DISTRICT 2, DIFC, DUBAI.</p>
+              <div className="btn-wrap footerlocations">
+                <Link href="https://share.google/z7Y2tm9a9Ln3ly88N" className="btn btn-light">DIFC</Link>
+                <Link href="https://share.google/HWI0lHKteP0dIP5mF" className="btn btn-light">PALM</Link>
+              </div>
               <a href="tel:+97180048482">+971 800 48482</a>
               <p>Ⓒ IV Wellness Lounge Clinic Limited. {new Date().getFullYear()}. All rights reserved.</p>
               <p>MOHAP License: DITAYQOL-210524</p>
