@@ -183,10 +183,14 @@
   }
   
   
-  .footerlocations {
+.footerlocations {
     margin-bottom: 20px;
-    
+
       .btn{
-      color:#000 !important;
-    }
+        color:#000 !important;
+      }
+
+      .btn:hover{
+        color:#fff !important;
+      }
   }
