@@ -182,9 +182,15 @@
     }
   }
   
-  
+
 .footerlocations {
     margin-bottom: 20px;
+
+    @include mixin.respond(sm){
+      flex-direction: row !important;
+      justify-content: flex-start;
+      width: 100% !important;
+    }
 
       .btn{
         color:#000 !important;
@@ -193,4 +199,16 @@
       .btn:hover{
         color:#fff !important;
       }
+      .btn-external {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .external-icon {
+        width: 25px;
+        height: 25px;
+        padding: 3px 5px 5px 5px;
+      }
+
   }

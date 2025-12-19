@@ -172,8 +172,37 @@ const Footer = () => {
             <div className="footer-wrapper__col social-wrap">
               <img src={logo} alt="IV Wellness Lounge" />
               <div className="btn-wrap footerlocations">
-                <Link href="https://share.google/z7Y2tm9a9Ln3ly88N" className="btn btn-light">DIFC</Link>
-                <Link href="https://share.google/HWI0lHKteP0dIP5mF" className="btn btn-light">PALM</Link>
+                <Link href="https://share.google/z7Y2tm9a9Ln3ly88N" className="btn btn-light">DIFC <svg
+                    className="external-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg></Link>
+                <Link href="https://share.google/HWI0lHKteP0dIP5mF" className="btn btn-light">PALM
+                <svg
+                  className="external-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg></Link>
               </div>
               <a href="tel:+97180048482">+971 800 48482</a>
               <p>Ⓒ IV Wellness Lounge Clinic Limited. {new Date().getFullYear()}. All rights reserved.</p>
