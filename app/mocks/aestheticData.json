@@ -437,6 +437,27 @@
               "price": 599
             }
           ]
+        },
+        {
+          "category": "Facial",
+          "services": [
+            {
+              "name": "Hydrate",
+              "price": 499
+            },
+            {
+              "name": "Tighten",
+              "price": 699
+            },
+            {
+              "name": "Brighten",
+              "price": 599
+            },
+            {
+              "name": "Clarify",
+              "price": 799
+            }
+          ]
         }
       ],
       "faq": [
