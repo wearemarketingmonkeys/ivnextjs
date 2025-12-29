@@ -11,7 +11,8 @@ import MobileMenu from './MobileMenu';
 import { menuItems } from '../mocks/menuItems';
 
 const paths = {
-  logo: '/assets/img/logo/logo.png',
+  logo: "/assets/img/logo/logo_white.png",       // normal (non-sticky)
+  logoBlack: "/assets/img/logo/logo.png",  // sticky
   mblLogo: '/assets/img/logo/logo.png',
   waIcon: '/assets/icons/wa.png',
   hamburger: '/assets/icons/hamburger.png',
@@ -174,8 +175,16 @@ export default function Header() {
               </button>
 
               <Link href="/" className="logo-wrap" aria-label="Go to homepage">
-                <img src={paths.logo} alt="logo" className="desk-logo" />
-                <img src={paths.logo} alt="logo" className="mbl-logo" />
+                <img
+                    src={isSticky ? paths.logoBlack : paths.logo}
+                    alt="logo"
+                    className="desk-logo"
+                  />
+                  <img
+                    src={isSticky ? paths.logoBlack : paths.logo}
+                    alt="logo"
+                    className="mbl-logo"
+                  />
               </Link>
 
               <div className="header-right">

@@ -3,10 +3,11 @@
 @use "../base/fonts" as fonts;
 
 .header {
-  background-color: vars.$primary-color;
+  background-color: transparent;
   font-family: fonts.$font-johnston;
   z-index: 9999;
-  position: relative;
+  position: absolute;
+  width:100%;
   @include mixin.respond(xl) {
     padding: 12px 0;
   }
@@ -20,6 +21,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
     z-index: 1000;
     width: 100%;
+
+    .menu-single-item{
+      color:#000 !important;
+    }
+    .mbl-logo {
+      height: 45px !important;
+    }
   }
 
   .wrapper {
@@ -51,7 +59,7 @@
 
     .mbl-logo {
       object-fit: contain;
-      height: 52px;
+      height: 40px;
       display: none;
       @include mixin.respond(xl) {
         display: block;
@@ -80,6 +88,7 @@
             display: flex;
             align-items: center;
             gap: 4px;
+            color:#fff;
             span {
               line-height: 80px;
             }
