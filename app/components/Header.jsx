@@ -17,6 +17,7 @@ const paths = {
   waIcon: '/assets/icons/wa.png',
   hamburger: '/assets/icons/hamburger.png',
   caretBlack: '/assets/icons/caret-black.png',
+  caretWhite: '/assets/icons/caret-white.png',
   wellnessImg: '/assets/img/iv-therapy/ivtherapymenu2.webp',
   energyBoosterImg: '/assets/img/iv-therapy/ivtherapymenu1.webp',
 };
@@ -207,7 +208,7 @@ export default function Header() {
                         <li className="menu-item" key={index}>
                           <span className="menu-single-item" onClick={handleSubmenuClick}>
                             <span>{item.label}</span>
-                            <img src={paths.caretBlack} alt="caret" />
+                            <img src={isSticky ? paths.caretBlack : paths.caretWhite} alt="caret" />
                           </span>
 
                           <div className="submenu-wrapper">
