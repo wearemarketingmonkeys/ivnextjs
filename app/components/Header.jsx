@@ -115,6 +115,9 @@ const ivTherapyItems = [
 export default function Header() {
 
   const pathname = usePathname();
+
+  const isHome = pathname === "/";
+
   const [isConcernsOpen, setConcernsOpen] = useState(false);
   const megaRef = useRef(null);
 
@@ -165,7 +168,7 @@ export default function Header() {
       </div>
 
       <div
-        className={`header ${isSticky ? 'sticky' : ''} ${menuClosed ? 'hide-submenu' : ''}`}
+        className={`header ${isSticky ? 'sticky' : ''} ${isHome ? 'home' : ''} ${menuClosed ? 'hide-submenu' : ''}`}
         onMouseLeave={() => setMenuClosed(false)}
       >
         <div className="container">
@@ -177,16 +180,17 @@ export default function Header() {
 
               <Link href="/" className="logo-wrap" aria-label="Go to homepage">
                 <img
-                    src={isSticky ? paths.logoBlack : paths.logo}
-                    alt="logo"
-                    className="desk-logo"
-                  />
-                  <img
-                    src={isSticky ? paths.logoBlack : paths.logo}
-                    alt="logo"
-                    className="mbl-logo"
-                  />
+                  src={isHome ? (isSticky ? paths.logoBlack : paths.logo) : paths.logoBlack}
+                  alt="logo"
+                  className="desk-logo"
+                />
+                <img
+                  src={isHome ? (isSticky ? paths.logoBlack : paths.logo) : paths.logoBlack}
+                  alt="logo"
+                  className="mbl-logo"
+                />
               </Link>
+
 
               <div className="header-right">
                 <ul className="menu-wrap">
@@ -208,7 +212,7 @@ export default function Header() {
                         <li className="menu-item" key={index}>
                           <span className="menu-single-item" onClick={handleSubmenuClick}>
                             <span>{item.label}</span>
-                            <img src={isSticky ? paths.caretBlack : paths.caretWhite} alt="caret" />
+                            <img src={isHome ? (isSticky ? paths.caretBlack : paths.caretWhite) : paths.caretBlack} alt="caret"/>
                           </span>
 
                           <div className="submenu-wrapper">
