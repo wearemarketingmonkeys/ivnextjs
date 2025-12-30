@@ -1,6 +1,8 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+
+
 import Link from 'next/link';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
@@ -38,6 +40,149 @@ const partnerLinks = [
   'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
   'https://ivhub.com/hsbc'
 ];
+
+
+const chunk = (arr, size) => {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+};
+
+const useIsMobile = (breakpoint = 767) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= breakpoint);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, [breakpoint]);
+
+  return isMobile;
+};
+
+const LogoCarouselSmooth = ({
+  icons = [],
+  links = [],
+  itemsPerSlide = 3,
+  autoPlay = true,
+  interval = 3000,
+}) => {
+  const isMobile = useIsMobile();
+  const perSlide = isMobile ? 1 : itemsPerSlide;
+
+  const slides = useMemo(() => chunk(icons, perSlide), [icons, perSlide]);
+  const total = slides.length;
+
+  if (total <= 1) {
+    return (
+      <div className="logo-carousel">
+        <div className="carousel-viewport">
+          <div className="carousel-track no-anim" style={{ transform: "translateX(0%)" }}>
+            <div className="carousel-slide">
+              {(slides[0] || []).map((src, i) => {
+                const href = links?.[i] || "#";
+                return (
+                  <div className="img-wrap" key={i}>
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                      <img src={src} alt="logo" />
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const loopSlides = [slides[total - 1], ...slides, slides[0]];
+
+  const [index, setIndex] = useState(1);
+  const [animating, setAnimating] = useState(true);
+  const trackRef = useRef(null);
+
+  const next = () => setIndex((p) => p + 1);
+  const prev = () => setIndex((p) => p - 1);
+
+  useEffect(() => {
+    if (!autoPlay || total <= 1) return;
+    const t = setInterval(next, interval);
+    return () => clearInterval(t);
+  }, [autoPlay, interval, total]);
+
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+
+    const onEnd = () => {
+      if (index === total + 1) {
+        setAnimating(false);
+        setIndex(1);
+      }
+      if (index === 0) {
+        setAnimating(false);
+        setIndex(total);
+      }
+    };
+
+    el.addEventListener("transitionend", onEnd);
+    return () => el.removeEventListener("transitionend", onEnd);
+  }, [index, total]);
+
+  useEffect(() => {
+    if (!animating) {
+      const r = requestAnimationFrame(() => setAnimating(true));
+      return () => cancelAnimationFrame(r);
+    }
+  }, [animating]);
+
+  return (
+    <div className="logo-carousel">
+      <button className="carousel-btn prev" onClick={prev} aria-label="Previous">
+        ‹
+      </button>
+
+      <div className="carousel-viewport">
+        <div
+          ref={trackRef}
+          className={`carousel-track ${animating ? "anim" : "no-anim"}`}
+          style={{ transform: `translateX(-${index * 100}%)` }}
+        >
+          {loopSlides.map((slideGroup, slidePos) => {
+            let realSlide = slidePos - 1;
+            if (slidePos === 0) realSlide = total - 1;
+            if (slidePos === total + 1) realSlide = 0;
+
+            const start = realSlide * perSlide;
+
+            return (
+              <div className="carousel-slide" key={slidePos}>
+                {slideGroup.map((src, i) => {
+                  const realIndex = start + i;
+                  const href = links?.[realIndex] || "#";
+                  return (
+                    <div className="img-wrap" key={`${slidePos}-${i}`}>
+                      <a href={href} target="_blank" rel="noopener noreferrer">
+                        <img src={src} alt="logo" />
+                      </a>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <button className="carousel-btn next" onClick={next} aria-label="Next">
+        ›
+      </button>
+    </div>
+  );
+};
+
 
 const Footer = () => {
   const socialIcons = [
@@ -123,15 +268,13 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>As Seen On</h1>
-                      <div className="seen-wrap">
-                        {seenIcons.map((x, i) => (
-                          <div className="img-wrap" key={i}>
-                            <a href={seenLinks[i]} target="_blank" rel="noopener noreferrer">
-                              <img src={x} alt="seen icon" />
-                            </a>
-                          </div>
-                        ))}
-                      </div>
+                      <LogoCarouselSmooth
+  icons={seenIcons}
+  links={seenLinks}
+  itemsPerSlide={3}
+  autoPlay={true}
+  interval={3000}
+/>
                     </div>
                   </div>
                 </div>
@@ -142,15 +285,13 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>Our Partners</h1>
-                      <div className="seen-wrap">
-                        {partnerIcons.map((x, i) => (
-                          <div className="img-wrap" key={i}>
-                            <a href={partnerLinks[i]} target="_blank" rel="noopener noreferrer">
-                              <img src={x} alt="seen icon" />
-                            </a>
-                          </div>
-                        ))}
-                      </div>
+                      <LogoCarouselSmooth
+  icons={partnerIcons}
+  links={partnerLinks}
+  itemsPerSlide={3}
+  autoPlay={true}
+  interval={3000}
+/>
                     </div>
                   </div>
                 </div>
