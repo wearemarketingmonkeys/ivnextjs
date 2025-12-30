@@ -54,8 +54,6 @@ export const menuItems = [
             {
               submenuTitle: "Body",
               submenu: [
-                { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
-                { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
                 { label: "Body Fillers", to: "/aesthetic/body-fillers" },
                 { label: "HIFU Treatment", to: "/aesthetic/hifu-treatment" },
                 { label: "PRP", to: "/aesthetic/prp" },
@@ -65,6 +63,8 @@ export const menuItems = [
                 { label: "Collagen stimulation (Sculptra & Radiesse)", to: "/aesthetic/collagen-stimulation" },
                 { label: "Lipozero", to: "/aesthetic/lipo-zero" },
                 { label: "Liposculpt", to: "/aesthetic/lipo-sculpt" },
+                { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
+                { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
               ],
             },
           ],
