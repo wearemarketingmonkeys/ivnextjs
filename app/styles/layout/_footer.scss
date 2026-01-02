@@ -190,7 +190,7 @@
     @include mixin.respond(sm){
       flex-direction: row !important;
       justify-content: flex-start;
-      width: 100% !important;
+      width: auto;
     }
 
       .btn{
