@@ -185,6 +185,7 @@
 
 .footerlocations {
     margin-bottom: 20px;
+    color: #F2EEE9;
 
     @include mixin.respond(sm){
       flex-direction: row !important;
@@ -193,7 +194,11 @@
     }
 
       .btn{
-        color:#000 !important;
+        color:#F2EEE9 !important;
+        background-color:transparent !important;
+        border:none;
+        height:auto;
+        padding:5px;
       }
 
       .btn:hover{
