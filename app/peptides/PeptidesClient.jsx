@@ -141,7 +141,7 @@ export default function PeptidesClient({ initialPeptides = [] }) {
 
                 {/* ✅ Button now opens modal instead of navigation */}
                 <button className="btn" type="button" onClick={() => openModal(item)}>
-                  Learn More
+                  +
                 </button>
 
                 <div className="imgWrap">
