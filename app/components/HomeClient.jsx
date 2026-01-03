@@ -138,14 +138,16 @@ export default function HomeClient() {
         </video>
         <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
-          <h1>
-            Step Inside <span>IV’s</span> <br />
-            <span>Aesthetic</span> Sanctuary
-          </h1>
+          <div className="spin-wrap">
+            <img className="spinner-text" src="/assets/img/home/h1-2.png" alt="spinner" />
+          </div>
           <div className="btn-wrap">
             <Link href="/iv-therapy/drips" className="btn btn-light">IV Therapy</Link>
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
             <Link href="/peptides" className="btn btn-light">Peptides</Link>
+          </div>
+          <div className="locations">
+            <span>DIFC</span> | <span>PALM JUMEIRAH</span> | <span>At Home IV Therapy</span>
           </div>
           <div className="hero-bar-wrap"><div className="hero-bar" /></div>
         </div>

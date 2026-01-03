@@ -116,7 +116,7 @@ export default function Header() {
 
   const pathname = usePathname();
 
-  const isHome = pathname === "/";
+  const isHome = pathname === "/" || pathname === "/peptides";
 
   const [isConcernsOpen, setConcernsOpen] = useState(false);
   const megaRef = useRef(null);
@@ -161,11 +161,11 @@ export default function Header() {
 
   return (
     <>
-      <div className="top-nav text-center py-2 bg-dark text-light">
+      {/*<div className="top-nav text-center py-2 bg-dark text-light">
         <Link href="/iv-therapy/drips" className="text-light">
           In-Clinic & At-Home IV Therapy – Wellness your way, anytime, anywhere.
         </Link>
-      </div>
+      </div>*/}
 
       <div
         className={`header ${isSticky ? 'sticky' : ''} ${isHome ? 'home' : ''} ${menuClosed ? 'hide-submenu' : ''}`}
