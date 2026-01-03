@@ -145,6 +145,7 @@ export default function HomeClient() {
           <div className="btn-wrap">
             <Link href="/iv-therapy/drips" className="btn btn-light">IV Therapy</Link>
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
+            <Link href="/peptides" className="btn btn-light">Peptides</Link>
           </div>
           <div className="hero-bar-wrap"><div className="hero-bar" /></div>
         </div>
