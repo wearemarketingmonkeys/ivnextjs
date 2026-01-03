@@ -1,0 +1,546 @@
+{
+  "peptidesData": [
+    {
+      "type": "Repair & Regeneration",
+      "name": "BPC-157",
+      "fromPrice": 39,
+      "slug": "bpc-157",
+      "img": "/assets/img/peptides/1.png",
+      "detailimg": "/assets/img/peptides/11.png",
+      "tags": ["recovery", "gut", "repair"],
+      "details": {
+      "headline": "BPC-157 Peptide in Dubai | Accelerated Healing and Recovery",
+      "overview": [
+        "BPC-157 peptide therapy at IV Wellness Lounge Dubai is designed to support the body’s natural healing and repair processes. BPC-157 is a synthetic peptide originally derived from a protein found in gastric juice and is known for its role in tissue regeneration, injury recovery, and gut health support.",
+        "This peptide works by stimulating angiogenesis, the formation of new blood vessels, and promoting fibroblast activity, both of which are essential for healing damaged tissues. BPC-157 is commonly used to aid recovery from musculoskeletal injuries while also supporting digestive, cognitive, and cardiovascular health."
+      ],
+      "usesIntro": "BPC-157 peptide therapy may be recommended for individuals experiencing:",
+      "uses": [
+        "Tendon and ligament injuries",
+        "Muscle strains or joint damage",
+        "Post-surgical recovery",
+        "Inflammation or delayed healing",
+        "Gastrointestinal irritation or ulcers",
+        "Chronic overuse injuries from training or activity"
+      ],
+      "benefits": [
+        "Accelerates recovery and tissue repair",
+        "Supports healing of muscles, tendons, ligaments, and bones",
+        "Enhances collagen formation and connective tissue strength",
+        "Helps reduce inflammation and discomfort",
+        "Supports gut lining integrity and digestive health",
+        "Promotes localized healing when administered correctly"
+      ],
+      "dosageIntro": "BPC-157 protocols at IV Wellness Lounge Dubai are prescribed and supervised by medical professionals based on individual needs.",
+      "dosageProtocol": [
+        "Typical dose: 500 mcg subcutaneous daily",
+        "Administration is often localized near the area being treated for optimal results",
+        "Duration is flexible and used as needed until recovery goals are achieved",
+        "Common timing includes evening use or post-workout",
+        "All peptide protocols are customized following a consultation to ensure safety and effectiveness."
+      ],
+      "safety": "BPC-157 is generally well tolerated when administered correctly. Most side effects are mild and related to improper injection technique rather than the peptide itself. These may include localized skin irritation or temporary discomfort at the injection site. At IV Wellness Lounge, all clients receive professional guidance on proper administration to minimize any unwanted effects.",
+      "contraIntro": "BPC-157 peptide therapy is not recommended for individuals who:",
+      "contraindications": [
+        "Have active or recent cancer",
+        "Are pregnant or breastfeeding",
+        "Are under the age of 18"
+      ],
+      "contraOutro": "A full medical consultation is required before starting any peptide protocol.",
+      "bestFor": "BPC-157 is ideal for individuals looking to support injury recovery, improve healing time, or strengthen connective tissues naturally. It is often chosen by active individuals, athletes, or those recovering from physical strain who want a targeted, regenerative approach to wellness."
+    }
+    },
+    {
+      "type": "Repair & Regeneration",
+      "name": "Thymosin Alpha-1 (Tα1)",
+      "fromPrice": 0,
+      "slug": "thymosin-alpha-1",
+      "img": "/assets/img/peptides/2.png",
+      "detailimg": "/assets/img/peptides/12.png",
+      "tags": ["immune", "resilience", "longevity", "recovery"],
+      "details": {
+        "headline": "Thymosin Alpha-1 Peptide Therapy in Dubai | Immune Strength and Resilience",
+        "overview": [
+          "Thymosin Alpha-1 (Tα1) peptide therapy at IV Wellness Lounge Dubai is an advanced immune-support treatment designed to regulate, strengthen, and restore immune function. Thymosin Alpha-1 is a synthetic peptide composed of 28 amino acids and was originally isolated from the thymus gland, a key organ involved in immune regulation.",
+          "This peptide is widely recognized for its immunomodulatory properties and has been used internationally to support immune balance in cases of chronic infections, immune deficiency, and as an adjunct in complex medical conditions. Rather than overstimulating the immune system, Thymosin Alpha-1 helps normalize immune responses, making it suitable for both immune weakness and immune dysregulation."
+        ],
+        "usesIntro": "Thymosin Alpha-1 peptide therapy may be recommended for individuals who need immune support or regulation, including those with:",
+        "uses": [
+          "Chronic viral infections such as Hepatitis B or Hepatitis C",
+          "Recurrent infections or weakened immunity",
+          "Post-surgical or post-illness immune recovery",
+          "Chronic fatigue linked to immune dysregulation",
+          "Autoimmune conditions requiring immune modulation",
+          "Long-term stress or inflammation affecting immune health",
+          "Immune optimization as part of anti-aging or longevity programs"
+        ],
+        "benefits": [
+          "Enhances T-cell differentiation and immune response",
+          "Improves natural killer cell and cytotoxic T-cell activity",
+          "Supports balanced cytokine signaling",
+          "Strengthens immune surveillance and defense mechanisms",
+          "Helps regulate overactive or underactive immune responses",
+          "Supports recovery from illness and immune stress",
+          "Promotes long-term immune resilience and stability"
+        ],
+        "dosageIntro": "Thymosin Alpha-1 protocols at IV Wellness Lounge Dubai are customized based on individual health needs and clinical goals.",
+        "dosageProtocol": [
+          "Typical dose range: 1.6 mg to 3.2 mg, administered twice weekly",
+          "Route: Subcutaneous injection",
+          "Common injection sites include the upper arm, thigh, or abdomen, with rotation recommended",
+          "Duration typically ranges from 2 to 6 months, depending on response and indication",
+          "All dosing and duration are determined following a comprehensive medical consultation."
+        ],
+        "safety": "Thymosin Alpha-1 is generally well tolerated, with most side effects being mild and temporary. Commonly reported effects may include localized redness, mild discomfort at the injection site, temporary fatigue, headache, or low-grade fever. Less commonly, individuals may experience mild flu-like symptoms or transient changes in liver enzymes. Allergic reactions are rare. At IV Wellness Lounge, all peptide therapies are monitored to ensure safety and optimal outcomes.",
+        "contraIntro": "Thymosin Alpha-1 peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have a known hypersensitivity to the peptide or its components",
+          "Are pregnant or breastfeeding",
+          "Have certain autoimmune conditions unless specifically medically indicated",
+          "Require caution due to complex immune-related disorders"
+        ],
+        "contraOutro": "A full consultation is required to assess suitability before starting treatment.",
+        "bestFor": "Thymosin Alpha-1 is ideal for individuals seeking to strengthen immune defenses, restore immune balance, or support long-term wellness and resilience. It is often chosen by those with recurrent infections, chronic fatigue, immune stress, or those pursuing proactive immune optimization as part of a longevity-focused wellness plan.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized Thymosin Alpha-1 peptide therapy at IV Wellness Lounge Dubai. Our medical team will evaluate your immune health and design a tailored protocol to support balance, protection, and long-term wellbeing."
+      }
+    },
+    {
+      "type": "Growth & Recovery",
+      "name": "Ipamorelin",
+      "fromPrice": 0,
+      "slug": "ipamorelin",
+      "img": "/assets/img/peptides/3.png",
+      "detailimg": "/assets/img/peptides/13.png",
+      "tags": ["growth-hormone", "recovery", "sleep", "anti-aging", "body-composition"],
+      "details": {
+        "headline": "Ipamorelin Peptide Therapy in Dubai | Growth Hormone Support and Recovery",
+        "overview": [
+          "Ipamorelin peptide therapy at IV Wellness Lounge Dubai is designed to naturally stimulate the body’s own growth hormone production. Ipamorelin is a selective agonist of the ghrelin receptor and functions as a growth hormone secretagogue, encouraging the release of growth hormone without significantly affecting cortisol or prolactin levels.",
+          "By increasing endogenous growth hormone and supporting IGF-1 production, Ipamorelin helps improve muscle recovery, body composition, sleep quality, and overall vitality. It is commonly used in performance, anti-aging, and wellness-focused protocols due to its targeted and well-tolerated profile."
+        ],
+        "usesIntro": "Ipamorelin peptide therapy may be recommended for individuals seeking support with:",
+        "uses": [
+          "Lean muscle development",
+          "Fat metabolism and body recomposition",
+          "Recovery from training or physical stress",
+          "Age-related decline in growth hormone",
+          "Sleep quality and nighttime recovery",
+          "Overall wellness and vitality optimization"
+        ],
+        "benefits": [
+          "Stimulates natural growth hormone release",
+          "Supports lean muscle growth and strength",
+          "Enhances fat metabolism",
+          "Improves recovery and tissue repair",
+          "Supports deeper, more restorative sleep",
+          "Promotes anti-aging and longevity benefits",
+          "Well tolerated with minimal impact on stress hormones"
+        ],
+        "dosageIntro": "Ipamorelin protocols at IV Wellness Lounge Dubai are individualized based on goals such as performance, recovery, or general wellness.",
+        "dosageProtocol": [
+          "Administration Guidelines",
+          "Route: Subcutaneous injection",
+          "Common injection sites include the abdomen, thigh, or triceps",
+          "Injection sites should be rotated regularly",
+          "Best administered on an empty stomach with no carbohydrates or fats one hour before or after injection",
+          "Often combined with a GHRH such as CJC-1295 for enhanced growth hormone response",
+          "Typical Dosing Ranges",
+          "General wellness or anti-aging: 100 mcg once or twice daily, often before sleep or in a fasted morning state",
+          "Performance and muscle support: 100 to 200 mcg two to three times daily, commonly in the morning, post-workout, and before sleep",
+          "Advanced protocols may reach up to 300 mcg per injection, not exceeding 600 mcg per day, under medical supervision",
+          "Cycle Duration",
+          "Loading phase typically lasts 8 to 12 weeks, during which improvements in recovery, sleep, and muscle tone are commonly observed",
+          "Maintenance phase may follow for 4 to 8 weeks at reduced dosing",
+          "A cycle break of approximately 4 weeks is recommended to avoid receptor desensitization"
+        ],
+        "safety": "Ipamorelin is generally well tolerated. Some individuals may experience mild, temporary side effects related to growth hormone stimulation. Potential side effects may include: Temporary water retention Mild swelling or puffiness Changes in blood glucose levels, particularly in individuals with high carbohydrate intake These effects can often be managed through dietary adjustments and appropriate medical guidance. All clients at IV Wellness Lounge receive supervision and education to ensure safe use.",
+        "contraIntro": "Ipamorelin peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have unstable blood sugar levels",
+          "Are pregnant or breastfeeding",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A full medical consultation is required prior to starting treatment.",
+        "bestFor": "Ipamorelin is ideal for individuals looking to enhance recovery, support muscle tone, improve sleep quality, or address age-related declines in growth hormone naturally. It is commonly chosen by active individuals, those focused on body composition, and clients seeking anti-aging support as part of a comprehensive wellness program.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized Ipamorelin peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports performance, recovery, and long-term wellbeing."
+      }
+    },
+    {
+      "type": "Growth Hormone",
+      "name": "Sermorelin Acetate",
+      "fromPrice": 0,
+      "slug": "sermorelin-acetate",
+      "img": "/assets/img/peptides/4.png",
+      "detailimg": "/assets/img/peptides/14.png",
+      "tags": ["growth-hormone", "sleep", "recovery", "anti-aging", "metabolism", "longevity"],
+      "details": {
+        "headline": "Sermorelin Acetate Peptide Therapy in Dubai | Natural Growth Hormone Support",
+        "overview": [
+          "Sermorelin Acetate peptide therapy at IV Wellness Lounge Dubai is a growth hormone–releasing hormone (GHRH) analogue that works by stimulating the pituitary gland to produce and release growth hormone naturally. Rather than supplying synthetic growth hormone, Sermorelin encourages your body to restore its own production in a regulated and physiological way.",
+          "This peptide is commonly used to support healthy aging, metabolism, sleep quality, and recovery. As growth hormone levels decline with age, Sermorelin helps improve overall vitality while maintaining the body’s natural hormonal balance."
+        ],
+        "usesIntro": "Sermorelin Acetate peptide therapy may be recommended for individuals seeking support with:",
+        "uses": [
+          "Age-related decline in growth hormone",
+          "Anti-aging and longevity programs",
+          "Poor sleep quality or disrupted sleep cycles",
+          "Slower metabolism or reduced energy levels",
+          "Reduced recovery from physical or mental stress",
+          "Hormonal and metabolic optimization"
+        ],
+        "benefits": [
+          "Stimulates natural growth hormone release",
+          "Supports metabolism and fat utilization",
+          "Improves sleep quality and nighttime recovery",
+          "Enhances muscle repair and tissue regeneration",
+          "Promotes healthy aging and vitality",
+          "Supports long-term hormonal balance"
+        ],
+        "dosageIntro": "Sermorelin protocols at IV Wellness Lounge Dubai are personalized based on individual health goals and clinical assessment.",
+        "dosageProtocol": [
+          "Typical dose ranges from 100 to 300 mcg, administered subcutaneously",
+          "Commonly injected at bedtime to align with the body’s natural growth hormone release cycle",
+          "Designed for continuous long-term use, typically 12 weeks or longer, for optimal results",
+          "All dosing schedules are prescribed and monitored by medical professionals following consultation."
+        ],
+        "stackingTitle": "Combination and Stacking",
+        "stackingText": "Sermorelin Acetate is often combined with Ipamorelin for an additive and synergistic effect on growth hormone release. This combination supports enhanced recovery, sleep quality, and metabolic benefits while maintaining a well-tolerated profile.",
+        "safety": "Sermorelin is generally well tolerated. Side effects, if they occur, are usually mild and temporary and may include slight redness or irritation at the injection site. Because Sermorelin stimulates natural hormone production rather than replacing hormones, it is considered a safer long-term option for growth hormone support when medically supervised.",
+        "contraIntro": "Sermorelin Acetate peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Have active malignancy",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A full medical consultation is required to determine suitability before beginning treatment.",
+        "bestFor": "Sermorelin is ideal for individuals seeking a natural approach to growth hormone optimization, improved sleep, metabolic support, and healthy aging. It is well suited for those looking for sustainable, long-term wellness benefits rather than short-term stimulation.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Explore personalized Sermorelin Acetate peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support hormonal balance, recovery, and long-term vitality through safe, science-backed care."
+      }
+    },
+    {
+      "type": "Hormonal Balance & Regulation",
+      "name": "Gonadorelin",
+      "fromPrice": 0,
+      "slug": "gonadorelin",
+      "img": "/assets/img/peptides/5.png",
+      "detailimg": "/assets/img/peptides/15.png",
+      "tags": ["hormonal", "reproductive", "fertility", "testosterone", "pituitary", "optimization"],
+      "details": {
+        "headline": "Gonadorelin Peptide in Dubai | Hormonal and Reproductive Support",
+        "overview": [
+          "Gonadorelin peptide therapy at IV Wellness Lounge Dubai is a gonadotropin-releasing hormone (GnRH) analogue designed to stimulate the body’s natural production of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). These hormones play a critical role in regulating testosterone production, reproductive function, and overall hormonal balance.",
+          "By supporting the pituitary–gonadal axis, Gonadorelin helps restore natural hormone signaling rather than replacing hormones directly. This makes it a valuable option for individuals seeking fertility support, pituitary stimulation, or hormonal optimization under medical supervision."
+        ],
+        "usesIntro": "Gonadorelin peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Hypogonadism or low testosterone linked to pituitary signaling",
+          "Fertility-related concerns",
+          "Pituitary suppression or hormonal imbalance",
+          "Hormonal recovery following medical treatments",
+          "Reproductive hormone optimization"
+        ],
+        "benefits": [
+          "Stimulates natural LH and FSH secretion",
+          "Supports healthy testosterone production",
+          "Helps restore reproductive hormone balance",
+          "Encourages proper pituitary function",
+          "Promotes natural endocrine regulation"
+        ],
+        "dosageIntro": "Gonadorelin protocols at IV Wellness Lounge Dubai are personalized following medical assessment.",
+        "dosageProtocol": [
+          "Typical dose: 100 mcg subcutaneous injection",
+          "Frequency: Every other day",
+          "Administration is supervised and adjusted based on individual response and goals",
+          "All peptide therapies are prescribed and monitored by qualified medical professionals."
+        ],
+        "safety": "Gonadorelin is generally well tolerated when used appropriately. Mild, temporary side effects may include slight redness or discomfort at the injection site. Because Gonadorelin works by stimulating natural hormone release, it is often preferred for maintaining physiological balance rather than introducing external hormones.",
+        "contraIntro": "Gonadorelin peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Have hormone-sensitive malignancies",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A comprehensive consultation is required to determine suitability prior to treatment.",
+        "bestFor": "Gonadorelin is ideal for individuals seeking natural support for reproductive health, testosterone regulation, and pituitary function. It is commonly included in fertility-focused or hormone-optimization protocols under professional care.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized Gonadorelin peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your hormonal health and design a targeted protocol to support balance, fertility, and long-term wellbeing."
+      }
+    },
+    {
+      "type": "Growth & Recovery",
+      "name": "CJC-1295",
+      "fromPrice": 0,
+      "slug": "cjc-1295",
+      "img": "/assets/img/peptides/6.png",
+      "detailimg": "/assets/img/peptides/16.png",
+      "tags": ["growth-hormone", "metabolism", "fat-loss", "recovery", "anti-aging", "longevity"],
+      "details": {
+        "headline": "CJC-1295 Peptide in Dubai | Growth Hormone and Metabolic Support",
+        "overview": [
+          "CJC-1295 peptide therapy at IV Wellness Lounge Dubai is a synthetic analogue of Growth Hormone Releasing Hormone (GHRH). It works by stimulating the pituitary gland to release growth hormone in a natural, pulsatile manner, closely mimicking the body’s own physiology.",
+          "Unlike short-acting GHRH peptides, CJC-1295 with DAC has an extended half-life, allowing for sustained growth hormone and IGF-1 elevation with less frequent dosing. This makes it a popular option for individuals focused on muscle development, fat metabolism, recovery, and healthy aging."
+        ],
+        "usesIntro": "CJC-1295 peptide therapy may be recommended for individuals seeking support with:",
+        "uses": [
+          "Lean muscle growth and strength",
+          "Fat loss and metabolic optimization",
+          "Recovery from physical training or stress",
+          "Age-related decline in growth hormone",
+          "Anti-aging and longevity programs"
+        ],
+        "benefits": [
+          "Increases natural growth hormone and IGF-1 levels",
+          "Supports lean muscle mass development",
+          "Enhances fat metabolism",
+          "Improves recovery and tissue repair",
+          "Promotes overall vitality and healthy aging",
+          "Long-acting profile with weekly dosing"
+        ],
+        "dosageIntro": "CJC-1295 protocols at IV Wellness Lounge Dubai are prescribed following a full medical consultation.",
+        "dosageProtocol": [
+          "Typical dose: 2 mg once weekly, administered subcutaneously",
+          "Common injection site: abdominal area",
+          "Often injected before bedtime to align with natural growth hormone release",
+          "Typical cycle duration is 8 to 12 weeks for muscle or fat loss goals",
+          "A rest period of 4 to 6 weeks is recommended between cycles",
+          "For anti-aging and longevity support, CJC-1295 may be used for longer durations at lower dosing under medical supervision, sometimes extending up to 6 months."
+        ],
+        "stackingTitle": "Combination and Stacking",
+        "stackingText": "CJC-1295 is frequently combined with Ipamorelin for a synergistic effect. This combination enhances growth hormone release while maintaining a balanced and well-tolerated hormonal response.",
+        "safety": "CJC-1295 is generally well tolerated when used as directed. Some individuals may experience mild and temporary side effects, including: Changes in blood glucose levels, particularly in those with high carbohydrate intake Temporary water retention, which may cause mild puffiness or blood pressure changes These effects can often be managed through dietary adjustments and proper monitoring. All clients at IV Wellness Lounge receive guidance and follow-up to ensure safe use.",
+        "contraIntro": "CJC-1295 peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have active or recent cancer",
+          "Are pregnant or breastfeeding",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A full medical evaluation is required prior to starting treatment.",
+        "bestFor": "CJC-1295 is ideal for individuals looking to improve body composition, enhance recovery, or support healthy aging through natural growth hormone stimulation. It is commonly included in structured performance, fat loss, or longevity-focused peptide programs.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Explore personalized CJC-1295 peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports performance, recovery, and long-term wellbeing."
+      }
+    },
+    {
+      "type": "Metabolic and Mitochondrial Support",
+      "name": "MOTS-C",
+      "fromPrice": 0,
+      "slug": "mots-c",
+      "img": "/assets/img/peptides/7.png",
+      "detailimg": "/assets/img/peptides/17.png",
+      "tags": ["metabolic", "mitochondrial", "energy", "insulin-sensitivity", "fat-loss", "longevity", "endurance"],
+      "details": {
+        "headline": "MOTS-C Peptide in Dubai | Metabolic and Mitochondrial Optimization",
+        "overview": [
+          "MOTS-C peptide therapy at IV Wellness Lounge Dubai is a mitochondrial signaling peptide designed to support metabolic health, cellular energy production, and stress resilience. Unlike traditional peptides, MOTS-C originates from mitochondrial DNA and plays a direct role in regulating how the body uses energy.",
+          "MOTS-C works by activating AMPK, a key metabolic pathway involved in glucose utilization, fat oxidation, and insulin sensitivity. By improving mitochondrial efficiency, this peptide supports energy levels, metabolic balance, and overall cellular performance, particularly as the body ages or experiences metabolic stress."
+        ],
+        "usesIntro": "MOTS-C peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Insulin resistance or metabolic imbalance",
+          "Fatigue or low energy levels",
+          "Weight management challenges",
+          "Age-related metabolic slowdown",
+          "Reduced exercise endurance",
+          "Stress-related metabolic dysregulation"
+        ],
+        "benefits": [
+          "Enhances cellular energy metabolism",
+          "Improves insulin sensitivity and glucose uptake",
+          "Supports fat loss while preserving lean body mass",
+          "Boosts mitochondrial efficiency and endurance",
+          "Supports metabolic resilience and stress adaptation",
+          "May promote longevity and long-term metabolic health"
+        ],
+        "dosageIntro": "MOTS-C protocols at IV Wellness Lounge Dubai are tailored based on metabolic goals and clinical assessment.",
+        "dosageProtocol": [
+          "Injection route: Subcutaneous injection",
+          "Common injection sites include the abdomen or thigh",
+          "Typical dose range: 5 to 10 mg total per week",
+          "Common schedule: 5 mg twice weekly, such as Monday and Thursday",
+          "Cycle duration usually ranges from 4 to 8 weeks",
+          "A break of 2 to 4 weeks is recommended before repeating a cycle"
+        ],
+        "timingTitle": "Timing Guidelines",
+        "timingText": "MOTS-C is best administered in the morning in a fasted state or before exercise to support optimal mitochondrial activation and metabolic response.",
+        "safety": "MOTS-C is generally well tolerated when used under medical supervision. Most side effects, if they occur, are mild and temporary. Possible side effects may include: Mild redness, swelling, or discomfort at the injection site Temporary fatigue or light dizziness Mild nausea shortly after injection Occasional headache related to transient glucose or insulin shifts All clients at IV Wellness Lounge receive guidance and monitoring to ensure safe and effective use.",
+        "contraIntro": "MOTS-C peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Are children or adolescents",
+          "Have active cancer or neoplastic conditions",
+          "Have severe liver or kidney disease",
+          "Have autoimmune disorders requiring careful metabolic regulation",
+          "Are using insulin or oral hypoglycemic medications due to hypoglycemia risk"
+        ],
+        "contraOutro": "A full medical consultation is required prior to initiating therapy.",
+        "bestFor": "MOTS-C is ideal for individuals seeking metabolic optimization, improved energy levels, enhanced endurance, and better insulin sensitivity. It is commonly chosen by those focused on longevity, weight management, or performance support through cellular-level interventions.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized MOTS-C peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your metabolic health and design a tailored protocol to support energy, balance, and long-term wellness through advanced mitochondrial support."
+      }
+    },
+    {
+      "type": "Pigmentation and Neuroendocrine",
+      "name": "Melanotan II",
+      "fromPrice": 0,
+      "slug": "melanotan-ii",
+      "img": "/assets/img/peptides/8.png",
+      "detailimg": "/assets/img/peptides/18.png",
+      "tags": ["skin", "pigmentation", "tanning", "libido", "metabolism", "appetite", "inflammation"],
+      "details": {
+        "headline": "Melanotan II Peptide in Dubai | Skin Pigmentation and Wellness Support",
+        "overview": [
+          "Melanotan II peptide therapy at IV Wellness Lounge Dubai is a synthetic analogue of melanocyte-stimulating hormone (MSH). It works by stimulating melanogenesis, the natural production of melanin in the skin. While Melanotan II is widely known for supporting a deeper, more even tan with reduced sun exposure, it also plays a role in regulating appetite, inflammation, and sexual function.",
+          "By increasing melanin production, Melanotan II may help enhance skin pigmentation while offering additional wellness-related benefits when used responsibly under medical supervision."
+        ],
+        "usesIntro": "Melanotan II peptide therapy may be considered for individuals seeking support with:",
+        "uses": [
+          "Skin tanning and enhanced pigmentation",
+          "Reduced reliance on prolonged sun exposure",
+          "Libido and sexual wellness support",
+          "Fat metabolism and appetite regulation",
+          "Inflammatory balance"
+        ],
+        "benefits": [
+          "Stimulates natural melanin production",
+          "Supports a deeper, more even skin tone",
+          "May enhance libido and sexual response",
+          "May support fat loss and metabolic regulation",
+          "May contribute to anti-inflammatory processes"
+        ],
+        "dosageIntro": "Melanotan II protocols at IV Wellness Lounge Dubai are introduced gradually to allow the body to adapt and minimize side effects.",
+        "dosageProtocol": [
+          "Initial dose: 75 mcg subcutaneously every other day",
+          "Often administered 30 to 60 minutes before sun exposure or tanning",
+          "If well tolerated after three injections, the dose may be increased to 125 mcg every other day",
+          "After approximately six injections without adverse effects, dosing may be increased up to 250 mcg, if clinically appropriate",
+          "Dose escalation is not required once the desired skin tone is achieved",
+          "Both injectable and intranasal formulations may be discussed during consultation. Intranasal options may be better tolerated by some individuals, though higher dosing is often required due to lower bioavailability.",
+          "All dosing is determined and supervised by medical professionals."
+        ],
+        "safety": "Melanotan II is generally tolerated when introduced gradually. Most side effects are dose-related and occur when dosing is increased too quickly. Possible side effects may include: Darkening or increase in existing moles or freckles Development of new freckles Temporary facial flushing Darkening of the lips Nausea, especially at higher doses Rarely, prolonged erections if overdosed Clients are carefully monitored, and dosing adjustments are made to reduce risks.",
+        "contraTitle": "Contraindications and Cautions",
+        "contraIntro": "Melanotan II peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Are children or adolescents",
+          "Have a history of melanoma or concerning skin lesions",
+          "Are sensitive to melanocortin-related compounds"
+        ],
+        "contraOutro": "A full medical consultation is required prior to treatment.",
+        "bestFor": "Melanotan II may be suitable for individuals seeking controlled skin pigmentation support or additional wellness benefits, provided it is used under professional supervision. It is especially important for clients to undergo assessment and monitoring to ensure safety and appropriate dosing.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Learn more about Melanotan II peptide therapy at IV Wellness Lounge Dubai. Our medical team will guide you through a personalized, safety-first approach to peptide therapy aligned with your wellness goals."
+      }
+    },
+    {
+      "type": "Aesthetic & Cosmetic",
+      "name": "Acetyl Hexapeptide-8",
+      "fromPrice": 0,
+      "slug": "acetyl-hexapeptide-8",
+      "img": "/assets/img/peptides/9.png",
+      "detailimg": "/assets/img/peptides/19.png",
+      "tags": ["skincare", "wrinkles", "anti-aging", "topical", "aesthetic", "skin-texture"],
+      "details": {
+        "headline": "Acetyl Hexapeptide-8 in Dubai | Non-Invasive Wrinkle Relaxation",
+        "overview": [
+          "Acetyl Hexapeptide-8 at IV Wellness Lounge Dubai, often referred to as Botox in a bottle, is a topical peptide designed to reduce the appearance of expression lines and dynamic wrinkles. It works by gently inhibiting neurotransmitter release involved in muscle contraction, helping facial muscles relax without injections or invasive procedures.",
+          "This peptide offers a non-invasive alternative for individuals seeking smoother skin and visible anti-aging benefits while maintaining natural facial movement. It is commonly used as part of advanced skincare and aesthetic maintenance routines."
+        ],
+        "usesIntro": "Acetyl Hexapeptide-8 may be recommended for individuals looking to address:",
+        "uses": [
+          "Expression lines and fine wrinkles",
+          "Early signs of aging",
+          "Forehead lines, crow’s feet, and smile lines",
+          "Preventative anti-aging skincare",
+          "Non-injectable wrinkle reduction"
+        ],
+        "benefits": [
+          "Helps reduce the appearance of expression wrinkles",
+          "Provides a Botox-like smoothing effect without injections",
+          "Supports relaxed facial muscle activity",
+          "Improves skin texture and surface smoothness",
+          "Non-invasive and suitable for daily use",
+          "Complements in-clinic aesthetic treatments"
+        ],
+        "dosageIntro": "Acetyl Hexapeptide-8 is applied topically as part of a daily skincare routine.",
+        "dosageProtocol": [
+          "Formulation: 5 percent topical serum",
+          "Apply after cleansing to clean, dry skin",
+          "Use 2 to 3 drops, applied evenly to targeted areas",
+          "Frequency: Twice daily, morning and evening",
+          "Allow 1 to 2 minutes for absorption before applying moisturizer or sunscreen",
+          "Consistent use is key to achieving and maintaining visible results."
+        ],
+        "safety": "Acetyl Hexapeptide-8 is well tolerated and suitable for most skin types. Side effects are rare and typically limited to mild skin sensitivity or irritation, particularly in individuals with reactive skin. A patch test is recommended before first use.",
+        "contraIntro": "This topical peptide may not be suitable for individuals who:",
+        "contraindications": [
+          "Have known hypersensitivity to cosmetic peptides",
+          "Have active skin infections or open wounds in the application area"
+        ],
+        "contraOutro": "Consultation is recommended for pregnant or breastfeeding individuals before use.",
+        "bestFor": "Acetyl Hexapeptide-8 is ideal for individuals seeking a non-invasive solution for expression lines or those looking to maintain results between injectable treatments. It is well suited for clients focused on preventative aging, subtle wrinkle reduction, and daily skin refinement.",
+        "ctaTitle": "Book a Skincare Consultation in Dubai",
+        "ctaText": "Explore advanced peptide-based skincare solutions at IV Wellness Lounge Dubai. Our team can guide you on how Acetyl Hexapeptide-8 fits into a personalized anti-aging and skin wellness plan."
+      }
+    },
+    {
+      "type": "Repair and Regeneration",
+      "name": "GHK-Cu",
+      "fromPrice": 0,
+      "slug": "ghk-cu",
+      "img": "/assets/img/peptides/10.png",
+      "detailimg": "/assets/img/peptides/20.png",
+      "tags": ["skincare", "collagen", "repair", "regeneration", "hair", "anti-aging", "inflammation"],
+      "details": {
+        "headline": "GHK-Cu Peptide in Dubai | Skin Repair, Collagen, and Regeneration",
+        "overview": [
+          "GHK-Cu peptide therapy at IV Wellness Lounge Dubai is a bioactive copper peptide widely recognized for its role in skin rejuvenation, tissue repair, and hair restoration. GHK-Cu occurs naturally in the body and plays a key role in signaling collagen production, wound healing, and cellular regeneration.",
+          "As we age, natural levels of GHK-Cu decline, which can contribute to slower healing, reduced collagen, and visible skin aging. Replenishing this peptide through topical or injectable protocols helps restore skin strength, elasticity, and overall tissue health. Beyond aesthetics, GHK-Cu is also known for its powerful anti-inflammatory properties and is being studied for broader regenerative and healing applications."
+        ],
+        "usesIntro": "GHK-Cu peptide therapy may be recommended for individuals seeking support with:",
+        "uses": [
+          "Skin rejuvenation and visible anti-aging",
+          "Collagen and elastin production",
+          "Wound healing and tissue repair",
+          "Inflammatory skin conditions",
+          "Hair thinning or hair restoration support",
+          "Overall skin quality and resilience"
+        ],
+        "benefits": [
+          "Stimulates collagen and elastin synthesis",
+          "Promotes faster wound healing and skin repair",
+          "Improves skin firmness, texture, and tone",
+          "Supports scalp health and hair growth",
+          "Helps reduce inflammation at the skin and cellular level",
+          "Enhances overall regenerative processes"
+        ],
+        "dosageIntro": "GHK-Cu protocols at IV Wellness Lounge Dubai are customized based on skin goals and treatment approach.",
+        "dosageProtocol": [
+          "Topical Application",
+          "Concentration: 4 percent topical formulation",
+          "Applied directly to the skin or scalp as directed",
+          "Commonly used in anti-aging and hair restoration programs",
+          "Injectable Protocol",
+          "Typical dose: 100 to 200 mcg subcutaneous injection",
+          "Frequency: 2 to 3 times per week",
+          "Injectable GHK-Cu offers systemic anti-inflammatory and regenerative benefits beyond topical use",
+          "All protocols are prescribed and supervised by medical professionals following consultation."
+        ],
+        "safety": "GHK-Cu is generally well tolerated. Side effects are uncommon and typically mild, such as temporary redness or irritation with topical use or slight discomfort at the injection site. Due to its strong anti-inflammatory properties, GHK-Cu is being explored as a potential alternative to corticosteroids for certain inflammatory skin conditions under medical guidance.",
+        "contraIntro": "GHK-Cu peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have known hypersensitivity to copper peptides",
+          "Are pregnant or breastfeeding without medical clearance",
+          "Have active skin infections at the application or injection site"
+        ],
+        "contraOutro": "A consultation is required to determine suitability.",
+        "bestFor": "GHK-Cu is ideal for individuals seeking advanced skin rejuvenation, improved healing, and long-term skin health. It is commonly chosen by clients focused on anti-aging, post-procedure recovery, hair restoration support, and regenerative skin therapy.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized GHK-Cu peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support skin regeneration, collagen production, and overall cellular renewal through safe, science-backed care."
+      }
+    }
+  ]
+}
