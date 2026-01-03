@@ -201,7 +201,7 @@ const LogoCarouselLoop = ({
 
 const Footer = () => {
   const socialIcons = [
-    { title: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/ivwellnessdifc' },
+    { title: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/ivwellnessuae' },
     { title: 'Linkedin',  icon: <FaLinkedin />,  link: 'https://www.linkedin.com/company/iv-hub-wellness-lounge' },
     // { title: 'Youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@IVWellnessLoungeClinic' },
   ];
