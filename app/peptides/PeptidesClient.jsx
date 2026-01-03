@@ -90,7 +90,7 @@ export default function PeptidesClient({ initialPeptides = [] }) {
     <main className="peptidepage">
       <section className="wrap">
         <header className="pheader">
-          <h1 className="title">Explore our products</h1>
+          <h1 className="title">Explore our Peptides</h1>
           <p className="subtitle">All orders will be delivered same day from our Clinic facility.</p>
         </header>
 
