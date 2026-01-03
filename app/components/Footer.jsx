@@ -61,67 +61,82 @@ const useIsMobile = (breakpoint = 767) => {
   return isMobile;
 };
 
-const LogoCarouselSmooth = ({
+
+const LogoCarouselLoop = ({
   icons = [],
   links = [],
-  itemsPerSlide = 3,
+  visible = 3,
   autoPlay = true,
-  interval = 3000,
+  interval = 2500,
+  transition = 450,
 }) => {
+
   const isMobile = useIsMobile();
-  const perSlide = isMobile ? 1 : itemsPerSlide;
+  const perView = isMobile ? 1 : visible;
 
-  const slides = useMemo(() => chunk(icons, perSlide), [icons, perSlide]);
-  const total = slides.length;
-
-  if (total <= 1) {
-    return (
-      <div className="logo-carousel">
-        <div className="carousel-viewport">
-          <div className="carousel-track no-anim" style={{ transform: "translateX(0%)" }}>
-            <div className="carousel-slide">
-              {(slides[0] || []).map((src, i) => {
-                const href = links?.[i] || "#";
-                return (
-                  <div className="img-wrap" key={i}>
-                    <a href={href} target="_blank" rel="noopener noreferrer">
-                      <img src={src} alt="logo" />
-                    </a>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  const loopSlides = [slides[total - 1], ...slides, slides[0]];
-
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
   const [animating, setAnimating] = useState(true);
   const trackRef = useRef(null);
 
-  const next = () => setIndex((p) => p + 1);
-  const prev = () => setIndex((p) => p - 1);
+  // If not enough icons, just repeat them so it always looks full
+  const safeIcons = useMemo(() => {
+    if (!icons.length) return [];
+    if (icons.length >= perView) return icons;
 
+    // Repeat icons until we have at least `perView`
+    const repeated = [];
+    while (repeated.length < perView) repeated.push(...icons);
+    return repeated;
+  }, [icons, perView]);
+
+  const safeLinks = useMemo(() => {
+    if (!links?.length) return [];
+    if (links.length >= perView) return links;
+
+    const repeated = [];
+    while (repeated.length < perView) repeated.push(...links);
+    return repeated;
+  }, [links, perView]);
+
+  // Clone for loop: add `perView` items at the front & end
+  const list = useMemo(() => {
+    if (!safeIcons.length) return [];
+    const head = safeIcons.slice(0, perView);
+    const tail = safeIcons.slice(-perView);
+    return [...tail, ...safeIcons, ...head];
+  }, [safeIcons, perView]);
+
+  const total = safeIcons.length;
+  const startIndex = perView; // because we prepended `perView`
+
+  // Initialize at first real item set
   useEffect(() => {
-    if (!autoPlay || total <= 1) return;
-    const t = setInterval(next, interval);
-    return () => clearInterval(t);
-  }, [autoPlay, interval, total]);
+    setIndex(startIndex);
+  }, [startIndex]);
 
+  const next = () => setIndex((p) => p + perView);
+  const prev = () => setIndex((p) => p - perView);
+
+  // autoplay
+  useEffect(() => {
+    if (!autoPlay || total <= perView) return;
+    const t = setInterval(() => next(), interval);
+    return () => clearInterval(t);
+  }, [autoPlay, interval, total, perView]);
+
+  // Handle snapping after transition ends
   useEffect(() => {
     const el = trackRef.current;
     if (!el) return;
 
     const onEnd = () => {
-      if (index === total + 1) {
+      // if we moved past the "real" end, snap back
+      if (index >= total + perView) {
         setAnimating(false);
-        setIndex(1);
+        setIndex(startIndex);
       }
-      if (index === 0) {
+      // if we moved before the "real" start, snap to end
+      if (index < perView) {
         setAnimating(false);
         setIndex(total);
       }
@@ -129,8 +144,9 @@ const LogoCarouselSmooth = ({
 
     el.addEventListener("transitionend", onEnd);
     return () => el.removeEventListener("transitionend", onEnd);
-  }, [index, total]);
+  }, [index, total, perView, startIndex]);
 
+  // Re-enable animation after snap
   useEffect(() => {
     if (!animating) {
       const r = requestAnimationFrame(() => setAnimating(true));
@@ -138,8 +154,11 @@ const LogoCarouselSmooth = ({
     }
   }, [animating]);
 
+  // Each item width = 100 / perView %
+  const itemWidth = 100 / perView;
+
   return (
-    <div className="logo-carousel">
+    <div className="logo-carousel-loop">
       <button className="carousel-btn prev" onClick={prev} aria-label="Previous">
         ‹
       </button>
@@ -148,28 +167,23 @@ const LogoCarouselSmooth = ({
         <div
           ref={trackRef}
           className={`carousel-track ${animating ? "anim" : "no-anim"}`}
-          style={{ transform: `translateX(-${index * 100}%)` }}
+          style={{
+            transform: `translateX(-${index * itemWidth}%)`,
+            transitionDuration: `${transition}ms`,
+          }}
         >
-          {loopSlides.map((slideGroup, slidePos) => {
-            let realSlide = slidePos - 1;
-            if (slidePos === 0) realSlide = total - 1;
-            if (slidePos === total + 1) realSlide = 0;
-
-            const start = realSlide * perSlide;
+          {list.map((src, i) => {
+            // map to original index for links
+            const realIndex = (i - perView + total) % total;
+            const href = safeLinks?.[realIndex] || "#";
 
             return (
-              <div className="carousel-slide" key={slidePos}>
-                {slideGroup.map((src, i) => {
-                  const realIndex = start + i;
-                  const href = links?.[realIndex] || "#";
-                  return (
-                    <div className="img-wrap" key={`${slidePos}-${i}`}>
-                      <a href={href} target="_blank" rel="noopener noreferrer">
-                        <img src={src} alt="logo" />
-                      </a>
-                    </div>
-                  );
-                })}
+              <div className="carousel-item" key={i} style={{ width: `${itemWidth}%` }}>
+                <div className="img-wrap">
+                  <a href={href} target="_blank" rel="noopener noreferrer">
+                    <img src={src} alt="logo" />
+                  </a>
+                </div>
               </div>
             );
           })}
@@ -182,6 +196,7 @@ const LogoCarouselSmooth = ({
     </div>
   );
 };
+
 
 
 const Footer = () => {
@@ -268,13 +283,7 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>As Seen On</h1>
-                      <LogoCarouselSmooth
-  icons={seenIcons}
-  links={seenLinks}
-  itemsPerSlide={3}
-  autoPlay={true}
-  interval={3000}
-/>
+                      <LogoCarouselLoop icons={seenIcons} links={seenLinks} perView={3} autoPlay={true} interval={2500} />
                     </div>
                   </div>
                 </div>
@@ -285,13 +294,7 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>Our Partners</h1>
-                      <LogoCarouselSmooth
-  icons={partnerIcons}
-  links={partnerLinks}
-  itemsPerSlide={3}
-  autoPlay={true}
-  interval={3000}
-/>
+                      <LogoCarouselLoop icons={partnerIcons} links={partnerLinks} perView={3} autoPlay={true} interval={2500} />
                     </div>
                   </div>
                 </div>

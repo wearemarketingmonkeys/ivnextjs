@@ -218,74 +218,75 @@
 
   }
 
-  .logo-carousel {
+.logo-carousel-loop {
   display: flex;
   align-items: center;
   gap: 12px;
-}
 
-.carousel-viewport {
-  overflow: hidden;
-  width: 100%;
-}
+  .carousel-viewport {
+    overflow: hidden;
+    width: 100%;
+  }
 
-.carousel-track {
-  display: flex;
-  width: 100%;
-}
+  .carousel-track {
+    display: flex;
+    width: 100%;
 
-.carousel-track.anim {
-  transition: transform 450ms ease;
-}
+    &.anim {
+      transition: transform 450ms ease;
+    }
 
-.carousel-track.no-anim {
-  transition: none;
-}
+    &.no-anim {
+      transition: none;
+    }
+  }
 
-/* Desktop: 3 logos per slide */
-.carousel-slide {
-  flex: 0 0 100%;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-  align-items: center;
-}
-
-.logo-carousel .img-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo-carousel .img-wrap img {
-  max-height: 70px;
-  width: 150px;
-  object-fit: contain;
-}
-
-/* arrows */
-.logo-carousel .carousel-btn {
-  background: transparent;
-  display: none;
-  border: none;
-  font-size: 34px;
-  cursor: pointer;
-  line-height: 1;
-  padding: 0 8px;
-  user-select: none;
-  color: #000;
-}
-
-/* ✅ Mobile: ONE logo per slide, centered */
-@media (max-width: 767px) {
-  .carousel-slide {
+  // JS sets width: 33.333% on desktop and 100% on mobile
+  .carousel-item {
+    flex: 0 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 120px; /* keeps it visually stable */
   }
 
-  .logo-carousel .img-wrap img {
-    max-height: 85px; /* can increase if you want */
+  .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-height: 70px;
+      width: 150px;
+      object-fit: contain;
+    }
+  }
+
+  // arrows (hidden like your current setup)
+  .carousel-btn {
+    background: transparent;
+    display: none;
+    border: none;
+    font-size: 34px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 8px;
+    user-select: none;
+    color: #000;
+  }
+
+  // ✅ Mobile: ONE logo visible (per slide)
+  @media (max-width: 767px) {
+    .carousel-item {
+      justify-content: center;
+    }
+
+    .img-wrap {
+      img {
+        max-height: 85px;
+        width: 180px; // slightly larger since it's single logo
+      }
+    }
   }
 }
+
+
