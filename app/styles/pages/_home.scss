@@ -13,13 +13,13 @@
   justify-content: center;
 
   @include mixin.respond(sm) {
-    height: 600px;
-    min-height: 600px;
+    height: 700px;
+    min-height: 700px;
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    height: 600px;
-    max-height: 600px;
+    height: 700px;
+    max-height: 700px;
   }
 
   .hero-video {
@@ -35,13 +35,13 @@
     object-position: center;
 
     @include mixin.respond(sm) {
-      height: 600px;
-      min-height: 600px;
+      height: 700px;
+      min-height: 700px;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-      height: 600px;
-      max-height: 600px;
+      height: 700px;
+      max-height: 700px;
     }
   }
 
@@ -62,13 +62,13 @@
     opacity: 0.3;
 
     @include mixin.respond(sm) {
-      height: 600px;
-      min-height: 600px;
+      height: 700px;
+      min-height: 700px;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-      height: 600px;
-      max-height: 600px;
+      height: 700px;
+      max-height: 700px;
     }
   }
 
@@ -103,6 +103,8 @@
       font-size: 20px;
       text-transform: uppercase;
       margin-top: 10px;
+      -webkit-text-stroke: 1px;
+      letter-spacing: 1.5px;
 
       @include mixin.respond(sm) {
         font-size: 12px;
