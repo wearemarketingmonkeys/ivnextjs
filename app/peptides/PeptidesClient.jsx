@@ -95,7 +95,7 @@ export default function PeptidesClient({ initialPeptides = [] }) {
         <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
-            <h3>Where Science Meets Cellular Renewal</h3>
+            <img className="spinner-text" src="/assets/img/peptides/peptide-header-text-1.png" alt="spinner" />
             <p>Peptide therapy at IV Wellness Lounge is designed to activate the body’s natural intelligence. Through precision-formulated amino acids, we support regeneration, balance, and longevity at a cellular level, with personalized treatments tailored to your unique wellness goals.</p>
           </div>
         </div>

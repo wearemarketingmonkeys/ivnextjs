@@ -94,7 +94,7 @@
       width: 600px;
 
       @include mixin.respond(sm) {
-        width: 250px;
+        width: 400px;
       }
     }
 
