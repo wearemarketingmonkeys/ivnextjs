@@ -424,3 +424,18 @@
 .header:not(.home) .menu-single-item{
   color:#000 !important;
 }
+
+.phone-wrap{
+    
+    .btn{
+      border: 1px solid #f2eee9;
+      background-color: #f2eee9;
+      color: #000;
+
+      &:hover {
+        background-color: #000;
+        border: 1px solid #000;
+        color: #f2eee9;
+      }
+    }
+}
