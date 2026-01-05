@@ -106,7 +106,7 @@ export const menuItems = [
               submenuTitle: "The IV Wellness",
               submenu: [
                 { label: "About us", to: "/about-us" },
-                { label: "Meet Our Doctor", to: "/meet-our-doctor" },
+                // { label: "Meet Our Doctor", to: "/meet-our-doctor" },
                 { label: "Packages", to: "/packages" },
                 { label: "Blogs", to: "/blogs" },
                 { label: "Contact us", to: "/contact-us" },
