@@ -86,7 +86,7 @@
   }
 
   .cardInner {
-    padding: 34px 34px 26px;
+    padding: 35px 0 0;
     text-align: center;
     position:relative;
   }
@@ -101,6 +101,11 @@
     @media (max-width: 900px) {
         font-size: 20px;
     }
+
+    @media (max-width: 500px) {
+        font-size: 18px;
+        margin-top: 10px;
+    }
   }
 
   .name {
@@ -112,6 +117,10 @@
 
     @media (max-width: 900px) {
         font-size: 30px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 20px;
     }
   }
 
@@ -165,6 +174,11 @@
     @media (max-width: 900px) {
         margin: 0 30px;
     }
+
+    @media (max-width: 500px) {
+        border-radius: 0;
+        margin: 0;
+    }
   }
 
   .img {
@@ -172,9 +186,14 @@
     height: 250px;
     object-fit: cover;
     display: block;
+    filter: drop-shadow(20px 10px 15px rgba(0, 0, 0, 0.35));
 
     @media (max-width: 900px) {
         height: 350px;
+    }
+
+    @media (max-width: 500px) {
+        height: 200px;
     }
   }
 
@@ -197,9 +216,6 @@
   }
 
   @media (max-width: 640px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
 
     .title {
       font-size: 32px;
@@ -293,7 +309,7 @@
     height: 100%;
     border-radius: 22px;
     overflow: hidden;
-    background: #0b0b0b;
+    // background: #0b0b0b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -304,6 +320,7 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    filter: drop-shadow(20px -4px 11px rgba(0, 0, 0, 0.35));
   }
 
   /* ✅ RIGHT column */
