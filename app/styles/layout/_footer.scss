@@ -218,38 +218,28 @@
 
   }
 
-.logo-carousel-loop {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.logo-marquee {
+  width: 100%;
 
-  .carousel-viewport {
+  .marquee-viewport {
+    width: 100%;
     overflow: hidden;
-    width: 100%;
   }
 
-  .carousel-track {
+  .marquee-track {
     display: flex;
-    width: 100%;
-
-    &.anim {
-      transition: transform 450ms ease;
-    }
-
-    &.no-anim {
-      transition: none;
-    }
-  }
-
-  // JS sets width: 33.333% on desktop and 100% on mobile
-  .carousel-item {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    width: max-content;
+    gap: 40px;
+    animation-name: marquee-scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    will-change: transform;
   }
 
-  .img-wrap {
+  .marquee-item {
+    flex: 0 0 auto;
+    width: calc(100vw / 8); // ✅ 3 visible on desktop
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,32 +251,40 @@
     }
   }
 
-  // arrows (hidden like your current setup)
-  .carousel-btn {
-    background: transparent;
-    display: none;
-    border: none;
-    font-size: 34px;
-    cursor: pointer;
-    line-height: 1;
-    padding: 0 8px;
-    user-select: none;
-    color: #000;
+  // ✅ Pause on hover (nice UX)
+  &:hover .marquee-track {
+    animation-play-state: paused;
   }
 
-  // ✅ Mobile: ONE logo visible (per slide)
+  // ✅ Mobile: 1 visible
   @media (max-width: 767px) {
-    .carousel-item {
-      justify-content: center;
+    .marquee-item {
+      width: 70vw; // ✅ 1 visible on mobile
     }
 
-    .img-wrap {
-      img {
-        max-height: 85px;
-        width: 180px; // slightly larger since it's single logo
-      }
+    .marquee-item img {
+      max-height: 85px;
+      width: 180px;
+    }
+  }
+
+  // ✅ Reduce motion accessibility
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track {
+      animation: none;
+      transform: translateX(0);
     }
   }
 }
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); // ✅ seamless because we duplicated content
+  }
+}
+
 
 

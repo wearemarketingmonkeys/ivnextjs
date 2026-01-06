@@ -42,166 +42,50 @@ const partnerLinks = [
 ];
 
 
-const chunk = (arr, size) => {
+const repeatUntilMin = (arr, minLength) => {
+  if (!arr || arr.length === 0) return [];
   const out = [];
-  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  while (out.length < minLength) out.push(...arr);
   return out;
 };
 
-const useIsMobile = (breakpoint = 767) => {
-  const [isMobile, setIsMobile] = useState(false);
+const LogoMarquee = ({ icons = [], links = [], speed = 25, minItems = 12 }) => {
+  // Ensure we have enough items for a smooth continuous track
+  const filledIcons = repeatUntilMin(icons, minItems);
+  const filledLinks = repeatUntilMin(links, minItems);
 
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth <= breakpoint);
-    check();
-    window.addEventListener("resize", check);
-    return () => window.removeEventListener("resize", check);
-  }, [breakpoint]);
-
-  return isMobile;
-};
-
-
-const LogoCarouselLoop = ({
-  icons = [],
-  links = [],
-  visible = 3,
-  autoPlay = true,
-  interval = 2500,
-  transition = 450,
-}) => {
-
-  const isMobile = useIsMobile();
-  const perView = isMobile ? 1 : visible;
-
-  const [index, setIndex] = useState(0);
-  const [animating, setAnimating] = useState(true);
-  const trackRef = useRef(null);
-
-  // If not enough icons, just repeat them so it always looks full
-  const safeIcons = useMemo(() => {
-    if (!icons.length) return [];
-    if (icons.length >= perView) return icons;
-
-    // Repeat icons until we have at least `perView`
-    const repeated = [];
-    while (repeated.length < perView) repeated.push(...icons);
-    return repeated;
-  }, [icons, perView]);
-
-  const safeLinks = useMemo(() => {
-    if (!links?.length) return [];
-    if (links.length >= perView) return links;
-
-    const repeated = [];
-    while (repeated.length < perView) repeated.push(...links);
-    return repeated;
-  }, [links, perView]);
-
-  // Clone for loop: add `perView` items at the front & end
-  const list = useMemo(() => {
-    if (!safeIcons.length) return [];
-    const head = safeIcons.slice(0, perView);
-    const tail = safeIcons.slice(-perView);
-    return [...tail, ...safeIcons, ...head];
-  }, [safeIcons, perView]);
-
-  const total = safeIcons.length;
-  const startIndex = perView; // because we prepended `perView`
-
-  // Initialize at first real item set
-  useEffect(() => {
-    setIndex(startIndex);
-  }, [startIndex]);
-
-  const next = () => setIndex((p) => p + perView);
-  const prev = () => setIndex((p) => p - perView);
-
-  // autoplay
-  useEffect(() => {
-    if (!autoPlay || total <= perView) return;
-    const t = setInterval(() => next(), interval);
-    return () => clearInterval(t);
-  }, [autoPlay, interval, total, perView]);
-
-  // Handle snapping after transition ends
-  useEffect(() => {
-    const el = trackRef.current;
-    if (!el) return;
-
-    const onEnd = () => {
-      // if we moved past the "real" end, snap back
-      if (index >= total + perView) {
-        setAnimating(false);
-        setIndex(startIndex);
-      }
-      // if we moved before the "real" start, snap to end
-      if (index < perView) {
-        setAnimating(false);
-        setIndex(total);
-      }
-    };
-
-    el.addEventListener("transitionend", onEnd);
-    return () => el.removeEventListener("transitionend", onEnd);
-  }, [index, total, perView, startIndex]);
-
-  // Re-enable animation after snap
-  useEffect(() => {
-    if (!animating) {
-      const r = requestAnimationFrame(() => setAnimating(true));
-      return () => cancelAnimationFrame(r);
-    }
-  }, [animating]);
-
-  // Each item width = 100 / perView %
-  const itemWidth = 100 / perView;
+  // Duplicate once more so the animation can loop seamlessly
+  const items = [...filledIcons, ...filledIcons];
 
   return (
-    <div className="logo-carousel-loop">
-      <button className="carousel-btn prev" onClick={prev} aria-label="Previous">
-        ‹
-      </button>
-
-      <div className="carousel-viewport">
-        <div
-          ref={trackRef}
-          className={`carousel-track ${animating ? "anim" : "no-anim"}`}
-          style={{
-            transform: `translateX(-${index * itemWidth}%)`,
-            transitionDuration: `${transition}ms`,
-          }}
-        >
-          {list.map((src, i) => {
-            // map to original index for links
-            const realIndex = (i - perView + total) % total;
-            const href = safeLinks?.[realIndex] || "#";
+    <div className="logo-marquee">
+      <div className="marquee-viewport">
+        <div className="marquee-track" style={{ animationDuration: `${speed}s` }}>
+          {items.map((src, i) => {
+            const realIndex = i % filledIcons.length;
+            const href = filledLinks?.[realIndex] || "#";
 
             return (
-              <div className="carousel-item" key={i} style={{ width: `${itemWidth}%` }}>
-                <div className="img-wrap">
-                  <a href={href} target="_blank" rel="noopener noreferrer">
-                    <img src={src} alt="logo" />
-                  </a>
-                </div>
+              <div className="marquee-item" key={i}>
+                <a href={href} target="_blank" rel="noopener noreferrer">
+                  <img src={src} alt="logo" />
+                </a>
               </div>
             );
           })}
         </div>
       </div>
-
-      <button className="carousel-btn next" onClick={next} aria-label="Next">
-        ›
-      </button>
     </div>
   );
 };
 
 
 
+
+
 const Footer = () => {
   const socialIcons = [
-    { title: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/ivwellnessuae' },
+    { title: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/ivwellnessdifc' },
     { title: 'Linkedin',  icon: <FaLinkedin />,  link: 'https://www.linkedin.com/company/iv-hub-wellness-lounge' },
     // { title: 'Youtube', icon: <FaYoutube />, link: 'https://www.youtube.com/@IVWellnessLoungeClinic' },
   ];
@@ -283,7 +167,7 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>As Seen On</h1>
-                      <LogoCarouselLoop icons={seenIcons} links={seenLinks} perView={3} autoPlay={true} interval={2500} />
+                      <LogoMarquee icons={seenIcons} links={seenLinks} speed={100} minItems={20} />
                     </div>
                   </div>
                 </div>
@@ -294,7 +178,7 @@ const Footer = () => {
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>Our Partners</h1>
-                      <LogoCarouselLoop icons={partnerIcons} links={partnerLinks} perView={3} autoPlay={true} interval={2500} />
+                      <LogoMarquee icons={partnerIcons} links={partnerLinks} speed={100} minItems={20} />
                     </div>
                   </div>
                 </div>
