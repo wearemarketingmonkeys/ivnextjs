@@ -107,64 +107,59 @@
     },
     {
       "type": "Growth & Recovery",
-      "name": "Ipamorelin",
+      "name": "CJC + Ipamorelin",
       "fromPrice": 0,
-      "slug": "ipamorelin",
+      "slug": "cjc-ipamorelin",
       "img": "/assets/img/peptides/3.png",
       "detailimg": "/assets/img/peptides/13.png",
-      "tags": ["growth-hormone", "recovery", "sleep", "anti-aging", "body-composition"],
+      "tags": ["growth-hormone", "recovery", "sleep", "anti-aging", "body-composition", "metabolism", "longevity"],
       "details": {
-        "headline": "Ipamorelin Peptide Therapy in Dubai | Growth Hormone Support and Recovery",
+        "headline": "CJC + Ipamorelin Peptide Therapy in Dubai | Growth Hormone Optimization and Recovery",
         "overview": [
-          "Ipamorelin peptide therapy at IV Wellness Lounge Dubai is designed to naturally stimulate the body’s own growth hormone production. Ipamorelin is a selective agonist of the ghrelin receptor and functions as a growth hormone secretagogue, encouraging the release of growth hormone without significantly affecting cortisol or prolactin levels.",
-          "By increasing endogenous growth hormone and supporting IGF-1 production, Ipamorelin helps improve muscle recovery, body composition, sleep quality, and overall vitality. It is commonly used in performance, anti-aging, and wellness-focused protocols due to its targeted and well-tolerated profile."
+          "CJC-1295 and Ipamorelin peptide therapy at IV Wellness Lounge Dubai is a synergistic protocol designed to naturally stimulate the body’s own growth hormone production. Together, these peptides work on complementary pathways to enhance growth hormone release in a physiological, pulsatile manner without directly supplying synthetic hormones.",
+          "CJC-1295 is a growth hormone–releasing hormone analogue that signals the pituitary gland to increase growth hormone output over time. Ipamorelin is a selective ghrelin receptor agonist that triggers growth hormone pulses without significantly affecting cortisol or prolactin. When combined, they support improved recovery, body composition, sleep quality, and healthy aging."
         ],
-        "usesIntro": "Ipamorelin peptide therapy may be recommended for individuals seeking support with:",
+        "usesIntro": "CJC-1295 and Ipamorelin peptide therapy may be recommended for individuals experiencing:",
         "uses": [
-          "Lean muscle development",
-          "Fat metabolism and body recomposition",
-          "Recovery from training or physical stress",
           "Age-related decline in growth hormone",
-          "Sleep quality and nighttime recovery",
-          "Overall wellness and vitality optimization"
+          "Reduced muscle tone or slow recovery",
+          "Fat accumulation or metabolic slowdown",
+          "Poor sleep quality or disrupted sleep cycles",
+          "Low energy or prolonged fatigue",
+          "Physical stress from training or demanding lifestyles",
+          "Anti-aging and longevity support"
         ],
         "benefits": [
-          "Stimulates natural growth hormone release",
-          "Supports lean muscle growth and strength",
-          "Enhances fat metabolism",
-          "Improves recovery and tissue repair",
-          "Supports deeper, more restorative sleep",
-          "Promotes anti-aging and longevity benefits",
-          "Well tolerated with minimal impact on stress hormones"
+          "Stimulates natural growth hormone and IGF-1 production",
+          "Supports lean muscle maintenance and strength",
+          "Enhances fat metabolism and body composition",
+          "Improves recovery from physical and mental stress",
+          "Promotes deeper, more restorative sleep",
+          "Supports skin quality and tissue repair",
+          "Encourages healthy aging and overall vitality"
         ],
-        "dosageIntro": "Ipamorelin protocols at IV Wellness Lounge Dubai are individualized based on goals such as performance, recovery, or general wellness.",
+        "dosageIntro": "CJC-1295 and Ipamorelin protocols at IV Wellness Lounge Dubai are individualized based on wellness goals, age, and clinical assessment.",
         "dosageProtocol": [
-          "Administration Guidelines",
-          "Route: Subcutaneous injection",
-          "Common injection sites include the abdomen, thigh, or triceps",
-          "Injection sites should be rotated regularly",
-          "Best administered on an empty stomach with no carbohydrates or fats one hour before or after injection",
-          "Often combined with a GHRH such as CJC-1295 for enhanced growth hormone response",
-          "Typical Dosing Ranges",
-          "General wellness or anti-aging: 100 mcg once or twice daily, often before sleep or in a fasted morning state",
-          "Performance and muscle support: 100 to 200 mcg two to three times daily, commonly in the morning, post-workout, and before sleep",
-          "Advanced protocols may reach up to 300 mcg per injection, not exceeding 600 mcg per day, under medical supervision",
-          "Cycle Duration",
-          "Loading phase typically lasts 8 to 12 weeks, during which improvements in recovery, sleep, and muscle tone are commonly observed",
-          "Maintenance phase may follow for 4 to 8 weeks at reduced dosing",
-          "A cycle break of approximately 4 weeks is recommended to avoid receptor desensitization"
+          "Typical Protocol Structure",
+          "Ipamorelin dose commonly ranges from 100 to 200 mcg, administered subcutaneously",
+          "CJC-1295 is typically administered at 2 mg once weekly or in lower divided doses depending on protocol",
+          "Injections are usually given on an empty stomach to optimize growth hormone release",
+          "Common timing includes morning (fasted), post-workout, or before bedtime",
+          "Treatment cycles typically last 8 to 12 weeks, followed by a rest period as recommended by the clinician. Lower-dose, longer-term protocols may be used for anti-aging and wellness support.",
+          "All dosing and timing are prescribed and supervised by medical professionals following consultation."
         ],
-        "safety": "Ipamorelin is generally well tolerated. Some individuals may experience mild, temporary side effects related to growth hormone stimulation. Potential side effects may include: Temporary water retention Mild swelling or puffiness Changes in blood glucose levels, particularly in individuals with high carbohydrate intake These effects can often be managed through dietary adjustments and appropriate medical guidance. All clients at IV Wellness Lounge receive supervision and education to ensure safe use.",
-        "contraIntro": "Ipamorelin peptide therapy may not be suitable for individuals who:",
+        "safety": "CJC-1295 and Ipamorelin are generally well tolerated when used under medical supervision. Mild and temporary side effects may include localized injection site irritation, transient water retention, or changes in appetite. Some individuals may experience mild changes in blood glucose levels, particularly with high carbohydrate intake. Ongoing monitoring and nutritional guidance help minimize potential side effects.",
+        "contraIntro": "CJC-1295 and Ipamorelin peptide therapy may not be suitable for individuals who:",
         "contraindications": [
-          "Have unstable blood sugar levels",
+          "Have active or recent cancer",
           "Are pregnant or breastfeeding",
-          "Are under the age of 18"
+          "Are under the age of 18",
+          "Have uncontrolled blood sugar disorders"
         ],
-        "contraOutro": "A full medical consultation is required prior to starting treatment.",
-        "bestFor": "Ipamorelin is ideal for individuals looking to enhance recovery, support muscle tone, improve sleep quality, or address age-related declines in growth hormone naturally. It is commonly chosen by active individuals, those focused on body composition, and clients seeking anti-aging support as part of a comprehensive wellness program.",
+        "contraOutro": "A medical consultation is required to determine suitability prior to treatment.",
+        "bestFor": "This peptide combination is ideal for individuals seeking a natural approach to growth hormone optimization, improved recovery, enhanced body composition, and long-term vitality. It is commonly chosen by active individuals, professionals with high stress demands, and those focused on longevity and healthy aging.",
         "ctaTitle": "Book a Peptide Consultation in Dubai",
-        "ctaText": "Discover personalized Ipamorelin peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports performance, recovery, and long-term wellbeing."
+        "ctaText": "Discover personalized CJC-1295 + Ipamorelin peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support recovery, metabolic health, and sustainable growth hormone optimization through safe, science-backed care."
       }
     },
     {
@@ -270,57 +265,56 @@
       }
     },
     {
-      "type": "Growth & Recovery",
-      "name": "CJC-1295",
+      "type": "Fat Loss Composition",
+      "name": "AOD-9604",
       "fromPrice": 0,
-      "slug": "cjc-1295",
-      "img": "/assets/img/peptides/6.png",
-      "detailimg": "/assets/img/peptides/16.png",
-      "tags": ["growth-hormone", "metabolism", "fat-loss", "recovery", "anti-aging", "longevity"],
+      "slug": "aod-9604",
+      "img": "/assets/img/peptides/25.png",
+      "detailimg": "/assets/img/peptides/26.png",
+      "tags": ["fat-loss", "metabolism", "body-composition", "weight-management", "lipolysis", "stubborn-fat"],
       "details": {
-        "headline": "CJC-1295 Peptide in Dubai | Growth Hormone and Metabolic Support",
+        "headline": "AOD-9604 Peptide Therapy in Dubai | Targeted Fat Metabolism and Body Composition",
         "overview": [
-          "CJC-1295 peptide therapy at IV Wellness Lounge Dubai is a synthetic analogue of Growth Hormone Releasing Hormone (GHRH). It works by stimulating the pituitary gland to release growth hormone in a natural, pulsatile manner, closely mimicking the body’s own physiology.",
-          "Unlike short-acting GHRH peptides, CJC-1295 with DAC has an extended half-life, allowing for sustained growth hormone and IGF-1 elevation with less frequent dosing. This makes it a popular option for individuals focused on muscle development, fat metabolism, recovery, and healthy aging."
+          "AOD-9604 peptide therapy at IV Wellness Lounge Dubai is a modified fragment of human growth hormone specifically developed to target fat metabolism without influencing growth hormone or IGF-1 levels. Unlike traditional growth hormone therapies, AOD-9604 focuses purely on stimulating fat breakdown while preventing new fat storage.",
+          "This peptide works by activating lipolysis and enhancing the body’s ability to metabolize stored fat, making it a valuable option for individuals struggling with stubborn fat areas or metabolic resistance. AOD-9604 does not affect blood sugar levels or hormone balance, which makes it a well-tolerated and targeted approach to body composition support."
         ],
-        "usesIntro": "CJC-1295 peptide therapy may be recommended for individuals seeking support with:",
+        "usesIntro": "AOD-9604 peptide therapy may be recommended for individuals experiencing:",
         "uses": [
-          "Lean muscle growth and strength",
-          "Fat loss and metabolic optimization",
-          "Recovery from physical training or stress",
-          "Age-related decline in growth hormone",
-          "Anti-aging and longevity programs"
+          "Stubborn fat resistant to diet and exercise",
+          "Metabolic slowdown",
+          "Weight management challenges",
+          "Fat accumulation related to aging",
+          "Body recomposition goals",
+          "Desire for non-stimulant fat loss support"
         ],
         "benefits": [
-          "Increases natural growth hormone and IGF-1 levels",
-          "Supports lean muscle mass development",
-          "Enhances fat metabolism",
-          "Improves recovery and tissue repair",
-          "Promotes overall vitality and healthy aging",
-          "Long-acting profile with weekly dosing"
+          "Stimulates fat breakdown and lipolysis",
+          "Helps prevent new fat accumulation",
+          "Supports improved body composition",
+          "Targets stubborn fat areas",
+          "Does not raise growth hormone or IGF-1 levels",
+          "Does not negatively affect blood sugar",
+          "Well tolerated with minimal systemic impact"
         ],
-        "dosageIntro": "CJC-1295 protocols at IV Wellness Lounge Dubai are prescribed following a full medical consultation.",
+        "dosageIntro": "AOD-9604 protocols at IV Wellness Lounge Dubai are customized based on metabolic goals and individual response.",
         "dosageProtocol": [
-          "Typical dose: 2 mg once weekly, administered subcutaneously",
-          "Common injection site: abdominal area",
-          "Often injected before bedtime to align with natural growth hormone release",
-          "Typical cycle duration is 8 to 12 weeks for muscle or fat loss goals",
-          "A rest period of 4 to 6 weeks is recommended between cycles",
-          "For anti-aging and longevity support, CJC-1295 may be used for longer durations at lower dosing under medical supervision, sometimes extending up to 6 months."
+          "Typical dose ranges from 300 to 500 mcg, administered subcutaneously",
+          "Frequency is commonly once daily",
+          "Often injected in the morning or before physical activity",
+          "Treatment cycles typically last 8 to 12 weeks, depending on goals",
+          "All dosing schedules are prescribed and supervised by medical professionals following consultation."
         ],
-        "stackingTitle": "Combination and Stacking",
-        "stackingText": "CJC-1295 is frequently combined with Ipamorelin for a synergistic effect. This combination enhances growth hormone release while maintaining a balanced and well-tolerated hormonal response.",
-        "safety": "CJC-1295 is generally well tolerated when used as directed. Some individuals may experience mild and temporary side effects, including: Changes in blood glucose levels, particularly in those with high carbohydrate intake Temporary water retention, which may cause mild puffiness or blood pressure changes These effects can often be managed through dietary adjustments and proper monitoring. All clients at IV Wellness Lounge receive guidance and follow-up to ensure safe use.",
-        "contraIntro": "CJC-1295 peptide therapy may not be suitable for individuals who:",
+        "safety": "AOD-9604 is generally well tolerated, with a strong safety profile. Most individuals experience little to no side effects. When present, effects are usually mild and may include temporary redness or irritation at the injection site. Because AOD-9604 does not interfere with growth hormone signaling or insulin pathways, it is considered a safer option for long-term metabolic support under medical supervision.",
+        "contraIntro": "AOD-9604 peptide therapy may not be suitable for individuals who:",
         "contraindications": [
-          "Have active or recent cancer",
           "Are pregnant or breastfeeding",
-          "Are under the age of 18"
+          "Are under the age of 18",
+          "Have active or recent malignancy"
         ],
-        "contraOutro": "A full medical evaluation is required prior to starting treatment.",
-        "bestFor": "CJC-1295 is ideal for individuals looking to improve body composition, enhance recovery, or support healthy aging through natural growth hormone stimulation. It is commonly included in structured performance, fat loss, or longevity-focused peptide programs.",
+        "contraOutro": "A consultation is required to determine suitability prior to starting therapy.",
+        "bestFor": "AOD-9604 is ideal for individuals seeking targeted fat loss without hormonal disruption. It is commonly chosen by clients who have plateaued with traditional weight-loss methods and want a science-backed, metabolic approach to improving body composition.",
         "ctaTitle": "Book a Peptide Consultation in Dubai",
-        "ctaText": "Explore personalized CJC-1295 peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports performance, recovery, and long-term wellbeing."
+        "ctaText": "Discover personalized AOD-9604 peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support fat metabolism, body composition, and long-term metabolic health through safe, science-backed care."
       }
     },
     {
@@ -382,59 +376,111 @@
       }
     },
     {
-      "type": "Pigmentation and Neuroendocrine",
-      "name": "Melanotan II",
+      "type": "Healthy Aging Support",
+      "name": "Epithalon",
       "fromPrice": 0,
-      "slug": "melanotan-ii",
-      "img": "/assets/img/peptides/8.png",
-      "detailimg": "/assets/img/peptides/18.png",
-      "tags": ["skin", "pigmentation", "tanning", "libido", "metabolism", "appetite", "inflammation"],
+      "slug": "epithalon",
+      "img": "/assets/img/peptides/27.png",
+      "detailimg": "/assets/img/peptides/28.png",
+      "tags": ["longevity", "anti-aging", "sleep", "circadian", "cellular-repair", "melatonin", "telomeres"],
       "details": {
-        "headline": "Melanotan II Peptide in Dubai | Skin Pigmentation and Wellness Support",
+        "headline": "Epithalon Peptide Therapy in Dubai | Longevity, Cellular Aging, and Sleep Regulation",
         "overview": [
-          "Melanotan II peptide therapy at IV Wellness Lounge Dubai is a synthetic analogue of melanocyte-stimulating hormone (MSH). It works by stimulating melanogenesis, the natural production of melanin in the skin. While Melanotan II is widely known for supporting a deeper, more even tan with reduced sun exposure, it also plays a role in regulating appetite, inflammation, and sexual function.",
-          "By increasing melanin production, Melanotan II may help enhance skin pigmentation while offering additional wellness-related benefits when used responsibly under medical supervision."
+          "Epithalon peptide therapy at IV Wellness Lounge Dubai is a bioregulatory peptide primarily associated with longevity, cellular aging, and circadian rhythm regulation. Epithalon is a synthetic version of a naturally occurring peptide produced by the pineal gland, an organ involved in sleep regulation, hormonal balance, and aging processes.",
+          "This peptide is best known for its role in supporting telomere maintenance, which influences cellular lifespan and regeneration. By helping regulate melatonin production and improving cellular repair mechanisms, Epithalon supports healthy aging, improved sleep quality, and long-term wellness at a cellular level."
         ],
-        "usesIntro": "Melanotan II peptide therapy may be considered for individuals seeking support with:",
+        "usesIntro": "Epithalon peptide therapy may be recommended for individuals experiencing:",
         "uses": [
-          "Skin tanning and enhanced pigmentation",
-          "Reduced reliance on prolonged sun exposure",
-          "Libido and sexual wellness support",
-          "Fat metabolism and appetite regulation",
-          "Inflammatory balance"
+          "Age-related cellular decline",
+          "Poor sleep quality or disrupted circadian rhythm",
+          "Reduced melatonin production",
+          "Chronic fatigue related to aging",
+          "Desire for longevity and anti-aging support",
+          "Cellular stress and oxidative damage",
+          "Hormonal imbalance linked to aging"
         ],
         "benefits": [
-          "Stimulates natural melanin production",
-          "Supports a deeper, more even skin tone",
-          "May enhance libido and sexual response",
-          "May support fat loss and metabolic regulation",
-          "May contribute to anti-inflammatory processes"
+          "Supports telomere stability and cellular longevity",
+          "Helps regulate melatonin and sleep cycles",
+          "Improves sleep quality and circadian rhythm balance",
+          "Supports cellular repair and regeneration",
+          "Promotes healthy aging at a cellular level",
+          "May enhance overall vitality and resilience"
         ],
-        "dosageIntro": "Melanotan II protocols at IV Wellness Lounge Dubai are introduced gradually to allow the body to adapt and minimize side effects.",
+        "dosageIntro": "Epithalon protocols at IV Wellness Lounge Dubai are tailored based on age, sleep patterns, and longevity goals.",
         "dosageProtocol": [
-          "Initial dose: 75 mcg subcutaneously every other day",
-          "Often administered 30 to 60 minutes before sun exposure or tanning",
-          "If well tolerated after three injections, the dose may be increased to 125 mcg every other day",
-          "After approximately six injections without adverse effects, dosing may be increased up to 250 mcg, if clinically appropriate",
-          "Dose escalation is not required once the desired skin tone is achieved",
-          "Both injectable and intranasal formulations may be discussed during consultation. Intranasal options may be better tolerated by some individuals, though higher dosing is often required due to lower bioavailability.",
-          "All dosing is determined and supervised by medical professionals."
+          "Typical dose ranges from 5 to 10 mg per day, administered subcutaneously",
+          "Commonly used for 10 to 20 consecutive days per cycle",
+          "Cycles are often repeated one to two times per year",
+          "Timing is usually in the evening to align with natural melatonin release",
+          "All dosing schedules are prescribed and supervised by medical professionals following consultation."
         ],
-        "safety": "Melanotan II is generally tolerated when introduced gradually. Most side effects are dose-related and occur when dosing is increased too quickly. Possible side effects may include: Darkening or increase in existing moles or freckles Development of new freckles Temporary facial flushing Darkening of the lips Nausea, especially at higher doses Rarely, prolonged erections if overdosed Clients are carefully monitored, and dosing adjustments are made to reduce risks.",
-        "contraTitle": "Contraindications and Cautions",
-        "contraIntro": "Melanotan II peptide therapy may not be suitable for individuals who:",
+        "safety": "Epithalon is generally well tolerated when administered under medical supervision. Side effects are uncommon and typically mild, such as slight redness or discomfort at the injection site. Due to its regulatory rather than stimulatory mechanism, Epithalon is considered suitable for long-term longevity support when used in structured cycles.",
+        "contraIntro": "Epithalon peptide therapy may not be suitable for individuals who:",
         "contraindications": [
           "Are pregnant or breastfeeding",
-          "Are children or adolescents",
-          "Have a history of melanoma or concerning skin lesions",
-          "Are sensitive to melanocortin-related compounds"
+          "Have active or recent malignancy",
+          "Are under the age of 18"
         ],
-        "contraOutro": "A full medical consultation is required prior to treatment.",
-        "bestFor": "Melanotan II may be suitable for individuals seeking controlled skin pigmentation support or additional wellness benefits, provided it is used under professional supervision. It is especially important for clients to undergo assessment and monitoring to ensure safety and appropriate dosing.",
+        "contraOutro": "A consultation is required to determine suitability prior to starting therapy.",
+        "bestFor": "Epithalon is ideal for individuals focused on longevity, healthy aging, and sleep optimization. It is commonly chosen by those seeking cellular-level anti-aging support, improved sleep patterns, and long-term vitality without hormonal disruption.",
         "ctaTitle": "Book a Peptide Consultation in Dubai",
-        "ctaText": "Learn more about Melanotan II peptide therapy at IV Wellness Lounge Dubai. Our medical team will guide you through a personalized, safety-first approach to peptide therapy aligned with your wellness goals."
+        "ctaText": "Discover personalized Epithalon peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support cellular longevity, restorative sleep, and sustainable anti-aging benefits through safe, science-backed care."
       }
     },
+    {
+        "type": "Tissue Repair and Recovery Compound",
+        "name": "TB-500",
+        "fromPrice": 0,
+        "slug": "tb-500",
+        "img": "/assets/img/peptides/29.png",
+        "detailimg": "/assets/img/peptides/30.png",
+        "tags": ["recovery", "tissue-repair", "inflammation", "mobility", "injury", "regeneration", "connective-tissue"],
+        "details": {
+          "headline": "TB-500 Peptide Therapy in Dubai | Advanced Tissue Repair and Recovery",
+          "overview": [
+            "TB-500 peptide therapy at IV Wellness Lounge Dubai is a regenerative peptide derived from Thymosin Beta-4, a naturally occurring protein involved in tissue repair, inflammation control, and cell migration. TB-500 is known for its systemic healing properties, supporting recovery across muscles, tendons, ligaments, and connective tissues.",
+            "Unlike localized peptides, TB-500 circulates throughout the body, making it especially effective for widespread injuries, chronic inflammation, and recovery from intense physical stress. It plays a key role in actin regulation, which supports cell movement and tissue regeneration, allowing damaged areas to heal more efficiently."
+          ],
+          "usesIntro": "TB-500 peptide therapy may be recommended for individuals experiencing:",
+          "uses": [
+            "Muscle tears or chronic muscle injuries",
+            "Tendon and ligament damage",
+            "Joint pain or connective tissue strain",
+            "Post-surgical recovery",
+            "Inflammation related to physical overuse",
+            "Reduced mobility or prolonged healing time",
+            "Physical stress from training or active lifestyles"
+          ],
+          "benefits": [
+            "Accelerates tissue repair and regeneration",
+            "Supports healing of muscles, tendons, and ligaments",
+            "Helps reduce inflammation and stiffness",
+            "Improves flexibility and mobility",
+            "Promotes faster recovery after injury or surgery",
+            "Supports systemic healing rather than localized effects"
+          ],
+          "dosageIntro": "TB-500 protocols at IV Wellness Lounge Dubai are customized based on injury type, severity, and recovery goals.",
+          "dosageProtocol": [
+            "Typical loading dose ranges from 2 to 5 mg per week, administered subcutaneously",
+            "Often divided into two injections per week during the initial phase",
+            "Loading phase usually lasts 4 to 6 weeks",
+            "Maintenance dosing may follow at reduced frequency, depending on clinical response",
+            "All dosing schedules are prescribed and supervised by medical professionals following consultation."
+          ],
+          "safety": "TB-500 is generally well tolerated when administered correctly. Side effects are uncommon and typically mild, such as temporary redness or irritation at the injection site. Because TB-500 supports natural healing pathways rather than hormonal stimulation, it is considered suitable for regenerative recovery protocols under medical supervision.",
+          "contraIntro": "TB-500 peptide therapy may not be suitable for individuals who:",
+          "contraindications": [
+            "Have active or recent cancer",
+            "Are pregnant or breastfeeding",
+            "Are under the age of 18"
+          ],
+          "contraOutro": "A consultation is required to determine suitability prior to starting therapy.",
+          "bestFor": "TB-500 is ideal for individuals seeking accelerated recovery from musculoskeletal injuries, chronic inflammation, or physical strain. It is commonly chosen by active individuals, athletes, and those recovering from surgery who require systemic tissue repair and enhanced mobility support.",
+          "ctaTitle": "Book a Peptide Consultation in Dubai",
+          "ctaText": "Discover personalized TB-500 peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support tissue repair, inflammation control, and long-term recovery through safe, science-backed care."
+        }
+      },
     {
       "type": "Aesthetic & Cosmetic",
       "name": "Acetyl Hexapeptide-8",
@@ -540,6 +586,114 @@
         "bestFor": "GHK-Cu is ideal for individuals seeking advanced skin rejuvenation, improved healing, and long-term skin health. It is commonly chosen by clients focused on anti-aging, post-procedure recovery, hair restoration support, and regenerative skin therapy.",
         "ctaTitle": "Book a Peptide Consultation in Dubai",
         "ctaText": "Discover personalized GHK-Cu peptide therapy at IV Wellness Lounge Dubai. Our medical team will design a tailored protocol to support skin regeneration, collagen production, and overall cellular renewal through safe, science-backed care."
+      }
+    },
+    {
+      "type": "Gut & Nerves Support",
+      "name": "Vasoactive Intestinal Peptide (VIP)",
+      "fromPrice": 0,
+      "slug": "vip-therapy",
+      "img": "/assets/img/peptides/31.png",
+      "detailimg": "/assets/img/peptides/32.png",
+      "tags": ["neuroimmune", "inflammation", "immune-regulation", "vascular", "gut", "respiratory", "recovery"],
+      "details": {
+        "headline": "Vasoactive Intestinal Peptide (VIP) Therapy in Dubai | Neuroimmune Balance and Inflammation Control",
+        "overview": [
+          "Vasoactive Intestinal Peptide (VIP) therapy at IV Wellness Lounge Dubai is an advanced regulatory peptide used to support neuroimmune balance, inflammation control, and vascular function. VIP is a naturally occurring peptide found throughout the nervous system, gut, lungs, and immune tissues, where it plays a key role in regulating inflammation, blood flow, and cellular communication.",
+          "VIP is particularly recognized for its role in restoring balance in individuals with chronic inflammatory conditions, immune dysregulation, or neurotoxic stress. By modulating cytokine activity and supporting healthy circulation, VIP helps stabilize systems that have become overactive or depleted due to long-term stress or illness."
+        ],
+        "usesIntro": "VIP peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Chronic inflammation or immune dysregulation",
+          "Neuroinflammatory conditions",
+          "Mold or biotoxin exposure–related illness",
+          "Chronic fatigue or post-infectious syndromes",
+          "Respiratory inflammation or vascular dysfunction",
+          "Gut inflammation or dysbiosis",
+          "Nervous system stress and regulatory imbalance"
+        ],
+        "benefits": [
+          "Helps regulate inflammatory cytokines",
+          "Supports neuroimmune balance",
+          "Improves vascular tone and blood flow",
+          "Supports lung and respiratory function",
+          "Aids gut barrier integrity and digestive balance",
+          "Promotes cellular communication and repair",
+          "Supports recovery from chronic inflammatory stress"
+        ],
+        "dosageIntro": "VIP protocols at IV Wellness Lounge Dubai are carefully customized and initiated only after thorough medical evaluation.",
+        "dosageProtocol": [
+          "Commonly administered as a nasal spray or subcutaneous injection, depending on protocol",
+          "Typical dosing is low and gradual, adjusted based on tolerance and response",
+          "Treatment duration varies depending on condition and clinical goals",
+          "Because VIP is a powerful regulatory peptide, dosing is introduced cautiously and monitored closely by medical professionals."
+        ],
+        "safety": "VIP therapy is generally well tolerated when used under strict medical supervision. Some individuals may experience mild and temporary effects such as facial flushing, lightheadedness, or nasal irritation when using intranasal formulations. Careful patient selection, gradual dosing, and ongoing monitoring are essential to ensure safety and optimal outcomes.",
+        "contraIntro": "Vasoactive Intestinal Peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Have uncontrolled cardiovascular conditions",
+          "Have active malignancy",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A comprehensive consultation is required prior to initiating VIP therapy.",
+        "bestFor": "VIP is best suited for individuals dealing with chronic inflammatory or neuroimmune conditions that have not responded to conventional approaches. It is often included in advanced recovery protocols for immune regulation, nervous system balance, and long-term inflammatory control.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized Vasoactive Intestinal Peptide (VIP) therapy at IV Wellness Lounge Dubai. Our medical team will assess your health profile and design a carefully monitored protocol to support immune balance, inflammation regulation, and systemic recovery through safe, science-backed care."
+      }
+    },
+    {
+      "type": "Sexual Wellness Support",
+      "name": "PT-141",
+      "fromPrice": 0,
+      "slug": "pt-141",
+      "img": "/assets/img/peptides/33.png",
+      "detailimg": "/assets/img/peptides/34.png",
+      "tags": ["sexual-wellness", "libido", "arousal", "confidence", "non-hormonal", "cns-support"],
+      "details": {
+        "headline": "PT-141 Peptide Therapy in Dubai | Sexual Wellness and Desire Support",
+        "overview": [
+          "PT-141 peptide therapy at IV Wellness Lounge Dubai is a melanocortin receptor agonist designed to support sexual desire, arousal, and overall sexual wellness in both men and women. Unlike treatments that rely on blood flow mechanisms, PT-141 works directly through the central nervous system, influencing the brain pathways involved in sexual response.",
+          "Originally developed from Melanotan-II, PT-141 focuses specifically on libido and arousal without affecting skin pigmentation. It is commonly used for individuals experiencing reduced sexual desire, performance anxiety, or diminished responsiveness unrelated to hormonal deficiency."
+        ],
+        "usesIntro": "PT-141 peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Reduced sexual desire or libido",
+          "Difficulty with arousal or sexual responsiveness",
+          "Sexual dysfunction not related to vascular causes",
+          "Performance anxiety affecting intimacy",
+          "Desire imbalance related to stress or aging",
+          "Female sexual arousal disorder",
+          "Male sexual wellness support"
+        ],
+        "benefits": [
+          "Enhances sexual desire and arousal",
+          "Works independently of blood flow mechanisms",
+          "Supports sexual response in both men and women",
+          "Acts centrally on the nervous system",
+          "May improve intimacy confidence and satisfaction",
+          "Non-hormonal approach to sexual wellness"
+        ],
+        "dosageIntro": "PT-141 protocols at IV Wellness Lounge Dubai are customized based on individual response and goals.",
+        "dosageProtocol": [
+          "Typical dose ranges from 1 to 2 mg, administered subcutaneously",
+          "Usually injected 30 to 60 minutes before sexual activity",
+          "Frequency is limited and used on an as-needed basis",
+          "Dose adjustments are made gradually to optimize effects and minimize side effects",
+          "All dosing is prescribed and supervised by medical professionals following consultation."
+        ],
+        "safety": "PT-141 is generally well tolerated. Mild and temporary side effects may include nausea, facial flushing, headache, or lightheadedness, particularly at higher doses or during initial use. Careful dose titration and medical supervision help reduce unwanted effects and ensure safe use.",
+        "contraIntro": "PT-141 peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Have uncontrolled hypertension or cardiovascular disease",
+          "Have active or recent malignancy",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A consultation is required to determine suitability prior to treatment.",
+        "bestFor": "PT-141 is ideal for individuals seeking support for sexual desire and arousal without hormonal replacement or vascular medications. It is commonly chosen by both men and women who want a discreet, science-based approach to improving intimacy, confidence, and sexual wellbeing.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized PT-141 peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports sexual wellness and confidence through targeted, science-backed care."
       }
     }
   ]
