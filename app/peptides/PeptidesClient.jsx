@@ -1,6 +1,8 @@
 'use client';
 
 import { useMemo, useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
+const FaqAccordion = dynamic(() => import('./FaqAccordionClient'), { ssr: false });
 
 function renderDosageList(items = []) {
   // These are headings inside the dosageProtocol array
@@ -38,7 +40,8 @@ function renderDosageList(items = []) {
 }
 
 
-export default function PeptidesClient({ initialPeptides = [] }) {
+export default function PeptidesClient({ initialPeptides, faq }) {
+
   const [query, setQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -310,6 +313,14 @@ export default function PeptidesClient({ initialPeptides = [] }) {
           </div>
         </div>
       )}
+      
+      <br/><br/><br/><br/>
+      <section className="wrap">
+        <header className="pheader">
+          <h1 className="title">Questions? We've Got Answers</h1>
+        </header>
+        <FaqAccordion items={faq} />
+      </section>
     </main>
     </>
   );

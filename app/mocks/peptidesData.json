@@ -696,5 +696,81 @@
         "ctaText": "Discover personalized PT-141 peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports sexual wellness and confidence through targeted, science-backed care."
       }
     }
+  ],
+  "faq": [
+    {
+      "question": "What are peptides?",
+      "answer": "Peptides are short chains of amino acids that act as messengers in the body. They signal cells to repair, regenerate, and function optimally, supporting overall wellness at a cellular level."
+    },
+    {
+      "question": "What is peptide therapy?",
+      "answer": "Peptide therapy involves using clinically studied peptides under medical supervision to support processes such as healing, metabolism, immune function, anti-aging, and recovery."
+    },
+    {
+      "question": "What are peptides used for?",
+      "answer": "Peptides are commonly used to support:",
+      "bullets": [
+        "Skin health and anti-aging",
+        "Fat loss and metabolism",
+        "Muscle recovery and performance",
+        "Hormonal balance",
+        "Immune and cognitive health"
+      ],
+      "footer": "All protocols are personalised after consultation."
+    },
+    {
+      "question": "Are peptides safe?",
+      "answer": "When prescribed by a licensed medical professional and used appropriately, peptides are generally well tolerated. Safety, dosing, and suitability are assessed during your medical consultation."
+    },
+    {
+      "question": "How are peptides administered?",
+      "answer": "Depending on the protocol, peptides may be administered via subcutaneous injection, nasal spray, or added to medical wellness programs. Your practitioner will guide you on the most suitable method."
+    },
+    {
+      "question": "How long does it take to see results?",
+      "answer": "Results vary based on the peptide, individual health, and treatment goals. Some clients notice benefits within a few weeks, while others may require a longer protocol for optimal results."
+    },
+    {
+      "question": "What are peptide stacks?",
+      "answer": "Peptide stacks are carefully combined peptides designed to work synergistically for specific goals such as recovery, fat loss, longevity, or skin rejuvenation. Stacks are customised after assessment."
+    },
+    {
+      "question": "Do peptides have side effects?",
+      "answer": "Most peptides have minimal side effects when properly prescribed. Possible side effects may include mild injection-site irritation or temporary fatigue. Your clinician will review potential risks during consultation."
+    },
+    {
+      "question": "Who is a good candidate for peptide therapy?",
+      "answer": "Peptide therapy may be suitable for individuals seeking advanced wellness, recovery, or anti-aging support. A medical consultation is required to determine eligibility and rule out contraindications."
+    },
+    {
+      "question": "Do I need a consultation before starting peptides?",
+      "answer": "Yes. All peptide therapies at IV Wellness Lounge require a medical consultation to ensure safety, suitability, and personalised treatment planning."
+    },
+    {
+      "question": "Can peptides be combined with IV drips or other treatments?",
+      "answer": "Yes. Peptides can often be integrated with IV therapy and other medical wellness treatments to enhance overall outcomes, under professional guidance."
+    },
+    {
+      "question": "Are peptides approved and regulated?",
+      "answer": "Peptides used in medical wellness are prescribed under physician supervision and sourced through regulated medical channels. Availability and use follow local healthcare guidelines."
+    },
+    {
+      "question": "How long do peptide protocols last?",
+      "answer": "Protocol duration varies depending on the peptide and treatment goal. Some protocols last a few weeks, while others may be longer-term with planned rest periods."
+    },
+    {
+      "question": "How do I get started with peptide therapy?",
+      "answer": "Book a consultation with our medical team. After assessment, a personalised peptide or peptide stack protocol will be designed specifically for you."
+    },
+    {
+      "question": "Why choose IV Wellness Lounge for peptide therapy?",
+      "answer": "At IV Wellness Lounge, peptide therapy is:",
+      "bullets": [
+        "Doctor-led",
+        "Personalised",
+        "Safety-focused",
+        "Integrated with medical wellness expertise"
+      ]
+    }
   ]
 }

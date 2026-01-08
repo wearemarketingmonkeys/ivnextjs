@@ -2,6 +2,7 @@
 import PeptidesClient from './PeptidesClient';
 import peptidesData from '../mocks/peptidesData.json';
 
+
 export const metadata = {
   title: 'Peptides | IV Wellness Lounge Clinic',
   description:
@@ -33,5 +34,7 @@ export default function PeptidesPage() {
     img: toPublic(p.img),
   }));
 
-  return <PeptidesClient initialPeptides={initialPeptides} />;
+  const faq = peptidesData?.faq || [];
+
+  return <PeptidesClient initialPeptides={initialPeptides} faq={faq} />;
 }
