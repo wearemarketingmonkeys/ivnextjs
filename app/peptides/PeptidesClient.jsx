@@ -108,6 +108,7 @@ export default function PeptidesClient({ initialPeptides, faq }) {
         <header className="pheader">
           <h1 className="title">Explore our Peptides</h1>
           <p className="subtitle">All orders will be delivered same day from our Clinic facility.</p>
+          <p className="subtitle">Purity: 99% or higher. Third-party tested. For research purposes only.</p>
         </header>
 
         <div className="searchWrap">
@@ -198,6 +199,7 @@ export default function PeptidesClient({ initialPeptides, faq }) {
                   <h2 className="modalTitle">
                     {selectedProduct.details?.headline || selectedProduct.name}
                   </h2>
+                  <div className="modalType subline">Purity: 99% or higher. Third-party tested. For research purposes only.</div>
 
                   <div className="modalPrice">
                     from <span>AED {selectedProduct.fromPrice}</span>

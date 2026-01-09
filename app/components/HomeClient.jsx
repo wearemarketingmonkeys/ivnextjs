@@ -142,12 +142,12 @@ export default function HomeClient() {
             <img className="spinner-text" src="/assets/img/home/h1-2.png" alt="spinner" />
           </div>
           <div className="btn-wrap">
-            <Link href="/iv-therapy/drips" className="btn btn-light">IV Therapy</Link>
+            <Link href="/iv-therapy/drips" className="btn btn-light">IV Drips</Link>
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
             <Link href="/peptides" className="btn btn-light">Peptides</Link>
           </div>
           <div className="locations">
-            <span>DIFC</span> | <span>PALM JUMEIRAH</span> | <span>At Home IV Therapy</span>
+            <span>DIFC</span> | <span>PALM JUMEIRAH</span> | <span>At Home IV Drips</span>
           </div>
           <div className="hero-bar-wrap"><div className="hero-bar" /></div>
         </div>
@@ -157,10 +157,12 @@ export default function HomeClient() {
       <div className="home-welcome">
         <div className="container">
           <div className="welcome-wrapper">
-            <h1>Begin Your Wellness & Beauty Journey</h1>
-            <p>IV Wellness Lounge Clinic is Dubai’s most exclusive destination for advanced wellness and aesthetic refinement. Designed as a boutique sanctuary, our space blends sophistication with science, offering an experience that feels more like a luxury retreat than a clinic. At the heart of our services are our signature IV drips. These tailored formulations restore balance, renew energy, and elevate both inner and outer vitality.</p>
-            <p>Every detail is curated with precision. From aesthetic treatments to bespoke IV drips, we combine medical expertise with an indulgent environment to deliver results that are transformative yet discreet. Our team of leading healthcare professionals and therapists ensures that every treatment is delivered with the highest level of care.</p>
-            <p>For those who prefer privacy and convenience, our IV drips at home service extends the same elevated care into the comfort of your own space. Whether the goal is hydration, recovery, or radiance, our mobile wellness team brings personalized IV drips to your door with the elegance and attention you would expect from a five star experience. IV Wellness Lounge is where refinement, science, and wellbeing meet. Step into the world of premium IV drips in Dubai and discover a new standard of luxury wellness, whether in our lounge or at home.</p>
+            <h1>Begin Your Journey into Wellness, Longevity, and Beauty</h1>
+            <p>IV Wellness Lounge is Dubai’s private destination for elevated wellness, longevity-focused care, and refined beauty. Created as a boutique sanctuary, our space blends medical science with understated luxury, offering an experience that feels restorative, personal, and discreet.</p>
+            <p>At the core of everything we do are our signature IV drips. Each formulation is carefully designed to support cellular wellness, enhance longevity, and restore balance from within. Whether the goal is sustained energy, improved vitality, or radiant skin, our IV drips work at a deeper level to nourish the body and elevate overall wellbeing.</p>
+            <p>Our approach to beauty is holistic. From advanced aesthetic treatments to personalized IV drips, every service is guided by medical expertise and delivered in an environment designed for calm and comfort. Our team of experienced healthcare professionals ensures each treatment supports both inner health and visible refinement.</p>
+            <p>For those who value privacy and flexibility, our IV drips at home service brings the same level of care into your personal space. Enjoy customized IV drips for hydration, recovery, longevity, or glow, delivered with the discretion and attention of a five-star experience.</p>
+            <p>IV Wellness Lounge is where wellness, longevity, beauty, and IV drips come together seamlessly. Discover a more thoughtful standard of luxury wellness in Dubai, in our lounge or in the comfort of your home.</p>
             <div className="btn-wrap">
               <Link href="/about-us" className="btn">About US</Link>
             </div>

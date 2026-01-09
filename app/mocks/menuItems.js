@@ -1,6 +1,6 @@
 export const menuItems = [
     { 
-      label: "IV Therapy", 
+      label: "IV Drips", 
       modal: true,
     },
     {

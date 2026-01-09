@@ -16,6 +16,7 @@ const paths = {
   mblLogo: '/assets/img/logo/logo.png',
   waIcon: '/assets/icons/wa.png',
   hamburger: '/assets/icons/hamburger.png',
+  hamburgerWhite: '/assets/icons/hamburger_white.png',
   caretBlack: '/assets/icons/caret-black.png',
   caretWhite: '/assets/icons/caret-white.png',
   wellnessImg: '/assets/img/iv-therapy/ivtherapymenu2.webp',
@@ -163,7 +164,7 @@ export default function Header() {
     <>
       {/*<div className="top-nav text-center py-2 bg-dark text-light">
         <Link href="/iv-therapy/drips" className="text-light">
-          In-Clinic & At-Home IV Therapy – Wellness your way, anytime, anywhere.
+          In-Clinic & At-Home IV Drips – Wellness your way, anytime, anywhere.
         </Link>
       </div>*/}
 
@@ -175,7 +176,7 @@ export default function Header() {
           <div className="row">
             <div className="wrapper">
               <button className="hamburger-btn" onClick={() => setIsMobileMenuOpen(true)}>
-                <img src={paths.hamburger} alt="hamburger" />
+                <img src={isHome ? (isSticky ? paths.hamburger : paths.hamburgerWhite) : paths.hamburger} alt="hamburger" />
               </button>
 
               <Link href="/" className="logo-wrap" aria-label="Go to homepage">
@@ -301,13 +302,13 @@ export default function Header() {
       blur
       width="100vw"
       wrapperClassName="header-popup"
-      title="Iv therapy"
+      title="IV Drips"
     >
       <div className="container">
         <div className="iv-popup-wrap">
           <div className="top">
             <h1>
-              Discover the Power of <br /> Personalized IV Therapy
+              Discover the Power of <br /> Personalized IV Drips
             </h1>
 
             <div className="button-wrap">
@@ -326,7 +327,7 @@ export default function Header() {
           {ivTherapyItems.map((x, index) => (
             <div className="drips-items-wrap" key={index}>
               <div className="left">
-                <img src={x.img} alt={x.title || 'IV Therapy'} />
+                <img src={x.img} alt={x.title || 'IV Drips'} />
               </div>
 
               <div className="right">
