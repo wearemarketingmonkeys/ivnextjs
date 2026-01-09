@@ -271,7 +271,7 @@ export default function Header() {
 
                 <div className="phone-wrap">
                   <a href="https://book.ivhub.com/cart.php" className="btn" target="_blank" rel="noopener noreferrer">
-                    Book Now
+                    Start<br/>Your Journey
                   </a>
                   <a className="whatsapp" href="https://wa.me/97180048482" target="_blank" rel="noopener noreferrer">
                     <img src={paths.waIcon} className="wa-icon" alt="WhatsApp" />
@@ -281,7 +281,7 @@ export default function Header() {
 
               <div className="btn-wrap">
                 <a href="https://book.ivhub.com/cart.php" className="btn" target="_blank" rel="noopener noreferrer">
-                  Book Now
+                  Start<br/>Your Journey
                 </a>
               </div>
             </div>
