@@ -10,14 +10,14 @@ export const metadata = {
     description: 'Learn about the medical expertise behind IV Wellness Lounge Clinic Dubai. Meet our lead doctor and discover the clinical standards guiding your treatments.',
     url: 'https://ivhub.com/meet-our-doctor',
     type: 'website',
-    images: [{ url: 'https://ivhub.com/assets/img/mod/dralejandra.jpeg', width: 1200, height: 630 }],
+    images: [{ url: 'https://ivhub.com/assets/img/mod/dr-haifa-1.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Our Doctor | IV Wellness Lounge Clinic Experts in Dubai',
     description: 'Learn about the medical expertise behind IV Wellness Lounge Clinic Dubai. Meet our lead doctor and discover the clinical standards guiding your treatments.',
     url: 'https://ivhub.com/meet-our-doctor',
-    images: ['https://ivhub.com/assets/img/mod/dralejandra.jpeg'],
+    images: ['https://ivhub.com/assets/img/mod/dr-haifa-2.png'],
   },
 };
 
@@ -26,13 +26,15 @@ export default function MeetOurDoctorPage() {
     <>
       <section className="mod-hero">
         <div className="mod-title">
-          <h1>Dr. Pradheeksha Krishnaprasad</h1>
+          <h1>Dr. Haifa kelthoum Zaboub</h1>
           <div>Blending Korean Innovation with Regenerative Wellness</div>
         </div>
         <div className="mod-media">
           <Image
-            src="/assets/img/mod/doctor1.jpg"
-            alt="Dr. Pradheeksha Krishnaprasad"
+            src="/assets/img/mod/dr-haifa-1.png"
+            width={500}
+            height={600}
+            alt="Dr. Haifa kelthoum Zaboub"
           />
         </div>
       </section>
@@ -40,34 +42,31 @@ export default function MeetOurDoctorPage() {
       <section className="mod-about">
         <div className="media">
           <Image
-            src="/assets/img/mod/doctor2.jpg"
+            src="/assets/img/mod/dr-haifa-2.png"
             width={450}
-            height={600}
-            alt="Dr. Pradheeksha Krishnaprasad"
+            height={650}
+            alt="Dr. Haifa kelthoum Zaboub"
           />
         </div>
         <div className="content">
-          <h2>About Dr. Pradheeksha Krishnaprasad</h2>
+          <h2>About Dr. Haifa kelthoum Zaboub</h2>
           <p>
-            Dr. Pradheeksha Krishnaprasad, widely known as Dr. Pratz, is an accomplished Aesthetic Physician with extensive international training and a passion for integrating science, artistry, and wellness in aesthetic medicine. She specializes in advanced injectables, Korean lifting techniques, regenerative medicine, and endocrinology-based weight management.
+            Dr. Haifa Kelthoum Zaboub is an American Board–certified GP Aesthetic and Longevity Doctor with a Diploma in Dermatology from the Royal College of Physicians of Ireland (RCPI). Her practice is rooted in medical precision, aesthetic balance, and a thoughtful approach to rejuvenation.
           </p>
           <p>
-            Dr. Pratz earned her MBBS degree from Shree Balaji Medical College, Chennai, and pursued a Diploma in Aesthetic Medicine from Norwest University, affiliated with the American Board of Aesthetic Medicine. She has completed multiple fellowships in Aesthetic Medicine and Advanced Injectables across more than eight countries, gaining a truly global perspective in aesthetic and regenerative practices.
+            Dr. Haifa views aesthetics as a holistic process rather than a series of isolated treatments. Each patient journey begins with a comprehensive assessment that considers skin health, structural support, tissue quality, and overall harmony. This allows her to create treatment plans that address both visible concerns and the underlying factors that influence how the face and body age over time.
           </p>
           <p>
-            In addition, she holds an MBA in Healthcare Management from Middlesex University, Dubai, a two-year Fellowship in Diabetology from the University of Liverpool, and a Diploma in Dermatology from the UK, enabling her to merge medical, dermatological, and wellness disciplines into a comprehensive patient care approach.
+            Known for her commitment to natural, undetectable results, Dr. Haifa focuses on subtle refinement that enhances rather than alters. Her work prioritizes long-term rejuvenation, supporting skin quality, tissue vitality, and balance while preserving each patient’s individuality. The goal is always to help patients look refreshed, well-rested, and confident, never overdone.
           </p>
           <p>
-            Dr. Pratz also holds an NCLC License in Advanced Laser Technologies, further enhancing her expertise in non-surgical aesthetic and skin rejuvenation treatments.
+            Personalization is central to her approach. Treatments are carefully tailored to each individual’s anatomy, lifestyle, and goals, with an emphasis on progressive care that evolves alongside the patient. By combining medical expertise with an artistic eye, Dr. Haifa delivers results that feel considered, elegant, and quietly transformative.
           </p>
           <p>
-            She is certified by ARMED, InMode, Yuma emerites, Candela,Mesoaesthetic, and the Allergan Institute, and has attended numerous international conferences focused on innovation and safety in aesthetic medicine. Her professional achievements have also led her to become a Brand Ambassador for Sticol, Xomage, and Yuma Emirates.
+            American Board–certified aesthetic doctor with a Dermatology Diploma from the Royal College of Physicians of Ireland (RCPI).
           </p>
           <p>
-            Her interests extend into biohacking, hormonal optimization, and metabolic health, utilizing advanced medical protocols, including GLP-1 inhibitors, for holistic weight management and longevity. With over six years of experience in plastic surgery and dermatology, she brings a multidimensional approach to beauty and health.
-          </p>
-          <p>
-            Dr. Pratz is also highly regarded for her expertise in hair restoration, transplant procedures, regenerative therapy, and wellness-based aesthetic treatments, dedicated to helping patients look and feel their best from the inside out.
+            She is specializes in natural and undetectable injectables using a full-face approach to enhance facial balance and harmony. Her practice focuses on subtle rejuvenation, skin quality, and personalized treatments tailored to each patient’s features and goals.
           </p>
         </div>
       </section>
@@ -76,64 +75,55 @@ export default function MeetOurDoctorPage() {
         <h2>Focus Treatment Area</h2>
         <div className="item">
           <button className="button-89" role="button">
-            Fine lines & wrinkles
+            Collagen stimulation
           </button>
+
           <button className="button-89" role="button">
-            Skin laxity
+            Skin rejuvenation
           </button>
+
           <button className="button-89" role="button">
-            Dullness & dehydration
+            Skin laxity & tightening
           </button>
+
           <button className="button-89" role="button">
-            Pigmentation & uneven tone
+            Jawline sculpting & facial contouring
           </button>
+
           <button className="button-89" role="button">
-            Acne scars
+            Under-eye rejuvenation
           </button>
+
           <button className="button-89" role="button">
-            Open pores
+            Mid-face support & volume restoration
           </button>
+
           <button className="button-89" role="button">
-            Volume loss
+            Double chin & lower-face contouring
           </button>
+
           <button className="button-89" role="button">
-            Double chin
+            Acne scars & uneven skin texture
           </button>
+
           <button className="button-89" role="button">
-            Under-eye hollows
+            Pigmentation, sun damage & uneven tone
           </button>
+
           <button className="button-89" role="button">
-            Dark circles
+            Fine lines & early wrinkles
           </button>
+
           <button className="button-89" role="button">
-            Uneven texture
+            Neck rejuvenation & tightening
           </button>
-          <button className="button-89" role="button">
-            Sagging jawline
-          </button>
-          <button className="button-89" role="button">
-            Melasma
-          </button>
-          <button className="button-89" role="button">
-            Stretch marks
-          </button>
-          <button className="button-89" role="button">
-            Cellulite
-          </button>
-          <button className="button-89" role="button">
-            Hair thinning
-          </button>
-          <button className="button-89" role="button">
-            Enlarged pores
-          </button>
-          <button className="button-89" role="button">
-            Sun damage
-          </button>
-          <button className="button-89" role="button">
-            Neck aging
-          </button>
+
           <button className="button-89" role="button">
             Hand rejuvenation
+          </button>
+
+          <button className="button-89" role="button">
+            Skin quality & volume restoration
           </button>
         </div>
       </section>
@@ -149,80 +139,52 @@ export default function MeetOurDoctorPage() {
           <br/>
           <div className="education">
             <div>
-              <h3>MBBS</h3>
-              <p>Shree Balaji Medical College, Chennai</p>
+              <h3>Medical degree, MD</h3>
+              <p>Faculty of Medicine, Setif, Algeria.</p>
             </div>
             <div className="logo">
-              <Image
+              {/*<Image
                 src="/assets/img/mod/balaji.png"
                 width={224}
                 height={100}
                 alt="Escuela de Medicina Juan N Corpas"
-              />
+              />*/}
             </div>
           </div>
 
           <div className="education">
             <div>
-              <h3>Diploma in Aesthetic Medicine</h3>
+              <h3>Certification in Advanced Aesthetic Medicine</h3>
               <p>
-                Northwest University
+                American Board of Aesthetic Medicine (ABAM)
               </p>
             </div>
 
             <div className="logo">
-              <Image
+              {/*<Image
                 src="/assets/img/mod/northwest.png"
                 width={230}
+                height={100}
                 alt="Northwest University"
-              />
+              />*/}
             </div>
           </div>
 
           <div className="education">
             <div>
-              <h3>MBA in Healthcare Management</h3>
+              <h3>Dermatology Diploma</h3>
               <p>
-                Middlesex University, Dubai
+                Royal College of Physicians of Ireland
               </p>
             </div>
 
             <div className="logo">
-              <Image
+              {/*<Image
                 src="/assets/img/mod/middlesex.jpg"
                 width={230}
+                height={100}
                 alt="Middlesex University, Dubai"
-              />
-            </div>
-          </div>
-
-          <div className="education">
-            <div>
-              <h3>Fellowship in Diabetology</h3>
-              <p>
-                University of Liverpool
-              </p>
-            </div>
-
-            <div className="logo">
-              <Image
-                src="/assets/img/mod/university-of-liverpool.webp"
-                width={230}
-                alt="Fellowship in Diabetology"
-              />
-            </div>
-          </div>
-
-          <div className="education">
-            <div>
-              <h3>Diploma in Dermatology</h3>
-              <p>
-                UK
-              </p>
-            </div>
-
-            <div className="logo">
-              
+              />*/}
             </div>
           </div>
          
@@ -230,7 +192,7 @@ export default function MeetOurDoctorPage() {
       </section>
 
       <section className="mod-ctr">
-        <h3>Make an appointment with Dr. Pradheeksha Krishnaprasad</h3>
+        <h3>Make an appointment with Dr. Haifa kelthoum Zaboub</h3>
         <a href="https://wa.me/+971566082103">Book Online Consultation</a>
       </section>
     </>

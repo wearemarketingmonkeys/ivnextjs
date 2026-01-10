@@ -63,7 +63,7 @@
 
     .mbl-logo {
       object-fit: contain;
-      height: 35px;
+      height: 50px;
       display: none;
       @include mixin.respond(xl) {
         display: block;
@@ -439,4 +439,10 @@
         color: #f2eee9;
       }
     }
+}
+
+.header:not(.home) .btn{
+  border: 1px solid #000;
+  background-color: #000;
+  color: #f2eee9;
 }
