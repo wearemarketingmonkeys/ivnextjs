@@ -63,7 +63,7 @@
 
     .mbl-logo {
       object-fit: contain;
-      height: 50px;
+      height: 35px;
       display: none;
       @include mixin.respond(xl) {
         display: block;
