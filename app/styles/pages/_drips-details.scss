@@ -237,6 +237,11 @@
     background-color: #ffffff;
     padding-top: 30px;
 
+    .container{
+      padding: 0;
+      max-width: 100%;
+    }
+
     .react-multiple-carousel__arrow--left{
         left: calc(1% + 1px);
     }
@@ -455,7 +460,7 @@
 .extras-snap {
   position: relative;
   background: #fff;
-  padding: 30px 0;
+  padding: 0;
 
   .extras-snap__viewport {
     position: relative;
@@ -468,7 +473,7 @@
     grid-auto-columns: 100%;
     gap: 16px;
 
-    padding: 15px 0;
+    padding: 50px 0;
 
     overflow-x: auto;
     overflow-y: hidden;

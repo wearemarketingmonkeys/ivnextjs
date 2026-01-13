@@ -4,6 +4,7 @@ import { useMemo, useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 const FaqAccordion = dynamic(() => import('./FaqAccordionClient'), { ssr: false });
 
+
 function renderDosageList(items = []) {
   // These are headings inside the dosageProtocol array
   const HEADINGS = new Set([
@@ -236,13 +237,26 @@ export default function PeptidesClient({ initialPeptides, faq }) {
 
                   {!!selectedProduct.details?.benefits?.length && (
                     <Section title="Key Benefits">
-                      <ul>
-                        {selectedProduct.details.benefits.map((x, i) => (
-                          <li key={i}>{x}</li>
-                        ))}
-                      </ul>
+                      {typeof selectedProduct.details.benefits[0] === 'string' ? (
+                        <ul>
+                          {selectedProduct.details.benefits.map((x, i) => (
+                            <li key={i}>{x}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <div className="benefitsStatGrid">
+                          {selectedProduct.details.benefits.map((b, i) => (
+                            <div className="benefitsStatItem" key={i}>
+                              <div className="benefitsStatIcon">{b.icon}</div>
+                              <div className="benefitsStatValue">{b.value}</div>
+                              <div className="benefitsStatLabel">{b.label}</div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </Section>
                   )}
+
 
                   {!!selectedProduct.details?.dosageProtocol?.length && (
                     <Section title="Dosage Protocol">
@@ -307,7 +321,7 @@ export default function PeptidesClient({ initialPeptides, faq }) {
                     rel="noreferrer"
                     className="whatsappBtn"
                   >
-                    Book Now on WhatsApp
+                    Get Started
                   </a>
                 </div>
               </div>
@@ -330,7 +344,7 @@ export default function PeptidesClient({ initialPeptides, faq }) {
 
 function Section({ title, children }) {
   return (
-    <section className="modalSection">
+    <section className={`modalSection ${title === 'Key Benefits' ? 'keybenefits' : ''}`}>
       <h3 className="modalSectionTitle">{title}</h3>
       <div className="modalSectionContent">{children}</div>
     </section>

@@ -552,3 +552,62 @@
       }
     }
 }
+
+.keybenefits {
+  .benefitsStatGrid {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+  }
+
+  .benefitsStatItem {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 0;
+    row-gap: 6px;
+    align-items: baseline;
+  }
+
+  .benefitsStatIcon {
+    grid-row: 1 / span 2;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .benefitsStatValue {
+    font-size: 30px; /* % in screenshot is huge; adjust if you use ✔ */
+    line-height: 1;
+    font-weight: 900;
+    color: #ab6816;
+    letter-spacing: -0.02em;
+  }
+
+  .benefitsStatLabel {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .modalSectionContent {
+      background: #fffbf7;
+      padding: 5px 5px 15px;
+      border-radius: 20px;
+      border: 2px solid #ab6816;
+  }
+
+  @media (max-width: 1024px) {
+    .benefitsStatGrid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .benefitsStatGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

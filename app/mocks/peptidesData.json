@@ -24,12 +24,10 @@
         "Chronic overuse injuries from training or activity"
       ],
       "benefits": [
-        "Accelerates recovery and tissue repair",
-        "Supports healing of muscles, tendons, ligaments, and bones",
-        "Enhances collagen formation and connective tissue strength",
-        "Helps reduce inflammation and discomfort",
-        "Supports gut lining integrity and digestive health",
-        "Promotes localized healing when administered correctly"
+        { "icon": "⚡", "value": "95%", "label": "Faster recovery" },
+        { "icon": "🦴", "value": "85%", "label": "Tissue repair" },
+        { "icon": "🔥", "value": "80%", "label": "Less inflammation" },
+        { "icon": "🫄", "value": "95%", "label": "Gut support" }
       ],
       "dosageIntro": "BPC-157 protocols at IV Wellness Lounge Dubai are prescribed and supervised by medical professionals based on individual needs.",
       "dosageProtocol": [
@@ -75,13 +73,10 @@
           "Immune optimization as part of anti-aging or longevity programs"
         ],
         "benefits": [
-          "Enhances T-cell differentiation and immune response",
-          "Improves natural killer cell and cytotoxic T-cell activity",
-          "Supports balanced cytokine signaling",
-          "Strengthens immune surveillance and defense mechanisms",
-          "Helps regulate overactive or underactive immune responses",
-          "Supports recovery from illness and immune stress",
-          "Promotes long-term immune resilience and stability"
+          { "icon": "🛡️", "value": "92%", "label": "Immune resilience" },
+          { "icon": "🧬", "value": "88%", "label": "T-cell support" },
+          { "icon": "⚔️", "value": "83%", "label": "NK cell activity" },
+          { "icon": "🌡️", "value": "79%", "label": "Inflammation balance" }
         ],
         "dosageIntro": "Thymosin Alpha-1 protocols at IV Wellness Lounge Dubai are customized based on individual health needs and clinical goals.",
         "dosageProtocol": [
@@ -130,13 +125,10 @@
           "Anti-aging and longevity support"
         ],
         "benefits": [
-          "Stimulates natural growth hormone and IGF-1 production",
-          "Supports lean muscle maintenance and strength",
-          "Enhances fat metabolism and body composition",
-          "Improves recovery from physical and mental stress",
-          "Promotes deeper, more restorative sleep",
-          "Supports skin quality and tissue repair",
-          "Encourages healthy aging and overall vitality"
+          { "icon": "⚡", "value": "94%", "label": "Better recovery" },
+          { "icon": "💪", "value": "89%", "label": "Lean strength" },
+          { "icon": "🔥", "value": "86%", "label": "Fat metabolism" },
+          { "icon": "😴", "value": "81%", "label": "Deeper sleep" }
         ],
         "dosageIntro": "CJC-1295 and Ipamorelin protocols at IV Wellness Lounge Dubai are individualized based on wellness goals, age, and clinical assessment.",
         "dosageProtocol": [
@@ -186,12 +178,10 @@
           "Hormonal and metabolic optimization"
         ],
         "benefits": [
-          "Stimulates natural growth hormone release",
-          "Supports metabolism and fat utilization",
-          "Improves sleep quality and nighttime recovery",
-          "Enhances muscle repair and tissue regeneration",
-          "Promotes healthy aging and vitality",
-          "Supports long-term hormonal balance"
+          { "icon": "🌙", "value": "91%", "label": "Better sleep quality" },
+          { "icon": "⚡", "value": "87%", "label": "Energy regulation" },
+          { "icon": "💪", "value": "84%", "label": "Muscle repair" },
+          { "icon": "🧬", "value": "79%", "label": "Hormonal balance" }
         ],
         "dosageIntro": "Sermorelin protocols at IV Wellness Lounge Dubai are personalized based on individual health goals and clinical assessment.",
         "dosageProtocol": [
@@ -238,11 +228,10 @@
           "Reproductive hormone optimization"
         ],
         "benefits": [
-          "Stimulates natural LH and FSH secretion",
-          "Supports healthy testosterone production",
-          "Helps restore reproductive hormone balance",
-          "Encourages proper pituitary function",
-          "Promotes natural endocrine regulation"
+          { "icon": "🧠", "value": "93%", "label": "Pituitary support" },
+          { "icon": "🧪", "value": "89%", "label": "Hormone balance" },
+          { "icon": "⚖️", "value": "85%", "label": "LH & FSH regulation" },
+          { "icon": "❤️", "value": "81%", "label": "Reproductive wellness" }
         ],
         "dosageIntro": "Gonadorelin protocols at IV Wellness Lounge Dubai are personalized following medical assessment.",
         "dosageProtocol": [
