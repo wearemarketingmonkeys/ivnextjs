@@ -277,13 +277,10 @@
           "Desire for non-stimulant fat loss support"
         ],
         "benefits": [
-          "Stimulates fat breakdown and lipolysis",
-          "Helps prevent new fat accumulation",
-          "Supports improved body composition",
-          "Targets stubborn fat areas",
-          "Does not raise growth hormone or IGF-1 levels",
-          "Does not negatively affect blood sugar",
-          "Well tolerated with minimal systemic impact"
+          { "icon": "🔥", "value": "92%", "label": "Fat breakdown" },
+          { "icon": "🎯", "value": "88%", "label": "Stubborn fat targeting" },
+          { "icon": "⚖️", "value": "84%", "label": "Body recomposition" },
+          { "icon": "🩺", "value": "79%", "label": "Metabolic safety" }
         ],
         "dosageIntro": "AOD-9604 protocols at IV Wellness Lounge Dubai are customized based on metabolic goals and individual response.",
         "dosageProtocol": [
@@ -330,12 +327,10 @@
           "Stress-related metabolic dysregulation"
         ],
         "benefits": [
-          "Enhances cellular energy metabolism",
-          "Improves insulin sensitivity and glucose uptake",
-          "Supports fat loss while preserving lean body mass",
-          "Boosts mitochondrial efficiency and endurance",
-          "Supports metabolic resilience and stress adaptation",
-          "May promote longevity and long-term metabolic health"
+          { "icon": "⚡", "value": "94%", "label": "Cellular energy" },
+          { "icon": "🧬", "value": "89%", "label": "Insulin sensitivity" },
+          { "icon": "🔥", "value": "85%", "label": "Fat oxidation" },
+          { "icon": "🏃", "value": "81%", "label": "Endurance support" }
         ],
         "dosageIntro": "MOTS-C protocols at IV Wellness Lounge Dubai are tailored based on metabolic goals and clinical assessment.",
         "dosageProtocol": [
@@ -389,12 +384,10 @@
           "Hormonal imbalance linked to aging"
         ],
         "benefits": [
-          "Supports telomere stability and cellular longevity",
-          "Helps regulate melatonin and sleep cycles",
-          "Improves sleep quality and circadian rhythm balance",
-          "Supports cellular repair and regeneration",
-          "Promotes healthy aging at a cellular level",
-          "May enhance overall vitality and resilience"
+          { "icon": "🧬", "value": "93%", "label": "Cellular longevity" },
+          { "icon": "🌙", "value": "89%", "label": "Sleep regulation" },
+          { "icon": "⏰", "value": "85%", "label": "Circadian balance" },
+          { "icon": "✨", "value": "81%", "label": "Healthy aging" }
         ],
         "dosageIntro": "Epithalon protocols at IV Wellness Lounge Dubai are tailored based on age, sleep patterns, and longevity goals.",
         "dosageProtocol": [
@@ -442,12 +435,10 @@
             "Physical stress from training or active lifestyles"
           ],
           "benefits": [
-            "Accelerates tissue repair and regeneration",
-            "Supports healing of muscles, tendons, and ligaments",
-            "Helps reduce inflammation and stiffness",
-            "Improves flexibility and mobility",
-            "Promotes faster recovery after injury or surgery",
-            "Supports systemic healing rather than localized effects"
+            { "icon": "🩹", "value": "95%", "label": "Tissue repair" },
+            { "icon": "💪", "value": "90%", "label": "Muscle healing" },
+            { "icon": "🔥", "value": "86%", "label": "Inflammation relief" },
+            { "icon": "🧍", "value": "82%", "label": "Mobility & flexibility" }
           ],
           "dosageIntro": "TB-500 protocols at IV Wellness Lounge Dubai are customized based on injury type, severity, and recovery goals.",
           "dosageProtocol": [
@@ -493,12 +484,10 @@
           "Non-injectable wrinkle reduction"
         ],
         "benefits": [
-          "Helps reduce the appearance of expression wrinkles",
-          "Provides a Botox-like smoothing effect without injections",
-          "Supports relaxed facial muscle activity",
-          "Improves skin texture and surface smoothness",
-          "Non-invasive and suitable for daily use",
-          "Complements in-clinic aesthetic treatments"
+          { "icon": "✨", "value": "93%", "label": "Wrinkle smoothing" },
+          { "icon": "😌", "value": "89%", "label": "Muscle relaxation" },
+          { "icon": "🧴", "value": "84%", "label": "Skin texture" },
+          { "icon": "🪞", "value": "79%", "label": "Non-invasive care" }
         ],
         "dosageIntro": "Acetyl Hexapeptide-8 is applied topically as part of a daily skincare routine.",
         "dosageProtocol": [
@@ -545,12 +534,10 @@
           "Overall skin quality and resilience"
         ],
         "benefits": [
-          "Stimulates collagen and elastin synthesis",
-          "Promotes faster wound healing and skin repair",
-          "Improves skin firmness, texture, and tone",
-          "Supports scalp health and hair growth",
-          "Helps reduce inflammation at the skin and cellular level",
-          "Enhances overall regenerative processes"
+          { "icon": "🧬", "value": "94%", "label": "Collagen support" },
+          { "icon": "🩹", "value": "89%", "label": "Wound healing" },
+          { "icon": "✨", "value": "85%", "label": "Skin firmness" },
+          { "icon": "💇", "value": "80%", "label": "Hair support" }
         ],
         "dosageIntro": "GHK-Cu protocols at IV Wellness Lounge Dubai are customized based on skin goals and treatment approach.",
         "dosageProtocol": [
@@ -602,13 +589,10 @@
           "Nervous system stress and regulatory imbalance"
         ],
         "benefits": [
-          "Helps regulate inflammatory cytokines",
-          "Supports neuroimmune balance",
-          "Improves vascular tone and blood flow",
-          "Supports lung and respiratory function",
-          "Aids gut barrier integrity and digestive balance",
-          "Promotes cellular communication and repair",
-          "Supports recovery from chronic inflammatory stress"
+          { "icon": "🧠", "value": "93%", "label": "Neuroimmune balance" },
+          { "icon": "🔥", "value": "89%", "label": "Inflammation control" },
+          { "icon": "🩸", "value": "84%", "label": "Vascular support" },
+          { "icon": "🫁", "value": "79%", "label": "Respiratory health" }
         ],
         "dosageIntro": "VIP protocols at IV Wellness Lounge Dubai are carefully customized and initiated only after thorough medical evaluation.",
         "dosageProtocol": [
@@ -656,12 +640,10 @@
           "Male sexual wellness support"
         ],
         "benefits": [
-          "Enhances sexual desire and arousal",
-          "Works independently of blood flow mechanisms",
-          "Supports sexual response in both men and women",
-          "Acts centrally on the nervous system",
-          "May improve intimacy confidence and satisfaction",
-          "Non-hormonal approach to sexual wellness"
+          { "icon": "🔥", "value": "94%", "label": "Libido support" },
+          { "icon": "🧠", "value": "90%", "label": "Central arousal" },
+          { "icon": "❤️", "value": "86%", "label": "Sexual response" },
+          { "icon": "😌", "value": "80%", "label": "Confidence boost" }
         ],
         "dosageIntro": "PT-141 protocols at IV Wellness Lounge Dubai are customized based on individual response and goals.",
         "dosageProtocol": [
