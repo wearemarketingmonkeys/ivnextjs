@@ -321,6 +321,10 @@
     object-fit: cover;
     display: block;
     filter: drop-shadow(20px -4px 11px rgba(0, 0, 0, 0.35));
+
+    @media (max-width: 500px) {
+      width: 80%;
+    }
   }
 
   /* ✅ RIGHT column */
@@ -454,7 +458,7 @@
 
     .modalGrid {
       grid-template-columns: 1fr;
-      grid-template-rows: 360px 1fr;
+      grid-template-rows: 300px 1fr;
     }
 
     .modalLeft {
