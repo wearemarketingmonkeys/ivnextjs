@@ -2,18 +2,19 @@
 
 import { useMemo, useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import { useRouter, usePathname } from 'next/navigation';
+
 const FaqAccordion = dynamic(() => import('./FaqAccordionClient'), { ssr: false });
 
-
 function renderDosageList(items = []) {
-  // These are headings inside the dosageProtocol array
   const HEADINGS = new Set([
-    "Topical Application",
-    "Injectable Protocol",
-    "Administration Guidelines",
-    "Typical Dosing Ranges",
-    "Cycle Duration",
-    "Timing Guidelines"
+    'Topical Application',
+    'Injectable Protocol',
+    'Administration Guidelines',
+    'Typical Dosing Ranges',
+    'Cycle Duration',
+    'Timing Guidelines',
+    'Typical Protocol Structure'
   ]);
 
   return (
@@ -40,17 +41,32 @@ function renderDosageList(items = []) {
   );
 }
 
+export default function PeptidesClient({ initialPeptides = [], faq = [], initialSlug = null }) {
 
-export default function PeptidesClient({ initialPeptides, faq }) {
+  const router = useRouter();
+  const pathname = usePathname();
 
   const [query, setQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return initialPeptides;
+  // Detect slug from URL: /peptides or /peptides/[slug]
+  const slugFromUrl = useMemo(() => {
+    // If you pass initialSlug from the [slug] page, prefer that
+    if (initialSlug) return initialSlug;
 
-    return initialPeptides.filter((p) => {
+    const parts = (pathname || '').split('/').filter(Boolean);
+    // expecting ["peptides"] or ["peptides", "bpc-157"]
+    if (parts[0] === 'peptides' && parts[1]) return parts[1];
+    return null;
+  }, [pathname, initialSlug]);
+
+  // Filter list (same as your current behavior)
+  const filtered = useMemo(() => {
+    const list = Array.isArray(initialPeptides) ? initialPeptides : [];
+    const q = query.trim().toLowerCase();
+    if (!q) return list;
+
+    return list.filter((p) => {
       const name = (p.name || '').toLowerCase();
       const type = (p.type || '').toLowerCase();
       const tags = (p.tags || []).join(' ').toLowerCase();
@@ -58,8 +74,37 @@ export default function PeptidesClient({ initialPeptides, faq }) {
     });
   }, [query, initialPeptides]);
 
-  const openModal = (product) => setSelectedProduct(product);
-  const closeModal = () => setSelectedProduct(null);
+
+  // Sync modal state from URL
+  useEffect(() => {
+    if (!slugFromUrl) {
+      setSelectedProduct(null);
+      return;
+    }
+
+    const found = initialPeptides.find((p) => p.slug === slugFromUrl) || null;
+    setSelectedProduct(found);
+  }, [slugFromUrl, initialPeptides]);
+
+  // Open modal + update URL
+  const openModal = (product) => {
+    if (!product?.slug) return;
+
+    // 1) open immediately (no waiting for route)
+    setSelectedProduct(product);
+
+    // 2) push URL AFTER the modal is already rendered
+    requestAnimationFrame(() => {
+      router.push(`/peptides/${product.slug}`, { scroll: false });
+    });
+  };
+
+
+  // Close modal + reset URL
+  const closeModal = () => {
+    setSelectedProduct(null);
+    router.push('/peptides', { scroll: false });
+  };
 
   // Close on ESC
   useEffect(() => {
@@ -71,9 +116,10 @@ export default function PeptidesClient({ initialPeptides, faq }) {
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedProduct]);
 
-  // Optional: prevent background scroll when modal is open
+  // Prevent background scroll when modal is open
   useEffect(() => {
     if (selectedProduct) {
       document.body.style.overflow = 'hidden';
@@ -83,15 +129,15 @@ export default function PeptidesClient({ initialPeptides, faq }) {
     }
   }, [selectedProduct]);
 
-  // WhatsApp CTA (update number if needed)
+  // WhatsApp CTA
   const buildWhatsAppLink = (productName) => {
-    const phone = '97180048482'; // <-- replace with your WhatsApp number (no + sign)
+    const phone = '97180048482';
     const msg = `Hi IV Wellness Lounge Clinic, I’d like to book a consultation for ${productName}.`;
     return `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
   };
 
   return (
-      <>
+    <>
       <div className="home-hero peptidehero">
         <video className="hero-video" autoPlay muted playsInline loop>
           <source src="/assets/video/peptide-2.mp4" type="video/mp4" />
@@ -99,245 +145,254 @@ export default function PeptidesClient({ initialPeptides, faq }) {
         <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
-            <img className="spinner-text" src="/assets/img/peptides/peptide-header-text-1.png" alt="spinner" />
-            <p>Peptide therapy at IV Wellness Lounge is designed to activate the body’s natural intelligence. Through precision-formulated amino acids, we support regeneration, balance, and longevity at a cellular level, with personalized treatments tailored to your unique wellness goals.</p>
+            <img
+              className="spinner-text"
+              src="/assets/img/peptides/peptide-header-text-1.png"
+              alt="spinner"
+            />
+            <p>
+              Peptide therapy at IV Wellness Lounge is designed to activate the body’s natural
+              intelligence. Through precision-formulated amino acids, we support regeneration,
+              balance, and longevity at a cellular level, with personalized treatments tailored to
+              your unique wellness goals.
+            </p>
           </div>
         </div>
       </div>
-    <main className="peptidepage">
-      <section className="wrap">
-        <header className="pheader">
-          <h1 className="title">Explore our Peptides</h1>
-          <p className="subtitle">All orders will be delivered same day from our Clinic facility.</p>
-          <p className="subtitle">Purity: 99% or higher. Third-party tested. For research purposes only.</p>
-        </header>
 
-        <div className="searchWrap">
-          <span className="searchIcon" aria-hidden>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M21 21L16.65 16.65M18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11Z"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </span>
+      <main className="peptidepage">
+        <section className="wrap">
+          <header className="pheader">
+            <h1 className="title">Explore our Peptides</h1>
+            <p className="subtitle">All orders will be delivered same day from our Clinic facility.</p>
+            <p className="subtitle">Purity: 99% or higher. Third-party tested. For research purposes only.</p>
+          </header>
 
-          <input
-            className="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by product name or type"
-          />
-        </div>
+          <div className="searchWrap">
+            <span className="searchIcon" aria-hidden>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21 21L16.65 16.65M18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11Z"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
 
-        <div className="grid">
-          {filtered.map((item) => (
-            <article key={item.slug} className="card">
-              <div className="cardInner">
-                <div className="type">{item.type || 'Compound'}</div>
-                <div className="name">{item.name}</div>
+            <input
+              className="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search by product name or type"
+            />
+          </div>
 
-                <div className="price">
-                  from <span>AED {item.fromPrice}</span>
-                </div>
+          <div className="grid">
+            {filtered.map((item) => (
+              <article key={item.slug} className="card">
+                <div className="cardInner">
+                  <div className="type">{item.type || 'Compound'}</div>
+                  <div className="name">{item.name}</div>
 
-                {/* ✅ Button now opens modal instead of navigation */}
-                <button className="btn" type="button" onClick={() => openModal(item)}>
-                  +
-                </button>
+                  <div className="price">
+                    from <span>AED {item.fromPrice}</span>
+                  </div>
 
-                <div className="imgWrap">
-                  <img className="img" src={item.img} alt={item.name} loading="lazy" />
-                </div>
-              </div>
-            </article>
-          ))}
-        </div>
+                  {/* ✅ opens modal + pushes /peptides/[slug] */}
+                  <button className="btn" type="button" onClick={() => openModal(item)}>
+                    +
+                  </button>
 
-        {filtered.length === 0 && (
-          <div className="empty">No products match your search.</div>
-        )}
-      </section>
-
-      {/* ✅ Modal */}
-      {selectedProduct && (
-        <div className="modalOverlay" onMouseDown={closeModal}>
-          <div
-            className="modal modalTwoCol"
-            role="dialog"
-            aria-modal="true"
-            aria-label={`${selectedProduct?.name} details`}
-            onMouseDown={(e) => e.stopPropagation()}
-          >
-            <button className="modalClose" type="button" onClick={closeModal} aria-label="Close">
-              ✕
-            </button>
-
-            <div className="modalGrid">
-              {/* ✅ LEFT: Image */}
-              <div className="modalLeft">
-                <div className="modalLeftSticky">
-                  <div className="modalImgWrap">
-                    <img
-                      src={selectedProduct.detailimg}
-                      alt={selectedProduct.name}
-                      className="modalImg"
-                      loading="lazy"
-                    />
+                  <div className="imgWrap">
+                    <img className="img" src={item.img} alt={item.name} loading="lazy" />
                   </div>
                 </div>
-              </div>
+              </article>
+            ))}
+          </div>
 
+          {filtered.length === 0 && <div className="empty">No products match your search.</div>}
+        </section>
 
-              {/* ✅ RIGHT: Content */}
-              <div className="modalRight">
-                <div className="modalHeader">
-                  <div className="modalType">{selectedProduct.type || 'Compound'}</div>
+        {/* ✅ Modal (opens for both click + direct URL /peptides/[slug]) */}
+        {selectedProduct && (
+          <div className="modalOverlay" onMouseDown={closeModal}>
+            <div
+              className="modal modalTwoCol"
+              role="dialog"
+              aria-modal="true"
+              aria-label={`${selectedProduct?.name} details`}
+              onMouseDown={(e) => e.stopPropagation()}
+            >
+              <button className="modalClose" type="button" onClick={closeModal} aria-label="Close">
+                ✕
+              </button>
 
-                  <h2 className="modalTitle">
-                    {selectedProduct.details?.headline || selectedProduct.name}
-                  </h2>
-                  <div className="modalType subline">Purity: 99% or higher. Third-party tested. For research purposes only.</div>
-
-                  <div className="modalPrice">
-                    from <span>AED {selectedProduct.fromPrice}</span>
+              <div className="modalGrid">
+                {/* ✅ LEFT */}
+                <div className="modalLeft">
+                  <div className="modalLeftSticky">
+                    <div className="modalImgWrap">
+                      <img
+                        src={selectedProduct.detailimg || selectedProduct.img}
+                        alt={selectedProduct.name}
+                        className="modalImg"
+                        loading="lazy"
+                      />
+                    </div>
                   </div>
                 </div>
 
-                <div className="modalBody">
-                  {selectedProduct.details?.overview && (
-                    <Section title="Overview">
-                      {Array.isArray(selectedProduct.details.overview) ? (
-                        selectedProduct.details.overview.map((para, i) => (
-                          <p key={i} style={{ marginBottom: i === selectedProduct.details.overview.length - 1 ? 0 : 12 }}>
-                            {para}
-                          </p>
-                        ))
-                      ) : (
-                        <p>{selectedProduct.details.overview}</p>
-                      )}
-                    </Section>
-                  )}
+                {/* ✅ RIGHT */}
+                <div className="modalRight">
+                  <div className="modalHeader">
+                    <div className="modalType">{selectedProduct.type || 'Compound'}</div>
 
+                    <h2 className="modalTitle">{selectedProduct.details?.headline || selectedProduct.name}</h2>
+                    <div className="modalType subline">
+                      Purity: 99% or higher. Third-party tested. For research purposes only.
+                    </div>
 
-                  {!!selectedProduct.details?.uses?.length && (
-                    <Section title="Uses and Indications">
-                      {selectedProduct.details?.usesIntro && <p>{selectedProduct.details.usesIntro}</p>}
-                      <ul>
-                        {selectedProduct.details.uses.map((x, i) => (
-                          <li key={i}>{x}</li>
-                        ))}
-                      </ul>
-                    </Section>
-                  )}
+                    <div className="modalPrice">
+                      from <span>AED {selectedProduct.fromPrice}</span>
+                    </div>
+                  </div>
 
+                  <div className="modalBody">
+                    {selectedProduct.details?.overview && (
+                      <Section title="Overview">
+                        {Array.isArray(selectedProduct.details.overview) ? (
+                          selectedProduct.details.overview.map((para, i) => (
+                            <p
+                              key={i}
+                              style={{
+                                marginBottom: i === selectedProduct.details.overview.length - 1 ? 0 : 12
+                              }}
+                            >
+                              {para}
+                            </p>
+                          ))
+                        ) : (
+                          <p>{selectedProduct.details.overview}</p>
+                        )}
+                      </Section>
+                    )}
 
-                  {!!selectedProduct.details?.benefits?.length && (
-                    <Section title="Key Benefits">
-                      {typeof selectedProduct.details.benefits[0] === 'string' ? (
+                    {!!selectedProduct.details?.uses?.length && (
+                      <Section title="Uses and Indications">
+                        {selectedProduct.details?.usesIntro && <p>{selectedProduct.details.usesIntro}</p>}
                         <ul>
-                          {selectedProduct.details.benefits.map((x, i) => (
+                          {selectedProduct.details.uses.map((x, i) => (
                             <li key={i}>{x}</li>
                           ))}
                         </ul>
-                      ) : (
-                        <div className="benefitsStatGrid">
-                          {selectedProduct.details.benefits.map((b, i) => (
-                            <div className="benefitsStatItem" key={i}>
-                              <div className="benefitsStatIcon">{b.icon}</div>
-                              <div className="benefitsStatValue">{b.value}</div>
-                              <div className="benefitsStatLabel">{b.label}</div>
-                            </div>
+                      </Section>
+                    )}
+
+                    {!!selectedProduct.details?.benefits?.length && (
+                      <Section title="Key Benefits">
+                        {typeof selectedProduct.details.benefits[0] === 'string' ? (
+                          <ul>
+                            {selectedProduct.details.benefits.map((x, i) => (
+                              <li key={i}>{x}</li>
+                            ))}
+                          </ul>
+                        ) : (
+                          <div className="benefitsStatGrid">
+                            {selectedProduct.details.benefits.map((b, i) => (
+                              <div className="benefitsStatItem" key={i}>
+                                <div className="benefitsStatIcon">{b.icon}</div>
+                                <div className="benefitsStatValue">{b.value}</div>
+                                <div className="benefitsStatLabel">{b.label}</div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </Section>
+                    )}
+
+                    {!!selectedProduct.details?.dosageProtocol?.length && (
+                      <Section title="Dosage Protocol">
+                        {selectedProduct.details?.dosageIntro && <p>{selectedProduct.details.dosageIntro}</p>}
+                        {renderDosageList(selectedProduct.details.dosageProtocol)}
+                      </Section>
+                    )}
+
+                    {selectedProduct.details?.stackingText && (
+                      <Section title={selectedProduct.details.stackingTitle}>
+                        <p>{selectedProduct.details.stackingText}</p>
+                      </Section>
+                    )}
+
+                    {selectedProduct.details?.safety && (
+                      <Section title="Safety and Side Effects">
+                        <p>{selectedProduct.details.safety}</p>
+                      </Section>
+                    )}
+
+                    {selectedProduct.details?.timingTitle && (
+                      <Section title={selectedProduct.details.timingTitle}>
+                        <p>{selectedProduct.details.timingText}</p>
+                      </Section>
+                    )}
+
+                    {!!selectedProduct.details?.contraindications?.length && (
+                      <Section title={selectedProduct.details?.contraTitle || 'Contraindications'}>
+                        {selectedProduct.details?.contraIntro && <p>{selectedProduct.details.contraIntro}</p>}
+                        <ul>
+                          {selectedProduct.details.contraindications.map((x, i) => (
+                            <li key={i}>{x}</li>
                           ))}
-                        </div>
-                      )}
-                    </Section>
-                  )}
+                        </ul>
+                        {selectedProduct.details?.contraOutro && (
+                          <p style={{ marginTop: 12 }}>{selectedProduct.details.contraOutro}</p>
+                        )}
+                      </Section>
+                    )}
 
+                    {selectedProduct.details?.bestFor && (
+                      <Section title="Who This Peptide Is Best For">
+                        <p>{selectedProduct.details.bestFor}</p>
+                      </Section>
+                    )}
 
-                  {!!selectedProduct.details?.dosageProtocol?.length && (
-                    <Section title="Dosage Protocol">
-                      {selectedProduct.details?.dosageIntro && <p>{selectedProduct.details.dosageIntro}</p>}
-                      {renderDosageList(selectedProduct.details.dosageProtocol)}
-                    </Section>
-                  )}
+                    {selectedProduct.details?.ctaText && (
+                      <Section title={selectedProduct.details.ctaTitle}>
+                        <p>{selectedProduct.details.ctaText}</p>
+                      </Section>
+                    )}
+                  </div>
 
-
-
-                  {selectedProduct.details?.stackingText && (
-                    <Section title={selectedProduct.details.stackingTitle}>
-                      <p>{selectedProduct.details.stackingText}</p>
-                    </Section>
-                  )}
-
-                  {selectedProduct.details?.safety && (
-                    <Section title="Safety and Side Effects">
-                      <p>{selectedProduct.details.safety}</p>
-                    </Section>
-                  )}
-
-                  {selectedProduct.details?.timingTitle && (
-                    <Section title={selectedProduct.details.timingTitle}>
-                      <p>{selectedProduct.details.timingText}</p>
-                    </Section>
-                  )}
-
-                  {!!selectedProduct.details?.contraindications?.length && (
-                    <Section title="Contraindications">
-                      {selectedProduct.details?.contraIntro && <p>{selectedProduct.details.contraIntro}</p>}
-                      <ul>
-                        {selectedProduct.details.contraindications.map((x, i) => (
-                          <li key={i}>{x}</li>
-                        ))}
-                      </ul>
-                      {selectedProduct.details?.contraOutro && (
-                        <p style={{ marginTop: 12 }}>{selectedProduct.details.contraOutro}</p>
-                      )}
-                    </Section>
-                  )}
-
-
-                  {selectedProduct.details?.bestFor && (
-                    <Section title="Who This Peptide Is Best For">
-                      <p>{selectedProduct.details.bestFor}</p>
-                    </Section>
-                  )}
-
-                  {selectedProduct.details?.ctaText && (
-                    <Section title={selectedProduct.details.ctaTitle}>
-                      <p>{selectedProduct.details.ctaText}</p>
-                    </Section>
-                  )}
-                </div>
-
-                {/* ✅ WhatsApp CTA stays on right side */}
-                <div className="modalFooter">
-                  <a
-                    href={buildWhatsAppLink(selectedProduct.name)}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="whatsappBtn"
-                  >
-                    Get Started
-                  </a>
+                  <div className="modalFooter">
+                    <a
+                      href={buildWhatsAppLink(selectedProduct.name)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="whatsappBtn"
+                    >
+                      Get Started
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
-      
-      <br/><br/><br/><br/>
-      <section className="wrap">
-        <header className="pheader">
-          <h1 className="title">Questions? We've Got Answers</h1>
-        </header>
-        <FaqAccordion items={faq} />
-      </section>
-    </main>
+        )}
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <section className="wrap">
+          <header className="pheader">
+            <h1 className="title">Questions? We've Got Answers</h1>
+          </header>
+          <FaqAccordion items={faq} />
+        </section>
+      </main>
     </>
   );
 }

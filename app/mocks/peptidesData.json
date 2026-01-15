@@ -3,6 +3,7 @@
     {
       "type": "Repair & Regeneration",
       "name": "BPC-157",
+      "metadesc": "BPC-157 peptide therapy at IV Wellness Lounge supports gut healing, joint recovery, muscle repair, and inflammation reduction. Personalized wellness protocols guided by experts.",
       "fromPrice": 39,
       "slug": "bpc-157",
       "img": "/assets/img/peptides/1.png",
@@ -51,6 +52,7 @@
     {
       "type": "Repair & Regeneration",
       "name": "Thymosin Alpha-1 (Tα1)",
+      "metadesc": "Thymosin Alpha-1 peptide therapy helps support immune function, cellular repair, and resilience. Advanced peptide protocols available at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "thymosin-alpha-1",
       "img": "/assets/img/peptides/2.png",
@@ -103,6 +105,7 @@
     {
       "type": "Repair & Regeneration",
       "name": "CJC + Ipamorelin",
+      "metadesc": "CJC-1295 with Ipamorelin peptide therapy supports natural growth hormone release, fat loss, muscle recovery, sleep quality, and anti-aging benefits.",
       "fromPrice": 0,
       "slug": "cjc-ipamorelin",
       "img": "/assets/img/peptides/3.png",
@@ -157,6 +160,7 @@
     {
       "type": "Growth Hormone",
       "name": "Sermorelin Acetate",
+      "metadesc": "Sermorelin acetate peptide therapy stimulates natural growth hormone production to support energy, recovery, sleep, body composition, and healthy aging.",
       "fromPrice": 0,
       "slug": "sermorelin-acetate",
       "img": "/assets/img/peptides/4.png",
@@ -208,6 +212,7 @@
     {
       "type": "Hormonal Balance & Regulation",
       "name": "Gonadorelin",
+      "metadesc": "Gonadorelin peptide therapy helps support natural hormone signaling and balance. Customized wellness protocols available at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "gonadorelin",
       "img": "/assets/img/peptides/5.png",
@@ -256,6 +261,7 @@
     {
       "type": "Fat Loss Composition",
       "name": "AOD-9604",
+      "metadesc": "AOD-9604 peptide therapy is designed to support fat metabolism and weight management without affecting muscle mass. Expert-guided protocols available.",
       "fromPrice": 0,
       "slug": "aod-9604",
       "img": "/assets/img/peptides/25.png",
@@ -306,6 +312,7 @@
     {
       "type": "Metabolic and Mitochondrial Support",
       "name": "MOTS-C",
+      "metadesc": "MOTS-C peptide therapy supports metabolic health, insulin sensitivity, energy production, and longevity. Advanced peptide treatments at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "mots-c",
       "img": "/assets/img/peptides/7.png",
@@ -362,6 +369,7 @@
     {
       "type": "Healthy Aging Support",
       "name": "Epithalon",
+      "metadesc": "Epithalon peptide therapy is known for supporting cellular renewal, sleep quality, and longevity pathways. Science-driven protocols at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "epithalon",
       "img": "/assets/img/peptides/27.png",
@@ -413,6 +421,7 @@
     {
         "type": "For Faster Recovery",
         "name": "TB-500",
+        "metadesc": "TB-500 peptide therapy supports muscle recovery, flexibility, injury healing, and tissue repair. Personalized peptide programs available.",
         "fromPrice": 0,
         "slug": "tb-500",
         "img": "/assets/img/peptides/29.png",
@@ -464,6 +473,7 @@
     {
       "type": "Aesthetic & Cosmetic",
       "name": "Acetyl Hexapeptide-8",
+      "metadesc": "Acetyl Hexapeptide-8 peptide therapy supports skin smoothing and wrinkle reduction by relaxing facial tension. Advanced aesthetic peptide treatments available.",
       "fromPrice": 0,
       "slug": "acetyl-hexapeptide-8",
       "img": "/assets/img/peptides/9.png",
@@ -513,6 +523,7 @@
     {
       "type": "Repair and Regeneration",
       "name": "GHK-Cu",
+      "metadesc": "GHK-Cu copper peptide therapy supports collagen production, skin repair, hair health, and overall rejuvenation. Expert-led treatments at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "ghk-cu",
       "img": "/assets/img/peptides/10.png",
@@ -567,6 +578,7 @@
     {
       "type": "Gut & Nerves Support",
       "name": "Vasoactive Intestinal Peptide (VIP)",
+      "metadesc": "VIP peptide therapy supports gut health, neurological balance, immune regulation, and inflammation control. Personalized wellness protocols available.",
       "fromPrice": 0,
       "slug": "vip-therapy",
       "img": "/assets/img/peptides/31.png",
@@ -618,6 +630,7 @@
     {
       "type": "Sexual Wellness Support",
       "name": "PT-141",
+      "metadesc": "PT-141 peptide therapy supports sexual wellness, libido, and arousal in men and women. Discreet, customized peptide treatments at IV Wellness Lounge.",
       "fromPrice": 0,
       "slug": "pt-141",
       "img": "/assets/img/peptides/33.png",
