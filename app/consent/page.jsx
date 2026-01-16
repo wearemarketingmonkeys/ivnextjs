@@ -138,6 +138,12 @@ export default function ConsentPage() {
                       HIFU Consent
                     </Link>
                   </div>
+
+                  <div className="btn-wrap">
+                    <Link href="/consentpeptide" className="btn">
+                      Peptide Consent
+                    </Link>
+                  </div>
               </div>
             </div>
           </div>
