@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 
 const FaqAccordion = dynamic(() => import('./FaqAccordionClient'), { ssr: false });
@@ -201,9 +202,20 @@ export default function PeptidesClient({ initialPeptides = [], faq = [], initial
                   </div>
 
                   {/* ✅ opens modal + pushes /peptides/[slug] */}
-                  <button className="btn" type="button" onClick={() => openModal(item)}>
+                  <Link
+                    href={`/peptides/${item.slug}`}
+                    className="btn"
+                    aria-label={`Learn more about ${item.name}`}
+                    title={`Learn more about ${item.name}`}
+                    prefetch
+                    onClick={(e) => {
+                      // keep SPA + modal (no full navigation flash)
+                      e.preventDefault();
+                      openModal(item); // your function opens modal + pushes route
+                    }}
+                  >
                     +
-                  </button>
+                  </Link>
 
                   <div className="imgWrap">
                     <img className="img" src={item.img} alt={item.name} loading="lazy" />
