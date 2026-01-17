@@ -144,6 +144,12 @@ export default function ConsentPage() {
                       Peptide Consent
                     </Link>
                   </div>
+
+                  <div className="btn-wrap">
+                    <Link href="/consentlumecca" className="btn">
+                      Lumecca Consent
+                    </Link>
+                  </div>
               </div>
             </div>
           </div>
