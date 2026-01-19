@@ -140,7 +140,7 @@
     display: block;
     margin-top: 18px;
     height: 35px;
-    padding: 0 12px;
+    padding: 7px 12px;
     border-radius: 9999px;
     background: #000;
     color: #f2eee9;
@@ -265,7 +265,8 @@
     cursor: pointer;
     font-size: 18px;
     line-height: 1;
-    display: inline-flex;
+    /*display: inline-flex;*/
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 20;
@@ -290,8 +291,8 @@
 
   /* ✅ LEFT column */
   .modalLeft {
-    background: #f8fafc;
-    border-right: 1px solid #eef2f7;
+    /*background: #f8fafc;
+    border-right: 1px solid #eef2f7;*/
     padding: 26px;
     min-height: 0; /* ✅ allows sticky child to behave */
     overflow: hidden;
@@ -306,8 +307,8 @@
 
   .modalImgWrap {
     width: 100%;
-    height: 100%;
-    border-radius: 22px;
+    /*height: 100%;
+    border-radius: 22px;*/
     overflow: hidden;
     // background: #0b0b0b;
     display: flex;
@@ -316,11 +317,15 @@
   }
 
   .modalImg {
-    width: 100%;
+    width: 150%;
     height: 100%;
     object-fit: cover;
     display: block;
     filter: drop-shadow(20px -4px 11px rgba(0, 0, 0, 0.35));
+
+    @media (max-width: 900px) {
+      width: 40%;
+    }
 
     @media (max-width: 500px) {
       width: 80%;
@@ -338,7 +343,7 @@
 
   .modalHeader {
     padding: 26px 26px 18px;
-    border-bottom: 1px solid #eef2f7;
+    /*border-bottom: 1px solid #eef2f7;*/
     flex: 0 0 auto; /* fixed header */
 
     .subline{
@@ -419,9 +424,9 @@
   /* ✅ Footer pinned */
   .modalFooter {
     padding: 18px 26px;
-    border-top: 1px solid #eef2f7;
+    /*border-top: 1px solid #eef2f7;*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background: #fff;
     flex: 0 0 auto; /* fixed footer */
   }
@@ -433,20 +438,24 @@
     height: 48px;
     padding: 0 22px;
     border-radius: 9999px;
-    background: #22c55e;
-    color: #ffffff;
+    background: #000;
+    color: #f2eee9;
     font-weight: 800;
     font-size: 15px;
     text-decoration: none;
-    box-shadow: 0 14px 26px rgba(34, 197, 94, 0.22);
+    /*box-shadow: 0 14px 26px rgba(34, 197, 94, 0.22);*/
     transition: transform 0.08s ease, background 0.15s ease;
 
     &:hover {
-      background: #16a34a;
+      background: #000;
     }
 
     &:active {
       transform: translateY(1px);
+    }
+
+    @media (max-width: 900px) {
+      width: 100%;
     }
   }
 
@@ -614,4 +623,32 @@
       grid-template-columns: 1fr;
     }
   }
+}
+
+
+.peptideDetailPage {
+  padding: 40px 0;
+}
+
+.detailShell {
+  position: relative;
+  background: #fff;
+  /*border-radius: 34px;
+  border: 1px solid #eef2f7;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);*/
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* ✅ Important: make right side scroll inside the card (page feel) */
+/*.detailShell .modalRight {
+  max-height: calc(100vh - 140px);
+  overflow: auto;
+}*/
+
+/* keep left sticky working */
+.detailShell .modalLeftSticky {
+  position: sticky;
+  top: 22px;
 }
