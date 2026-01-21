@@ -4,6 +4,10 @@ export const menuItems = [
       modal: true,
     },
     {
+      label: "Peptides",
+      to: "/peptides",
+    },
+    {
       label: "Concerns & Treatments",
       submenuWrapper: [
         {
@@ -96,10 +100,6 @@ export const menuItems = [
     {
       label: "Offers",
       to: "/#specialoffers",
-    },
-    {
-      label: "Peptides",
-      to: "/peptides",
     },
     {
       label: "Discover",
