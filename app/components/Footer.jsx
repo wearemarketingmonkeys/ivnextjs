@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 
+import LogoMarquee from '../components/LogoMarquee';
 
 import Link from 'next/link';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
@@ -40,46 +41,6 @@ const partnerLinks = [
   'https://www.emiratesnbd.com/en/deals/live-well/iv-wellness-lounge-clinic?source=ivhub.com',
   'https://ivhub.com/hsbc'
 ];
-
-
-const repeatUntilMin = (arr, minLength) => {
-  if (!arr || arr.length === 0) return [];
-  const out = [];
-  while (out.length < minLength) out.push(...arr);
-  return out;
-};
-
-const LogoMarquee = ({ icons = [], links = [], speed = 25, minItems = 12 }) => {
-  // Ensure we have enough items for a smooth continuous track
-  const filledIcons = repeatUntilMin(icons, minItems);
-  const filledLinks = repeatUntilMin(links, minItems);
-
-  // Duplicate once more so the animation can loop seamlessly
-  const items = [...filledIcons, ...filledIcons];
-
-  return (
-    <div className="logo-marquee">
-      <div className="marquee-viewport">
-        <div className="marquee-track" style={{ animationDuration: `${speed}s` }}>
-          {items.map((src, i) => {
-            const realIndex = i % filledIcons.length;
-            const href = filledLinks?.[realIndex] || "#";
-
-            return (
-              <div className="marquee-item" key={i}>
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                  <img src={src} alt="logo" />
-                </a>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-
 
 
 

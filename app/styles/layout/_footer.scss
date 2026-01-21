@@ -258,9 +258,9 @@
   }
 
   // ✅ Pause on hover (nice UX)
-  &:hover .marquee-track {
-    animation-play-state: paused;
-  }
+  /*&:hover .marquee-track {
+      animation-play-state: paused;
+    }*/
 
   // ✅ Mobile: 1 visible
   @media (max-width: 767px) {
@@ -283,14 +283,131 @@
   }
 }
 
+.sanctuarytxt{
+  text-align: center;
+  background: #fff;
+  padding-top: 50px;
+}
+
+.sanctuaryimg{
+  
+  .as-seen .as-seen-wrapper h1{
+    font-size: 25px;
+    text-transform: capitalize;
+  }  
+
+  .logo-marquee {
+    width: 100%;
+
+    .marquee-viewport {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .marquee-track {
+      display: flex;
+      align-items: center;
+      width: max-content;
+      gap: 20px;
+      animation-name: marquee-scroll2;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      will-change: transform;
+    }
+
+    .marquee-item {
+      flex: 0 0 auto;
+      width: auto; // ✅ 3 visible on desktop
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #e0e0e0;
+      min-height: 90px;
+      border-radius: 10px;
+
+      a{
+          line-height: 0;
+          cursor: default;
+      }
+
+      img {
+        max-height: 100%;
+        width: auto;
+        object-fit: contain;
+        border-radius: 20px;
+        padding: 10px;
+      }
+    }
+
+    // ✅ Pause on hover (nice UX)
+    /*&:hover .marquee-track {
+      animation-play-state: paused;
+    }*/
+
+    // ✅ Mobile: 1 visible
+    @media (max-width: 767px) {
+      
+
+      .marquee-item img {
+        max-height: 400px;
+        width: 400px;
+      }
+    }
+
+    // ✅ Reduce motion accessibility
+    @media (prefers-reduced-motion: reduce) {
+      .marquee-track {
+        animation: none;
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
 @keyframes marquee-scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); // ✅ seamless because we duplicated content
+    transform: translateX(-60%); // ✅ seamless because we duplicated content
+  }
+}
+
+@keyframes marquee-scroll2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20%); // ✅ seamless because we duplicated content
   }
 }
 
 
+.footerlogos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  text-align: center;
 
+  > div {
+    padding: 15px;
+  }
+
+  img,
+  svg {
+    width: 100%;
+  }
+
+  @media (min-width: 1000px){
+    max-width: 60%;
+    align-items: center;
+  }
+
+  @media (max-width: 500px) {
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

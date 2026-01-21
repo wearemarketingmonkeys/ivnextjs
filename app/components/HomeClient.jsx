@@ -16,32 +16,38 @@ import specialOffersData from '../mocks/specialOffersData.json';
 const Carousel = dynamic(() => import('react-multi-carousel'), { ssr: false });
 import 'react-multi-carousel/lib/styles.css';
 
+import LogoMarquee from '../components/LogoMarquee';
+
+const difcimg = [
+  '/assets/img/difc/7.jpg',
+  '/assets/img/difc/8.jpg',
+  '/assets/img/difc/9.jpg',
+  '/assets/img/difc/10.jpg',
+  '/assets/img/difc/11.jpg',
+];
+
 const responsive = {
   desktop: { breakpoint: { max: 3000, min: 992 }, items: 3 },
   tablet:  { breakpoint: { max: 992,  min: 768 }, items: 2 },
   mobile:  { breakpoint: { max: 768,  min: 0   }, items: 1 },
 };
 
-const seenIcons = [
-  '/assets/img/home/yahoo.png',
-  '/assets/img/home/KT.png',
-  '/assets/img/home/gulf-times.png',
+const palmimg = [
+  '/assets/img/palm/1.jpg',
+  '/assets/img/palm/2.jpg',
+  '/assets/img/palm/3.jpg',
+  '/assets/img/palm/4.jpg',
+  '/assets/img/palm/5.jpg',
+  '/assets/img/palm/6.jpg',
 ];
 
-const partnerIcons = [
-  '/assets/img/home/emirates-platinum.jpg',
-  '/assets/img/home/emirates-group.png',
-  '/assets/img/home/fazaa-logo.png',
-  '/assets/img/home/NBD-logo.png',
-];
-
-const seenLinks = [
+const difclinks = [
   'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
   'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
   'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
 ];
 
-const partnerLinks = [
+const palmlinks = [
   '',
   '',
   'https://www.fazaa.ae/offers/view/iv-wellness-lounge',
@@ -171,7 +177,7 @@ export default function HomeClient() {
       </div>
 
       {/* Special Offers */}
-      <div className="home-steps" id="specialoffers">
+      {/*<div className="home-steps" id="specialoffers">
         <div className="container">
           <div className="home-step-wrapper">
             <div className="heading-wrap"><h1>Special Offers</h1></div>
@@ -201,6 +207,32 @@ export default function HomeClient() {
 
           </div>
         </div>
+      </div>*/}
+
+      <h1 className="sanctuarytxt">Step into Our Sanctuary</h1>
+      <div className="logosection sanctuaryimg">
+          <div className="left">
+                {/* As Seen */}
+                <div className="as-seen">
+                  <div className="container">
+                    <div className="as-seen-wrapper">
+                      <h1>DIFC</h1>
+                      <LogoMarquee icons={difcimg} links={""} speed={100} minItems={20} />
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div className="right">
+                {/* partners */}
+                <div className="as-seen">
+                  <div className="container">
+                    <div className="as-seen-wrapper">
+                      <h1>Palm Jumeirah</h1>
+                      <LogoMarquee icons={palmimg} links={""} speed={100} minItems={20} />
+                    </div>
+                  </div>
+                </div>
+          </div>
       </div>
 
       {/* Winter-bod */}
