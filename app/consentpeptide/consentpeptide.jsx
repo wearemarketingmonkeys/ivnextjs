@@ -3,6 +3,8 @@
 import React, { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const initialState = {
   serviceId: "peptide",
 
@@ -524,6 +526,7 @@ export default function ConsentPeptide() {
         </label>
       </div>
 
+      <FooterLogos />
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">

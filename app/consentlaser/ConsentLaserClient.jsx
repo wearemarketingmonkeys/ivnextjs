@@ -4,6 +4,8 @@
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const initialState = {
   serviceId: "laser",
 
@@ -409,6 +411,8 @@ export default function ConsentLaserClient() {
           Clear Signature
         </button>
       </div>
+
+      <FooterLogos />
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">

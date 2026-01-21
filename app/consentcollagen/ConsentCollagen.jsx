@@ -3,6 +3,8 @@
 import React, { useState, useRef } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const initialState = {
   serviceId: "collagenstimulator",
 
@@ -433,7 +435,9 @@ export default function ConsentCollagen() {
         </button>
       </div>
 
+      <FooterLogos />
       {status && <p className="form-status">{status}</p>}
+
 
       <div className="btn-wrap">
         <button type="submit" className="btn">

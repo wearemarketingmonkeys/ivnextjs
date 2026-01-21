@@ -4,6 +4,8 @@
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 /** Initial form state */
 const initial = {
   // Patient
@@ -497,6 +499,8 @@ export default function ConsentLipozeroClient() {
       </div>
 
       {/* Submit */}
+      <FooterLogos/> 
+      
       {status && <p className="form-status">{status}</p>}
       <div className="btn-wrap">
         <button type="submit" className="btn">Submit</button>

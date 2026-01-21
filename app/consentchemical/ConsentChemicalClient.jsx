@@ -4,6 +4,8 @@
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 // Same options you used before (kept intact)
 const medicalOptions = [
   "Pregnancy or breastfeeding",
@@ -387,6 +389,8 @@ export default function ConsentChemicalClient() {
           Clear Signature
         </button>
       </div>
+
+      <FooterLogos />
 
       {status && <p className="form-status">{status}</p>}
 

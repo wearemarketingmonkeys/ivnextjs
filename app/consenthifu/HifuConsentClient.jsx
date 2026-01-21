@@ -3,6 +3,8 @@
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const contraindications = [
   "Pregnancy or breastfeeding",
   "Active skin infection or open wounds",
@@ -391,6 +393,7 @@ export default function ConsentHIFUClient() {
         <button type="button" className="btn btn-stroke" onClick={clearSignature} style={{ marginTop: 8 }}>Clear Signature</button>
       </div>
 
+      <FooterLogos />
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">

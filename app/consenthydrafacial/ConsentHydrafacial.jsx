@@ -4,6 +4,8 @@
 import React, { useState, useRef } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const initialState = {
   serviceId: "hydrafacial",
 
@@ -466,6 +468,8 @@ export default function ConsentHydrafacial() {
                       Clear Signature
                     </button>
                   </div>
+
+                  <FooterLogos />
 
                   {status && <p className="form-status">{status}</p>}
 

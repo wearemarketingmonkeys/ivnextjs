@@ -3,6 +3,8 @@
 import React, { useMemo, useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import FooterLogos from "../components/FooterLogos.jsx";
+
 const medicalHistoryOptions = [
   "Pregnancy or nursing",
   "Under 18 years of age (unless there is parents’ consent)",
@@ -397,6 +399,7 @@ export default function ConsentLumecca() {
         </button>
       </div>
 
+      <FooterLogos />
       {status && <p className="form-status">{status}</p>}
 
       <div className="btn-wrap">
