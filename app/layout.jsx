@@ -7,6 +7,27 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import FloatingContents from './components/FloatingContents';
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "IV Wellness Lounge",
+  "url": "https://ivhub.com",
+  "image": "https://ivhub.com/logo.png",
+  "telephone": "+97180048482",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Marble Walk, DIFC",
+    "addressLocality": "Dubai",
+    "addressRegion": "DU",
+    "postalCode": "00000",
+    "addressCountry": "AE"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "reviewCount": 955
+  }
+};
 
 export const metadata = {
   title: 'TITLE',                 // default title
@@ -62,29 +83,10 @@ export default function RootLayout({ children }) {
         </Script>
 
         {/* Optional: site-wide JSON-LD (LocalBusiness). Move page-specific JSON-LD to each page instead */}
-        <Script id="schema-localbusiness" type="application/ld+json" strategy="afterInteractive">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "IV Wellness Lounge",
-            "image": "https://ivhub.com/logo.png",
-            "url": "https://ivhub.com",
-            "telephone": "+97180048482",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Marble Walk, DIFC",
-              "addressLocality": "Dubai",
-              "addressRegion": "DU",
-              "postalCode": "00000",
-              "addressCountry": "AE"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "955"
-            }
-          })}
-        </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
       </head>
 
       <body>
