@@ -177,7 +177,7 @@ export default function HomeClient() {
       </div>
 
       {/* Special Offers */}
-      {/*<div className="home-steps" id="specialoffers">
+      <div className="home-steps" id="specialoffers">
         <div className="container">
           <div className="home-step-wrapper">
             <div className="heading-wrap"><h1>Special Offers</h1></div>
@@ -207,12 +207,11 @@ export default function HomeClient() {
 
           </div>
         </div>
-      </div>*/}
+      </div>
 
-      <h1 className="sanctuarytxt">Step into Our Sanctuary</h1>
+      {/* <h1 className="sanctuarytxt">Step into Our Sanctuary</h1>
       <div className="logosection sanctuaryimg">
           <div className="left">
-                {/* As Seen */}
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
@@ -223,7 +222,6 @@ export default function HomeClient() {
                 </div>
           </div>
           <div className="right">
-                {/* partners */}
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
@@ -233,7 +231,7 @@ export default function HomeClient() {
                   </div>
                 </div>
           </div>
-      </div>
+      </div> */}
 
       {/* Winter-bod */}
       <div className="winter-bod">
