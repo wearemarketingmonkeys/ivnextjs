@@ -525,6 +525,11 @@
 .as-seen {
   padding: 48px 0;
   background-color: vars.$white-color;
+
+  @include mixin.respond(sm) {
+    padding: 25px 0;
+  }
+
   .as-seen-wrapper {
     display: block;
     // display: flex;
@@ -586,4 +591,32 @@
   to {
     height: 85px;
   }
+}
+
+
+.fade-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 60vh;            /* adjust as needed */
+  overflow: hidden;
+  border-radius: 16px;      /* optional */
+
+  @media(max-width: 500px){
+    height: 25vh;
+  }
+}
+
+.fade-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 450ms ease-in-out;
+  will-change: opacity;
+}
+
+.fade-img.is-visible {
+  opacity: 1;
 }

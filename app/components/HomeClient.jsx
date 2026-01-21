@@ -16,7 +16,42 @@ import specialOffersData from '../mocks/specialOffersData.json';
 const Carousel = dynamic(() => import('react-multi-carousel'), { ssr: false });
 import 'react-multi-carousel/lib/styles.css';
 
-import LogoMarquee from '../components/LogoMarquee';
+function FadeImage({ images = [], interval = 3000, className = "", altPrefix = "image" }) {
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    if (!images.length) return;
+
+    const tick = setInterval(() => {
+      // start fade out
+      setVisible(false);
+
+      // after fade-out finishes, swap image and fade in
+      const t = setTimeout(() => {
+        setIndex((prev) => (prev + 1) % images.length);
+        setVisible(true);
+      }, 450); // must match CSS transition time
+
+      return () => clearTimeout(t);
+    }, interval);
+
+    return () => clearInterval(tick);
+  }, [images, interval]);
+
+  if (!images.length) return null;
+
+  return (
+    <div className={`fade-img-wrap ${className}`}>
+      <img
+        src={images[index]}
+        alt={`${altPrefix}-${index + 1}`}
+        className={`fade-img ${visible ? "is-visible" : ""}`}
+      />
+    </div>
+  );
+}
+
 
 const difcimg = [
   '/assets/img/difc/7.jpg',
@@ -177,7 +212,7 @@ export default function HomeClient() {
       </div>
 
       {/* Special Offers */}
-      <div className="home-steps" id="specialoffers">
+      {/*<div className="home-steps" id="specialoffers">
         <div className="container">
           <div className="home-step-wrapper">
             <div className="heading-wrap"><h1>Special Offers</h1></div>
@@ -207,31 +242,33 @@ export default function HomeClient() {
 
           </div>
         </div>
-      </div>
+      </div>*/}
 
-      {/* <h1 className="sanctuarytxt">Step into Our Sanctuary</h1>
+      <h1 className="sanctuarytxt">Our Sanctuary</h1>
       <div className="logosection sanctuaryimg">
           <div className="left">
+                {/* As Seen */}
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>DIFC</h1>
-                      <LogoMarquee icons={difcimg} links={""} speed={100} minItems={20} />
+                      <FadeImage images={difcimg} interval={3000} altPrefix="difc" />
                     </div>
                   </div>
                 </div>
           </div>
           <div className="right">
+                {/* partners */}
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
                       <h1>Palm Jumeirah</h1>
-                      <LogoMarquee icons={palmimg} links={""} speed={100} minItems={20} />
+                      <FadeImage images={palmimg} interval={3000} altPrefix="palm" />
                     </div>
                   </div>
                 </div>
           </div>
-      </div> */}
+      </div>
 
       {/* Winter-bod */}
       <div className="winter-bod">
