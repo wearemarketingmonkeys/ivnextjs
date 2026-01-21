@@ -98,6 +98,10 @@ export const menuItems = [
       to: "/#specialoffers",
     },
     {
+      label: "Peptides",
+      to: "/peptides",
+    },
+    {
       label: "Discover",
       submenuWrapper: [
         {
