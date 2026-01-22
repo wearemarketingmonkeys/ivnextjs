@@ -321,8 +321,8 @@ export default function HomeClient() {
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
-                      <h1>DIFC</h1>
-                      <FadeImage images={difcimg} interval={3000} altPrefix="difc" />
+                      <h1>Palm Jumeirah</h1>
+                      <FadeImage images={palmimg} interval={3000} altPrefix="palm" />
                     </div>
                   </div>
                 </div>
@@ -332,8 +332,8 @@ export default function HomeClient() {
                 <div className="as-seen">
                   <div className="container">
                     <div className="as-seen-wrapper">
-                      <h1>Palm Jumeirah</h1>
-                      <FadeImage images={palmimg} interval={3000} altPrefix="palm" />
+                      <h1>DIFC</h1>
+                      <FadeImage images={difcimg} interval={3000} altPrefix="difc" />
                     </div>
                   </div>
                 </div>
