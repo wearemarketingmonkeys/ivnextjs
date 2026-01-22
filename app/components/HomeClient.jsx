@@ -16,41 +16,112 @@ import specialOffersData from '../mocks/specialOffersData.json';
 const Carousel = dynamic(() => import('react-multi-carousel'), { ssr: false });
 import 'react-multi-carousel/lib/styles.css';
 
-function FadeImage({ images = [], interval = 3000, className = "", altPrefix = "image" }) {
-  const [index, setIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
 
-  useEffect(() => {
-    if (!images.length) return;
+function FadeImage({
+  images = [],
+  interval = 3000,
+  fadeMs = 500,
+  className = "",
+  altPrefix = "image",
+}) {
+  const [frontSrc, setFrontSrc] = React.useState(images?.[0] || "");
+  const [backSrc, setBackSrc] = React.useState(images?.[1] || images?.[0] || "");
+  const [showFront, setShowFront] = React.useState(true);
 
-    const tick = setInterval(() => {
-      // start fade out
-      setVisible(false);
+  // refs to avoid stale closures in setInterval
+  const idxRef = React.useRef(0);
+  const showFrontRef = React.useRef(true);
+  const runningRef = React.useRef(false);
 
-      // after fade-out finishes, swap image and fade in
-      const t = setTimeout(() => {
-        setIndex((prev) => (prev + 1) % images.length);
-        setVisible(true);
-      }, 500); // must match CSS transition time
+  // keep refs synced
+  React.useEffect(() => {
+    showFrontRef.current = showFront;
+  }, [showFront]);
 
-      return () => clearTimeout(t);
+  // reset when images change
+  React.useEffect(() => {
+    if (!images?.length) return;
+    idxRef.current = 0;
+    setFrontSrc(images[0]);
+    setBackSrc(images[1] || images[0]);
+    setShowFront(true);
+    showFrontRef.current = true;
+  }, [images]);
+
+  const preload = React.useCallback((src) => {
+    if (!src) return Promise.resolve();
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.src = src;
+
+      const done = () => resolve();
+      img.onload = done;
+      img.onerror = done;
+
+      if (img.decode) {
+        img.decode().then(done).catch(done);
+      }
+    });
+  }, []);
+
+  React.useEffect(() => {
+    if (!images?.length) return;
+
+    const id = setInterval(async () => {
+      // prevent overlapping transitions if preload is slow
+      if (runningRef.current) return;
+      runningRef.current = true;
+
+      const current = idxRef.current;
+      const nextIndex = (current + 1) % images.length;
+      const nextSrc = images[nextIndex];
+
+      // make sure next is ready BEFORE we crossfade
+      await preload(nextSrc);
+
+      const currentlyShowingFront = showFrontRef.current;
+
+      // put next image in the hidden layer
+      if (currentlyShowingFront) setBackSrc(nextSrc);
+      else setFrontSrc(nextSrc);
+
+      // flip layers on next paint so transition always fires
+      requestAnimationFrame(() => {
+        setShowFront((v) => !v);
+      });
+
+      // after fade, commit new index
+      setTimeout(() => {
+        idxRef.current = nextIndex;
+        runningRef.current = false;
+      }, fadeMs);
     }, interval);
 
-    return () => clearInterval(tick);
-  }, [images, interval]);
+    return () => clearInterval(id);
+  }, [images, interval, fadeMs, preload]);
 
-  if (!images.length) return null;
+  if (!images?.length) return null;
 
   return (
-    <div className={`fade-img-wrap ${className}`}>
+    <div className={`fade2-wrap ${className}`}>
       <img
-        src={images[index]}
-        alt={`${altPrefix}-${index + 1}`}
-        className={`fade-img ${visible ? "is-visible" : ""}`}
+        src={frontSrc}
+        alt={`${altPrefix}-front`}
+        className={`fade2-img ${showFront ? "is-visible" : ""}`}
+        loading="eager"
+        decoding="async"
+      />
+      <img
+        src={backSrc}
+        alt={`${altPrefix}-back`}
+        className={`fade2-img ${!showFront ? "is-visible" : ""}`}
+        loading="eager"
+        decoding="async"
       />
     </div>
   );
 }
+
 
 
 const difcimg = [

@@ -594,7 +594,8 @@
 }
 
 
-.fade-img-wrap {
+
+.fade2-wrap {
   position: relative;
   width: 100%;
   height: 60vh;            /* adjust as needed */
@@ -606,17 +607,17 @@
   }
 }
 
-.fade-img {
+.fade2-img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out; /* match fadeMs */
   will-change: opacity;
 }
 
-.fade-img.is-visible {
+.fade2-img.is-visible {
   opacity: 1;
 }
