@@ -2016,7 +2016,7 @@
       {
         "id": 18,
         "category": "Recovery",
-        "img": "recovery-hub-anti-stress.webp",
+        "img": "recovery-hub.webp",
         "title": "Recovery Hub (Anti-Stress)",
         "price": 999,
         "superline": "Calm isn’t a one-off. 3+ sessions train your body to bounce back faster.",
@@ -2725,4 +2725,3 @@
       }
     ]
   }
-  
