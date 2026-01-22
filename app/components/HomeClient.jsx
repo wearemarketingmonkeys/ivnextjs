@@ -31,7 +31,7 @@ function FadeImage({ images = [], interval = 3000, className = "", altPrefix = "
       const t = setTimeout(() => {
         setIndex((prev) => (prev + 1) % images.length);
         setVisible(true);
-      }, 1000); // must match CSS transition time
+      }, 500); // must match CSS transition time
 
       return () => clearTimeout(t);
     }, interval);
