@@ -141,10 +141,9 @@ const responsive = {
 const palmimg = [
   '/assets/img/palm/1.jpg',
   '/assets/img/palm/2.jpg',
-  '/assets/img/palm/3.jpg',
-  '/assets/img/palm/4.jpg',
   '/assets/img/palm/5.jpg',
-  '/assets/img/palm/6.jpg',
+  '/assets/img/palm/4.jpg',
+  '/assets/img/palm/3.jpg',
 ];
 
 const difclinks = [
