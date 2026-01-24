@@ -39,6 +39,26 @@ function cleanHtml(html = '') {
   return cleaned;
 }
 
+function parseJsonLd(input) {
+  if (!input) return null;
+
+  if (typeof input === "object") return input;
+
+  if (typeof input === "string") {
+    const s = input.trim();
+    if (!s || s === "null") return null;
+    try {
+      return JSON.parse(s);
+    } catch {
+      return null;
+    }
+  }
+
+  return null;
+}
+
+
+
 /* ---------- Static params (SSG) ---------- */
 export async function generateStaticParams() {
   const blogs = await fetchAllBlogs();
@@ -86,8 +106,21 @@ export default async function BlogDetailsPage({ params }) {
 
   if (!blog) return notFound();
 
+  const jsonLd = parseJsonLd(blog.schema);
+
+
   return (
+
     <div className="blog-details">
+
+      {jsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      ) : null}
+
+
       {/* hero bg image if present */}
       {blog.img ? <img className="hero-bg" src={blog.img} alt={blog.title} /> : null}
 
