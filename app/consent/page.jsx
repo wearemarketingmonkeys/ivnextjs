@@ -21,7 +21,7 @@ export default function ConsentPage() {
 
                 <div className="btn-wrap">
                     <a
-                      href="https://consent.ivhub.com/"
+                      href="https://consent.ivhub.com/consentclinic.php"
                       className="btn"
                       target="_blank"
                       rel="noopener noreferrer"
