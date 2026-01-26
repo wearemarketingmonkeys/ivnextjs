@@ -140,7 +140,7 @@
           }
           .single-info{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 12px;
             margin-bottom: 48px;
             svg{
@@ -150,6 +150,10 @@
             p{
               &:last-child{
                 color: #23262F;
+              }
+
+              b{
+                -webkit-text-stroke: 0.6px;
               }
             }
           }
@@ -169,6 +173,7 @@
             gap: 8px;
             align-items: center;
             font-weight: 500;
+            margin-bottom: 20px;
           }
         }
         .right {

@@ -101,14 +101,31 @@ export default function ContactClient() {
             <div className="form-wrap">
               <div className="left">
                 <div className="single-info">
-                  <PiWhatsappLogoLight />
-                  <p>Phone / WhatsApp</p>
-                  <p>+971 800 48482</p>
+                  <div>
+                    <PiWhatsappLogoLight />
+                  </div>
+                  <div>
+                    <p>Phone / WhatsApp</p>
+                    <p><a href="tel:97180048482"><b>+971 800 48482</b></a></p>
+                  </div>
                 </div>
                 <div className="single-info">
-                  <HiOutlineEnvelope />
-                  <p>Email</p>
-                  <p>hello@ivhub.com</p>
+                  <div>
+                    <HiOutlineEnvelope />
+                  </div>
+                  <div>
+                    <p>All Enquiries</p>
+                    <p><a href="mailto:hello@ivhub.com"><b>hello@ivhub.com</b></a></p>
+                  </div>
+                </div>
+                <div className="single-info">
+                  <div>
+                    <HiOutlineEnvelope />
+                  </div>
+                  <div>
+                    <p>Events & Partnership</p>
+                    <p><a href="mailto:media@ivhub.com"><b>media@ivhub.com</b></a></p>
+                  </div>
                 </div>
                 <div className="social-wrap">
                   {socialLinks.map((x, i) => (
@@ -119,7 +136,11 @@ export default function ContactClient() {
                 </div>
                 <div className="direction">
                   <FaLocationArrow />
-                  <span>Get direction</span>
+                  <span><a href="https://share.google/z7Y2tm9a9Ln3ly88N" target="_blank">Get DIFC Direction</a></span>
+                </div>
+                <div className="direction">
+                  <FaLocationArrow />
+                  <span><a href="https://share.google/HWI0lHKteP0dIP5mF" target="_blank">Get Palm Direction</a></span>
                 </div>
               </div>
 
