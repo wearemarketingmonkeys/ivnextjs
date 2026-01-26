@@ -239,9 +239,6 @@ export default function ConsentPeptide() {
         </select>
       </div>
 
-
-      <h2>Signature</h2>
-
       <div className="form-group">
         <label>Date</label>
         <input
@@ -487,7 +484,7 @@ export default function ConsentPeptide() {
         </div>
 
       <div className="form-group">
-        <label>Signature</label>
+        <h2>Signature</h2>
         <div
           style={{
             border: "1px solid #ddd",
