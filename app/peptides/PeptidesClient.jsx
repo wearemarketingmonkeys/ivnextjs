@@ -1,10 +1,11 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
 const FaqAccordion = dynamic(() => import('./FaqAccordionClient'), { ssr: false });
+import WellnessQuizModal from './WellnessQuizModal';
 
 export default function PeptidesClient({ initialPeptides = [], faq = [] }) {
   const [query, setQuery] = useState('');
@@ -24,6 +25,9 @@ export default function PeptidesClient({ initialPeptides = [], faq = [] }) {
 
   return (
     <>
+      {/* ✅ Popup Quiz */}
+      <WellnessQuizModal />
+
       <div className="home-hero peptidehero">
         <video className="hero-video" autoPlay muted playsInline loop>
           <source src="/assets/video/peptide-2.mp4" type="video/mp4" />
@@ -86,7 +90,6 @@ export default function PeptidesClient({ initialPeptides = [], faq = [] }) {
                     from <span>AED {item.fromPrice}</span>
                   </div>
 
-                  {/* ✅ Real link to the detail page (NO preventDefault) */}
                   <Link
                     href={`/peptides/${item.slug}`}
                     className="btn"

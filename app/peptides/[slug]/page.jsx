@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import peptidesJson from '../../mocks/peptidesData.json';
+import WellnessQuizModal from '../WellnessQuizModal';
 
 const SITE_URL = 'https://ivhub.com';
 
@@ -105,6 +106,7 @@ export function generateMetadata({ params }) {
 }
 
 export default function PeptideSlugPage({ params }) {
+
   const peptide = peptidesList.find((p) => p.slug === params.slug);
   if (!peptide) return null;
 
@@ -117,6 +119,10 @@ export default function PeptideSlugPage({ params }) {
   const d = peptide.details || {};
 
   return (
+    <>
+    {/* ✅ Popup Quiz */}
+    <WellnessQuizModal />
+    
     <main className="peptidepage peptideDetailPage">
       {/* ✅ this is a normal page container now (no overlay) */}
       <div className="wrap">
@@ -259,5 +265,6 @@ export default function PeptideSlugPage({ params }) {
         </div>
       </div>
     </main>
+    </>
   );
 }
