@@ -8,7 +8,7 @@ export default function WellnessQuizModal({ onClose }) {
   const steps = useMemo(
     () => [
       {
-        id: 'goal',
+        id: 'agerange',
         title: "Which age range do you fall into?",
         subtitle: "Age helps us personalize peptide selection, dosing, and recovery.",
         type: 'options',
@@ -21,7 +21,7 @@ export default function WellnessQuizModal({ onClose }) {
         ],
       },
       {
-        id: 'tired',
+        id: 'gender',
         title: 'What\'s your gender?',
         subtitle: 'Biological differences affect how peptides work in the body.',
         type: 'options',
