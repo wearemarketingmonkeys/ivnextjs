@@ -675,7 +675,7 @@
 .quizCard {
   position: relative;
   width: min(520px, calc(100vw - 32px));
-  max-height: min(80vh, 720px);
+  max-height: min(90vh, 720px);
   overflow: auto;
   background: #f2eee9;
   border-radius: 22px;
@@ -788,4 +788,43 @@
 
 .quizNav.ghost {
   opacity: 0.6;
+}
+
+
+.quizTestimonial {
+  text-align: center;
+  padding: 14px 10px 6px;
+  margin: 6px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.quizTestimonialTitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.quizStars {
+  display: inline-flex;
+  gap: 10px;
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 14px;
+  color: #000; /* pink star like reference */
+}
+
+.quizQuote {
+  font-size: 15px;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto 14px;
+  max-width: 460px;
+}
+
+.quizAuthor {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 4px;
 }

@@ -166,6 +166,24 @@ export default function WellnessQuizModal({ onClose }) {
                 ))}
               </div>
             ) : (
+
+              <>
+              <div className="quizTestimonial">
+                <div className="quizTestimonialTitle">Exceeded expectations</div>
+
+                <div className="quizStars" aria-label="5 star rating">
+                  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+
+                <div className="quizQuote">
+                  “I was skeptical at first, but peptide therapy genuinely delivered. Improved sleep,
+                  faster recovery, and better overall well-being within weeks. It’s made staying consistent
+                  with training and lifestyle habits much easier.”
+                </div>
+
+                <div className="quizAuthor">- Gary</div>
+              </div>
+
               <form className="quizForm" onSubmit={onSubmit}>
                 <label className="quizLabel">
                   Name
@@ -207,6 +225,7 @@ export default function WellnessQuizModal({ onClose }) {
                   {submitting ? 'Submitting...' : 'Get my plan'}
                 </button>
               </form>
+              </>
             )}
 
             <div className="quizFooter">
