@@ -7,7 +7,7 @@ import { PiWhatsappLogoLight } from 'react-icons/pi';
 import { HiOutlineEnvelope } from 'react-icons/hi2';
 import { RiFacebookCircleLine, RiTwitterLine, RiInstagramLine, RiDribbbleLine } from 'react-icons/ri';
 
-const HERO_IMG = '/assets/img/contact/hero.webp';
+const HERO_IMG = '/assets/img/palm/2.jpg';
 
 const socialLinks = [
   { icon: <RiFacebookCircleLine />, url: 'https://facebook.com' },

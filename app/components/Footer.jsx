@@ -71,7 +71,7 @@ const Footer = () => {
         { label: 'IV Packages',         path: '/packages' },
         { label: 'Cancellation Policy', path: '/cancellation-policy' },
         { label: 'Terms & Conditions',  path: '/terms-conditions' },
-        { label: 'Have Questions?',     path: '/contact-us' },
+        { label: 'Contact Us',     path: '/contact-us' },
         { label: 'Privacy Policy',      path: '/privacy-policy' },
         { label: 'Sitemap',             path: '/sitemap' },
       ],
