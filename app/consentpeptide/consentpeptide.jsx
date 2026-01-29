@@ -17,7 +17,7 @@ const initialState = {
   emergencyContact: "",
   relationshipToPatient: "",
   practitionerName: "",
-  peptideSelection: "",
+  peptideSelection: [],
   policy1: "",
 
   consentDate: "",
@@ -46,8 +46,18 @@ export default function ConsentPeptide() {
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
+  const handlePeptideToggle = (value, checked) => {
+      setForm((prev) => {
+        const next = new Set(prev.peptideSelection);
+        if (checked) next.add(value);
+        else next.delete(value);
+        return { ...prev, peptideSelection: Array.from(next) };
+      });
+    };
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
+
 
     if (type === "checkbox") {
       setForm((prev) => ({ ...prev, [name]: checked ? value : "" }));
@@ -64,11 +74,23 @@ export default function ConsentPeptide() {
     setStatus("Submitting...");
 
     try {
+
+      if (!form.peptideSelection.length) {
+        setStatus("Please select at least one peptide.");
+        return;
+      }
+
+
       const fd = new FormData();
 
       Object.entries(form).forEach(([k, v]) => {
+        if (k === "peptideSelection") return;
         fd.append(k, v ?? "");
       });
+
+      form.peptideSelection.forEach((item) => fd.append("peptideSelection[]", item));
+
+
 
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
@@ -223,21 +245,23 @@ export default function ConsentPeptide() {
 
 
       <div className="form-group">
-        <label>Peptide</label>
-        <select
-          name="peptideSelection"
-          value={form.peptideSelection}
-          onChange={handleChange}
-          required
-        >
-          <option value="">-Select-</option>
-          {peptideOptions.map((p) => (
-            <option key={p} value={p}>
-              {p}
-            </option>
-          ))}
-        </select>
+        <label>Select Peptide</label>
+
+        {peptideOptions.map((p) => (
+          <label key={p} style={{ display: "block", marginBottom: 8 }}>
+            <input
+              type="checkbox"
+              name="peptideSelection"
+              value={p}
+              checked={form.peptideSelection.includes(p)}
+              onChange={(e) => handlePeptideToggle(p, e.target.checked)}
+            />{" "}
+            {p}
+          </label>
+        ))}
       </div>
+
+
 
       <div className="form-group">
         <label>Date</label>
