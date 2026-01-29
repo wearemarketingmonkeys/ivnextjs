@@ -247,6 +247,7 @@ export default function ConsentPeptide() {
       <div className="form-group">
         <label>Select Peptide</label>
 
+        <div className="pnames">
         {peptideOptions.map((p) => (
           <label key={p} style={{ display: "block", marginBottom: 8 }}>
             <input
@@ -259,6 +260,7 @@ export default function ConsentPeptide() {
             {p}
           </label>
         ))}
+        </div>
       </div>
 
 
