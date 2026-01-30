@@ -18,7 +18,7 @@ export default function LaserHairRemovalClient({ faq }) {
       DIFC: {
         heroTitle: (
           <>
-            Soprano Titanium - DIFC
+            Laser Hair Removal
           </>
         ),
         heroOffer: (
@@ -26,6 +26,7 @@ export default function LaserHairRemovalClient({ faq }) {
             Unlimited Hair Removal Sessions for one year - <strong>AED 9,999</strong>
           </i>
         ),
+        btntext: 'Soprano Titanium - DIFC',
         heroPriceStartsFrom: 'Pricing Starts From 119 AED',
         heroDesc1:
           'Remove unwanted hair with the Most Efficient, Painless, Safe for all skin Soprano Titanium Laser Hair Removal.',
@@ -104,7 +105,7 @@ export default function LaserHairRemovalClient({ faq }) {
       'Palm Jumeirah': {
         heroTitle: (
           <>
-            Evoline - Palm Jumeirah
+            Laser Hair Removal
           </>
         ),
         heroOffer: (
@@ -112,6 +113,7 @@ export default function LaserHairRemovalClient({ faq }) {
             Unlimited Hair Removal Sessions for one year - <strong>AED 9,999</strong>
           </i>
         ),
+        btntext: 'Evoline - Palm Jumeirah',
         heroPriceStartsFrom: 'Pricing Starts From 119 AED',
         heroDesc1:
           'Remove unwanted hair with the efficient, comfortable, and skin-safe Evoline Laser Hair Removal.',
@@ -219,7 +221,7 @@ export default function LaserHairRemovalClient({ faq }) {
                   className={`branch-btn btn ${branch === 'DIFC' ? 'active' : ''}`}
                   onClick={() => setBranch('DIFC')}
                 >
-                  DIFC
+                  Soprano Titanium - DIFC
                 </button>
                 <button
                   type="button"
@@ -228,7 +230,7 @@ export default function LaserHairRemovalClient({ faq }) {
                   className={`branch-btn btn ${branch === 'Palm Jumeirah' ? 'active' : ''}`}
                   onClick={() => setBranch('Palm Jumeirah')}
                 >
-                  Palm Jumeirah
+                  Evoline - Palm Jumeirah
                 </button>
               </div>
 
