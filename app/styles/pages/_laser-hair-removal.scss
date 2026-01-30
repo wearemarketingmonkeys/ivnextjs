@@ -283,3 +283,17 @@
     }
   }
 }
+
+
+.branch-switch.btn-wrap .btn {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.branch-switch.btn-wrap .btn.active {
+  background: #000;
+  color: beige;
+  border-color: #000;
+}
