@@ -40,6 +40,7 @@ export default function TipsAccordion({ items = [], type = 'tips', treatments = 
             <AccordionItemButton>{x.name}</AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
+            {x.pretext ? <div dangerouslySetInnerHTML={{ __html: x.pretext + "<br/><br/>" }} /> : null}
             <div className="tips-wrapper">
               {(x.tips || []).map((y, yi) => (
                 <div className="tips-wrap" key={yi}>
@@ -48,6 +49,7 @@ export default function TipsAccordion({ items = [], type = 'tips', treatments = 
                 </div>
               ))}
             </div>
+            {x.postext ? <div dangerouslySetInnerHTML={{ __html: "<br/>" + x.postext }} /> : null}
           </AccordionItemPanel>
         </AccordionItem>
       ))}

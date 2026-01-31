@@ -295,6 +295,222 @@
     {
       "id": 2,
       "img": "hydra.webp",
+      "video": "q-switch.mp4",
+      "title": "Q-Switch Laser Treatment in Dubai",
+      "subHeading": "Hello Bright Skin. | Hello Even Tone. | Hello Natural Glow.",
+      "desc": "Designed to target pigmentation, uneven skin tone, and dullness while stimulating natural skin renewal",
+      "howItWorks": "Q-Switch laser technology delivers ultra-short bursts of laser energy that precisely target excess pigment within the skin without damaging the surrounding tissue. These rapid pulses break down melanin and unwanted pigment into microscopic particles, which are then naturally cleared by the body’s lymphatic system over time. At the same time, the laser stimulates collagen production within the dermis, improving skin clarity, texture, and overall radiance. With a series of treatments, pigmentation appears visibly lighter, skin tone becomes more even, and the complexion looks brighter and refreshed with minimal downtime.",
+      "whyWeLoveIt": "Q-Switch laser treatment at IV Wellness Lounge Dubai is an advanced, non-invasive solution designed to target pigmentation, uneven skin tone, and dullness while stimulating natural skin renewal. Using ultra-short laser pulses, the Q-Switch technology breaks down excess melanin and pigment particles without damaging surrounding skin.<br/><br/>This treatment is particularly effective for stubborn pigmentation, melasma, sun spots, and overall skin brightening. It also stimulates collagen production within the dermis, helping improve skin clarity, texture, and radiance over time. Each session is customized based on skin type and concern to ensure safe, gradual, and long-lasting results.",
+      "treatableArea": "Full Face | Neck | Décolletage | Hands | Back | Arms | Targeted pigmented areas | Tattoos and tattooed brows (consultation required)",
+      "treatableConcerns": [],
+      "duration": 15,
+      "startingAmount": 499,
+      "discount": 20,
+      "bookingBtn": "https://api.whatsapp.com/send/?phone=97180048482&text=Hello&type=phone_number&app_absent=0",
+      "fullDetailsUrl": "/aesthetic/q-switch-laser-treatment-in-dubai",
+      "treatmentsTips": [
+        {
+          "name": "Pre-Treatment Tips",
+          "pretext": "To prepare your skin and ensure optimal results, we recommend the following before your Q-Switch session:",
+          "tips": [
+            {
+              "icon": "ticon4.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
+              "txt": "Avoid direct sun exposure and tanning for at least 7 days"
+            },
+            {
+              "icon": "ticon6.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Discontinue retinoids, exfoliants, and active skincare products 3 to 5 days prior"
+            },
+            {
+              "icon": "ticon3.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Do not undergo chemical peels or other laser treatments for at least 2 weeks before"
+            },
+            {
+              "icon": "ticon2.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Keep the skin clean and makeup-free on the day of treatment"
+            },
+            {
+              "icon": "ticon16.png",
+              "alt": "Circular icon with a crossed-out calendar, indicating no scheduling or date.",
+              "txt": "Inform your practitioner of any history of pigmentation, sensitivity, or medical conditions"
+            }
+          ],
+          "postext": "A consultation will be conducted to assess skin type and customize settings safely."
+        },
+        {
+          "name": "Post-treatment Tips",
+          "pretext": "After your Q-Switch session, proper aftercare supports faster recovery and better results:",
+          "tips": [
+            {
+              "icon": "ticon9.png",
+              "alt": "Icon with a crossed-out lipstick symbol, indicating no makeup or cosmetics allowed.",
+              "txt": "Mild redness or warmth may occur and usually subsides within a few hours"
+            },
+            {
+              "icon": "ticon22.png",
+              "alt": "Beige circular shape with five small white dots evenly spaced on its surface.",
+              "txt": "Apply calming skincare as advised by your practitioner"
+            },
+            {
+              "icon": "ticon4.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
+              "txt": "Avoid sun exposure and always use broad-spectrum SPF 30 or higher"
+            },
+            {
+              "icon": "ticon15.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
+              "txt": "Refrain from exfoliating treatments for 5 to 7 days"
+            },
+            {
+              "icon": "ticon23.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
+              "txt": "Keep the skin hydrated and avoid heat-based activities for 24 to 48 hours"
+            },
+            {
+              "icon": "ticon19.png",
+              "alt": "Sunscreen tube icon set within a circular, light brown background. Simple line art design.",
+              "txt": "Follow your recommended treatment intervals for best outcomes"
+            }
+          ]
+        }
+      ],
+      "resultTxt": "After Q-Switch laser treatment, skin appears clearer, brighter, and more even-toned. Pigmentation gradually fades as excess melanin is broken down, while collagen stimulation enhances overall skin texture and radiance. With a series of sessions, results become progressively more refined, revealing smoother, healthier-looking skin.",
+      "beforeImg": "",
+      "afterImg": "",
+      "treatments": [
+        {
+          "category": "Carbon Laser Peel (Hollywood Peel)",
+          "services": [
+            {
+              "name": "Face",
+              "price": 499
+            }
+          ]
+        },
+        {
+          "category": "Laser Toning / Skin Brightening",
+          "services": [
+            {
+              "name": "Full Face",
+              "price": 599
+            } 
+          ]
+        },
+        {
+          "category": "Pigmentation Removal",
+          "services": [
+            {
+              "name": "Full Face",
+              "price": 699
+            }
+          ]
+        },
+        {
+          "category": "Melasma Treatment (Laser)",
+          "services": [
+            {
+              "name": "Full Face",
+              "price": 599
+            }
+          ]
+        },
+        {
+          "category": "Spot Pigmentation Removal",
+          "services": [
+            {
+              "name": "1–3 Spots",
+              "price": 499
+            },
+            {
+              "name": "Spot Add-On",
+              "price": 299
+            }
+          ]
+        },
+        {
+          "category": "Post-Acne Marks Treatment",
+          "services": [
+            {
+              "name": "Full Face",
+              "price": 599
+            }
+          ]
+        },
+        {
+          "category": "Tattoo Removal (Small)",
+          "services": [
+            {
+              "name": "Small area",
+              "price": 699
+            }
+          ]
+        },
+        {
+          "category": "Tattoo Removal (Medium)",
+          "services": [
+            {
+              "name": "Medium area",
+              "price": 899
+            }
+          ]
+        },
+        {
+          "category": "Tattoo Removal (Large / Multi-color)",
+          "services": [
+            {
+              "name": "Large area",
+              "price": 1199
+            }
+          ]
+        },
+        {
+          "category": "Lip lightenig",
+          "services": [
+            {
+              "name": "Lip lightenig",
+              "price": 599
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What does Q-Switch laser treat best?",
+          "answer": "Q-Switch is ideal for pigmentation concerns such as melasma, sun spots, freckles, uneven skin tone, and dull skin. It is also effective for overall skin brightening and rejuvenation."
+        },
+        {
+          "question": "Is Q-Switch laser safe for all skin types?",
+          "answer": "Yes, when performed correctly and with customized settings, Q-Switch laser is safe for most skin types, including darker skin tones. A consultation is essential to tailor the treatment."
+        },
+        {
+          "question": "Does the treatment hurt?",
+          "answer": "Most clients describe the sensation as mild tingling or snapping. A topical numbing cream may be applied for comfort if needed."
+        },
+        {
+          "question": "How many sessions will I need?",
+          "answer": "Results are cumulative. Most pigmentation concerns require multiple sessions spaced a few weeks apart for optimal and lasting improvement."
+        },
+        {
+          "question": "Is there downtime after Q-Switch laser?",
+          "answer": "There is minimal to no downtime. Mild redness may occur but typically resolves the same day, allowing you to return to daily activities."
+        },
+        {
+          "question": "When will I see results?",
+          "answer": "Some brightening may be visible after the first session, with more noticeable improvements appearing gradually over subsequent treatments."
+        },
+        {
+          "question": "Can Q-Switch make pigmentation worse?",
+          "answer": "When performed by trained professionals using proper settings, the risk is minimal. Strict adherence to sun protection and post-care guidelines is essential to prevent post-inflammatory pigmentation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "hydra.webp",
       "video": "hydra.mp4",
       "title": "HydraFacial™",
       "subHeading": "Hello Brightness. |  Hello Fresh Skin. | Hello Clear Pores.",
