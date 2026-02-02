@@ -54,7 +54,7 @@ export default function PeptidesClient({ initialPeptides = [], faq = [] }) {
         <section className="wrap">
           <header className="pheader">
             <h1 className="title">Explore our Peptides</h1>
-            <p className="subtitle">All orders will be delivered same day from our Clinic facility.</p>
+            <p className="subtitle">(Available at Our DIFC & Palm Jumeirah Clinic)</p>
             <p className="subtitle">Purity: 99% or higher. Third-party tested. For research purposes only.</p>
           </header>
 
