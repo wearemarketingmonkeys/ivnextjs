@@ -4,23 +4,24 @@ import peptidesData from '../mocks/peptidesData.json';
 
 
 export const metadata = {
-  title: 'Peptides | IV Wellness Lounge Clinic',
+  title: 'Peptide Therapy Clinic in Dubai | Anti-Aging & Recovery Peptides | IV Wellness Lounge',
   description:
-    "Explore IV Wellness Lounge Clinic's peptide offerings designed to support recovery, performance, and overall wellness.",
+    "Clinic-supervised peptide therapy for longevity, recovery, and anti-aging. Available at IVHUB DIFC & Palm Jumeirah clinics.",
   alternates: { canonical: 'https://ivhub.com/peptides' },
+  keywords: "peptide therapy dubai, peptides clinic dubai, medical grade peptides, anti aging peptides dubai, recovery peptides, longevity clinic dubai, DIFC peptide clinic, palm jumeirah peptide therapy",
   openGraph: {
-    title: 'Peptides | IV Wellness Lounge Clinic',
+    title: 'Peptide Therapy Clinic in Dubai | Anti-Aging & Recovery Peptides | IV Wellness Lounge',
     description:
-      "Explore IV Wellness Lounge Clinic's peptide offerings designed to support recovery, performance, and overall wellness.",
+      "Clinic-supervised peptide therapy for longevity, recovery, and anti-aging. Available at IVHUB DIFC & Palm Jumeirah clinics.",
     url: 'https://ivhub.com/peptides',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Peptides | IV Wellness Lounge Clinic',
+    title: 'Peptide Therapy Clinic in Dubai | Anti-Aging & Recovery Peptides | IV Wellness Lounge',
     description:
-      "Explore IV Wellness Lounge Clinic's peptide offerings designed to support recovery, performance, and overall wellness.",
+      "Clinic-supervised peptide therapy for longevity, recovery, and anti-aging. Available at IVHUB DIFC & Palm Jumeirah clinics.",
     images: ['https://ivhub.com/og.png'],
   },
 };
