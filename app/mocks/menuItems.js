@@ -69,7 +69,7 @@ export const menuItems = [
                 { label: "Liposculpt", to: "/aesthetic/lipo-sculpt" },
                 { label: "Wrinkle relaxers", to: "/aesthetic/anti-aging" },
                 { label: "Morpheus8® – Microneedling with Radio Frequency", to: "/morpheus" },
-                { label: "Q-Switch Laser Treatment", to: "/q-switch-laser-treatment-in-dubai" },
+                { label: "Q-Switch Laser Treatment", to: "/aesthetic/q-switch-laser-treatment-in-dubai" },
               ],
             },
           ],
