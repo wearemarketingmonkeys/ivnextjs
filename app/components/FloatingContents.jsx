@@ -12,6 +12,8 @@ const FloatingContents = ({ className = "" }) => {
         <div className="hot-btn-wrap">
           <Link href="https://ivhub.com/" style={{ WebkitTextStroke: "0.5px" }}>CLINIC</Link>
           <span>|</span>
+          <Link href="https://cafe.ivhub.com/">CAFE</Link>
+          <span>|</span>
           <Link href="https://brushed.ae/">SPA</Link>
         </div>
       </div>
