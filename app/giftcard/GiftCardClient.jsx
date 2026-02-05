@@ -78,10 +78,7 @@ export default function GiftCardClient() {
           required
           min="0"
           step="0.01"
-          onWheel={(e) => {
-            e.currentTarget.blur();
-            setTimeout(() => e.currentTarget.focus(), 0);
-          }}
+          onWheel={(e) => e.currentTarget.blur()} // ✅ stops scroll changing value
         />
       </div>
 
