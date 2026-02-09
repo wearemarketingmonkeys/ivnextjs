@@ -41,7 +41,7 @@ export default async function BlogsPage({ searchParams }) {
   const articlesPerPage = 40;
 
   const res = await fetch("https://iv-blogs.ivhub.com/blogslist", {
-    next: { revalidate: 600 },
+    next: { revalidate: 60 },
   });
 
   if (!res.ok) {
