@@ -25,7 +25,7 @@ export default function ValentinesConfetti() {
 
   const triggerConfetti = () => {
     for (let i = 0; i < 10; i++) {
-      setTimeout(createHeart, i * 700);
+      setTimeout(createHeart, i * 1000);
     }
   };
 
