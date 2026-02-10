@@ -6,6 +6,7 @@ import './styles/globals.scss';   // ← add this at the top
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FloatingContents from './components/FloatingContents';
+import LoveAnimation from "./components/LoveAnimation";
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -90,6 +91,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body>
+        <LoveAnimation/>
         {/* GTM noscript (as in your current <body> section) */}
         <noscript>
           <iframe
@@ -99,7 +101,7 @@ export default function RootLayout({ children }) {
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-
+            
         <Header />
         <FloatingContents className="floating-wrap" />
         {children}
