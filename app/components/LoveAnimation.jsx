@@ -18,7 +18,7 @@ export default function ValentinesConfetti() {
     const heart = document.createElement('div');
     heart.classList.add('heart');
     heart.style.left = Math.random() * 100 + 'vw';
-    heart.style.animationDuration = Math.random() * 4 + 6 + 's';
+    heart.style.animationDuration = Math.random() * 10 + 15 + 's';
     document.getElementById('confetti-container').appendChild(heart);
     // setTimeout(() => heart.remove(), 5000);
   };
