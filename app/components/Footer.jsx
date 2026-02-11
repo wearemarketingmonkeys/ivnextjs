@@ -15,6 +15,7 @@ const seenIcons = [
   '/assets/img/home/KT.png',
   '/assets/img/home/gulf-times.png',
   '/assets/img/home/vogue-arabia.png',
+  '/assets/img/home/naira.png',
 ];
 
 const partnerIcons = [
@@ -30,7 +31,8 @@ const seenLinks = [
   'https://finance.yahoo.com/news/iv-wellness-lounge-announces-luxurious-011500479.html',
   'https://www.khaleejtimes.com/kt-network/iv-wellness-lounge-a-symphony-of-luxurious-wellness-in-dubai',
   'https://www.gulf-times.com/article/670101/qatar/iv-wellness-lounge-unveiling-dubais-premier-wellness-oasis',
-  'https://www.voguearabia.com/article/the-best-time-to-get-a-mini-facelift'
+  'https://www.voguearabia.com/article/the-best-time-to-get-a-mini-facelift',
+  'https://nairanyc.com/best-beauty-clinics-dubai/'
 ];
 
 const partnerLinks = [
