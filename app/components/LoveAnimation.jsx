@@ -18,13 +18,13 @@ export default function ValentinesConfetti() {
     const heart = document.createElement('div');
     heart.classList.add('heart');
     heart.style.left = Math.random() * 100 + 'vw';
-    heart.style.animationDuration = Math.random() * 10 + 15 + 's';
+    heart.style.animationDuration = Math.random() * 8 + 8 + 's';
     document.getElementById('confetti-container').appendChild(heart);
     // setTimeout(() => heart.remove(), 5000);
   };
 
   const triggerConfetti = () => {
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 5; i++) {
       setTimeout(createHeart, i * 1000);
     }
   };
