@@ -31,7 +31,7 @@ function hrefOf(x) {
 const ivTherapyItems = [
   {
     img: paths.wellnessImg,
-    drips: 25,
+    drips: 26,
     title: "Wellness Drips",
     btnTxt: "Explore Drips",
     btnUrl: "/iv-therapy/drips",
@@ -41,7 +41,7 @@ const ivTherapyItems = [
       { dripsName: "Cleanse Hub", dripsUrl: "/iv-therapy/drips/cleanse-hub" },
       { dripsName: "Energy Hub", dripsUrl: "/iv-therapy/drips/energy-hub" },
       { dripsName: "Fitness Hub", dripsUrl: "/iv-therapy/drips/fitness-hub" },
-      // { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
+      { dripsName: "Ramadan Hub", dripsUrl: "/iv-therapy/drips/ramadan-hub" },
       { dripsName: "Glow Hub", dripsUrl: "/iv-therapy/drips/glow-hub" },
       {
         dripsName: "Hairfall Defense",

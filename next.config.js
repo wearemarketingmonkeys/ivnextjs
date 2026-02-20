@@ -25,11 +25,6 @@ const nextConfig = {
         destination: '/iv-therapy/drips',
         permanent: true,
       },
-      {
-        source: '/iv-therapy/drips/ramadan-hub',
-        destination: '/iv-therapy/drips',
-        permanent: true,
-      },
     ];
   },
 };

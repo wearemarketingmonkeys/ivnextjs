@@ -2722,6 +2722,62 @@
         ],
         "bookingBtn": "https://book.ivhub.com/",
         "moreDetailsUrl": "/iv-therapy/drips/methylene-blue-IV-drip"
+      },
+      {
+        "id": 26,
+        "category": "Wellness",
+        "img": "ramdan-hub.webp",
+        "title": "Ramadan Hub",
+        "price": 799,
+        "superline": "Worried about feeling low during the month of Ramadan? We’ve got you covered with a specialized IV drip!",
+        "metadesc": "Ramadan IV drip is tailor-made and packed with electrolytes and multivitamins that will help you cleanse your body before the month of Ramadan. If you require a boost, this is the perfect pick- me-up drip for you. Book Now!",
+        "desc": "To help you prepare for the holy month of Ramadan",
+        "para1": "Our <b>Ramadan IV Drip Therapy</b> is specially formulated to support your body during fasting periods by replenishing essential fluids, electrolytes, and nutrients lost during long hours without food or water. Designed to combat fatigue, dehydration, and low energy, this IV drip helps you feel stronger both mentally and physically throughout the holy month.",
+        "para2": "Whether you're preparing for Ramadan or looking to recover after fasting, this targeted <b>IV therapy in Dubai</b> ensures your body receives immediate hydration and nourishment in a safe and efficient way. Administered by medical professionals in our wellness clinic or in the comfort of your home, our <b>IV drip in Dubai</b> is the perfect way to support your health during this sacred time.",        
+        "discount": 20,
+        "benifitImg": "ben.webp",
+        "benifitTitle": "Get Back On Your Feet with Ramadan drip",
+        "benifits": [
+          "Rehydrates The Body Before And After Fasting",
+          "Restores Essential Electrolytes And Multivitamins",
+          "Improves Focus, Energy Levels, And Mood During Long Fasts",
+          "Supports Immunity And Recovery From Fasting-Related Fatigue",
+          "Aids In Detoxification And Preparing The Body For Fasting",
+          "Promotes Mental Clarity And Reduces Physical Weakness"
+        ],
+        "benifitList": [
+          {
+            "icon": "icon5.png",
+            "txt": "Preparing Your Body Before The Start Of Ramadan"
+          },
+          {
+            "icon": "icon2.png",
+            "txt": "Daily Support During Fasting Periods"
+          },
+          {
+            "icon": "icon9.png",
+            "txt": "Recovering From Fatigue Or Dehydration"
+          },
+          {
+            "icon": "icon6.png",
+            "txt": "Individuals Feeling Weak, Lightheaded, Or Low On Energy During The Day"
+          },
+          {
+            "icon": "icon3.png",
+            "txt": "People Observing Ramadan During The Summer Heat"
+          }
+        ],
+        "sessionhide": "yes",
+        "sessionprice": [
+          {
+            "txt": "1 Session",
+            "price": "799"
+          }
+        ],
+        "extraData": [],
+        "faq": [],
+        "bookingBtn": "https://book.ivhub.com/",
+        "moreDetailsUrl": "/iv-therapy/drips/ramadan-hub"
       }
     ]
   }
