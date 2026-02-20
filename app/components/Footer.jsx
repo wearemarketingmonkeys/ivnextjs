@@ -22,6 +22,7 @@ const partnerIcons = [
   '/assets/img/home/emirates-platinum.jpg',
   '/assets/img/home/emirates-group.png',
   '/assets/img/home/dewa.png',
+  '/assets/img/home/fitnessfirst.png',
   '/assets/img/home/fazaa-logo.png',
   '/assets/img/home/NBD-logo.png',
   '/assets/img/home/HSBC-Logo.png',
@@ -36,6 +37,7 @@ const seenLinks = [
 ];
 
 const partnerLinks = [
+  '',
   '',
   '',
   '',
