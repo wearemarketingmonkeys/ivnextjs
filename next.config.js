@@ -25,6 +25,11 @@ const nextConfig = {
         destination: '/iv-therapy/drips',
         permanent: true,
       },
+      {
+        source: '/peptides/sermorelin-acetate-dubai',
+        destination: '/peptides/ser-more-lin-acetate-dubai',
+        permanent: true,
+      },
     ];
   },
 };
