@@ -28,7 +28,7 @@ const peptideOptions = [
   "BPC-157",
   "Thymosin Alpha-1",
   "CJC + Ipamorelin",
-  "Sermorelin Acetate",
+  "SER-MORE-LIN Acetate",
   "Gonadorelin",
   "AOD-9604",
   "MOTS-C",
