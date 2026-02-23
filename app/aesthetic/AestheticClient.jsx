@@ -41,7 +41,7 @@ export default function AestheticClient({ initialAesthetics = [] }) {
               </p>
             </div>
             <div className="btn-wrap">
-              <Link href="/booking" className="btn btn-light-stroke">Book Now</Link>
+              <Link href="https://wa.me/97180048482?text=Hi%20I%20want%20to%20know%20more%20about%20yout%20aesthetic%20services" className="btn btn-light-stroke">Book Now</Link>
             </div>
           </div>
         </div>
