@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import peptidesJson from '../../mocks/peptidesData.json';
 import WellnessQuizModal from '../WellnessQuizModal';
+import ShippingCalculator from "../../components/ShippingCalculator";
 
 const SITE_URL = 'https://ivhub.com';
 
@@ -279,6 +280,8 @@ export default function PeptideSlugPage({ params }) {
                     Get Started
                   </a>
                 </div>
+
+                <ShippingCalculator basePrice={Number(peptide.fromPrice || 0)} baseCurrency="AED" />
               </div>
             </div>
           </div>
