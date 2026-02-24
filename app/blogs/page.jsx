@@ -49,7 +49,7 @@ export default async function BlogsPage({ searchParams }) {
       <>
         <div className="blog-hero">
           <HeroSection
-            img="/assets/img/blog/blog-hero.webp"
+            img="/assets/img/blog/blog-home.png"
             textLight1="The Wellness Edit"
             textItalic1=" - Health,"
             textLight2="Beauty"
@@ -84,7 +84,7 @@ export default async function BlogsPage({ searchParams }) {
     <>
       <div className="blog-hero">
         <HeroSection
-          img="/assets/img/blog/blog-hero.webp"
+          img="/assets/img/blog/blog-home.png"
           textLight1="The Wellness Edit"
           textItalic1=" - Health,"
           textLight2="Beauty"

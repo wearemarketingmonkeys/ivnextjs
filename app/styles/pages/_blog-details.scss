@@ -5,7 +5,7 @@
 .blog-details {
   position: relative;
   .hero-bg {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -17,7 +17,8 @@
   .blog-wrapper {
     position: relative;
     .blog-wrap {
-      margin: 300px 0 64px;
+      /*margin: 300px 0 64px;*/
+      margin: 65px 0;
     }
     .blog-wrap-img {
       margin-top: 64px 0;
