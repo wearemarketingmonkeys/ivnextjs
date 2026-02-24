@@ -281,7 +281,7 @@ export default function PeptideSlugPage({ params }) {
                   </a>
                 </div>
 
-                {/* <ShippingCalculator basePrice={Number(peptide.fromPrice || 0)} baseCurrency="AED" /> */}
+                <ShippingCalculator basePrice={Number(peptide.fromPrice || 0)} baseCurrency="AED" />
               </div>
             </div>
           </div>
