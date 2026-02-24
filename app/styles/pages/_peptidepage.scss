@@ -538,6 +538,54 @@
   .dosageText {
     flex: 1 1 auto;
   }
+
+  .modalAccordion {
+    border: 1px solid #eef2f7;
+    border-radius: 18px;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 14px;
+  }
+
+  .modalAccordionSummary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .modalAccordionSummary::-webkit-details-marker {
+    display: none;
+  }
+
+  .modalAccordionChevron {
+    transition: transform 0.18s ease;
+    color: #64748b;
+  }
+
+  .modalAccordion[open] .modalAccordionChevron {
+    transform: rotate(180deg);
+  }
+
+  .modalAccordionContent {
+    padding: 0 18px 16px;
+  }
+
+  .modalAccordionInner {
+    padding-top: 6px;
+    color: #0f172a;
+  }
+
+  /* Optional: tighter list spacing inside accordion */
+  .modalAccordionInner ul {
+    margin: 10px 0 0;
+    padding-left: 18px;
+  }
 }
 
 

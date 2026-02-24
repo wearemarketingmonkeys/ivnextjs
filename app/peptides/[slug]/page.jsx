@@ -51,6 +51,22 @@ function Section({ title, children }) {
   );
 }
 
+/** ✅ Server-safe accordion (no JS) */
+function AccordionSection({ title, children }) {
+  return (
+    <details className="modalAccordion">
+      <summary className="modalAccordionSummary">
+        <span className="modalAccordionTitle">{title}</span>
+        <span className="modalAccordionChevron" aria-hidden>⌄</span>
+      </summary>
+
+      <div className="modalAccordionContent">
+        <div className="modalAccordionInner">{children}</div>
+      </div>
+    </details>
+  );
+}
+
 export function generateMetadata({ params }) {
   const peptide = peptidesList.find((p) => p.slug === params.slug);
 
@@ -106,7 +122,6 @@ export function generateMetadata({ params }) {
 }
 
 export default function PeptideSlugPage({ params }) {
-
   const peptide = peptidesList.find((p) => p.slug === params.slug);
   if (!peptide) return null;
 
@@ -120,151 +135,155 @@ export default function PeptideSlugPage({ params }) {
 
   return (
     <>
-    {/* ✅ Popup Quiz */}
-    <WellnessQuizModal />
-    
-    <main className="peptidepage peptideDetailPage">
-      {/* ✅ this is a normal page container now (no overlay) */}
-      <div className="wrap">
-        <div className="detailShell">
-          {/* back to grid */}
-          <Link className="modalClose" href="/peptides" aria-label="Back to peptides">
-            ✕
-          </Link>
+      <WellnessQuizModal />
 
-          <div className="modalGrid">
-            {/* LEFT (sticky image) */}
-            <div className="modalLeft">
-              <div className="modalLeftSticky">
-                <div className="modalImgWrap">
-                  <img
-                    src={peptide.detailimg || peptide.img}
-                    alt={peptide.name}
-                    className="modalImg"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </div>
+      <main className="peptidepage peptideDetailPage">
+        <div className="wrap">
+          <div className="detailShell">
+            <Link className="modalClose" href="/peptides" aria-label="Back to peptides">
+              ✕
+            </Link>
 
-            {/* RIGHT (scroll inside shell) */}
-            <div className="modalRight">
-              <div className="modalHeader">
-                <div className="modalType">{peptide.type || 'Compound'}</div>
-
-                <h1 className="modalTitle">{d.headline || peptide.name}</h1>
-
-                <div className="modalType subline">
-                  Purity: 99% or higher. Third-party tested. For research purposes only.
-                </div>
-
-                <div className="modalPrice">
-                  from <span>AED {peptide.fromPrice}</span>
+            <div className="modalGrid">
+              {/* LEFT */}
+              <div className="modalLeft">
+                <div className="modalLeftSticky">
+                  <div className="modalImgWrap">
+                    <img
+                      src={peptide.detailimg || peptide.img}
+                      alt={peptide.name}
+                      className="modalImg"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               </div>
 
-              <div className="modalBody">
-                {!!d.overview && (
-                  <Section title="Overview">
-                    {Array.isArray(d.overview) ? (
-                      d.overview.map((para, i) => (
-                        <p key={i} style={{ marginBottom: i === d.overview.length - 1 ? 0 : 12 }}>
-                          {para}
-                        </p>
-                      ))
-                    ) : (
-                      <p>{d.overview}</p>
-                    )}
-                  </Section>
-                )}
+              {/* RIGHT */}
+              <div className="modalRight">
+                <div className="modalHeader">
+                  <div className="modalType">{peptide.type || 'Compound'}</div>
+                  <h1 className="modalTitle">{d.headline || peptide.name}</h1>
 
-                {!!d.uses?.length && (
-                  <Section title="Uses and Indications">
-                    {d.usesIntro && <p>{d.usesIntro}</p>}
-                    <ul>
-                      {d.uses.map((x, i) => <li key={i}>{x}</li>)}
-                    </ul>
-                  </Section>
-                )}
+                  <div className="modalType subline">
+                    Purity: 99% or higher. Third-party tested. For research purposes only.
+                  </div>
 
-                {!!d.benefits?.length && (
-                  <Section title="Key Benefits">
-                    {typeof d.benefits[0] === 'string' ? (
+                  <div className="modalPrice">
+                    from <span>AED {peptide.fromPrice}</span>
+                  </div>
+                </div>
+
+                <div className="modalBody">
+                  {/* ✅ Always visible */}
+                  {!!d.overview && (
+                    <Section title="Overview">
+                      {Array.isArray(d.overview) ? (
+                        d.overview.map((para, i) => (
+                          <p key={i} style={{ marginBottom: i === d.overview.length - 1 ? 0 : 12 }}>
+                            {para}
+                          </p>
+                        ))
+                      ) : (
+                        <p>{d.overview}</p>
+                      )}
+                    </Section>
+                  )}
+
+                  {/* ✅ Always visible */}
+                  {!!d.benefits?.length && (
+                    <Section title="Key Benefits">
+                      {typeof d.benefits[0] === 'string' ? (
+                        <ul>
+                          {d.benefits.map((x, i) => <li key={i}>{x}</li>)}
+                        </ul>
+                      ) : (
+                        <div className="benefitsStatGrid">
+                          {d.benefits.map((b, i) => (
+                            <div className="benefitsStatItem" key={i}>
+                              <div className="benefitsStatIcon">{b.icon}</div>
+                              <div className="benefitsStatValue">{b.value}</div>
+                              <div className="benefitsStatLabel">{b.label}</div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </Section>
+                  )}
+
+                  {/* ✅ Everything below = Accordion */}
+                  {!!d.uses?.length && (
+                    <AccordionSection title="Uses and Indications">
+                      {d.usesIntro && <p>{d.usesIntro}</p>}
                       <ul>
-                        {d.benefits.map((x, i) => <li key={i}>{x}</li>)}
+                        {d.uses.map((x, i) => <li key={i}>{x}</li>)}
                       </ul>
-                    ) : (
-                      <div className="benefitsStatGrid">
-                        {d.benefits.map((b, i) => (
-                          <div className="benefitsStatItem" key={i}>
-                            <div className="benefitsStatIcon">{b.icon}</div>
-                            <div className="benefitsStatValue">{b.value}</div>
-                            <div className="benefitsStatLabel">{b.label}</div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </Section>
-                )}
+                    </AccordionSection>
+                  )}
 
-                {!!d.dosageProtocol?.length && (
-                  <Section title="Dosage Protocol">
-                    {d.dosageIntro && <p>{d.dosageIntro}</p>}
-                    {renderDosageList(d.dosageProtocol)}
-                  </Section>
-                )}
+                  {!!d.dosageProtocol?.length && (
+                    <AccordionSection title="Dosage Protocol">
+                      {d.dosageIntro && <p>{d.dosageIntro}</p>}
+                      {renderDosageList(d.dosageProtocol)}
+                    </AccordionSection>
+                  )}
 
-                {!!d.stackingText && (
-                  <Section title={d.stackingTitle || 'Combination and Stacking'}>
-                    <p>{d.stackingText}</p>
-                  </Section>
-                )}
+                  {!!d.stackingText && (
+                    <AccordionSection title={d.stackingTitle || 'Combination and Stacking'}>
+                      <p>{d.stackingText}</p>
+                    </AccordionSection>
+                  )}
 
-                {!!d.safety && (
-                  <Section title="Safety and Side Effects">
-                    <p>{d.safety}</p>
-                  </Section>
-                )}
+                  {!!d.safety && (
+                    <AccordionSection title="Safety and Side Effects">
+                      <p>{d.safety}</p>
+                    </AccordionSection>
+                  )}
 
-                {!!d.timingTitle && (
-                  <Section title={d.timingTitle}>
-                    <p>{d.timingText}</p>
-                  </Section>
-                )}
+                  {!!d.timingTitle && (
+                    <AccordionSection title={d.timingTitle}>
+                      <p>{d.timingText}</p>
+                    </AccordionSection>
+                  )}
 
-                {!!d.contraindications?.length && (
-                  <Section title={d.contraTitle || 'Contraindications'}>
-                    {d.contraIntro && <p>{d.contraIntro}</p>}
-                    <ul>
-                      {d.contraindications.map((x, i) => <li key={i}>{x}</li>)}
-                    </ul>
-                    {d.contraOutro && <p style={{ marginTop: 12 }}>{d.contraOutro}</p>}
-                  </Section>
-                )}
+                  {!!d.contraindications?.length && (
+                    <AccordionSection title={d.contraTitle || 'Contraindications'}>
+                      {d.contraIntro && <p>{d.contraIntro}</p>}
+                      <ul>
+                        {d.contraindications.map((x, i) => <li key={i}>{x}</li>)}
+                      </ul>
+                      {d.contraOutro && <p style={{ marginTop: 12 }}>{d.contraOutro}</p>}
+                    </AccordionSection>
+                  )}
 
-                {!!d.bestFor && (
-                  <Section title="Who This Peptide Is Best For">
-                    <p>{d.bestFor}</p>
-                  </Section>
-                )}
+                  {!!d.bestFor && (
+                    <AccordionSection title="Who This Peptide Is Best For">
+                      <p>{d.bestFor}</p>
+                    </AccordionSection>
+                  )}
 
-                {!!d.ctaText && (
-                  <Section title={d.ctaTitle || 'Book a Peptide Consultation in Dubai'}>
-                    <p>{d.ctaText}</p>
-                  </Section>
-                )}
-              </div>
+                  {!!d.ctaText && (
+                    <AccordionSection title={d.ctaTitle || 'Book a Peptide Consultation in Dubai'}>
+                      <p>{d.ctaText}</p>
+                    </AccordionSection>
+                  )}
+                </div>
 
-              <div className="modalFooter">
-                <a href={buildWhatsAppLink(peptide.name)} target="_blank" rel="noreferrer" className="whatsappBtn">
-                  Get Started
-                </a>
+                <div className="modalFooter">
+                  <a
+                    href={buildWhatsAppLink(peptide.name)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="whatsappBtn"
+                  >
+                    Get Started
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
     </>
   );
 }
