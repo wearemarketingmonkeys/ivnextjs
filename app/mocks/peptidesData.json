@@ -1,7 +1,7 @@
 {
   "peptidesData": [
     {
-      "type": "Repair & Regeneration",
+      "type": "Tissue repair",
       "name": "BPC-157",
       "metadesc": "BPC-157 peptide therapy at IV Wellness Lounge supports gut healing, joint recovery, muscle repair, and inflammation reduction. Personalized wellness protocols guided by experts.",
       "fromPrice": 39,
@@ -50,7 +50,7 @@
     }
     },
     {
-      "type": "Repair & Regeneration",
+      "type": "Immune modulating",
       "name": "Thymosin Alpha-1 (Tα1)",
       "metadesc": "Thymosin Alpha-1 peptide therapy helps support immune function, cellular repair, and resilience. Advanced peptide protocols available at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -103,7 +103,7 @@
       }
     },
     {
-      "type": "Repair & Regeneration",
+      "type": "Growth hormone",
       "name": "CJC + Ipamorelin",
       "metadesc": "CJC-1295 with Ipamorelin peptide therapy supports natural growth hormone release, fat loss, muscle recovery, sleep quality, and anti-aging benefits.",
       "fromPrice": 0,
@@ -158,7 +158,7 @@
       }
     },
     {
-      "type": "Growth Hormone",
+      "type": "GHRH analog",
       "name": "SER-MORE-LIN Acetate",
       "metadesc": "SER-MORE-LIN acetate peptide therapy stimulates natural growth hormone production to support energy, recovery, sleep, body composition, and healthy aging.",
       "fromPrice": 0,
@@ -210,7 +210,7 @@
       }
     },
     {
-      "type": "Hormonal Balance & Regulation",
+      "type": "LH/FSH stimulator",
       "name": "Gonadorelin",
       "metadesc": "Gonadorelin peptide therapy helps support natural hormone signaling and balance. Customized wellness protocols available at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -259,7 +259,7 @@
       }
     },
     {
-      "type": "Fat Loss Composition",
+      "type": "Fat Loss",
       "name": "AOD-9604",
       "metadesc": "AOD-9604 peptide therapy is designed to support fat metabolism and weight management without affecting muscle mass. Expert-guided protocols available.",
       "fromPrice": 0,
@@ -310,7 +310,7 @@
       }
     },
     {
-      "type": "Metabolic and Mitochondrial Support",
+      "type": "Metabolic regulator",
       "name": "MOTS-C",
       "metadesc": "MOTS-C peptide therapy supports metabolic health, insulin sensitivity, energy production, and longevity. Advanced peptide treatments at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -367,7 +367,7 @@
       }
     },
     {
-      "type": "Healthy Aging Support",
+      "type": "Longevity support",
       "name": "Epithalon",
       "metadesc": "Epithalon peptide therapy is known for supporting cellular renewal, sleep quality, and longevity pathways. Science-driven protocols at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -419,7 +419,7 @@
       }
     },
     {
-        "type": "For Faster Recovery",
+        "type": "Cellular repair",
         "name": "TB-500",
         "metadesc": "TB-500 peptide therapy supports muscle recovery, flexibility, injury healing, and tissue repair. Personalized peptide programs available.",
         "fromPrice": 0,
@@ -521,7 +521,7 @@
       }
     },
     {
-      "type": "Repair and Regeneration",
+      "type": "Glow boosting",
       "name": "GHK-Cu",
       "metadesc": "GHK-Cu copper peptide therapy supports collagen production, skin repair, hair health, and overall rejuvenation. Expert-led treatments at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -576,7 +576,7 @@
       }
     },
     {
-      "type": "Gut & Nerves Support",
+      "type": "Vasodilatory neuropeptide",
       "name": "Vasoactive Intestinal Peptide (VIP)",
       "metadesc": "VIP peptide therapy supports gut health, neurological balance, immune regulation, and inflammation control. Personalized wellness protocols available.",
       "fromPrice": 0,
@@ -628,7 +628,7 @@
       }
     },
     {
-      "type": "Sexual Wellness Support",
+      "type": "Libido enhancing",
       "name": "PT-141",
       "metadesc": "PT-141 peptide therapy supports sexual wellness, libido, and arousal in men and women. Discreet, customized peptide treatments at IV Wellness Lounge.",
       "fromPrice": 0,
@@ -678,6 +678,208 @@
         "bestFor": "PT-141 is ideal for individuals seeking support for sexual desire and arousal without hormonal replacement or vascular medications. It is commonly chosen by both men and women who want a discreet, science-based approach to improving intimacy, confidence, and sexual wellbeing.",
         "ctaTitle": "Book a Peptide Consultation in Dubai",
         "ctaText": "Discover personalized PT-141 peptide therapy at IV Wellness Lounge Dubai. Our medical team will assess your goals and health profile to design a safe, effective protocol that supports sexual wellness and confidence through targeted, science-backed care."
+      }
+    },
+    {
+      "type": "Cellular energy booster",
+      "name": "NAD+",
+      "metadesc": "NAD+ peptide therapy at IV Wellness Lounge Dubai is designed to restore cellular energy, enhance metabolic function, and support long-term longevity. Nicotinamide Adenine Dinucleotide is a vital coenzyme present in every cell, playing a central role in mitochondrial energy production, DNA repair, and cellular regeneration.",
+      "fromPrice": 0,
+      "slug": "nad-plus-peptide-in-dubai",
+      "img": "/assets/img/peptides/35.png",
+      "detailimg": "/assets/img/peptides/36.png",
+      "tags": [],
+      "details": {
+        "headline": "NAD+ Peptide Therapy in Dubai | Cellular Energy and Longevity Support",
+        "overview": [
+          "NAD+ peptide therapy at IV Wellness Lounge Dubai is designed to restore cellular energy, enhance metabolic function, and support long-term longevity. Nicotinamide Adenine Dinucleotide is a vital coenzyme present in every cell, playing a central role in mitochondrial energy production, DNA repair, and cellular regeneration.",
+          "As NAD+ levels decline with age, stress, and lifestyle factors, individuals may experience fatigue, cognitive slowdown, and reduced metabolic efficiency. NAD+ peptide therapy helps replenish these levels, supporting vitality, mental clarity, and overall cellular performance."
+        ],
+        "usesIntro": "NAD+ peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Chronic fatigue or low energy",
+          "Brain fog or reduced concentration",
+          "Sexual dysfunction not related to vascular causes",
+          "Age-related cellular decline",
+          "Metabolic slowdown",
+          "Burnout or high stress",
+          "Longevity and performance optimization"
+        ],
+        "benefits": [
+          { "icon": "⚡", "value": "93%", "label": "Cellular energy" },
+          { "icon": "🔋", "value": "88%", "label": "Mito efficiency" },
+          { "icon": "🧬", "value": "91%", "label": "DNA repair" },
+          { "icon": "⚖️", "value": "87%", "label": "Metabolic balance" }
+        ],
+        "dosageIntro": "NAD+ peptide therapy at IV Wellness Lounge Dubai is medically supervised and customized.",
+        "dosageProtocol": [
+          "Dose: 850 mg",
+          "Route: Subcutaneous injection",
+          "Frequency: Daily for 3 consecutive days, followed by every other day as advised by your physician",
+          "Treatment schedules are adjusted based on clinical goals and individual response"
+        ],
+        "safety": "NAD+ peptide therapy is generally well tolerated. Mild temporary effects such as flushing, warmth, or slight injection site sensitivity may occur.",
+        "contraIntro": "NAD+ peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Are pregnant or breastfeeding",
+          "Have active malignancy",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A consultation is required to determine suitability.",
+        "bestFor": "NAD+ peptide therapy is ideal for individuals seeking improved energy, enhanced mental performance, metabolic support, and proactive longevity care.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized NAD+ peptide therapy at IV Wellness Lounge Dubai and support your body at the cellular level through precision-driven longevity care."
+      }
+    },
+    {
+      "type": "GH-releasing analog",
+      "name": "Tesamorelin",
+      "metadesc": "Tesamorelin peptide therapy at IV Wellness Lounge Dubai is a growth hormone–releasing hormone analogue designed to stimulate the body’s natural production of growth hormone. By activating the pituitary gland, Tesamorelin enhances endogenous growth hormone release, supporting fat metabolism and improved body composition.",
+      "fromPrice": 0,
+      "slug": "tesamorelin-in-dubai",
+      "img": "/assets/img/peptides/37.png",
+      "detailimg": "/assets/img/peptides/38.png",
+      "tags": [],
+      "details": {
+        "headline": "Tesamorelin Peptide Therapy in Dubai | Targeted Fat Reduction and Metabolic Optimization",
+        "overview": [
+          "Tesamorelin peptide therapy at IV Wellness Lounge Dubai is a growth hormone–releasing hormone analogue designed to stimulate the body’s natural production of growth hormone. By activating the pituitary gland, Tesamorelin enhances endogenous growth hormone release, supporting fat metabolism and improved body composition.",
+          "This peptide is particularly known for its ability to reduce stubborn visceral fat while preserving lean muscle mass. Rather than replacing hormones, Tesamorelin works with the body’s own regulatory systems, making it a targeted and physiologic approach to metabolic enhancement."
+        ],
+        "usesIntro": "Tesamorelin peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Stubborn abdominal or visceral fat",
+          "Age-related metabolic slowdown",
+          "Hormonal decline affecting body composition",
+          "Difficulty losing fat despite diet and exercise",
+          "Desire for leaner, more defined physique"
+        ],
+        "benefits": [
+          { "icon": "📈", "value": "94%", "label": "GH support" },
+          { "icon": "🔥", "value": "89%", "label": "Fat reduction" },
+          { "icon": "💪", "value": "92%", "label": "Lean muscle" },
+          { "icon": "⚖️", "value": "91%", "label": "Body balance" }
+        ],
+        "dosageIntro": "Tesamorelin peptide therapy at IV Wellness Lounge Dubai is medically supervised and tailored to individual goals.",
+        "dosageProtocol": [
+          "Total dose: 60 mg",
+          "Route: Subcutaneous injection",
+          "Frequency: Daily administration for 30 days",
+          "Treatment duration and follow-up plans are determined during consultation based on clinical response"
+        ],
+        "safety": "Tesamorelin is generally well tolerated when used under medical supervision. Mild side effects may include temporary injection site redness, mild swelling, or fluid retention. Ongoing monitoring ensures safe and effective use.",
+        "contraIntro": "Tesamorelin peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have active malignancy",
+          "Are pregnant or breastfeeding",
+          "Have uncontrolled endocrine disorders",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A consultation is required to assess eligibility.",
+        "bestFor": "Tesamorelin is ideal for individuals seeking targeted fat reduction, improved metabolic performance, and enhanced body composition through a medically supervised peptide protocol.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized Tesamorelin peptide therapy at IV Wellness Lounge Dubai and support your metabolic health through advanced, science-backed care."
+      }
+    },
+    {
+      "type": "Focus support",
+      "name": "SEMAX",
+      "metadesc": "SEMAX peptide therapy at IV Wellness Lounge Dubai is a neuroregulatory peptide designed to support cognitive performance, focus, and brain resilience. Originally developed for neurological support, SEMAX works by influencing brain-derived neurotrophic factor and other neurochemical pathways that support memory, learning, and mental clarity.",
+      "fromPrice": 0,
+      "slug": "semax-in-dubai",
+      "img": "/assets/img/peptides/39.png",
+      "detailimg": "/assets/img/peptides/40.png",
+      "tags": [],
+      "details": {
+        "headline": "SEMAX Peptide Therapy in Dubai | Cognitive Enhancement and Neuroprotection",
+        "overview": [
+          "SEMAX peptide therapy at IV Wellness Lounge Dubai is a neuroregulatory peptide designed to support cognitive performance, focus, and brain resilience. Originally developed for neurological support, SEMAX works by influencing brain-derived neurotrophic factor and other neurochemical pathways that support memory, learning, and mental clarity.",
+          "Unlike stimulant-based cognitive enhancers, SEMAX supports brain function at a regulatory level, helping improve concentration, mood balance, and stress adaptation without overstimulation. It is commonly used for mental performance optimization and neurological support."
+        ],
+        "usesIntro": "SEMAX peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Brain fog or reduced concentration",
+          "Memory decline",
+          "Mental fatigue",
+          "High cognitive stress",
+          "Reduced focus or productivity",
+          "Mood imbalance",
+          "Performance optimization"
+        ],
+        "benefits": [
+          { "icon": "📚", "value": "89%", "label": "Memory support" },
+          { "icon": "🛡️", "value": "92%", "label": "Neuro protection" },
+          { "icon": "🌿", "value": "87%", "label": "Stress support" },
+          { "icon": "😊", "value": "91%", "label": "Mood balance" }
+        ],
+        "dosageIntro": "SEMAX peptide therapy at IV Wellness Lounge Dubai is personalized based on clinical assessment and goals.",
+        "dosageProtocol": [
+          "Concentration: 30 mg / 10 mL",
+          "Route: Typically administered intranasally",
+          "Frequency: Determined based on doctor consultation and individual response",
+          "Treatment plans are customized and medically supervised to ensure safe and optimal outcomes"
+        ],
+        "safety": "SEMAX is generally well tolerated. Mild and temporary side effects may include slight nasal irritation, mild headache, or transient stimulation in sensitive individuals.",
+        "contraIntro": "SEMAX peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have severe psychiatric instability",
+          "Are pregnant or breastfeeding",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A medical consultation is required prior to treatment.",
+        "bestFor": "SEMAX is ideal for individuals seeking enhanced cognitive performance, improved focus, mental clarity, and neurological support without reliance on stimulant medications.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized SEMAX peptide therapy at IV Wellness Lounge Dubai and support cognitive performance through advanced, medically guided peptide care."
+      }
+    },
+    {
+      "type": "Calm support",
+      "name": "SELANK",
+      "metadesc": "SELANK peptide therapy at IV Wellness Lounge Dubai is a neuroregulatory peptide designed to support emotional balance, stress resilience, and cognitive clarity. Originally developed for anxiety modulation, SELANK works by influencing neurotransmitters involved in mood regulation, including serotonin and dopamine pathways.",
+      "fromPrice": 0,
+      "slug": "selank-in-dubai",
+      "img": "/assets/img/peptides/41.png",
+      "detailimg": "/assets/img/peptides/42.png",
+      "tags": [],
+      "details": {
+        "headline": "SELANK Peptide Therapy in Dubai | Calm Focus and Anxiety Support",
+        "overview": [
+          "SELANK peptide therapy at IV Wellness Lounge Dubai is a neuroregulatory peptide designed to support emotional balance, stress resilience, and cognitive clarity. Originally developed for anxiety modulation, SELANK works by influencing neurotransmitters involved in mood regulation, including serotonin and dopamine pathways.",
+          "Unlike sedatives or traditional anti-anxiety medications, SELANK does not cause drowsiness or dependency. Instead, it promotes a calm, focused state while supporting cognitive function and mental stability. It is widely used for stress management, mood balance, and performance optimization under pressure."
+        ],
+        "usesIntro": "SELANK peptide therapy may be recommended for individuals experiencing:",
+        "uses": [
+          "Anxiety or stress-related tension",
+          "Mental overwhelm or burnout",
+          "Mood instability",
+          "Difficulty focusing due to stress",
+          "High-performance environments requiring calm clarity",
+          "Sleep disturbances linked to stress"
+        ],
+        "benefits": [
+          { "icon": "😊", "value": "88%", "label": "Mood balance" },
+          { "icon": "🎯", "value": "91%", "label": "Stress focus" },
+          { "icon": "🧘", "value": "86%", "label": "Anxiety relief" },
+          { "icon": "🛡️", "value": "94%", "label": "Emotional strength" }
+        ],
+        "dosageIntro": "SELANK peptide therapy at IV Wellness Lounge Dubai is customized according to clinical assessment.",
+        "dosageProtocol": [
+          "Concentration: 30 mg / 10 mL",
+          "Route: Nasal spray",
+          "Frequency: Determined based on doctor consultation and individual needs",
+          "Treatment plans are personalized and medically supervised to ensure safety and effectiveness"
+        ],
+        "safety": "SELANK is generally well tolerated. Mild and temporary nasal irritation may occur in some individuals. Significant side effects are uncommon when used under medical guidance.",
+        "contraIntro": "SELANK peptide therapy may not be suitable for individuals who:",
+        "contraindications": [
+          "Have severe psychiatric disorders requiring specialized care",
+          "Are pregnant or breastfeeding",
+          "Are under the age of 18"
+        ],
+        "contraOutro": "A medical consultation is required prior to initiating treatment.",
+        "bestFor": "SELANK is ideal for individuals seeking anxiety support, emotional balance, and calm mental clarity without sedation. It is commonly chosen by professionals, high-performing individuals, and those managing chronic stress.",
+        "ctaTitle": "Book a Peptide Consultation in Dubai",
+        "ctaText": "Discover personalized SELANK peptide therapy at IV Wellness Lounge Dubai and restore calm, focus, and emotional balance through medically guided peptide care."
       }
     }
   ],
