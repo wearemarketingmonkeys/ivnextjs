@@ -8,13 +8,26 @@ const BASE = "AED";
 const MANUAL_RATES = {
   AED: 1,
   USD: 0.2723,
-  EUR: 0.251,
-  GBP: 0.215,
+  CAD: 0.37,
+  MXN: 4.65,
+  AUD: 0.38,
+  NZD: 0.45,
+  EUR: 0.24,
+  GBP: 0.20,
   SAR: 1.02,   // example (adjust to your real desired rate)
   QAR: 0.99,   // example
   OMR: 0.105,  // example
   KWD: 0.083,  // example
+  BHD: 0.10,  // example
   INR: 24.6,   // example
+  SGD: 0.36,
+  HKD: 2.13,
+  JPY: 40.5,
+  CHF: 0.24,
+  NOK: 2.85,
+  SEK: 2.80,
+  DKK: 1.87,
+  PLN: 1.08,
 };
 
 export async function GET(req) {

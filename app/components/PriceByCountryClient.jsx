@@ -71,10 +71,17 @@ export default function PriceByCountryClient({
   }, [basePrice, baseCurrency]);
 
   return (
+    <>
+    <span style={{ display: "none" }}>
+      {country}
+    </span>
     <span>
       {loading ? (
         <span className="animate-pulse">...</span>
-      ) : `${country} • ${formatMoney(price, currency)}`}
+      ) : (
+        formatMoney(price, currency)
+      )}
     </span>
+    </>
   );
 }
