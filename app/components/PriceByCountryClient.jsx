@@ -68,9 +68,11 @@ export default function PriceByCountryClient({
 
   return (
     <span>
-      {loading
-        ? formatMoney(Number(basePrice), baseCurrency)
-        : formatMoney(price, currency)}
+      {loading ? (
+        <span className="animate-pulse">...</span>
+      ) : (
+        formatMoney(price, currency)
+      )}
     </span>
   );
 }
