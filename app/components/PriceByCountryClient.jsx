@@ -15,6 +15,7 @@ export default function PriceByCountryClient({
   baseCurrency = "AED",
 }) {
   const [currency, setCurrency] = useState(baseCurrency);
+  const [country, setCountry] = useState(null);
   const [price, setPrice] = useState(Number(basePrice));
   const [loading, setLoading] = useState(true);
 
@@ -29,9 +30,12 @@ export default function PriceByCountryClient({
         const geoRes = await fetch("/api/geo", { cache: "no-store" });
         const geo = await geoRes.json();
         const visitorCurrency = (geo?.currency || baseCurrency).toUpperCase();
+        const visitorCountry = geo?.country || "AE";
 
         if (cancelled) return;
         setCurrency(visitorCurrency);
+        setCountry(visitorCountry);
+
 
         // 2) If same currency, no conversion
         const n = Number(basePrice);
@@ -70,9 +74,7 @@ export default function PriceByCountryClient({
     <span>
       {loading ? (
         <span className="animate-pulse">...</span>
-      ) : (
-        formatMoney(price, currency)
-      )}
+      ) : `${country} • ${formatMoney(price, currency)}`}
     </span>
   );
 }
