@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import boostersData from '../../mocks/energyBoosters.json';
 
+import PriceByCountryClient from "../../components/PriceByCountryClient.jsx";
+
 // ---------- SEO ----------
 export const metadata = {
   title: 'IV Boosters in Dubai | IV Wellness Lounge Clinic Treatments',
@@ -87,9 +89,12 @@ export default function EnergyBoosterPage() {
                       </div>
 
                       {x.price != null && x.price !== '' && (
+                        // <div className="amount">
+                        //   <span>AED</span>
+                        //   <span>{x.price}</span>
+                        // </div>
                         <div className="amount">
-                          <span>AED</span>
-                          <span>{x.price}</span>
+                          <PriceByCountryClient basePrice={x.price} baseCurrency="AED" />
                         </div>
                       )}
                     </div>
