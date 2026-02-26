@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import PriceByCountryClient from "./PriceByCountryClient.jsx";
 
 export default function DripsCard({
   dripsImg,
@@ -29,7 +30,8 @@ export default function DripsCard({
 
           {/* Using a stroke-style button to show the price (links to details) */}
           <Link href={detailsHref} className="btn btn-stroke" aria-label={`Price and details for ${title}`}>
-            {price ? <>AED {price}</> : 'Know More'}
+            {/*{price ? <>AED {price}</> : 'Know More'}*/}
+            {price ? <><PriceByCountryClient basePrice={price} baseCurrency="AED" /></> : 'Know More'}
           </Link>
         </div>
 
