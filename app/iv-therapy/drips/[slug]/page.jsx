@@ -12,7 +12,7 @@ import DripsCard from "../../../components/DripsCard.jsx";
 const ExtrasCarousel = dynamic(() => import('./ExtrasCarouselClient'), { ssr: false });
 const BenefitsAccordion = dynamic(() => import('./BenefitsAccordionClient'), { ssr: false });
 const FaqAccordion  = dynamic(() => import('./FaqAccordionClient'),  { ssr: false });
-
+const PriceByCountryClient  = dynamic(() => import('../../../components/PriceByCountryClient'),  { ssr: false });
 
 // ----------------- helpers -----------------
 const toPublic = (p) => {
@@ -329,7 +329,8 @@ export default function DripDetailPage({ params, searchParams }) {
 
               {/* Price */}
               {heroPrice != null && heroPrice !== '' && (
-                <h2><i>AED {heroPrice}</i>{' '}{drip?.subqty?.length > 0 ? ` / ${drip.subqty}` : ''} / per session</h2>
+                // <h2><i>AED {heroPrice}</i>{' '}{drip?.subqty?.length > 0 ? ` / ${drip.subqty}` : ''} / per session</h2>
+                <h2><i><PriceByCountryClient basePrice={heroPrice} baseCurrency="AED" /></i>{' '}{drip?.subqty?.length > 0 ? ` / ${drip.subqty}` : ''} / per session</h2>
               )}
 
 
