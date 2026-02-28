@@ -31,7 +31,7 @@ const initialState = {
   emiratesId: "",
   dob: "",
   gender: "",
-  crvalue: "",
+  cr: "",
   mobileNumber: "",
   email: "",
   emergencyContact: "",
@@ -109,6 +109,9 @@ export default function ConsentLumecca({ cr }) {
       // append medical history list
       form.medicalHistory.forEach((item) => fd.append("medicalHistory[]", item));
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+
       // signature
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
@@ -136,7 +139,7 @@ export default function ConsentLumecca({ cr }) {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <input type="hidden" name="cr" value={form.crvalue || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       <h2>LUMECCA | BODY FX / MINI FX / EVOKE Treatment Consent Form</h2>
 
       {/* Top patient/visit fields */}
