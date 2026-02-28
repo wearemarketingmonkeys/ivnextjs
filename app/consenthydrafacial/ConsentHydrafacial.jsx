@@ -3,7 +3,7 @@
 
 import React, { useState, useRef } from "react";
 import SignatureCanvas from "react-signature-canvas";
-
+import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -14,6 +14,7 @@ const initialState = {
   dob: "",
   gender: "",
   contact: "",
+  cr: "",
   email: "",
 
   medicalConditions: [],
@@ -48,6 +49,9 @@ export default function ConsentHydrafacial() {
 
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
+
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -137,6 +141,8 @@ export default function ConsentHydrafacial() {
 
   return (
         <form className="form" onSubmit={handleSubmit}>
+
+        <input type="hidden" name="cr" value={cr || ""} />
                   {/* Patient info */}
                   <div className="form-group" style={{ position: "relative" }}>
                     <label>Full Name</label>

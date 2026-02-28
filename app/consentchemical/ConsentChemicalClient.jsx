@@ -4,6 +4,9 @@
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
 
+import { useSearchParams } from "next/navigation";
+
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 // Same options you used before (kept intact)
@@ -26,6 +29,7 @@ const initialState = {
   dob: "",
   gender: "",
   contact: "",
+  cr: "",
   policy1: "",
   email: "",
   skinType: "",
@@ -42,6 +46,9 @@ export default function ConsentChemicalClient() {
   const [suggestions, setSuggestions] = useState([]);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
+
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -122,6 +129,8 @@ export default function ConsentChemicalClient() {
   return (
     <form className="form" onSubmit={onSubmit}>
       {/* Patient Information */}
+      <input type="hidden" name="cr" value={cr || ""} />
+
       <div className="form-group" style={{ position: "relative" }}>
       <label>Full Name</label>
       <input

@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-
+import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const contraindications = [
@@ -45,6 +45,7 @@ const initialState = {
   gender: "",
   contact: "",
   emiratesId: "",
+  cr: "",
   email: "",
   procedureDate: "",
   emergencyContact: "",
@@ -68,6 +69,9 @@ export default function ConsentHIFUClient() {
   const [form, setForm] = useState(initialState);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
+
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -142,6 +146,7 @@ export default function ConsentHIFUClient() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
+      <input type="hidden" name="cr" value={cr || ""} />
       <div className="form-group">
         <label>Full Name</label>
         <input name="fullName" value={form.fullName} onChange={onChange} required />

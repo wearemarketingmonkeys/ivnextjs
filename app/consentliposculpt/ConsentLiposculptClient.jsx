@@ -3,7 +3,7 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-
+import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -12,6 +12,7 @@ const initialState = {
   gender: "",
   contact: "",
   email: "",
+  cr: "",
   emergencyContact: "",
   procedureDate: "",
   practitioner: "",
@@ -91,6 +92,9 @@ export default function ConsentLiposculptClient() {
   const [status, setStatus] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const signatureRef = useRef(null);
+
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -175,6 +179,7 @@ export default function ConsentLiposculptClient() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
+      <input type="hidden" name="cr" value={cr || ""} />
       {/* Patient info */}
       <div className="form-group">
         <label>Full Name</label>

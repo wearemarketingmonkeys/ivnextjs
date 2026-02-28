@@ -3,7 +3,7 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-
+import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 /** Initial form state */
@@ -14,6 +14,7 @@ const initial = {
   dob: "",
   gender: "",
   contact: "",
+  cr: "",
   email: "",
 
   // Treatment specifics
@@ -75,6 +76,9 @@ export default function ConsentLipozeroClient() {
   const [suggestions, setSuggestions] = useState([]);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
+
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -161,6 +165,7 @@ export default function ConsentLipozeroClient() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
+      <input type="hidden" name="cr" value={cr || ""} />
       {/* Patient details */}
       <div className="form-group" style={{ position: "relative" }}>
       <label>Full Name</label>

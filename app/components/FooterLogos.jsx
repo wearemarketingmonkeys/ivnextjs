@@ -1,12 +1,23 @@
 import React from "react";
+import { useSearchParams } from "next/navigation";
+
 
 export default function FooterLogos() {
+  const searchParams = useSearchParams();
+  const cr = searchParams.get("cr");
+
+  const isPalm = cr?.toLowerCase() === "palm";
+
   return (
     <div className="footerlogos">
+
+      {!isPalm && (
       <div className="ivlogo">
         <img src="https://book.ivhub.com/ivblack.png" alt="IV Hub Logo" />
       </div>
+      )}
 
+      {isPalm && (
       <div className="dblogo">
         <svg xmlns="http://www.w3.org/2000/svg" width="183" height="93" viewBox="0 0 183 93">
           <g clipPath="url(#clip0_577_56)" fill="black">
@@ -26,6 +37,8 @@ export default function FooterLogos() {
           </defs>
         </svg>
       </div>
+      )}
+      
     </div>
   );
 }
