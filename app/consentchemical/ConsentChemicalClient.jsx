@@ -6,7 +6,6 @@ import SignatureCanvas from "react-signature-canvas";
 
 import { useSearchParams } from "next/navigation";
 
-
 import FooterLogos from "../components/FooterLogos.jsx";
 
 // Same options you used before (kept intact)
