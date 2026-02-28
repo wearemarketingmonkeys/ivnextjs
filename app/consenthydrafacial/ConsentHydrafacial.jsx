@@ -3,7 +3,7 @@
 
 import React, { useState, useRef } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -43,15 +43,14 @@ const medicalOptions = [
   "Allergies (medication, skincare ingredients, latex, etc.)",
 ];
 
-export default function ConsentHydrafacial() {
+export default function ConsentHydrafacial({ cr }) {
   const [form, setForm] = useState(initialState);
   const [suggestions, setSuggestions] = useState([]);
 
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -142,7 +141,7 @@ export default function ConsentHydrafacial() {
   return (
         <form className="form" onSubmit={handleSubmit}>
 
-        <input type="hidden" name="cr" value={cr || ""} />
+        <input type="hidden" name="cr" value={crvalue || ""} />
                   {/* Patient info */}
                   <div className="form-group" style={{ position: "relative" }}>
                     <label>Full Name</label>

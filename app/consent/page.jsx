@@ -7,6 +7,6 @@ export const metadata = {
   alternates: { canonical: "https://ivhub.com/consent" },
 };
 
-export default function ConsentPage() {
-  return <ConsentClient />;
+export default function ConsentPage({ searchParams }) {
+  return <ConsentClient cr={searchParams.cr}/>;
 }

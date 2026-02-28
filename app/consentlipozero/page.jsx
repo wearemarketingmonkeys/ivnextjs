@@ -27,7 +27,7 @@ export const metadata = {
   },
 };
 
-export default function Page() {
+export default function Page({ searchParams }) {
   return (
     <div className="contact-us">
       <div className="container">
@@ -36,7 +36,7 @@ export default function Page() {
             <div className="form-wrap">
               <div className="right">
                 <h1>LipoZero Consent Form</h1>
-                <ConsentLipozeroClient />
+                <ConsentLipozeroClient cr={searchParams.cr}/>
               </div>
             </div>
           </div>

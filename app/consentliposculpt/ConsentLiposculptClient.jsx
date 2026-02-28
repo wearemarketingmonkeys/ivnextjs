@@ -3,7 +3,6 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -87,14 +86,13 @@ const declarationChecklist = [
   "I give informed, voluntary consent to proceed",
 ];
 
-export default function ConsentLiposculptClient() {
+export default function ConsentLiposculptClient({ cr }) {
   const [form, setForm] = useState(initialState);
   const [status, setStatus] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const signatureRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
 
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -179,7 +177,7 @@ export default function ConsentLiposculptClient() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       {/* Patient info */}
       <div className="form-group">
         <label>Full Name</label>

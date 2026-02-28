@@ -2,7 +2,7 @@
 
 import React, { useMemo, useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const medicalHistoryOptions = [
@@ -57,13 +57,12 @@ const initialState = {
   consentDate: "",
 };
 
-export default function ConsentLumecca() {
+export default function ConsentLumecca({ cr }) {
   const [form, setForm] = useState(initialState);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
 
   const genderOptions = useMemo(() => ["Male", "Female", "Other"], []);
 
@@ -137,7 +136,7 @@ export default function ConsentLumecca() {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       <h2>LUMECCA | BODY FX / MINI FX / EVOKE Treatment Consent Form</h2>
 
       {/* Top patient/visit fields */}

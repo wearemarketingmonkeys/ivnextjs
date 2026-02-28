@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -42,13 +42,12 @@ const peptideOptions = [
 ];
 
 
-export default function ConsentPeptide() {
+export default function ConsentPeptide({ cr }) {
   const [form, setForm] = useState(initialState);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
 
   const handlePeptideToggle = (value, checked) => {
       setForm((prev) => {
@@ -122,7 +121,7 @@ export default function ConsentPeptide() {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       <h2>Patient Details</h2>
 
       <div className="form-group">

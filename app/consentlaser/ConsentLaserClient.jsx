@@ -3,7 +3,7 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -52,14 +52,13 @@ const medicalOptions = [
   "Known allergies to topical anesthetics or post-care products",
 ];
 
-export default function ConsentLaserClient() {
+export default function ConsentLaserClient({ cr }) {
   const [form, setForm] = useState(initialState);
   const [suggestions, setSuggestions] = useState([]);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
   
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -145,7 +144,7 @@ export default function ConsentLaserClient() {
   return (
     <form className="form" onSubmit={onSubmit}>
 
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       {/* Patient info */}
       <div className="form-group" style={{ position: "relative" }}>
         <label>Full Name</label>

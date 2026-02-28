@@ -25,7 +25,7 @@ export const metadata = {
   },
 };
 
-export default function Page() {
+export default function Page({ searchParams }) {
   return (
     <div className="contact-us">
       <div className="container">
@@ -34,7 +34,7 @@ export default function Page() {
             <div className="form-wrap">
               <div className="right">
                 <h1>Chemical Peel Consent Form</h1>
-                <ConsentChemicalClient />
+                <ConsentChemicalClient cr={searchParams.cr}/>
               </div>
             </div>
           </div>

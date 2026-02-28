@@ -33,7 +33,7 @@ export const metadata = {
   },
 };
 
-export default function Page() {
+export default function Page({ searchParams }) {
   return (
     <div className="contact-us">
       <div className="container">
@@ -42,7 +42,7 @@ export default function Page() {
             <div className="form-wrap">
               <div className="right">
                 <h1>Collagen Stimulator Consent Form</h1>
-                <ConsentCollagen />
+                <ConsentCollagen cr={searchParams.cr}/>
               </div>
             </div>
           </div>

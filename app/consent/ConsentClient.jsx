@@ -1,17 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 
-export default function ConsentClient() {
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+export default function ConsentClient({ cr }) {
+
+  const crvalue = cr;
 
   const withCr = (url) => {
-    if (!cr) return url;
+    if (!crvalue) return url;
 
     const separator = url.includes("?") ? "&" : "?";
-    return `${url}${separator}cr=${encodeURIComponent(cr)}`;
+    return `${url}${separator}cr=${encodeURIComponent(crvalue)}`;
   };
 
   return (

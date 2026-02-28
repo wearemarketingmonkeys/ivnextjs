@@ -3,7 +3,6 @@
 
 import { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
 import FooterLogos from "../components/FooterLogos.jsx";
 
 // initial form state
@@ -37,14 +36,13 @@ const medicalOptions = [
   "Keloid or hypertrophic scarring tendency",
 ];
 
-export default function ConsentMicroneedlingClient() {
+export default function ConsentMicroneedlingClient({ cr }) {
   const [form, setForm] = useState(initialState);
   const [suggestions, setSuggestions] = useState([]);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null);
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
   
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -121,7 +119,7 @@ export default function ConsentMicroneedlingClient() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       {/* Patient details */}
       <div className="form-group" style={{ position: "relative" }}>
       <label>Full Name</label>

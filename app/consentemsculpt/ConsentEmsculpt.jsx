@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import SignatureCanvas from "react-signature-canvas";
-import { useSearchParams } from "next/navigation";
+
 import FooterLogos from "../components/FooterLogos.jsx";
 
 const initialState = {
@@ -58,13 +58,12 @@ const contraindicationOptions = [
   "Uncontrolled diabetes or severe metabolic disorders",
 ];
 
-export default function ConsentEmsculpt() {
+export default function ConsentEmsculpt({ cr }) {
   const [form, setForm] = useState(initialState);
   const [status, setStatus] = useState("");
   const sigRef = useRef(null); 
 
-  const searchParams = useSearchParams();
-  const cr = searchParams.get("cr");
+  const crvalue = cr;
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -138,7 +137,7 @@ export default function ConsentEmsculpt() {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <input type="hidden" name="cr" value={cr || ""} />
+      <input type="hidden" name="cr" value={crvalue || ""} />
       {/* PATIENT DETAILS */}
       <h2>Patient Details</h2>
       <div className="form-group">
