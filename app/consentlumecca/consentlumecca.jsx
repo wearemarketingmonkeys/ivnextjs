@@ -31,7 +31,7 @@ const initialState = {
   emiratesId: "",
   dob: "",
   gender: "",
-  cr: "",
+  crvalue: "",
   mobileNumber: "",
   email: "",
   emergencyContact: "",
@@ -136,7 +136,7 @@ export default function ConsentLumecca({ cr }) {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <input type="hidden" name="cr" value={crvalue || ""} />
+      <input type="hidden" name="cr" value={form.crvalue || ""} />
       <h2>LUMECCA | BODY FX / MINI FX / EVOKE Treatment Consent Form</h2>
 
       {/* Top patient/visit fields */}
