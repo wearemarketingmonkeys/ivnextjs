@@ -114,6 +114,9 @@ export default function ConsentHydrafacial({ cr }) {
         }
       });
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+      
       // attach signature if present
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");

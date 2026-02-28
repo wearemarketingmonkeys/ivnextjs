@@ -112,6 +112,9 @@ export default function ConsentEmsculpt({ cr }) {
         }
       });
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
         const blob = await (await fetch(dataUrl)).blob();

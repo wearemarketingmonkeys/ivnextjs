@@ -148,6 +148,9 @@ export default function ConsentLiposculptClient({ cr }) {
         }
       });
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+
       if (signatureRef.current && !signatureRef.current.isEmpty()) {
         const blob = await (await fetch(signatureRef.current.toDataURL())).blob();
         fd.append("patientSignature", blob, "signature.png");

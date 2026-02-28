@@ -100,6 +100,9 @@ export default function ConsentChemicalClient({ cr }) {
         }
       });
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+      
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const blob = await (await fetch(sigRef.current.toDataURL())).blob();
         fd.append("patientSignature", blob, "patient-signature.png");

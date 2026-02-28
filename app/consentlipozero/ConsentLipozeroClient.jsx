@@ -138,6 +138,9 @@ export default function ConsentLipozeroClient({ cr }) {
         }
       });
 
+      // ✅ append cr manually
+      fd.append("cr", cr || "");
+
       // add signature image if present
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const blob = await (await fetch(sigRef.current.toDataURL())).blob();
