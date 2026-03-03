@@ -51,10 +51,6 @@
     }
   }
 
-  .btn-light{
-    font-weight: 600;
-  }
-
   .hero-overlay {
     position: absolute;
     width: 100%;
@@ -68,8 +64,8 @@
     opacity: 0.3;
 
     @include mixin.respond(sm) {
-      height: 950px;
-      min-height: 950px;
+      height: 800px;
+      min-height: 800px;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -84,15 +80,34 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    top: -10%;
 
     @include mixin.respond(sm) {
       gap: 5px;
+      top: 10%;
     }
 
     .btn-wrap{
       @include mixin.respond(sm) {
         gap: 35px;
         flex-direction: row;
+      }
+
+      .btn{
+        padding: 15px 25px;
+        border-radius: 30px; /* Rounded corners for a modern look */
+        color: white;
+        cursor: pointer;
+
+        /* Glass Effect Properties */
+        background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle light border */
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        backdrop-filter: blur(5px); /* The key blur effect */
+        -webkit-backdrop-filter: blur(5px); /* For compatibility */
+
+        /* Optional Enhancements */
+        transition: all 0.3s ease;
       }
     }
 
@@ -211,9 +226,9 @@
       height: 85px;
       margin-top: 24px;
 
-      @include mixin.respond(sm) {
+      /*@include mixin.respond(sm) {
         display: none;
-      }
+      }*/
 
       .hero-bar {
         width: 2px;
