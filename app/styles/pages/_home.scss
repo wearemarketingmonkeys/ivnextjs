@@ -91,7 +91,7 @@
 
     .btn-wrap{
       @include mixin.respond(sm) {
-        gap: 40px;
+        gap: 35px;
         flex-direction: row;
       }
     }
