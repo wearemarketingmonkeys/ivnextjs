@@ -244,14 +244,32 @@ export default function HomeClient() {
 
       {/* Hero */}
       <div className="home-hero">
-        <video className="hero-video" autoPlay muted playsInline loop>
-          <source src="/assets/img/home/home-vid2.mov" type="video/mp4" />
+        <video
+          className="hero-video"
+          autoPlay
+          muted
+          playsInline
+          loop
+        >
+          {/* Mobile */}
+          <source
+            src="/assets/video/home-vid-3-1.mp4"
+            type="video/mp4"
+            media="(max-width: 768px)"
+          />
+
+          {/* Desktop */}
+          <source
+            src="/assets/video/home-vid-3.mp4"
+            type="video/mp4"
+            media="(min-width: 769px)"
+          />
         </video>
         <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
-          <div className="spin-wrap">
+          {/*<div className="spin-wrap">
             <img className="spinner-text" src="/assets/img/home/h1-2.png" alt="spinner" />
-          </div>
+          </div>*/}
           <div className="btn-wrap">
             <Link href="/iv-therapy/drips" className="btn btn-light">IV Drips</Link>
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
