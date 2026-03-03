@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body>
-        {/* <LoveAnimation/> */}
+        <LoveAnimation/>
         {/* GTM noscript (as in your current <body> section) */}
         <noscript>
           <iframe
