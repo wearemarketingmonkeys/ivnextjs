@@ -103,8 +103,6 @@
         background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
         border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle light border */
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-        backdrop-filter: blur(5px); /* The key blur effect */
-        -webkit-backdrop-filter: blur(5px); /* For compatibility */
 
         /* Optional Enhancements */
         transition: all 0.3s ease;
