@@ -265,7 +265,7 @@ export default function HomeClient() {
             media="(min-width: 769px)"
           />
         </video>
-        <div className="hero-overlay" />
+        {/* <div className="hero-overlay" /> */}
         <div className="hero-txt-wrapper">
           {/*<div className="spin-wrap">
             <img className="spinner-text" src="/assets/img/home/h1-2.png" alt="spinner" />
