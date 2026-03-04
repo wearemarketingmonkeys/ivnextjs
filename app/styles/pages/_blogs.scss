@@ -32,4 +32,16 @@
       font-size: 35px !important;
     }
   }
+
+  .hero-section{
+    @media (min-width: 2000px) {
+      height: 900px;
+    }
+
+    .hero-img{
+        @media (min-width: 2000px) {
+          height: 900px;
+        }
+    }
+  }
 }

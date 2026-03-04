@@ -201,6 +201,40 @@ export default function HomeClient() {
   const gotDropdownRef = useRef(null);
   const weveDropdownRef = useRef(null);
 
+  const videoRef = useRef(null);
+  const [videoSrc, setVideoSrc] = useState("/assets/video/home-vid-3.mp4");
+
+  useEffect(() => {
+    const updateVideo = () => {
+      const w = window.innerWidth;
+
+      if (w > 2000 || w < 500) {
+        setVideoSrc("/assets/video/home-vid-3-1.mp4");
+      } else {
+        setVideoSrc("/assets/video/home-vid-3.mp4");
+      }
+    };
+
+    updateVideo();
+    window.addEventListener("resize", updateVideo);
+    return () => window.removeEventListener("resize", updateVideo);
+  }, []);
+
+  // 🔥 Force the video element to reload the new source
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.load(); // important
+
+    const p = video.play();
+    if (p && typeof p.catch === "function") {
+      p.catch(() => {
+        // autoplay might be blocked if not muted
+      });
+    }
+  }, [videoSrc]);
+
   // map filenames to /public paths
   useEffect(() => {
     const updatedOffer = specialOffersData.specialOffersData.map((offer) => ({
@@ -263,25 +297,14 @@ export default function HomeClient() {
       {/* Hero */}
       <div className="home-hero">
         <video
+          ref={videoRef}
           className="hero-video"
           autoPlay
           muted
           playsInline
           loop
         >
-          {/* Mobile */}
-          <source
-            src="/assets/video/home-vid-3-1.mp4"
-            type="video/mp4"
-            media="(max-width: 500px)"
-          />
-
-          {/* Desktop */}
-          <source
-            src="/assets/video/home-vid-3.mp4"
-            type="video/mp4"
-            media="(min-width: 501px)"
-          />
+          <source src={videoSrc} type="video/mp4" />
         </video>
         <audio ref={audioRef} id="bgAudio" loop>
             <source src="/assets/video/home-vid-3-1.mp3" type="audio/mpeg" />
