@@ -81,6 +81,11 @@
       height: 800px;
       max-height: 800px;
     }
+
+    @media (min-width: 2000px) {
+      height: 1000px;
+      max-height: 1000px;
+    }
   }
 
   .hero-txt-wrapper {
