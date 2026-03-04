@@ -187,7 +187,7 @@ export default function HomeClient() {
       document.addEventListener("click", handleClick, { once: true });
     });
   }, []);
-  
+
   const [offers, setOffers] = useState([]);
   const [selectedGot, setSelectedGot] = useState(gotDetails[0]);
   const [got, setGot] = useState(gotDetails.filter((e) => e !== selectedGot));
@@ -273,14 +273,14 @@ export default function HomeClient() {
           <source
             src="/assets/video/home-vid-3-1.mp4"
             type="video/mp4"
-            media="(max-width: 768px)"
+            media="(max-width: 500px)"
           />
 
           {/* Desktop */}
           <source
             src="/assets/video/home-vid-3.mp4"
             type="video/mp4"
-            media="(min-width: 769px)"
+            media="(min-width: 501px)"
           />
         </video>
         <audio ref={audioRef} id="bgAudio" loop>
