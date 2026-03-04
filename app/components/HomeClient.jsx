@@ -170,6 +170,24 @@ const weveGotDetails = [
 ];
 
 export default function HomeClient() {
+
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+
+    // Try autoplay
+    audio.play().catch(() => {
+      console.log("Autoplay with sound blocked — waiting for user interaction.");
+
+      const handleClick = () => {
+        audio.play();
+      };
+
+      document.addEventListener("click", handleClick, { once: true });
+    });
+  }, []);
+  
   const [offers, setOffers] = useState([]);
   const [selectedGot, setSelectedGot] = useState(gotDetails[0]);
   const [got, setGot] = useState(gotDetails.filter((e) => e !== selectedGot));
@@ -265,7 +283,10 @@ export default function HomeClient() {
             media="(min-width: 769px)"
           />
         </video>
-        {/* <div className="hero-overlay" /> */}
+        <audio ref={audioRef} id="bgAudio" loop>
+            <source src="/assets/video/home-vid-3-1.mp3" type="audio/mpeg" />
+        </audio>
+        {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           {/*<div className="spin-wrap">
             <img className="spinner-text" src="/assets/img/home/h1-2.png" alt="spinner" />
