@@ -32,7 +32,7 @@ export default function PeptidesClient({ initialPeptides = [], faq = [] }) {
         <video className="hero-video" autoPlay muted playsInline loop>
           <source src="/assets/video/peptide-2.mp4" type="video/mp4" />
         </video>
-        {/*<div className="hero-overlay" />*/}
+        <div className="hero-overlay" />
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
             <img
