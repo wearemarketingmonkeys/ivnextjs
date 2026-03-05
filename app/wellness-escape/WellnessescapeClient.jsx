@@ -29,7 +29,7 @@ export default function WellnessescapeClient() {
             </p>
             <div className="btn-wrap">
               <a href="https://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20your%20wellness%20escape%20by%20the%20beach,%20could%20you%20help%20me%20with%20the%20available%20slots" className="btn btn-light">Book Your Escape</a>
-              <Link href="#shore-section" className="btn btn-light">View The Experience</Link>
+              <Link href="#view-experience" className="btn btn-light">View The Experience</Link>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function WellnessescapeClient() {
           </div>
         </section>
 
-        <section className="indulgence-carousel">
+        <section id="view-experience" className="indulgence-carousel">
           <div className="container">
 
             <h2>Experience a full day of indulgence</h2>
@@ -120,7 +120,7 @@ export default function WellnessescapeClient() {
           </div>
         </section>
 
-        <section id="shore-section" className="shore-section">
+        <section className="shore-section">
           <img className="shore-bg" src="/assets/img/wellness-escape/wellness-bg.jpg" alt="" />
 
           <div className="shore-overlay" />
