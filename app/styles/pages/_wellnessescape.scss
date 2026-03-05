@@ -175,6 +175,10 @@ html {
       line-height: 1;
       text-align: center;
       font-family: "Futura LT", sans-serif;
+
+      @media(max-width: 500px){
+        font-size: 35px;
+      }
     }
 
     .marquee {
@@ -251,7 +255,7 @@ html {
         font-family: "Futura LT", sans-serif;
 
         @media (max-width: 1024px) {
-          font-size: 44px;
+          font-size: 35px;
         }
       }
 
@@ -357,7 +361,7 @@ html {
         color: #fff;
         text-decoration: none;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 15px;
         font-family: "Nunito Sans", sans-serif;
         transition: transform 0.2s ease, background 0.2s ease;
         font-weight:800;

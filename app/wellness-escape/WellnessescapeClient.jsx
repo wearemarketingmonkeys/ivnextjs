@@ -77,7 +77,6 @@ export default function WellnessescapeClient() {
                   <source
                     src="/assets/img/wellness-escape/wellness-video.mp4"
                     type="video/mp4"
-                    media="(min-width: 501px)"
                   />
                 </video>
               </div>
