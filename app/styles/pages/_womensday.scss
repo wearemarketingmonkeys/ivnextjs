@@ -1,0 +1,190 @@
+@use "../base/fonts" as fonts;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.womensday{
+    align-items: center;
+
+    @media (max-width: 500px) {
+      height: 500px;
+      min-height: 500px;
+    }
+
+    .spin-wrap{
+      max-width: 700px;
+      text-align: center;
+    }
+
+    h1{
+      font-family: fonts.$font-magneta !important;
+    }
+
+    h3{
+        text-align: center;
+        line-height: 1;
+        font-size: 35px;
+        padding-bottom: 15px;
+        font-style: normal !important;
+    }
+
+    .hero-video{
+      @media (max-width: 500px) {
+        height: 500px;
+        min-height: 500px;
+      }
+    }
+
+    .hero-txt-wrapper{
+      top: 0;
+    }
+
+    .hero-txt-wrapper p{
+      text-align: center;
+      font-size: 18px;
+
+      @media (max-width: 500px) {
+        font-size: 14px;
+        padding:10px;
+      }
+    }
+
+    .btn-wrap{
+      margin-top: 20px;
+      display: inline-flex;
+
+      @media (max-width: 500px) {
+        gap: 10px !important;
+      }
+
+      .btn{
+        color: #000 !important;
+        background: #f2eee9 !important;
+
+        @media (max-width: 500px) {
+          font-size: 11px;
+        }
+      }
+    }
+}
+
+.womensday-page {
+  background: #fff;
+
+  .womensday-hero {
+    padding: 50px 0;
+    background: #fff;
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .wd-grid {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 50px;
+      align-items: center;
+
+      @media (max-width: 992px) {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+
+    .wd-image {
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 2px;
+        object-fit: cover;
+      }
+    }
+
+    .wd-content {
+      text-align: center;
+      padding: 10px 10px;
+
+      h2 {
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 1.05;
+        text-align:center;
+        margin-bottom: 10px;
+        font-family: "Futura LT", sans-serif;
+
+        @media (max-width: 992px) {
+          font-size: 40px;
+        }
+      }
+
+      .wd-subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 0.9;
+        text-align:center;
+        margin-bottom: 30px;
+        font-family: "Futura LT", sans-serif;
+      }
+
+      .wd-offer {
+        font-size: 16px;
+        line-height: 1.7;
+        text-align:center;
+
+        p {
+          margin: 2px 0;
+          text-align:center;
+          font-size: 16px;
+          line-height: 1.2;
+          font-family: "Futura LT", sans-serif;
+        }
+
+        .wd-plus {
+          font-weight: 600;
+          margin: 10px 0;
+          letter-spacing: 1px;
+        }
+      }
+
+      .wd-footer {
+        text-align:center;
+        margin-top: 40px;
+        font-size: 16px;
+        opacity: 0.9;
+        font-family: "Futura LT", sans-serif;
+      }
+
+      .wd-btn-wrap {
+        margin-top: 14px;
+      }
+
+      .wd-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 44px;
+        padding: 0 38px;
+        border-radius: 999px;
+        background: #000;
+        color: #f2eee9;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: transform 0.2s ease, background 0.2s ease;
+
+        &:hover {
+          transform: translateY(-2px);
+          background: #cfcfcf;
+          color: #000;
+        }
+      }
+    }
+  }
+}

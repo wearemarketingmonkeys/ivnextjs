@@ -1,0 +1,85 @@
+'use client';
+
+import { useEffect, useMemo, useState } from 'react';
+import dynamic from 'next/dynamic';
+import Link from 'next/link';
+
+
+export default function WomensdayClient() {
+
+  return (
+    <>
+
+      <div className="home-hero womensday">
+        <video
+          className="hero-video"
+          autoPlay
+          muted
+          playsInline
+          loop
+        >
+          <source
+            src="/assets/img/womens-day/wvid.mp4"
+            type="video/mp4"
+          />
+        </video>
+        {/*<div className="hero-overlay" />*/}
+        <div className="hero-txt-wrapper">
+          <div className="spin-wrap">
+            <img
+              className="spinner-text"
+              src="/assets/img/womens-day/womens-day-text.png"
+              alt="spinner"
+            />
+          </div>
+        </div>
+      </div>
+
+      <main className="womensday-page">
+        <section className="womensday-hero">
+          <div className="container">
+            <div className="wd-grid">
+
+              {/* LEFT IMAGE */}
+              <div className="wd-image">
+                <img src="/assets/img/womens-day/wday-1.jpeg" alt="Women's Month" />
+              </div>
+
+              {/* RIGHT CONTENT */}
+              <div className="wd-content">
+                <h2>To the Women Who Do It All</h2>
+                <p className="wd-subtitle">
+                  This Women’s Month, we’re celebrating you the way we know best, with wellness.
+                </p>
+
+                <div className="wd-offer">
+                  <p>Enjoy 15% off your next multi-vitamin/ NAD+ IV Drip</p>
+                  <p className="wd-plus">PLUS</p>
+                  <p>one complimentary add-on from below of your choice:</p>
+
+                  <p>CoQ10 Booster</p>
+                  <p>Quick Energy Boost Shot</p>
+                  <p>Vitamin D Supershot</p>
+
+                  <br />
+
+                  <p>Lip fillers 899</p>
+                  <p>Full face Botox - AED 1899</p>
+                  <p>Korean Glass Skin Booster + free Hydrafacial @AED 999</p>
+                  <p>Fat dissolving injections @AED 120/ml</p>
+                </div>
+
+                <p className="wd-footer">Because strength deserves support.</p>
+
+                <div className="wd-btn-wrap">
+                  <a href="http://wa.me/97180048482?text=Hello!%20I%20would%20like%20to%20avail%20the%20women%27s%20day%20offer%20and%20the%20service%20that%20i%20am%20looking%20for%20is" className="wd-btn">PAMPER ME</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+}
