@@ -713,9 +713,15 @@
 
 .peptidehero{
 
+  align-items: center;
+
     .spin-wrap{
       max-width: 700px;
       text-align: center;
+    }
+
+    .hero-txt-wrapper{
+      top: 0;
     }
 
     h3{
