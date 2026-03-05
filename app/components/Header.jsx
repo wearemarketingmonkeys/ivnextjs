@@ -117,7 +117,7 @@ export default function Header() {
 
   const pathname = usePathname();
 
-  const isHome = pathname === "/" || pathname === "/peptides";
+  const isHome = pathname === "/" || pathname === "/peptides" || pathname === "/wellness-escape";
 
   const [isConcernsOpen, setConcernsOpen] = useState(false);
   const megaRef = useRef(null);
