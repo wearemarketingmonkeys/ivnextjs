@@ -61,6 +61,10 @@ html {
       .btn{
         color: #000 !important;
         background: #f2eee9 !important;
+
+        @media (max-width: 500px) {
+          font-size: 11px;
+        }
       }
     }
 }
