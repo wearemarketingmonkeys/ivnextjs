@@ -151,7 +151,7 @@ export default function WellnessescapeClient() {
                   </ul>
                 </div>
 
-                <a className="shore-btn" href="/book">BOOK NOW</a>
+                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Solo%20Wellness%20Escape%20by%20the%20Sea%20(AED%20199).%20Could%20you%20please%20share%20the%20available%20slots">BOOK NOW</a>
               </div>
 
               <div className="shore-card">
@@ -170,7 +170,7 @@ export default function WellnessescapeClient() {
                   </ul>
                 </div>
 
-                <a className="shore-btn" href="/book">BOOK NOW</a>
+                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Couples%20Wellness%20Escape%20by%20the%20Sea%20(AED%20399).%20Could%20you%20please%20share%20the%20available%20slots%20for%20two">BOOK NOW</a>
               </div>
             </div>
           </div>
