@@ -121,7 +121,19 @@ export default function WellnessescapeClient() {
         </section>
 
         <section id="shore-section" className="shore-section">
-          <img className="shore-bg" src="/assets/img/wellness-escape/wellness-bg.jpg" alt="" />
+          {/*<img className="shore-bg" src="/assets/img/wellness-escape/wellness-bg.jpg" alt="" />*/}
+          <video
+          className="shore-bg"
+          autoPlay
+          muted
+          playsInline
+          loop
+        >
+          <source
+            src="/assets/img/wellness-escape/wellness-escape.mp4"
+            type="video/mp4"
+          />
+        </video>
 
           <div className="shore-overlay" />
 
