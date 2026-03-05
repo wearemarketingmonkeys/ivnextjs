@@ -37,7 +37,7 @@ export default function WellnessescapeClient() {
 
       <main className="wellnesspage">
 
-        <section className="wellness-escape-section">
+        <section id="view-experience" className="wellness-escape-section">
           <div className="container">
             <div className="wellness-grid">
 
@@ -86,7 +86,7 @@ export default function WellnessescapeClient() {
           </div>
         </section>
 
-        <section id="view-experience" className="indulgence-carousel">
+        <section className="indulgence-carousel">
           <div className="container">
 
             <h2>Experience a full day of indulgence</h2>
@@ -120,7 +120,7 @@ export default function WellnessescapeClient() {
           </div>
         </section>
 
-        <section className="shore-section">
+        <section id="shore-section" className="shore-section">
           <img className="shore-bg" src="/assets/img/wellness-escape/wellness-bg.jpg" alt="" />
 
           <div className="shore-overlay" />

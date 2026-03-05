@@ -199,8 +199,8 @@ html {
 
   .shore-section {
     position: relative;
-    min-height: 520px;
-    padding: 70px 0;
+    min-height: 460px;
+    padding: 40px 0;
     overflow: hidden;
 
     .shore-bg {
@@ -244,7 +244,7 @@ html {
       padding-top: 10px;
 
       h2 {
-        font-size: 70px;
+        font-size: 45px;
         font-weight: 300;
         line-height: 1.05;
         margin-bottom: 20px;
@@ -257,7 +257,7 @@ html {
 
       p {
         margin: 8px 0;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 300;
         opacity: 0.95;
         color: #fff;
@@ -290,11 +290,11 @@ html {
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
       display: flex;
       flex-direction: column;
-      min-height: 420px;
+      min-height: 380px;
       font-family: "Futura LT", sans-serif;
 
       h3 {
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 300;
         margin: 0 0 20px;
         font-family: "Futura LT", sans-serif;
@@ -305,7 +305,7 @@ html {
       }
 
       .sub {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 1.4;
         opacity: 0.95;
@@ -320,9 +320,9 @@ html {
         flex: 1;
 
         h4 {
-          font-size: 26px;
+          font-size: 22px;
           font-weight: 600;
-          margin-bottom: 14px;
+          margin-bottom: 10px;
           font-family: "Futura LT", sans-serif;
         }
 
@@ -334,7 +334,7 @@ html {
           gap: 8px;
 
           li {
-            font-size: 17px;
+            font-size: 15px;
             font-weight: 300;
             letter-spacing: 0.2px;
 
@@ -346,11 +346,11 @@ html {
       }
 
       .shore-btn {
-        margin: 26px auto 0;
+        margin: 15px auto 0;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 62px;
+        height: 50px;
         padding: 0 44px;
         border-radius: 999px;
         background: #000;
