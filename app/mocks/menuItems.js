@@ -98,10 +98,10 @@ export const menuItems = [
         },
       ],
     },
-    // {
-    //   label: "Offers",
-    //   to: "/#specialoffers",
-    // },
+    {
+      label: "Offers",
+      to: "/offers",
+    },
     {
       label: "Discover",
       submenuWrapper: [
