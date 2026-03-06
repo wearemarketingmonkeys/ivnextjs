@@ -40,11 +40,9 @@ export default function OffersClient() {
             type="video/mp4"
           />
         </video>
-
         <audio ref={audioRef} id="bgAudio" loop>
             <source src="/assets/img/womens-day/women-day-video.mp3" type="audio/mpeg" />
         </audio>
-        
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
@@ -75,16 +73,17 @@ export default function OffersClient() {
                 </p>
 
                 <div className="wd-offer">
+                  <h4>IV Therapy Offers : </h4>
                   <p>Enjoy 15% off your next multi-vitamin/ NAD+ IV Drip</p>
-                  <p className="wd-plus">PLUS</p>
-                  <p>one complimentary add-on from below of your choice:</p>
+                  <p className="wd-plus">+</p>
+                  <p>One complimentary add-on from below of your choice:</p>
 
                   <p>CoQ10 Booster</p>
                   <p>Quick Energy Boost Shot</p>
                   <p>Vitamin D Supershot</p>
 
                   <br />
-
+                  <h4>Aesthetic & Beauty Offers : </h4>
                   <p>Lip fillers 899</p>
                   <p>Full face Botox - AED 1899</p>
                   <p>Korean Glass Skin Booster + free Hydrafacial @AED 999</p>
