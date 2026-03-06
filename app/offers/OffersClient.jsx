@@ -84,8 +84,8 @@ export default function OffersClient() {
 
                   <br />
                   <h4>Aesthetic & Beauty Offers : </h4>
-                  <p>Lip fillers 899</p>
-                  <p>Full face Botox - AED 1899</p>
+                  <p>Lip fillers @AED 899</p>
+                  <p>Full face Botox @AED 1899</p>
                   <p>Korean Glass Skin Booster + free Hydrafacial @AED 999</p>
                   <p>Fat dissolving injections @AED 120/ml</p>
                 </div>
