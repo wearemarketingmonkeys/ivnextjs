@@ -35,5 +35,7 @@ export const metadata = {
 };
 
 export default function WomensdayPage() {
+
   return <OffersClient />;
+  
 }
