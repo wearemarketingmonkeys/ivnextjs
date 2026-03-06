@@ -129,6 +129,7 @@ html {
         padding-left: 20px;
         margin: 10px auto;
         width: fit-content;
+        text-align: center;
 
         li {
           font-size: 18px;
@@ -136,8 +137,10 @@ html {
           list-style: none;
           background: #f2eee9;
           padding: 10px 15px;
-          border-radius: 5px;
+          border-radius: 50px;
           line-height: 0.7;
+          display: inline-block;
+          margin-right: 10px;
           font-family: "Futura LT", sans-serif;
         }
       }
