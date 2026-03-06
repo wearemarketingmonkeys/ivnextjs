@@ -15,7 +15,7 @@ export default function ValentinesConfetti() {
 
     const interval = setInterval(() => {
       triggerConfetti();
-    }, 30000); // every 20 seconds ≈ 3 hearts per minute
+    }, 130000); // every 20 seconds ≈ 3 hearts per minute
 
     return () => clearInterval(interval);
   }, []); // <-- removed paramName dependency
