@@ -1,4 +1,4 @@
-import WomensdayClient from './WomensdayClient';
+import OffersClient from './OffersClient';
 
 export const metadata = {
   title: "Women's Day Wellness Experience | IV Wellness Lounge Dubai",
@@ -35,5 +35,5 @@ export const metadata = {
 };
 
 export default function WomensdayPage() {
-  return <WomensdayClient />;
+  return <OffersClient />;
 }

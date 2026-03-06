@@ -1,11 +1,28 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
 
-export default function WomensdayClient() {
+export default function OffersClient() {
+
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+
+    // Try autoplay
+    audio.play().catch(() => {
+      console.log("Autoplay with sound blocked — waiting for user interaction.");
+
+      const handleClick = () => {
+        audio.play();
+      };
+
+      document.addEventListener("click", handleClick, { once: true });
+    });
+  }, []);
 
   return (
     <>
@@ -23,6 +40,9 @@ export default function WomensdayClient() {
             type="video/mp4"
           />
         </video>
+        <audio ref={audioRef} id="bgAudio" loop>
+            <source src="/assets/img/womens-day/women-day-video.mp3" type="audio/mpeg" />
+        </audio>
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
