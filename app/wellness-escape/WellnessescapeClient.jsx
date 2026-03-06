@@ -28,7 +28,7 @@ export default function WellnessescapeClient() {
               Designed to Slow Down
             </p>
             <div className="btn-wrap">
-              <a href="https://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20your%20wellness%20escape%20by%20the%20beach,%20could%20you%20help%20me%20with%20the%20available%20slots" className="btn btn-light">Book Your Escape</a>
+              <a href="#shore-section" className="btn btn-light">Book Your Escape</a>
               <Link href="#view-experience" className="btn btn-light">View The Experience</Link>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function WellnessescapeClient() {
                   </ul>
                 </div>
 
-                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Solo%20Wellness%20Escape%20by%20the%20Sea%20(AED%20199).%20Could%20you%20please%20share%20the%20available%20slots">BOOK NOW</a>
+                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Solo%20Wellness%20Escape%20by%20the%20Sea%20(AED%20249).%20Could%20you%20please%20share%20the%20available%20slots">BOOK NOW</a>
               </div>
 
               <div className="shore-card">
@@ -181,7 +181,7 @@ export default function WellnessescapeClient() {
                   </ul>
                 </div>
 
-                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Couples%20Wellness%20Escape%20by%20the%20Sea%20(AED%20399).%20Could%20you%20please%20share%20the%20available%20slots%20for%20two">BOOK NOW</a>
+                <a className="shore-btn" href="http://wa.me/97180048482?text=Hello!%20I%27d%20love%20to%20book%20the%20Couples%20Wellness%20Escape%20by%20the%20Sea%20(AED%20499).%20Could%20you%20please%20share%20the%20available%20slots%20for%20two">BOOK NOW</a>
               </div>
             </div>
           </div>
