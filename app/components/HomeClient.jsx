@@ -296,6 +296,9 @@ export default function HomeClient() {
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
             <Link href="/peptides" className="btn btn-light">Peptides</Link>
           </div>
+          <div className="btn-wrap">
+            <Link href="/wellness-escape" className="btn btn-light">Wellness Experience</Link>
+          </div>
           <div className="locations">
             <span>DIFC</span> | <span>PALM JUMEIRAH</span> | <span>At Home IV Drips</span>
           </div>
