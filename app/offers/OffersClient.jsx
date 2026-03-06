@@ -40,9 +40,11 @@ export default function OffersClient() {
             type="video/mp4"
           />
         </video>
+
         <audio ref={audioRef} id="bgAudio" loop>
             <source src="/assets/img/womens-day/women-day-video.mp3" type="audio/mpeg" />
         </audio>
+        
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
