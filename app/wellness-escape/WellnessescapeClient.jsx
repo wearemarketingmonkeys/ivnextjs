@@ -155,7 +155,7 @@ export default function WellnessescapeClient() {
                 <div className="includes">
                   <h4>Includes:</h4>
                   <ul>
-                    <li>full-day beach access</li>
+                    <li>Full-day beach & pool access</li>
                     <li>Hydrafacial</li>
                     <li>Refreshments</li>
                     <li>Beach Towels &amp; Bathrobes</li>

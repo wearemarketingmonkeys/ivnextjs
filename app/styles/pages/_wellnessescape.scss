@@ -133,7 +133,10 @@ html {
         li {
           font-size: 18px;
           margin-bottom: 10px;
-          list-style: disc;
+          list-style: none;
+          background: #f2eee9;
+          padding: 10px 15px;
+          border-radius: 5px;
           line-height: 0.7;
           font-family: "Futura LT", sans-serif;
         }
