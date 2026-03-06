@@ -52,6 +52,11 @@ export default function ConsentHydrafacial({ cr }) {
 
   const crvalue = cr;
 
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
 
@@ -114,9 +119,6 @@ export default function ConsentHydrafacial({ cr }) {
         }
       });
 
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
-      
       // attach signature if present
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
@@ -425,7 +427,7 @@ export default function ConsentHydrafacial({ cr }) {
                           <div>
                             <div>
                               <p>
-                                I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and
+                                I understand and agree that {clinicName}, its medical practitioners, and
                                 associated staff shall not be held financially liable for:
                               </p>
 

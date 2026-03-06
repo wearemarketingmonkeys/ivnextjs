@@ -49,6 +49,11 @@ export default function ConsentPeptide({ cr }) {
 
   const crvalue = cr;
 
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
+
   const handlePeptideToggle = (value, checked) => {
       setForm((prev) => {
         const next = new Set(prev.peptideSelection);
@@ -286,7 +291,7 @@ export default function ConsentPeptide({ cr }) {
             <strong>1. PURPOSE OF CONSENT</strong>
             <br />
             This informed consent is provided to help you understand the nature
-            of peptide therapy services offered by IV Wellness Lounge Clinic and
+            of peptide therapy services offered by {clinicName} and
             to document your voluntary decision to participate.
           </p>
           <br/>
@@ -404,7 +409,7 @@ export default function ConsentPeptide({ cr }) {
           <p>
             <strong>10. EMERGENCY CARE &amp; ADVERSE EVENT REPORTING</strong>
             <br />
-            IV Wellness Lounge Clinic does not provide emergency or acute care
+            {clinicName} does not provide emergency or acute care
             services in connection with research peptide participation. If you
             experience severe symptoms (e.g., difficulty breathing, chest pain,
             fainting, severe allergic reaction), you must seek emergency care
@@ -416,7 +421,7 @@ export default function ConsentPeptide({ cr }) {
             <strong>11. LIMITATION OF LIABILITY</strong>
             <br />
             To the fullest extent permitted by applicable UAE law, you agree
-            that IV Wellness Lounge Clinic, its owners, directors, officers,
+            that {clinicName}, its owners, directors, officers,
             medical practitioners, nurses, staff, contractors, agents, and
             affiliates shall not be responsible or liable for any adverse
             effects, complications, injuries, losses, or damages arising directly
@@ -436,8 +441,7 @@ export default function ConsentPeptide({ cr }) {
           <p>
             <strong>13. INDEMNIFICATION &amp; HOLD HARMLESS</strong>
             <br />
-            You agree to indemnify, defend, and hold harmless IV Wellness Lounge
-            Clinic, its owners, directors, officers, employees, practitioners,
+            You agree to indemnify, defend, and hold harmless {clinicName}, its owners, directors, officers, employees, practitioners,
             agents, affiliates, and representatives from and against any and all
             claims, demands, liabilities, damages, losses, costs, or expenses
             (including reasonable legal fees) arising out of or related to: (a)

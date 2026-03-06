@@ -296,7 +296,7 @@ export default function HomeClient() {
             <Link href="/aesthetic" className="btn btn-light">Aesthetic</Link>
             <Link href="/peptides" className="btn btn-light">Peptides</Link>
           </div>
-          <div className="btn-wrap">
+          <div className="btn-wrap" style={{ marginTop: "10px" }}>
             <Link href="/wellness-escape" className="btn btn-light">Wellness Experience</Link>
           </div>
           <div className="locations">

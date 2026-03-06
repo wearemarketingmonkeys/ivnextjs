@@ -68,6 +68,11 @@ export default function ConsentCollagen({ cr }) {
   const sigRef = useRef(null);
 
   const crvalue = cr;
+
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
   
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -115,9 +120,6 @@ export default function ConsentCollagen({ cr }) {
           fd.append(k, v ?? "");
         }
       });
-
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
 
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
@@ -365,7 +367,7 @@ export default function ConsentCollagen({ cr }) {
             checked={!!form.liabilityDisclaimer}
             onChange={handleChange}
           />{" "}
-          I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and associated staff shall not be held financially liable for:
+          I understand and agree that {clinicName}, its medical practitioners, and associated staff shall not be held financially liable for:
         </label>
         <ul style={{ paddingLeft: "20px" }}>
             <li>Any unsatisfactory or suboptimal result that may occur despite appropriate technique and materials used</li>

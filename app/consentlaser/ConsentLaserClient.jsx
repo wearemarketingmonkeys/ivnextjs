@@ -59,6 +59,11 @@ export default function ConsentLaserClient({ cr }) {
   const sigRef = useRef(null);
 
   const crvalue = cr;
+
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
   
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -117,9 +122,6 @@ export default function ConsentLaserClient({ cr }) {
           fd.append(k, v ?? "");
         }
       });
-
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
 
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const blob = await (await fetch(sigRef.current.toDataURL())).blob();
@@ -368,7 +370,7 @@ export default function ConsentLaserClient({ cr }) {
               <div>
                 <div>
                   <p>
-                    I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and
+                    I understand and agree that {clinicName}, its medical practitioners, and
                     associated staff shall not be held financially liable for:
                   </p>
 

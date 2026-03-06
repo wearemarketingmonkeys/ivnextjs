@@ -65,6 +65,11 @@ export default function ConsentEmsculpt({ cr }) {
 
   const crvalue = cr;
 
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
 
@@ -111,9 +116,6 @@ export default function ConsentEmsculpt({ cr }) {
           fd.append(k, v ?? "");
         }
       });
-
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
 
       if (sigRef.current && !sigRef.current.isEmpty()) {
         const dataUrl = sigRef.current.toDataURL("image/png");
@@ -345,7 +347,7 @@ export default function ConsentEmsculpt({ cr }) {
       <h2>Liability Disclaimer</h2>
       <div className="form-group">
         <label>
-          <input type="checkbox" name="liabilityDisclaimer" value="I accept liability disclaimer" checked={!!form.liabilityDisclaimer} onChange={handleChange}/> I understand and agree that IV Wellness Lounge Clinic LLC, its medical practitioners, and associated staff shall not be held financially liable for:
+          <input type="checkbox" name="liabilityDisclaimer" value="I accept liability disclaimer" checked={!!form.liabilityDisclaimer} onChange={handleChange}/> I understand and agree that {clinicName}, its medical practitioners, and associated staff shall not be held financially liable for:
         </label>
         <ul style={{ paddingLeft: "20px" }}>
             <li>Any unsatisfactory or suboptimal result that may occur despite appropriate technique and materials used</li>

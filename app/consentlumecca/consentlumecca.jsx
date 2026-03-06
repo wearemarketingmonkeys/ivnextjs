@@ -64,6 +64,11 @@ export default function ConsentLumecca({ cr }) {
 
   const crvalue = cr;
 
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
+
   const genderOptions = useMemo(() => ["Male", "Female", "Other"], []);
 
   const handleChange = (e) => {
@@ -108,9 +113,6 @@ export default function ConsentLumecca({ cr }) {
 
       // append medical history list
       form.medicalHistory.forEach((item) => fd.append("medicalHistory[]", item));
-
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
 
       // signature
       if (sigRef.current && !sigRef.current.isEmpty()) {

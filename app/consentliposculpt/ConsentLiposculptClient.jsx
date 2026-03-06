@@ -94,6 +94,11 @@ export default function ConsentLiposculptClient({ cr }) {
 
   const crvalue = cr;
 
+  const clinicName =
+    crvalue?.toLowerCase() === "palm"
+      ? "Dubanya Wellness Aesthetic Clinic FZE"
+      : "IV Wellness Lounge Clinic LLC";
+
   const onChange = (e) => {
     const { name, value, type, checked } = e.target;
 
@@ -147,9 +152,6 @@ export default function ConsentLiposculptClient({ cr }) {
           fd.append(key, value ?? "");
         }
       });
-
-      // ✅ append cr manually
-      fd.append("cr", cr || "");
 
       if (signatureRef.current && !signatureRef.current.isEmpty()) {
         const blob = await (await fetch(signatureRef.current.toDataURL())).blob();
@@ -374,7 +376,7 @@ export default function ConsentLiposculptClient({ cr }) {
       {/* Disclaimer */}
       <h2>Disclaimer of Liability</h2>
       <p>
-        I understand and agree that IV Wellness Lounge Clinic LLC, its medical
+        I understand and agree that {clinicName}, its medical
         practitioners, and associated staff shall not be held financially liable for
         outcomes including unsatisfactory results despite appropriate technique,
         individual hypersensitivity or delayed reactions, incompatibility of my
