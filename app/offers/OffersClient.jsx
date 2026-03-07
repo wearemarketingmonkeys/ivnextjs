@@ -68,26 +68,40 @@ export default function OffersClient() {
               {/* RIGHT CONTENT */}
               <div className="wd-content">
                 <h2>To the Women Who Do It All</h2>
+
                 <p className="wd-subtitle">
                   This Women’s Month, we’re celebrating you the way we know best, with wellness.
                 </p>
 
-                <div className="wd-offer">
-                  <h4>IV Therapy Offers : </h4>
-                  <p>Enjoy 15% off your next multi-vitamin/ NAD+ IV Drip</p>
-                  <p className="wd-plus">+</p>
-                  <p>One complimentary add-on from below of your choice:</p>
+                <div className="wd-offers-grid">
 
-                  <p>CoQ10 Booster</p>
-                  <p>Quick Energy Boost Shot</p>
-                  <p>Vitamin D Supershot</p>
+                  {/* IV THERAPY */}
+                  <div className="wd-offer-card">
+                    <h4>IV Therapy Offers</h4>
 
-                  <br />
-                  <h4>Aesthetic & Beauty Offers : </h4>
-                  <p>Lip fillers @AED 899</p>
-                  <p>Full face Botox @AED 1899</p>
-                  <p>Korean Glass Skin Booster + free Hydrafacial @AED 999</p>
-                  <p>Fat dissolving injections @AED 120/ml</p>
+                    <p>Enjoy 15% off your next multi-vitamin/ NAD+ IV Drip</p>
+                    <p className="wd-plus">+</p>
+                    <p>One complimentary add-on from below of your choice:</p>
+
+                    <ul>
+                      <li>CoQ10 Booster</li>
+                      <li>Quick Energy Boost Shot</li>
+                      <li>Vitamin D Supershot</li>
+                    </ul>
+                  </div>
+
+                  {/* AESTHETIC */}
+                  <div className="wd-offer-card">
+                    <h4>Aesthetic & Beauty Offers</h4>
+
+                    <ul>
+                      <li>Lip fillers @AED 899</li>
+                      <li>Full face Botox @AED 1899</li>
+                      <li>Korean Glass Skin Booster + free Hydrafacial @AED 999</li>
+                      <li>Fat dissolving injections @AED 120/ml</li>
+                    </ul>
+                  </div>
+
                 </div>
 
                 <p className="wd-footer">Because strength deserves support.</p>

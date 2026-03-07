@@ -147,7 +147,7 @@ html {
 
         .wd-plus {
           font-weight: 600;
-          letter-spacing: 1px;
+          letter-spacing: 0.2px;
         }
       }
 
@@ -183,6 +183,54 @@ html {
           background: #cfcfcf;
           color: #000;
         }
+      }
+
+      .wd-offers-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-top: 30px;
+
+        @media (max-width: 768px) {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .wd-offer-card {
+        padding: 15px 20px;
+        border-radius: 14px;
+        background: #f6f6f6;
+        text-align: center;
+
+        h4 {
+          font-size: 25px;
+          margin-bottom: 15px;
+          font-weight: 600;
+        }
+
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 15px;
+          text-align: center;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin-top: 10px;
+
+          li {
+            margin: 6px 0;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .wd-plus {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 6px 0;
       }
     }
   }
