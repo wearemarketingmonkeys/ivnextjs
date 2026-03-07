@@ -80,6 +80,10 @@ html {
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 20px;
+
+      @media (min-width: 2000px){
+        max-width: 1600px;
+      }
     }
 
     .wd-grid {
@@ -96,7 +100,8 @@ html {
       }
 
       @media (min-width: 2000px){
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
       }
     }
 
@@ -139,6 +144,10 @@ html {
         text-align:center;
         margin-bottom: 30px;
         font-family: "Futura LT", sans-serif;
+
+        @media (min-width: 2000px){
+          font-size: 40px;
+        }
       }
 
       .wd-offer {
@@ -166,6 +175,10 @@ html {
         font-size: 16px;
         opacity: 0.9;
         font-family: "Futura LT", sans-serif;
+
+        @media (min-width: 2000px){
+          font-size: 40px;
+        }
       }
 
       .wd-btn-wrap {
@@ -191,6 +204,12 @@ html {
           transform: translateY(-2px);
           background: #cfcfcf;
           color: #000;
+        }
+
+        @media (min-width: 2000px){
+          font-size: 40px;
+          height: 80px;
+          margin-top: 40px;
         }
       }
 
