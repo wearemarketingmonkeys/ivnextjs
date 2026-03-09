@@ -3,25 +3,25 @@ import WellnessescapeClient from './WellnessescapeClient';
 
 
 export const metadata = {
-  title: 'The Wellness Escape | Private Beach Spa Experience in Dubai | IV Wellness Lounge',
+  title: 'One Day Wellness Escape Dubai | IV Drip, Hydrafacial & Private Beach Access',
   description:
-    "Unwind with The Wellness Escape at IV Wellness Lounge. Enjoy private beach and pool access, Hydrafacial treatment, salt room therapy, and seaside refreshments for a truly unhurried wellness experience in Dubai.",
+    "Enjoy a luxury 1-day wellness escape in Dubai for couples or groups. Includes IV drip therapy, Hydrafacial treatment and full-day private beach access. Recharge your body and mind with our premium wellness experience.",
   alternates: { canonical: 'https://ivhub.com/wellness-escape' },
   keywords:
-    "wellness escape dubai, private beach spa dubai, hydrafacial dubai, salt room therapy dubai, beach wellness experience, luxury spa day dubai, IV Wellness Lounge beach access, pool and spa dubai",
+    "wellness escape Dubai, couples wellness Dubai, group wellness retreat Dubai, IV drip therapy Dubai, Hydrafacial Dubai, luxury wellness experience Dubai, private beach access Dubai",
   openGraph: {
-    title: 'The Wellness Escape | Private Beach Spa Experience in Dubai | IV Wellness Lounge',
+    title: 'One Day Wellness Escape Dubai | IV Drip, Hydrafacial & Private Beach Access',
     description:
-      "Private beach and pool access, Hydrafacial, optional salt room therapy, and refreshments by the sea. Discover wellness, unhurried at IV Wellness Lounge Dubai.",
+      "Enjoy a luxury 1-day wellness escape in Dubai for couples or groups. Includes IV drip therapy, Hydrafacial treatment and full-day private beach access. Recharge your body and mind with our premium wellness experience.",
     url: 'https://ivhub.com/wellness-escape',
     type: 'website',
     images: [{ url: 'https://ivhub.com/og.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Wellness Escape | Private Beach Spa Experience in Dubai | IV Wellness Lounge',
+    title: 'One Day Wellness Escape Dubai | IV Drip, Hydrafacial & Private Beach Access',
     description:
-      "A luxury beachside wellness experience featuring Hydrafacial, salt room therapy, private pool access, and seaside relaxation in Dubai.",
+      "Enjoy a luxury 1-day wellness escape in Dubai for couples or groups. Includes IV drip therapy, Hydrafacial treatment and full-day private beach access. Recharge your body and mind with our premium wellness experience.",
     images: ['https://ivhub.com/og.png'],
   },
 };

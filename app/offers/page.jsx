@@ -1,9 +1,9 @@
 import OffersClient from './OffersClient';
 
 export const metadata = {
-  title: "Women's Day Wellness Experience | IV Wellness Lounge Dubai",
+  title: "Monthly IV Drips & Aesthetic Offers in Dubai | Hydrafacial, Botox Deals | IVHUB",
   description:
-    "Celebrate Women's Day at IV Wellness Lounge Dubai with exclusive wellness experiences, Hydrafacial treatments, IV therapy, and luxury self-care packages designed to empower and rejuvenate women.",
+    "Discover monthly offers on IV therapy, Hydrafacial, Botox, skin boosters, laser hair removal and aesthetic treatments at IVHUB Dubai. Premium wellness treatments at special prices.",
   alternates: {
     canonical: 'https://ivhub.com/offers',
   },
@@ -11,9 +11,9 @@ export const metadata = {
     "Women's day dubai, women's day wellness dubai, women's day spa dubai, women's day hydrafacial dubai, women's day self care dubai, women's wellness experience dubai, IV Wellness Lounge women's day",
 
   openGraph: {
-    title: "Women's Day Wellness Experience | IV Wellness Lounge Dubai",
+    title: "Exclusive Monthly Wellness & Aesthetic Offers | IVHUB Dubai",
     description:
-      "Celebrate women with a luxury wellness experience at IV Wellness Lounge Dubai. Enjoy Hydrafacial, IV therapy, and exclusive Women's Day treatments designed for relaxation, beauty, and rejuvenation.",
+      "Explore monthly deals on IV therapy, Hydrafacial, Botox, skin boosters and laser hair removal at IVHUB Dubai.",
     url: 'https://ivhub.com/offers',
     type: 'website',
     images: [
@@ -27,15 +27,13 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: "Women's Day Wellness Experience | IV Wellness Lounge Dubai",
+    title: "Exclusive Monthly Wellness & Aesthetic Offers | IVHUB Dubai",
     description:
-      "Celebrate Women's Day with luxury wellness treatments, Hydrafacial, IV therapy, and exclusive self-care experiences at IV Wellness Lounge Dubai.",
+      "Explore monthly deals on IV therapy, Hydrafacial, Botox, skin boosters and laser hair removal at IVHUB Dubai.",
     images: ['https://ivhub.com/og.png'],
   },
 };
 
 export default function WomensdayPage() {
-
   return <OffersClient />;
-  
 }
