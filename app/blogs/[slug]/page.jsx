@@ -9,8 +9,10 @@ export const revalidate = 600;
 const toPublicBlogImg = (p) => {
   if (!p) return '';
   // If API gives just a filename (e.g., "post.webp"), map to /public
-  if (!/^https?:\/\//i.test(p) && !p.startsWith('/')) return `/assets/img/blog/${p}`;
-  return p;
+  // if (!/^https?:\/\//i.test(p) && !p.startsWith('/')) return `/assets/img/blog/${p}`;
+  //return p;
+
+  return `/assets/img/blog/blog-page.png`;
 };
 
 const slugify = (t = '') =>

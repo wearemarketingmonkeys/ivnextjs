@@ -30,7 +30,7 @@ export const metadata = {
 
 // Helper: image path mapping
 const toBlogImg = (file) =>
-  file ? (file.startsWith("/") ? file : `/assets/img/blog/${file}`) : "";
+  file ? (file.startsWith("/") ? file : `https://iv-blogs.ivhub.com/${file}`) : "";
 
 function slugifyTitle(t = "") {
   return t.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");

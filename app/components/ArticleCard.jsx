@@ -34,15 +34,15 @@ export default function ArticleCard(props) {
     <article className="articleWrap">
       <div className="content">
         {/* Uncomment if you want the thumbnail visible */}
-        {/* {img ? <img src={img} alt={title || "article"} /> : null} */}
+         {img ? <img src={img} alt={title || "article"} /> : null} 
 
         <h2>
           <Link href={href}>{title}</Link>
         </h2>
 
-        <hr />
+        {/*<hr />*/}
 
-        {desc ? <p>{stripHtmlAndTruncate(desc)}</p> : null}
+        {/*{desc ? <p>{stripHtmlAndTruncate(desc)}</p> : null}*/}
       </div>
 
       <Link href={href} className="read-more-link">
