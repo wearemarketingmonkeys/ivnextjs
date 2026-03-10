@@ -30,6 +30,11 @@ const nextConfig = {
         destination: '/peptides/ser-more-lin-acetate-dubai',
         permanent: true,
       },
+      {
+        source: '/blogs/wellbeing-note',
+        destination: '/blogs/choosing-your-wellbeing-in-uncertain-times-a-gentle-reminder-to-care-for-yourself',
+        permanent: true,
+      },
     ];
   },
 };
