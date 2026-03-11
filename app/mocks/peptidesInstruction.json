@@ -69,5 +69,149 @@
       },
       "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
     }
+  },
+  {
+    "slug": "cjc-ipamorelin-dubai",
+    "name": "CJC + Ipamorelin",
+    "instructions": {
+      "dosePerInjection": [
+        "100 mcg / 100 mcg = 5 units per injection.",
+        "200 mcg / 200 mcg = 10 units per injection."
+      ],
+      "doseProtocol": [
+        "Option 1: Once daily, 5 units (100 mcg / 100 mcg) at bedtime, 2 hours after your last meal.",
+        "Option 2: Twice daily, 5 units (100 mcg / 100 mcg) in the morning 1 hour before breakfast and 5 units (100 mcg / 100 mcg) at bedtime, 2 hours after your last meal.",
+        "Option 3: Once daily, 10 units (200 mcg / 200 mcg) at bedtime, 2 hours after your last meal."
+      ],
+      "penDetails": {
+        "totalPeptide": "Contains 6 mg / 6 mg of CJC-1295 / Ipamorelin",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "2 mg / mL",
+        "duration": "8 weeks for Option 1, 4 weeks for Option 2 and 3 of Dose Protocol"
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months, depending on indication and clinical response.",
+        "note": "Consult your healthcare provider to determine the appropriate CJC / Ipamorelin cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "CJC/Ipamorelin is typically recommended fasted, either in the evening or before bedtime, ideally 2 hours after your last meal, or in the morning 1 hour before breakfast. This aligns with the body's natural peak in growth hormone release."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "epithalon-dubai",
+    "name": "Epithalon",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "5 mg",
+        "units": "30 units",
+        "protocol": "30 units (5 mg) daily"
+      },
+      "penDetails": {
+        "totalPeptide": "50 mg of Epithalon",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "16.6 mg / mL",
+        "duration": "10 days (10 doses) at standard dose"
+      },
+      "recommendedCycles": {
+        "duration": "10 consecutive days, can be repeated after 6 months (maximum 2 cycles per year).",
+        "note": "Consult your healthcare provider to determine the appropriate Epithalon cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Epithalon is typically injected in the evening or before bedtime. This helps enhance its benefits for improving sleep quality and promoting the body’s natural circadian rhythms."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "ghk-cu-dubai",
+    "name": "GHK-Cu",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "1 mg",
+        "units": "10 units",
+        "protocol": "10 units (1 mg) daily"
+      },
+      "penDetails": {
+        "totalPeptide": "30 mg of GHK-Cu",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "10 mg / mL",
+        "duration": "30 days (30 doses) at standard dose"
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate GHK-Cu cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Can be injected at any time of the day, some people prefer mornings or before bed, depending on how it fits into their routine."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "mots-c-dubai",
+    "name": "MOTS-C",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "5 mg",
+        "units": "38 units",
+        "protocol": "38 units (5 mg) twice weekly"
+      },
+      "penDetails": {
+        "totalPeptide": "40 mg of MOTS-C",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "13.3 mg / mL",
+        "duration": "4 weeks (8 doses) at standard dose"
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate MOTS-C cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Morning injections are recommended (fasted state), as it may give you a boost of energy and to take advantage of its energizing effects throughout the day. You can also take it prior to exercise for enhanced performance."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
   }
 ]

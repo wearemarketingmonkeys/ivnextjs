@@ -59,16 +59,47 @@ export default function InstructionsPage({ params }) {
         <div className="max-w-5xl mx-auto py-10 px-6">
 
           <h1 className="text-3xl font-bold mb-8">
-            {peptide.name} Instructions
+            Standard Instructions for {peptide.name} 
           </h1>
           <hr/>
+          <p><small><i>(Doses / Dosages may vary based on doctor consultation)</i></small></p>
           <br/>
           {/* Dose */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-2">Dose Per Injection : </h2>
-            <p>{i.dosePerInjection.amount} = {i.dosePerInjection.units} per injection.</p>
-            <p>Dose Protocol: {i.dosePerInjection.protocol}</p>
+            <h2 className="text-xl font-semibold mb-2">Dose Per Injection</h2>
+
+            {Array.isArray(i.dosePerInjection) ? (
+              <>
+                {i.dosePerInjection.map((dose, index) => (
+                  <p key={index}>{dose}</p>
+                ))}
+              </>
+            ) : (
+              <>
+                <p>
+                  {i.dosePerInjection.amount}
+                  {i.dosePerInjection.units
+                    ? ` = ${i.dosePerInjection.units} per injection.`
+                    : ""}
+                </p>
+                <p>Dose Protocol: {i.dosePerInjection.protocol}</p>
+              </>
+            )}
           </section>
+
+          {Array.isArray(i.doseProtocol) && i.doseProtocol.length > 0 && (
+            <>
+            <br/>
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold mb-2">Dose Protocol</h2>
+
+              {i.doseProtocol.map((item, index) => (
+                <p key={index}>{item}</p>
+              ))}
+            </section>
+            </>
+          )}
+
           <br/>
           {/* Pen Details */}
           <section className="mb-8">
@@ -124,7 +155,8 @@ export default function InstructionsPage({ params }) {
             <h2 className="font-semibold mb-2">Important Information : </h2>
             <p className="text-sm">{i.importantInformation}</p>
           </section>
-
+          <br/>
+          <small><i>For Research and Education purposes only</i></small>
         </div>
       </div>
     </main>
