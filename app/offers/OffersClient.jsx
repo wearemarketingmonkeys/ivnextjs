@@ -101,6 +101,7 @@ export default function OffersClient() {
                       <li>Fat dissolving injections @AED 120/ml</li>
                       <li>HIFU Full Face OR Double Chin and Neck @AED 899</li>
                       <li>HIFU Full Face + Double Chin and Neck @AED 1499</li>
+                      <li>Carbon Laser @AED 499 (Down from AED 699)</li>
                     </ul>
                   </div>
 
