@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "aod-9604-dubai",
+    "name": "AOD-9604",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "500 mcg",
+        "units": "10 units",
+        "protocol": "10 units (500 mcg) once daily"
+      },
+      "penDetails": {
+        "totalPeptide": "15 mg of AOD-9604",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "5 mg/mL",
+        "duration": "30 days (30 doses)"
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months",
+        "note": "Consult your healthcare provider to determine the appropriate AOD-9604 cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh, or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "timeOfDay": {
+        "morning": "Administer in the morning on an empty stomach at least 2 hours before food.",
+        "night": "Alternatively administer at night at least 1 hour after your last meal."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions.",
+      "instructionImage": "/assets/img/peptides/aod-ins.png"
+    }
+  },
+  {
+    "slug": "bpc-157-dubai",
+    "name": "BPC-157",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "500 mcg",
+        "units": "15 units",
+        "protocol": "15 units (500 mcg) daily"
+      },
+      "penDetails": {
+        "totalPeptide": "10 mg of BPC-157",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "3.3 mg / mL",
+        "duration": "20 days (20 doses) at standard dose"
+      },
+      "recommendedCycles": {
+        "duration": "2 weeks to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate BPC-157 cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm) or directly into the area of injury or soreness for targeted relief. Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "BPC-157 can be injected any time of day. Some people prefer doing it in the morning or evening depending on how it fits into their routine."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  }
+]
