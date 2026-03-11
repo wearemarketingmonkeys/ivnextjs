@@ -99,6 +99,8 @@ export default function OffersClient() {
                       <li>Full face Botox @AED 1899</li>
                       <li>Korean Glass Skin Booster + free Hydrafacial @AED 999</li>
                       <li>Fat dissolving injections @AED 120/ml</li>
+                      <li>HIFU Full Face OR Double Chin and Neck @AED 899</li>
+                      <li>HIFU Full Face + Double Chin and Neck @AED 1499</li>
                     </ul>
                   </div>
 
