@@ -105,7 +105,7 @@ export default function InstructionsPage({ params }) {
           <br/>
           <section className="mb-8">
             <InstructionVideoButton
-              videoUrl={i.instructionVideo || 'https://mails.ivhub.com/peptide-instruction.MP4'}
+              videoUrl={i.instructionVideo || 'https://mails.ivhub.com/peptide-instruction.mp4'}
               peptideName={peptide.name}
             />
           </section>
