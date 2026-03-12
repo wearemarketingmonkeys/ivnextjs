@@ -79,7 +79,7 @@ export default function OffersClient() {
                   <div className="wd-offer-card">
                     <h4>IV Therapy Offers</h4>
 
-                    <p>Enjoy 15% off your next multi-vitamin/ NAD+ IV Drip</p>
+                    <p>Enjoy 20% off your next multi-vitamin/ NAD+ IV Drip</p>
                     <p className="wd-plus">+</p>
                     <p>One complimentary add-on from below of your choice:</p>
 
@@ -87,6 +87,7 @@ export default function OffersClient() {
                       <li>CoQ10 Booster</li>
                       <li>Quick Energy Boost Shot</li>
                       <li>Vitamin D Supershot</li>
+                      <li>Iron Boost</li>
                     </ul>
                   </div>
 
