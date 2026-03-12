@@ -9,20 +9,20 @@ export default function OffersClient() {
 
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    const audio = audioRef.current;
+  // useEffect(() => {
+  //   const audio = audioRef.current;
 
-    // Try autoplay
-    audio.play().catch(() => {
-      console.log("Autoplay with sound blocked — waiting for user interaction.");
+  //   // Try autoplay
+  //   audio.play().catch(() => {
+  //     console.log("Autoplay with sound blocked — waiting for user interaction.");
 
-      const handleClick = () => {
-        audio.play();
-      };
+  //     const handleClick = () => {
+  //       audio.play();
+  //     };
 
-      document.addEventListener("click", handleClick, { once: true });
-    });
-  }, []);
+  //     document.addEventListener("click", handleClick, { once: true });
+  //   });
+  // }, []);
 
   return (
     <>
@@ -40,9 +40,9 @@ export default function OffersClient() {
             type="video/mp4"
           />
         </video>
-        <audio ref={audioRef} id="bgAudio" loop>
+        {/*<audio ref={audioRef} id="bgAudio" loop>
             <source src="/assets/img/womens-day/women-day-video.mp3" type="audio/mpeg" />
-        </audio>
+        </audio>*/}
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">

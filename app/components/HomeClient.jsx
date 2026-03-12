@@ -173,20 +173,20 @@ export default function HomeClient() {
 
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    const audio = audioRef.current;
+  // useEffect(() => {
+  //   const audio = audioRef.current;
 
-    // Try autoplay
-    audio.play().catch(() => {
-      console.log("Autoplay with sound blocked — waiting for user interaction.");
+  //   // Try autoplay
+  //   audio.play().catch(() => {
+  //     console.log("Autoplay with sound blocked — waiting for user interaction.");
 
-      const handleClick = () => {
-        audio.play();
-      };
+  //     const handleClick = () => {
+  //       audio.play();
+  //     };
 
-      document.addEventListener("click", handleClick, { once: true });
-    });
-  }, []);
+  //     document.addEventListener("click", handleClick, { once: true });
+  //   });
+  // }, []);
 
   const [offers, setOffers] = useState([]);
   const [selectedGot, setSelectedGot] = useState(gotDetails[0]);
@@ -283,9 +283,9 @@ export default function HomeClient() {
             media="(min-width: 501px)"
           />
         </video>
-        <audio ref={audioRef} id="bgAudio" loop>
+        {/*<audio ref={audioRef} id="bgAudio" loop>
             <source src="/assets/video/home-vid-3-1.mp3" type="audio/mpeg" />
-        </audio>
+        </audio>*/}
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           {/*<div className="spin-wrap">
