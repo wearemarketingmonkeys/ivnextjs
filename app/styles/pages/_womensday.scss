@@ -257,6 +257,11 @@ html {
           padding: 0;
           margin-top: 10px;
 
+          @media(max-width:500px){
+            list-style: disc;
+            text-align: left;
+          }
+
           li {
             margin: 6px 0;
             font-size: 16px;
