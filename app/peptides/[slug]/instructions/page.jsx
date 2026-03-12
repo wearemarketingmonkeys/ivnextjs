@@ -66,36 +66,41 @@ export default function InstructionsPage({ params }) {
           <br/>
           {/* Dose */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-2">Dose Per Injection</h2>
+            <h2 className="text-xl font-semibold mb-2">
+              {i.dosePerPuff ? "Dose Per Puff" : "Dose Per Injection"}
+            </h2>
 
-            {Array.isArray(i.dosePerInjection) ? (
-              <>
-                {i.dosePerInjection.map((dose, index) => (
-                  <p key={index}>{dose}</p>
-                ))}
-              </>
-            ) : (
+            {Array.isArray(i.dosePerInjection) &&
+              i.dosePerInjection.map((dose, index) => (
+                <p key={index}>{dose}</p>
+              ))}
+
+            {Array.isArray(i.dosePerPuff) &&
+              i.dosePerPuff.map((dose, index) => (
+                <p key={index}>{dose}</p>
+              ))}
+
+            {i.dosePerInjection && !Array.isArray(i.dosePerInjection) && (
               <>
                 <p>
-                  {i.dosePerInjection.amount}
-                  {i.dosePerInjection.units
-                    ? ` = ${i.dosePerInjection.units} per injection.`
-                    : ""}
+                  {i.dosePerInjection.amount} = {i.dosePerInjection.units} per injection.
                 </p>
                 <p>Dose Protocol: {i.dosePerInjection.protocol}</p>
               </>
             )}
           </section>
-
-          {Array.isArray(i.doseProtocol) && i.doseProtocol.length > 0 && (
+          
+          {i.doseProtocol && (
             <>
             <br/>
             <section className="mb-8">
               <h2 className="text-xl font-semibold mb-2">Dose Protocol</h2>
 
-              {i.doseProtocol.map((item, index) => (
-                <p key={index}>{item}</p>
-              ))}
+              {Array.isArray(i.doseProtocol)
+                ? i.doseProtocol.map((item, index) => (
+                    <p key={index}>{item}</p>
+                  ))
+                : <p>{i.doseProtocol}</p>}
             </section>
             </>
           )}
@@ -103,10 +108,25 @@ export default function InstructionsPage({ params }) {
           <br/>
           {/* Pen Details */}
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-2">Pen Details : </h2>
-            <p>{i.penDetails.totalPeptide} in {i.penDetails.volume}</p>
-            <p>Concentration: {i.penDetails.concentration}</p>
-            <p>Duration: {i.penDetails.duration}</p>
+            <h2 className="text-xl font-semibold mb-2">
+              {i.nasalSprayDetails ? "Nasal Spray Details" : "Pen Details"}
+            </h2>
+
+            {i.penDetails && (
+              <>
+                <p>{i.penDetails.totalPeptide} in {i.penDetails.volume}</p>
+                <p>Concentration: {i.penDetails.concentration}</p>
+                <p>Duration: {i.penDetails.duration}</p>
+              </>
+            )}
+
+            {i.nasalSprayDetails && (
+              <>
+                <p>{i.nasalSprayDetails.totalPeptide} in {i.nasalSprayDetails.volume}</p>
+                <p>Concentration: {i.nasalSprayDetails.concentration}</p>
+                <p>Duration: {i.nasalSprayDetails.duration}</p>
+              </>
+            )}
           </section>
           <br/>
           {/* Cycles */}
@@ -119,28 +139,38 @@ export default function InstructionsPage({ params }) {
           </section>
           <br/>
           {/* Injection Sites */}
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-2">Injection Site : </h2>
-            <p className="mb-4">{i.injectionSite.description}</p>
+          {i.injectionSite && (
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold mb-2">Injection Site</h2>
 
-            {i.instructionImage && (
-              <img
-                src={i.instructionImage}
-                alt={`${peptide.name} injection sites`}
-                className="border rounded-lg"
+              <p className="mb-4">{i.injectionSite.description}</p>
+
+              {i.instructionImage && (
+                <img
+                  src={i.instructionImage}
+                  alt={`${peptide.name} injection sites`}
+                  className="border rounded-lg"
+                />
+              )}
+            </section>
+          )}
+          
+
+          {i.instructionImage && (
+            <>
+            <br/>
+            <br/>
+            <br/>
+            <section className="mb-8">
+              <InstructionVideoButton
+                videoUrl={i.instructionVideo || 'https://mails.ivhub.com/peptide-instruction.mp4'}
+                peptideName={peptide.name}
               />
-            )}
-          </section>
-          <br/>
-          <br/>
-          <br/>
-          <section className="mb-8">
-            <InstructionVideoButton
-              videoUrl={i.instructionVideo || 'https://mails.ivhub.com/peptide-instruction.mp4'}
-              peptideName={peptide.name}
-            />
-          </section>
-          <br/>
+            </section>
+            <br/>
+            </>
+          )}
+          
           {/* Time */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-2">Time of Day : </h2>

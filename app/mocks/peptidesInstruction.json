@@ -213,5 +213,270 @@
       },
       "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
     }
+  },
+  {
+    "slug": "nad-plus-peptide-in-dubai",
+    "name": "NAD+",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "50 mg",
+        "units": "18 units",
+        "protocol": "18 units (50 mg) daily for 3 consecutive days, followed by 1 day of rest. Thereafter, 18 units (50 mg) every other day."
+      },
+      "penDetails": {
+        "totalPeptide": "Contains 850 mg of NAD+",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "283.3 mg / mL",
+        "duration": "1 month (17 doses) at standard dose"
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate NAD+ cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "NAD+ should be injected subcutaneously, into fatty areas like the stomach, thigh or upper arm. Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Morning injections are recommended, as it may give you a boost of energy and to take advantage of its energizing effects throughout the day. You can also take it prior to exercise."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "pt-141-dubai",
+    "name": "PT-141",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "2 mg",
+        "units": "38 units",
+        "protocol": "38 units (2 mg) as needed, (30-60 minutes before sexual activity)."
+      },
+      "penDetails": {
+        "totalPeptide": "Contains 16 mg of PT-141",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "5.3 mg / mL",
+        "duration": "Enough for 8 doses."
+      },
+      "recommendedCycles": {
+        "duration": "PT-141 does not require cycling. It is used on an as-needed basis, typically 30 - 60 minutes before intimacy or when desiring increased libido and connection.",
+        "note": "Do not exceed 8 doses per month."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Best used 30-60 minutes before sexual activity for peak effectiveness. If taken too late at night, some users may experience residual effects the next day. Consult your healthcare provider to determine the appropriate PT-141 dose for your condition."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "ser-more-lin-acetate-dubai",
+    "name": "SER-MORE-LIN",
+    "instructions": {
+      "dosePerInjection": [
+        "100 mcg = 10 units per injection.",
+        "200 mcg = 20 units per injection.",
+        "300 mcg = 30 units per injection."
+      ],
+      "doseProtocol": [
+        "Option 1: Once daily, 10 units (100 mcg) at bedtime.",
+        "Option 2: Once daily, 20 units (200 mcg) at bedtime.",
+        "Option 3: Once daily, 30 units (300 mcg) at bedtime."
+      ],
+      "penDetails": {
+        "totalPeptide": "Contains 3 mg of SER-MORE-LIN",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "1 mg / mL",
+        "duration": "30 days for Option 1, 15 days for Option 2 and 10 days for Option 3 of Dose Protocol."
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate SER-MORE-LIN cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "SER-MORE-LIN is recommended to be injected in the evening before bed, this aligns with the body's natural peak in growth hormone release."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "thymosin-alpha-1-dubai",
+    "name": "Thymosin Alpha-1",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "1.6 mg",
+        "units": "38 units",
+        "protocol": "38 units (1.6 mg) twice weekly."
+      },
+      "penDetails": {
+        "totalPeptide": "Contains 12.8 mg of Thymosin Alpha",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "4.26 mg / mL",
+        "duration": "4 weeks (8 doses) at standard dose."
+      },
+      "recommendedCycles": {
+        "duration": "2 to 6 months, depending on indication and clinical response.",
+        "note": "Consult your healthcare provider to determine the appropriate Thymosin Alpha-1 cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Can be injected at any time of the day, some people prefer mornings or before bed, depending on how it fits into their routine."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "tb-500-dubai",
+    "name": "TB-500",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "5 mg",
+        "units": "60 units",
+        "protocol": "60 units (5 mg) once weekly."
+      },
+      "penDetails": {
+        "totalPeptide": "Contains 25 mg of TB-500",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "8.3 mg / mL",
+        "duration": "5 weeks (5 doses) at standard dose."
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate TB-500 cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh, or arm) or directly into the area of injury or soreness for targeted relief. Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Can be injected at any time of the day, some people prefer mornings or before bed, depending on how it fits into their routine."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "tesamorelin-in-dubai",
+    "name": "Tesamorelin",
+    "instructions": {
+      "dosePerInjection": {
+        "amount": "2 mg",
+        "units": "10 units",
+        "protocol": "10 units (2 mg) daily."
+      },
+      "penDetails": {
+        "totalPeptide": "Contains 60 mg of Tesamorelin",
+        "volume": "3 mL Prefilled Cartridge",
+        "concentration": "20 mg / mL",
+        "duration": "30 days (30 doses) at standard dose."
+      },
+      "recommendedCycles": {
+        "duration": "1 to 3 months.",
+        "note": "Consult your healthcare provider to determine the appropriate Tesamorelin cycle for your condition."
+      },
+      "injectionSite": {
+        "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
+        "areas": [
+          "Upper Arm",
+          "Abdomen",
+          "Hip",
+          "Thigh"
+        ]
+      },
+      "instructionImage": "/assets/img/peptides/aod-ins.png",
+      "timeOfDay": {
+        "general": "Tesamorelin is typically injected in the evening or before bedtime 2 hours after your last meal. This aligns with the body's natural peak in growth hormone release during sleep, enhancing effectiveness."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "semax-in-dubai",
+    "name": "Semax",
+    "instructions": {
+      "dosePerPuff": [
+        "300 mcg = 1 puff",
+        "600 mcg = 2 puffs"
+      ],
+      "doseProtocol": "1 puff in each nostril = 600 mcg",
+      "nasalSprayDetails": {
+        "totalPeptide": "Contains 30 mg of Semax",
+        "volume": "10 mL Nasal Spray",
+        "concentration": "3 mg / mL",
+        "duration": "50 days (50 doses) for standard dose protocol."
+      },
+      "recommendedCycles": {
+        "duration": "14 days up to 1 month, followed by 2 - 4 weeks break before starting a new cycle.",
+        "note": "Consult your healthcare provider to determine the appropriate Semax cycle for your condition."
+      },
+      "timeOfDay": {
+        "general": "Best used in the morning and early afternoon (may be stimulating). Avoid using late in the evening to prevent sleep disturbance."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
+  },
+  {
+    "slug": "selank-in-dubai",
+    "name": "Selank",
+    "instructions": {
+      "dosePerPuff": [
+        "300 mcg = 1 puff",
+        "600 mcg = 2 puffs"
+      ],
+      "doseProtocol": "1 puff in each nostril = 600 mcg",
+      "nasalSprayDetails": {
+        "totalPeptide": "Contains 30 mg of Selank",
+        "volume": "10 mL Nasal Spray",
+        "concentration": "3 mg / mL",
+        "duration": "50 days (50 doses) for standard dose protocol."
+      },
+      "recommendedCycles": {
+        "duration": "14 days up to 1 month, followed by 2 - 4 weeks break before starting a new cycle.",
+        "note": "Consult your healthcare provider to determine the appropriate Selank cycle for your condition."
+      },
+      "timeOfDay": {
+        "general": "Best used in the morning and early afternoon."
+      },
+      "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
+    }
   }
 ]
