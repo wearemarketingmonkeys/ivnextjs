@@ -191,7 +191,6 @@ export default function ConsentPeptide({ cr }) {
                     gender: s.gender,
                     email: s.email,
                     dob: s.dob,
-                    consentDate: s.consentDate,
                     mobileNumber: s.contact,
                     practitionerName: s.practitionerName,
                   }));
