@@ -243,12 +243,35 @@
       }*/
 
       .hero-bar {
+        position: relative;
         width: 2px;
-        height: 85px;
-        background-color: vars.$white-color;
-        animation: topBottom 2s linear infinite;
+        height: 60px;
+        background-color: #fff;
+        margin: 0 auto;
+        animation: moveDown 2s linear infinite;
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -6px;
+          left: 50%;
+          transform: translateX(-50%) rotate(45deg);
+          width: 10px;
+          height: 10px;
+          border-right: 2px solid #fff;
+          border-bottom: 2px solid #fff;
+        }
       }
     }
+  }
+}
+
+@keyframes moveDown {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 100px;
   }
 }
 
