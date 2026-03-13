@@ -208,7 +208,7 @@ export default function ConsentPeptide({ cr }) {
                   }
                 }}
               >
-                ({s.contact})
+                {s.patientName} ({s.contact})
               </li>
             ))}
           </ul>
