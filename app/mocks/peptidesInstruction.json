@@ -396,7 +396,7 @@
   },
   {
     "slug": "tesamorelin-in-dubai",
-    "name": "Tesamorelin",
+    "name": "TES A Morelin",
     "instructions": {
       "dosePerInjection": {
         "amount": "2 mg",
@@ -404,14 +404,14 @@
         "protocol": "10 units (2 mg) daily."
       },
       "penDetails": {
-        "totalPeptide": "Contains 60 mg of Tesamorelin",
+        "totalPeptide": "Contains 60 mg of TES A Morelin",
         "volume": "3 mL Prefilled Cartridge",
         "concentration": "20 mg / mL",
         "duration": "30 days (30 doses) at standard dose."
       },
       "recommendedCycles": {
         "duration": "1 to 3 months.",
-        "note": "Consult your healthcare provider to determine the appropriate Tesamorelin cycle for your condition."
+        "note": "Consult your healthcare provider to determine the appropriate TES A Morelin cycle for your condition."
       },
       "injectionSite": {
         "description": "Administer injections into subcutaneous fat (such as the stomach, thigh or arm). Rotate injection sites to avoid irritation.",
@@ -424,7 +424,7 @@
       },
       "instructionImage": "/assets/img/peptides/aod-ins.png",
       "timeOfDay": {
-        "general": "Tesamorelin is typically injected in the evening or before bedtime 2 hours after your last meal. This aligns with the body's natural peak in growth hormone release during sleep, enhancing effectiveness."
+        "general": "TES A Morelin is typically injected in the evening or before bedtime 2 hours after your last meal. This aligns with the body's natural peak in growth hormone release during sleep, enhancing effectiveness."
       },
       "importantInformation": "This is a compounded medication dispensed only by prescription. Use strictly as directed by your doctor. Do not change the dose without medical advice. Consult your doctor regarding side effects, contraindications, and possible drug interactions."
     }
