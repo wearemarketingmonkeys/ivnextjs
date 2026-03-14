@@ -175,7 +175,7 @@ export default function WellnessescapeClient() {
                   <h4>Includes:</h4>
                   <ul>
                     <li>full-day beach access for 2</li>
-                    <li>Hydrafacial for 2</li>
+                    <li>Hydrafacial OR Salt Room Therapy for 2</li>
                     <li>Refreshments for 2</li>
                     <li>Beach Towels &amp; Bathrobes for 2</li>
                   </ul>
