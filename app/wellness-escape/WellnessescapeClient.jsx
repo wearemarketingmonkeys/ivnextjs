@@ -172,12 +172,12 @@ export default function WellnessescapeClient() {
                 </p>
 
                 <div className="includes">
-                  <h4>Includes:</h4>
+                  <h4>Includes for 2:</h4>
                   <ul>
-                    <li>full-day beach access for 2</li>
-                    <li>Hydrafacial OR Salt Room Therapy for 2</li>
-                    <li>Refreshments for 2</li>
-                    <li>Beach Towels &amp; Bathrobes for 2</li>
+                    <li>full-day beach access</li>
+                    <li>Hydrafacial OR Salt Room Therapy</li>
+                    <li>Refreshments</li>
+                    <li>Beach Towels &amp; Bathrobes</li>
                   </ul>
                 </div>
 
