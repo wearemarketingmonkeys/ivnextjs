@@ -80,7 +80,51 @@ export default function CancellationPolicy() {
           <li>IV Wellness Lounge Clinic provides wellness and medical services (such as IV drips and treatments) with the goal of improving clients’ well-being. However, individual results will vary from person to person. We do not guarantee specific outcomes or particular results from any of our services, as many factors (health status, genetics, lifestyle, hydration, etc.) influence how you respond to a treatment. Consequently, dissatisfaction with the results or perceived lack of improvement is not grounds for a refund on services rendered. Our practitioners will do their best to set appropriate expectations and deliver quality care, but by proceeding with a treatment you acknowledge that results are not assured. We encourage clients to discuss any concerns or questions about a treatment’s expected benefits during the consultation stage, before services are provided. (This results policy aligns with standard practices in wellness and medical services – for instance, other therapy providers also do not offer refunds solely for unsatisfactory outcomes. We stand by the quality of our services and will work with you to achieve the best possible results, but we cannot promise a specific outcome for every individual.)</li>
         </ul>
         <br/>
-        <h2>General Terms and Conditions</h2>
+        <h1>Peptide Orders – Special Order, Research Use Acknowledgment & Non-Refundable Policy</h1>
+        <p>Certain peptide products offered by IV Wellness Lounge may be ordered, prepared, sourced, compounded, or allocated specifically upon a client’s request and according to the selected protocol, dosage requirements, or practitioner recommendation. Due to the customized nature of such orders, and in light of applicable hygiene, storage, handling, and medical safety requirements, all peptide orders are final and strictly non-refundable once the order has been confirmed, processed, prepared, allocated, or dispatched, whichever occurs first.</p>
+        <br/>
+        <p>By requesting, purchasing, or proceeding with any peptide-related order, the client expressly acknowledges and agrees to the following:</p>
+        <ol style={{ marginTop: '20px', paddingLeft: '20px' }}>
+          <li><b>Custom Order Basis</b> - Peptide products are treated as special-order or custom-prepared items. Once an order
+          has been confirmed, IV Wellness Lounge may immediately begin procurement, preparation, handling,
+          labeling, storage, or internal allocation processes. For this reason, peptide orders cannot be canceled,
+          returned, exchanged, credited, or refunded after confirmation, including in cases of change of mind,
+          postponed treatment, discontinued treatment, scheduling conflicts, or a decision not to proceed</li>
+          <li><b>Research / Investigational Use Acknowledgment</b> - The client acknowledges and agrees that any peptide
+          products supplied by IV Wellness Lounge are provided on a research-use and/or investigational basis only,
+          as applicable to the relevant product and protocol. By placing an order, the client confirms that they
+          understand and accept this condition and assume full responsibility for their decision to request such products</li>
+          <li><b>No Refund After Confirmation</b> - Once a peptide order is confirmed, processed, prepared, or reserved, no
+          refund will be issued under any circumstances, except where required by applicable law or where IV
+          Wellness Lounge, in its sole discretion, is unable to fulfill the order for reasons solely attributable to IV
+          Wellness Lounge.</li>
+          <li><b>No Return or Reuse</b> - For hygiene, quality assurance, handling, and safety reasons, peptide products that
+          have been prepared, dispensed, stored, transported, or released for a specific client may not be returned to
+          stock, reissued, or reused, and therefore cannot be accepted back for refund or exchange.</li>
+          <li><b>Client Responsibility</b> - The client is solely responsible for ensuring that they wish to proceed before
+          confirming the order. This includes responsibility for reviewing pricing, protocol selection, dosage
+          requirements, booking status, and any scheduling considerations in advance.</li>
+          <li><b>Refusal, Postponement, or Discontinuation</b> - If a client later postpones treatment, declines administration,
+          discontinues the protocol, fails to attend the appointment, becomes medically unsuitable, or otherwise elects
+          not to proceed after the peptide order has been confirmed, the order will remain non-refundable and nontransferable.</li>
+          <li><b>Limitation of Liability</b><br/>
+          IV Wellness Lounge shall not be liable for any loss, claim, cost, or damage arising out of or related to:
+            <ul style={{ marginTop: '10px', paddingLeft: '20px' }}>
+              <li>the client’s change of mind,</li>
+              <li>misunderstanding of the intended basis of supply,</li>
+              <li>discontinuation of treatment,</li>
+              <li>postponement of appointments,</li>
+              <li>or any use, misuse, interpretation, or application of peptide products outside their intended research or investigational context</li>
+            </ul>            
+          </li>
+          <li><b>Regulatory, Clinical, and Safety Compliance</b> - IV Wellness Lounge reserves the right to enforce this policy
+          strictly in accordance with applicable healthcare safety protocols, hygiene standards, storage requirements,
+          handling procedures, and regulatory compliance obligations. Where necessary, IV Wellness Lounge may
+          also decline to release, administer, or proceed with a peptide-related service if doing so would be inconsistent
+          with clinical judgment, internal policy, or legal/regulatory requirements</li>
+        </ol>
+        <br/>
+        <h1>General Terms and Conditions</h1>
         <ul style={{ marginTop: '20px', paddingLeft: '20px' }}>
           <li>All cancellation or refund requests must be submitted in writing. The easiest way is to email our official customer service address (as provided on our website/contact page) with your name, appointment details, and request. You may also use our contact form. This written record is required for us to process your request and for mutual documentation. (Verbal or phone requests will be referred to email or written confirmation to ensure accuracy</li>
           <li>Approved refunds will be processed within 10–14 business days from the date we acknowledge your cancellation/refund request. The refund will be issued to the original payment method used (e.g. the same credit card or bank account). Please note that it may take a few additional days for your bank or credit card company to post the refunded amount to your account, depending on their processing times.</li>
