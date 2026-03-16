@@ -46,11 +46,12 @@ export default function OffersClient() {
         {/*<div className="hero-overlay" />*/}
         <div className="hero-txt-wrapper">
           <div className="spin-wrap">
-            <img
+            {/*<img
               className="spinner-text"
               src="/assets/img/womens-day/womens-day-text.png"
               alt="spinner"
-            />
+            />*/}
+            <h1>Monthly Offers</h1>
           </div>
         </div>
       </div>
