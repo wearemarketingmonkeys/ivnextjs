@@ -147,14 +147,20 @@ export default function ConsentClient({ cr }) {
                 </div>
 
                 <div className="btn-wrap">
-                  <Link href={withCr("/consentpeptide")} className="btn">
-                    Peptide Consent
+                  <Link href={withCr("/consentlumecca")} className="btn">
+                    Lumecca Consent
                   </Link>
                 </div>
 
                 <div className="btn-wrap">
-                  <Link href={withCr("/consentlumecca")} className="btn">
-                    Lumecca Consent
+                  <Link href={withCr("/consentgeneral")} className="btn">
+                    General Consent
+                  </Link>
+                </div>
+
+                <div className="btn-wrap">
+                  <Link href={withCr("/consentpeptide")} className="btn">
+                    Peptide Consent
                   </Link>
                 </div>
 
