@@ -222,8 +222,7 @@ export default function ConsentGeneralClient({ cr }) {
                     checked={form.gender === "Male"}
                     onChange={onChange}
                     required
-                  />
-                  Male <span dir="rtl">ذكر</span>
+                  /> Male <span dir="rtl">ذكر</span>
                 </label>
 
                 <label>
@@ -234,8 +233,7 @@ export default function ConsentGeneralClient({ cr }) {
                     checked={form.gender === "Female"}
                     onChange={onChange}
                     required
-                  />
-                  Female <span dir="rtl">أنثى</span>
+                  /> Female <span dir="rtl">أنثى</span>
                 </label>
               </div>
           </div>
