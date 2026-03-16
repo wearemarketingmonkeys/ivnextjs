@@ -61,3 +61,248 @@
       grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
+.general-consent-form .consent-sheet {
+  color: #111;
+  margin-top: 20px;
+}
+
+.general-consent-form .consent-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  padding: 18px 12px 10px;
+  border-bottom: 1px solid #555;
+  text-transform: uppercase;
+}
+
+.general-consent-form .arabic-title {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  direction: rtl;
+}
+
+.general-consent-form .consent-grid {
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  border-bottom: 1px solid #555;
+}
+
+.general-consent-form .photo-box,
+.general-consent-form .patient-box,
+.general-consent-form .right-box {
+  min-height: 230px;
+  border-right: 1px solid #555;
+  padding: 0;
+  position: relative;
+}
+
+.general-consent-form .right-box {
+  border-right: none;
+}
+
+.general-consent-form .field-row {
+  border-bottom: 1px solid #555;
+  padding: 12px;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.general-consent-form .field-row:last-child {
+  border-bottom: none;
+}
+
+.general-consent-form .field-row label {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.general-consent-form .field-row input {
+  background: transparent;
+  font-size: 15px;
+  padding: 4px 0;
+}
+
+.general-consent-form .gender-inline {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.general-consent-form .gender-inline label {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+.general-consent-form .bilingual-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #555;
+}
+
+.general-consent-form .lang-col {
+  padding: 18px 14px;
+  min-height: 520px;
+}
+
+.general-consent-form .english-col {
+  border-right: 1px solid #555;
+}
+
+.general-consent-form .lang-col p {
+  margin: 0 0 22px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.general-consent-form .arabic-col {
+  text-align: right;
+  direction: rtl;
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+.general-consent-form .check-section {
+  padding: 18px 14px;
+  border-bottom: 1px solid #555;
+}
+
+.general-consent-form .check-section h2 {
+  margin: 0 0 14px;
+  font-size: 20px;
+}
+
+.general-consent-form .check-item {
+  display: block;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.general-consent-form .check-item input {
+  margin-right: 8px;
+}
+
+.general-consent-form .extra-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  padding: 18px 14px;
+  border-bottom: 1px solid #555;
+}
+
+.general-consent-form .form-group {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.general-consent-form .form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.general-consent-form .form-group input,
+.general-consent-form .form-group textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 15px;
+}
+
+.general-consent-form .signature-wrap {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 520px;
+}
+
+.general-consent-form .dropdown {
+  position: absolute;
+  top: 78px;
+  left: 12px;
+  right: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.general-consent-form .dropdown li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.general-consent-form .dropdown li:hover {
+  background: #f4f4f4;
+}
+
+.general-consent-form .dual-signoff-section {
+  margin-top: 20px;
+}
+
+.general-consent-form .dual-signoff-header,
+.general-consent-form .dual-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.general-consent-form .dual-row.three-cols {
+  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+}
+
+.general-consent-form .dual-row.two-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.general-consent-form .dual-cell {
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding: 14px;
+}
+
+.general-consent-form .dual-cell:last-child {
+  border-right: none;
+}
+
+.general-consent-form .dual-signoff-header .dual-cell {
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 72px;
+}
+
+.general-consent-form .dual-signoff-section label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.general-consent-form .dual-signoff-section input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-radius: 0;
+  background: transparent;
+  padding: 8px 0;
+  font-size: 15px;
+  outline: none;
+}
+
+.general-consent-form .dual-signoff-section .arabic-col {
+  direction: rtl;
+  text-align: right;
+  font-family: "Tahoma", "Arial", sans-serif;
+}
