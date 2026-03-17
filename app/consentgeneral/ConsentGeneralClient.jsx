@@ -9,6 +9,7 @@ const initialState = {
 
   // patient info
   fullName: "",
+  emiratesId: "",
   date: "",
   dob: "",
   gender: "",
@@ -178,6 +179,7 @@ export default function ConsentGeneralClient({ cr }) {
                       setForm((prev) => ({
                         ...prev,
                         fullName: s.fullName || "",
+                        emiratesId: s.emiratesId,
                         contact: s.contact || "",
                         email: s.email || "",
                         gender: s.gender || "",
@@ -192,6 +194,11 @@ export default function ConsentGeneralClient({ cr }) {
                 ))}
               </ul>
             )}
+          </div>
+
+          <div className="form-group">
+            <label>Emirates ID / Passport</label>
+            <input name="emiratesId" value={form.emiratesId} onChange={onChange} placeholder="Emirates ID / Passport" required />
           </div>
 
           <div className="form-group">
