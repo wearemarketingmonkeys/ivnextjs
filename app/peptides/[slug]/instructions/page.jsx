@@ -178,7 +178,37 @@ export default function InstructionsPage({ params }) {
             <p>{i.timeOfDay.morning}</p>
             <p className="mt-2">{i.timeOfDay.night}</p>
           </section>
-
+          <br/>
+          <section className="mb-8">
+            <h1 className="text-xl font-semibold mb-2">Written Instructions</h1>
+            <h2 className="text-xl font-semibold mb-2">How to use the pen : </h2>
+            <p>•  There is a dial on top of the pen. Turn the dial to your prescribed number of units.</p>
+            <p>•  Disinfect the injection area (abdomen, thighs, or upper arm).</p>
+            <p>•  Insert the needle and press the pen down fully until the display returns to zero.</p>
+            <p>•  Keep holding the pen in place for about 20–25 seconds to ensure the full dose is delivered.</p>
+            <p>•  Then remove the pen carefully.</p>
+            <p>•  Dispose of the needle and replace it with a new one.</p>
+            <p>•  Always use a new needle for every injection.</p>
+          </section>
+          <br/>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-2">How to replace the cartridge : </h2>
+            <p>•  Unscrew or open the pen according to its design.</p>
+            <p>•  Remove the empty cartridge from inside the pen.</p>
+            <p>•  Insert the new cartridge into the holder (ensure it is properly seated and aligned).</p>
+            <p>•  Close or screw the pen back together securely.</p>
+          </section>
+          <br/>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-2">How to prime the pen (important before first use or after cartridge change) : </h2>
+            <p>•  Attach a new needle to the pen.</p>
+            <p>•  Turn the dial to a 2 units (as instructed, usually a minimal amount for priming).</p>
+            <p>•  Hold the pen with the needle pointing upwards.</p>
+            <p>•  Gently tap the pen to allow any air bubbles to rise to the top.</p>
+            <p>•  Press the pen until you see a small drop of liquid appear at the tip of the needle.</p>
+            <p>•  If no drop appears, repeat the process until it does.</p>
+          </section>
+          <br/>
           <br/>
           {/* Important */}
           <section className="bg-gray-100 p-5 rounded-lg">

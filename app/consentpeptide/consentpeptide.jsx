@@ -39,6 +39,9 @@ const peptideOptions = [
   "GHK-Cu",
   "Vasoactive Intestinal Peptide (VIP)",
   "PT-141",
+  "NAD+",
+  "SEMAX",
+  "SELANK",
 ];
 
 
