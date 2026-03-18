@@ -200,7 +200,7 @@ export default function InstructionsPage({ params }) {
           </section>
           <br/>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-2">How to prime the pen (important before first use or after cartridge change) : </h2>
+            <h2 className="text-xl font-semibold mb-2">How to prime the pen (important before first use after cartridge change) : </h2>
             <p>•  Attach a new needle to the pen.</p>
             <p>•  Turn the dial to a 2 units (as instructed, usually a minimal amount for priming).</p>
             <p>•  Hold the pen with the needle pointing upwards.</p>
