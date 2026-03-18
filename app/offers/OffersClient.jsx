@@ -68,10 +68,10 @@ export default function OffersClient() {
 
               {/* RIGHT CONTENT */}
               <div className="wd-content">
-                <h2>To the Women Who Do It All</h2>
+                {/*<h2>To the Women Who Do It All</h2>*/}
 
                 <p className="wd-subtitle">
-                  This Women’s Month, we’re celebrating you the way we know best, with wellness.
+                  This month, we’re celebrating you the way we know best, with wellness
                 </p>
 
                 <div className="wd-offers-grid">
@@ -80,16 +80,15 @@ export default function OffersClient() {
                   <div className="wd-offer-card">
                     <h4>IV Therapy Offers</h4>
 
-                    <p>Enjoy 20% off your next multi-vitamin/ NAD+ IV Drip</p>
+                    <p>•  Enjoy 20% off your next multi-vitamin/ NAD+ IV Drip</p>
                     <p className="wd-plus">+</p>
-                    <p>One complimentary add-on from below of your choice:</p>
-
-                    <ul>
-                      <li>CoQ10 Booster</li>
-                      <li>Quick Energy Boost Shot</li>
-                      <li>Vitamin D Supershot</li>
-                      <li>Iron Boost</li>
-                    </ul>
+                    <p>•  One complimentary add-on from below of your choice:
+                        <ul style={{ listStyle: 'none' }}>
+                          <li>- CoQ10 Booster</li>
+                          <li>- Quick Energy Boost Shot</li>
+                          <li>- Vitamin D Supershot</li>
+                        </ul>
+                    </p>
                   </div>
 
                   {/* AESTHETIC */}
@@ -98,12 +97,21 @@ export default function OffersClient() {
 
                     <ul>
                       <li>Lip fillers @AED 899</li>
-                      <li>Full face Botox @AED 1899</li>
-                      <li>Korean Glass Skin Booster + free Hydrafacial @AED 999</li>
+                      <li>Full face Botox @AED 1199</li>
+                      <li>Skin Booster + free Hydrafacial @AED 699</li>
                       <li>Fat dissolving injections @AED 120/ml</li>
                       <li>HIFU Full Face OR Double Chin and Neck @AED 899</li>
                       <li>HIFU Full Face + Double Chin and Neck @AED 1499</li>
                       <li>Carbon Laser @AED 499 (Down from AED 699)</li>
+                    </ul>
+                  </div>
+
+                  <div className="wd-offer-card">
+                    <h4>Peptides</h4>
+
+                    <ul>
+                      <li>1 complimentary Peptide Cycle</li>
+                      <li>with 3 Peptide STACK Cycles</li>
                     </ul>
                   </div>
 
