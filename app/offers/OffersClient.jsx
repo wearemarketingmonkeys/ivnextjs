@@ -110,8 +110,7 @@ export default function OffersClient() {
                     <h4>Peptides</h4>
 
                     <ul>
-                      <li>1 complimentary Peptide Cycle</li>
-                      <li>with 3 Peptide STACK Cycles</li>
+                      <li>1 complimentary Peptide Cycle with 3 Peptide STACK Cycles</li>
                     </ul>
                   </div>
 
