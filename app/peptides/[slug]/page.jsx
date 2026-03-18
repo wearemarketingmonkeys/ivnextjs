@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import { encodeBase64 } from "../../../utils/base64";
 import peptidesJson from '../../mocks/peptidesData.json';
 import WellnessQuizModal from '../WellnessQuizModal';
 import ShippingCalculator from "../../components/ShippingCalculator";
+import PriceByCountryClient from "../../components/PriceByCountryClient.jsx";
 
 const SITE_URL = 'https://ivhub.com';
 
@@ -133,6 +135,17 @@ export default function PeptideSlugPage({ params }) {
   };
 
   const d = peptide.details || {};
+
+  const payload = {
+    peptide: peptide.name,
+    price: peptide.fromPrice,
+  };
+
+  // Encode
+  const encodedKey = encodeBase64(payload);
+
+  // Build final URL
+  const cartUrl = `https://book.ivhub.com/cart-peptide.php?keypeptide=${encodedKey}`;
 
   return (
     <>
@@ -278,6 +291,15 @@ export default function PeptideSlugPage({ params }) {
                     className="whatsappBtn"
                   >
                     Get Started
+                  </a>
+                  &nbsp;
+                  <a
+                    href={cartUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="whatsappBtn"
+                  >
+                    Book Now{/*&nbsp;<PriceByCountryClient basePrice={peptide.fromPrice} baseCurrency="AED" />*/}
                   </a>
                 </div>
 
