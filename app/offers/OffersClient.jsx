@@ -120,7 +120,7 @@ export default function OffersClient() {
                 <p className="wd-footer">Because strength deserves support.</p>
 
                 <div className="wd-btn-wrap">
-                  <a href="http://wa.me/97180048482?text=Hello!%20I%20would%20like%20to%20avail%20the%20women%27s%20day%20offer%20and%20the%20service%20that%20i%20am%20looking%20for%20is" className="wd-btn">PAMPER ME</a>
+                  <a href="http://wa.me/97180048482?text=Hello!%20I%20would%20like%20to%20avail%20the%20offer%20and%20the%20service%20that%20i%20am%20looking%20for%20is" className="wd-btn">PAMPER ME</a>
                 </div>
               </div>
 
