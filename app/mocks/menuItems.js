@@ -79,7 +79,7 @@ export const menuItems = [
             {
               submenuTitle: "Male Wellness",
               submenu: [
-                { label: "P-Shot Treatment", to: "/aesthetic/p-shot-treatment" },
+                // { label: "P-Shot Treatment", to: "/aesthetic/p-shot-treatment" },
                 { label: "Performance support", to: "/iv-therapy/drips/performance-support" },
                 { label: "NAD+", to: "/iv-therapy/drips/nad-plus" },
               ],
